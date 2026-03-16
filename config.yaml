@@ -33,6 +33,8 @@ channels:
   discord:
     enabled: false
     # webhook_url: set via env var DISCORD_WEBHOOK_URL
+    # username: "arXiv Digest"            # bot display name
+    # mention_target: "<@USER_ID>"         # or "<@&ROLE_ID>" for role mention
 
   slack:
     enabled: false

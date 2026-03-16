@@ -19,13 +19,17 @@ class DiscordChannel(Channel):
                 "and set the URL as an environment variable."
             )
         self.username = config.get("username", "arXiv Digest")
+        # mention_target: "<@USER_ID>" or "<@&ROLE_ID>" — prepended to header
+        self.mention_target = config.get("mention_target", "")
 
     @property
     def char_limit(self):
         return 2000
 
     def publish(self, header, papers):
-        # Header message
+        # Header message with optional mention
+        if self.mention_target:
+            header = f"{self.mention_target} {header}"
         self._post(header)
 
         # Individual paper messages
