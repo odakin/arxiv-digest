@@ -10,7 +10,7 @@ import sys
 import traceback
 from datetime import date
 
-from .config import load_config, get_profile, STATE_DIR
+from .config import load_config, get_profile, DEFAULT_PROFILE, STATE_DIR
 from .fetch_arxiv import fetch_new_papers
 from .publish import notify_error
 
@@ -19,7 +19,8 @@ def main():
     config = None
     try:
         parser = argparse.ArgumentParser(description="Fetch arXiv papers for digest")
-        parser.add_argument("--profile", help="Profile name from profiles/ directory")
+        parser.add_argument("--profile", default=DEFAULT_PROFILE,
+                            help="Profile name from profiles/ directory (default: %(default)s)")
         parser.add_argument("--force", action="store_true",
                             help="Run even on weekends")
         args = parser.parse_args()

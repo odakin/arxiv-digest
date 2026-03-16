@@ -120,12 +120,14 @@ class Channel:
 
 スコアリングに使うプロファイルを**手書き**と**自動生成**の2ファイルに分離。月次 INSPIRE 更新で手書き内容が消える問題を根本解決。
 
-#### マルチプロファイル
+#### プロファイル
 
-全ユーザー（odakin 含む）のプロファイルを `profiles/<name>/` に格納。ルート直下にはテンプレートのみ置く。
+全プロファイルを `profiles/<name>/` に格納。`--profile` フラグのデフォルトは `default`。
 
 ```
 profiles/
+├── default/                    # テンプレートユーザー向け（--profile 省略時に使用）
+│   └── interest_profile.txt    # テンプレートから編集
 ├── odakin/
 │   ├── config.yaml              # odakin 固有の設定オーバーライド
 │   ├── interest_profile.txt     # 手書きプロファイル
@@ -134,7 +136,7 @@ profiles/
     └── inspire_profile.txt      # テスト用
 ```
 
-`--profile <name>` フラグで指定。省略時はルート直下のファイルを使用（テンプレートユーザー向け後方互換）。
+`--profile <name>` フラグで指定。省略時は `default` が使われる。
 
 #### ファイルの役割
 
@@ -281,8 +283,8 @@ scoring_instructions: |
 3. config.yaml を編集（GitHub の Web UI で直接可能）
    - arXiv カテゴリを選ぶ
    - 配信先を設定（Mastodon / Bluesky / Discord 等）
-4. interest_profile.txt を自分のプロファイルで上書き
-   - INSPIRE にいる人: セットアップスクリプトで自動生成（ローカル実行）
+4. `profiles/default/interest_profile.txt` を自分のプロファイルで上書き
+   - INSPIRE にいる人: `python3 -m tools.setup_inspire YOUR.BAI.ID` で自動生成
    - いない人: テンプレートを参考に記入（GitHub の Web UI で可能）
 5. GitHub Secrets を設定
    - ANTHROPIC_API_KEY（必須）
@@ -293,14 +295,14 @@ scoring_instructions: |
 
 **プライバシー**: Template から作るリポは fork と違い、Private にできる。研究興味やスコアリング設定を非公開にしたいユーザーは Private リポを選べばよい。odakin のリポ（本体）は常に Public。
 
-**注意**: テンプレートユーザー（個人リポ）はルート直下の config.yaml / interest_profile.txt を直接編集する（`--profile` は不要）。`profiles/` ディレクトリと `--profile` フラグは、1つのリポで複数ユーザーを配信する場合にのみ使用。
+**テンプレートユーザー**: `profiles/default/` を編集する（`--profile` フラグは不要、デフォルトで `default` が使われる）。複数ユーザーで運用する場合は `--profile <name>` で切り替え。
 
 #### モード B（ローカル Claude Code）
 
 ```
 1. リポを clone
-2. config.yaml を編集
-3. interest_profile.txt を作成
+2. config.yaml を編集（または profiles/default/config.yaml でオーバーライド）
+3. profiles/default/interest_profile.txt を作成
 4. 環境変数にトークン類を設定（~/.zshrc 等）
 5. Claude Code の scheduled task を作成（SKILL.md をコピー）
 6. 動作確認 → 毎朝自動実行
@@ -317,11 +319,12 @@ arxiv-digest/
 ├── README.md                   # ユーザー向け説明（日英バイリンガル）
 ├── LICENSE                     # MIT
 ├── .gitignore
-├── config.yaml                 # テンプレートデフォルト設定（英語、チャンネル無効）
-├── interest_profile.txt        # テンプレート（ルート直下は後方互換用）
+├── config.yaml                 # デフォルト設定（英語、チャンネル無効）
 ├── requirements.txt            # pyyaml, anthropic
 │
 ├── profiles/
+│   ├── default/                # テンプレートユーザー向け（--profile 省略時に使用）
+│   │   └── interest_profile.txt
 │   ├── odakin/                 # odakin のプロファイル（常に公開）
 │   │   ├── config.yaml         # odakin 固有の設定オーバーライド
 │   │   ├── interest_profile.txt

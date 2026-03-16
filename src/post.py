@@ -9,7 +9,7 @@ import json
 import sys
 import traceback
 
-from .config import load_config, STATE_DIR
+from .config import load_config, DEFAULT_PROFILE, STATE_DIR
 from .publish import publish, notify_error
 
 
@@ -17,7 +17,8 @@ def main():
     config = None
     try:
         parser = argparse.ArgumentParser(description="Publish scored papers")
-        parser.add_argument("--profile", help="Profile name from profiles/ directory")
+        parser.add_argument("--profile", default=DEFAULT_PROFILE,
+                            help="Profile name from profiles/ directory (default: %(default)s)")
         args = parser.parse_args()
 
         config = load_config(args.profile)

@@ -19,6 +19,8 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run digest
+        # Template users: remove --profile flag to use profiles/default/,
+        # or set --profile <yourname> for a named profile.
         run: python3 -m src.main --profile odakin
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}

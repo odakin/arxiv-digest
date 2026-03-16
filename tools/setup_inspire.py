@@ -19,6 +19,8 @@ from pathlib import Path
 from .fetch_inspire import fetch_papers
 
 ROOT_DIR = Path(__file__).resolve().parent.parent
+PROFILES_DIR = ROOT_DIR / "profiles"
+DEFAULT_PROFILE = "default"
 
 
 def build_profile(papers, author_bai, name=None, affiliation=None):
@@ -97,7 +99,8 @@ def main():
     parser.add_argument("bai", help="INSPIRE BAI (e.g. K.Y.Oda.1)")
     parser.add_argument("--name", help="Display name")
     parser.add_argument("--affiliation", help="Affiliation")
-    parser.add_argument("--profile", help="Profile name (writes to profiles/<name>/ instead of root)")
+    parser.add_argument("--profile", default=DEFAULT_PROFILE,
+                        help="Profile name (writes to profiles/<name>/, default: %(default)s)")
     args = parser.parse_args()
 
     print(f"Fetching papers for {args.bai} from INSPIRE...")
@@ -111,11 +114,8 @@ def main():
     profile = build_profile(papers, args.bai, args.name, args.affiliation)
 
     # Determine output directory
-    if args.profile:
-        output_dir = ROOT_DIR / "profiles" / args.profile
-        output_dir.mkdir(parents=True, exist_ok=True)
-    else:
-        output_dir = ROOT_DIR
+    output_dir = PROFILES_DIR / args.profile
+    output_dir.mkdir(parents=True, exist_ok=True)
 
     output_path = output_dir / "inspire_profile.txt"
     output_path.write_text(profile, encoding="utf-8")

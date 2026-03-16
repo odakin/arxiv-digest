@@ -37,10 +37,10 @@ Both modes share the same fetch and publish pipeline. Only the scoring step diff
      tone: casual                  # casual / formal / neutral
      emoji_level: moderate          # none / light / moderate / heavy
    ```
-3. Create your profile:
-   - **HEP researchers**: Run `python3 -m tools.setup_inspire YOUR.BAI.ID` locally to auto-generate `inspire_profile.txt`
-   - Edit `interest_profile.txt` to add your personal priorities (see `templates/interest_profile.txt`)
-   - **Others**: Just edit `interest_profile.txt` from the template
+3. Create your profile in `profiles/default/`:
+   - **HEP researchers**: Run `python3 -m tools.setup_inspire YOUR.BAI.ID` locally to auto-generate `profiles/default/inspire_profile.txt`
+   - Edit `profiles/default/interest_profile.txt` to add your personal priorities
+   - **Others**: Just edit `profiles/default/interest_profile.txt` from the template
 4. Set GitHub Secrets (Settings > Secrets and variables > Actions):
    - `ANTHROPIC_API_KEY` (required)
    - `MASTODON_ACCESS_TOKEN`, `DISCORD_WEBHOOK_URL`, etc. (per your channels)
@@ -73,14 +73,17 @@ Papers will be delivered every weekday morning (adjust `cron` in `.github/workfl
 
 ### Research Profile (two-file system)
 
+All profile files live in `profiles/<name>/`. The default profile is `profiles/default/`.
+
 | File | Purpose | Updated by |
 |------|---------|-----------|
-| `interest_profile.txt` | Hand-curated priorities & topics | You (manually) |
-| `inspire_profile.txt` | Auto-generated from INSPIRE | `setup_inspire.py` |
+| `profiles/<name>/interest_profile.txt` | Hand-curated priorities & topics | You (manually) |
+| `profiles/<name>/inspire_profile.txt` | Auto-generated from INSPIRE | `setup_inspire.py` |
+| `profiles/<name>/config.yaml` | Per-profile config overrides | You (manually) |
 
-The scorer reads both files. At least one must exist. Monthly INSPIRE regeneration only touches `inspire_profile.txt`, so your hand-curated priorities are never overwritten.
+The scorer reads both profile files. At least one must exist. Monthly INSPIRE regeneration only touches `inspire_profile.txt`, so your hand-curated priorities are never overwritten.
 
-For multi-user setups, profiles can be stored in `profiles/<name>/` with per-user config overrides. Use `--profile <name>` flag with all commands.
+For multi-user setups, use `--profile <name>` flag with all commands. Without the flag, `default` is used.
 
 ### Delivery Channels
 
@@ -98,11 +101,12 @@ Tokens and secrets are always set via environment variables, never in `config.ya
 
 ```
 arxiv-digest/
-├── config.yaml                 # Settings (template default / single-user)
-├── interest_profile.txt        # Hand-curated research priorities
-├── profiles/                   # Multi-user profiles (optional)
-│   └── <name>/
-│       ├── config.yaml         # Per-user config overrides
+├── config.yaml                 # Default settings (base for all profiles)
+├── profiles/                   # All profiles live here
+│   ├── default/                # Template users edit this
+│   │   └── interest_profile.txt
+│   └── <name>/                 # Named profiles (optional)
+│       ├── config.yaml         # Per-profile config overrides
 │       ├── interest_profile.txt
 │       └── inspire_profile.txt
 ├── src/
@@ -179,10 +183,10 @@ MIT
      tone: casual       # casual / formal / neutral
      emoji_level: heavy  # none / light / moderate / heavy
    ```
-3. 研究プロファイルを作成:
-   - **HEP 系研究者**: `python3 -m tools.setup_inspire YOUR.BAI.ID` で `inspire_profile.txt` を自動生成
-   - `interest_profile.txt` に個人的な優先事項を記入（`templates/interest_profile.txt` 参照）
-   - **その他**: `interest_profile.txt` をテンプレートから作成するだけでOK
+3. `profiles/default/` に研究プロファイルを作成:
+   - **HEP 系研究者**: `python3 -m tools.setup_inspire YOUR.BAI.ID` で `profiles/default/inspire_profile.txt` を自動生成
+   - `profiles/default/interest_profile.txt` に個人的な優先事項を記入
+   - **その他**: `profiles/default/interest_profile.txt` をテンプレートから編集するだけでOK
 4. GitHub Secrets を設定（Settings > Secrets and variables > Actions）:
    - `ANTHROPIC_API_KEY`（必須）
    - `MASTODON_ACCESS_TOKEN` 等（使用するチャンネルに応じて）
@@ -193,7 +197,7 @@ MIT
 ## セットアップ（モード B: ローカル Claude Code）
 
 1. このリポを clone
-2. `config.yaml` と研究プロファイルを設定
+2. `config.yaml` と `profiles/default/` の研究プロファイルを設定
 3. `pip install -r requirements.txt`
 4. 環境変数にトークン類を設定（`~/.zshrc` 等）
 5. `skill/SKILL.md` を Claude Code の scheduled task にコピー

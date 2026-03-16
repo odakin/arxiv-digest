@@ -1,6 +1,6 @@
 # config.yaml — arXiv digest default configuration
-# Template users: edit this file with your own settings.
-# Multi-profile users: put per-profile overrides in profiles/<name>/config.yaml
+# This file provides base defaults. Per-profile overrides go in profiles/<name>/config.yaml.
+# Template users: edit profiles/default/config.yaml (or this file directly).
 
 # --- Basic settings ---
 language: en                    # Language for recommendations/summaries (ja / en)

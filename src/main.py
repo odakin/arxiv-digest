@@ -9,7 +9,7 @@ import sys
 import traceback
 from datetime import date
 
-from .config import load_config
+from .config import load_config, DEFAULT_PROFILE
 from .fetch_arxiv import fetch_new_papers
 from .scorer import score_papers
 from .publish import publish, notify_error
@@ -19,7 +19,8 @@ def main():
     config = None
     try:
         parser = argparse.ArgumentParser(description="arXiv digest (Mode A)")
-        parser.add_argument("--profile", help="Profile name from profiles/ directory")
+        parser.add_argument("--profile", default=DEFAULT_PROFILE,
+                            help="Profile name from profiles/ directory (default: %(default)s)")
         args = parser.parse_args()
 
         config = load_config(args.profile)
