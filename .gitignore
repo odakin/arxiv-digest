@@ -1,0 +1,22 @@
+# === 共通 ===
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+.claude/
+
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# === ユーザー設定・機密情報 ===
+config.yaml
+papers.yaml
+interest_profile.txt
+
+# === 実行時状態 ===
+state/
