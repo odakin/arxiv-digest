@@ -41,7 +41,8 @@
 - [ ] Bluesky / Slack チャンネル追加
 
 ## 次のステップ
-1. Bluesky / Slack チャンネル追加（フェーズ2）
+1. Discord チャンネルの E2E テスト（Webhook + mention_target 動作確認）
+2. Bluesky / Slack チャンネル追加
 
 ## 直近の決定事項
 - 2026-03-16: プロファイルのカテゴリをティア分類（Primary >=20%, Secondary 5-20%, Peripheral <5%）
