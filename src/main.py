@@ -1,7 +1,7 @@
 """Mode A entry point: fetch → score (API) → publish.
 
 Usage:
-    python -m src.main
+    python3 -m src.main
 """
 
 from datetime import date

@@ -1,7 +1,7 @@
 """Mode B step 1: fetch arXiv papers → state/today_papers.json.
 
 Usage:
-    python -m src.fetch [--force]
+    python3 -m src.fetch [--force]
 """
 
 import argparse

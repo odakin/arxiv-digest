@@ -1,8 +1,8 @@
 """Generate interest_profile.txt from INSPIRE papers.
 
 Usage:
-    python -m tools.setup_inspire K.Y.Oda.1
-    python -m tools.setup_inspire K.Y.Oda.1 --name "Kin-ya Oda" --affiliation "TWCU"
+    python3 -m tools.setup_inspire K.Y.Oda.1
+    python3 -m tools.setup_inspire K.Y.Oda.1 --name "Kin-ya Oda" --affiliation "TWCU"
 """
 
 import argparse
@@ -18,7 +18,7 @@ PROFILE_PATH = ROOT_DIR / "interest_profile.txt"
 
 def build_profile(papers, author_bai, name=None, affiliation=None):
     """Generate a research interest profile from paper list."""
-    # Extract the author's last name from BAI (e.g. "K.Y.Oda.1" → "Oda")
+    # Extract the author's last name from BAI (e.g. "K.Y.Oda.1" -> "Oda")
     bai_parts = author_bai.split(".")
     author_surname = bai_parts[-2] if len(bai_parts) >= 2 else bai_parts[0]
 
@@ -37,28 +37,52 @@ def build_profile(papers, author_bai, name=None, affiliation=None):
         if p.get("year", 0) >= 2020:
             recent_titles.append(p.get("title", ""))
 
-    top_cats = [f"{cat} ({count})" for cat, count in all_categories.most_common(10)]
+    # Classify categories into tiers by publication weight
+    total_papers = len(papers)
+    primary_cats = []    # >=20% of papers
+    secondary_cats = []  # >=5% of papers
+    peripheral_cats = [] # <5% of papers (typically from cross-listing)
+    for cat, count in all_categories.most_common():
+        frac = count / total_papers
+        entry = f"{cat} ({count}, {frac:.0%})"
+        if frac >= 0.20:
+            primary_cats.append(entry)
+        elif frac >= 0.05:
+            secondary_cats.append(entry)
+        else:
+            peripheral_cats.append(entry)
+
     top_collabs = [n for n, _ in all_coauthors.most_common(15)]
 
     display_name = name or author_bai
     affil_line = f"\nAffiliation: {affiliation}" if affiliation else ""
 
+    # Build category weight section
+    cat_lines = []
+    if primary_cats:
+        cat_lines.append(f"Primary fields (>=20%): {', '.join(primary_cats)}")
+    if secondary_cats:
+        cat_lines.append(f"Secondary fields (5-20%): {', '.join(secondary_cats)}")
+    if peripheral_cats:
+        cat_lines.append(f"Peripheral fields (<5%, via cross-listing): {', '.join(peripheral_cats)}")
+    cat_section = "\n".join(cat_lines)
+
     profile = f"""Research Interest Profile: {display_name}
 {affil_line}
 
-Publication record: {len(papers)} papers
+Publication record: {len(papers)} papers (including cross-listed)
 
-Primary arXiv categories: {', '.join(top_cats)}
+{cat_section}
 
 Frequent collaborators: {', '.join(top_collabs)}
 
 Recent focus (2020-present): {'; '.join(recent_titles[:10])}
 
 When scoring papers, consider:
-1. Direct overlap with the above themes (highest relevance)
+1. Direct overlap with primary/secondary fields (highest relevance)
 2. Papers by frequent collaborators (high relevance)
 3. New methods or results applicable to the above themes (moderate relevance)
-4. General developments in the field (lower relevance)
+4. Peripheral fields: relevant only if connecting to primary interests (lower relevance)
 """
     return profile
 

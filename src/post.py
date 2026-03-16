@@ -1,7 +1,7 @@
 """Mode B step 3: read scored_papers.json → publish to channels.
 
 Usage:
-    python -m src.post
+    python3 -m src.post
 """
 
 import json

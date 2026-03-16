@@ -38,7 +38,7 @@ Both modes share the same fetch and publish pipeline. Only the scoring step diff
      emoji_level: moderate          # none / light / moderate / heavy
    ```
 3. Create your `interest_profile.txt` (overwrite the existing one):
-   - **HEP researchers**: Run `python -m tools.setup_inspire YOUR.BAI.ID` locally to auto-generate from INSPIRE
+   - **HEP researchers**: Run `python3 -m tools.setup_inspire YOUR.BAI.ID` locally to auto-generate from INSPIRE
    - **Others**: Edit the template in `templates/interest_profile.txt`
 4. Set GitHub Secrets (Settings > Secrets and variables > Actions):
    - `ANTHROPIC_API_KEY` (required)
@@ -167,7 +167,7 @@ MIT
      emoji_level: heavy  # none / light / moderate / heavy
    ```
 3. `interest_profile.txt` を自分のプロファイルで上書き:
-   - **HEP 系研究者**: `python -m tools.setup_inspire YOUR.BAI.ID` で INSPIRE から自動生成
+   - **HEP 系研究者**: `python3 -m tools.setup_inspire YOUR.BAI.ID` で INSPIRE から自動生成
    - **その他**: `templates/interest_profile.txt` を参考に記入
 4. GitHub Secrets を設定（Settings > Secrets and variables > Actions）:
    - `ANTHROPIC_API_KEY`（必須）

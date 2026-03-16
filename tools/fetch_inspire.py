@@ -5,7 +5,24 @@ import urllib.request
 
 
 INSPIRE_API = "https://inspirehep.net/api/literature"
-FIELDS = "titles,arxiv_eprints,publication_info,earliest_date,authors,dois,texkeys,document_type"
+FIELDS = "titles,arxiv_eprints,publication_info,earliest_date,authors,dois,texkeys,document_type,inspire_categories"
+
+# Map INSPIRE categories to arXiv-style categories (fallback when arxiv_eprints.categories is empty)
+INSPIRE_TO_ARXIV = {
+    "Phenomenology-HEP": "hep-ph",
+    "Theory-HEP": "hep-th",
+    "Experiment-HEP": "hep-ex",
+    "Lattice": "hep-lat",
+    "Astrophysics": "astro-ph",
+    "Gravitation and Cosmology": "gr-qc",
+    "Math and Math Physics": "math-ph",
+    "General Physics": "physics",
+    "Nuclear Physics - Theory": "nucl-th",
+    "Nuclear Physics - Experiment": "nucl-ex",
+    "Accelerators": "physics.acc-ph",
+    "Instrumentation": "physics.ins-det",
+    "Quantum Physics": "quant-ph",
+}
 
 
 def fetch_papers(bai, page_size=250):
@@ -54,6 +71,13 @@ def _parse_paper(inspire_id, meta):
     arxiv = meta.get("arxiv_eprints", [])
     arxiv_id = arxiv[0].get("value", "") if arxiv else ""
     categories = arxiv[0].get("categories", []) if arxiv else []
+
+    # Fallback: derive categories from inspire_categories when arXiv categories are empty
+    if not categories:
+        for ic in meta.get("inspire_categories", []):
+            mapped = INSPIRE_TO_ARXIV.get(ic.get("term", ""))
+            if mapped and mapped not in categories:
+                categories.append(mapped)
 
     date = meta.get("earliest_date", "")
     year = int(date[:4]) if date and len(date) >= 4 else 0

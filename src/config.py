@@ -22,7 +22,7 @@ def get_profile():
         raise FileNotFoundError(
             f"interest_profile.txt not found at {PROFILE_PATH}. "
             "Create one from templates/interest_profile.txt or run "
-            "python -m tools.setup_inspire <BAI>"
+            "python3 -m tools.setup_inspire <BAI>"
         )
     return PROFILE_PATH.read_text(encoding="utf-8")
 
