@@ -1,7 +1,7 @@
 # arxiv-digest Session
 
 ## 現在の状態
-**作業中**: コア実装完了 → コミット待ち
+**完了**: コア実装 + ドキュメント + physics-research 移行 完了、push 済み
 
 ### タスク進捗
 - [x] リポ作成（public: odakin/arxiv-digest、Template 設定済み）

@@ -247,7 +247,6 @@ channels:
 - Typical range: 60-85 delivers 2-5 papers per day, depending on your field
 
 ---
----
 
 # セットアップガイド
 

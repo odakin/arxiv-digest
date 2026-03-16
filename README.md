@@ -51,9 +51,10 @@ Papers will be delivered every weekday morning (adjust `cron` in `.github/workfl
 
 1. Clone this repo
 2. Edit `config.yaml` and `interest_profile.txt`
-3. Set environment variables (`MASTODON_ACCESS_TOKEN`, etc.)
-4. Copy `skill/SKILL.md` to your Claude Code scheduled tasks
-5. Claude Code handles scoring directly — no API key needed with Pro Max
+3. `pip install -r requirements.txt`
+4. Set environment variables (`MASTODON_ACCESS_TOKEN`, etc.)
+5. Copy `skill/SKILL.md` to your Claude Code scheduled tasks
+6. Claude Code handles scoring directly — no API key needed with Pro Max
 
 ## Configuration
 
@@ -179,9 +180,10 @@ MIT
 
 1. このリポを clone
 2. `config.yaml` と `interest_profile.txt` を編集
-3. 環境変数にトークン類を設定（`~/.zshrc` 等）
-4. `skill/SKILL.md` を Claude Code の scheduled task にコピー
-5. Claude Code が直接スコアリング — Pro Max なら API キー不要
+3. `pip install -r requirements.txt`
+4. 環境変数にトークン類を設定（`~/.zshrc` 等）
+5. `skill/SKILL.md` を Claude Code の scheduled task にコピー
+6. Claude Code が直接スコアリング — Pro Max なら API キー不要
 
 ## 設定項目
 
