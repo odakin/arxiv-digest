@@ -1,0 +1,55 @@
+# config.yaml — arXiv digest configuration
+# This is odakin's live config. Template users: overwrite with your own settings.
+
+# --- Basic settings ---
+language: ja                    # Language for recommendations/summaries (ja / en)
+scoring_threshold: 75           # Deliver papers scoring this or above (0-100)
+scoring_model: claude-sonnet-4-6  # Model for scoring (Mode A only)
+
+# --- arXiv categories ---
+arxiv_categories:
+  - hep-ph
+  - hep-th
+  - gr-qc
+  - astro-ph.CO
+  - quant-ph
+
+# --- Delivery channels ---
+channels:
+  mastodon:
+    enabled: true
+    instance: "https://social.vivaldi.net"
+    bot_account: "odakinarxiv"
+    mention_target: "@odakin@social.vivaldi.net"
+    # access_token: set via env var MASTODON_ACCESS_TOKEN
+
+  bluesky:
+    enabled: false
+    handle: "researcher.bsky.social"
+    # app_password: set via env var BLUESKY_APP_PASSWORD
+
+  discord:
+    enabled: false
+    # webhook_url: set via env var DISCORD_WEBHOOK_URL
+
+  slack:
+    enabled: false
+    # webhook_url: set via env var SLACK_WEBHOOK_URL
+
+  stdout:
+    enabled: false              # For testing/debugging
+
+# --- Writing style ---
+style:
+  tone: casual                  # casual / formal / neutral
+  emoji_level: heavy            # none / light / moderate / heavy
+  # emoji_level guide:
+  #   none: no emojis at all
+  #   light: 1-2 per recommendation
+  #   moderate: 3-4 per recommendation
+  #   heavy: 5+ per recommendation, 2-3 per summary
+
+# --- Additional scoring instructions (optional, free-form) ---
+# Use this for any extra rules not covered by the above settings.
+scoring_instructions: |
+  - 「先生」は絶対に使わない

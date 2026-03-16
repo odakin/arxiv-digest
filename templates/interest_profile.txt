@@ -1,0 +1,20 @@
+Research Interest Profile: [Your Name]
+
+Affiliation: [Your University/Institute]
+
+Top priority: [Your main research topic]
+  Collaborators: [Key collaborators]
+
+Core topics:
+- [Topic 1]
+- [Topic 2]
+- [Topic 3]
+- [Topic 4]
+
+arXiv categories: [e.g. hep-ph, hep-th, gr-qc]
+
+When scoring papers, consider:
+1. Direct overlap with the above themes (highest relevance)
+2. Papers by frequent collaborators (high relevance)
+3. New methods or results applicable to the above themes (moderate relevance)
+4. General developments in your field (lower relevance)

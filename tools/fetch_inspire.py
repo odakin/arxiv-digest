@@ -1,0 +1,87 @@
+"""Fetch papers from INSPIRE-HEP API for a given author."""
+
+import json
+import urllib.request
+
+
+INSPIRE_API = "https://inspirehep.net/api/literature"
+FIELDS = "titles,arxiv_eprints,publication_info,earliest_date,authors,dois,texkeys,document_type"
+
+
+def fetch_papers(bai, page_size=250):
+    """Fetch all papers for an INSPIRE BAI (e.g. 'K.Y.Oda.1').
+
+    Returns list of paper dicts with keys:
+        inspire_id, arxiv_id, title, authors, year, categories, doi
+    """
+    all_papers = []
+    page = 1
+
+    while True:
+        url = (
+            f"{INSPIRE_API}?sort=mostrecent"
+            f"&size={page_size}&page={page}"
+            f"&q=find%20a%20{bai}"
+            f"&fields={FIELDS}"
+        )
+        req = urllib.request.Request(url, headers={"User-Agent": "arXiv-digest/1.0"})
+        with urllib.request.urlopen(req, timeout=60) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+
+        hits = data.get("hits", {}).get("hits", [])
+        if not hits:
+            break
+
+        for hit in hits:
+            meta = hit.get("metadata", {})
+            paper = _parse_paper(hit["id"], meta)
+            if paper:
+                all_papers.append(paper)
+
+        total = data.get("hits", {}).get("total", 0)
+        if page * page_size >= total:
+            break
+        page += 1
+
+    return all_papers
+
+
+def _parse_paper(inspire_id, meta):
+    """Parse INSPIRE metadata into a paper dict."""
+    titles = meta.get("titles", [])
+    title = titles[0].get("title", "") if titles else ""
+
+    arxiv = meta.get("arxiv_eprints", [])
+    arxiv_id = arxiv[0].get("value", "") if arxiv else ""
+    categories = arxiv[0].get("categories", []) if arxiv else []
+
+    date = meta.get("earliest_date", "")
+    year = int(date[:4]) if date and len(date) >= 4 else 0
+
+    authors = []
+    for a in meta.get("authors", []):
+        name = a.get("full_name", "")
+        if name:
+            authors.append(name)
+
+    dois = meta.get("dois", [])
+    doi = dois[0].get("value", "") if dois else ""
+
+    return {
+        "inspire_id": str(inspire_id),
+        "arxiv_id": arxiv_id,
+        "title": title,
+        "authors": authors,
+        "year": year,
+        "categories": categories,
+        "doi": doi,
+    }
+
+
+if __name__ == "__main__":
+    import sys
+    bai = sys.argv[1] if len(sys.argv) > 1 else "K.Y.Oda.1"
+    papers = fetch_papers(bai)
+    print(f"Fetched {len(papers)} papers for {bai}")
+    for p in papers[:5]:
+        print(f"  [{p['arxiv_id']}] {p['title'][:80]}")

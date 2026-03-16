@@ -194,13 +194,25 @@ arXiv カテゴリ: hep-ph, hep-th, gr-qc, astro-ph.CO, quant-ph
 {scoring_instructions}
 ```
 
+#### 文体設定（config.yaml の style セクション）
+
+ユーザーがトーン・絵文字の度合いを選べる：
+
+```yaml
+style:
+  tone: casual       # casual（フランク）/ formal（学術的）/ neutral（中立）
+  emoji_level: heavy  # none / light / moderate / heavy
+```
+
 #### odakin 専用の追加指示（実例）
 
 ```yaml
 # config.yaml
+style:
+  tone: casual
+  emoji_level: heavy
 scoring_instructions: |
-  - 「先生」は絶対に使わない。カジュアルな同僚トーンで書く
-  - 絵文字盛り盛り！推薦文に最低5個、要約に最低2個 🔥🎯✨🧐💡🚀💥🌟👀⚡💫🌀🎲🔬📐🎉
+  - 「先生」は絶対に使わない
 ```
 
 ### 6. 設定ファイル構成
@@ -248,10 +260,14 @@ channels:
   stdout:
     enabled: false              # デバッグ用
 
+# --- 文体 ---
+style:
+  tone: casual                  # casual / formal / neutral
+  emoji_level: heavy            # none / light / moderate / heavy
+
 # --- スコアリング追加指示（任意） ---
 scoring_instructions: |
-  - 「先生」は絶対に使わない。カジュアルな同僚トーンで書く
-  - 絵文字盛り盛り！推薦文に最低5個、要約に最低2個 🔥🎯✨🧐💡🚀💥🌟👀⚡💫🌀🎲🔬📐🎉
+  - 「先生」は絶対に使わない
 ```
 
 **注意**: 上記は odakin の実運用設定。template から作ったユーザーは自分用に書き換える。
