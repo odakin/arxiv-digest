@@ -24,6 +24,7 @@
 - [x] tools/fetch_inspire.py + setup_inspire.py
 - [x] requirements.txt
 - [x] style 設定（tone, emoji_level）追加
+- [x] CLAUDE.md 整合性修正（§2 post, §5 style変数化, §8 tools/__init__.py, §11 SKILL.md style参照, §14 Python 3.9+）
 - [ ] README.md（日英バイリンガル）
 - [ ] セットアップガイド（docs/setup-guide.md）
 - [ ] physics-research から arxiv_digest を削除・移行
@@ -43,3 +44,4 @@
 - リポ作成 → 設計 → 実装
 - コア全モジュール実装完了（config, fetch, scorer, publish, channels, main, fetch, post）
 - 動作確認: config 読み込み、arXiv fetch（133件取得）、stdout チャンネル出力、Mode B fetch → JSON 出力
+- CLAUDE.md 整合性修正5件実施、tools/__init__.py 追加
