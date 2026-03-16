@@ -19,7 +19,6 @@ from pathlib import Path
 from .fetch_inspire import fetch_papers
 
 ROOT_DIR = Path(__file__).resolve().parent.parent
-INSPIRE_PROFILE_PATH = ROOT_DIR / "inspire_profile.txt"
 
 
 def build_profile(papers, author_bai, name=None, affiliation=None):

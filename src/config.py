@@ -6,8 +6,6 @@ import yaml
 
 ROOT_DIR = Path(__file__).resolve().parent.parent
 CONFIG_PATH = ROOT_DIR / "config.yaml"
-PROFILE_PATH = ROOT_DIR / "interest_profile.txt"
-INSPIRE_PROFILE_PATH = ROOT_DIR / "inspire_profile.txt"
 PROFILES_DIR = ROOT_DIR / "profiles"
 STATE_DIR = ROOT_DIR / "state"
 

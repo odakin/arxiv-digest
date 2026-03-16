@@ -1,7 +1,5 @@
 """Dispatch scored papers to enabled delivery channels."""
 
-import traceback
-
 from .config import get_enabled_channels
 from .channels.mastodon import MastodonChannel
 from .channels.stdout import StdoutChannel

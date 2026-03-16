@@ -24,7 +24,7 @@ Both modes share the same fetch and publish pipeline. Only the scoring step diff
 2. Edit `config.yaml`:
    ```yaml
    language: en                    # en or ja
-   scoring_threshold: 75           # 0-100
+   scoring_threshold: 80           # 0-100
    arxiv_categories:
      - hep-ph                      # your categories
      - astro-ph.CO
@@ -80,6 +80,8 @@ Papers will be delivered every weekday morning (adjust `cron` in `.github/workfl
 
 The scorer reads both files. At least one must exist. Monthly INSPIRE regeneration only touches `inspire_profile.txt`, so your hand-curated priorities are never overwritten.
 
+For multi-user setups, profiles can be stored in `profiles/<name>/` with per-user config overrides. Use `--profile <name>` flag with all commands.
+
 ### Delivery Channels
 
 | Channel | Auth | Character Limit | Status |
@@ -96,9 +98,13 @@ Tokens and secrets are always set via environment variables, never in `config.ya
 
 ```
 arxiv-digest/
-├── config.yaml                 # Your settings
+├── config.yaml                 # Settings (template default / single-user)
 ├── interest_profile.txt        # Hand-curated research priorities
-├── inspire_profile.txt         # Auto-generated from INSPIRE (optional)
+├── profiles/                   # Multi-user profiles (optional)
+│   └── <name>/
+│       ├── config.yaml         # Per-user config overrides
+│       ├── interest_profile.txt
+│       └── inspire_profile.txt
 ├── src/
 │   ├── main.py                 # Mode A entry point (fetch → score → publish)
 │   ├── fetch.py                # Mode B step 1: fetch → JSON
@@ -161,7 +167,7 @@ MIT
 2. `config.yaml` を編集:
    ```yaml
    language: ja
-   scoring_threshold: 75
+   scoring_threshold: 80
    arxiv_categories:
      - hep-ph    # あなたの分野
    channels:

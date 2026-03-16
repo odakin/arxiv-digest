@@ -293,6 +293,8 @@ scoring_instructions: |
 
 **プライバシー**: Template から作るリポは fork と違い、Private にできる。研究興味やスコアリング設定を非公開にしたいユーザーは Private リポを選べばよい。odakin のリポ（本体）は常に Public。
 
+**注意**: テンプレートユーザー（個人リポ）はルート直下の config.yaml / interest_profile.txt を直接編集する（`--profile` は不要）。`profiles/` ディレクトリと `--profile` フラグは、1つのリポで複数ユーザーを配信する場合にのみ使用。
+
 #### モード B（ローカル Claude Code）
 
 ```
