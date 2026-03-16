@@ -25,15 +25,14 @@
 - [x] requirements.txt
 - [x] style 設定（tone, emoji_level）追加
 - [x] CLAUDE.md 整合性修正（§2 post, §5 style変数化, §8 tools/__init__.py, §11 SKILL.md style参照, §14 Python 3.9+）
-- [ ] README.md（日英バイリンガル）
+- [x] README.md（日英バイリンガル、英語先・日本語後）
 - [ ] セットアップガイド（docs/setup-guide.md）
 - [ ] physics-research から arxiv_digest を削除・移行
 - [ ] Bluesky / Discord / Slack チャンネル追加
 
 ## 次のステップ
-1. コミット＆push
-2. README.md 作成
-3. physics-research の移行（arxiv_digest 削除、SKILL.md パス変更）
+1. セットアップガイド（docs/setup-guide.md）
+2. physics-research の移行（arxiv_digest 削除、SKILL.md パス変更）
 
 ## 直近の決定事項
 - 2026-03-16: style セクション追加（tone: casual/formal/neutral, emoji_level: none/light/moderate/heavy）
@@ -45,3 +44,4 @@
 - コア全モジュール実装完了（config, fetch, scorer, publish, channels, main, fetch, post）
 - 動作確認: config 読み込み、arXiv fetch（133件取得）、stdout チャンネル出力、Mode B fetch → JSON 出力
 - CLAUDE.md 整合性修正5件実施、tools/__init__.py 追加
+- README.md 作成（英語先・日本語後のバイリンガル構成）
