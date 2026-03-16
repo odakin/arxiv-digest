@@ -32,6 +32,8 @@
 - [x] python → python3 修正（全11ファイル）
 - [x] cross-list カテゴリ対応（inspire_categories fallback + ティア分類）
 - [x] E2E テスト（Ogawa プロファイルで fetch→score→Mastodon 投稿成功）
+- [x] プロファイル2ファイル分離（interest_profile.txt + inspire_profile.txt）
+- [x] 閾値デフォルト 75→80 に変更
 - [ ] Bluesky / Discord / Slack チャンネル追加
 
 ## 次のステップ
@@ -41,6 +43,8 @@
 - 2026-03-16: プロファイルのカテゴリをティア分類（Primary >=20%, Secondary 5-20%, Peripheral <5%）
 - 2026-03-16: style セクション追加（tone: casual/formal/neutral, emoji_level: none/light/moderate/heavy）
 - 2026-03-16: ユーザーが言語・絵文字・フランクさを自由に選べるように
+- 2026-03-16: プロファイルを2ファイルに分離（手書き interest_profile.txt + 自動生成 inspire_profile.txt）
+- 2026-03-16: デフォルト閾値を80点に変更
 
 ## 作業ログ
 ### 2026-03-16
@@ -53,3 +57,9 @@
 - docs/setup-guide.md 作成（Mode A/B セットアップ、Mastodon 設定、トラブルシューティング）
 - セキュリティ検証 + .env gitignore、python3 修正11ファイル、cross-list カテゴリ対応
 - E2E テスト: Ogawa プロファイル自動生成 → arXiv fetch 133件 → スコアリング → Mastodon 投稿成功
+- プロファイル2ファイル分離: interest_profile.txt（手書き）+ inspire_profile.txt（自動生成）
+  - setup_inspire.py → inspire_profile.txt に出力（interest_profile.txt は不変）
+  - config.py get_profile() で両ファイルを合成
+  - SKILL.md 3箇所（skill/, arxiv-digest task, inspire-monthly task）を更新
+  - CLAUDE.md §4, §8, §10 を更新
+- 閾値 75→80 に変更（config.yaml + CLAUDE.md）

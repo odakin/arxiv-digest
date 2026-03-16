@@ -37,9 +37,10 @@ Both modes share the same fetch and publish pipeline. Only the scoring step diff
      tone: casual                  # casual / formal / neutral
      emoji_level: moderate          # none / light / moderate / heavy
    ```
-3. Create your `interest_profile.txt` (overwrite the existing one):
-   - **HEP researchers**: Run `python3 -m tools.setup_inspire YOUR.BAI.ID` locally to auto-generate from INSPIRE
-   - **Others**: Edit the template in `templates/interest_profile.txt`
+3. Create your profile:
+   - **HEP researchers**: Run `python3 -m tools.setup_inspire YOUR.BAI.ID` locally to auto-generate `inspire_profile.txt`
+   - Edit `interest_profile.txt` to add your personal priorities (see `templates/interest_profile.txt`)
+   - **Others**: Just edit `interest_profile.txt` from the template
 4. Set GitHub Secrets (Settings > Secrets and variables > Actions):
    - `ANTHROPIC_API_KEY` (required)
    - `MASTODON_ACCESS_TOKEN`, `DISCORD_WEBHOOK_URL`, etc. (per your channels)
@@ -50,7 +51,7 @@ Papers will be delivered every weekday morning (adjust `cron` in `.github/workfl
 ## Quick Start (Mode B: Local Claude Code)
 
 1. Clone this repo
-2. Edit `config.yaml` and `interest_profile.txt`
+2. Edit `config.yaml` and create your profile(s)
 3. `pip install -r requirements.txt`
 4. Set environment variables (`MASTODON_ACCESS_TOKEN`, etc.)
 5. Copy `skill/SKILL.md` to your Claude Code scheduled tasks
@@ -63,16 +64,21 @@ Papers will be delivered every weekday morning (adjust `cron` in `.github/workfl
 | Key | Description | Default |
 |-----|-------------|---------|
 | `language` | Language for recommendations (`en` / `ja`) | `en` |
-| `scoring_threshold` | Minimum score to deliver (0-100) | `75` |
+| `scoring_threshold` | Minimum score to deliver (0-100) | `80` |
 | `scoring_model` | Claude model for Mode A | `claude-sonnet-4-6` |
 | `arxiv_categories` | arXiv categories to monitor | — |
 | `style.tone` | Writing tone: `casual` / `formal` / `neutral` | `casual` |
 | `style.emoji_level` | Emoji density: `none` / `light` / `moderate` / `heavy` | `moderate` |
 | `scoring_instructions` | Free-form extra rules for scoring | — |
 
-### `interest_profile.txt`
+### Research Profile (two-file system)
 
-A plain text file describing your research interests, topics, and collaborators. This is the primary input for paper scoring. See `templates/interest_profile.txt` for the format.
+| File | Purpose | Updated by |
+|------|---------|-----------|
+| `interest_profile.txt` | Hand-curated priorities & topics | You (manually) |
+| `inspire_profile.txt` | Auto-generated from INSPIRE | `setup_inspire.py` |
+
+The scorer reads both files. At least one must exist. Monthly INSPIRE regeneration only touches `inspire_profile.txt`, so your hand-curated priorities are never overwritten.
 
 ### Delivery Channels
 
@@ -91,7 +97,8 @@ Tokens and secrets are always set via environment variables, never in `config.ya
 ```
 arxiv-digest/
 ├── config.yaml                 # Your settings
-├── interest_profile.txt        # Your research profile
+├── interest_profile.txt        # Hand-curated research priorities
+├── inspire_profile.txt         # Auto-generated from INSPIRE (optional)
 ├── src/
 │   ├── main.py                 # Mode A entry point (fetch → score → publish)
 │   ├── fetch.py                # Mode B step 1: fetch → JSON
@@ -166,9 +173,10 @@ MIT
      tone: casual       # casual / formal / neutral
      emoji_level: heavy  # none / light / moderate / heavy
    ```
-3. `interest_profile.txt` を自分のプロファイルで上書き:
-   - **HEP 系研究者**: `python3 -m tools.setup_inspire YOUR.BAI.ID` で INSPIRE から自動生成
-   - **その他**: `templates/interest_profile.txt` を参考に記入
+3. 研究プロファイルを作成:
+   - **HEP 系研究者**: `python3 -m tools.setup_inspire YOUR.BAI.ID` で `inspire_profile.txt` を自動生成
+   - `interest_profile.txt` に個人的な優先事項を記入（`templates/interest_profile.txt` 参照）
+   - **その他**: `interest_profile.txt` をテンプレートから作成するだけでOK
 4. GitHub Secrets を設定（Settings > Secrets and variables > Actions）:
    - `ANTHROPIC_API_KEY`（必須）
    - `MASTODON_ACCESS_TOKEN` 等（使用するチャンネルに応じて）
@@ -179,7 +187,7 @@ MIT
 ## セットアップ（モード B: ローカル Claude Code）
 
 1. このリポを clone
-2. `config.yaml` と `interest_profile.txt` を編集
+2. `config.yaml` と研究プロファイルを設定
 3. `pip install -r requirements.txt`
 4. 環境変数にトークン類を設定（`~/.zshrc` 等）
 5. `skill/SKILL.md` を Claude Code の scheduled task にコピー

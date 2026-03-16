@@ -116,37 +116,38 @@ class Channel:
 
 **フォーマット戦略**: スコアリング段階では文字数を気にせず、推薦文・要約を十分な長さで生成する。各チャンネルのアダプタが `char_limit` に応じてトリムまたは分割する。これにより、Discord なら詳しい解説、Mastodon なら簡潔な紹介、と同じスコアリング結果から最適な出力を生成できる。
 
-### 4. 研究興味プロファイル
+### 4. 研究興味プロファイル（2ファイル構成）
 
-ユーザーの研究興味を Claude に伝えるためのテキストファイル。
-
-#### 生成方法（セットアップ時に1回）
-
-- **パス A: INSPIRE 自動生成**（HEP 系研究者向け）
-  1. `python3 -m tools.setup_inspire K.Y.Oda.1` を実行
-  2. INSPIRE API → papers.yaml → interest_profile.txt を自動生成
-  3. 生成されたプロファイルを確認・微調整してコミット
-
-- **パス B: 手動テンプレート**（INSPIRE にいない研究者向け）
-  1. `templates/interest_profile.txt` をコピー
-  2. 研究キーワード・分野・共同研究者を記入
-  3. コミット
+スコアリングに使うプロファイルを**手書き**と**自動生成**の2ファイルに分離。月次 INSPIRE 更新で手書き内容が消える問題を根本解決。
 
 #### ファイルの役割
 
-| ファイル | コミット対象 | 役割 |
-|---------|------------|------|
-| `interest_profile.txt` | **Yes** | スコアリングに使う確定プロファイル（正本） |
-| `papers.yaml` | No (.gitignore) | INSPIRE からの生のデータ（プロファイル生成の中間ファイル） |
+| ファイル | 役割 | 更新者 | コミット |
+|---------|------|--------|---------|
+| `interest_profile.txt` | 手書きの主観的優先事項（正本） | 人間のみ | **Yes** |
+| `inspire_profile.txt` | INSPIRE 自動生成の客観データ | `setup_inspire.py` | **Yes** |
+| `papers.yaml` | INSPIRE からの生データ（中間ファイル） | `fetch_inspire.py` | No (.gitignore) |
 
-**設計判断**: `interest_profile.txt` を正本とし、コミットする。`papers.yaml` はセットアップ時の中間生成物であり、日次実行には不要。INSPIRE の月次更新でプロファイルを再生成したい場合はローカルで実行してコミットする。
+**設計判断**: スコアラー（`scorer.py` / SKILL.md）は両ファイルを読んで合成する。`interest_profile.txt` だけでも動作する（INSPIRE にいないユーザー向け）。`inspire_profile.txt` だけでも動作する（手書き不要なユーザー向け）。
+
+#### セットアップ
+
+- **INSPIRE 自動生成**（HEP 系研究者向け）
+  1. `python3 -m tools.setup_inspire K.Y.Oda.1` → `inspire_profile.txt` を生成
+  2. `templates/interest_profile.txt` を参考に `interest_profile.txt` を手書き（個人的優先事項を記述）
+  3. 両ファイルをコミット
+
+- **手動テンプレートのみ**（INSPIRE にいない研究者向け）
+  1. `templates/interest_profile.txt` をコピーして `interest_profile.txt` を作成
+  2. コミット（`inspire_profile.txt` は不要）
+
+#### 月次 INSPIRE 更新
+
+`python3 -m tools.setup_inspire K.Y.Oda.1` は `inspire_profile.txt` のみ上書き。`interest_profile.txt` は一切触らない。
 
 #### 実例（odakin のプロファイル）
 
-リポにはデフォルトで odakin（開発者）のプロファイルが入っている。template から作ったユーザーはこれを自分のプロファイルで上書きする。参考例としても使える。
-
-**運用方針**: odakin の `interest_profile.txt`・`config.yaml`（スコアリング設定含む）は常に public リポにコミットし、公開し続ける。研究興味やスコアリング基準が変わった場合もこのリポに反映する。これにより他のユーザーが実際の運用例を常に参照できる。
-
+**interest_profile.txt**（手書き）:
 ```
 Research Interest Profile: Kin-ya Oda (尾田欣也)
 Affiliation: Tokyo Women's Christian University
@@ -164,6 +165,10 @@ Affiliation: Tokyo Women's Christian University
 
 arXiv カテゴリ: hep-ph, hep-th, gr-qc, astro-ph.CO, quant-ph
 ```
+
+**inspire_profile.txt**（自動生成）: INSPIRE から導出した統計データ（カテゴリ重み、共同研究者頻度、最近の論文タイトル等）
+
+**運用方針**: odakin の両プロファイル・`config.yaml` は常に public リポにコミットし、公開し続ける。
 
 ### 5. スコアリング設定
 
@@ -224,7 +229,7 @@ scoring_instructions: |
 
 # --- 基本設定 ---
 language: ja                    # 推薦文・要約の言語 (ja / en)
-scoring_threshold: 75           # この点数以上の論文を配信 (0-100)
+scoring_threshold: 80           # この点数以上の論文を配信 (0-100)
 scoring_model: claude-sonnet-4-6  # スコアリングに使うモデル（モード A のみ）
 
 # --- arXiv カテゴリ ---
@@ -320,7 +325,8 @@ arxiv-digest/
 ├── LICENSE                     # MIT
 ├── .gitignore
 ├── config.yaml                 # ユーザー設定（コミット対象、odakin の実設定）
-├── interest_profile.txt        # 研究興味プロファイル（コミット対象、odakin の実プロファイル）
+├── interest_profile.txt        # 手書きプロファイル（主観的優先事項、人間のみ編集）
+├── inspire_profile.txt         # INSPIRE 自動生成プロファイル（setup_inspire.py が更新）
 ├── requirements.txt            # pyyaml, anthropic
 │
 ├── src/
@@ -343,7 +349,7 @@ arxiv-digest/
 │
 ├── tools/
 │   ├── __init__.py
-│   ├── setup_inspire.py        # INSPIRE → interest_profile.txt 生成
+│   ├── setup_inspire.py        # INSPIRE → inspire_profile.txt 生成
 │   └── fetch_inspire.py        # INSPIRE API クライアント
 │
 ├── skill/
@@ -413,7 +419,10 @@ description: 平日朝に arXiv 新着論文をスコアリングし配信
 
 1. `cd ~/Claude/arxiv-digest && python3 -m src.fetch` を実行し、arXiv RSS から新着論文を取得
 2. `state/today_papers.json` を読み込む
-3. `interest_profile.txt` と `config.yaml` の `scoring_instructions` および `style`（tone, emoji_level）を読む
+3. プロファイルと設定を読む:
+   - `interest_profile.txt`（手書きの研究優先事項）
+   - `inspire_profile.txt`（INSPIRE 自動生成、存在する場合）
+   - `config.yaml` の `scoring_instructions` および `style`（tone, emoji_level）
 4. 各論文をスコアリング（100点満点、閾値は config.yaml の scoring_threshold）:
    - 研究興味との直接的な重なり → 高スコア
    - 共同研究者の論文 → 高スコア

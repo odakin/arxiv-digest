@@ -9,7 +9,10 @@ arXiv 日刊ダイジェストを実行する。
 
 1. `cd ~/Claude/arxiv-digest && python3 -m src.fetch` を実行し、arXiv RSS から新着論文を取得
 2. `state/today_papers.json` を読み込む
-3. `interest_profile.txt` と `config.yaml` の `scoring_instructions` および `style`（tone, emoji_level）を読む
+3. プロファイルと設定を読む:
+   - `interest_profile.txt`（手書きの研究優先事項）
+   - `inspire_profile.txt`（INSPIRE 自動生成、存在する場合）
+   - `config.yaml` の `scoring_instructions` および `style`（tone, emoji_level）
 4. 各論文をスコアリング（100点満点、閾値は config.yaml の scoring_threshold）:
    - 研究興味との直接的な重なり → 高スコア
    - 共同研究者の論文 → 高スコア

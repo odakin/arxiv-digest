@@ -1,4 +1,9 @@
-"""Generate interest_profile.txt from INSPIRE papers.
+"""Generate inspire_profile.txt from INSPIRE papers.
+
+This generates the auto-derived profile (inspire_profile.txt), which is
+separate from the hand-curated profile (interest_profile.txt). The scorer
+reads both files. Monthly INSPIRE regeneration only touches this file,
+so hand-curated priorities are never overwritten.
 
 Usage:
     python3 -m tools.setup_inspire K.Y.Oda.1
@@ -13,7 +18,7 @@ from pathlib import Path
 from .fetch_inspire import fetch_papers
 
 ROOT_DIR = Path(__file__).resolve().parent.parent
-PROFILE_PATH = ROOT_DIR / "interest_profile.txt"
+INSPIRE_PROFILE_PATH = ROOT_DIR / "inspire_profile.txt"
 
 
 def build_profile(papers, author_bai, name=None, affiliation=None):
@@ -103,9 +108,17 @@ def main():
         sys.exit(1)
 
     profile = build_profile(papers, args.bai, args.name, args.affiliation)
-    PROFILE_PATH.write_text(profile, encoding="utf-8")
-    print(f"  Wrote profile to {PROFILE_PATH}")
-    print("\nGenerated profile (review and edit as needed):")
+    INSPIRE_PROFILE_PATH.write_text(profile, encoding="utf-8")
+    print(f"  Wrote INSPIRE profile to {INSPIRE_PROFILE_PATH}")
+
+    interest_path = ROOT_DIR / "interest_profile.txt"
+    if not interest_path.exists():
+        print(f"\n  Note: {interest_path} does not exist yet.")
+        print("  Create it from templates/interest_profile.txt to add your personal priorities.")
+    else:
+        print(f"\n  Hand-curated profile at {interest_path} is untouched.")
+
+    print("\nGenerated INSPIRE profile:")
     print(profile)
 
 
