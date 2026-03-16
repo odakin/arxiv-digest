@@ -48,6 +48,8 @@ Both modes share the same fetch and publish pipeline. Only the scoring step diff
 
 Papers will be delivered every weekday morning (adjust `cron` in `.github/workflows/digest.yml`).
 
+See [docs/setup-guide.md](docs/setup-guide.md) for detailed step-by-step instructions, channel setup, and troubleshooting.
+
 ## Quick Start (Mode B: Local Claude Code)
 
 1. Clone this repo
@@ -193,6 +195,8 @@ MIT
 5. GitHub Actions を有効化し、Actions タブから手動実行でテスト
 
 平日毎朝自動実行されます（`.github/workflows/digest.yml` の `cron` で時刻調整可能）。
+
+詳細な手順、チャンネル設定、トラブルシューティングは [docs/setup-guide.md](docs/setup-guide.md) を参照。
 
 ## セットアップ（モード B: ローカル Claude Code）
 
