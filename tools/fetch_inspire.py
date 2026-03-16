@@ -1,6 +1,7 @@
 """Fetch papers from INSPIRE-HEP API for a given author."""
 
 import json
+import urllib.parse
 import urllib.request
 
 
@@ -23,6 +24,56 @@ INSPIRE_TO_ARXIV = {
     "Instrumentation": "physics.ins-det",
     "Quantum Physics": "quant-ph",
 }
+
+
+AUTHORS_API = "https://inspirehep.net/api/authors"
+AUTHORS_FIELDS = "name,ids,positions"
+
+
+def search_authors(query, max_results=10):
+    """Search INSPIRE for authors by name.
+
+    Returns list of dicts with keys: name, bai, affiliation, inspire_id.
+    """
+    url = (
+        f"{AUTHORS_API}?sort=bestmatch"
+        f"&size={max_results}"
+        f"&q={urllib.parse.quote(query)}"
+        f"&fields={AUTHORS_FIELDS}"
+    )
+    req = urllib.request.Request(url, headers={"User-Agent": "arXiv-digest/1.0"})
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        data = json.loads(resp.read().decode("utf-8"))
+
+    results = []
+    for hit in data.get("hits", {}).get("hits", []):
+        meta = hit.get("metadata", {})
+        name = meta.get("name", {}).get("value", "")
+        ids = meta.get("ids", [])
+        bai = ""
+        inspire_id = ""
+        for id_entry in ids:
+            if id_entry.get("schema") == "INSPIRE BAI":
+                bai = id_entry.get("value", "")
+            elif id_entry.get("schema") == "INSPIRE ID":
+                inspire_id = id_entry.get("value", "")
+        if not bai:
+            continue
+        positions = meta.get("positions", [])
+        affiliation = ""
+        for pos in positions:
+            if pos.get("current", False):
+                affiliation = pos.get("institution", "")
+                break
+        if not affiliation and positions:
+            affiliation = positions[0].get("institution", "")
+        results.append({
+            "name": name,
+            "bai": bai,
+            "affiliation": affiliation,
+            "inspire_id": inspire_id,
+        })
+    return results
 
 
 def fetch_papers(bai, page_size=250):

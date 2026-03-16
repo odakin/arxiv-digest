@@ -9,6 +9,7 @@ Usage:
     python3 -m tools.setup_inspire K.Y.Oda.1
     python3 -m tools.setup_inspire K.Y.Oda.1 --name "Kin-ya Oda" --affiliation "TWCU"
     python3 -m tools.setup_inspire N.Ogawa.3 --profile ogawa
+    python3 -m tools.setup_inspire --search "Kin-ya Oda"
 """
 
 import argparse
@@ -16,7 +17,7 @@ import sys
 from collections import Counter
 from pathlib import Path
 
-from .fetch_inspire import fetch_papers
+from .fetch_inspire import fetch_papers, search_authors
 
 ROOT_DIR = Path(__file__).resolve().parent.parent
 PROFILES_DIR = ROOT_DIR / "profiles"
@@ -110,17 +111,66 @@ def regenerate_profile(bai, profile_name, name=None, affiliation=None):
     return True
 
 
+def resolve_bai(query):
+    """Search INSPIRE for an author name and let the user pick.
+
+    Returns (bai, name, affiliation) or exits if no match.
+    """
+    print(f"Searching INSPIRE for \"{query}\"...")
+    candidates = search_authors(query)
+    if not candidates:
+        print("No authors found. Try a different spelling.")
+        sys.exit(1)
+
+    print(f"\n  Found {len(candidates)} candidate(s):\n")
+    for i, c in enumerate(candidates, 1):
+        affil = f" ({c['affiliation']})" if c["affiliation"] else ""
+        print(f"  [{i}] {c['name']}{affil}  —  BAI: {c['bai']}")
+
+    if len(candidates) == 1:
+        chosen = candidates[0]
+        print(f"\n  → Using {chosen['bai']}")
+    else:
+        while True:
+            try:
+                choice = input("\n  Select number (0 to cancel): ").strip()
+                idx = int(choice)
+            except (ValueError, EOFError):
+                continue
+            if idx == 0:
+                print("Cancelled.")
+                sys.exit(0)
+            if 1 <= idx <= len(candidates):
+                chosen = candidates[idx - 1]
+                break
+            print(f"  Enter 1-{len(candidates)} or 0 to cancel.")
+
+    return chosen["bai"], chosen["name"], chosen["affiliation"]
+
+
 def main():
     parser = argparse.ArgumentParser(description="Generate interest profile from INSPIRE")
-    parser.add_argument("bai", help="INSPIRE BAI (e.g. K.Y.Oda.1)")
+    parser.add_argument("bai", nargs="?", help="INSPIRE BAI (e.g. K.Y.Oda.1)")
+    parser.add_argument("--search", "-s", help="Search by author name instead of BAI")
     parser.add_argument("--name", help="Display name")
     parser.add_argument("--affiliation", help="Affiliation")
     parser.add_argument("--profile", default=DEFAULT_PROFILE,
                         help="Profile name (writes to profiles/<name>/, default: %(default)s)")
     args = parser.parse_args()
 
-    print(f"Fetching papers for {args.bai} from INSPIRE...")
-    if regenerate_profile(args.bai, args.profile, args.name, args.affiliation):
+    if args.search:
+        bai, resolved_name, resolved_affil = resolve_bai(args.search)
+        name = args.name or resolved_name
+        affiliation = args.affiliation or resolved_affil
+    elif args.bai:
+        bai = args.bai
+        name = args.name
+        affiliation = args.affiliation
+    else:
+        parser.error("Provide a BAI or use --search to find one by name")
+
+    print(f"Fetching papers for {bai} from INSPIRE...")
+    if regenerate_profile(bai, args.profile, name, affiliation):
         output_path = PROFILES_DIR / args.profile / "inspire_profile.txt"
         print(f"  Wrote INSPIRE profile to {output_path}")
 
