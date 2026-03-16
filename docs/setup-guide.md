@@ -56,7 +56,8 @@ If you have an INSPIRE-HEP author profile (BAI):
 
 1. Clone your new repo locally: `git clone https://github.com/YOU/my-arxiv-digest.git`
 2. Install dependencies: `pip install -r requirements.txt`
-3. Run: `python3 -m tools.setup_inspire YOUR.BAI.ID` (e.g. `K.Y.Oda.1`)
+3. Run: `python3 -m tools.setup_inspire --search "Your Name"` to find your BAI from INSPIRE
+   - Alternatively, pass your BAI directly: `python3 -m tools.setup_inspire YOUR.BAI.ID` (e.g. `K.Y.Oda.1`)
 4. This fetches your publication history and generates `profiles/default/inspire_profile.txt`
 5. Edit `profiles/default/interest_profile.txt` to add your personal priorities (use `templates/interest_profile.txt` as a guide)
 6. Commit and push: `git add profiles/default/ && git commit -m "Add profiles" && git push`
@@ -134,7 +135,8 @@ For INSPIRE users, auto-generate the statistics profile:
 
 ```bash
 pip install -r requirements.txt
-python3 -m tools.setup_inspire YOUR.BAI.ID  # generates profiles/default/inspire_profile.txt
+python3 -m tools.setup_inspire --search "Your Name"  # search by name, or:
+python3 -m tools.setup_inspire YOUR.BAI.ID             # pass BAI directly
 ```
 
 Then edit `profiles/default/interest_profile.txt` with your personal priorities, or use `templates/interest_profile.txt` as a guide.
@@ -308,7 +310,8 @@ INSPIRE-HEP に著者プロファイル（BAI）がある場合:
 
 1. リポをローカルにクローン: `git clone https://github.com/YOU/my-arxiv-digest.git`
 2. 依存パッケージをインストール: `pip install -r requirements.txt`
-3. 実行: `python3 -m tools.setup_inspire YOUR.BAI.ID`（例: `K.Y.Oda.1`）
+3. 実行: `python3 -m tools.setup_inspire --search "名前"`（名前から INSPIRE BAI を検索）
+   - BAI を知っていれば直接指定も可: `python3 -m tools.setup_inspire K.Y.Oda.1`
 4. INSPIRE から出版履歴を取得し、`profiles/default/inspire_profile.txt` を自動生成
 5. `profiles/default/interest_profile.txt` に個人的な優先事項を記入（`templates/interest_profile.txt` を参考に）
 6. コミット & プッシュ: `git add profiles/default/ && git commit -m "Add profiles" && git push`
@@ -386,7 +389,8 @@ INSPIRE ユーザーは統計プロファイルを自動生成できます:
 
 ```bash
 pip install -r requirements.txt
-python3 -m tools.setup_inspire YOUR.BAI.ID  # profiles/default/inspire_profile.txt を生成
+python3 -m tools.setup_inspire --search "名前"  # 名前から BAI を検索、または:
+python3 -m tools.setup_inspire YOUR.BAI.ID             # BAI を直接指定
 ```
 
 `profiles/default/interest_profile.txt` は `templates/interest_profile.txt` を参考に個人的な優先事項を記入。

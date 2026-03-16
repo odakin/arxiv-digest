@@ -38,7 +38,7 @@ Both modes share the same fetch and publish pipeline. Only the scoring step diff
      emoji_level: moderate          # none / light / moderate / heavy
    ```
 3. Create your profile in `profiles/default/`:
-   - **HEP researchers**: Run `python3 -m tools.setup_inspire YOUR.BAI.ID` locally to auto-generate `profiles/default/inspire_profile.txt`
+   - **HEP researchers**: Run `python3 -m tools.setup_inspire --search "Your Name"` to find your INSPIRE BAI and auto-generate `profiles/default/inspire_profile.txt` (or pass your BAI directly: `python3 -m tools.setup_inspire YOUR.BAI.ID`)
    - Edit `profiles/default/interest_profile.txt` to add your personal priorities
    - **Others**: Just edit `profiles/default/interest_profile.txt` from the template
 4. Set GitHub Secrets (Settings > Secrets and variables > Actions):
@@ -193,7 +193,7 @@ MIT
      emoji_level: heavy  # none / light / moderate / heavy
    ```
 3. `profiles/default/` に研究プロファイルを作成:
-   - **HEP 系研究者**: `python3 -m tools.setup_inspire YOUR.BAI.ID` で `profiles/default/inspire_profile.txt` を自動生成
+   - **HEP 系研究者**: `python3 -m tools.setup_inspire --search "名前"` で INSPIRE BAI を検索し `profiles/default/inspire_profile.txt` を自動生成（BAI を知っていれば直接指定も可: `python3 -m tools.setup_inspire YOUR.BAI.ID`）
    - `profiles/default/interest_profile.txt` に個人的な優先事項を記入
    - **その他**: `profiles/default/interest_profile.txt` をテンプレートから編集するだけでOK
 4. GitHub Secrets を設定（Settings > Secrets and variables > Actions）:

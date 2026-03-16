@@ -21,7 +21,7 @@
 - [x] skill/SKILL.md（モード B scheduled task テンプレート）
 - [x] .github/workflows/digest.yml（モード A ワークフロー）
 - [x] templates/interest_profile.txt（手動プロファイルテンプレート）
-- [x] tools/fetch_inspire.py + setup_inspire.py
+- [x] tools/fetch_inspire.py + setup_inspire.py（著者名検索 --search 対応済み）
 - [x] requirements.txt
 - [x] style 設定（tone, emoji_level）追加
 - [x] CLAUDE.md 整合性修正（§2 post, §5 style変数化, §8 tools/__init__.py, §11 SKILL.md style参照, §14 Python 3.9+）
@@ -52,6 +52,7 @@
 - 2026-03-16: マルチプロファイル対応（profiles/<name>/ + --profile フラグ、後方互換）
 - 2026-03-16: odakin を profiles/odakin/ に移行、ルート config.yaml をテンプレートデフォルト化
 - 2026-03-16: odakin の固有設定は常に公開（profiles/odakin/ をコミット）
+- 2026-03-16: setup_inspire に --search フラグ追加（INSPIRE 著者名検索 → BAI 自動解決）
 
 ## 作業ログ
 ### 2026-03-16
