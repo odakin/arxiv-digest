@@ -143,7 +143,7 @@ class Channel:
 
 #### 実例（odakin のプロファイル）
 
-リポにはデフォルトで odakin（開発者）のプロファイルが入っている。fork したユーザーはこれを自分のプロファイルで上書きする。参考例としても使える。
+リポにはデフォルトで odakin（開発者）のプロファイルが入っている。template から作ったユーザーはこれを自分のプロファイルで上書きする。参考例としても使える。
 
 **運用方針**: odakin の `interest_profile.txt`・`config.yaml`（スコアリング設定含む）は常に public リポにコミットし、公開し続ける。研究興味やスコアリング基準が変わった場合もこのリポに反映する。これにより他のユーザーが実際の運用例を常に参照できる。
 
@@ -185,7 +185,7 @@ arXiv カテゴリ: hep-ph, hep-th, gr-qc, astro-ph.CO, quant-ph
 - 分野の一般的な発展 → 低スコア
 
 ## 出力形式
-各論文について以下を {language} で生成:
+各論文について以下を {language} で生成（文字数制限なし、配信時にチャンネル側でトリム）:
 - score: 0-100
 - reason: 推薦文（この論文がなぜ面白いか。カジュアルな同僚トーン、絵文字5個以上）
 - summary: 要約（技術的内容の簡潔な説明、絵文字2-3個）
@@ -205,7 +205,7 @@ scoring_instructions: |
 
 ### 6. 設定ファイル構成
 
-`config.yaml` は**コミット対象**。fork ごとに自分の設定を持つ。機密情報（トークン類）は含めず、GitHub Secrets または環境変数で管理する。
+`config.yaml` は**コミット対象**。template から作ったリポごとに自分の設定を持つ。機密情報（トークン類）は含めず、GitHub Secrets または環境変数で管理する。
 
 ```yaml
 # config.yaml（ユーザーが編集する設定ファイル）
@@ -254,7 +254,7 @@ scoring_instructions: |
   - 絵文字盛り盛り！推薦文に最低5個、要約に最低2個 🔥🎯✨🧐💡🚀💥🌟👀⚡💫🌀🎲🔬📐🎉
 ```
 
-**注意**: 上記は odakin の実運用設定。fork したユーザーは自分用に書き換える。
+**注意**: 上記は odakin の実運用設定。template から作ったユーザーは自分用に書き換える。
 
 ### 7. セットアップフロー
 
@@ -345,10 +345,13 @@ arxiv-digest/
 
 **モード B 用のファイル分離**:
 - `src/fetch.py`: arXiv 取得 → `state/today_papers.json` 出力。Claude Code task の Step 1 で呼ばれる
-- `src/post.py`: スコア結果の paper リストを受け取り、publish.py 経由で配信。Claude Code task の Step 3 で呼ばれる
+- `src/post.py`: `state/scored_papers.json` を読み、publish.py 経由で配信。Claude Code task の Step 3 で呼ばれる
 - `skill/SKILL.md`: Claude Code scheduled task の定義ファイル。ユーザーが `~/.claude/scheduled-tasks/` にコピーして使う
+- `state/`: ローカル実行時の中間ファイル置き場（.gitignore 対象）
 
 ### 9. physics-research からの移植方針
+
+**注意**: 移植完了後にこのセクションは削除する。
 
 | 元ファイル | 移植先 | 変更点 |
 |-----------|--------|--------|
@@ -417,7 +420,8 @@ description: 平日朝に arXiv 新着論文をスコアリングし配信
 3. `interest_profile.txt` と `config.yaml` の `scoring_instructions` を読む
 4. 各論文をスコアリング（100点満点、閾値は config.yaml の scoring_threshold）
 5. 閾値以上の論文について、config.yaml の language で推薦文と要約を生成
-6. `python -m src.post` にスコア結果を渡して配信
+6. スコア結果を `state/scored_papers.json` に JSON で書き出す（各論文に score, reason, summary を付与）
+7. `python -m src.post` を実行し、scored_papers.json を読んでチャンネルに配信
 
 ## 注意
 - config.yaml のチャンネル設定に従って配信
