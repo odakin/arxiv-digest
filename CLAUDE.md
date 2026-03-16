@@ -40,6 +40,15 @@ arXiv 新着論文の AI スコアリング＋自動配信システム。GitHub 
 - チャンネル追加は `src/channels/base.py` の Channel クラスを継承
 - トークン類は環境変数で管理（config.yaml に書かない）
 
+## 将来の拡張（検討中）
+
+- 他の LLM 対応: OpenAI, Gemini 等（scorer のプラグイン化）
+- X (Twitter) 対応: API 費用が高いため優先度低
+- Web UI: GitHub Pages で結果閲覧（JSON → 静的 HTML）
+- 複数ユーザー集約: 同じ分野の研究者がダイジェストを共有
+- 自論文検出 → プロファイル自動更新
+- 無料枠: API 不使用のキーワードマッチングモード（精度は落ちるが費用ゼロ）
+
 ## How to Resume（autocompact 復帰手順）
 
 1. `SESSION.md` を読む → 現在の作業状態と次のステップを把握
