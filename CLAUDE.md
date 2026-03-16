@@ -46,7 +46,6 @@ arXiv 新着論文の AI スコアリング＋自動配信システム。GitHub 
 - X (Twitter) 対応: API 費用が高いため優先度低
 - Web UI: GitHub Pages で結果閲覧（JSON → 静的 HTML）
 - 複数ユーザー集約: 同じ分野の研究者がダイジェストを共有
-- プロファイル自動更新: arXiv 新着にプロファイル登録者の論文があったら inspire_profile.txt を再生成
 - 無料枠: API 不使用のキーワードマッチングモード（精度は落ちるが費用ゼロ）
 
 ## How to Resume（autocompact 復帰手順）

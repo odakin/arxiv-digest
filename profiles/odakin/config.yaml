@@ -1,6 +1,7 @@
 # profiles/odakin/config.yaml — odakin's profile-specific overrides
 # Merged on top of root config.yaml when using --profile odakin
 
+inspire_bai: K.Y.Oda.1
 language: ja
 
 arxiv_categories:

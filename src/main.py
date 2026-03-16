@@ -11,6 +11,7 @@ from datetime import date
 
 from .config import load_config, DEFAULT_PROFILE
 from .fetch_arxiv import fetch_new_papers
+from .profile_update import check_for_profile_updates
 from .scorer import score_papers
 from .publish import publish, notify_error
 
@@ -54,6 +55,16 @@ def main():
 
         # Publish
         publish(config, scored, len(papers))
+
+        # Auto-update INSPIRE profiles if registrants have new papers
+        print("Checking for profile updates...")
+        updated = check_for_profile_updates(papers)
+        if updated:
+            names = ", ".join(n for n, _ in updated)
+            print(f"  Updated INSPIRE profiles: {names}")
+        else:
+            print("  No profile updates needed.")
+
         print("Done.")
 
     except Exception as e:

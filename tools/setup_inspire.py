@@ -94,6 +94,22 @@ When scoring papers, consider:
     return profile
 
 
+def regenerate_profile(bai, profile_name, name=None, affiliation=None):
+    """Fetch from INSPIRE and write inspire_profile.txt. Returns True if updated."""
+    papers = fetch_papers(bai)
+    if not papers:
+        return False
+
+    profile = build_profile(papers, bai, name, affiliation)
+
+    output_dir = PROFILES_DIR / profile_name
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    output_path = output_dir / "inspire_profile.txt"
+    output_path.write_text(profile, encoding="utf-8")
+    return True
+
+
 def main():
     parser = argparse.ArgumentParser(description="Generate interest profile from INSPIRE")
     parser.add_argument("bai", help="INSPIRE BAI (e.g. K.Y.Oda.1)")
@@ -104,32 +120,21 @@ def main():
     args = parser.parse_args()
 
     print(f"Fetching papers for {args.bai} from INSPIRE...")
-    papers = fetch_papers(args.bai)
-    print(f"  Found {len(papers)} papers")
+    if regenerate_profile(args.bai, args.profile, args.name, args.affiliation):
+        output_path = PROFILES_DIR / args.profile / "inspire_profile.txt"
+        print(f"  Wrote INSPIRE profile to {output_path}")
 
-    if not papers:
+        interest_path = PROFILES_DIR / args.profile / "interest_profile.txt"
+        if not interest_path.exists():
+            print(f"\n  Note: {interest_path} does not exist yet.")
+            print("  Create it from templates/interest_profile.txt to add your personal priorities.")
+        else:
+            print(f"\n  Hand-curated profile at {interest_path} is untouched.")
+
+        print(f"\nGenerated INSPIRE profile:\n{output_path.read_text(encoding='utf-8')}")
+    else:
         print("No papers found. Check the BAI.")
         sys.exit(1)
-
-    profile = build_profile(papers, args.bai, args.name, args.affiliation)
-
-    # Determine output directory
-    output_dir = PROFILES_DIR / args.profile
-    output_dir.mkdir(parents=True, exist_ok=True)
-
-    output_path = output_dir / "inspire_profile.txt"
-    output_path.write_text(profile, encoding="utf-8")
-    print(f"  Wrote INSPIRE profile to {output_path}")
-
-    interest_path = output_dir / "interest_profile.txt"
-    if not interest_path.exists():
-        print(f"\n  Note: {interest_path} does not exist yet.")
-        print("  Create it from templates/interest_profile.txt to add your personal priorities.")
-    else:
-        print(f"\n  Hand-curated profile at {interest_path} is untouched.")
-
-    print("\nGenerated INSPIRE profile:")
-    print(profile)
 
 
 if __name__ == "__main__":

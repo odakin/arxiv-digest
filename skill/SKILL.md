@@ -42,6 +42,7 @@ arXiv 日刊ダイジェストを実行する。
    }
    ```
 7. `python3 -m src.post --profile odakin` を実行し、scored_papers.json を読んでチャンネルに配信
+8. 配信した論文の著者に profiles/ 登録者（`inspire_bai` 設定あり）がいた場合、`python3 -c "from src.profile_update import check_for_profile_updates; import json; papers=json.load(open('state/today_papers.json'))['papers']; check_for_profile_updates(papers)"` を実行し、INSPIRE プロファイルを自動更新
 
 ## 注意
 - config.yaml のチャンネル設定に従って配信
