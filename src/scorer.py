@@ -23,7 +23,7 @@ def score_papers(config, papers):
     if not api_key:
         raise RuntimeError("ANTHROPIC_API_KEY not set.")
 
-    profile = get_profile()
+    profile = get_profile(config.get("_profile_name"))
     threshold = config.get("scoring_threshold", 75)
     language = config.get("language", "en")
     model = config.get("scoring_model", "claude-sonnet-4-6")

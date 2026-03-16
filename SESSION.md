@@ -34,6 +34,8 @@
 - [x] E2E テスト（Ogawa プロファイルで fetch→score→Mastodon 投稿成功）
 - [x] プロファイル2ファイル分離（interest_profile.txt + inspire_profile.txt）
 - [x] 閾値デフォルト 75→80 に変更
+- [x] エラー通知（try/except + チャンネル通知 + SKILL.md 報告指示）
+- [x] マルチプロファイル対応（profiles/ ディレクトリ + --profile フラグ）
 - [ ] Bluesky / Discord / Slack チャンネル追加
 
 ## 次のステップ
@@ -45,6 +47,8 @@
 - 2026-03-16: ユーザーが言語・絵文字・フランクさを自由に選べるように
 - 2026-03-16: プロファイルを2ファイルに分離（手書き interest_profile.txt + 自動生成 inspire_profile.txt）
 - 2026-03-16: デフォルト閾値を80点に変更
+- 2026-03-16: エラー通知機能追加（チャンネル経由 + SKILL.md エラー報告指示）
+- 2026-03-16: マルチプロファイル対応（profiles/<name>/ + --profile フラグ、後方互換）
 
 ## 作業ログ
 ### 2026-03-16
@@ -63,3 +67,8 @@
   - SKILL.md 3箇所（skill/, arxiv-digest task, inspire-monthly task）を更新
   - CLAUDE.md §4, §8, §10 を更新
 - 閾値 75→80 に変更（config.yaml + CLAUDE.md）
+- エラー通知: main.py/fetch.py/post.py に try/except、publish.py に notify_error()、channels に post_text()
+- マルチプロファイル: config.py に profiles/ 対応、全エントリポイント + setup_inspire.py に --profile フラグ
+  - `python3 -m src.main --profile ogawa` で profiles/ogawa/ の設定・プロファイルを使用
+  - --profile なしは後方互換（ルート直下のファイルを使用）
+  - profiles/ogawa/ にテスト用プロファイルを生成して動作確認

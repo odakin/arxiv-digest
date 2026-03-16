@@ -1,0 +1,16 @@
+Research Interest Profile: Naoya Ogawa
+
+
+Publication record: 5 papers (including cross-listed)
+
+Primary fields (>=20%): astro-ph (3, 60%), hep-ex (2, 40%), gr-qc (2, 40%)
+
+Frequent collaborators: Lamoureux, Mathieu, Abe, Ko, Bronner, Christophe, Hayato, Yoshinari, Hiraide, Katsuki, Ikeda, Motoyasu, Kameda, Jun, Kanemura, Yuki, Kataoka, Yousuku, Miki, Shintaro, Miura, Makoto, Moriyama, Shigetaka, Nagao, Yoshiki, NAKAHATA, Masayuki, Nakayama, Shoei
+
+Recent focus (2020-present): Follow-up of GWTC-2 gravitational wave events with neutrinos from the Super-Kamiokande detector; Diffuse Supernova Neutrino Background search at Super-Kamiokande with neutron tagging; Low energy radioactivity BG model in Super-Kamiokande detector from SK-IV data
+
+When scoring papers, consider:
+1. Direct overlap with primary/secondary fields (highest relevance)
+2. Papers by frequent collaborators (high relevance)
+3. New methods or results applicable to the above themes (moderate relevance)
+4. Peripheral fields: relevant only if connecting to primary interests (lower relevance)

@@ -8,6 +8,7 @@ so hand-curated priorities are never overwritten.
 Usage:
     python3 -m tools.setup_inspire K.Y.Oda.1
     python3 -m tools.setup_inspire K.Y.Oda.1 --name "Kin-ya Oda" --affiliation "TWCU"
+    python3 -m tools.setup_inspire N.Ogawa.3 --profile ogawa
 """
 
 import argparse
@@ -97,6 +98,7 @@ def main():
     parser.add_argument("bai", help="INSPIRE BAI (e.g. K.Y.Oda.1)")
     parser.add_argument("--name", help="Display name")
     parser.add_argument("--affiliation", help="Affiliation")
+    parser.add_argument("--profile", help="Profile name (writes to profiles/<name>/ instead of root)")
     args = parser.parse_args()
 
     print(f"Fetching papers for {args.bai} from INSPIRE...")
@@ -108,10 +110,19 @@ def main():
         sys.exit(1)
 
     profile = build_profile(papers, args.bai, args.name, args.affiliation)
-    INSPIRE_PROFILE_PATH.write_text(profile, encoding="utf-8")
-    print(f"  Wrote INSPIRE profile to {INSPIRE_PROFILE_PATH}")
 
-    interest_path = ROOT_DIR / "interest_profile.txt"
+    # Determine output directory
+    if args.profile:
+        output_dir = ROOT_DIR / "profiles" / args.profile
+        output_dir.mkdir(parents=True, exist_ok=True)
+    else:
+        output_dir = ROOT_DIR
+
+    output_path = output_dir / "inspire_profile.txt"
+    output_path.write_text(profile, encoding="utf-8")
+    print(f"  Wrote INSPIRE profile to {output_path}")
+
+    interest_path = output_dir / "interest_profile.txt"
     if not interest_path.exists():
         print(f"\n  Note: {interest_path} does not exist yet.")
         print("  Create it from templates/interest_profile.txt to add your personal priorities.")

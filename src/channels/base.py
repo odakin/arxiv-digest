@@ -15,6 +15,14 @@ class Channel:
         """
         raise NotImplementedError
 
+    def post_text(self, text):
+        """Post a plain text message (used for error notifications etc.).
+
+        Default implementation uses publish with no papers.
+        Subclasses can override for simpler posting.
+        """
+        print(text)
+
     @property
     def char_limit(self):
         """Max characters per post. None means no limit."""

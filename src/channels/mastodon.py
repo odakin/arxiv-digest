@@ -87,6 +87,12 @@ class MastodonChannel(Channel):
 
         return toot
 
+    def post_text(self, text):
+        """Post a plain text message."""
+        if len(text) > 500:
+            text = text[:497] + "..."
+        self._post(text)
+
     def _post(self, text):
         """Post a status to Mastodon."""
         url = f"{self.instance}/api/v1/statuses"

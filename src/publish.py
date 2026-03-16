@@ -1,5 +1,7 @@
 """Dispatch scored papers to enabled delivery channels."""
 
+import traceback
+
 from .config import get_enabled_channels
 from .channels.mastodon import MastodonChannel
 from .channels.stdout import StdoutChannel
@@ -8,6 +10,31 @@ CHANNEL_CLASSES = {
     "mastodon": MastodonChannel,
     "stdout": StdoutChannel,
 }
+
+
+def notify_error(config, error_msg):
+    """Send error notification to enabled channels.
+
+    Best-effort: if notification itself fails, just print to stderr.
+    """
+    language = config.get("language", "en")
+    if language == "ja":
+        header = "⚠️ arXiv ダイジェスト エラー"
+    else:
+        header = "⚠️ arXiv Digest Error"
+
+    message = f"{header}\n\n{error_msg}"
+
+    enabled = get_enabled_channels(config)
+    for name, settings in enabled:
+        cls = CHANNEL_CLASSES.get(name)
+        if cls is None:
+            continue
+        try:
+            channel = cls(settings)
+            channel.post_text(message)
+        except Exception:
+            print(f"  (Could not send error notification to {name})")
 
 
 def publish(config, scored_papers, total_fetched):
