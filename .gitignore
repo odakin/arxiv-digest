@@ -13,10 +13,5 @@ __pycache__/
 .venv/
 venv/
 
-# === ユーザー設定・機密情報 ===
-config.yaml
+# === 中間生成物 ===
 papers.yaml
-interest_profile.txt
-
-# === 実行時状態 ===
-state/
