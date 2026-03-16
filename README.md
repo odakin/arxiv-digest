@@ -69,9 +69,15 @@ See [docs/setup-guide.md](docs/setup-guide.md) for detailed step-by-step instruc
 | `scoring_threshold` | Minimum score to deliver (0-100) | `80` |
 | `scoring_model` | Claude model for Mode A | `claude-sonnet-4-6` |
 | `arxiv_categories` | arXiv categories to monitor | — |
-| `style.tone` | Writing tone: `casual` / `formal` / `neutral` | `casual` |
+| `style.tone` | Writing tone: `casual` / `formal` / `neutral` | `neutral` |
 | `style.emoji_level` | Emoji density: `none` / `light` / `moderate` / `heavy` | `moderate` |
 | `scoring_instructions` | Free-form extra rules for scoring | — |
+
+Per-profile overrides go in `profiles/<name>/config.yaml`. Additional per-profile fields:
+
+| Key | Description |
+|-----|-------------|
+| `inspire_bai` | INSPIRE BAI (e.g. `K.Y.Oda.1`) — enables auto-update of `inspire_profile.txt` when new papers are detected |
 
 ### Research Profile (two-file system)
 
@@ -117,6 +123,7 @@ arxiv-digest/
 │   ├── post.py                 # Mode B step 3: JSON → publish
 │   ├── fetch_arxiv.py          # arXiv RSS fetcher
 │   ├── scorer.py               # Anthropic API scorer (Mode A)
+│   ├── profile_update.py       # Auto-update INSPIRE profiles on new papers
 │   ├── publish.py              # Channel dispatcher
 │   ├── config.py               # Config loader
 │   └── channels/

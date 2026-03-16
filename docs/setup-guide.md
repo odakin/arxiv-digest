@@ -79,9 +79,8 @@ Go to your repo's **Settings > Secrets and variables > Actions > New repository 
 |--------|-----------|-------------|
 | `ANTHROPIC_API_KEY` | **Yes** | Your Anthropic API key from [console.anthropic.com](https://console.anthropic.com/) |
 | `MASTODON_ACCESS_TOKEN` | If Mastodon enabled | See [Mastodon channel setup](#mastodon-channel-setup) below |
-| `BLUESKY_APP_PASSWORD` | If Bluesky enabled | App password from Bluesky settings |
-| `DISCORD_WEBHOOK_URL` | If Discord enabled | Webhook URL from Discord channel settings |
-| `SLACK_WEBHOOK_URL` | If Slack enabled | Incoming webhook URL from Slack app settings |
+
+> Note: Bluesky, Discord, and Slack channels are planned but not yet implemented.
 
 ### Step 5: Enable GitHub Actions
 
@@ -146,9 +145,6 @@ Add your channel tokens to `~/.zshrc` (or `~/.bashrc`):
 
 ```bash
 export MASTODON_ACCESS_TOKEN="your-token-here"
-# export BLUESKY_APP_PASSWORD="your-app-password"
-# export DISCORD_WEBHOOK_URL="https://discord.com/api/webhooks/..."
-# export SLACK_WEBHOOK_URL="https://hooks.slack.com/services/..."
 ```
 
 Then reload: `source ~/.zshrc`
@@ -335,9 +331,8 @@ INSPIRE-HEP に著者プロファイル（BAI）がある場合:
 |-----------|--------|------|
 | `ANTHROPIC_API_KEY` | **必須** | [console.anthropic.com](https://console.anthropic.com/) の API キー |
 | `MASTODON_ACCESS_TOKEN` | Mastodon 使用時 | 下記 [Mastodon チャンネルセットアップ](#mastodon-チャンネルセットアップ) 参照 |
-| `BLUESKY_APP_PASSWORD` | Bluesky 使用時 | Bluesky 設定画面の App Password |
-| `DISCORD_WEBHOOK_URL` | Discord 使用時 | Discord チャンネル設定の Webhook URL |
-| `SLACK_WEBHOOK_URL` | Slack 使用時 | Slack アプリ設定の Incoming Webhook URL |
+
+> 注: Bluesky、Discord、Slack チャンネルは計画中で未実装です。
 
 ### ステップ 5: GitHub Actions を有効化
 
@@ -402,9 +397,6 @@ python3 -m tools.setup_inspire YOUR.BAI.ID  # profiles/default/inspire_profile.t
 
 ```bash
 export MASTODON_ACCESS_TOKEN="your-token-here"
-# export BLUESKY_APP_PASSWORD="your-app-password"
-# export DISCORD_WEBHOOK_URL="https://discord.com/api/webhooks/..."
-# export SLACK_WEBHOOK_URL="https://hooks.slack.com/services/..."
 ```
 
 反映: `source ~/.zshrc`
