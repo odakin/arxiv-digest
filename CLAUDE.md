@@ -116,16 +116,33 @@ class Channel:
 
 **フォーマット戦略**: スコアリング段階では文字数を気にせず、推薦文・要約を十分な長さで生成する。各チャンネルのアダプタが `char_limit` に応じてトリムまたは分割する。これにより、Discord なら詳しい解説、Mastodon なら簡潔な紹介、と同じスコアリング結果から最適な出力を生成できる。
 
-### 4. 研究興味プロファイル（2ファイル構成）
+### 4. 研究興味プロファイル（2ファイル構成 × マルチプロファイル）
 
 スコアリングに使うプロファイルを**手書き**と**自動生成**の2ファイルに分離。月次 INSPIRE 更新で手書き内容が消える問題を根本解決。
+
+#### マルチプロファイル
+
+全ユーザー（odakin 含む）のプロファイルを `profiles/<name>/` に格納。ルート直下にはテンプレートのみ置く。
+
+```
+profiles/
+├── odakin/
+│   ├── config.yaml              # odakin 固有の設定オーバーライド
+│   ├── interest_profile.txt     # 手書きプロファイル
+│   └── inspire_profile.txt      # INSPIRE 自動生成
+└── ogawa/
+    └── inspire_profile.txt      # テスト用
+```
+
+`--profile <name>` フラグで指定。省略時はルート直下のファイルを使用（テンプレートユーザー向け後方互換）。
 
 #### ファイルの役割
 
 | ファイル | 役割 | 更新者 | コミット |
 |---------|------|--------|---------|
-| `interest_profile.txt` | 手書きの主観的優先事項（正本） | 人間のみ | **Yes** |
-| `inspire_profile.txt` | INSPIRE 自動生成の客観データ | `setup_inspire.py` | **Yes** |
+| `profiles/<name>/interest_profile.txt` | 手書きの主観的優先事項（正本） | 人間のみ | **Yes** |
+| `profiles/<name>/inspire_profile.txt` | INSPIRE 自動生成の客観データ | `setup_inspire.py` | **Yes** |
+| `profiles/<name>/config.yaml` | プロファイル固有の設定オーバーライド | 人間 | **Yes** |
 | `papers.yaml` | INSPIRE からの生データ（中間ファイル） | `fetch_inspire.py` | No (.gitignore) |
 
 **設計判断**: スコアラー（`scorer.py` / SKILL.md）は両ファイルを読んで合成する。`interest_profile.txt` だけでも動作する（INSPIRE にいないユーザー向け）。`inspire_profile.txt` だけでも動作する（手書き不要なユーザー向け）。
@@ -133,42 +150,46 @@ class Channel:
 #### セットアップ
 
 - **INSPIRE 自動生成**（HEP 系研究者向け）
-  1. `python3 -m tools.setup_inspire K.Y.Oda.1` → `inspire_profile.txt` を生成
-  2. `templates/interest_profile.txt` を参考に `interest_profile.txt` を手書き（個人的優先事項を記述）
+  1. `python3 -m tools.setup_inspire K.Y.Oda.1 --profile odakin` → `profiles/odakin/inspire_profile.txt` を生成
+  2. `templates/interest_profile.txt` を参考に `profiles/odakin/interest_profile.txt` を手書き
   3. 両ファイルをコミット
 
 - **手動テンプレートのみ**（INSPIRE にいない研究者向け）
-  1. `templates/interest_profile.txt` をコピーして `interest_profile.txt` を作成
+  1. `templates/interest_profile.txt` をコピーして `profiles/<name>/interest_profile.txt` を作成
   2. コミット（`inspire_profile.txt` は不要）
 
 #### 月次 INSPIRE 更新
 
-`python3 -m tools.setup_inspire K.Y.Oda.1` は `inspire_profile.txt` のみ上書き。`interest_profile.txt` は一切触らない。
+`python3 -m tools.setup_inspire K.Y.Oda.1 --profile odakin` は `profiles/odakin/inspire_profile.txt` のみ上書き。`interest_profile.txt` は一切触らない。
+
+#### 設定のマージ
+
+`load_config(profile_name)` はルートの `config.yaml`（テンプレートデフォルト）を読んだ後、`profiles/<name>/config.yaml` をディープマージする。プロファイル側で指定したキーだけが上書きされる。
 
 #### 実例（odakin のプロファイル）
 
-**interest_profile.txt**（手書き）:
-```
-Research Interest Profile: Kin-ya Oda (尾田欣也)
-Affiliation: Tokyo Women's Christian University
-
-最優先: 波束形式（Gaussian wave-packet formalism）＋小川コラボ
-  共同研究者: 石川健三、西脇健二、和田純太郎、三谷はるひ、小川直也
-
-コアトピック:
-- Einstein-Cartan / teleparallel 重力
-- Higgs inflation（metric, Palatini, Starobinsky）
-- Higgs portal DM、gravitational production
-- 余剰次元（UED, KK）
-- ニュートリノ質量模型
-- BSM 現象論
-
-arXiv カテゴリ: hep-ph, hep-th, gr-qc, astro-ph.CO, quant-ph
+**profiles/odakin/config.yaml**（オーバーライド）:
+```yaml
+language: ja
+arxiv_categories: [hep-ph, hep-th, gr-qc, astro-ph.CO, quant-ph]
+channels:
+  mastodon:
+    enabled: true
+    instance: "https://social.vivaldi.net"
+    bot_account: "odakinarxiv"
+    mention_target: "@odakin@social.vivaldi.net"
+style:
+  tone: casual
+  emoji_level: heavy
+scoring_instructions: |
+  - 「先生」は絶対に使わない
 ```
 
-**inspire_profile.txt**（自動生成）: INSPIRE から導出した統計データ（カテゴリ重み、共同研究者頻度、最近の論文タイトル等）
+**profiles/odakin/interest_profile.txt**（手書き）: 波束形式、Einstein-Cartan、Higgs inflation 等の優先事項
 
-**運用方針**: odakin の両プロファイル・`config.yaml` は常に public リポにコミットし、公開し続ける。
+**profiles/odakin/inspire_profile.txt**（自動生成）: INSPIRE から導出した統計データ（カテゴリ重み、共同研究者頻度、最近の論文タイトル等）
+
+**運用方針**: odakin の全プロファイル・設定は常に public リポにコミットし、公開し続ける。
 
 ### 5. スコアリング設定
 
@@ -222,60 +243,30 @@ scoring_instructions: |
 
 ### 6. 設定ファイル構成
 
-`config.yaml` は**コミット対象**。template から作ったリポごとに自分の設定を持つ。機密情報（トークン類）は含めず、GitHub Secrets または環境変数で管理する。
+#### ルート config.yaml（テンプレートデフォルト）
 
+`config.yaml` は**コミット対象**。ルート直下のものはテンプレートデフォルト（英語、チャンネル無効、ニュートラルスタイル）。各ユーザーは `profiles/<name>/config.yaml` で上書きする。機密情報（トークン類）は含めず、GitHub Secrets または環境変数で管理する。
+
+#### プロファイル固有の設定（オーバーライド）
+
+`profiles/<name>/config.yaml` にはそのユーザー固有の設定のみを記述。ルートの config.yaml にディープマージされる。
+
+odakin の例: `profiles/odakin/config.yaml`
 ```yaml
-# config.yaml（ユーザーが編集する設定ファイル）
-
-# --- 基本設定 ---
-language: ja                    # 推薦文・要約の言語 (ja / en)
-scoring_threshold: 80           # この点数以上の論文を配信 (0-100)
-scoring_model: claude-sonnet-4-6  # スコアリングに使うモデル（モード A のみ）
-
-# --- arXiv カテゴリ ---
-arxiv_categories:
-  - hep-ph
-  - hep-th
-  - gr-qc
-  - astro-ph.CO
-  - quant-ph
-
-# --- 配信チャンネル ---
+language: ja
+arxiv_categories: [hep-ph, hep-th, gr-qc, astro-ph.CO, quant-ph]
 channels:
   mastodon:
     enabled: true
     instance: "https://social.vivaldi.net"
     bot_account: "odakinarxiv"
     mention_target: "@odakin@social.vivaldi.net"
-    # access_token は環境変数 MASTODON_ACCESS_TOKEN で設定
-
-  bluesky:
-    enabled: false
-    handle: "researcher.bsky.social"
-    # app_password は環境変数 BLUESKY_APP_PASSWORD で設定
-
-  discord:
-    enabled: false
-    # webhook_url は環境変数 DISCORD_WEBHOOK_URL で設定
-
-  slack:
-    enabled: false
-    # webhook_url は環境変数 SLACK_WEBHOOK_URL で設定
-
-  stdout:
-    enabled: false              # デバッグ用
-
-# --- 文体 ---
 style:
-  tone: casual                  # casual / formal / neutral
-  emoji_level: heavy            # none / light / moderate / heavy
-
-# --- スコアリング追加指示（任意） ---
+  tone: casual
+  emoji_level: heavy
 scoring_instructions: |
   - 「先生」は絶対に使わない
 ```
-
-**注意**: 上記は odakin の実運用設定。template から作ったユーザーは自分用に書き換える。
 
 ### 7. セットアップフロー
 
@@ -324,10 +315,17 @@ arxiv-digest/
 ├── README.md                   # ユーザー向け説明（日英バイリンガル）
 ├── LICENSE                     # MIT
 ├── .gitignore
-├── config.yaml                 # ユーザー設定（コミット対象、odakin の実設定）
-├── interest_profile.txt        # 手書きプロファイル（主観的優先事項、人間のみ編集）
-├── inspire_profile.txt         # INSPIRE 自動生成プロファイル（setup_inspire.py が更新）
+├── config.yaml                 # テンプレートデフォルト設定（英語、チャンネル無効）
+├── interest_profile.txt        # テンプレート（ルート直下は後方互換用）
 ├── requirements.txt            # pyyaml, anthropic
+│
+├── profiles/
+│   ├── odakin/                 # odakin のプロファイル（常に公開）
+│   │   ├── config.yaml         # odakin 固有の設定オーバーライド
+│   │   ├── interest_profile.txt
+│   │   └── inspire_profile.txt
+│   └── ogawa/                  # テスト用プロファイル
+│       └── inspire_profile.txt
 │
 ├── src/
 │   ├── __init__.py
@@ -396,7 +394,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run digest
-        run: python3 -m src.main
+        run: python3 -m src.main --profile odakin
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           MASTODON_ACCESS_TOKEN: ${{ secrets.MASTODON_ACCESS_TOKEN }}
@@ -417,12 +415,12 @@ description: 平日朝に arXiv 新着論文をスコアリングし配信
 
 ## 手順
 
-1. `cd ~/Claude/arxiv-digest && python3 -m src.fetch` を実行し、arXiv RSS から新着論文を取得
+1. `cd ~/Claude/arxiv-digest && python3 -m src.fetch --profile <name>` を実行し、arXiv RSS から新着論文を取得
 2. `state/today_papers.json` を読み込む
 3. プロファイルと設定を読む:
-   - `interest_profile.txt`（手書きの研究優先事項）
-   - `inspire_profile.txt`（INSPIRE 自動生成、存在する場合）
-   - `config.yaml` の `scoring_instructions` および `style`（tone, emoji_level）
+   - `profiles/<name>/interest_profile.txt`（手書きの研究優先事項）
+   - `profiles/<name>/inspire_profile.txt`（INSPIRE 自動生成、存在する場合）
+   - `profiles/<name>/config.yaml` の `scoring_instructions` および `style`（tone, emoji_level）
 4. 各論文をスコアリング（100点満点、閾値は config.yaml の scoring_threshold）:
    - 研究興味との直接的な重なり → 高スコア
    - 共同研究者の論文 → 高スコア
@@ -433,10 +431,10 @@ description: 平日朝に arXiv 新着論文をスコアリングし配信
    - 要約: 技術的内容の簡潔な説明
    - 絵文字の量は config.yaml の style.emoji_level に従う（none/light/moderate/heavy）
 6. スコア結果を `state/scored_papers.json` に JSON で書き出す（各論文に score, reason, summary を付与）
-7. `python3 -m src.post` を実行し、scored_papers.json を読んでチャンネルに配信
+7. `python3 -m src.post --profile <name>` を実行し、scored_papers.json を読んでチャンネルに配信
 
 ## 注意
-- config.yaml のチャンネル設定に従って配信
+- profiles/<name>/config.yaml + ルート config.yaml のマージ設定に従って配信
 - 環境変数（MASTODON_ACCESS_TOKEN 等）が設定されていること
 - 土日は arXiv 更新なし（fetch が自動スキップ）
 ```

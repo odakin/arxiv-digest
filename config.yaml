@@ -1,26 +1,28 @@
-# config.yaml — arXiv digest configuration
-# This is odakin's live config. Template users: overwrite with your own settings.
+# config.yaml — arXiv digest default configuration
+# Template users: edit this file with your own settings.
+# Multi-profile users: put per-profile overrides in profiles/<name>/config.yaml
 
 # --- Basic settings ---
-language: ja                    # Language for recommendations/summaries (ja / en)
+language: en                    # Language for recommendations/summaries (ja / en)
 scoring_threshold: 80           # Deliver papers scoring this or above (0-100)
 scoring_model: claude-sonnet-4-6  # Model for scoring (Mode A only)
 
 # --- arXiv categories ---
+# See https://arxiv.org/category_taxonomy for full list
 arxiv_categories:
   - hep-ph
-  - hep-th
-  - gr-qc
-  - astro-ph.CO
-  - quant-ph
+  # - hep-th
+  # - gr-qc
+  # - astro-ph.CO
+  # - cond-mat.str-el
 
 # --- Delivery channels ---
 channels:
   mastodon:
-    enabled: true
-    instance: "https://social.vivaldi.net"
-    bot_account: "odakinarxiv"
-    mention_target: "@odakin@social.vivaldi.net"
+    enabled: false
+    instance: "https://mastodon.social"
+    bot_account: "your_bot"
+    mention_target: "@you@mastodon.social"
     # access_token: set via env var MASTODON_ACCESS_TOKEN
 
   bluesky:
@@ -41,8 +43,8 @@ channels:
 
 # --- Writing style ---
 style:
-  tone: casual                  # casual / formal / neutral
-  emoji_level: heavy            # none / light / moderate / heavy
+  tone: neutral                 # casual / formal / neutral
+  emoji_level: moderate         # none / light / moderate / heavy
   # emoji_level guide:
   #   none: no emojis at all
   #   light: 1-2 per recommendation
@@ -50,6 +52,5 @@ style:
   #   heavy: 5+ per recommendation, 2-3 per summary
 
 # --- Additional scoring instructions (optional, free-form) ---
-# Use this for any extra rules not covered by the above settings.
-scoring_instructions: |
-  - 「先生」は絶対に使わない
+# scoring_instructions: |
+#   - Example: prioritize papers from my collaborators

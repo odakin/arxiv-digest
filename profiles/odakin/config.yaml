@@ -1,0 +1,25 @@
+# profiles/odakin/config.yaml — odakin's profile-specific overrides
+# Merged on top of root config.yaml when using --profile odakin
+
+language: ja
+
+arxiv_categories:
+  - hep-ph
+  - hep-th
+  - gr-qc
+  - astro-ph.CO
+  - quant-ph
+
+channels:
+  mastodon:
+    enabled: true
+    instance: "https://social.vivaldi.net"
+    bot_account: "odakinarxiv"
+    mention_target: "@odakin@social.vivaldi.net"
+
+style:
+  tone: casual
+  emoji_level: heavy
+
+scoring_instructions: |
+  - 「先生」は絶対に使わない

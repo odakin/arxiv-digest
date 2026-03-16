@@ -19,7 +19,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run digest
-        run: python3 -m src.main
+        run: python3 -m src.main --profile odakin
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           MASTODON_ACCESS_TOKEN: ${{ secrets.MASTODON_ACCESS_TOKEN }}

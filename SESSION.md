@@ -36,6 +36,7 @@
 - [x] 閾値デフォルト 75→80 に変更
 - [x] エラー通知（try/except + チャンネル通知 + SKILL.md 報告指示）
 - [x] マルチプロファイル対応（profiles/ ディレクトリ + --profile フラグ）
+- [x] odakin を profiles/odakin/ に移行（ルート config.yaml をテンプレート化）
 - [ ] Bluesky / Discord / Slack チャンネル追加
 
 ## 次のステップ
@@ -49,6 +50,8 @@
 - 2026-03-16: デフォルト閾値を80点に変更
 - 2026-03-16: エラー通知機能追加（チャンネル経由 + SKILL.md エラー報告指示）
 - 2026-03-16: マルチプロファイル対応（profiles/<name>/ + --profile フラグ、後方互換）
+- 2026-03-16: odakin を profiles/odakin/ に移行、ルート config.yaml をテンプレートデフォルト化
+- 2026-03-16: odakin の固有設定は常に公開（profiles/odakin/ をコミット）
 
 ## 作業ログ
 ### 2026-03-16
@@ -72,3 +75,9 @@
   - `python3 -m src.main --profile ogawa` で profiles/ogawa/ の設定・プロファイルを使用
   - --profile なしは後方互換（ルート直下のファイルを使用）
   - profiles/ogawa/ にテスト用プロファイルを生成して動作確認
+- odakin を profiles/odakin/ に完全移行
+  - profiles/odakin/config.yaml に固有設定（言語、カテゴリ、Mastodon、style、scoring_instructions）
+  - ルート config.yaml をテンプレートデフォルト化（英語、チャンネル無効、neutral スタイル）
+  - .github/workflows/digest.yml に --profile odakin 追加
+  - skill/SKILL.md + installed scheduled tasks に --profile odakin 追加
+  - CLAUDE.md §4, §6, §8, §9, §10 をプロファイルベースに更新

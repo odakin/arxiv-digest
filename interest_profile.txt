@@ -1,25 +1,20 @@
-Research Interest Profile: Kin-ya Oda (尾田欣也)
+Research Interest Profile: [Your Name]
 
-Affiliation: Tokyo Women's Christian University, Department of Information and Sciences
+Affiliation: [Your University/Institute]
 
-最優先: 波束形式（Gaussian wave-packet formalism）＋小川コラボ
-  量子基礎論・不確定性関係・squeezed coherent states
-  共同研究者: 石川健三、西脇健二、和田純太郎、三谷はるひ、小川直也
+Top priority: [Your main research topic]
+  Collaborators: [Key collaborators]
 
-コアトピック:
-- Einstein-Cartan / teleparallel 重力、vierbein formulation、hidden local Lorentz symmetry
-- Higgs inflation（metric, Palatini, Starobinsky, multicritical-point principle）
-- Higgs portal DM、gravitational production、axion dark matter
-- 余剰次元（UED, Kaluza-Klein, Dirichlet Higgs）
-- ニュートリノ質量模型、BSM 現象論
-- 回転ブラックホール・Hawking radiation・TeV-scale gravity
-- ベイズ統計（中性子寿命等の物理計測への応用）
-- Emergent gravity、scale-invariant gravity、Jordan-Brans-Dicke theory
+Core topics:
+- [Topic 1]
+- [Topic 2]
+- [Topic 3]
+- [Topic 4]
 
-arXiv カテゴリ: hep-ph, hep-th, gr-qc, astro-ph.CO, quant-ph
+arXiv categories: [e.g. hep-ph, hep-th, gr-qc]
 
 When scoring papers, consider:
 1. Direct overlap with the above themes (highest relevance)
 2. Papers by frequent collaborators (high relevance)
 3. New methods or results applicable to the above themes (moderate relevance)
-4. General developments in hep-ph/hep-th that could impact the above (lower relevance)
+4. General developments in your field (lower relevance)

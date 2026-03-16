@@ -7,12 +7,12 @@ arXiv 日刊ダイジェストを実行する。
 
 ## 手順
 
-1. `cd ~/Claude/arxiv-digest && python3 -m src.fetch` を実行し、arXiv RSS から新着論文を取得
+1. `cd ~/Claude/arxiv-digest && python3 -m src.fetch --profile odakin` を実行し、arXiv RSS から新着論文を取得
 2. `state/today_papers.json` を読み込む
 3. プロファイルと設定を読む:
-   - `interest_profile.txt`（手書きの研究優先事項）
-   - `inspire_profile.txt`（INSPIRE 自動生成、存在する場合）
-   - `config.yaml` の `scoring_instructions` および `style`（tone, emoji_level）
+   - `profiles/odakin/interest_profile.txt`（手書きの研究優先事項）
+   - `profiles/odakin/inspire_profile.txt`（INSPIRE 自動生成）
+   - `profiles/odakin/config.yaml` の `scoring_instructions` および `style`（tone, emoji_level）
 4. 各論文をスコアリング（100点満点、閾値は config.yaml の scoring_threshold）:
    - 研究興味との直接的な重なり → 高スコア
    - 共同研究者の論文 → 高スコア
@@ -41,7 +41,7 @@ arXiv 日刊ダイジェストを実行する。
      ]
    }
    ```
-7. `python3 -m src.post` を実行し、scored_papers.json を読んでチャンネルに配信
+7. `python3 -m src.post --profile odakin` を実行し、scored_papers.json を読んでチャンネルに配信
 
 ## 注意
 - config.yaml のチャンネル設定に従って配信
