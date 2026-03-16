@@ -37,10 +37,11 @@
 - [x] エラー通知（try/except + チャンネル通知 + SKILL.md 報告指示）
 - [x] マルチプロファイル対応（profiles/ ディレクトリ + --profile フラグ）
 - [x] odakin を profiles/odakin/ に移行（ルート config.yaml をテンプレート化）
-- [ ] Bluesky / Discord / Slack チャンネル追加
+- [x] Discord チャンネル追加（Webhook 方式）
+- [ ] Bluesky / Slack チャンネル追加
 
 ## 次のステップ
-1. Bluesky / Discord / Slack チャンネル追加（フェーズ2）
+1. Bluesky / Slack チャンネル追加（フェーズ2）
 
 ## 直近の決定事項
 - 2026-03-16: プロファイルのカテゴリをティア分類（Primary >=20%, Secondary 5-20%, Peripheral <5%）
@@ -53,6 +54,7 @@
 - 2026-03-16: odakin を profiles/odakin/ に移行、ルート config.yaml をテンプレートデフォルト化
 - 2026-03-16: odakin の固有設定は常に公開（profiles/odakin/ をコミット）
 - 2026-03-16: setup_inspire に --search フラグ追加（INSPIRE 著者名検索 → BAI 自動解決）
+- 2026-03-16: Discord チャンネル実装（Webhook URL 方式、2000字制限、Markdown 対応）
 
 ## 作業ログ
 ### 2026-03-16

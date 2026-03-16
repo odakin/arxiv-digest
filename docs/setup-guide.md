@@ -80,8 +80,9 @@ Go to your repo's **Settings > Secrets and variables > Actions > New repository 
 |--------|-----------|-------------|
 | `ANTHROPIC_API_KEY` | **Yes** | Your Anthropic API key from [console.anthropic.com](https://console.anthropic.com/) |
 | `MASTODON_ACCESS_TOKEN` | If Mastodon enabled | See [Mastodon channel setup](#mastodon-channel-setup) below |
+| `DISCORD_WEBHOOK_URL` | If Discord enabled | See [Discord channel setup](#discord-channel-setup) below |
 
-> Note: Bluesky, Discord, and Slack channels are planned but not yet implemented.
+> Note: Bluesky and Slack channels are planned but not yet implemented.
 
 ### Step 5: Enable GitHub Actions
 
@@ -219,6 +220,32 @@ channels:
 
 ---
 
+## Discord Channel Setup
+
+### Create a Webhook
+
+1. Open your Discord server
+2. Go to the channel where you want papers delivered
+3. Click **Edit Channel** (gear icon) > **Integrations** > **Webhooks**
+4. Click **New Webhook**
+5. Name it (e.g. "arXiv Digest") and optionally set an avatar
+6. Click **Copy Webhook URL**
+
+### Configure
+
+- **Mode A (GitHub Actions)**: Add the URL as a GitHub Secret named `DISCORD_WEBHOOK_URL`
+- **Mode B (Local)**: Set the environment variable: `export DISCORD_WEBHOOK_URL="https://discord.com/api/webhooks/..."`
+
+In `config.yaml`, set:
+```yaml
+channels:
+  discord:
+    enabled: true
+    username: "arXiv Digest"   # Bot display name (optional, default: "arXiv Digest")
+```
+
+---
+
 ## Troubleshooting
 
 ### No papers found
@@ -334,8 +361,9 @@ INSPIRE-HEP に著者プロファイル（BAI）がある場合:
 |-----------|--------|------|
 | `ANTHROPIC_API_KEY` | **必須** | [console.anthropic.com](https://console.anthropic.com/) の API キー |
 | `MASTODON_ACCESS_TOKEN` | Mastodon 使用時 | 下記 [Mastodon チャンネルセットアップ](#mastodon-チャンネルセットアップ) 参照 |
+| `DISCORD_WEBHOOK_URL` | Discord 使用時 | 下記 [Discord チャンネルセットアップ](#discord-チャンネルセットアップ) 参照 |
 
-> 注: Bluesky、Discord、Slack チャンネルは計画中で未実装です。
+> 注: Bluesky、Slack チャンネルは計画中で未実装です。
 
 ### ステップ 5: GitHub Actions を有効化
 
@@ -469,6 +497,32 @@ channels:
     enabled: true
     instance: "https://mstdn.jp"          # あなたのインスタンス URL
     mention_target: "@you@mstdn.jp"       # メンション先（任意）
+```
+
+---
+
+## Discord チャンネルセットアップ
+
+### Webhook の作成
+
+1. Discord サーバーを開く
+2. 論文を配信したいチャンネルに移動
+3. **チャンネル編集**（歯車アイコン）> **連携サービス** > **ウェブフック** をクリック
+4. **新しいウェブフック** をクリック
+5. 名前を入力（例: "arXiv Digest"）、アバターは任意
+6. **ウェブフック URL をコピー** をクリック
+
+### 設定
+
+- **モード A（GitHub Actions）**: `DISCORD_WEBHOOK_URL` として GitHub Secret に追加
+- **モード B（ローカル）**: 環境変数を設定: `export DISCORD_WEBHOOK_URL="https://discord.com/api/webhooks/..."`
+
+`config.yaml` で以下を設定:
+```yaml
+channels:
+  discord:
+    enabled: true
+    username: "arXiv Digest"   # ボット表示名（任意、デフォルト: "arXiv Digest"）
 ```
 
 ---

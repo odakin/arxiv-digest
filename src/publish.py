@@ -1,10 +1,12 @@
 """Dispatch scored papers to enabled delivery channels."""
 
 from .config import get_enabled_channels
+from .channels.discord import DiscordChannel
 from .channels.mastodon import MastodonChannel
 from .channels.stdout import StdoutChannel
 
 CHANNEL_CLASSES = {
+    "discord": DiscordChannel,
     "mastodon": MastodonChannel,
     "stdout": StdoutChannel,
 }

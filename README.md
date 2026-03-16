@@ -100,7 +100,7 @@ For multi-user setups, use `--profile <name>` flag with all commands. Without th
 | **Mastodon** | Access token | 500 | Available |
 | **stdout** | None | None | Available (testing) |
 | Bluesky | App password | 300 | Planned |
-| Discord | Webhook URL | 2000 | Planned |
+| **Discord** | Webhook URL | 2000 | Available |
 | Slack | Webhook URL | — | Planned |
 
 Tokens and secrets are always set via environment variables, never in `config.yaml`.
@@ -230,7 +230,7 @@ MIT
 | **Mastodon** | アクセストークン | 利用可 |
 | **stdout** | なし | 利用可（テスト用） |
 | Bluesky | App Password | 計画中 |
-| Discord | Webhook URL | 計画中 |
+| **Discord** | Webhook URL | 利用可 |
 | Slack | Webhook URL | 計画中 |
 
 ## ライセンス
