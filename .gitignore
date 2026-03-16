@@ -6,6 +6,10 @@ Thumbs.db
 *.swo
 .claude/
 
+# === Secrets ===
+.env
+.env.*
+
 # === Python ===
 __pycache__/
 *.pyc
