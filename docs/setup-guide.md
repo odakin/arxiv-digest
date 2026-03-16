@@ -57,16 +57,16 @@ If you have an INSPIRE-HEP author profile (BAI):
 1. Clone your new repo locally: `git clone https://github.com/YOU/my-arxiv-digest.git`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Run: `python3 -m tools.setup_inspire YOUR.BAI.ID` (e.g. `K.Y.Oda.1`)
-4. This fetches your publication history and generates `inspire_profile.txt` (auto-generated)
-5. Edit `interest_profile.txt` to add your personal priorities (use `templates/interest_profile.txt` as a guide)
-6. Commit and push: `git add interest_profile.txt inspire_profile.txt && git commit -m "Add profiles" && git push`
+4. This fetches your publication history and generates `profiles/default/inspire_profile.txt`
+5. Edit `profiles/default/interest_profile.txt` to add your personal priorities (use `templates/interest_profile.txt` as a guide)
+6. Commit and push: `git add profiles/default/ && git commit -m "Add profiles" && git push`
 
 Monthly INSPIRE updates only regenerate `inspire_profile.txt` — your hand-curated `interest_profile.txt` is never overwritten.
 
 #### Path B: All Other Researchers
 
 1. Open `templates/interest_profile.txt` for the format
-2. Edit `interest_profile.txt` in the root directory (overwrite the existing one)
+2. Edit `profiles/default/interest_profile.txt` with your research interests
 3. Fill in your name, affiliation, research topics, collaborators, and arXiv categories
 4. You can do this directly in GitHub's web editor — no local clone needed
 5. You don't need `inspire_profile.txt` at all
@@ -129,16 +129,16 @@ cd ~/Claude/arxiv-digest
 
 ### Step 2: Edit Configuration
 
-Edit `config.yaml` and create your profile(s) as described in Mode A Steps 2-3 above.
+Edit `config.yaml` and create your profile in `profiles/default/` as described in Mode A Steps 2-3 above.
 
 For INSPIRE users, auto-generate the statistics profile:
 
 ```bash
 pip install -r requirements.txt
-python3 -m tools.setup_inspire YOUR.BAI.ID  # generates inspire_profile.txt
+python3 -m tools.setup_inspire YOUR.BAI.ID  # generates profiles/default/inspire_profile.txt
 ```
 
-Then edit `interest_profile.txt` with your personal priorities, or use `templates/interest_profile.txt` as a guide.
+Then edit `profiles/default/interest_profile.txt` with your personal priorities, or use `templates/interest_profile.txt` as a guide.
 
 ### Step 3: Set Environment Variables
 
@@ -313,16 +313,16 @@ INSPIRE-HEP に著者プロファイル（BAI）がある場合:
 1. リポをローカルにクローン: `git clone https://github.com/YOU/my-arxiv-digest.git`
 2. 依存パッケージをインストール: `pip install -r requirements.txt`
 3. 実行: `python3 -m tools.setup_inspire YOUR.BAI.ID`（例: `K.Y.Oda.1`）
-4. INSPIRE から出版履歴を取得し、`inspire_profile.txt` を自動生成
-5. `interest_profile.txt` に個人的な優先事項を記入（`templates/interest_profile.txt` を参考に）
-6. コミット & プッシュ: `git add interest_profile.txt inspire_profile.txt && git commit -m "Add profiles" && git push`
+4. INSPIRE から出版履歴を取得し、`profiles/default/inspire_profile.txt` を自動生成
+5. `profiles/default/interest_profile.txt` に個人的な優先事項を記入（`templates/interest_profile.txt` を参考に）
+6. コミット & プッシュ: `git add profiles/default/ && git commit -m "Add profiles" && git push`
 
 月次 INSPIRE 更新は `inspire_profile.txt` のみ上書き。手書きの `interest_profile.txt` は一切触りません。
 
 #### パス B: その他の研究者
 
 1. `templates/interest_profile.txt` のフォーマットを参考にする
-2. ルートディレクトリの `interest_profile.txt` を自分のプロファイルで上書き
+2. `profiles/default/interest_profile.txt` を自分のプロファイルで編集
 3. 名前、所属、研究トピック、共同研究者、arXiv カテゴリを記入
 4. GitHub の Web エディタで直接編集可能（ローカルクローン不要）
 5. `inspire_profile.txt` は不要
@@ -385,16 +385,16 @@ cd ~/Claude/arxiv-digest
 
 ### ステップ 2: 設定を編集
 
-モード A のステップ 2-3 と同じ手順で `config.yaml` と研究プロファイルを設定。
+モード A のステップ 2-3 と同じ手順で `config.yaml` と `profiles/default/` の研究プロファイルを設定。
 
 INSPIRE ユーザーは統計プロファイルを自動生成できます:
 
 ```bash
 pip install -r requirements.txt
-python3 -m tools.setup_inspire YOUR.BAI.ID  # inspire_profile.txt を生成
+python3 -m tools.setup_inspire YOUR.BAI.ID  # profiles/default/inspire_profile.txt を生成
 ```
 
-`interest_profile.txt` は `templates/interest_profile.txt` を参考に個人的な優先事項を記入。
+`profiles/default/interest_profile.txt` は `templates/interest_profile.txt` を参考に個人的な優先事項を記入。
 
 ### ステップ 3: 環境変数を設定
 
