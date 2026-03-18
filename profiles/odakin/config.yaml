@@ -3,6 +3,7 @@
 
 inspire_bai: K.Y.Oda.1
 language: ja
+scoring_threshold: 90
 
 arxiv_categories:
   - hep-ph
