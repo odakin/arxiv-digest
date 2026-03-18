@@ -60,7 +60,7 @@ def main():
             "total_papers": len(papers),
             "profile": profile,
             "config": {
-                "scoring_threshold": config.get("scoring_threshold", 80),
+                "scoring_threshold": config.get("scoring_threshold", 85),
                 "language": config.get("language", "en"),
                 "scoring_instructions": config.get("scoring_instructions", ""),
             },

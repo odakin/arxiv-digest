@@ -98,3 +98,8 @@
 - 手動ダイジェスト配信: 197件取得 → 11件スコア80以上 → Mastodon 12件投稿
 - 整合性修正: CLAUDE.md パイプライン記述を実モジュール名に修正、SKILL.md ステップ0 簡素化
 - GitHub Secrets 設定（ANTHROPIC_API_KEY, MASTODON_ACCESS_TOKEN）— Mode A フォールバック用
+- Mastodon トークン不一致バグ修正: `mastodon.py` に `_verify_token_owner()` 追加（bot_account と token 所有者の照合）
+- `publish.py` に `scoring_threshold` フィルタ追加（閾値未満の論文が投稿されるバグを修正）
+- デフォルト閾値を 80→85 に統一（config.yaml, profiles/odakin/config.yaml, コード内フォールバック全箇所）
+- CLAUDE.md 更新: odakin 運用情報（Mode B 専用、Mastodon bot_account、トークン更新手順）追記
+- `.env` を odakinarxiv のトークンに更新

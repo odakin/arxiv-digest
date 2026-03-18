@@ -45,8 +45,11 @@ def publish(config, scored_papers, total_fetched):
         scored_papers: list of paper dicts with score, reason, summary
         total_fetched: total number of papers fetched from arXiv
     """
+    threshold = config.get("scoring_threshold", 85)
+    scored_papers = [p for p in scored_papers if p.get("score", 0) >= threshold]
+
     if not scored_papers:
-        print("No papers to publish.")
+        print(f"No papers scoring >= {threshold} to publish.")
         return
 
     language = config.get("language", "en")

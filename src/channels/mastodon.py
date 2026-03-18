@@ -14,12 +14,38 @@ class MastodonChannel(Channel):
     def __init__(self, config):
         self.instance = config["instance"]
         self.mention_target = config.get("mention_target", "")
+        self.bot_account = config.get("bot_account", "")
         self.token = os.environ.get("MASTODON_ACCESS_TOKEN")
         if not self.token:
             raise RuntimeError(
                 "MASTODON_ACCESS_TOKEN not set. "
                 f"Create an app at {self.instance}/settings/applications "
                 "and set the token as an environment variable."
+            )
+        self._verify_token_owner()
+
+    def _verify_token_owner(self):
+        """Verify that the access token belongs to the expected bot account."""
+        if not self.bot_account:
+            return
+        url = f"{self.instance}/api/v1/accounts/verify_credentials"
+        req = urllib.request.Request(
+            url,
+            headers={"Authorization": f"Bearer {self.token}"},
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+            actual = data.get("username", "")
+            if actual != self.bot_account:
+                raise RuntimeError(
+                    f"MASTODON_ACCESS_TOKEN belongs to @{actual}, "
+                    f"but bot_account is configured as @{self.bot_account}. "
+                    f"Set the correct token for @{self.bot_account}."
+                )
+        except urllib.error.URLError as e:
+            raise RuntimeError(
+                f"Failed to verify Mastodon token: {e}"
             )
 
     @property
