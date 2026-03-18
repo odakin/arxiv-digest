@@ -7,7 +7,9 @@ arXiv 日刊ダイジェストを実行する。
 
 ## 手順
 
-1. `cd ~/Claude/arxiv-digest && python3 -m src.fetch --profile odakin` を実行し、arXiv RSS から新着論文を取得
+0. 環境変数チェック: `cd ~/Claude/arxiv-digest` で移動後、`.env` ファイルが存在するか確認する。存在しない場合、`MASTODON_ACCESS_TOKEN` 等の環境変数が設定されているか `echo $MASTODON_ACCESS_TOKEN` で確認する。未設定の場合はユーザーに報告し、「.env ファイルにトークンを設定してください（docs/setup-guide.md 参照）」と案内してタスクを中断する。
+
+1. `python3 -m src.fetch --profile odakin` を実行し、arXiv RSS から新着論文を取得
 2. `state/today_papers.json` を読み込む
 3. プロファイルと設定を読む:
    - `profiles/odakin/interest_profile.txt`（手書きの研究優先事項）
@@ -46,7 +48,8 @@ arXiv 日刊ダイジェストを実行する。
 
 ## 注意
 - config.yaml のチャンネル設定に従って配信
-- 環境変数（MASTODON_ACCESS_TOKEN 等）が設定されていること
+- 環境変数（MASTODON_ACCESS_TOKEN 等）が必要。`.env` ファイル（リポルート）または shell 環境変数で設定する。`.env` は `src/post.py` が自動読み込みする
+- 新しいデバイスでは必ず `.env` ファイルを作成すること（`.env` は `.gitignore` に入っているため git clone では取得されない）
 - 土日は arXiv 更新なし（fetch が自動スキップ）
 - 日によって0件でも8件でもOK（閾値で自然に3-5件/日が目安）
 

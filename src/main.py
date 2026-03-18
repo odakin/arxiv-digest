@@ -9,7 +9,7 @@ import sys
 import traceback
 from datetime import date
 
-from .config import load_config, DEFAULT_PROFILE
+from .config import load_config, load_dotenv, check_env_vars, DEFAULT_PROFILE
 from .fetch_arxiv import fetch_new_papers
 from .profile_update import check_for_profile_updates
 from .scorer import score_papers
@@ -19,12 +19,22 @@ from .publish import publish, notify_error
 def main():
     config = None
     try:
+        # Load .env before anything else
+        load_dotenv()
+
         parser = argparse.ArgumentParser(description="arXiv digest (Mode A)")
         parser.add_argument("--profile", default=DEFAULT_PROFILE,
                             help="Profile name from profiles/ directory (default: %(default)s)")
         args = parser.parse_args()
 
         config = load_config(args.profile)
+
+        # Check for missing env vars early
+        missing = check_env_vars(config)
+        if missing:
+            for ch, var in missing:
+                print(f"WARNING: {var} is not set (required for {ch} channel).")
+            print("Publishing may fail. Set variables or create a .env file.")
         config["_profile_name"] = args.profile
         categories = config.get("arxiv_categories", [])
 

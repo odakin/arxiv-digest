@@ -9,19 +9,32 @@ import json
 import sys
 import traceback
 
-from .config import load_config, DEFAULT_PROFILE, STATE_DIR
+from .config import load_config, load_dotenv, check_env_vars, DEFAULT_PROFILE, STATE_DIR
 from .publish import publish, notify_error
 
 
 def main():
     config = None
     try:
+        # Load .env before anything else
+        load_dotenv()
+
         parser = argparse.ArgumentParser(description="Publish scored papers")
         parser.add_argument("--profile", default=DEFAULT_PROFILE,
                             help="Profile name from profiles/ directory (default: %(default)s)")
         args = parser.parse_args()
 
         config = load_config(args.profile)
+
+        # Check for missing env vars before attempting to publish
+        missing = check_env_vars(config)
+        if missing:
+            for ch, var in missing:
+                print(f"ERROR: {var} is not set (required for {ch} channel).")
+            print("\nSet the variable in your shell or create a .env file in the repo root:")
+            print("  echo 'MASTODON_ACCESS_TOKEN=your-token' >> .env")
+            print("\nSee docs/setup-guide.md for details.")
+            sys.exit(1)
 
         scored_path = STATE_DIR / "scored_papers.json"
         if not scored_path.exists():

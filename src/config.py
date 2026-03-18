@@ -1,5 +1,6 @@
 """Load configuration from config.yaml, with per-profile overrides."""
 
+import os
 from pathlib import Path
 
 import yaml
@@ -8,8 +9,59 @@ ROOT_DIR = Path(__file__).resolve().parent.parent
 CONFIG_PATH = ROOT_DIR / "config.yaml"
 PROFILES_DIR = ROOT_DIR / "profiles"
 STATE_DIR = ROOT_DIR / "state"
+DOTENV_PATH = ROOT_DIR / ".env"
 
 DEFAULT_PROFILE = "default"
+
+
+def load_dotenv():
+    """Load environment variables from .env file in the repo root.
+
+    Simple parser, no external dependencies. Supports:
+      KEY=value
+      KEY="value"
+      KEY='value'
+      # comments
+      empty lines
+
+    Variables already set in the environment are NOT overwritten.
+    """
+    if not DOTENV_PATH.exists():
+        return
+
+    with open(DOTENV_PATH, encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line or line.startswith("#"):
+                continue
+            if "=" not in line:
+                continue
+            key, _, value = line.partition("=")
+            key = key.strip()
+            value = value.strip()
+            # Remove surrounding quotes
+            if len(value) >= 2 and value[0] == value[-1] and value[0] in ('"', "'"):
+                value = value[1:-1]
+            # Don't overwrite existing env vars
+            if key not in os.environ:
+                os.environ[key] = value
+
+
+def check_env_vars(config):
+    """Check that required environment variables are set for enabled channels.
+
+    Returns a list of (channel_name, var_name) tuples for missing variables.
+    """
+    required_vars = {
+        "mastodon": "MASTODON_ACCESS_TOKEN",
+        "discord": "DISCORD_WEBHOOK_URL",
+    }
+    missing = []
+    for name, settings in get_enabled_channels(config):
+        var = required_vars.get(name)
+        if var and not os.environ.get(var):
+            missing.append((name, var))
+    return missing
 
 
 def _deep_merge(base, override):

@@ -38,7 +38,7 @@ arXiv 新着論文の AI スコアリング＋自動配信システム。GitHub 
 - Python 3.9+、外部依存は `pyyaml` + `anthropic` のみ
 - コード・コメント: 英語、ユーザーとのやりとり: 日本語
 - チャンネル追加は `src/channels/base.py` の Channel クラスを継承
-- トークン類は環境変数で管理（config.yaml に書かない）
+- トークン類は環境変数で管理（config.yaml に書かない）。`.env` ファイル（リポルート）からの自動読み込みに対応（`src/config.py` の `load_dotenv()`）。shell 環境変数が `.env` より優先される
 
 ## 将来の拡張（検討中）
 

@@ -144,13 +144,27 @@ Then edit `profiles/default/interest_profile.txt` with your personal priorities,
 
 ### Step 3: Set Environment Variables
 
-Add your channel tokens to `~/.zshrc` (or `~/.bashrc`):
+Create a `.env` file in the repo root with your channel tokens:
+
+```bash
+# ~/Claude/arxiv-digest/.env
+MASTODON_ACCESS_TOKEN=your-token-here
+DISCORD_WEBHOOK_URL=https://discord.com/api/webhooks/...
+```
+
+The `.env` file is automatically loaded by `src/post.py` and `src/main.py`. It is listed in `.gitignore`, so it will not be committed to git.
+
+> **Important for multi-device setups:** The `.env` file is NOT synced by git. When setting up on a new device, you must create this file again with the correct tokens. The system will show a clear error if required tokens are missing.
+
+Alternatively, you can add tokens to `~/.zshrc` (or `~/.bashrc`):
 
 ```bash
 export MASTODON_ACCESS_TOKEN="your-token-here"
 ```
 
 Then reload: `source ~/.zshrc`
+
+Environment variables set in the shell take precedence over `.env` values.
 
 ### Step 4: Install Dependencies
 
@@ -425,13 +439,27 @@ python3 -m tools.setup_inspire YOUR.BAI.ID             # BAI を直接指定
 
 ### ステップ 3: 環境変数を設定
 
-`~/.zshrc`（または `~/.bashrc`）にチャンネルトークンを追加:
+リポのルートに `.env` ファイルを作成し、チャンネルトークンを記入:
+
+```bash
+# ~/Claude/arxiv-digest/.env
+MASTODON_ACCESS_TOKEN=your-token-here
+DISCORD_WEBHOOK_URL=https://discord.com/api/webhooks/...
+```
+
+`.env` ファイルは `src/post.py` と `src/main.py` が自動的に読み込みます。`.gitignore` に含まれているため、git にはコミットされません。
+
+> **マルチデバイス運用の注意:** `.env` ファイルは git で同期されません。新しいデバイスでセットアップする際は、正しいトークンで `.env` を再作成してください。トークンが未設定の場合、明確なエラーメッセージが表示されます。
+
+代替として、`~/.zshrc`（または `~/.bashrc`）に追加することもできます:
 
 ```bash
 export MASTODON_ACCESS_TOKEN="your-token-here"
 ```
 
 反映: `source ~/.zshrc`
+
+shell の環境変数が `.env` の値より優先されます。
 
 ### ステップ 4: 依存パッケージをインストール
 
