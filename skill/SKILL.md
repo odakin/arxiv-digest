@@ -7,9 +7,7 @@ arXiv 日刊ダイジェストを実行する。
 
 ## 手順
 
-0. 環境変数チェック: `cd ~/Claude/arxiv-digest` で移動後、`.env` ファイルが存在するか確認する。存在しない場合、`MASTODON_ACCESS_TOKEN` 等の環境変数が設定されているか `echo $MASTODON_ACCESS_TOKEN` で確認する。未設定の場合はユーザーに報告し、「.env ファイルにトークンを設定してください（docs/setup-guide.md 参照）」と案内してタスクを中断する。
-
-1. `python3 -m src.fetch --profile odakin` を実行し、arXiv RSS から新着論文を取得
+1. `cd ~/Claude/arxiv-digest && python3 -m src.fetch --profile odakin` を実行し、arXiv RSS から新着論文を取得（`.env` の読み込みと環境変数チェックはコード側で自動実行される。エラー終了した場合は表示されたメッセージに従う）
 2. `state/today_papers.json` を読み込む
 3. プロファイルと設定を読む:
    - `profiles/odakin/interest_profile.txt`（手書きの研究優先事項）

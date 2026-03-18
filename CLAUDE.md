@@ -16,7 +16,7 @@ arXiv 新着論文の AI スコアリング＋自動配信システム。GitHub 
 | **A: GitHub Actions** | `src/scorer.py` → Anthropic API | ~$0.01/日 |
 | **B: ローカル Claude Code** | scheduled task が直接スコアリング | 無料（Pro Max） |
 
-共通パイプライン: `fetch_arxiv.py → [スコアリング] → publish.py → チャンネル配信`
+共通パイプライン: `src.fetch → [スコアリング] → src.post → チャンネル配信`
 
 - モード A: `python3 -m src.main --profile <name>`（全ステップ Python 内で完結）
 - モード B: `src.fetch` → Claude がスコアリング → `src.post`（`skill/SKILL.md` 参照）

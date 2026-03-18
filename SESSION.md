@@ -1,7 +1,7 @@
 # arxiv-digest Session
 
 ## 現在の状態
-**完了**: コア実装 + ドキュメント + physics-research 移行 完了、push 済み
+**完了**: コア実装 + マルチデバイス対応 + 整合性修正 完了、push 済み
 
 ### タスク進捗
 - [x] リポ作成（public: odakin/arxiv-digest、Template 設定済み）
@@ -38,11 +38,14 @@
 - [x] マルチプロファイル対応（profiles/ ディレクトリ + --profile フラグ）
 - [x] odakin を profiles/odakin/ に移行（ルート config.yaml をテンプレート化）
 - [x] Discord チャンネル追加（Webhook 方式）
+- [x] `.env` 自動読み込み + 環境変数バリデーション（マルチデバイス対応）
+- [x] `src/profile_update.py`（配信後の INSPIRE プロファイル自動更新）
+- [x] 整合性修正（CLAUDE.md パイプライン記述、SKILL.md ステップ0 簡素化）
 - [ ] Bluesky / Slack チャンネル追加
 
 ## 次のステップ
-1. Discord チャンネルの E2E テスト（Webhook + mention_target 動作確認）
-2. Bluesky / Slack チャンネル追加
+1. Bluesky / Slack チャンネル追加
+2. Discord チャンネルの E2E テスト（Webhook + mention_target 動作確認）
 
 ## 直近の決定事項
 - 2026-03-16: プロファイルのカテゴリをティア分類（Primary >=20%, Secondary 5-20%, Peripheral <5%）
@@ -85,3 +88,13 @@
   - .github/workflows/digest.yml に --profile odakin 追加
   - skill/SKILL.md + installed scheduled tasks に --profile odakin 追加
   - CLAUDE.md §4, §6, §8, §9, §10 をプロファイルベースに更新
+
+### 2026-03-18
+- マルチデバイスバグ修正: `.env` 自動読み込み（`src/config.py` の `load_dotenv()`）+ 環境変数バリデーション（`check_env_vars()`）
+  - `src/post.py`: 起動時に `.env` 読み込み + 未設定ならエラー終了
+  - `src/main.py`: 起動時に `.env` 読み込み + 未設定なら WARNING
+  - `skill/SKILL.md`: ステップ0 追加（環境変数事前チェック）→ のち簡素化（コード側で自動チェックするため）
+  - `docs/setup-guide.md`: `.env` ファイルの作成手順追加
+- 手動ダイジェスト配信: 197件取得 → 11件スコア80以上 → Mastodon 12件投稿
+- 整合性修正: CLAUDE.md パイプライン記述を実モジュール名に修正、SKILL.md ステップ0 簡素化
+- GitHub Secrets 設定（ANTHROPIC_API_KEY, MASTODON_ACCESS_TOKEN）— Mode A フォールバック用
