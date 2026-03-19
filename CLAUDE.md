@@ -42,6 +42,8 @@ arXiv 新着論文の AI スコアリング＋自動配信システム。GitHub 
 - コード・コメント: 英語、ユーザーとのやりとり: 日本語
 - チャンネル追加は `src/channels/base.py` の Channel クラスを継承
 - トークン類は環境変数で管理（config.yaml に書かない）。`.env` ファイル（リポルート）からの自動読み込みに対応（`src/config.py` の `load_dotenv()`）。shell 環境変数が `.env` より優先される
+- **Mastodon 文字数制限**: インスタンス API から自動取得（`_fetch_instance_char_limit()`）。Vivaldi Social は 1337 文字。URL は常に保護し、文字数超過時は reason → summary の順に切り詰め
+- **reason/summary 文字数**: スコアラー（Mode A: `scorer.py`、Mode B: `skill/SKILL.md`）で各最大 120 文字を指示。合計 240 文字以内
 - **Mastodon トークン更新手順**: Vivaldi Social は同一ブラウザで1アカウントのみログイン可。odakinarxiv のトークンを操作する場合は、まず odakin をログアウト → odakinarxiv でログイン → `設定 > 開発 > アプリ` でトークン確認/再生成 → 完了後 odakin に戻る
 
 ## 将来の拡張（検討中）

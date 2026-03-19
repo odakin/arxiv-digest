@@ -103,3 +103,12 @@
 - デフォルト閾値を 80→85 に統一（config.yaml, profiles/odakin/config.yaml, コード内フォールバック全箇所）
 - CLAUDE.md 更新: odakin 運用情報（Mode B 専用、Mastodon bot_account、トークン更新手順）追記
 - `.env` を odakinarxiv のトークンに更新
+
+### 2026-03-19
+- Mastodon 投稿の文字数切れ修正（Vivaldi Social でリンクが踏めない問題）:
+  - `mastodon.py`: インスタンス API から文字数上限を自動取得（`_fetch_instance_char_limit()`）。Vivaldi Social は 1337 文字（旧ハードコード 500 が原因）
+  - `mastodon.py`: URL を常に保護するスマート切り詰め（header/footer 固定、reason → summary の順に縮小）
+  - `scorer.py`: reason/summary に各最大 120 文字のガイダンス追加
+  - `skill/SKILL.md`: 同上（reason + summary 合計 240 文字以内を厳守）
+  - `README.md`: Mastodon の Character Limit を "Auto-detected from instance" に更新
+  - 今日の切れた投稿4件を削除→再投稿、全3件で URL 保護を確認

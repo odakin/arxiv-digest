@@ -127,6 +127,7 @@ arxiv-digest/
 │   ├── publish.py              # Channel dispatcher
 │   ├── config.py               # Config loader
 │   └── channels/
+│       ├── discord.py
 │       ├── mastodon.py
 │       └── stdout.py
 ├── tools/
