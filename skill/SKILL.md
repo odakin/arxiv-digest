@@ -19,9 +19,10 @@ arXiv 日刊ダイジェストを実行する。
    - 関連手法・結果 → 中スコア
    - 分野の一般的な発展 → 低スコア
 5. 閾値以上の論文について、config.yaml の language で推薦文と要約を生成:
-   - 推薦文: この論文がなぜ面白いか（文字数制限なし、config.yaml の style.tone に従う）
-   - 要約: 技術的内容の簡潔な説明
+   - 推薦文（reason）: この論文がなぜ面白いか（**最大120文字**、config.yaml の style.tone に従う）
+   - 要約（summary）: 技術的内容の簡潔な説明（**最大120文字**）
    - 絵文字の量は config.yaml の style.emoji_level に従う（none/light/moderate/heavy）
+   - Mastodon 投稿の文字数制限に収めるため、reason + summary は合計240文字以内を厳守
 6. スコア結果を `state/scored_papers.json` に JSON で書き出す:
    ```json
    {

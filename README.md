@@ -97,7 +97,7 @@ For multi-user setups, use `--profile <name>` flag with all commands. Without th
 
 | Channel | Auth | Character Limit | Status |
 |---------|------|----------------|--------|
-| **Mastodon** | Access token | 500 | Available |
+| **Mastodon** | Access token | Auto-detected from instance | Available |
 | **stdout** | None | None | Available (testing) |
 | Bluesky | App password | 300 | Planned |
 | **Discord** | Webhook URL | 2000 | Available |

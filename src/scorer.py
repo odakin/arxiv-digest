@@ -78,10 +78,10 @@ def score_papers(config, papers):
 - General developments in the field → low score
 
 ## Output Format
-For each paper scoring {threshold} or above, output in {lang_name} (no character limit):
+For each paper scoring {threshold} or above, output in {lang_name}:
 - score: 0-100
-- reason: recommendation text (why this paper is interesting, {tone_desc}). Emoji: {emoji_desc}
-- summary: technical summary (concise explanation). Emoji: {emoji_desc}
+- reason: recommendation text, max 120 chars (why this paper is interesting, {tone_desc}). Emoji: {emoji_desc}
+- summary: technical summary, max 120 chars (concise explanation). Emoji: {emoji_desc}
 
 {f"## Additional Instructions{chr(10)}{extra_instructions}" if extra_instructions else ""}
 
