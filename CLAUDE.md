@@ -30,6 +30,17 @@ Discord 数値 ID と subscriber identity の正本は `research-collab/collabor
 
 **新マシン setup**: `research-collab` を clone + `git-crypt unlock` (手順は `~/Claude/secrets-config/CLAUDE.md`) した後、`python3 -m tools.sync_mentions` を一度実行すれば `.env` の `DISCORD_MENTION_*` エントリが自動生成される。webhook URL / API key は従来通り secrets-config の手順で別途復元。
 
+**Personal profiles outside the repo**: 上記 4 profile (`odakin` / `takeda` / `ogawa` / `onda`) の `profiles/<name>/` 実体は `~/Claude/odakin-prefs/arxiv-digest-profiles/<name>/` に格納し、 public template 側 (= 本リポ) は **gitignored symlink** で参照する設計。 これは template 利用者 (e.g. fork して使う外部 contributor) が pull した際に、 彼らがアクセスできない Mastodon token / Discord webhook を要求する 4 profile を `fetch_all` / `post_all` が iteration して失敗するのを防ぐため (= 2026-05-28 山岡さん PR #3 関連で発覚、 SESSION.md 参照)。 新マシン setup 手順:
+
+```bash
+cd ~/Claude/arxiv-digest/profiles
+for p in odakin takeda ogawa onda; do
+  ln -sf "../../odakin-prefs/arxiv-digest-profiles/$p" "$p"
+done
+```
+
+相対 path なので `~/Claude/{arxiv-digest, odakin-prefs}/` の layout 前提。 `.gitignore` で 4 path が明示 ignore されているので、 symlink (or 実 dir) どちらでも `git add` 対象外。 template 利用者は自分の profile を `profiles/<own-name>/` に作るだけで、 これら 4 つは worktree に存在しない。
+
 共通パイプライン: `src.fetch_all → [スコアリング] → src.post_all → チャンネル配信 → archive/ に自動保存`
 
 `archive/{year}/{month}/{date}_{profile}.json` に scored_papers を日次保存（git 管理）。

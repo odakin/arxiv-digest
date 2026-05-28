@@ -21,3 +21,13 @@ venv/
 # === 中間生成物 ===
 papers.yaml
 state/
+
+# === Personal profiles (not part of the public template) ===
+# Maintainer's personal profiles live outside the public repo; restore
+# them via symlinks pointing to your private store (see CLAUDE.md
+# "Personal profiles outside the repo" section). Other users should not
+# inherit these — add your own profiles under profiles/<your-name>/.
+profiles/odakin
+profiles/takeda
+profiles/ogawa
+profiles/onda
