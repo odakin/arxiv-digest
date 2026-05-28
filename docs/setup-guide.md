@@ -81,6 +81,12 @@ Go to your repo's **Settings > Secrets and variables > Actions > New repository 
 | `ANTHROPIC_API_KEY` | **Yes** | Your Anthropic API key from [console.anthropic.com](https://console.anthropic.com/) |
 | `MASTODON_ACCESS_TOKEN` | If Mastodon enabled | See [Mastodon channel setup](#mastodon-channel-setup) below |
 | `DISCORD_WEBHOOK_URL` | If Discord enabled | See [Discord channel setup](#discord-channel-setup) below |
+| `EMAIL_USERNAME` | If email enabled | SMTP login (Gmail address). See [Email channel setup](#email-channel-setup) below |
+| `EMAIL_PASSWORD` | If email enabled | SMTP password or app password — env-only, never write to config |
+| `EMAIL_TO` | If email enabled | Recipient address; comma-separated for multiple recipients |
+| `EMAIL_SMTP_HOST` | Optional | Defaults to `smtp.gmail.com` |
+| `EMAIL_SMTP_PORT` | Optional | Defaults to `587` (STARTTLS) |
+| `EMAIL_FROM` | Optional | Defaults to `EMAIL_USERNAME` |
 
 > Note: Bluesky and Slack channels are planned but not yet implemented.
 
@@ -258,6 +264,51 @@ channels:
     enabled: true
     username: "arXiv Digest"   # Bot display name (optional, default: "arXiv Digest")
 ```
+
+---
+
+## Email Channel Setup
+
+Sends the digest as an HTML email via SMTP STARTTLS. Includes a plain-text fallback in `multipart/alternative`. The Subject line is RFC 2047 encoded so non-ASCII subjects render correctly across Gmail / Apple Mail / Outlook / Thunderbird.
+
+### Get an App Password (Gmail)
+
+Direct SMTP with your normal Google password is blocked. Use an App Password instead:
+
+1. Enable 2-Step Verification on your Google account: <https://myaccount.google.com/security>
+2. Generate an App Password: <https://myaccount.google.com/apppasswords>
+3. Copy the 16-character password (e.g. `abcd efgh ijkl mnop` — the spaces are decorative)
+
+For non-Gmail providers: use whatever SMTP credentials they document.
+
+### Configure
+
+- **Mode A (GitHub Actions)**: Set the GitHub Secrets listed in [Step 4](#step-4-set-github-secrets) above (`EMAIL_USERNAME`, `EMAIL_PASSWORD`, `EMAIL_TO` are required; the rest have sensible defaults).
+- **Mode B (Local)**: Add to your `.env` file:
+
+  ```bash
+  EMAIL_USERNAME=<your-sender-address>
+  EMAIL_PASSWORD=<your-app-password>
+  EMAIL_TO=<your-recipient-address>
+  # Optional overrides:
+  # EMAIL_SMTP_HOST=smtp.gmail.com
+  # EMAIL_SMTP_PORT=587
+  # EMAIL_FROM=<from-address-default-is-EMAIL_USERNAME>
+  ```
+
+In `config.yaml`, set:
+```yaml
+channels:
+  email:
+    enabled: true
+    # smtp_host / smtp_port / username / from / to may also be set here if
+    # you prefer config.yaml over env vars (precedence: config > env > default).
+    # EMAIL_PASSWORD is always env-only.
+```
+
+### Multiple recipients
+
+`EMAIL_TO` accepts a comma-separated list. RFC 5322 display names are preserved (quoted display names that contain commas — e.g. `"Last, First"` — are parsed correctly via `email.utils.getaddresses`). See `src/channels/email.py` docstring for the exact precedence rules.
 
 ---
 

@@ -244,3 +244,53 @@ python3 -m src.post --profile <new_name>
 - **(b)** Scheduled task SKILL.md step 2 前に「今日 fetch されていない active profile を自動補完」処理を追加。ただし SKILL.md 変更は backend prompt 再 sync が必要でコストあり
 
 un-defer トリガーは `odakin-prefs/next-steps.md` 「arxiv-digest scheduled task に当日追加 subscriber の catch-up 対応」参照。
+
+
+## Email チャンネル (2026-05-28、 PR #3 + polish commit)
+
+### What
+
+`src/channels/email.py` を追加 (PR #3、 tyamaoka24 さん contributor + 後続 maintainer polish commit)。 SMTP STARTTLS で HTML email を配信、 plain-text を `multipart/alternative` で同梱、 score badge を色分け (赤 ≥93 / 橙 ≥85 / 緑 それ以外)。 `src/publish.py` の `CHANNEL_CLASSES` に登録、 `config.yaml` に `email:` block (default disabled) を追加、 `digest.yml` workflow に `EMAIL_*` secret 6 件を追加、 `docs/setup-guide.md` に Email Channel Setup section + Step 4 secrets table 拡張。
+
+Credential cascade は **config.yaml > env > default**、 `EMAIL_PASSWORD` のみ env-only (config 経由 leak 防止)。 multi-recipient は `EMAIL_TO` の comma-separated を `email.utils.getaddresses()` で parse (RFC 5322 quoted display name 内 comma も正しく扱う)。 Subject は `email.header.Header(subject, "utf-8")` で RFC 2047 encoding。
+
+### Why
+
+利用者リクエストに応える形で email channel を追加。 Mastodon / Discord / Slack を持たない / 使わない人 (= 多くの非 SNS 研究者) には email が最も低 friction な配信路。
+
+#### 検討した代替案と却下理由
+
+| 案 | 内容 | 却下理由 |
+|---|---|---|
+| (A) raw UTF-8 Subject (= PR initial) | `msg["Subject"] = subject` を直書き | Gmail / Apple Mail は通すが Outlook / Thunderbird で mojibake する報告あり、 RFC 2047 encoding が universal な解 |
+| (B) 単一 recipient のみ | `sendmail(from, [self.to_addr], ...)` で 1 アドレス固定 | ML / 個人複数アカウント運用で fan-out 不能、 getaddresses で multi 対応の cost は std lib のみで低 |
+| (C) `bcc` も同列 expose | `EMAIL_BCC` env var を追加 | 大半の use case (= 自分の複数アドレス、 小チーム) では `to` で足りる、 BCC が要る時点で MLM 領域で本 tool の scope 外、 後付けで追加可能 |
+| **(D, 採用) RFC 2047 Subject + multi-recipient `to` + env-only password** | 上記 minor 3 点を polish commit で適用 | universally compatible / 拡張性あり / sensitive value の config leak surface ゼロ |
+
+詳細 PR review + verification は `SESSION.md` 「2026-05-28 (`3bae379`) email delivery channel」 entry 参照。
+
+
+## Personal profiles outside the public template (2026-05-28)
+
+### What
+
+maintainer 自身の 4 profile (`odakin` / `takeda` / `ogawa` / `onda`) の実体を `~/Claude/odakin-prefs/arxiv-digest-profiles/<name>/` (layer 3) に移し、 本 repo `profiles/<name>/` は gitignored relative symlink で復元する設計に変更 (`90ebd13`)。 `.gitignore` で 4 path を explicit に列挙、 CLAUDE.md の「Personal profiles outside the repo」 section に new machine setup 1-liner を documented。
+
+### Why
+
+本 repo は GitHub Template (`isTemplate: true`)。 想定では利用者が「Use this template」 でリポを fork し自分の profile を作るが、 contributor (例: 2026-05-28 PR #3 の tyamaoka24 さん) は `git clone` で直接 working copy を取る方が自然。 すると `list_active_profiles()` (`src/config.py`) が `profiles/*` を全 scan するため、 maintainer の 4 profile も iteration 対象に取り込まれ、 `fetch_all` で union categories が肥大化 + `post_all` で channel init が必ず raise (= 利用者は `MASTODON_ACCESS_TOKEN` も `DISCORD_WEBHOOK_URL_TAKEDA` も持っていない)。 stderr エラー連発 + API budget 浪費。
+
+#### 検討した代替案と却下理由
+
+| 案 | 内容 | 却下理由 |
+|---|---|---|
+| (A) `src/config.py` に env-driven extra-profile-dir support 追加 | `ARXIV_DIGEST_EXTRA_PROFILES_DIR` env var を読んで dir 連結 | code 変更コスト + テスト面積、 symlinks で実現できる pure-filesystem 解で十分 |
+| (B) blanket `.gitignore profiles/*` + `!default` exception | 簡潔だが、 template 利用者が自分の `profiles/<own-name>/` を commit したい時に意図せず ignore | template UX を阻害 (利用者が困惑) |
+| (C) maintainer profile を全部削除して history も rewrite | 過去 archive entries も含めて force-push で消す | orphan SHA 残置リスク + 履歴破壊、 既存 archive entries は paper data のみで sensitive ではない |
+| **(D, 採用) layer 3 移設 + 4 path explicit gitignore + symlink** | maintainer の runtime は無影響、 template 利用者は `profiles/default/` のみ見える、 history は不変 | 1 つの設計判断で 3 つの懸念全部 cover、 cross-machine portable (相対 path) |
+
+#### Cross-machine portability
+
+symlink target は `../../odakin-prefs/arxiv-digest-profiles/<name>` の **相対 path** で、 `~/Claude/{arxiv-digest, odakin-prefs}/` という layout 前提に乗っかる。 layer 3 (odakin-prefs) は本 repo を持つ maintainer の全マシンで同じ layout なので invariant、 cross-machine で symlink がそのまま resolve する。 ペア commit: [`odakin-prefs@9e818d2`](https://github.com/odakin/odakin-prefs) で 4 profile dirs + 配置理由 README。
+
+detail context (= 何が壊れていたか / 修復手順 / verification) は `SESSION.md` 「2026-05-28 (`90ebd13`) maintainer の personal profile」 entry 参照。
