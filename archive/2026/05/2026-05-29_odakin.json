@@ -1,0 +1,113 @@
+{
+  "total_fetched": 183,
+  "scored_papers": [
+    {
+      "arxiv_id": "2605.27868",
+      "title": "$CP$ phase structure of QCD from functional renormalization group",
+      "authors": [
+        "Yuepeng Guan",
+        "Shinya Matsuzaki",
+        "Masatoshi Yamada"
+      ],
+      "categories": [
+        "hep-ph",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2605.27868",
+      "abstract": "We study the low-energy properties of QCD-like theories in the presence of a $P$-odd and $U(1)$ axial breaking four-fermion operator $\\left( \\bar{\\psi} \\psi \\right) \\left( \\bar{\\psi} i \\gamma_5 \\psi \\right)$. We apply the functional renormalization group for a low-energy effective theory involving the $CP$-violating operator. We find that allowing for the running gauge coupling, the $CP$-violating four-fermion interaction becomes relevant in the chirally broken phase. In the presence of a finite quark mass, the RG running of the $\\theta$-parameter is shown to be strongly suppressed toward the infrared. The present work clarifies how strong-$CP$ effects generated at UV can non-trivially be transferred to the infrared physics in QCD-like theories.",
+      "score": 95,
+      "reason": "🚨 Matsuzaki & Yamada 連名！P-odd 4-fermion FRG で θ の IR running が強く抑制される話 🔥",
+      "summary": "🧮 P-odd 4-fermion 演算子付き有効理論を FRG 解析、chirally broken 相で CP 破れが relevant 化、有限クォーク質量で θ の IR が強抑制 ✨"
+    },
+    {
+      "arxiv_id": "2605.27973",
+      "title": "Dynamical Resolution of the Cosmic Coincidence Problem in Non-Interacting Holographic Dark Energy via Einstein-Cartan Torsion",
+      "authors": [
+        "Yongjun Yun",
+        "Kyungduk Kim",
+        "Jungjai Lee"
+      ],
+      "categories": [
+        "gr-qc",
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2605.27973",
+      "abstract": "We investigate the cosmic coincidence problem in non-interacting holographic dark energy with the Hubble radius as the infrared cutoff in Einstein-Cartan gravity. In general relativity, this cutoff gives a dust-like equation of state in the non-interacting case, whereas interacting models require a phenomenological dark sector coupling and yield a constant density ratio. We show that the Einstein-Cartan torsion scalar $\\Phi$, compatible with the cosmological principle, with the self-consistent scaling behavior $\\Phi\\sim a^{-3}$, makes the density ratio $r\\equiv \\rho_m/\\rho_X$ dynamical even when the phenomenological interaction term is absent, $Q=0$. The same torsion contribution shifts the equation of state for holographic dark energy toward negative values, allowing cosmic acceleration, and realizes the observed order-unity density ratio within the weak torsion regime without tuning the holographic free parameter. Thus, Einstein-Cartan torsion provides a geometric mechanism that replaces the phenomenological dark sector interaction and offers a dynamical resolution of the cosmic coincidence problem.",
+      "score": 93,
+      "reason": "🌀 Einstein-Cartan torsion で holographic DE の coincidence problem を解消、EC×DE が動く例 ✨🎪",
+      "summary": "🌌 torsion scalar Φ∝a⁻³ が Hubble cutoff holographic DE と組み、Q=0 でも density ratio をダイナミカル化し加速膨張も実現 🪐"
+    },
+    {
+      "arxiv_id": "2605.27505",
+      "title": "On the Validity of the Effective Theory of (Multi-)Field Inflation",
+      "authors": [
+        "Andrea Ambrosi de Magistris",
+        "Alberto Salvio"
+      ],
+      "categories": [
+        "hep-th",
+        "astro-ph.CO",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2605.27505",
+      "abstract": "Motivated by trans-Planckian issues in inflation, we determine the Hilbert space and amplitudes of quantum perturbations in the general low-energy effective theory of (multi-)field inflation without relying on the sub-horizon limit. The scalar sector is the most intricate, featuring field mixings and second-class constraints, which we handle using Dirac brackets. These results enable us to estimate the magnitude of higher-derivative corrections. In the specific case of slow-roll inflation, such estimate can be expressed in terms of the first slow-roll parameter $\\epsilon$ for a given cutoff $\\Lambda$. We apply our results to several inflationary models with finite $\\Lambda$: Higgs inflation, the Starobinsky model, natural inflation and hilltop inflation.",
+      "score": 90,
+      "reason": "🚀 Higgs inflation の EFT 妥当性を slow-roll ε で正面切って詰める！Starobinsky/natural/hilltop 込みで外せん 🔥",
+      "summary": "📜 多場 inflation EFT の Hilbert 空間と振幅を Dirac bracket で構築、higher-derivative 補正を ε と Λ で評価し 4 模型に適用 ✨"
+    },
+    {
+      "arxiv_id": "2605.27727",
+      "title": "Reconstructing ACT-compatible and GW170817-compatible Einstein-Gauss-Bonnet Inflation from the Observational Indices",
+      "authors": [
+        "V. K. Oikonomou"
+      ],
+      "categories": [
+        "gr-qc",
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2605.27727",
+      "abstract": "In this work we use an inverse reconstruction technique for constructing ACT-compatible and GW170817-compatible Einstein-Gauss-Bonnet inflationary theories. From a given tensor-to-scalar ratio using the reconstruction technique, we find which scalar Gauss-Bonnet coupling function and which scalar potential can yield the given tensor-to-scalar ratio. We present the formalism and the viable theories pass a series of observational tests, including the amplitude of the scalar perturbations, which is non-trivial for Einstein-Gauss-Bonnet theories. We present four viable models of inflation that pass all the observational tests.",
+      "score": 87,
+      "reason": "🎯 r を入力に GB 結合を逆解き、ACT + GW170817 同時クリアの 4 模型を提示 🎉🌠",
+      "summary": "🌌 観測 r から scalar GB 結合と potential を逆構成、scalar 摂動振幅含む観測テストを通る Einstein-Gauss-Bonnet inflation 4 模型 ✨"
+    },
+    {
+      "arxiv_id": "2605.27519",
+      "title": "Probing Dynamical Inverse Seesaw with Low-frequency Gravitational Waves",
+      "authors": [
+        "Debasish Borah",
+        "Sounak Dutta",
+        "Partha Kumar Paul",
+        "Indrajit Saha",
+        "Narendra Sahu"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO",
+        "hep-ex",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2605.27519",
+      "abstract": "We study the possibility of probing the dynamical inverse seesaw mechanism for the origin of light neutrino masses via the detection of stochastic gravitational waves (GW) in the low-frequency regime currently being probed by pulsar timing arrays. As the lepton number-violating term in inverse seesaw typically remains in the sub-MeV ballpark, its dynamical origin naturally brings the possibility of a low-scale first-order phase transition, which can be probed at low-frequency GW experiments. We also find interesting complementarity with heavy neutral lepton searches, as GW experiments remain sensitive to parameter space with small active-sterile mixing, which is out of reach for most particle physics experiments.",
+      "score": 86,
+      "reason": "🎻 inverse seesaw の dynamical 起源を PTA バンドの低周波 GW で見るやつ、HNL 探索と相補的で美味い ✨🔭",
+      "summary": "⚡ sub-MeV LNV スケールの dynamical 起源が low-scale 1 次相転移 → 低周波 GW を生み、PTA で active-sterile 小混合領域も射程 🌐"
+    },
+    {
+      "arxiv_id": "2605.28728",
+      "title": "Linking the Gauge Hierarchy with Neutrino Masses and Dark Matter via Two-step Cosmological Selection",
+      "authors": [
+        "Jin-Lei Yang",
+        "Frank F. Deppisch"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2605.28728",
+      "abstract": "The hierarchy problem between the electroweak (EW) and Planck scales remains a central puzzle in modern physics. We discuss a promising solution operating through the cosmological selection of the EW vacuum in a multiverse landscape, where the EW scale is dynamically approached as the configuration that maximizes the vacuum energy. By extending the Standard Model with a complex scalar singlet and right-handed neutrinos, charged under a global $U(1)_{B-L}$ symmetry, the model not only explains the smallness of the EW scale. It can also account for neutrino masses via the seesaw mechanism and the matter-antimatter asymmetry via leptogenesis. In addition, it provides a viable dark matter candidate that is testable in future neutrino experiments.",
+      "score": 85,
+      "reason": "🌐 階層問題を multiverse cosmological selection で解きつつ ν 質量 + leptogenesis + DM もパッケージ ✨👀",
+      "summary": "🎯 SM に複素 scalar singlet と右巻 ν を U(1)_{B-L} で導入、EW 真空が動的選択され seesaw+leptogenesis+DM を同時供給 🔬"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "total_fetched": 183,
+  "scored_papers": [
+    {
+      "arxiv_id": "2605.28038",
+      "title": "Squeezed-slit Bohr-Einstein Interferometer",
+      "authors": [
+        "Hao-Wen Cheng",
+        "Xu-Zhao-Qiu Zeng",
+        "Yu-Chen Zhang",
+        "Yu-Hao Deng",
+        "Zhan Wu",
+        "Rui Lin",
+        "Yu-Cheng Duan",
+        "Zi-Han Chen",
+        "Jun Rui",
+        "Ming-Cheng Chen",
+        "Chao-Yang Lu",
+        "Jian-Wei Pan"
+      ],
+      "categories": [
+        "quant-ph",
+        "physics.atom-ph",
+        "physics.optics",
+        "physics.pop-ph"
+      ],
+      "url": "https://arxiv.org/abs/2605.28038",
+      "abstract": "The Einstein-Bohr recoiling-slit gedankenexperiment, a cornerstone of quantum complementarity, has long been constrained by the zero-point fluctuations of the atomic slit -- the spatial Standard Quantum Limit (SQL). Here we transcend this fundamental boundary through active quantum state engineering of a single-atom slit. By implementing a non-adiabatic quench-evolve-quench protocol, we prepare the atomic motion in a squeezed state, dynamically redistributing phase-space uncertainty to suppress which-path information and restore high-visibility interference beyond the static vacuum limit. We report an intrinsic visibility of $0.938_{-0.008}^{+0.004}$, violating the SQL ($0.819$) by over 10 standard deviations, corresponding to $7.6(2)$ dB of effective squeezing. Our work reveals Kerr-induced non-Gaussian dynamics and reinterprets the traditional interferometer as a powerful tool for continuous-variable Wigner tomography, bridging the gap between quantum foundations and advanced metrology.",
+      "score": 93,
+      "reason": "🎯 Bohr-Einstein 思考実験を atomic slit の squeezed state で SQL 超え、wave-packet × which-path 核心 ✨",
+      "summary": "単原子 slit を非断熱 quench で squeezed 化、phase-space 不確定性を再配分し which-path 抑制、SQL を 10σ 越え visibility 0.938 (7.6 dB) 🎉"
+    },
+    {
+      "arxiv_id": "2605.27653",
+      "title": "Three-fold coincidence by stimulated parametric down-conversion",
+      "authors": [
+        "Yishai Klein",
+        "Alessio D'Errico",
+        "Farid Ghobadi",
+        "Dilip Paneru",
+        "Nazanin Dehghan",
+        "Eliahu Cohen",
+        "Ebrahim Karimi"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2605.27653",
+      "abstract": "Parametric down-conversion is a widely used source of nonclassical light in quantum optics and photonic quantum technologies. While stimulated parametric down-conversion with strong classical seeds is well studied, the regime in which stimulation occurs at the single-photon level has hitherto remained largely unexplored experimentally. Here, we study continuous-wave, low-gain down-conversion seeded by a weak coherent field with an average photon number well below one per coherence time. By measuring third-order temporal correlations, we observe a clear enhancement that cannot be accounted for by spontaneous processes or accidental coincidences alone, and is consistent with stimulation involving the seed and the generated photon pair. These results provide time-domain evidence of seed-induced three-photon correlations and suggest new ways to engineer and probe multi-photon states for quantum imaging, sensing, and information processing.",
+      "score": 91,
+      "reason": "🎉 SPDC を single-photon level の弱 coherent seed で stimulate、3 次相関で seed-induced 増強を時間領域で実証 ✨",
+      "summary": "CW・低 gain SPDC を平均光子数 ≪1 の弱 coherent で seed、third-order 時間相関で偶然一致では説明できない増強を観測、stimulation を実証 🔬"
+    }
+  ]
+}

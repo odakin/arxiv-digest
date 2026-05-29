@@ -1,0 +1,70 @@
+{
+  "total_fetched": 183,
+  "scored_papers": [
+    {
+      "arxiv_id": "2605.27727",
+      "title": "Reconstructing ACT-compatible and GW170817-compatible Einstein-Gauss-Bonnet Inflation from the Observational Indices",
+      "authors": [
+        "V. K. Oikonomou"
+      ],
+      "categories": [
+        "gr-qc",
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2605.27727",
+      "abstract": "In this work we use an inverse reconstruction technique for constructing ACT-compatible and GW170817-compatible Einstein-Gauss-Bonnet inflationary theories. From a given tensor-to-scalar ratio using the reconstruction technique, we find which scalar Gauss-Bonnet coupling function and which scalar potential can yield the given tensor-to-scalar ratio. We present the formalism and the viable theories pass a series of observational tests, including the amplitude of the scalar perturbations, which is non-trivial for Einstein-Gauss-Bonnet theories. We present four viable models of inflation that pass all the observational tests.",
+      "score": 88,
+      "reason": "🎯 ACT + GW170817 同時整合 EGB inflation 4 模型を逆解きで提示、r 観測の LiteBIRD 標的にハマる ✨",
+      "summary": "🌌 観測 r から scalar GB 結合と potential を逆構成、scalar 摂動振幅含む観測テストを通る Einstein-Gauss-Bonnet inflation 4 模型 🚀"
+    },
+    {
+      "arxiv_id": "2605.28804",
+      "title": "Whispers of Supergravity in Gravitational Wave Backgrounds: Determining the Gravitino Mass from Cosmic Thermal History",
+      "authors": [
+        "Angus Spalding",
+        "Stephen F. King"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2605.28804",
+      "abstract": "Gravitino masses above the electroweak scale provide the simplest solution to the gravitino problem, but such large mass scales lie far beyond the reach of collider experiments. We show that the stochastic gravitational wave background offers a direct probe of this otherwise inaccessible regime. Despite decaying before Big-Bang Nucleosynthesis (BBN), these gravitinos naturally generate a period of early matter domination in the early universe. This non-standard epoch leaves a characteristic imprint on any primordial gravitational wave background, characterised by two frequencies corresponding to the onset and end of this phase. We demonstrate that these features can be used to directly infer both the gravitino mass and its initial abundance in a direct mapping. Future gravitational wave observatories span a vast frequency range, enabling sensitivity to gravitino masses from the BBN bound of $\\mathcal{O}(100)\\,\\text{TeV}$ all the way up to $\\mathcal{O}(10^{10})\\,\\text{TeV}$, with recent signal by NANOGrav already probing masses in the range $500$-$10^4$ TeV. Gravitational wave observables therefore probe an enormous region of parameter space, far beyond the reach of collider experiments. We are entering an era in which supergravity can be probed through gravitational wave backgrounds alongside collider experiments.",
+      "score": 87,
+      "reason": "🎻 EW スケール超の重 gravitino mass を primordial GW background の刻印から直接推定、CMB との相補性も ✨",
+      "summary": "BBN 前 decay する重 gravitino が early matter domination 期を作り primordial GW spectrum に onset/end 2 周波を刻印、mass を直接 mapping 🌠"
+    },
+    {
+      "arxiv_id": "2605.28797",
+      "title": "Entropic backreaction from cosmic structure formation: a thermodynamic approach to the late-time cosmological tensions",
+      "authors": [
+        "Biswajit Pandey"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2605.28797",
+      "abstract": "High-precision cosmological observations have revealed persistent tensions within the standard $\\Lambda$CDM paradigm, most notably the discrepancy in the Hubble constant and the lower than predicted amplitude of late-time matter clustering quantified by $S_8$. We propose a unified thermodynamic framework in which entropic backreaction generated during cosmic structure formation modifies both the background expansion history and the growth of matter perturbations. As gravitational instability drives the growth of cosmic structures, the configuration entropy associated with the matter distribution decreases through the nonlinear redistribution of gravitational binding energy. The resulting entropic energy density contributes a late-time backreaction that enhances the cosmic expansion rate without altering early-Universe physics or the CMB sound horizon. Simultaneously, the same irreversible entropy dissipation process induces a dissipative correction within the cosmic velocity flow, suppressing the efficiency of coherent gravitational clustering at late times. The framework operates entirely within standard General Relativity: the Einstein field equations, Poisson equation, and gravitational coupling remain unmodified, and no new propagating degrees of freedom or fifth forces are introduced. Entropic backreaction therefore provides a thermodynamically motivated, theoretically conservative, and observationally testable mechanism that may simultaneously alleviate the major late-time cosmological tensions.",
+      "score": 86,
+      "reason": "🌡️ H0 と S8 の late-time tension を構造形成 entropic backreaction で同時説明する熱力学 framework ✨",
+      "summary": "structure 成長による configuration entropy 減少を late-time backreaction として加え、expansion up + clustering 抑制で両 tension を緩和 🌀"
+    },
+    {
+      "arxiv_id": "2605.27910",
+      "title": "Matching second-order classical and 1-loop quantum tensor power spectra in de Sitter spacetime",
+      "authors": [
+        "A. Hauser",
+        "M. Laine"
+      ],
+      "categories": [
+        "hep-ph",
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2605.27910",
+      "abstract": "Large corrections to the inflationary tensor power spectrum have been speculated to emerge either as second-order scalar-induced classical effects, or as 1-loop quantum corrections. These two sources are not independent of each other. Choosing the example of a massless minimally coupled scalar field, we show how the full 1-loop result can be divided into its classical and vacuum parts. Working first in dimensional regularization, we show that the classical part is IR divergent, with IR referring to small comoving momenta that have an influence for a very long time. In the full 1-loop quantum result, these divergences cancel. Introducing then a momentum cutoff that permits for a numerical evaluation of the classical contribution, we show that the IR sensitivity manifests itself as a cubic divergence. We suggest a procedure of \"non-perturbative renormalization\" for extracting physical information not affected by the divergence. If this can be implemented in realistic systems, it could consolidate numerical studies of inflationary scalar-induced gravitational waves.",
+      "score": 85,
+      "reason": "📐 inflationary tensor power の 2 次古典補正と 1-loop 量子補正を統一視点で分離、IR 発散 cancel まで追跡 ✨",
+      "summary": "dim reg では classical 部分が IR divergent だが full 1-loop で cancel、cutoff 評価では cubic 依存として再出現、r 観測影響に直結 🔍"
+    }
+  ]
+}

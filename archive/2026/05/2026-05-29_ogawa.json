@@ -1,0 +1,50 @@
+{
+  "total_fetched": 183,
+  "scored_papers": [
+    {
+      "arxiv_id": "2605.28038",
+      "title": "Squeezed-slit Bohr-Einstein Interferometer",
+      "authors": [
+        "Hao-Wen Cheng",
+        "Xu-Zhao-Qiu Zeng",
+        "Yu-Chen Zhang",
+        "Yu-Hao Deng",
+        "Zhan Wu",
+        "Rui Lin",
+        "Yu-Cheng Duan",
+        "Zi-Han Chen",
+        "Jun Rui",
+        "Ming-Cheng Chen",
+        "Chao-Yang Lu",
+        "Jian-Wei Pan"
+      ],
+      "categories": [
+        "quant-ph",
+        "physics.atom-ph",
+        "physics.optics",
+        "physics.pop-ph"
+      ],
+      "url": "https://arxiv.org/abs/2605.28038",
+      "abstract": "The Einstein-Bohr recoiling-slit gedankenexperiment, a cornerstone of quantum complementarity, has long been constrained by the zero-point fluctuations of the atomic slit -- the spatial Standard Quantum Limit (SQL). Here we transcend this fundamental boundary through active quantum state engineering of a single-atom slit. By implementing a non-adiabatic quench-evolve-quench protocol, we prepare the atomic motion in a squeezed state, dynamically redistributing phase-space uncertainty to suppress which-path information and restore high-visibility interference beyond the static vacuum limit. We report an intrinsic visibility of $0.938_{-0.008}^{+0.004}$, violating the SQL ($0.819$) by over 10 standard deviations, corresponding to $7.6(2)$ dB of effective squeezing. Our work reveals Kerr-induced non-Gaussian dynamics and reinterprets the traditional interferometer as a powerful tool for continuous-variable Wigner tomography, bridging the gap between quantum foundations and advanced metrology.",
+      "score": 94,
+      "reason": "🎯 Bohr-Einstein 思考実験を atomic slit の squeezed state で SQL 超え、wave-packet × 相補性の核心に直撃 ✨",
+      "summary": "単原子 slit を非断熱 quench で squeezed 化、phase-space 不確定性を再配分し which-path 抑制、SQL を 10σ 越え visibility 0.938 (7.6 dB) 🎉"
+    },
+    {
+      "arxiv_id": "2605.27423",
+      "title": "Quantum Speed Limit under Calibration Uncertainty",
+      "authors": [
+        "Salman Sajad Wani",
+        "Saif Al-Kuwari"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2605.27423",
+      "abstract": "Standard quantum speed limits presuppose exactly known parameters, overestimating operational speed under calibration uncertainty. We introduce a projected speed limit based on the quantum Fisher information that profiles out these nuisance parameters on a quotient manifold. We derive constructive bounds for general Markovian evolution using sensitivity equations. Applying this to Jaynes--Cummings sensors, we obtain explicit detuning tolerances and quantify speed limits arising from field-dependent Purcell loss. This framework turns geometric bounds into concrete design rules for calibration and interrogation time.",
+      "score": 90,
+      "reason": "🎯 calibration uncertainty 込みの QSL、nuisance を quotient manifold で profile out する設計 ✨",
+      "summary": "QFI ベースの projected speed limit を quotient manifold 上で構築、JC sensor で detuning tolerance と Purcell loss 速度限界を評価 ✨"
+    }
+  ]
+}
