@@ -1,0 +1,74 @@
+{
+  "total_fetched": 200,
+  "scored_papers": [
+    {
+      "arxiv_id": "2605.28847",
+      "title": "New class of quantum transitions exhibiting large-scale intercorrelations: Color of the sky",
+      "authors": [
+        "Kenzo Ishikawa",
+        "Masaki Takesada"
+      ],
+      "categories": [],
+      "url": "https://arxiv.org/abs/2605.28847",
+      "abstract": "The absolute value of the transition probability of the Rayleigh scattering is computed for the first time and applied to the scattering of solar light with molecules in the atmosphere and to the laser scattering with nanopartilces. The probability has a new contribution of unique properties from long-range correlations specific to the quantum mechanics. The magnitude is sufficient to resolve longstanding puzzle on diffusion lights in the sky and anomalous photon spectrum in laser experiments. The earth's albedo from the new calculations on Rayleigh scattering agrees with observations with satelites.",
+      "score": 90,
+      "reason": "石川健三さんの新作！波束・長距離相関の量子効果がレイリー散乱に効くって話、まさにアノマラス運動効果の系譜で激アツ 🌌✨🔭",
+      "summary": "レイリー散乱の遷移確率を初計算、QM特有の長距離相関が空の散乱光やレーザー異常スペクトルの謎を解くと主張 🌈📡"
+    },
+    {
+      "arxiv_id": "2605.29370",
+      "title": "High-Quality Axion Dark Matter without Isocurvature Problem",
+      "authors": [
+        "Masahiro Kawasaki",
+        "Jie Sheng",
+        "Tsutomu T. Yanagida"
+      ],
+      "categories": [
+        "hep-ph",
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2605.29370",
+      "abstract": "Axion dark matter in high-scale inflation is subject to the isocurvature constraint, since quantum fluctuations of the axion field during inflation may exceed the current CMB bound. One conventional way to suppress these fluctuations is to assume that the Peccei-Quinn field has a large expectation value during inflation. However, this mechanism becomes ineffective when the axion domain wall number is large. In this work, we point out that a high-quality axion protected by a discrete gauge symmetry can naturally evade this problem. A Peccei-Quinn-violating but gauge-invariant operator induces a large effective axion mass during inflation, thereby suppressing the axion fluctuation. The same setup can address both the axion quality problem and the isocurvature problem, while leading to a prediction for the axion parameter space to be verified in future experiments.",
+      "score": 88,
+      "reason": "高スケールインフレでのアクシオンDMのisocurvature問題を離散ゲージ対称性で回避！インフレ×アクシオンDMど真ん中 🪐🌀✨",
+      "summary": "PQ場でなく離散ゲージ対称性で守られた高品質アクシオンが、インフレ中に大きな有効質量を得て揺らぎを抑制 ⚛️🌌"
+    },
+    {
+      "arxiv_id": "2605.30221",
+      "title": "Primary Constraints of Newer General Relativity",
+      "authors": [
+        "Carmen Ferrara",
+        "Alexey Golovnev",
+        "María José Guzmán"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2605.30221",
+      "abstract": "We study the primary constraint structure of Newer General Relativity, a gravity theory based on a torsionless teleparallel geometry. The gravitational action is built from a scalar formed by quadratic combinations of the nonmetricity tensor, with arbitrary coefficients $c_i$ in the Lagrangian. We decompose the Lagrangian and compute the canonical momenta conjugate to the metric. We characterize the primary constraints arising from these momenta by identifying when the map between velocities and momenta becomes non-invertible, and organize the outcome through a fully nonlinear decomposition into scalar, vector and tensor sectors. Comparing with previous results in the literature, we recover five and three primary constraints associated with the tensor and vector sectors, respectively. We also identify a previously unreported degeneracy in the scalar sector, which yields either one or two scalar primary constraints depending on the conditions imposed on the parameters $c_i$. Finally, we obtain the primary constraints associated with the covariant formulation of symmetric teleparallel gravity.",
+      "score": 86,
+      "reason": "テレパラレル重力のハミルトン解析！nonmetricity二次のNewer GRの一次拘束構造をスカラー/ベクトル/テンソルで分解 🧮🌐",
+      "summary": "計量に共役な運動量から拘束を同定、速度↔運動量写像の非可逆性で一次拘束を特徴づけ既存結果と比較 📐✨"
+    },
+    {
+      "arxiv_id": "2605.28923",
+      "title": "A Minimal Dark $SU(2)$ Origin of a Massless Dirac Neutrino",
+      "authors": [
+        "P. S. Bhupal Dev",
+        "Julia Gehrlein",
+        "Amartya Sengupta",
+        "Amarjit Soni"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2605.28923",
+      "abstract": "We propose a gauge-symmetry origin of a rank-two Dirac neutrino mass matrix that enforces one exactly massless neutrino, while being consistent with the oscillation data, as well as cosmological constraints. The mechanism relies on a minimal dark $SU(2)_D$ gauge symmetry under which one right-handed-neutrino-like Weyl fermion is charged, thereby forbidding its Standard Model Yukawa coupling. Quantum consistency then fixes the minimal dark-sector completion: Cancellation of the Witten anomaly requires a second fermionic $SU(2)_D$ doublet, while a discrete $Z_4$ symmetry that forbids Majorana masses allows the two dark doublets to form a vectorlike pair. This anomaly-free completion gives rise to a secluded, confining dark sector with a viable dark matter candidate, linking the protected neutrino texture to dark infrared dynamics.",
+      "score": 85,
+      "reason": "ダークSU(2)で右巻きニュートリノのYukawaを禁止→1つだけ厳密にmasslessなDiracニュートリノ。BSM模型として綺麗 🎯🌌",
+      "summary": "Witten anomaly相殺で2つ目のダブレット要求、Z4でMajorana禁止しvectorlike化、振動&宇宙論制約と整合 ⚛️✨"
+    }
+  ]
+}
