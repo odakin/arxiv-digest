@@ -1,0 +1,23 @@
+{
+  "total_fetched": 139,
+  "scored_papers": [
+    {
+      "arxiv_id": "2605.30688",
+      "title": "Multiparameter quantum estimation and entanglement in top--antitop quark production",
+      "authors": [
+        "Omar Bachain",
+        "Elhabib Jaloum",
+        "Mohamed Amazioug",
+        "Rachid Ahl Laamara"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2605.30688",
+      "abstract": "We investigate the interplay between quantum correlations and multiparameter quantum estimation in top--antitop quark pair production through the gluon-fusion channel. Using the spin density matrix formalism, we construct an effective two-qubit quantum state governed by the relativistic parameters associated with the scattering process. Within the framework of quantum metrology, we derive the quantum Fisher information matrix for the simultaneous estimation of the relativistic velocity parameter and the production angle, and we analyze the corresponding quantum precision bounds. Our results reveal highly nontrivial estimation regimes strongly controlled by relativistic spin correlations and scattering geometry. We further characterize the produced state through the concurrence and demonstrate the existence of strong connections between entanglement structures and multiparameter estimation sensitivity. Finally, we discuss the experimental feasibility of probing these effects at the Large Hadron Collider through spin-correlation observables and reconstructed top--antitop density matrices. Our results identify top--antitop production as a unique relativistic platform for exploring quantum information theory and multiparameter quantum metrology in high-energy physics.",
+      "score": 86,
+      "reason": "トップ対生成での量子相関×多パラメータ量子推定🎯コライダーのエンタングルメント＝波束/QFT干渉テーマ直結⚛️",
+      "summary": "グルーオン融合チャネルのtt̄をスピン密度行列で有効2量子ビット状態として扱い、量子推定と相関を解析📊"
+    }
+  ]
+}

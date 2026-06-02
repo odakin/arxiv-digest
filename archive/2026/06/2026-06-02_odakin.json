@@ -1,0 +1,80 @@
+{
+  "total_fetched": 139,
+  "scored_papers": [
+    {
+      "arxiv_id": "2605.31454",
+      "title": "Dirac-Phase CP-Violation in the Low-Scale Type-I Seesaw with Three Right-Handed Neutrinos",
+      "authors": [
+        "Alessandro Granelli",
+        "Juraj Klari'c",
+        "S. T. Petcov"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2605.31454",
+      "abstract": "We study the low-scale type-I seesaw with three right-handed neutrinos (i.e. heavy Majorana neutrinos) when the CP-violation arises solely from the low-energy Dirac phase $\\delta$ of the Pontecorvo-Maki-Nakagawa-Sakata (PMNS) neutrino mixing matrix and the heavy neutrinos have testable mixings. We derive a CP-conserving and non-real structure of the $3\\times 3$ orthogonal matrix entering the Casas-Ibarra parametrisation in terms of two real angles and one single imaginary parameter, ensuring that the only CP-violating phases in the neutrino Yukawa couplings are those of the PMNS matrix. We then focus on the case of CP-violation from $\\delta$ alone and discuss the phenomenological implications of this hypothesis. We concentrate on quasi-degenerate heavy Majorana neutrinos with masses within $\\sim (0.1-100)\\,\\text{GeV}$, as relevant for low-scale leptogenesis. Only certain subregions of the full ternary space defined by the ratios $\\Theta^2_e:\\Theta^2_\\mu:\\Theta^2_\\tau$ -- where $\\Theta^2_\\alpha$ denotes the squared coupling of the heavy neutrinos to leptons of flavour $\\alpha = e,\\,\\mu,\\,\\tau$ -- are compatible with Dirac-phase CP-violation while being testable at collider experiments. Our assumption also implies specific forms of the effective Majorana mass parameter that can be tested at neutrinoless double-beta decay searches. Finally, low-scale leptogenesis under this restrictive scenario can still reproduce the observed baryon asymmetry of the Universe (BAU) in the entire testable region of the parameter space. The BAU vanishes in the exact limit of CP-conserving values of the Dirac phase $\\delta = 0,\\,\\pi,\\,2\\pi$, but the observed BAU can be reproduced within the testable region even if $\\delta$ deviates from these values by a factor as small as $\\mathcal{O}(10^{-5})$, with important implications for ultraviolet completions with approximate CP-symmetry.",
+      "score": 86,
+      "reason": "低スケールType-Iシーソー＋3つの右巻きニュートリノ⚖️CP破れがディラック位相δのみ由来、BSM直球⚡️🌟",
+      "summary": "低エネルギーディラック位相δのみがCP破れ源となる検証可能な重Majoranaニュートリノ混合のCP保存条件を導出🧮⚛️"
+    },
+    {
+      "arxiv_id": "2605.30411",
+      "title": "Axions Create Singularities on Extremal Horizons",
+      "authors": [
+        "Gary T. Horowitz",
+        "Maciej Kolanowski",
+        "Grant N. Remmen",
+        "Jorge E. Santos"
+      ],
+      "categories": [
+        "hep-th",
+        "astro-ph.HE",
+        "gr-qc",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2605.30411",
+      "abstract": "We show that axions cause extremal black holes to have singular horizons. This is true for almost all values of the axion mass and coupling provided the black hole is rotating and has some arbitrarily small nonzero charge. When the axion mass becomes large, these singularities are related to the recently discovered singularities induced by higher-derivative corrections to the Einstein-Maxwell equations. Away from extremality, this effect produces anomalously large tidal forces in the vicinity of near-extremal horizons, causing breakdown of the effective theory.",
+      "score": 85,
+      "reason": "アクシオンが回転帯電ブラックホールの極限ホライズンを特異にする🌀⚫️軸DM×回転BHの交差テーマど真ん中✨",
+      "summary": "任意のアクシオン質量・結合で、微小電荷を持つ回転極限BHのホライズンが特異になることを示した🔥🌌"
+    },
+    {
+      "arxiv_id": "2605.30419",
+      "title": "New quantum information perspectives in the axion--photon and neutrino systems",
+      "authors": [
+        "Aaditya Datar",
+        "Arun M. Thalapillil",
+        "Palak Thareja"
+      ],
+      "categories": [
+        "hep-ph",
+        "hep-ex",
+        "hep-th",
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2605.30419",
+      "abstract": "In this work, we broach a quantum information-theoretic treatment of axion--photon mixing. Motivated by an emerging class of quantum-enhanced axion searches, we analyse the two-level single-excitation sector of axion--photon oscillations, demonstrating how the coupled dynamics naturally generate bipartite axion--photon mode entanglement. We study in detail the ensuing aspects of entanglement entropy, concurrence, negativity, quantum mutual information and discord, and capacity of entanglement, and the corresponding neutrino analogues wherever novel and previously unaddressed. In particular, we highlight the characteristic features that connect maximal axion--photon entanglement to resonant or strong-mixing conversion, and the distinct thresholds for the extremal values attained by the quantum information measures. We study aspects of the Mandelstam--Tamm and Margolus--Levitin quantum speed limits for both the axion--photon and neutrino systems. While orthogonalisation occurs only at axion--photon resonance, or at maximal neutrino mixing, where the two bounds coincide, away from these limits, the Margolus--Levitin bound is saturated at maximal conversion, while the Mandelstam--Tamm bound is generally weaker. We also study an entanglement quantum speed limit for axion--photon conversion, that separates into detuning-dominated and magnetic-mixing-dominated regimes, and find that it is saturated for a period and then the bound becomes weak. The results in this work identify the quantum resources and limiting timescales intrinsic to axion--photon conversion, and connect axion phenomenology, neutrino oscillations and quantum information theory.",
+      "score": 85,
+      "reason": "アクシオン-光子混合を量子情報の視点で解剖🌌量子基礎論×軸探索×ニュートリノの合わせ技で刺さる🔬✨",
+      "summary": "2準位1励起セクターでアクシオン-光子振動の二部エンタングルメント生成を解析、量子強化探索に接続⚛️🔭"
+    },
+    {
+      "arxiv_id": "2605.30975",
+      "title": "Geometric Phases as Probes of Dark Sectors",
+      "authors": [
+        "Antonio Capolupo",
+        "Gabriele Pisacane",
+        "Raoul Serao"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2605.30975",
+      "abstract": "We review recent interferometric schemes designed to probe physics beyond the Standard Model through the detection of geometric phases. We discuss how interactions with hidden-sector degrees of freedom, such as axion-like particles and mirror-matter candidates, can induce potentially observable phase shifts in ordinary fermion systems.",
+      "score": 85,
+      "reason": "幾何学的位相で隠れセクターを炙り出す干渉計スキームのレビュー🌀ALPやミラー物質×量子干渉でツボ📐✨",
+      "summary": "ALPやミラー物質との相互作用が通常物質に観測可能な位相シフトを誘起する干渉計手法を概観🔭🌟"
+    }
+  ]
+}
