@@ -1,0 +1,57 @@
+{
+  "total_fetched": 247,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.01318",
+      "title": "Entangled Two-Photon Absorption in Cesium Atoms and the Limitations of the Far-Off-Resonance Approximation",
+      "authors": [
+        "Michael Caracas N'u~nez",
+        "Dario Egloff",
+        "Mayerlin Nu~nez Portela"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.01318",
+      "abstract": "The discrepancies between theoretical and experimental results in the process of entangled two-photon absorption (ETPA) are not fully understood. Atomic systems are a promising alternative for investigating this process without the systematic effects present in molecules. We present a theoretical study of the ETPA process in cesium atoms, focusing on the 6S1/2 --> 8S1/2 transition. The ETPA cross section is evaluated both with and without the far-off-resonance (FOR) approximation, including the contributions from intermediate atomic states and decoherence effects. The quantum state of light considered is described by the joint spectral amplitude of photon-pairs produced by the spontaneous parametric down-conversion process. When the FOR approximation is applied, the enhancement factor is constant (36*pi). In contrast, without this approximation the enhancement factor oscillates with the entanglement time, and achieves a maximum value of ~500. These results show the limitations of approximations when calculating the ETPA cross section and contribute to the understanding of the discrepancies between theoretical and experimental values for the ETPA cross section in different samples. The numbers presented in this work can be a starting point for designing experiments aimed at measuring ETPA cross sections in alkali atoms.",
+      "score": 93,
+      "reason": "SPDC光子対の二光子吸収をCs原子で✨ joint spectral amplitudeで記述しFOR近似の破綻と中間状態・デコヒーレンスまで詰める、まさにtakeda直球の波束×二光子テーマ🔬⚛️",
+      "summary": "Cs 6S→8S遷移のETPA断面積をFOR近似ありなしで評価。SPDC光子対のJSAで量子状態を記述し、中間原子状態とデコヒーレンス効果を取り込む📐"
+    },
+    {
+      "arxiv_id": "2606.01005",
+      "title": "Arbitrarily precise arrival time measurements in quantum mechanics",
+      "authors": [
+        "Lawrence Frolov"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.01005",
+      "abstract": "The quantum Zeno effect is often regarded as an obstruction to precise arrival time measurements in quantum mechanics. Here, an arbitrarily precise arrival time measurement procedure is constructed using a localized detection process and a suitably chosen boundary condition. The arrival time of an incoming particle is recorded in the position of a clock particle that is emitted by the apparatus upon detection. A non-zero probability of arrival is shown to survive even in the limit as the arrival time measurement procedure is made arbitrarily precise. In this limit, it is also found that the interaction between the incoming particle and the detector is described by an absorbing boundary condition. This justifies the claim of Tumulka that absorbing boundary conditions may be used to model idealized detectors capable of registering particles at the instant of their arrival.",
+      "score": 88,
+      "reason": "量子Zeno越しに任意精度の到達時間測定を構成🎯 局所検出過程と吸収境界条件が登場、時間分解検出と非エルミート的検出模型の興味にドンピシャ⏱️✨",
+      "summary": "局所検出と境界条件で到達時間を任意精度測定する手順を構築。精密極限で検出相互作用が吸収境界条件として記述され、有限の到達確率が残ることを示す🧲"
+    },
+    {
+      "arxiv_id": "2606.02421",
+      "title": "Dynamics of the Density Cube",
+      "authors": [
+        "Nabin Bhatta",
+        "Djordje Minic",
+        "Tatsu Takeuchi"
+      ],
+      "categories": [
+        "quant-ph",
+        "hep-th",
+        "math-ph",
+        "math.MP"
+      ],
+      "url": "https://arxiv.org/abs/2606.02421",
+      "abstract": "Density cube theory extends the canonical quantum density matrix $\\rho_{ij}$ with the addition of an extra index to $\\rho_{ijk}$. The elements of the density cube with two different indices, $\\rho_{iij}$ and $\\rho_{ijj}$, correspond to the real and imaginary parts of the off-diagonal element $\\rho_{ij}$ of the density matrix and describe double-path interference, while those with three different indices describe non-canonical triple-path interference. In this letter, we propose an equation of motion for the density cube, obtained from the quantization of ternary Nambu dynamics, and find that pairs of triple-path interferences oscillate into each other.",
+      "score": 86,
+      "reason": "密度行列を密度キューブρ_ijkに拡張し二経路だけでなく三経路干渉まで記述✨ 多経路干渉と相補性の基礎論として波束形式の興味と地続き🌀⚛️",
+      "summary": "三元Nambu力学の量子化から密度キューブの運動方程式を提案。二経路干渉(ρの実虚部)に加え三経路干渉を扱い、三経路干渉のペアが互いに振動すると示す📊"
+    }
+  ]
+}

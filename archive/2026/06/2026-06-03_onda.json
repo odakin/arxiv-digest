@@ -1,0 +1,23 @@
+{
+  "total_fetched": 247,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.00411",
+      "title": "The sound of dynamical dark energy and modified gravity",
+      "authors": [
+        "Jo~ao Reboucas",
+        "Guilherme Brando",
+        "Felipe T. Falciano",
+        "Vivian Miranda"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2606.00411",
+      "abstract": "Different candidate models are able to reproduce the dynamical dark energy signal preferred by combinations of recent distance measurements. These models may be distinguished by the behavior of their perturbations, which are controlled by the effective sound speed $c_s^2(k,a)$. To explore correlations between the dark energy sound speed and perturbative behavior, we test modified gravity (MG) scenarios in which the dark energy equation of state and sound speed determine modifications to the clustering of matter. We investigate the impact of varying the dark energy sound speed on several cosmological quantities in both General Relativity (GR) and MG. We constrain the dark energy and modified gravity parameters using measurements of the Cosmic Microwave Background (CMB) from Planck PR4, type Ia supernova luminosity distances (SN) from Pantheon+, Baryon Acoustic Oscillations (BAO) from DESI DR2, and cosmic shear from DES-Y3. Using the combination of CMB+BAO+SN, we find that, in the MG scenarios, the preference for dynamical dark energy is correlated with deviations from GR over redshifts $z < 2$ at over 95\\% confidence level. The significance of these deviations is not degraded when considering a dynamical or superluminal sound speed, but vanishes if we assume a cosmological constant. The inclusion of cosmic shear and CMB lensing data significantly shifts the constraints towards GR. Our framework enables the exploration of modified gravity models using the dark energy sound speed as a physically meaningful free parameter.",
+      "score": 85,
+      "reason": "Planck PR4 CMB + DESI DR2 BAO + DES-Y3 cosmic shear + CMBレンジングのジョイント解析でダークエネルギーの音速まで攻める一本📡 CMB×WLの王道で守備範囲ど真ん中✨🌌",
+      "summary": "DE状態方程式と有効音速c_s²でMG修正を制御し、z<2でのGR逸脱を95%以上で示唆。cosmic shear/CMBレンジング追加でGR寄りにシフトする挙動も検証。"
+    }
+  ]
+}

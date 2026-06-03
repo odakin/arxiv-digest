@@ -1,0 +1,36 @@
+{
+  "total_fetched": 247,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.01005",
+      "title": "Arbitrarily precise arrival time measurements in quantum mechanics",
+      "authors": [
+        "Lawrence Frolov"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.01005",
+      "abstract": "The quantum Zeno effect is often regarded as an obstruction to precise arrival time measurements in quantum mechanics. Here, an arbitrarily precise arrival time measurement procedure is constructed using a localized detection process and a suitably chosen boundary condition. The arrival time of an incoming particle is recorded in the position of a clock particle that is emitted by the apparatus upon detection. A non-zero probability of arrival is shown to survive even in the limit as the arrival time measurement procedure is made arbitrarily precise. In this limit, it is also found that the interaction between the incoming particle and the detector is described by an absorbing boundary condition. This justifies the claim of Tumulka that absorbing boundary conditions may be used to model idealized detectors capable of registering particles at the instant of their arrival.",
+      "score": 93,
+      "reason": "まさに到達時間問題ど真ん中！⏱️ Zeno効果の壁を破る精密測定で、吸収境界条件＝理想検出器というTumulkaの主張を裏付け✨面白い🎯",
+      "summary": "局所検出＋境界条件で任意精度の到達時間測定を構成。検出時にクロック粒子を放出し位置に到達時刻を記録、精密化極限で吸収境界条件に帰着することを示した。"
+    },
+    {
+      "arxiv_id": "2606.02514",
+      "title": "Teleocosmology and quantum post-selection",
+      "authors": [
+        "Paul C. W. Davies",
+        "Jo~ao Magueijo"
+      ],
+      "categories": [
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2606.02514",
+      "abstract": "Although cosmic acceleration is well established, its physical origin remains contentious. Most explanations invoke either a non-zero vacuum energy, i.e. a cosmological constant, or new fields. We propose instead a mechanism arising purely from quantum mechanics, without additional constants or local sources. The key point is that quantum theory permits both initial and final boundary conditions on a state, here the wave function of the universe. Pre- and post-selected systems are familiar in laboratory quantum mechanics; we extend the idea to minisuperspace quantum cosmology. As a warm-up, we show that a free non-relativistic particle, initially in a semiclassical wave packet and conditioned on a final quantum state, can have an intermediate peak which accelerates even though the Hamiltonian is free. A semiclassical observer would infer a contrived classical force. We then implement the analogous construction in quantum cosmology using connection variables and unimodular time. A forward semiclassical packet, taken for simplicity to describe pure radiation, is post-selected by a normalizable Chern-Simons soliton. The resulting two-boundary amplitude has a peak which leaves the radiation trajectory and enters an accelerating regime, while the forward Hamiltonian has $\\Lambda=0$. A classical model can mimic this trajectory only by introducing a contrived effective component: near the transition it resembles $w\\simeq -1$, but when extrapolated it evolves towards strongly phantom behaviour, $w<-1$. The acceleration is therefore more naturally interpreted as a quantum boundary-condition effect than as a local classical source. We also discuss why the Chern-Simons soliton is a clean final state, the small overlap between initial and final states, and possible tell-tale signatures.",
+      "score": 85,
+      "reason": "自由粒子の半古典波束を終状態で後選択すると中間ピークが加速！⚡pre/post-selectionと観測時間の基礎論が宇宙論に化ける怪作🌌",
+      "summary": "量子論の二重境界条件をミニ超空間に拡張。後選択した波束が加速し、Λ=0でも宇宙加速を境界条件効果として説明。w<-1のphantom的振る舞いを予言。"
+    }
+  ]
+}

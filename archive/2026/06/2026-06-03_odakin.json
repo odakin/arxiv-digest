@@ -1,0 +1,127 @@
+{
+  "total_fetched": 247,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.00617",
+      "title": "Spacetime torsion signatures in neutrino oscillation physics",
+      "authors": [
+        "Capolupo Antonio",
+        "Monda Simone",
+        "Pisacane Gabriele",
+        "Quaranta Aniello",
+        "Serao Raoul"
+      ],
+      "categories": [
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2606.00617",
+      "abstract": "We report on recent results concerning neutrino oscillation in the presence of background torsion. In the context of Einstein-Cartan theory, we find new oscillation formulas for constant torsion and linearly time-dependent torsion. The oscillation formulas obtained depend on the orientation of the spin.",
+      "score": 90,
+      "reason": "Einstein-Cartanのトーション✕ニュートリノ振動という尾田さんのど真ん中ネタ⚡🌀 spin配向で振動公式が変わるの面白すぎ🔥背景トーション探索の現象論として注目🌟",
+      "summary": "EC理論で定常&時間線形トーション下のニュートリノ振動公式を導出🧮 スピンの向きに依存する新しい振動式を提示。"
+    },
+    {
+      "arxiv_id": "2606.02329",
+      "title": "Equivalence Principle violation in metric-affine gravity and finite-temperature effects",
+      "authors": [
+        "Emmanuele Battista",
+        "Roberto Campagnola",
+        "Salvatore Capozziello",
+        "Giuseppe Fiorillo"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2606.02329",
+      "abstract": "Possible violations of the equivalence principle are investigated within the framework of metric-affine gravity and their connection to finite-temperature effects are highlighted. Thermal corrections to particle dynamics, originally derived in a quantum-field-theory setting, can be evaluated in a purely Riemannian framework and lead to a shift in the gravitational-to-inertial mass ratio. We show that the ensuing departure from universality of free fall can be also formulated in metric-affine gravity, where the presence of the non-metricity tensor modifies the Newtonian law in a way that closely parallels the finite-temperature scenario. Furthermore, we introduce a generalized Fermi-Walker derivative adapted to non-Riemannian contexts, which naturally reveals that no orthonormal tetrad can be propagated along an observer worldline. Although metric-affine gravity admits a pointwise realization of the Einstein equivalence principle in its gauge-theoretic, elementary-matter form, the new operator offers a direct geometric signature that this principle, in its modern formulation, is not retained in general. Potential tests of the analyzed effects are also discussed.",
+      "score": 89,
+      "reason": "計量アフィン重力で等価原理破れ＋有限温度効果🌡️✨vierbein/非計量性ど真ん中🔥Fermi-Walker微分の一般化で「正規直交テトラッドが運べない」を幾何学的に暴く🧭⚡",
+      "summary": "非計量性テンソルがNewton則を温度補正と同型に修正📐 重力質量/慣性質量比のズレを計量アフィン枠で定式化し検証可能性も議論。"
+    },
+    {
+      "arxiv_id": "2606.02514",
+      "title": "Teleocosmology and quantum post-selection",
+      "authors": [
+        "Paul C. W. Davies",
+        "Jo~ao Magueijo"
+      ],
+      "categories": [
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2606.02514",
+      "abstract": "Although cosmic acceleration is well established, its physical origin remains contentious. Most explanations invoke either a non-zero vacuum energy, i.e. a cosmological constant, or new fields. We propose instead a mechanism arising purely from quantum mechanics, without additional constants or local sources. The key point is that quantum theory permits both initial and final boundary conditions on a state, here the wave function of the universe. Pre- and post-selected systems are familiar in laboratory quantum mechanics; we extend the idea to minisuperspace quantum cosmology. As a warm-up, we show that a free non-relativistic particle, initially in a semiclassical wave packet and conditioned on a final quantum state, can have an intermediate peak which accelerates even though the Hamiltonian is free. A semiclassical observer would infer a contrived classical force. We then implement the analogous construction in quantum cosmology using connection variables and unimodular time. A forward semiclassical packet, taken for simplicity to describe pure radiation, is post-selected by a normalizable Chern-Simons soliton. The resulting two-boundary amplitude has a peak which leaves the radiation trajectory and enters an accelerating regime, while the forward Hamiltonian has $\\Lambda=0$. A classical model can mimic this trajectory only by introducing a contrived effective component: near the transition it resembles $w\\simeq -1$, but when extrapolated it evolves towards strongly phantom behaviour, $w<-1$. The acceleration is therefore more naturally interpreted as a quantum boundary-condition effect than as a local classical source. We also discuss why the Chern-Simons soliton is a clean final state, the small overlap between initial and final states, and possible tell-tale signatures.",
+      "score": 88,
+      "reason": "宇宙の波動関数に終状態を課す量子ポストセレクションで加速膨張を出す💫🌀波束＋semiclassical観測者ネタは波束形式と相性抜群✨Λ=0なのにw<-1風になるの痛快🔥",
+      "summary": "ミニ超空間量子宇宙論でChern-Simonsソリトンを終状態に後選択🪐 前進波束が加速領域へ逸れ、見かけ上phantom的な加速を量子境界条件で説明。"
+    },
+    {
+      "arxiv_id": "2606.02039",
+      "title": "Tachyonic particle production: quantum 2PI formalism with momentum exchanging collisions",
+      "authors": [
+        "Kimmo Kainulainen",
+        "Sami Nurmi",
+        "Olli V\"ais\"anen"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2606.02039",
+      "abstract": "Oscillating spacetime curvature can drive particle production during reheating, whose accurate modeling requires the use of non-perturbative out-of-equilibrium methods. Tachyonic instabilities have previously been studied using 2-Particle Irreducible (2PI) formalism in the Hartree approximation, which however misses important momentum exchanging interactions. We present a self-consistent approximation scheme for reducing the non-local next-to-leading order 2PI equations of motion to local quantum kinetic equations, which can be solved with standard methods. We pay special attention to interactions involving unstable modes during tachyonic instabilities.",
+      "score": 87,
+      "reason": "リヒーティング期のタキオニック粒子生成を2PIで運動量交換込みで攻める🔥🌌Hartree近似の穴を埋める自己無撞着スキーム✨重力的生成＆reheating好きには刺さる⚡",
+      "summary": "振動する時空曲率による非平衡粒子生成を2PI NLOから局所量子運動方程式へ縮約🧮 不安定モード絡みの相互作用を丁寧に扱う。"
+    },
+    {
+      "arxiv_id": "2606.00237",
+      "title": "Matter-Wave Interferometers as Open-System Dark Matter Detectors",
+      "authors": [
+        "Leonardo Badurina",
+        "Kathryn M. Zurek"
+      ],
+      "categories": [
+        "hep-ph",
+        "hep-th",
+        "physics.atom-ph",
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.00237",
+      "abstract": "Matter-wave interferometers (MWIs) offer a uniquely quantum route to dark matter (DM) detection: DM can reveal itself through phase and decoherence between spatially separated wavepackets, even when negligible energy deposition or resolvable recoil occurs. We formulate these effects in an open effective field theory for MWIs using the Schwinger-Keldysh formalism, which highlights a structural asymmetry between the two detection channels. For elastic spin-independent DM scattering, decoherence inherits novel Bose enhancement or Pauli blocking factors, while the phase is at most linear in the DM occupation number. By retaining the DM's coherence time, this framework spans Markovian and non-Markovian dynamics across a wide range of DM masses, and systematically organizes corrections beyond the heavy-probe limit.",
+      "score": 86,
+      "reason": "物質波干渉計を開放系DM検出器に⚛️✨分離した波束間の位相＆デコヒーレンスでDMを暴く発想が波束形式好きにグサッ🔥Bose増幅/Pauli阻止が効くの渋い🌀",
+      "summary": "Schwinger-Keldyshで物質波干渉計の開放系EFTを構築🧪 位相とデコヒーレンスの非対称性を示しMarkov/非Markov横断でDM質量域を網羅。"
+    },
+    {
+      "arxiv_id": "2606.00929",
+      "title": "Gauge Theory of Gravity and the AdS/CFT Correspondence",
+      "authors": [
+        "Takeshi Fukuyama"
+      ],
+      "categories": [
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2606.00929",
+      "abstract": "We discuss the AdS/CFT correspondence from the viewpoint of the gauge-theoretic formulation of gravity, in which gravity is interpreted as a broken phase of conformal gauge symmetry.\n  In the AdS$_2$/CFT$_1$ case, we show that the Schwarzian derivative naturally emerges from the boundary extrinsic curvature of AdS$_2$ geometry. The relation between the bulk Liouville geometry and the boundary projective structure is clarified. We further discuss the distinction between the bulk conformal gauge algebra with vanishing central extension and the emergent boundary Virasoro structure with nonvanishing central charge.\n  We then investigate the possible structure of the AdS$_4$/CFT$_3$ correspondence, which is directly related to the original four-dimensional formulation of gravity as a broken phase of conformal gauge symmetry. In this framework, the Einstein--Hilbert action with cosmological constant emerges together with a total derivative term. We argue that this structure induces the boundary gravitational Chern--Simons term, whose variation leads naturally to the Cotton tensor. The Cotton tensor is interpreted as the fundamental conformal invariant associated with the residual boundary conformal geometry, playing a role analogous to that of the Schwarzian derivative in AdS$_2$/CFT$_1$.\n  We also discuss the qualitative difference between AdS$_4$/CFT$_3$ and AdS$_5$/CFT$_4$. While the former appears naturally connected with gravity arising from conformal symmetry breaking, the latter may require genuinely higher-dimensional, string-inspired structures beyond the four-dimensional conformal gauge framework. These observations suggest a unified geometrical interpretation of holography in terms of boundary remnants of broken conformal gauge symmetry.",
+      "score": 86,
+      "reason": "重力を共形ゲージ対称性の破れた相として見るゲージ重力✕AdS/CFT🌀✨emergent/scale-invariant重力路線とドンピシャ🔥Schwarzianが境界外曲率から自然に湧くの綺麗😍",
+      "summary": "AdS2/CFT1でSchwarzian、AdS4/CFT3でCottonテンソルを境界共形不変量として導出📐 ホログラフィを共形ゲージ破れの境界残骸で統一的に解釈。"
+    },
+    {
+      "arxiv_id": "2606.01829",
+      "title": "Anomaly flow and anomaly cancellation",
+      "authors": [
+        "Yutaka Hosotani"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.01829",
+      "abstract": "In gauge theory on 5D orbifolds the magnitude of chiral anomalies of 4D gauge fields changes with the value of the Aharonov-Bohm (AB) phase $\\theta_H$ in the fifth dimension. Anomaly flows with the AB phase. In particular in the Randall-Sundrum (RS) warped space gauge couplings of 4D fermions depend on bulk mass parameters of 5D fermion multiplets. We show that in the GUT-inspired $SO(5) \\times U(1) \\times SU(3)$ gauge-Higgs unification model in the RS warped space the total anomalies including contributions of all Kaluza-Klein excited modes of fermions become universal, being independent of the values of the bulk mass parameters of fermions and expressed in terms of the values of $W$ and $Z$ wave functions at the ultraviolet and infrared branes in the RS space. It is shown that cancellation of gauge anomalies is achieved in each generation even for $\\theta_H \\not= 0$.",
+      "score": 85,
+      "reason": "RSワープ時空の5D軌道体gauge-Higgs統一でアノマリーがAB位相で流れる🌀⚡余剰次元/KK好きには刺さる✨全KKモード込みでアノマリーが普遍化するの美しい🔥",
+      "summary": "SO(5)×U(1)×SU(3) GHU模型で4Dゲージアノマリーがバルク質量に依らずW/Z波動関数のブレーン値で表現される🧮 各世代でゲージアノマリー相殺を確認。"
+    }
+  ]
+}
