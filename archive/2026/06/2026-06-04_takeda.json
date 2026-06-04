@@ -1,0 +1,41 @@
+{
+  "total_fetched": 183,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.02943",
+      "title": "Testing the ${\\rm ER=EPR}$ conjecture with entangled photons",
+      "authors": [
+        "Kimet Jusufi",
+        "Francisco S. N. Lobo",
+        "Douglas Singleton"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-th",
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.02943",
+      "abstract": "We regularize the Aichelburg-Sexl shock-wave metric for massless particles by smearing the point-like source over a string-inspired length scale $l_0$, obtaining a singularity-free gravitational potential. A coordinate transformation reveals that the transverse geometry is a zero-throat Einstein-Rosen wormhole, providing an explicit geometric realization of the ER=EPR conjecture for entangled photons. Crucially, we show that the gravitational self-energy depends on the photon's longitudinal extent $L$ (its wavelength) and, for a transversely separated photon pair, is suppressed by a factor $1/L$, giving $E^{\\rm GSE}\\sim 4G(\\hbar\\omega)^2/(c^4 L)\\ln(d^2/l_0^2)$. For the coincident back-to-back pair created in $e^{+} e^{-}\\to2\\gamma$, the wormhole carries no additional binding energy; the logarithmic interaction energy emerges only after the entangled photons separate to a distance $d$, stretching the ER bridge. We further provide an entanglement-entropy interpretation: by computing the entanglement entropy of null intervals in the shock-wave geometry and introducing an effective entanglement temperature $k_B T_{\\rm ent}\\sim\\hbar c/(2\\pi L)$, we recover the same scaling and normalization of the gravitational self-energy. For optical photons the corresponding collapse time exceeds $10^{30}$ years, making isolated photons immune to gravity-induced wave-function collapse. These findings establish a rigorous playground for testing ER=EPR and reveal a deep suppression of quantum-gravity effects for ultra-relativistic quanta.",
+      "score": 85,
+      "reason": "もつれ光子×波束(縦の広がり＝波長)の扱いが竹田さん好み🌟 e+e-→2γペアのER=EPRと重力自己エネルギー✨",
+      "summary": "Aichelburg-Sexl衝撃波を弦的長さで正則化しゼロ喉ERワームホールに🌀 重力自己エネルギーが 1/L で抑制、もつれエントロピー解釈で同スケーリング回復"
+    },
+    {
+      "arxiv_id": "2606.03914",
+      "title": "Quantum Erasure Imaging: Complementary Modalities from Delayed-Choice Erasure",
+      "authors": [
+        "Sean D Huver",
+        "Sanjaya Lohani"
+      ],
+      "categories": [
+        "quant-ph",
+        "physics.optics"
+      ],
+      "url": "https://arxiv.org/abs/2606.03914",
+      "abstract": "Quantum Erasure Imaging (QEI) turns delayed-choice erasure into a practical imaging protocol. Entangled photon pairs encode two classical modalities, absorption $T(x,y)$ and a phase-sensitive cosine quadrature of $\\phi(x,y)$, reconstructed from a single run of time-tagged coincidences by retrospective sorting on a remote ancilla. Measuring the ancilla in H/V yields $T$ via which-path information; D/A yields interference visibility $\\propto \\frac{2\\sqrt{T}}{T+1}\\cos\\phi$; and a rotated orthonormal analyzer continuously trades between them. We derive balanced two-port estimators whose denominators are analyzer independent (completeness / no signaling), together with Fisher information (FI) and Cram\\'er--Rao bounds (CRBs) that establish an equivalence to time division under labeled randomization. The advantages of QEI are operational: single-run acquisition, perfect co-registration, and remote / delayed mode choice. We illustrate the protocol with Monte-Carlo simulations and open source our code.",
+      "score": 93,
+      "reason": "量子消しゴム×which-path×もつれ光子イメージングの直球✨ 遅延選択消去を実用イメージングに、相補性とコインシデンスど真ん中🔬",
+      "summary": "もつれ光子対で吸収 T(x,y) と位相 φ の余弦成分を1ラン同時計測📷 ancilla の H/V で which-path、D/A で可視度、Fisher情報とCRBで時分割と等価性を示す"
+    }
+  ]
+}

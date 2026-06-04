@@ -1,0 +1,24 @@
+{
+  "total_fetched": 183,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.02718",
+      "title": "Resonant delay in a stationary quantum clock: Lifting the threshold mask",
+      "authors": [
+        "Paul C. W. Davies",
+        "Damien A. Easson"
+      ],
+      "categories": [
+        "quant-ph",
+        "hep-th",
+        "math-ph",
+        "math.MP"
+      ],
+      "url": "https://arxiv.org/abs/2606.02718",
+      "abstract": "Quantum transit times have a long history of inequivalent definitions, including phase times, dwell times, and quantum-clock constructions. In this context we revisit the Salecker--Wigner--Peres stationary quantum clock as a phase-sensitive scattering observable, with clock time defined by the energy derivative of the transmission phase shift across the interaction region. For real compactly supported one-dimensional potentials, we show that the raw stationary Peres clock generically contains a universal \\(1/\\sqrt{E}\\) continuum-edge term whose coefficient is fixed by low-energy scattering data. For the attractive square well, this threshold singularity is inherited from the vanishing exterior momentum and the associated scattering matching, rather than from resonant delay itself. We derive the exact stationary clock time for the square well and introduce a new threshold-subtracted clock observable. Away from exceptional zero-energy tuning, the subtraction removes the universal low-energy term and isolates the resonant contribution. Comparison with the dwell time and the transmission Wigner phase delay shows that the threshold-subtracted clock acquires the expected local Lorentzian form near isolated transmission resonances. Near the continuum edge, if \\(\\varepsilon\\) denotes the detuning from threshold, the resonant peak grows only as \\(\\varepsilon^{-1/2}\\), whereas the unsubtracted threshold background grows as \\(\\varepsilon^{-3/2}\\). A symmetric barrier--well--barrier cavity and a numerical asymmetric two-step attractive well provide complementary controls. The result is a new threshold-subtracted stationary-clock candidate that separates universal threshold kinematics from pole-sensitive resonant delay.",
+      "score": 92,
+      "reason": "量子時計×通過時間のど真ん中⏱️ Salecker-Wigner-Peres時計を散乱位相から再構成、threshold特異性を引いて共鳴遅延を分離✨",
+      "summary": "1次元ポテンシャルでPeres時計の 1/√E 連続端項を同定🕰️ threshold差引き観測量を新提案、dwell time・Wigner位相遅延と比較し共鳴近傍でLorentz型を回復"
+    }
+  ]
+}

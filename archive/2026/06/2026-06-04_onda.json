@@ -1,0 +1,57 @@
+{
+  "total_fetched": 183,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.02897",
+      "title": "Field-level constraints on cosmic birefringence with a hybrid $E$-$B$ internal linear combination",
+      "authors": [
+        "Mathieu Remazeilles"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2606.02897",
+      "abstract": "Cosmic birefringence, a signature of parity-violating physics, rotates the cosmic microwave background (CMB) polarization plane, generating correlations between CMB $E$- and $B$-mode anisotropies. Measuring this effect remains challenging due to degeneracies with spurious rotations from instrumental polarization angle miscalibration and limited knowledge of Galactic foreground $EB$ correlations. We present a blind, map-based approach based on a multi-Stokes hybrid internal linear combination (ILC) that breaks this degeneracy and disentangles correlated and uncorrelated CMB polarization components. By jointly combining $E$- and $B$-mode frequency maps, the method preserves achromatic birefringence-induced CMB anisotropies while downweighting foregrounds and chromatic CMB anisotropies resulting from instrumental miscalibration. This enables a direct spatial linear-regression estimator of the birefringence angle. Applied to LiteBIRD simulations, the method yields competitive constraints on birefringence. Applied to Planck PR4 data, we measure a birefringence angle $\\beta \\simeq 0.32^\\circ \\pm 0.12^\\circ$, consistent with previous independent analyses and stable across sky fractions.",
+      "score": 95,
+      "reason": "宇宙複屈折×LiteBIRD×成分分離の直球🛰️ パリティ破れのCMB偏光回転をILCで前景とmiscalibrationから分離、ドンピシャ✨",
+      "summary": "multi-Stokes hybrid ILCで β を地図上で推定🌌 LiteBIRD simで競争力ある制限、Planck PR4で β≃0.32°±0.12°、sky fractionに安定"
+    },
+    {
+      "arxiv_id": "2606.03395",
+      "title": "Self-interacting neutrinos in cosmological perturbation theory -- integrating the collision kernel",
+      "authors": [
+        "Jakob K. Mogensen",
+        "Steen Hannestad",
+        "Thomas Tram"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2606.03395",
+      "abstract": "Cosmological constraints on self-interacting neutrinos require a Boltzmann hierarchy in which the collision term is projected onto momentum-averaged multipoles. We revisit the collision kernel for neutrino-neutrino scattering mediated by a light scalar and derive an exact analytic expression for the multipole integral that determines the coefficients $\\alpha_\\ell$. The key idea is to express the integration kernel as angular derivatives of the Yukawa-potential $\\frac{\\mathrm{e}^{-P/2}}{P}$, move the derivatives onto Legendre polynomials, and reduce the remaining momentum integrals to a single base family obeying a first-order recurrence. This gives an exact rational-plus-$\\pi^2$ representation for every multipole, together with a compact implementation based on exact rational arithmetic. We provide the recurrence relations, a closed form for the base integral, and an asymptotically constrained approximation suitable for Boltzmann codes such as CLASS. Our numerical implementation is publicly available in the Jupyter notebook IntegralComputation.ipynb.",
+      "score": 85,
+      "reason": "自己相互作用νは H0/N_eff 緊張の解の一つ🔭 衝突項を解析的に積分しCLASS等のBoltzmannコードへ、興味テーマに直結✨",
+      "summary": "νν散乱(軽スカラー媒介)の衝突核をYukawa型の角微分で表現⚛️ 多重極係数 α_ℓ の厳密な有理＋π²表現と漸化式を導出、CLASS向け近似も提供"
+    },
+    {
+      "arxiv_id": "2606.03634",
+      "title": "Model-independent H0 from GWTC-4 standard sirens and TDCOSMO 2025 strong lensing time delays",
+      "authors": [
+        "En-Yu Xiong",
+        "Ji-Yu Song",
+        "Jing-Fei Zhang",
+        "Xin Zhang"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.03634",
+      "abstract": "The significant discrepancy between early- and late-Universe measurements of the Hubble constant, known as the Hubble tension, remains one of the most pressing open questions in cosmology. Since both sides of the tension rely on model-dependent assumptions or multi-rung calibration chains, a cosmological-model-independent measurement of $H_0$ is essential to arbitrate this discrepancy. In this work, we combine 142 gravitational-wave standard siren events from the Fourth Gravitational-Wave Transient Catalog with the latest TDCOSMO2025 time-delay strong lensing data to constrain $H_0$ in a cosmological-model-independent framework based on the distance sum rule. Under the FullPop-4.0 population model with the TDCOSMO2025-only lensing configuration, we obtain $H_0 = 83.78^{+12.53}_{-10.23}\\ {\\rm km\\,s^{-1}\\,Mpc^{-1}}$, with a relative precision of $13.58\\%$. We find that the $H_0$ precision is governed primarily by the mass-sheet transformation treatment on the strong-lensing side: replacing the conservative TDCOSMO2025 hierarchical framework with the H0LiCOW method tightens the constraint to $H_0 = 75.42^{+3.74}_{-4.66}\\ {\\rm km\\,s^{-1}\\,Mpc^{-1}}$, with a relative precision of $5.57\\%$. At the current precision, all results are consistent with both the Planck and SH0ES values, and future improvements from more high-redshift dark siren events and more time-delay lens systems are expected to strengthen this model-independent approach.",
+      "score": 86,
+      "reason": "H0緊張をモデル非依存で🌠 142個のGW standard siren×時間遅延強レンズで距離和則、CMB/LSS補完テーマに合致✨",
+      "summary": "GWTC-4 siren+TDCOSMO2025で距離和則制限🔭 H0=83.78(+12.53/-10.23)、H0LiCOW法なら75.42(+3.74/-4.66)に。Planck/SH0ES両方と整合"
+    }
+  ]
+}
