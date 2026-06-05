@@ -1,0 +1,21 @@
+{
+  "total_fetched": 149,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.05056",
+      "title": "Measuring Entanglement in Qubit System",
+      "authors": [
+        "Vignesh S",
+        "Tabish Qureshi"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.05056",
+      "abstract": "An operational way of measuring entanglement in a balanced two-path interferometers is presented, where path information is carried by some internal degree of freedom which, in turn, gets entangled with an ancilla system. The analysis is based on a tripartite description involving paths, an internal qubit degree of freedom, and some ancillary states entangled with the internal degree of freedom. It is then applied to two physically distinct experimental situations: a modified Stern-Gerlach interferometer with spin-1/2 particles and a Mach-Zehnder interferometer with photons carrying polarization. The ancilla degree of freedom may not be experimentally accessible. Tracing out the ancillary system, and employing a quantum erasing procedure based on the internal degree of freedom, it is demonstrated that a concurrence-based measure of the entanglement, between the internal degree of freedom and the ancilla, can be extracted directly from measurable asymmetry of the two output channels. These results show that loss of coherence, quantum erasure, and entanglement estimation in interferometric experiments arise from the same underlying correlation structure and provide a compact experimentally accessible framework for quantifying entanglement in qubit systems.",
+      "score": 85,
+      "reason": "二経路干渉計の which-path 情報を量子消去で操作し concurrence を出力非対称性から直接抽出🔀✨ which-path/量子消しゴムの核心🎯",
+      "summary": "経路・内部 qubit・アンシラの三者記述で Stern-Gerlach と偏光 Mach-Zehnder を解析🧪 アンシラを trace out し量子消去でエンタングルメントを測定可能量に翻訳、coherence 喪失と同根と示す🔬"
+    }
+  ]
+}

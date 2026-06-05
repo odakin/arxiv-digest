@@ -1,0 +1,20 @@
+{
+  "total_fetched": 149,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.05166",
+      "title": "Compressed \\emph{Gaussian} likelihood for the \\textit{Planck} low-$\\ell$ data",
+      "authors": [
+        "Nanoom Lee"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2606.05166",
+      "abstract": "We present a compressed \\emph{Gaussian} likelihood for the \\textit{Planck} CMB low-$\\ell$ E-mode polarization data, constructed from the \\texttt{Sroll2} likelihood which provides the tightest constraint on the reionization optical depth $\\tau$ to date. The non-Gaussian form of CMB low-$\\ell$ TT and EE likelihoods makes them incompatible with Fisher matrix analyses that require an analytic Gaussian $\\chi^2$, such as the Fisher-bias formalism and Fisher forecasts. We show that the $\\chi^2$ of an offset log-normal likelihood takes a Gaussian form in the log-transformed power spectrum amplitudes, and can therefore serve as a proxy for the true Gaussian likelihood of this variable in Fisher matrix analyses, without any explicit change of variables. Building on this, we compress the \\texttt{Sroll2} likelihood into a small number of piecewise offset log-normal functions and validate it against the full \\texttt{Sroll2} likelihood via MCMC combined with \\textit{Planck} and ACT DR6 data, finding excellent agreement across all $\\Lambda$CDM parameters and in extended cosmological models. We further demonstrate that Fisher matrix uncertainty estimates from our compressed likelihood agree well with the full MCMC posteriors. We release our compressed likelihood \\texttt{planck-gaussian-lowl}, a lightweight Python package incorporating the compressed low-$\\ell$ TT likelihood from previous work, allowing a straightforward incorporation of the Planck CMB low-$\\ell$ data into any Gaussian-likelihood-based analysis. The package is publicly available at \\href{https://github.com/nanoomlee/planck-gaussian-lowl}{github.com/nanoomlee/planck-gaussian-lowl}.",
+      "score": 85,
+      "reason": "Planck 低ℓ E-mode 偏光の圧縮 Gaussian 尤度📊 τ 制約は現状最強で Fisher 解析にそのまま挿せる便利パッケージ🛰️✨",
+      "summary": "Sroll2 を区分オフセット対数正規で圧縮し低ℓ EE 尤度を Gaussian 化🧮 Planck＋ACT DR6 で検証、LCDM/拡張模型で full 尤度と一致、planck-gaussian-lowl として公開📦"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "total_fetched": 149,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.04099",
+      "title": "Gravitationally Induced Quantum Decoherence of Macroscopic Objects",
+      "authors": [
+        "Hiroki Takeda",
+        "Shogo Tomizuka",
+        "Takahiro Tanaka"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-ph",
+        "hep-th",
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.04099",
+      "abstract": "We formulate the gravitationally induced quantum decoherence of a massive object prepared in a spatial superposition. Starting from linearized gravity coupled to a massive system particle and an environmental scalar field, we derive a closed-time-path influence functional governing the reduced system dynamics. In the nonrelativistic and quasi-static regime, the decoherence exponent can be written as a bilinear functional of the difference of the system stress-energy tensors and an effective noise kernel obtained by dressing the environmental stress-energy tensor correlator with graviton propagators. We then apply this framework to the Newtonian long-range gravitational interaction and evaluate the resulting decoherence function for a dilute nonrelativistic gas modeled by finite wave packets and coarse-grained in time and space. By performing controlled approximations, we obtain analytic expressions for the cumulative decoherence function and show that the dominant contribution is accumulated logarithmically over a broad range of distances, while remaining subdominant to conventional collisional decoherence under realistic conditions.",
+      "score": 87,
+      "reason": "「重力で巨視的重ね合わせが decohere」を影響汎関数で定式化💥 波束＋量子基礎＋重力の交差点ど真ん中🌌🔭✨🪐",
+      "summary": "線形重力＋環境スカラー場から閉時間経路の影響汎関数を導出🧮 Newton 項で decoherence 関数が距離に対数蓄積、ただし衝突 decoherence には従属と評価📉🌀"
+    },
+    {
+      "arxiv_id": "2606.05086",
+      "title": "Fermionic Kaluza-Klein mode mixing in braneworlds",
+      "authors": [
+        "Chun-E Fu",
+        "Wen-Xuan Ma"
+      ],
+      "categories": [
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2606.05086",
+      "abstract": "We investigate fermionic Kaluza-Klein (KK) mode mixing in thick braneworld models subjected to generic background perturbations. Conventionally, isolated static backgrounds are completely described by a Schroedinger-like formulation, which yields an unperturbed orthogonal basis of KK eigenstates. However, generic perturbations possess a non-trivial spatial profile along the extra dimension. When the full interacting Dirac operator is expanded in this original basis, the spatial variation inevitably yields non-vanishing overlap integrals between distinct KK levels, thereby inducing off-diagonal couplings in the 4D effective mass matrix. Consequently, the original eigenstates are no longer exact physical eigenmodes of the perturbed system. To rigorously preserve the underlying 5D chiral structure and resolve the true physical states, we employ an exact Singular Value Decomposition (SVD) of the full, off-diagonal Dirac mass matrix. Our exact analysis reveals that this mode mixing introduces small but highly structured corrections to the mass eigenvalues. Specifically, parity-odd perturbation operators strictly induce same-parity mixing that preserves the macroscopic Z2 spatial symmetry, whereas parity-even operators trigger cross-parity mixing that shatters the Z2 symmetry, resulting in severe spatial polarization of the KK probability densities. Phenomenologically, such polarization shifts the wave functions toward the brane, turning probability zeros into non-zero values, which directly illuminates previously \"dark\" KK modes.",
+      "score": 86,
+      "reason": "厚いブレーンワールドの摂動でフェルミオン KK モードが混合🌐 余剰次元＋KK＋フェルミオンの直球ストライク⚡🪐✨🔭",
+      "summary": "摂動の空間プロファイルが KK 準位間に非対角結合を誘起🧮 厳密 SVD で真の固有状態を解決、偶パリティ摂動が Z2 を破壊し波動関数をブレーンへ偏極させ「暗黒」KK を可視化🌟🔭"
+    },
+    {
+      "arxiv_id": "2606.04841",
+      "title": "Chiral Transport in Metric-Affine Geometries",
+      "authors": [
+        "Miguel A. Vazquez-Mozo"
+      ],
+      "categories": [
+        "hep-th",
+        "cond-mat.mes-hall",
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2606.04841",
+      "abstract": "Anomalous transport in equilibrium fermionic fluids chirally coupled to background Weyl-type nonmetricity is studied. A formal descent analysis is carried out in which the dependence of the anomaly polynomial on the nonmetricity tensor is encoded in a Weyl invariant four-form. The constitutive relation of the axial-vector current is evaluated from the equilibrium partition function obtained using transgression techniques, showing the existence of nonmetricity-mediated chiral separation effects driven by the fluid's vorticity and the Weyl magnetic field. A second nonminimal coupling of fermionic matter to metric-affine geometries proposed in the literature is also discussed.",
+      "score": 85,
+      "reason": "計量アフィン幾何（Weyl 型非計量性）にカイラル結合したフェルミ流体の異常輸送⚡ Einstein-Cartan 系の非計量性ど真ん中🧲🌀✨🔬",
+      "summary": "降下解析で異常多項式の非計量性依存を Weyl 不変 4-形式に符号化🧮 渦度と Weyl 磁場が駆動する非計量性媒介カイラル分離効果を平衡分配関数から導出🌪️⚙️"
+    }
+  ]
+}
