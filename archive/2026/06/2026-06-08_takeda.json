@@ -1,0 +1,46 @@
+{
+  "total_fetched": 171,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.05691",
+      "title": "Probing Quantum Numbers and Decay Branching Ratios of Exotic States via Entanglement-Enabled Spin Interference",
+      "authors": [
+        "Di Zhang",
+        "Zhangbu Xu",
+        "Chi Yang"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.05691",
+      "abstract": "Ultra-peripheral heavy-ion collisions (UPCs) coherently photo-produce vector mesons through two spatially separated and quantum-mechanically indistinguishable production sites, whose separation far exceeds the lifetime of the created resonance. The superposition of these amplitudes generates production-site entanglement, observed experimentally as entanglement-enabled spin-interference patterns in the angular distributions of the decay products. We show that these interference signatures provide a sensitive probe of spin-alignment transfer in hadronic decay chains, enabling intermediate-state quantum numbers and relative branching ratios to be measured from observed angular modulations. Using the decay $\\rho(1450)\\!\\rightarrow\\!\\pi^{+}\\pi^{-}\\pi^{+}\\pi^{-}$ as example, we simulate the $a_{1}(1260)\\pi$, $h_{1}(1170)\\pi$, $\\rho(\\pi\\pi)_{S}$, and $\\pi(1300)\\pi$ channels and demonstrate that each produces a distinct azimuthal $\\cos 2\\phi$ modulation. The $\\pi(1300)\\pi$ mode shows a uniquely separated response, allowing its branching fraction to be extracted directly. These results establish production-site entanglement in UPCs as a selective tool for hadron spectroscopy, particularly for broad or overlapping resonances that are otherwise difficult to disentangle.",
+      "score": 87,
+      "reason": "✨ 2 つの生成点の重ね合わせ＝production-site entanglement による spin 干渉！波束・二光子干渉の発想が粒子物理に出てくる好例🎯",
+      "summary": "🌀 超周辺衝突で離れた 2 点から可干渉に photo-produce された vector meson の崩壊角分布に entanglement 干渉→量子数・分岐比を抽出"
+    },
+    {
+      "arxiv_id": "2606.05603",
+      "title": "Quantum Radar Cross Section with two-photon entangled states",
+      "authors": [
+        "Sunghwa Kang",
+        "Jihwan Kim",
+        "Zaeill Kim",
+        "Duk Y. Kim",
+        "Yong Sup Ihn",
+        "Su-Yong Lee",
+        "Sean Crowe",
+        "Stefan Evans",
+        "Marcio de Andrade",
+        "Joanna Ptasinski"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.05603",
+      "abstract": "We study two-photon entangled states for quantum radar cross section (QRCS), which is an extension of a single-photon QRCS formula. Since signal-idler entanglement does not provide any enhancement of the QRCS [Brandsema's PhD Thesis (2017)], we focus on signal-signal entanglement and derive the corresponding biphoton QRCS. We show that it can provide an enhancement over the single-photon QRCS and two-photon separable QRCS, where the performance is evaluated for various two-dimensional target geometries in monostatic/bistatic configurations. Furthermore, using the double-Gaussian approximation, we derive QRCS formula for biphoton states with arbitrary degree of entanglement and compute the resulting scattering patterns.",
+      "score": 86,
+      "reason": "📡✨ 二光子もつれ状態の量子レーダー断面積！signal-idler では増強無しでも signal-signal もつれで単一光子超えを示す点が興味深い🎯",
+      "summary": "🌀 単一光子 QRCS を二光子もつれに拡張。signal-signal entanglement の biphoton QRCS が単一光子・分離可能二光子を上回る条件を解析"
+    }
+  ]
+}

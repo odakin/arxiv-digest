@@ -1,0 +1,88 @@
+{
+  "total_fetched": 171,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.06495",
+      "title": "What it takes to solve the Hubble tension through Modifications of Cosmological Recombination II: in light of ACT DR6 and DESI DR2",
+      "authors": [
+        "Nanoom Lee",
+        "Tianji Zhou"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2606.06495",
+      "abstract": "We construct data-driven solutions to the Hubble tension, in light of recent data from the Atacama Cosmology Telescope (ACT DR6) and the Dark Energy Spectroscopic Instrument (DESI DR2). We search for the minimal modification to the recombination history through a time-varying electron mass $m_e(z)$ that increases the best-fit $H_0$ inferred from CMB data toward the SH0ES value, without worsening the fit to the data. Using Planck and ACT data including lensing, we find a perturbative modification to $m_e(z)$ that fully resolves the Hubble tension, with the solution sharing the same qualitative oscillatory structure as in previous work using Planck data alone, demonstrating its robustness to the inclusion of more precise and independent CMB data. As a byproduct, the solution also eases the $S_8$ tension. Once DESI DR2 BAO data are added, however, perturbative modifications to $m_e(z)$ cannot fully resolve the Hubble tension. This reflects the same fundamental limitation: raising $H_0$ by modifying recombination generically lowers $\\Omega_m$, being inconsistent with late-time cosmological observations.",
+      "score": 88,
+      "reason": "🎯 ACT DR6 × DESI DR2 で Hubble tension を recombination 修正から解く！時間変化する m_e(z) で H0 を SH0ES 方向へ寄せる王道📈",
+      "summary": "🌀 CMB 最小修正として電子質量 m_e(z) の時間変化を入れ、Planck+ACT+lensing のフィットを悪化させず H0 を引き上げるデータ駆動解を探索🔭"
+    },
+    {
+      "arxiv_id": "2606.05358",
+      "title": "The DESI results impact the local determination of $H_0$",
+      "authors": [
+        "Michael S. Turner",
+        "Dragan Huterer"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2606.05358",
+      "abstract": "Measurements of baryon acoustic oscillations (BAO) by the Dark Energy Spectroscopic Instrument (DESI) have revealed evidence for dark energy that evolves. If local distance measurements are analyzed with the $w_0w_a$ models preferred by the DESI measurements, the value for the Hubble constant can be as much as $2.5\\,\\mathrm{km\\,s^{-1}Mpc^{-1}}$ smaller than the value obtained assuming $\\Lambda$CDM. When these $w_0w_a$ models are further constrained by cosmic microwave background (CMB) and type Ia supernova (SNIa) data, the downward shift is $1.1 \\pm 0.38\\,\\mathrm{km\\,s^{-1}Mpc^{-1}}$ (DESI + CMB) and $0.5 \\pm 0.1\\,\\mathrm{km\\,s^{-1}Mpc^{-1}}$ (DESI + CMB + SNIa). The dependence of local determinations of $H_0$ on the background cosmology, combined with the fact that the low-redshift cosmology is not well constrained, is relevant to the Hubble tension.",
+      "score": 86,
+      "reason": "📈 DESI 流の w0wa で局所距離を解くと H0 が最大 2.5 下がる！H0 tension と dark energy 進化の絡みを突く Turner-Huterer の指摘🎯",
+      "summary": "🌀 進化する dark energy を示唆する DESI BAO の枠で局所測定を再解析し CMB 制約も加えると、H0 推定が ΛCDM 比でどう動くかを定量化🔭"
+    },
+    {
+      "arxiv_id": "2606.06410",
+      "title": "The Atacama Cosmology Telescope: Probing new signatures of ultralight axions with gravitational lensing",
+      "authors": [
+        "Alex Laguë",
+        "Keir K. Rogers",
+        "Mathew S. Madhavacheril",
+        "J. Richard Bond",
+        "Erminia Calabrese",
+        "Mark J. Devlin",
+        "Jo Dunkley",
+        "Vera Gluscevic",
+        "Renée Hložek",
+        "Hidde T. Jense",
+        "Thibaut Louis",
+        "Frank J. Qu",
+        "Bernardita Ried Guachalla",
+        "Neelima Sehgal",
+        "Blake D. Sherwin",
+        "Suzanne T. Staggs",
+        "Alexander van Engelen"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2606.06410",
+      "abstract": "Ultralight axions (ULAs) are well-motivated dark matter particle candidates that arise in many extensions of the Standard Model of particle physics. ULAs with mass $m_\\mathrm{a} \\lesssim 10^{-27}$ eV have been strongly constrained by cosmic microwave background (CMB) observations in temperature and polarization. We fit recent measurements of gravitational lensing of the CMB from \\textit{Planck}, the Atacama Cosmology Telescope (ACT) and the South Pole Telescope (SPT-3G) using a state-of-the-art simulation-calibrated nonlinear clustering model for ULAs. We derive the strongest constraints on ULAs in the mass range $10^{-26}\\;\\mathrm{eV}\\leq m_\\mathrm{a}\\leq 10^{-24.5}\\;\\mathrm{eV}$. ULAs of this mass have been shown to alleviate tensions between inferences of the matter clustering if they compose a few percent of the total dark matter content of the Universe. We conclude that ULAs with a mass of $10^{-26}$ eV make up less than 1.5\\% of the dark matter and $10^{-25}$ eV axions make less than 9\\% (both at 95\\% confidence level). We identify a slight preference for non-zero axion density at $10^{-24.5}$ eV at $2.1\\sigma$. We find that the preference for ULAs is largely driven by a few data points and that further investigation of non-linear ULA physics is needed to confirm or rule out this signal.",
+      "score": 85,
+      "reason": "🔭✨ Planck/ACT/SPT-3G の CMB lensing で超軽量 axion を探る！ALP・CMB lensing amplitude 制約という onda の関心ど真ん中🎯",
+      "summary": "🌀 m_a≲1e-27 eV の ULA を CMB の重力レンズ測定でフィットし、温度・偏光に続く新たな ULA DM signature を lensing から制約⚛️"
+    },
+    {
+      "arxiv_id": "2606.06484",
+      "title": "Phenomenology of Inflaton-Driven Early QCD Confinement and Solution to Axion Isocurvature Problem",
+      "authors": [
+        "Evangelos I. Sfakianakis",
+        "Barmak Shams Es Haghi",
+        "Katherine Freese"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "hep-ph",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2606.06484",
+      "abstract": "We study the phenomenology of early QCD confinement during inflation, driven by a direct coupling between the inflaton and Standard Model gluons. This coupling dynamically raises the QCD confinement scale, making the axion sufficiently heavy to suppress isocurvature perturbations during the CMB epoch. As inflation proceeds, the confinement scale decreases and the axion becomes light, allowing de Sitter fluctuations during the late stages of inflation or post-inflationary thermal fluctuations to generate the observed dark matter abundance. In addition, QCD-induced corrections to the inflationary potential can shift the scalar spectral index towards smaller values, providing a further observational handle. We embed this mechanism in an $\\alpha$-attractor model of inflation and explore the resulting parameter space. We show that, in the minimal scenario with reheating into gluons, successful dark matter production requires deconfinement to occur shortly after the CMB window. Extensions involving reheating through heavy right-handed neutrinos generally require large Yukawa couplings, which induce sizable loop corrections that spoil inflationary dynamics. We show that this tension can be resolved in the presence of supersymmetry and derive constraints on the SUSY breaking scale that allow the mechanism to remain viable within plateau models of inflation. Treating the reheat temperature as a free parameter further enlarges the viable parameter space.",
+      "score": 85,
+      "reason": "🌀 inflation × axion isocurvature × CMB！inflaton-gluon 結合で QCD 閉じ込めを早期化し CMB 期の等曲率揺らぎを抑える機構🎯",
+      "summary": "⚛️ インフレ中 QCD スケールを動的に上げ axion を重く→CMB 期 isocurvature 抑制、後期に軽化し de Sitter 揺らぎ復活という現象論🔭"
+    }
+  ]
+}

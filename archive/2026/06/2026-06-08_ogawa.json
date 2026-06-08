@@ -1,0 +1,38 @@
+{
+  "total_fetched": 171,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.05884",
+      "title": "No-go theorems on simulating uncertainty principle's signatures",
+      "authors": [
+        "Chung-Yun Hsieh",
+        "Minjeong Song",
+        "Shin-Liang Chen"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.05884",
+      "abstract": "Uncertainty principle, one of the most iconic features of quantum mechanics, was originally viewed as a fundamental limitation. Since the inception of quantum information science, researchers began to use it to achieve quantum advantages. To better understand the origin of these advantages, an essential question is: To what extent can the uncertainty principle's signatures be simulated by a single measurement? As a single measurement clearly cannot demonstrate the uncertainty principle, such a simulation, if exists, implies the claimed advantages may either stem from other quantum features, or just be reproducible in a less resourceful way. In this work, we report a series of noise-robust no-go theorems, showing that strong enough signatures of uncertainty principle cannot be simulated by a single measurement, even when assisted by quantum pre- or post-processing. This signature is modelled by complementary instruments. We completely characterise complementary instruments by a numerically feasible measure and show that they are necessary and sufficient resources for the advantage in an operational task that aims to unambiguously send classical information.",
+      "score": 86,
+      "reason": "🎯 不確定性原理の signature を単一測定でどこまで模倣できるか？を no-go 定理で線引き。不確定性関係に直球の量子基礎論✨",
+      "summary": "🌀 単一測定では不確定性原理を示せない前提で、その signature の simulability に課される根本的制約を no-go 定理として定式化"
+    },
+    {
+      "arxiv_id": "2606.05767",
+      "title": "Tight relation between the physical effects of a quantum measurement and the information gained about an observable",
+      "authors": [
+        "Natsuki Ogo",
+        "Holger F. Hofmann"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.05767",
+      "abstract": "The dynamics of quantum measurements defines a precise relation between the information gained about one physical property of a system and the observable changes in another physical property of the same system. Here, we express this relation in terms of the Hilbert space superpositions of the corresponding eigenstates and show how the probability of an observable physical change can be obtained from the Bayesian update of the probabilities associated with the information obtained in the measurement. Our analysis demonstrates that the superposition principle provides the tightest possible expression of the trade-off between information and back action in a quantum measurement.",
+      "score": 85,
+      "reason": "✨ 観測量について得る情報と別の物理量に現れる変化の厳密な関係＝測定の反作用。測定理論・observable 双対の基礎論に響く🎯",
+      "summary": "🌀 固有状態の重ね合わせで情報と物理変化の関係を表現し、観測可能な変化の確率を Bayesian 更新から導く Hofmann 流の定式化"
+    }
+  ]
+}

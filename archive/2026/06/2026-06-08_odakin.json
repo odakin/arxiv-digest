@@ -1,0 +1,120 @@
+{
+  "total_fetched": 171,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.05352",
+      "title": "Running Vacuum in the expanding Universe: a unified QFT paradigm for Inflation and Dark Energy",
+      "authors": [
+        "Joan Solà Peracaula"
+      ],
+      "categories": [
+        "gr-qc",
+        "astro-ph.CO",
+        "hep-ph",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2606.05352",
+      "abstract": "The concordance $\\Lambda$CDM model, based on a rigid $\\Lambda$-term for the entire cosmic history, has been in crisis for a long time. In our expanding Universe, an evolving $\\Lambda$ with the expansion is intuitively much more reasonable. In the running vacuum model (RVM) framework, based on quantum field theory (QFT) in curved spacetime, quantum effects induce a vacuum energy density (VED) $\\rho_{\\rm vac}=\\Lambda/(8\\pi G)$ which is a function of the Hubble rate $H$ and its time derivatives, $\\rho_{\\rm vac}=\\rho_{\\rm vac}(H, \\dot{H},\\ddot{H},\\dots)$. Currently, $\\rho_{\\rm vac}$ evolves very slowly with the expansion, $\\delta\\rho_{\\rm vac}\\sim {\\cal O}(m_{Pl} ^2 H^2)$, and this fact provides a possible fundamental origin of dark energy (DE), conceived as dynamical vacuum energy. In the RVM, Newton's $G$ is also evolving, but much more slowly (logarithmically with $H$): $G=G(\\ln H)$. In the very early universe, the vacuum fluctuations induce higher (even) powers, e.g. $\\sim H^4$, capable of triggering fast inflation in a very short period, in which $H$ is very large and approximately constant. This is the mechanism of `RVM-inflation'. It does not require an `inflaton' field since inflation is brought about by pure QFT effects on the dynamical background. It differs from Starobinsky's inflation, where $H$ is never constant. Furthermore, the dynamics of $\\rho_{\\rm vac}(H)$ and $G(H)$ can also have implications on the frequently discussed possibility that the fundamental `constants' of Nature can be mildly evolving with the cosmic expansion. Putting things together, a unified QFT framework of dark energy and inflation ensues as a realistic theory for the description of the universe as a whole on fundamental grounds. In it, dynamical VED is predicted and is much welcomed, since it fits in with current DESI measurements, preferring dynamical DE over a rigid $\\Lambda$ term.",
+      "score": 90,
+      "reason": "🌌✨ inflation と dark energy を running vacuum で統一！ご自身の『2 つの加速宇宙の共通起源』『scale-invariant gravity』路線にド直球🔥🌀",
+      "summary": "📉 H とその微分で走る真空エネルギー密度 ρ_vac で ΛCDM の危機に挑む。Λ を宇宙史で剛体扱いせず宇宙論データと対峙する RVM の枠組み🌀"
+    },
+    {
+      "arxiv_id": "2606.06484",
+      "title": "Phenomenology of Inflaton-Driven Early QCD Confinement and Solution to Axion Isocurvature Problem",
+      "authors": [
+        "Evangelos I. Sfakianakis",
+        "Barmak Shams Es Haghi",
+        "Katherine Freese"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "hep-ph",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2606.06484",
+      "abstract": "We study the phenomenology of early QCD confinement during inflation, driven by a direct coupling between the inflaton and Standard Model gluons. This coupling dynamically raises the QCD confinement scale, making the axion sufficiently heavy to suppress isocurvature perturbations during the CMB epoch. As inflation proceeds, the confinement scale decreases and the axion becomes light, allowing de Sitter fluctuations during the late stages of inflation or post-inflationary thermal fluctuations to generate the observed dark matter abundance. In addition, QCD-induced corrections to the inflationary potential can shift the scalar spectral index towards smaller values, providing a further observational handle. We embed this mechanism in an $\\alpha$-attractor model of inflation and explore the resulting parameter space. We show that, in the minimal scenario with reheating into gluons, successful dark matter production requires deconfinement to occur shortly after the CMB window. Extensions involving reheating through heavy right-handed neutrinos generally require large Yukawa couplings, which induce sizable loop corrections that spoil inflationary dynamics. We show that this tension can be resolved in the presence of supersymmetry and derive constraints on the SUSY breaking scale that allow the mechanism to remain viable within plateau models of inflation. Treating the reheat temperature as a free parameter further enlarges the viable parameter space.",
+      "score": 87,
+      "reason": "🎯 reheating × inflation × axion ど真ん中！inflaton-gluon 結合で QCD 閉じ込めを早期化し axion を重くして isocurvature を抑制🌟⚛️",
+      "summary": "🌀 インフレ中に QCD 閉じ込めスケールを動的に上げ axion を重く→CMB 期の等曲率揺らぎ抑制。後期に軽くなり de Sitter 揺らぎ復活✨"
+    },
+    {
+      "arxiv_id": "2606.06221",
+      "title": "Chiral symmetry breaking in models with unconventional supersymmetry",
+      "authors": [
+        "Pedro D. Alvarez",
+        "Cristian Villavicencio",
+        "Jorge Zanelli"
+      ],
+      "categories": [
+        "hep-th",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.06221",
+      "abstract": "We investigate dynamical mass generation in a geometrically constructed gauge theory based on the super Lie algebra $su(2,2|3)$, in which gravity, Yang-Mills fields, and fermions are unified as components of a single gauge connection. The model contains no elementary scalar fields and no ad hoc four-fermion interactions. Instead, fermionic self-interactions arise unavoidably from the geometric structure of the theory, through nonminimal couplings and torsion associated with the unified connection. Upon reduction to an effective low-energy description, these interactions generate a Nambu-Jona-Lasinio--type potential that triggers chiral symmetry breaking and the formation of a fermion mass gap. In this framework, mass generation emerges as a direct consequence of the underlying gauge-geometric and algebraic structure, rather than as an independent dynamical assumption.",
+      "score": 87,
+      "reason": "⚛️🌀 重力+YM+フェルミオンを単一ゲージ接続に統一、スカラー無し・torsion から動的質量！Einstein-Cartan / scale-invariant 重力路線と響く🔥",
+      "summary": "📐 su(2,2|3) 超リー代数の幾何から非最小結合と torsion 経由でフェルミオン自己相互作用が必然的に生じ、カイラル対称性が力学的に破れる✨"
+    },
+    {
+      "arxiv_id": "2606.05276",
+      "title": "Big Axions",
+      "authors": [
+        "Hannah Banks",
+        "Marius Kongsore",
+        "Neal Weiner"
+      ],
+      "categories": [
+        "hep-ph",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2606.05276",
+      "abstract": "We introduce big axions: axion models in which a Nambu-Goldstone mode emerges from the collective spontaneous breaking of a network of U(1) symmetries delocalized in theory space. Big axions naturally realize high-quality accidental global symmetries, admit both pre- and post-inflationary cosmological histories, and exhibit rich topological structures that interpolate between ordinary Peccei-Quinn axions and axions which descend from extra-dimensional gauge fields. We identify a minimal phenomenologically viable subclass, little big axions, and demonstrate that they provide a robust solution to the strong charge-parity problem in quantum chromodynamics while potentially accounting for some or all of the dark matter of the universe.",
+      "score": 86,
+      "reason": "🪙✨ theory space に散らばった U(1) 網の集団的破れから NG モード『big axion』！高品質 accidental 大域対称性と axion DM にワクワク🌟",
+      "summary": "🌀 pre/post-inflation 両方の宇宙史を許し、通常の PQ axion と余剰次元ゲージ場由来 axion を補間する豊かなトポロジー構造を持つ模型⚛️"
+    },
+    {
+      "arxiv_id": "2606.05320",
+      "title": "Gravitational Wave Imprints of a High-Quality Axion and the Origin of Flavor Hierarchies",
+      "authors": [
+        "K.S. Babu",
+        "Sai Charan Chandrasekar",
+        "Sudip Jana",
+        "Sudip Manna"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO",
+        "astro-ph.HE",
+        "hep-ex"
+      ],
+      "url": "https://arxiv.org/abs/2606.05320",
+      "abstract": "Axions, arising from an anomalous global Peccei-Quinn symmetry $U(1)_{\\text{PQ}}$, offer a compelling solution to the strong CP problem but are vulnerable to Planck-suppressed operators. Gauged abelian flavor symmetries $U(1)_F$, invoked to explain the flavor hierarchies via the Froggatt-Nielsen mechanism, can naturally shield the axion from such effects, yielding an accidental high-quality flavored axion with unit domain wall number. Such constructions predict two complementary signatures: (i) flavor-changing neutral currents from $K\\to\\pi a$ decays, typically associated with high flavor scales $\\Lambda_{\\text{FN}}\\gtrsim f_a$, and (ii) stochastic Gravitational Waves (GWs) sourced by the evolution and decay of gauged flavonic and axionic cosmic-string networks. In addition, global axionic strings can efficiently radiate axions, potentially accounting for the observed dark matter relic abundance. We show that the resulting characteristic plateau--valley structure in the GW spectrum provides a distinctive and powerful probe of high-quality flavored axion dark matter models, complementary to low-energy flavor experiments.",
+      "score": 85,
+      "reason": "🌊⚛️ 高品質 axion と flavor 階層を 1 つの U(1)_F で同時に！Froggatt-Nielsen で axion を Planck 抑制演算子から守る発想が面白い✨",
+      "summary": "📡 gauged flavor 対称性が domain wall number 1 の高品質 flavored axion を生み、2 種の相補的 GW シグナルを予言する BSM 模型🔭"
+    },
+    {
+      "arxiv_id": "2606.06355",
+      "title": "$\\tt BlackHawk$ $\\tt v3.0$: Hawking Radiation from Regular Black Holes",
+      "authors": [
+        "Alexandre Arbey",
+        "Marco Calzà",
+        "Léa Malacher",
+        "Davide Pedrotti",
+        "Yuber F. Perez-Gonzalez"
+      ],
+      "categories": [
+        "gr-qc",
+        "astro-ph.CO",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.06355",
+      "abstract": "We present $\\tt BlackHawk$ $\\tt v3.0$, a major update of the public code designed to compute Hawking radiation spectra of black holes. Building upon previous versions, this release considerably extends the range of black hole geometries that can be studied by implementing several new spherically symmetric metrics: the Bardeen and Hayward regular black holes, the Simpson-Visser and Peltola-Kunstatter black-bounces, the D'Ambrosio-Rovelli black hole-to-white hole metric, and the Babichev-Charmousis-Lehébel black hole. For each metric, we compute the corresponding Hawking temperatures and greybody factors, enabling the determination of primary Hawking emission spectra for particles of different spins. The greybody factors are obtained through dedicated numerical routines based on the companion code $\\tt GrayHawk$. Additionally, $\\tt BlackHawk$ $\\tt v3.0$ introduces several technical improvements aimed at enhancing precision and efficiency, providing a highly versatile tool. The code is publicly available at this https URL",
+      "score": 85,
+      "reason": "🕳️🔥 Hawking 放射計算コードが正則 BH 群に大拡張！Bardeen/Hayward/Simpson-Visser/black-bounce…回転 BH・Hawking 放射好きに刺さる🌟",
+      "summary": "💻 球対称な多数の正則・black-bounce・BH↔WH 計量の Hawking 放射スペクトルを計算可能にした公開コードの major update⚛️"
+    }
+  ]
+}
