@@ -1,0 +1,20 @@
+{
+  "total_fetched": 122,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.06629",
+      "title": "Neutrino Oscillations as an Open Quantum System in Strong Gravitational Fields: Spin-Connection Decoherence and Kerr Frame Dragging",
+      "authors": [
+        "Gayatri Ghosh"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.06629",
+      "abstract": "We investigate neutrino flavor evolution in strong gravitational fields within an open-quantum-system framework in curved spacetime. Starting from the Dirac equation in the vierbein formalism, we construct an effective flavor Hamiltonian incorporating gravitational redshift, spin--curvature couplings, and Kerr frame-dragging effects. Treating spin-connection fluctuations as a stochastic gravitational environment, we derive a Lindblad master equation and introduce a curvature-enhanced decoherence rate governed by local spacetime geometry. We compute oscillation probabilities, coherence loss, flavor-ratio distortions, entanglement entropy generation, and event-rate modifications for neutrinos propagating near Schwarzschild and Kerr compact objects. The resulting signatures are compared with projected sensitivities of IceCube-Gen2, KM3NeT, and P-ONE, and are further quantified through detector-level significance estimates. Our results provide a unified effective framework linking neutrino oscillations, gravitationally induced decoherence, quantum-information observables, and high-energy astrophysical neutrino measurements in strong-curvature environments.",
+      "score": 85,
+      "reason": "🌀 vierbein形式×Kerr時空×ニュートリノ振動の開放系decoherence✨ あなたのEinstein-Cartan興味のド真ん中🎯",
+      "summary": "🔬 spin-connection揺らぎを確率的重力環境としLindblad方程式を導出、曲率増大型decoherence率でフレーバー振動確率とコヒーレンス喪失を計算📉"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "total_fetched": 122,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.06759",
+      "title": "Bures geodesics for non-faithful states and quantum speed limit",
+      "authors": [
+        "Sergio Carrasco",
+        "Dominique Spehner"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.06759",
+      "abstract": "The quantum speed limit establishes a bound on the minimal time required for a quantum system to evolve from a given initial state to a final state. When the mean energy variance is fixed this limitation is captured by the Mandelstam--Tamm bound. The fastest quantum evolution saturating this bound follows a geodesic arc connecting the two states. Such geodesics in the manifold of quantum states are explicitly known when the states are pure (Fubini-Study geodesics) and when they are mixed and given by faithful density matrices (Bures geodesics). In this article we obtain the explicit form of the Bures geodesic arcs joining two non-faithful density matrices, which may have different ranks. For pure states one recovers the Fubini-Study geodesics. A necessary and sufficient condition for the uniqueness of the shortest geodesic arc is given. When the condition is not fulfilled there are infinitely many such arcs, all having length equal to the arccos Bures distance between the two states, in analogy with the arcs of great circles connecting the two poles of a sphere. We discuss the implications of our results for the quantum speed limit.",
+      "score": 86,
+      "reason": "⏱️ 量子速度限界とMandelstam-Tamm束縛の話！あなたの時間エネルギー不確定性のコア🎯 混合状態への一般化が新鮮",
+      "summary": "📐 非faithful(非正則)密度行列に対するBures計量上の測地線を解析的に導出、Mandelstam-Tamm束縛を飽和する最速量子発展を特徴づけ✨"
+    }
+  ]
+}
