@@ -1,0 +1,41 @@
+{
+  "total_fetched": 247,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.08995",
+      "title": "Relativistic Effects in Spin Correlations Induced by QED Scattering and Wigner Rotations",
+      "authors": [
+        "Juan D. Fonseca",
+        "B. Hiller",
+        "I. G. da Paz",
+        "M. Sampaio"
+      ],
+      "categories": [
+        "quant-ph",
+        "hep-ph",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2606.08995",
+      "abstract": "We study the relativistic nature of the interactions that, at tree level, generate spin correlations between two electrons in M\\o ller scattering, as well as in an extended process involving a witness particle $C$. The corresponding processes, $e^{-}e^{-}\\rightarrow e^{-}e^{-}$ and $e^{-}e^{-}C\\rightarrow e^{-}e^{-}C$, are analyzed both in the center-of-mass frame and, for the former process, in a Lorentz-boosted frame where Wigner rotations arise. It is found that, through a nonrelativistic approximation of the scattering amplitudes, dipole-dipole and current-dipole interactions are responsible for the emergence of these correlations. This is evidenced by the variation of the von Neumann entropy of one electron for initially separable states, and of $C$ for an initially prepared three-particle entangled W-state. In Wigner rotations, the invariance of entropy under local unitary transformations is maintained at the expense of the emergence of quantum coherence in the density matrix at large rapidities. As a consequence, the final states of both particles are evaluated and shown to encode information about the scattering process through their spin expectation values. This framework is then used to comment on the correlations in the inelastic process $e^{-}e^{+}\\rightarrow\\mu^{-}\\mu^{+}$, for which some research has reported differing results.",
+      "score": 88,
+      "reason": "⚛️Møller散乱で電子スピン相関が生じる相対論的機構をWignerローテーション込みで解析✨粒子系のエンタングルメントの関心に刺さる🔬",
+      "summary": "tree levelのQED散乱で双極子–双極子/カレント–双極子相互作用がスピン相関を生むと示しvon Neumannエントロピーで評価📐ブースト系も解析"
+    },
+    {
+      "arxiv_id": "2606.08879",
+      "title": "Detector Resolution and Observable Infrared Memory in QED",
+      "authors": [
+        "Takeshi Fukuyama"
+      ],
+      "categories": [
+        "hep-ph",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2606.08879",
+      "abstract": "Infrared divergences in QED cancel in inclusive observables through the Bloch--Nordsieck and KLN mechanisms. However, this cancellation removes only the unphysical infrared regulator. The detector resolution scale $\\omega_{\\max}$, which specifies the maximum energy of unresolved soft photons, remains in the observable cross section. We emphasize that this surviving scale has a natural interpretation as a coarse-graining scale in the reduced density matrix of the hard sector. Soft photons below $\\omega_{\\max}$ are not observed and are effectively traced over. The corresponding soft-sector overlap therefore becomes resolution dependent, $D_{ij}=D_{ij}(\\omega_{\\max})$. Observable infrared memory is consequently defined not only by the asymptotic soft sector itself, but also by the resolution scale separating observed and unobserved infrared degrees of freedom. This provides a bridge between the traditional infrared-safe cross-section formulation and the modern interpretation of soft photons as carriers of infrared memory and quantum information.",
+      "score": 85,
+      "reason": "📡QEDの検出器分解能ω_maxが断面積に残る話✨ソフト光子をトレースアウトした粗視化＝検出/吸収モデルの関心に通じる一本🔍",
+      "summary": "Bloch-Nordsieck/KLNで発散は消えるが分解能スケールは観測量に残存。soft sectorのオーバーラップが分解能依存となりIR記憶として現れる📉"
+    }
+  ]
+}

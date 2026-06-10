@@ -1,0 +1,137 @@
+{
+  "total_fetched": 247,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.09592",
+      "title": "Conceptual and Geometric Foundations for a Teleparallel Approach to Quantum Gravity",
+      "authors": [
+        "Alexandre Landry"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-th",
+        "math-ph",
+        "math.MP",
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.09592",
+      "abstract": "We revisit quantum field theory in curved spacetime (QFTCS) as a semi-classical framework for quantum matter on classical geometries, emphasizing its limitations, including vacuum ambiguity and background dependence. We briefly review major approaches to quantum gravity (QG), including Loop Quantum Gravity (LQG), string theory, and asymptotic safety, highlighting their conceptual challenges. Motivated by these issues, we outline a teleparallel framework based on coframe and spin-connection variables, where gravity is encoded in torsion rather than curvature. This framework naturally incorporates local Lorentz symmetry and fermionic couplings while displaying a gauge-like structure. We argue that the coframe/spin-connection pair provides an alternative and geometrically refined description of gravitational variables, which may serve as a useful starting point for future investigations of QG. The purpose of this work is not to provide a complete quantization of teleparallel gravity but to identify the geometric and conceptual ingredients that such a formulation would require.",
+      "score": 92,
+      "reason": "🌀テレパラレル重力で量子重力に挑む話！torsion・coframe・スピン接続でローカルローレンツ対称性とフェルミオンを自然に内包🔥まさにど真ん中のテーマ✨",
+      "summary": "曲率でなくtorsionに重力を担わせる枠組みを提案🌌QFTCSの背景依存・真空の曖昧さを越える指針としてゲージ的構造を議論📐"
+    },
+    {
+      "arxiv_id": "2606.08022",
+      "title": "Degenerate Geometries as Matter-Free Physical Configurations in General Relativity: Three Examples",
+      "authors": [
+        "Juri Dimaschko"
+      ],
+      "categories": [
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2606.08022",
+      "abstract": "We examine three degenerate spacetime configurations with wormhole topology, obtained via branching coordinate transformations of the Rindler, Minkowski, and Schwarzschild vacuum metrics.These configurations are, respectively, a Rindler wormhole with a planar throat, and the Klinkhamer and Schwarzschild Klinkhamer wormholes with spherical throats. Within the framework of the Einstein Palatini Cartan formulation, we demonstrate that these degenerate configurations are matter free. In this regard, they differ fundamentally from their nondegenerate wormhole counterparts in the thin shell model, which require exotic matter. Nevertheless, the degenerate configurations considered here exhibit distinct physical manifestations, ranging from purely topological structures to genuine gravitational effects. Furthermore, in all three examples, we demonstrate the absence of a limiting transition from the non-degenerate spacetime to the matter free degenerate configuration. This suggests that degenerate geometries constitute an independent sector of the configuration space of general relativity.",
+      "score": 89,
+      "reason": "🕳️縮退した時空（ワームホール位相）がEinstein-Palatini-Cartanで物質ゼロになる話✨『縮退重力』好きに刺さる3例🔥",
+      "summary": "Rindler/Minkowski/Schwarzschildの分岐座標変換で作る縮退ワームホールを解析🌀薄殻模型と違いexotic matter不要を示す📐"
+    },
+    {
+      "arxiv_id": "2606.09510",
+      "title": "Effective scalaron--photon interaction in $f(R)$ gravity",
+      "authors": [
+        "Yuri Shtanov"
+      ],
+      "categories": [
+        "hep-th",
+        "gr-qc",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.09510",
+      "abstract": "We revisit the effective coupling of the scalaron to gauge fields in $f(R)$ gravity minimally coupled to the Standard Model, focusing on the scalaron decay into two photons. Treating the scalaron as an intrinsic component of the Jordan-frame metric, we analyse quantum effects arising from its coupling to the energy--momentum tensor. In this framework, the trace anomaly contributes to the scalaron--gauge boson interaction.\n  Using Fujikawa's method, we derive the anomaly-induced contribution, associated with the transformation of matter fields between the Jordan and Einstein frames, first in QED and then in the full Standard Model. The resulting effective scalaron--photon interaction agrees with direct perturbative calculations that include the trace anomaly and differs from the result obtained when only the classical trace of the energy--momentum tensor is taken into account. In the limit where the scalaron mass is much smaller than the masses of particles circulating in the loop, the diagrammatic contribution cancels the anomaly-induced term, leading to a vanishing effective coupling and a strong suppression of the scalaron decay rate into photons.\n  These results clarify the origin of discrepancies in the literature concerning the effective scalaron coupling to massless gauge fields. The discrepancies arise from inequivalent prescriptions for implementing quantum loop effects in $f(R)$ gravity, leading to different scalaron--gauge field interactions with direct implications for scalaron dark-matter phenomenology.",
+      "score": 88,
+      "reason": "🌟f(R)重力のスカラロンが光子2個に崩壊する有効結合を再訪✨Jordan↔Einstein frameのトレースアノマリーが効く、Higgsインフレ屋に刺さる🎯",
+      "summary": "藤川の方法でアノマリー由来のスカラロン–光子結合を導出📷QEDからSM全体へ拡張しframe変換に伴う寄与を定量化🔬"
+    },
+    {
+      "arxiv_id": "2606.09786",
+      "title": "Neutron stars in Poincar\\'e gauge gravity with quadratic torsion",
+      "authors": [
+        "Chaitanya Vashistha",
+        "Radouane Gannouji",
+        "Apratim Ganguly"
+      ],
+      "categories": [
+        "gr-qc",
+        "astro-ph.HE"
+      ],
+      "url": "https://arxiv.org/abs/2606.09786",
+      "abstract": "We study static neutron stars in an algebraic sector of Poincar\\'e gauge gravity with parity-even and parity-odd quadratic torsion invariants. Since torsion is non-propagating, the contorsion equation is algebraic and can be solved in terms of the spin current. For a Weyssenhoff fluid satisfying the Frenkel condition, the metric field equations reduce to ordinary Riemannian Einstein equations sourced by an effective fluid containing spin-squared corrections. We derive the effective energy density, radial pressure, and tangential pressure, allowing both isotropic and anisotropic spin correlations. In contrast with Einstein--Cartan theory, the coefficient of the effective spin-spin interaction is not fixed, but depends on the dimensionless quadratic-torsion couplings. In the Einstein--Cartan limit, using the metric definition of the stress-energy tensor, the unpolarized spin contribution gives $w_{\\mathrm{spin}}=-1/3$. We then derive the corresponding modified Tolman--Oppenheimer--Volkoff equations and solve them numerically using the DD2 equation of state. For the positive effective spin-spin coupling branch considered here, the torsion correction makes the stellar configurations more compact, lowers the maximum mass, and reduces the binding energy relative to the general-relativistic sequence. For the smooth weak-polarization profiles considered, spin-correlation anisotropy has only a negligible effect on the mass--radius relation.",
+      "score": 87,
+      "reason": "⭐Poincaréゲージ重力＋2次のtorsionで中性子星を解く話🌟Einstein-Cartanとの違い（spin-spin係数）が見どころでtorsion好きに刺さる✨",
+      "summary": "非伝播torsionを代数的に解きWeyssenhoff流体でスピン2乗補正を含む有効流体に帰着🔬等方/非等方スピン相関で構造を導出🪐"
+    },
+    {
+      "arxiv_id": "2606.08080",
+      "title": "Weyl conformal geometry vs Riemannian geometry of Weyl invariant dressed metric",
+      "authors": [
+        "D. M. Ghilencea",
+        "V. -M. Mandric"
+      ],
+      "categories": [
+        "hep-th",
+        "gr-qc",
+        "hep-ph",
+        "math-ph",
+        "math.MP"
+      ],
+      "url": "https://arxiv.org/abs/2606.08080",
+      "abstract": "Weyl conformal geometry is the natural underlying geometry of gauge theories of the Weyl group (of dilatations and Poincar\\'e symmetry), such as Weyl quadratic gravity and its generalisation, Weyl-Dirac-Born-Infeld action (WDBI). These gauge theories are Weyl-anomaly-free candidates for quantum gravity. We describe Weyl gauge symmetry from a more familiar Riemannian view of Weyl gauge invariant dressed fields by the Wilson line of dilatations. Weyl geometry can then be seen as Riemannian geometry of non-local dressed metric ($g_{\\mu\\nu}^*$), at the cost of non-commutativity in the UV, also induced by the Wilson line. Then Weyl quadratic gravity and WDBI actions of Weyl geometry, which are Weyl gauge invariant in $d$ dimensions, have the same expression in Riemannian geometry defined by $g^*_{\\mu\\nu}$. This is a non-local map between the two geometries and actions in the symmetric phase. Unlike for the metric, the equation of motion of the Weyl gauge field ($\\omega_\\mu$) does not commute with the dressing of the metric. When $\\omega_\\mu$ becomes massive and decouples (broken phase), commutativity and Einstein-Hilbert action are recovered.",
+      "score": 86,
+      "reason": "🌐Weyl共形幾何 vs リーマン幾何の話✨Weyl2次重力＝アノマリーフリーな量子重力候補で、スケール不変重力屋にうれしい一本🔥",
+      "summary": "ダイレーションのWilson lineでdressedした計量としてWeyl幾何を再解釈📐UVで非可換性が出るがWeyl2次・WDBI作用を記述🌀"
+    },
+    {
+      "arxiv_id": "2606.08220",
+      "title": "Stimulated Emission from Boson Clouds",
+      "authors": [
+        "Yu An",
+        "Xian-Hui Ge",
+        "Yun-Gui Gong",
+        "Yun-Long Zhang"
+      ],
+      "categories": [
+        "gr-qc",
+        "astro-ph.CO",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2606.08220",
+      "abstract": "Gravitational-waves from astrophysical sources are characterized by their extreme faintness, which remains a primary obstacle for both current and next generation detectors. While rotating black holes dressed in superradiant clouds of ultralight bosons are recognized as promising probes of physics beyond the Standard Model, their capacity to actively emit and modulate gravitational radiation remains largely unexamined. Here we demonstrate that these gravitational atoms can function as natural amplifiers of gravitational-waves via a stimulated emission mechanism analogous to astrophysical masers. By formalizing the interaction between the bosonic cloud and an ambient stochastic gravitational-wave background, we establish the rigorous selection rules and threshold conditions that govern this amplification. Our analysis reveals that the emission rate depends critically on the boson mass, potentially yielding an enhancement of several orders of magnitude over spontaneous processes. For representative mass ranges, these amplified signals bridge the sensitivity gap between ground-based interferometers and pulsar timing arrays. These findings suggest that superradiant clouds can effectively boost previously undetectable signals, offering a novel observational frontier for exploring ultralight fields and the Kerr spacetime environment.",
+      "score": 86,
+      "reason": "🔊回転BH周りの超放射ボソン雲が重力波を誘導放出で増幅する話✨『パラメトリック超放射』の流れにドンピシャ🌌",
+      "summary": "ボソン雲を重力波メーザーと見て周囲の確率的重力波を刺激放出で増幅・変調する機構を定式化🔭BSM探索の新プローブに🪐"
+    },
+    {
+      "arxiv_id": "2606.07747",
+      "title": "$100\\pm\\Delta t$ Years of Quantum Uncertainty: From Origins to Modern Insights",
+      "authors": [
+        "Lorcan O. Conlon",
+        "Biveen Shajilal",
+        "Jie Zhao",
+        "Tim C. Ralph",
+        "Gerd Leuchs",
+        "Ulrik L. Andersen",
+        "Syed M. Assad",
+        "Ping Koy Lam",
+        "Yunlong Xiao"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.07747",
+      "abstract": "Heisenberg's uncertainty principle is a cornerstone of quantum mechanics, marking a decisive departure from classical physics. Conceived almost a century ago through a thought experiment showing that measuring an electron's position inevitably disturbs its momentum, it began as a deceptively simple idea that sparked countless studies and grew into the rich research field it is today. This review traces its development into a spectrum of mathematical formulations -- known as uncertainty relations -- and explores their interconnections and wide-ranging applications. We highlight its central role in quantum metrology, where it underpins strategies for extracting information from quantum systems with ever-increasing precision, and its links to multiparameter estimation and squeezed states. This review, dedicated to the centenary of the uncertainty principle, reflects on how it has deepened our understanding of quantum theory and driven practical advances, and looks ahead to a century poised for further surprising and transformative discoveries.",
+      "score": 85,
+      "reason": "📏不確定性関係の100年レビュー✨思考実験から多彩な数学的定式化・量子計測への応用まで一望できる、量子基礎好きの保存版🔥",
+      "summary": "Heisenberg以来の不確定性関係を体系化し相互関係と応用（特に量子メトロロジー）を整理📚現代的視点までの発展史を俯瞰🕰️"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "total_fetched": 247,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.07745",
+      "title": "CMBolic: Symbolic emulators for the Cosmic Microwave Background. I. Lensing",
+      "authors": [
+        "David M. J. Vokrouhlicky",
+        "Constantinos Skordis",
+        "Deaglan J. Bartlett",
+        "Harry Desmond",
+        "Pedro G. Ferreira"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "astro-ph.IM"
+      ],
+      "url": "https://arxiv.org/abs/2606.07745",
+      "abstract": "We present the first installment of CMBolic: a suite of symbolic cosmic microwave background (CMB) emulators. In this instance, we emulate the CMB lensing potential power spectrum $C_\\ell^{\\phi\\phi}$ for the widely used extended $\\Lambda$CDM model which simultaneously includes massive neutrinos and evolving dark energy modelled using the Chevallier-Polarski-Linder (CPL) parameterization. We achieve comparable precision to existing neural network emulators, with the added benefit of simpler handling as our emulators are analytic functions of the model parameters and multipole $\\ell$. On independent validation spectra evaluated in the range $2\\leq \\ell \\leq 5500$, CMBolic achieves mean absolute fractional errors of $0.27\\%$ in the $\\Lambda$CDM subspace and $0.32\\%$ across the full extended parameter space. This emulation error is well below even the most optimistic noise forecasts from CMB Stage 4 experiments. We apply CMBolic to cosmological parameter estimation with Bayesian inference using the lensing-only likelihoods from ACT DR6 and Planck. We show excellent agreement between the posteriors obtained by CMBolic and the Boltzmann code CLASS. This demonstrates the practical use of CMBolic on cosmological parameter estimation, reducing the runtime from 2 weeks to under 3 minutes.",
+      "score": 88,
+      "reason": "🔭CMBレンジングC_ℓ^φφの記号的エミュレータ✨massive neutrino＋進化DE込みで解析関数として扱える、delensing文脈に効く📈",
+      "summary": "拡張ΛCDM（CPL）のレンジングポテンシャルパワースペクトルをニューラル網並みの精度で解析的に近似🪐2≤ℓ≤5500で検証"
+    },
+    {
+      "arxiv_id": "2606.08073",
+      "title": "Detector Development for HUBS I: Initial Testing of Small-Area TES Microcalorimeters",
+      "authors": [
+        "Naihui Chen",
+        "Jian Ma",
+        "Sifan Wang",
+        "Qian Wang",
+        "Guanhua Gao",
+        "Qing Yu",
+        "Yajie Liang",
+        "Yaowu Song",
+        "Jingyi Zhang",
+        "Wei Cui"
+      ],
+      "categories": [
+        "astro-ph.IM"
+      ],
+      "url": "https://arxiv.org/abs/2606.08073",
+      "abstract": "We report progress on the ongoing development of microcalorimeter detector technology for the Hot Universe Baryon Surveyor (HUBS) mission. We show the results from testing and characterizing selected pixels in a 10$\\times$10 microcalorimeter array. The microcalorimeter is based on a Mo/Cu transition-edge sensor (TES) coupled to an Au absorber. To better understand the properties of the devices, we have first measured the energy resolution of a selected pixel in a TES array of the same design with a pulsed laser system that produces 3 eV photons, and found that individual photon peaks are easily resolved with the TES, indicating good performance. We have then exposed the microcalorimeter array to radiation from a $^{55}$Fe source, and found that the pixels tested show energy resolutions as good as 3.8$\\pm$0.2 eV at 5.9 keV. The energy resolution is found to vary monotonically with the bias point for all the devices, showing little evidence for the presence of the so-called excess noise. This is consistent with the results from modeling the measured noise spectrum. The effects of thermal crosstalk are evident, leading to the degradation of energy resolution.",
+      "score": 88,
+      "reason": "❄️HUBS向けTESマイクロカロリメータ検出器の開発・試験✨極低温検出器（TES/MKID）×X線ヘリテージという装置系の関心ど真ん中🛰️",
+      "summary": "Mo/Cu TES＋Au吸収体の10×10アレイを特性評価。パルスレーザの3eV光子で個別ピークを分離でき良好な性能を確認🔬"
+    },
+    {
+      "arxiv_id": "2606.09427",
+      "title": "Modifying $\\Lambda$CDM dynamics via out-of-equilibrium axions: reconciling SH0ES and DESI $H_0$ values",
+      "authors": [
+        "Giovanni Montani",
+        "Luis A. Escamilla",
+        "Nakia Carlevaro",
+        "Francesco Cianfrani"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "astro-ph.HE",
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2606.09427",
+      "abstract": "We investigate late-Universe dynamics in which the dark matter component is described by axion particles. The proposed framework departs from the standard $\\Lambda$CDM paradigm due to a small fraction of axions driving the system away from thermal equilibrium. We analyze the evolution of the axion energy density using both a kinetic and a classical field approach, yielding an identical macroscopic evolution equation for the dark matter density. The resulting scenario modifies $\\Lambda$CDM dynamics in the late Universe (specifically at $z \\lesssim 1$), while asymptotically recovering the standard baseline at earlier cosmic epochs. We compare the theoretical predictions of our formulation against a comprehensive suite of late-Universe datasets. Our statistical analysis reveals that when the SH0ES local calibration is included, the collisional axion model becomes significantly favored over $\\Lambda$CDM, yielding a best-fit Hubble constant of $H_0 \\simeq 73~{\\rm km\\,s^{-1}\\,Mpc^{-1}}$. Ultimately, this cosmological scenario successfully accommodates local distance-ladder measurements while maintaining excellent agreement with Baryon Acoustic Oscillation data from the DESI Collaboration.",
+      "score": 87,
+      "reason": "🌌非平衡アクシオンでΛCDMを修正しSH0ESとDESIのH₀値を整合させる話✨H₀テンションの関心にダイレクトな一本📈",
+      "summary": "ダークマターをアクシオンとし一部が熱平衡を外れて後期宇宙（z≲1）の進化を修正🪐運動論と古典場で同一の発展方程式を導出"
+    },
+    {
+      "arxiv_id": "2606.09810",
+      "title": "Inflationary interpretation of the gravitational-wave signal in the European Pulsar Timing Array DR2 with constraints",
+      "authors": [
+        "Philippe Turgeon",
+        "Chiara Caprini",
+        "Anton Chudaykin",
+        "Martin Kunz",
+        "Delphine Perrodin",
+        "Ismael Cognard",
+        "Lucas Guillemot",
+        "Gilles Theureau"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "astro-ph.GA",
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2606.09810",
+      "abstract": "The second data release of the European Pulsar Timing Array (EPTA) collaboration provides evidence for the presence of a gravitational-wave (GW) background. In this work, we explore a potential cosmological interpretation of this signal in terms of inflationary scenarios. We parametrize the tensor power spectrum in terms of the tensor-to-scalar ratio $r$, the tensor spectral index $n_t$, the reheating temperature $T_{\\text{rh}}$, and the cut-off frequency $f_{\\text{end}}$. We incorporate all relevant observational constraints, including those from the Cosmic Microwave Background, Big Bang Nucleosynthesis, and LIGO-Virgo-KAGRA observations. We demonstrate that imposing these constraints consistently reduces the region of parameter space that provides a viable interpretation of the EPTA signal, to $-11.66 \\lesssim \\log_{10}r \\lesssim -1.45$, $1.32 \\lesssim n_t \\lesssim 2.47$, $1.78\\text{ MeV} \\lesssim T_{\\text{rh}} \\lesssim 28.2\\text{ GeV}$, and $75.86\\text{ nHz} \\lesssim f_{\\text{end}} \\lesssim 14.45\\text{ Hz}$ at the 95% confidence level. This favours the scenario in which the GW spectrum in the EPTA frequency band originates from tensor modes that re-entered the Hubble radius during the radiation-dominated era, allowing for a higher $r$ and a flatter spectrum. However, $T_{\\text{rh}}$ must take very low values, which are challenging to explain theoretically.",
+      "score": 86,
+      "reason": "📡EPTA DR2の重力波背景をインフレーション起源で解釈✨テンソル–スカラー比rや再加熱温度で制約、原始重力波の関心に効く🌌",
+      "summary": "テンソルスペクトルをr・n_t・T_rh・カットオフ周波数で表しCMB/BBN/LVKの制約を総合📉インフレ解釈の可否を検討"
+    },
+    {
+      "arxiv_id": "2606.08097",
+      "title": "XRISM Observations of Abell 1795: Evidence for Low Turbulence and Resonant Scattering",
+      "authors": [
+        "Arnab Sarkar",
+        "Eric D. Miller",
+        "Brian McNamara",
+        "Helen Russell",
+        "Kotaro Fukushima",
+        "Mark Bautz",
+        "Yutaka Fujita",
+        "Catherine E. Grant",
+        "Francois Mernier",
+        "Michael A. McDonald",
+        "Naomi Ota",
+        "Ayseg\"ul T\"umer",
+        "Daniel Wik"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "astro-ph.HE"
+      ],
+      "url": "https://arxiv.org/abs/2606.08097",
+      "abstract": "We present high-resolution X-ray spectroscopic observations of the cool-core galaxy cluster Abell~1795 obtained with XRISM/Resolve. The cluster was observed with two deep pointings: a 225 ks central exposure and a 113 ks northern exposure, extending to a projected radius of 320 kpc from the cluster center. Single-temperature fits reveal a clear radial gradient in the line-of-sight velocity dispersion, decreasing from 114 $\\pm$ 11 km/s in the core to 68 $\\pm$ 39 km/s at 320 kpc. The bulk velocities in the central regions are very low (22 $\\pm$ 12 and 7 $\\pm$ 21 km/s), indicating no significant relative motion between the brightest cluster galaxy (BCG) and the intracluster medium (ICM). Given that the central region includes the southward extending cool gas tail, this result disfavors the ``cooling-wake'' scenario and instead supports an AGN-uplift origin. We find that the nonthermal pressure fraction decreases with radius, from $P_{\\rm NT}/P_{\\rm T}\\approx2\\%$ in the core to $\\sim0.6\\%$ at 330 kpc, suggesting that the northern ICM of A1795 is largely quiescent. Two-temperature and split energy-band (2--4 keV and 6--7 keV) fits identify two gas phases within the central $<1.5'$ region, providing strong evidence for multiphase gas in the cluster core. We detect a $\\sim14\\%$ resonant suppression of the optically thick Fe XXV $w$ line in the center. Additionally, we observe a significant excess in the Fe XXV $y$ line-flux relative to models. Accounting for uncertainties in the atomic data reduces this discrepancy, suggesting that atomic data uncertainties may contribute to the observed residual flux.",
+      "score": 85,
+      "reason": "🛰️XRISM/Resolveの高分解能X線分光でAbell 1795を観測✨LiteBIRDに効くXRISM Resolveヘリテージの並行X線テーマに刺さる🔭",
+      "summary": "視線速度分散がコア114→外縁68 km/sと低乱流を示しBCGとICMの相対運動も小さい📉共鳴散乱の兆候も検出"
+    }
+  ]
+}
