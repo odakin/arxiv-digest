@@ -1,0 +1,43 @@
+{
+  "total_fetched": 171,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.10776",
+      "title": "Gravitational superfluorescence from superradiant axion clouds",
+      "authors": [
+        "Zhen-Hong Lyu",
+        "Rong-Gen Cai",
+        "Jing Liu"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.10776",
+      "abstract": "Boson clouds formed via superradiance around spinning black holes offer a novel gravitational-wave probe for weakly interacting ultralight particles. We show that such gravitational atoms can undergo a self-stimulated avalanche: a coherent quadrupolar transition is seeded and then amplified by gravitational radiation feedback. We formulate an effective two-level description, validated by numerical simulations, that captures the logistic population transfer and the resulting delayed gravitational-wave pulse with a characteristic envelope, and assess its detectability with future detectors. As a gravitational analogue of superfluorescence, this cooperative emission mechanism opens a new observational avenue into the ultralight dark sector.",
+      "score": 86,
+      "reason": "回転BHの超放射でできたaxion雲が自己誘導アバランシェで一斉放射✨🕳️ 重力波パルスとして見えるかも、超軽量DM探索の新チャネル🌌",
+      "summary": "二準位系モデル＋数値計算で、ボソン雲の四重極遷移が重力波フィードバックで増幅され、特徴的な包絡線をもつ遅延GWパルスを予言⚡📡"
+    },
+    {
+      "arxiv_id": "2606.10004",
+      "title": "Wave packets from the spectrum",
+      "authors": [
+        "ChunJun Cao",
+        "Oliver Friedrich",
+        "Marin Girard",
+        "Nicolas Loizeau",
+        "Ashmeet Singh"
+      ],
+      "categories": [
+        "quant-ph",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2606.10004",
+      "abstract": "The freedom to change Fock basis seems to ensure a minimum amount of locality in lattice theories in the following sense: If $\\lbrace (\\hat a_i^\\dagger\\,,\\,\\hat a_i)\\rbrace$ for $i=1,\\dots,n$ is a lattice of creation and annihilation operators and if a given Hamiltonian $\\hat H$ induces highly non-local dynamics on that lattice, then it will usually be possible to change to a new set of operators $\\lbrace (\\hat b_i^\\dagger\\,,\\,\\hat b_i)\\rbrace$ in terms of which the dynamics appear less non-local. We demonstrate this by turning a highly non-local random matrix model into a local, 1D lattice theory where particles can propagate in localized wave packets. More generally, we show that any Hamiltonian can be made to look like such a theory, with the lattice dispersion relation and the non-integrability of the theory depending on the spectrum of $\\hat H$. We argue that our results are a step towards quantum mereology for fields.",
+      "score": 85,
+      "reason": "波束形式ど真ん中🌊✨ どんなHamiltonianも基底変換で局所格子理論に化け、粒子が波束で伝播する様子を示す。場の量子メレオロジーへの一歩🧩",
+      "summary": "非局所な乱雑行列模型を局所1D格子に変換、分散関係や非可積分性がスペクトルで決まると実証。コヒーレント状態的な波束伝播🔬🌀"
+    }
+  ]
+}

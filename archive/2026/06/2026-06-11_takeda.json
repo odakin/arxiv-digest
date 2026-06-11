@@ -1,0 +1,20 @@
+{
+  "total_fetched": 171,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.10737",
+      "title": "Does the Weinberg angle allow a local hidden-variable description for the leptonic decays of an entangled $ZZ$ pair?",
+      "authors": [
+        "Junle Pei"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.10737",
+      "abstract": "Quantum entanglement in diboson systems offers a useful testing ground for exploring the boundary between quantum-mechanical correlations and classical descriptions based on local hidden variables. In this work, we study the spin-polarization state of a $Z_1Z_2$ pair produced from the decay of a spin-0 particle and investigate whether the angular correlations predicted by quantum field theory (QFT) in the leptonic decays $Z_1(\\to e^-_1 e^+_1)Z_2(\\to e^-_2 e^+_2)$ can be reproduced by a local hidden-variable theory (LHVT) under angular-momentum conservation. By matching the LHVT angular distribution to the QFT prediction coefficient by coefficient, we derive the conditions under which an LHVT construction exists. For the case $w\\neq 0$, we show that, apart from trivial product-state configurations, an LHVT construction exists only for a unique entangled pure state, corresponding to $a_1=a_3=-a_2=1/\\sqrt{3}$ and $b_2=b_3=0$, together with a restricted window of the weak-mixing angle $\\theta_W$. For $w=0$, we derive a necessary and sufficient criterion for the existence of an LHVT construction in terms of a closed set of algebraic and positivity conditions. As an application, we consider the phenomenologically relevant interaction $sZ^\\mu Z_\\mu$ and show that an LHVT construction exists at threshold $m_s=2m_Z$, whereas it does not exist for $m_s>2m_Z$.",
+      "score": 85,
+      "reason": "崩壊系の量子もつれ＆コライダーBellテストど真ん中⚛️ もつれZZ対のレプトン崩壊角相関が局所隠れ変数で再現可能か、Weinberg角依存で吟味✨",
+      "summary": "QFT予言とLHVT分布を係数ごとに突合、w≠0では特定のもつれ純粋状態＋θ_W窓のみLHVT構成が存在、m_s=2m_Zが閾値と判明🔬"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "total_fetched": 171,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.09994",
+      "title": "On the potential of pseudo-scalar dark energy",
+      "authors": [
+        "Andrea Minotti",
+        "Yunzhi Wu",
+        "Marco Regis"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.09994",
+      "abstract": "A cosmological pseudo-scalar field provides a compelling realization of dynamical dark energy (DE). If its coupling to photons is non-negligible, the cosmic microwave background acquires a rotation of its polarization plane, known as cosmic birefringence (CB). We present an extended analysis of several pseudo-scalar DE models and derive constraints on the parameters of their potentials by combining observations of the background expansion history with measurements of CB. We find that the axion-like potential constitutes a viable model only for large values of the anomaly coefficient. Scenarios in which the pseudo-scalar field rolls down a potential with quadratic, linear, or Ratra-Peebles forms can successfully explain DE and CB, with a symmetry-breaking scale close to the GUT scale.",
+      "score": 86,
+      "reason": "宇宙複屈折ど真ん中🌀 光子結合する擬スカラーDEがCMB偏光面を回す。背景膨張＋CB測定で各種ポテンシャルを制約、LiteBIRD的観測量に直結✨",
+      "summary": "axion型は異常係数大なら可、二次・線形・Ratra-Peebles型もDE＋CBを説明でき、対称性破れスケールはGUT近傍と判明📐"
+    },
+    {
+      "arxiv_id": "2606.10485",
+      "title": "Natural Inflation with a negative cosmological constant",
+      "authors": [
+        "Chia-Min Lin",
+        "Naoto Maki",
+        "Kazunori Kohri"
+      ],
+      "categories": [
+        "gr-qc",
+        "astro-ph.CO",
+        "hep-ph",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2606.10485",
+      "abstract": "In this work, we investigate a cosmic inflation model based on a cosine-type potential with a negative cosmological constant. This model originates from a classical solution of the Wheeler-DeWitt equation. The equation of motion for the inflaton field can be solved analytically without relying on approximation schemes, such as the slow-roll conditions. The predictions of the spectral index, the tensor-to-scalar ratio, and the running spectral index are calculated and compared with experimental constraints from Planck Collaboration, Atacama Cosmology Telescope Collaboration (ACT), and Dark Energy Spectroscopic Instrument (DESI).",
+      "score": 85,
+      "reason": "B-mode/r狙いに直結🌌 負の宇宙定数つきコサイン型インフレ模型、スローロール無しで解析的に解けn_s・r・runningをPlanck/ACT/DESIと比較✨",
+      "summary": "Wheeler-DeWitt方程式の古典解由来のcosine型ポテンシャル＋負のΛ。運動方程式を近似なしで解きスペクトル指数とテンソル比を予言📊"
+    }
+  ]
+}
