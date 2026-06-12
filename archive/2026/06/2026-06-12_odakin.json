@@ -1,0 +1,117 @@
+{
+  "total_fetched": 167,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.11929",
+      "title": "Nonminimal couplings and preheating effects in $R^2$-Higgs inflation after ACT and SPT",
+      "authors": [
+        "Haneesh Gonuguntla",
+        "Tanmoy Modak",
+        "Arnab Samanta"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.11929",
+      "abstract": "We study the effects of dimension-four and dimension-six nonminimal Higgs couplings to the Ricci scalar $R$ in the $R^2$-Higgs inflation model in light of the recent ACT and SPT observations. We show that the dimension-six operators $|\\Phi|^2 R^2$ and $|\\Phi|^4 R$ can accommodate the enhanced scalar spectral index $n_s$ preferred by the combined CMB+BAO analyses. Using a doubly covariant formalism, we find that the same region of parameter space that explains the observed value of $n_s$ can also induce rapid preheating through the production of the Goldstone modes. If thermalization proceeds efficiently through this preheating mechanism, it may help match the inflationary scale with the CMB reference scale.",
+      "score": 92,
+      "reason": "🔥まさにど真ん中！R²-Higgs インフレの非極小結合を ACT/SPT で再検証⚛️ n_s も説明できて激アツ🌌",
+      "summary": "📈|Φ|²R² と |Φ|⁴R の次元6演算子が高い n_s を実現。同じ領域で Goldstone 生成→高速 preheating も誘発🚀"
+    },
+    {
+      "arxiv_id": "2606.11725",
+      "title": "Bayesian Constraints on Inverse-Tangent Inflation with Constant-EOS Reheating and a Dynamical Reheating Analysis",
+      "authors": [
+        "Mayur Abhisheki",
+        "Prasanta Kumar Das"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2606.11725",
+      "abstract": "We perform a Bayesian inference analysis of an inflationary model based on an inverse-tangent potential, incorporating reheating dynamics in both constant and dynamical equation-of-state (DEOS) frameworks. Using Planck and ACT constraints on the scalar spectral index, we find preferred values $\\kappa\\simeq0.5-0.6$ and $N_k\\simeq40-60$, leading to reheating temperatures $T_{RH}\\sim10^{10}-10^{14}$ GeV and reheating durations $N_{RH}\\sim3-36$ e-folds. Reheating weighted $H_0$ posteriors shift the Planck inference towards the ACT preferred region through the intrinsic $n_s-H_0$ degeneracy of the CMB likelihood. In the DEOS framework, reheating with a constant decay rate yields $N_{RH}\\simeq4-8$ e-folds and $T_{RH}\\simeq10^{13}$ GeV, while a dynamical decay rate produces a strong dependence on the Yukawa coupling $y$, with $N_{RH}$ varying from $\\mathcal{O}(30)$ to $\\mathcal{O}(1)$ e-folds and the reheating temperature spanning $\\sim10^{-2}-10^{14}$ GeV. Imposing inflation-reheating consistency significantly restricts the viable parameter space to a narrow region around $n_s\\simeq0.9720-0.9725$ and $r\\simeq0.026-0.060$, demonstrating that reheating dynamics provide a nontrivial bridge between early-universe inflation and late-time cosmological parameter inference.",
+      "score": 87,
+      "reason": "📊ベイズ × インフレ × reheating の合わせ技🎯 逆正接ポテンシャルで n_s–H₀ を縛る好物の組み合わせ✨",
+      "summary": "🔭Planck/ACT で κ≃0.5–0.6, T_RH~10¹⁰–10¹⁴ GeV。reheating が初期宇宙と後期パラメータを橋渡し🌉"
+    },
+    {
+      "arxiv_id": "2606.11517",
+      "title": "Probing TeV-Scale Inverse-Seesaw Leptogenesis and Majorana Dark Matter in $U(1)_{B-L}$ Models at Multi-TeV Muon Colliders",
+      "authors": [
+        "Xin-Qiang Li",
+        "Himadri Roy",
+        "Tripurari Srivastava",
+        "Ya-Dong Yang",
+        "Xing-Bo Yuan"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.11517",
+      "abstract": "We investigate a predictive and testable framework in which dark matter (DM), heavy-neutrino dynamics, and the BAU originate from correlated interactions within a local $U(1)_{B-L}$ extension of the SM. Unlike conventional $B-L$ constructions based on the type-I seesaw, we employ an inverse-seesaw mechanism realized through a sterile fermion $S_{1}$ and a complex scalar field $\\phi$, whose vacuum expectation value simultaneously generates the masses of the heavy neutrinos $N_{1,2}$ and the Majorana DM fermion $\\chi$ via Yukawa couplings. The small lepton-number-violating parameter induced by a higher-dimensional operator leads to naturally light active neutrinos together with TeV-scale heavy neutrinos and sizable active-sterile mixing, yielding distinctive collider signatures unavailable in minimal $B-L$ models. The relic abundance of $\\chi$ is governed by annihilation channels mediated by the same scalar and gauge interactions, producing a direct and model-specific correlation between successful leptogenesis and the observed DM relic density. A combined parameter-space analysis incorporating neutrino oscillation data, lepton-flavor-violating processes, direct-detection limits, and collider bounds on $N_{1,2}$ and $Z^\\prime$ reveals a narrow yet robust region consistent with all these constraints. Representative benchmark points in this region are examined at a future multi-TeV muon collider. Heavy-neutrino production through electroweak processes yields striking signatures in the dilepton plus missing energy ($2\\ell + E\\!\\!\\!/_T$) and single-lepton plus di-jet plus missing energy ($1\\ell + 2j + E\\!\\!\\!/_T$) final states. These channels demonstrate that next-generation muon colliders offer a powerful and complementary probe of the inverse-seesaw origin of neutrino masses, the DM relic density, and the TeV-scale leptogenesis within such an extended $U(1)_{B-L}$ framework.",
+      "score": 86,
+      "reason": "⚛️ニュートリノ質量・DM・BAU を U(1)_{B-L} で一括説明🌌 inverse-seesaw をマルチTeV μ コライダーで検証🚀",
+      "summary": "🔬χ の relic は同じスカラー/ゲージ媒介で決定。2ℓ+E̸ や 1ℓ+2j+E̸ で重ニュートリノを探索💥"
+    },
+    {
+      "arxiv_id": "2606.11312",
+      "title": "CMB Constraints on Pre-Inflationary Axion Dark Matter Isocurvature",
+      "authors": [
+        "Catherine Petretti",
+        "Praniti Singh",
+        "Matteo Braglia",
+        "Xingang Chen",
+        "JiJi Fan",
+        "Lingfeng Li"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.11312",
+      "abstract": "Although measurements of the Cosmic Microwave Background (CMB) are consistent with a nearly scale-invariant primordial spectrum of adiabatic perturbations, in which the energy densities of different components (radiation, baryons, and dark matter) fluctuate proportionally, there could also exist isocurvature perturbations, in which density fluctuations of the individual components differ from the adiabatic mode. Cold dark matter isocurvature (CDI) perturbations with a variety of spectral tilts generated in pre-inflationary axion models provide one such example. In this article, we present the most updated constraints on these axion CDI perturbations using the latest CMB anisotropy measurements from Planck, the Atacama Cosmology Telescope (ACT), and the South Pole Telescope (SPT). We study both fixed spectral indices with values ranging from red- to blue-tilted spectra as well as the case with a free index. We find that the constraint on the spectral index gets moderately improved with the combined datasets compared to Planck alone, while the bounds on the isocurvature amplitudes for the fixed spectral indices we consider do not get tighter. We also discuss the theoretical implications of our constraints, in particular for models giving rise to blue-tilted spectra.",
+      "score": 85,
+      "reason": "🌌アクシオン DM × インフレ前モデル × CMB の三拍子🎶 isocurvature を Planck+ACT+SPT で最新制限⚛️",
+      "summary": "📡CDI 摂動のスペクトル傾きを複合データで改善。blue-tilted 模型への理論的含意も議論🔵"
+    },
+    {
+      "arxiv_id": "2606.11346",
+      "title": "Radiative Neutrino Mass in a Nonholomorphic $T'$ Modular Invariant Model",
+      "authors": [
+        "Mohamed Amin Loualidi",
+        "Mohamed Miskaoui",
+        "Salah Nasri"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.11346",
+      "abstract": "The T4-2-i topology provides a one-loop realization of Majorana neutrino mass and may be viewed as a radiative extension of the type-II seesaw, with a scalar triplet, two inert scalar doublets, and singlet fermions propagating in the loop. A central difficulty in realizing this topology lies in the simultaneous presence of tree-level type-I and type-II seesaw contributions arising from the same particle content. In addition, the stability of the dark-matter candidate typically requires the introduction of an ad hoc discrete symmetry. In this work, we revisit the T4-2-i topology within a nonholomorphic modular-invariant framework based on the double-cover group $T'$. The presence of both even- and odd-weight polyharmonic Maa{\\ss} forms considerably enlarges the space of allowed modular structures, while the residual $\\mathbb{Z}_2$ symmetry associated with the vicinity of the fixed point $\\tau=i$ naturally stabilizes the lightest odd state. The modular assignments forbid the dangerous tree-level contributions, determine the flavor structure of the lepton sector, and allow both fermionic and scalar dark-matter candidates. We confront the model with neutrino-oscillation data, charged-lepton-flavor-violating bounds, electroweak precision observables, the Higgs diphoton signal strength, the observed dark-matter relic abundance, the cosmological bound on the sum of neutrino masses, and direct-detection limits. Focusing on the fermionic dark-matter candidate, in which the lightest odd state is the Majorana fermion $N_1$, we find that both normal and inverted neutrino mass orderings remain viable. In the allowed region, the relic abundance is largely controlled by coannihilation with the inert scalar partners, while the spin-independent direct-detection rate remains naturally suppressed because it arises only through a loop-generated Higgs portal.",
+      "score": 85,
+      "reason": "⚛️非正則モジュラー T' でラディエイティブ・ニュートリノ質量🌀 ツリー seesaw を禁じ DM も安定化、好み✨",
+      "summary": "🔬τ=i 近傍の残留 Z₂ が最軽 odd 状態を安定化。fermionic DM で正常/逆階層とも生存可能🌟"
+    },
+    {
+      "arxiv_id": "2606.12408",
+      "title": "When direct detection constrains reheating temperature: freeze-in with stronger couplings and inflaton-seeded freeze-in",
+      "authors": [
+        "Xavier Bertou",
+        "Olivier Deligny",
+        "Mathieu Gross",
+        "Yann Mambrini",
+        "Issam-Eddine Mellouki"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2606.12408",
+      "abstract": "Recent results from the DAMIC-M and PandaX collaborations have excluded the standard freeze-in production of dark matter for masses in the range $3~\\mathrm{MeV} \\lesssim m_\\chi \\lesssim 1~\\mathrm{GeV}$ in the context of extensions of the Standard Model featuring an additional ultra-light $U(1)_{\\rm X}$ gauge boson. In this work, we analyze the constraints induced by DAMIC-M and PandaX results on the reheating temperature in freeze-in models at stronger coupling, or when a non-thermal source (such as inflaton decay) comes into play. We identify viable scenarios in which the DM relic abundance is correctly reproduced while evading current experimental bounds on the electron-scattering cross section, $\\overline{\\sigma}_\\mathrm{e}$. In particular, we show that for reheating temperatures below the electroweak scale, Boltzmann suppressed production can be compensated by stronger couplings, bringing freeze-in scenarios within present experimental reach. Finally, we study a hybrid scenario in which a small branching ratio of inflaton decay seeds a nonzero initial dark-matter abundance. We show that such contributions can significantly modify freeze-in predictions across broad regions of parameter space, offering an additional pathway for probing extremely feeble interactions.",
+      "score": 85,
+      "reason": "🌌DM freeze-in × reheating 温度 × inflaton 種まき🌱 DAMIC-M/PandaX 制限を回避する領域を探索⚛️",
+      "summary": "🔭EW スケール以下の T_RH では強結合で Boltzmann 抑制を補償。inflaton 崩壊が初期 DM を seed💫"
+    }
+  ]
+}

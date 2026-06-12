@@ -1,0 +1,137 @@
+{
+  "total_fetched": 167,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.11300",
+      "title": "Calibration of CMB Polarisation Using Cross-Experiment Correlations",
+      "authors": [
+        "Claire Rigouzzo",
+        "Eugene Lim",
+        "Susanna Azzoni",
+        "Yiqi Liu"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "astro-ph.IM"
+      ],
+      "url": "https://arxiv.org/abs/2606.11300",
+      "abstract": "Parity-violating physics in the Universe can generate correlations between the Cosmic Microwave Background (CMB) $E$- and $B$-modes, but detecting such signals requires extremely accurate calibration of instruments. We describe a data-driven method to calibrate the relative polarisation angle between CMB experiments using cross-correlations of observations over a common sky region. Unlike standard self-calibration approaches, this method does not assume vanishing isotropic cosmic birefringence or primordial $EB$ correlations when estimating the relative misalignment angle, and therefore preserves sensitivity to parity-violating physics. As a proof of concept, we forecast the performance of this method using the Simons Observatory (SO) Small Aperture Telescopes (SATs) as a calibrated reference. If they can be calibrated to an uncertainty of $0.08^\\circ$, as anticipated from the SO wire grid calibration system, we show that the SO Large Aperture Telescope and Planck could be calibrated to uncertainties of $0.10^\\circ$ and $0.17^\\circ$, respectively, at $\\sim 145$ GHz. This approach relies on the availability of at least one well-calibrated instrument, and provides a complementary path to improving polarisation calibration across experiments, enabling more robust searches for parity-violating physics in the CMB, such as cosmic birefringence.",
+      "score": 90,
+      "reason": "🛰️ど真ん中の CMB 偏光較正！宇宙複屈折を保ったまま実験間相互相関で偏光角を校正、SO SAT 基準✨",
+      "summary": "📡SO SAT を 0.08° 基準に LAT/Planck を 0.10°/0.17° に較正。パリティ破れ探索の感度を保持🔭"
+    },
+    {
+      "arxiv_id": "2606.11368",
+      "title": "Non-linear Structure Formation in Planck+DESI Favoured Interacting Dark Energy Cosmologies",
+      "authors": [
+        "Yuejia Zhai",
+        "Carsten van de Bruck",
+        "Eleonora Di Valentino",
+        "Baojiu Li",
+        "Rafael C. Nunes"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2606.11368",
+      "abstract": "Following our previous work constraining interacting dark energy (IDE) models, which showed their potential to alleviate the Hubble tension, in this work we investigate the non-linear effects of the IDE scenario favoured by CMB and DESI observations. The implications of IDE for the $S_8$ tension remain unclear, since current weak-lensing and large-scale-structure analyses either exclude highly non-linear scales or model the non-linear regime using prescriptions calibrated within $\\Lambda$CDM. We address this issue by implementing a fully self-consistent IDE pipeline. We perform N-body simulations of the IDE model with a transfer rate $Q=\\xi {\\cal H}\\rho_x$ using a modified implementation of RAMSES. Since the dark matter Euler equation remains unchanged with respect to $\\Lambda$CDM, the interaction can be incorporated through the modified background evolution and an effective time-dependent dark matter particle mass. We find scale-dependent deviations in the quasi-linear and non-linear regimes of the matter power spectrum, together with modifications to the density-field morphology and halo abundance. Our results show that the impact of IDE on quasi-linear and non-linear structure formation cannot be captured by standard $\\Lambda$CDM-calibrated prescriptions, highlighting the importance of model-consistent non-linear modelling for future weak-lensing and large-scale-structure constraints on interacting dark energy cosmologies.",
+      "score": 87,
+      "reason": "🌌H₀ と S₈ の両テンションに効く相互作用ダークエネルギー🔭 IDE の非線形効果を自己整合 N体で評価✨",
+      "summary": "📈RAMSES 改造で Q=ξℋρ_x を実装。ΛCDM 較正では捉えられない scale 依存ずれを確認🌀"
+    },
+    {
+      "arxiv_id": "2606.11725",
+      "title": "Bayesian Constraints on Inverse-Tangent Inflation with Constant-EOS Reheating and a Dynamical Reheating Analysis",
+      "authors": [
+        "Mayur Abhisheki",
+        "Prasanta Kumar Das"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2606.11725",
+      "abstract": "We perform a Bayesian inference analysis of an inflationary model based on an inverse-tangent potential, incorporating reheating dynamics in both constant and dynamical equation-of-state (DEOS) frameworks. Using Planck and ACT constraints on the scalar spectral index, we find preferred values $\\kappa\\simeq0.5-0.6$ and $N_k\\simeq40-60$, leading to reheating temperatures $T_{RH}\\sim10^{10}-10^{14}$ GeV and reheating durations $N_{RH}\\sim3-36$ e-folds. Reheating weighted $H_0$ posteriors shift the Planck inference towards the ACT preferred region through the intrinsic $n_s-H_0$ degeneracy of the CMB likelihood. In the DEOS framework, reheating with a constant decay rate yields $N_{RH}\\simeq4-8$ e-folds and $T_{RH}\\simeq10^{13}$ GeV, while a dynamical decay rate produces a strong dependence on the Yukawa coupling $y$, with $N_{RH}$ varying from $\\mathcal{O}(30)$ to $\\mathcal{O}(1)$ e-folds and the reheating temperature spanning $\\sim10^{-2}-10^{14}$ GeV. Imposing inflation-reheating consistency significantly restricts the viable parameter space to a narrow region around $n_s\\simeq0.9720-0.9725$ and $r\\simeq0.026-0.060$, demonstrating that reheating dynamics provide a nontrivial bridge between early-universe inflation and late-time cosmological parameter inference.",
+      "score": 86,
+      "reason": "🔭インフレ＋reheating で n_s–H₀ と r を制限📊 ベイズ解析で Planck/ACT 整合領域を絞る、CMB 直結✨",
+      "summary": "🛰️κ≃0.5–0.6, T_RH~10¹⁰–10¹⁴ GeV。n_s≃0.972, r≃0.026–0.060 の狭領域に収束🌌"
+    },
+    {
+      "arxiv_id": "2606.11929",
+      "title": "Nonminimal couplings and preheating effects in $R^2$-Higgs inflation after ACT and SPT",
+      "authors": [
+        "Haneesh Gonuguntla",
+        "Tanmoy Modak",
+        "Arnab Samanta"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.11929",
+      "abstract": "We study the effects of dimension-four and dimension-six nonminimal Higgs couplings to the Ricci scalar $R$ in the $R^2$-Higgs inflation model in light of the recent ACT and SPT observations. We show that the dimension-six operators $|\\Phi|^2 R^2$ and $|\\Phi|^4 R$ can accommodate the enhanced scalar spectral index $n_s$ preferred by the combined CMB+BAO analyses. Using a doubly covariant formalism, we find that the same region of parameter space that explains the observed value of $n_s$ can also induce rapid preheating through the production of the Goldstone modes. If thermalization proceeds efficiently through this preheating mechanism, it may help match the inflationary scale with the CMB reference scale.",
+      "score": 85,
+      "reason": "🌌R²-Higgs インフレを ACT/SPT で再検証🔭 高い n_s を次元6演算子で実現＋急速 preheating も誘発✨",
+      "summary": "📡|Φ|²R²,|Φ|⁴R が CMB+BAO の n_s を説明。Goldstone 生成で thermalization が進む可能性🚀"
+    },
+    {
+      "arxiv_id": "2606.11312",
+      "title": "CMB Constraints on Pre-Inflationary Axion Dark Matter Isocurvature",
+      "authors": [
+        "Catherine Petretti",
+        "Praniti Singh",
+        "Matteo Braglia",
+        "Xingang Chen",
+        "JiJi Fan",
+        "Lingfeng Li"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.11312",
+      "abstract": "Although measurements of the Cosmic Microwave Background (CMB) are consistent with a nearly scale-invariant primordial spectrum of adiabatic perturbations, in which the energy densities of different components (radiation, baryons, and dark matter) fluctuate proportionally, there could also exist isocurvature perturbations, in which density fluctuations of the individual components differ from the adiabatic mode. Cold dark matter isocurvature (CDI) perturbations with a variety of spectral tilts generated in pre-inflationary axion models provide one such example. In this article, we present the most updated constraints on these axion CDI perturbations using the latest CMB anisotropy measurements from Planck, the Atacama Cosmology Telescope (ACT), and the South Pole Telescope (SPT). We study both fixed spectral indices with values ranging from red- to blue-tilted spectra as well as the case with a free index. We find that the constraint on the spectral index gets moderately improved with the combined datasets compared to Planck alone, while the bounds on the isocurvature amplitudes for the fixed spectral indices we consider do not get tighter. We also discuss the theoretical implications of our constraints, in particular for models giving rise to blue-tilted spectra.",
+      "score": 85,
+      "reason": "📡Planck+ACT+SPT で CMB isocurvature 制限⚛️ アクシオン CDI 摂動のスペクトル傾きを最新評価、CMB 直球✨",
+      "summary": "🌌複合データで傾き制約を改善、振幅は不変。blue-tilted 模型への含意も議論🔵"
+    },
+    {
+      "arxiv_id": "2606.12389",
+      "title": "KiDS-Legacy: Joint analysis of second- and third-order cosmic shear",
+      "authors": [
+        "L. Linke",
+        "L. Porth",
+        "P. Burger",
+        "J. Harnois-D'eraps",
+        "S. Heydenreich",
+        "P. Schneider",
+        "M. Asgari",
+        "M. Bilicki",
+        "C. Georgiou",
+        "C. Heymans",
+        "H. Hildebrandt",
+        "H. Hoekstra",
+        "P. Jalan",
+        "B. Joachimi",
+        "S. Joudaki",
+        "K. Kuijken",
+        "S. Li",
+        "L. Moscardini",
+        "M. Radovich",
+        "R. Reischke",
+        "B. St\"olzner",
+        "A. H. Wright",
+        "Z. Yan",
+        "Y. -H. Zhang"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2606.12389",
+      "abstract": "Weak lensing by large-scale structure is a powerful cosmological probe. While most analyses rely on second-order correlations, these are primarily sensitive to the parameter combination $S_8 = \\sigma_8 (\\Omega_m/0.3)^{0.5}$, limiting their ability to constrain $\\Omega_m$ and other cosmological parameters independently. Higher-order statistics capture non-Gaussian features of the density field and can therefore break parameter degeneracies and extract more cosmological information from weak lensing surveys. We present a joint analysis of second- and third-order cosmic shear in the final data release of the Kilo-Degree Survey (KiDS-Legacy). We combine COSEBIs (Complete Orthogonal Sets of E-/B-mode Integrals) at scales between 2' and 300' with third-order aperture mass moments at scales between 4' and 32' to perform a joint analysis of second- and third-order statistics. Compared to previous KiDS analyses, we implement several methodological advances: an intrinsic alignment model with redshift and mass dependence, a baryon correction model validated on multiple hydrodynamical simulations, and corrections for reduced shear and source clustering. Combining COSEBIs with third-order aperture mass statistics in KiDS-Legacy yields $\\Omega_m = 0.297^{+0.056}_{-0.040}$ and $S_8 = 0.806^{+0.025}_{-0.023}$, significantly tightening the $\\Omega_m$ constraints and more than doubling the figure of merit in the $\\Omega_m$--$S_8$ plane compared to the two-point analysis alone. The third-order measurements pass stringent internal consistency tests, are fully compatible with the KiDS-Legacy 2-point constraints, other 2+3-point lensing results and with Planck CMB measurements within $1\\sigma$, providing no evidence for an $S_8$ tension and demonstrating the maturity of 3-point cosmic shear as a key probe for forthcoming surveys.",
+      "score": 85,
+      "reason": "🔭弱レンズ 2+3 点同時解析で S₈ テンションを検証🌌 Ω_m を大幅に絞り Planck CMB と 1σ 整合✨",
+      "summary": "📈COSEBIs＋3次 aperture mass で Ω_m=0.297, S₈=0.806。S₈ テンションの証拠なし🛰️"
+    }
+  ]
+}

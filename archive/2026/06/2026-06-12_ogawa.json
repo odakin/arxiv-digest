@@ -1,0 +1,23 @@
+{
+  "total_fetched": 167,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.11516",
+      "title": "Single Photon Cross-Phase Shifts Can Be Enhanced by Localization in both Frequency and Time",
+      "authors": [
+        "Xinyu Jiao",
+        "Vida-Michelle Nixon",
+        "Kyle Thompson",
+        "Aephraim Steinberg"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.11516",
+      "abstract": "Single-photon optical nonlinearities face a fundamental trade-off: maximum nonlinearity requires both spectral resonance (narrow bandwidth) and high peak intensity (short duration), constraints that are incompatible due to the time-energy uncertainty relation. We demonstrate experimentally that this limitation does not need to exist in cases involving post-selection. We measure a cross-phase shift (XPS) produced by a resonant photon from a narrow-band source that is first transmitted through a cold atomic cloud and then localized in time through detection. The peak size of this XPS is greatly enhanced compared to that of Gaussian single-photon-level pulses without post-selection, benefiting from the narrow bandwidth of the resonant prepared state and the high intensity of the post-selected state simultaneously. We measure enhancements in the peak XPS of 6$\\pm$1 at an optical depth (OD) of 2.4$\\pm$0.1, and our results are in qualitative agreement across a range of optical depths with the recently developed weak value theory of atomic excitation [Thompson et al., APL Quantum 2, 036108 (2025)] for such post-selected photons. This work uncovers new consequences of having simultaneous knowledge of frequency and time, raising new foundational questions about how a particle behaves, and interacts with other systems, when its preparation and post-selection are non-commuting.",
+      "score": 87,
+      "reason": "⏱️時間‐エネルギー不確定性のど真ん中！周波数と時間を同時に絞り XPS を増幅、後選択の妙技✨",
+      "summary": "🔬冷却原子で共鳴光子を検出で時間局在化。XPS ピークを 6±1 倍増強、弱値理論と定性一致🌀"
+    }
+  ]
+}
