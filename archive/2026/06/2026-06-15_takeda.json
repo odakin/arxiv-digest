@@ -1,0 +1,22 @@
+{
+  "total_fetched": 187,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.13362",
+      "title": "Probing damping effects in neutrino oscillations with the first JUNO data",
+      "authors": [
+        "Martina Beccaria",
+        "Christoph A. Ternes"
+      ],
+      "categories": [
+        "hep-ph",
+        "hep-ex"
+      ],
+      "url": "https://arxiv.org/abs/2606.13362",
+      "abstract": "We consider different scenarios which lead to a damping of the neutrino oscillation probability and investigate their impact on the first JUNO results. First, we study decoherence effects due to wave packet separation. In addition, we consider an open quantum system framework and adopt a phenomenological approach which allows us to parameterize the energy dependence of the decoherence effects more freely. Finally, we study the effect of invisible neutrino decay. In all cases with the first data JUNO can already place competitive bounds on the parameter space of the scenarios under consideration, while also maintaining a robust measurement of the standard neutrino oscillation parameters.",
+      "score": 88,
+      "reason": "ニュートリノ振動=量子干渉×波束形式のド本命🌊 波束分離デコヒーレンスをJUNO初データで制限、コヒーレンス長の話そのもの✨🎯",
+      "summary": "波束分離・開放量子系・不可視崩壊の減衰シナリオを検討🔬 JUNO初期データで各パラメータ空間に競争力ある上限、標準振動測定も頑健📊"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "total_fetched": 187,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.12915",
+      "title": "Mass Varying Neutrino Oscillation in Teleparallel Gravity",
+      "authors": [
+        "H. Mohseni Sadjadi",
+        "H. Yazdani Ahmadabadi"
+      ],
+      "categories": [
+        "hep-ph",
+        "gr-qc",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2606.12915",
+      "abstract": "In the Cartan teleparallel formulation of gravity, a scalar field coupled to the torsion tensor can acquire an environment dependent effective mass. This gives rise to a screening effect: Inside dense bodies such as the Sun, the scalar field is suppressed, causing the mass varying neutrino mass to vary with local density. We investigate the impact of this torsion-induced screening on solar neutrino oscillations. The mechanism modifies the standard MSW resonance condition in a distinct way, leading to detectable shift in the flavor conversion probability. Using data from solar neutrino experiments (Super-Kamiokande, Borexino, SNO), we place constraints on the torsion-scalar coupling parameters. Our work provides concrete test of teleparallel gravity through mass varying neutrino oscillations.",
+      "score": 91,
+      "reason": "テレパラレル重力×ニュートリノ振動のド本命🎯 トーション結合スカラーの環境依存質量でMSW共鳴がズレる話、まさにツボ🔥✨",
+      "summary": "Cartanテレパラレルでトーション結合スカラーが高密度で遮蔽され太陽νの味変換確率がシフト📉 SK/Borexino/SNOで結合に制限⚛️🌞"
+    },
+    {
+      "arxiv_id": "2606.13362",
+      "title": "Probing damping effects in neutrino oscillations with the first JUNO data",
+      "authors": [
+        "Martina Beccaria",
+        "Christoph A. Ternes"
+      ],
+      "categories": [
+        "hep-ph",
+        "hep-ex"
+      ],
+      "url": "https://arxiv.org/abs/2606.13362",
+      "abstract": "We consider different scenarios which lead to a damping of the neutrino oscillation probability and investigate their impact on the first JUNO results. First, we study decoherence effects due to wave packet separation. In addition, we consider an open quantum system framework and adopt a phenomenological approach which allows us to parameterize the energy dependence of the decoherence effects more freely. Finally, we study the effect of invisible neutrino decay. In all cases with the first data JUNO can already place competitive bounds on the parameter space of the scenarios under consideration, while also maintaining a robust measurement of the standard neutrino oscillation parameters.",
+      "score": 86,
+      "reason": "波束分離デコヒーレンス×ニュートリノ振動🌊 JUNO初データで波束形式の効果に制限、最優先テーマど真ん中だね⚡✨🎯",
+      "summary": "波束分離・開放系デコヒーレンス・不可視崩壊の3シナリオを検討🔬 JUNO初期データで減衰効果に競争力ある上限、標準パラメータも頑健📊⚛️"
+    }
+  ]
+}

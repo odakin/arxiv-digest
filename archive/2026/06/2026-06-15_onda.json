@@ -1,0 +1,82 @@
+{
+  "total_fetched": 187,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.12519",
+      "title": "Observing Cosmic Reheating with the expanded Simons Observatory",
+      "authors": [
+        "Lei Ming",
+        "Marco Drewes"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.12519",
+      "abstract": "The Simons Observatory will be extended by three Small Aperture Telescopes by 2027, increasing the total number of these instruments to six. We study the prospects for probing the reheating temperature and the inflaton coupling with this configuration, assuming a discovery of primordial gravitational waves in benchmark scenarios with a tensor-to-scalar ratio r=0.0036 or r=0.01. In popular plateau models of inflation, such an observation would fix the scale of inflation and enable determination of the order of magnitude of the reheating temperature and the inflaton interactions. For QCD-driven Warm Inflation the reheating temperature and inflaton coupling to gluons could, under optimistic assumptions, be measured with a precision of a few percent. Such a measurement would imply a clear prediction for complementary inflaton searches in axion experiments, paving the way toward probing the mechanism responsible for the initial conditions of the hot Big Bang in the laboratory.",
+      "score": 90,
+      "reason": "拡張SO(SAT6台)で原始重力波→再加熱温度に迫る🛰️ r=0.0036/0.01検出想定でインフレスケール確定、B-mode本命ど真ん中🌌✨",
+      "summary": "プラトー型インフレでrが分かれば再加熱温度とインフラトン結合の桁が決まる🔭 Warm Inflationなら数%精度、axion実験と相補📡"
+    },
+    {
+      "arxiv_id": "2606.12549",
+      "title": "Tachyonic Encore: A universal shift of inflationary observables",
+      "authors": [
+        "Diogo S. Gorgulho",
+        "Margherita Putti",
+        "Rodrigo Gonzalez Quaglia",
+        "Ema Dimastrogiovanni",
+        "Matteo Fasiello",
+        "Diederik Roest"
+      ],
+      "categories": [
+        "hep-th",
+        "astro-ph.CO",
+        "gr-qc",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.12549",
+      "abstract": "We propose a generic, largely inflaton-potential-independent mechanism in which a light axion spectator, initialized near the hilltop of its potential, reshapes inflationary observables through purely gravitational multi-field dynamics. During inflation the axion is frozen and the background follows an effectively single-field trajectory. After inflation ends, the axion rolls, inducing a turn in field space and transient tachyonic phases of the isocurvature mode. The resulting ``tachyonic encore'' occurs entirely on super-horizon scales. These phases generate a nearly scale-invariant enhancement of the curvature power spectrum, suppressing the tensor-to-scalar ratio and shifting the scalar tilt to a weighted combination of adiabatic and entropic tilts at horizon crossing. We show that these effects can reconcile otherwise disfavored inflaton potentials with current CMB constraints. The same dynamics predict local non-Gaussianity, $f_{\\rm NL}^{\\rm loc.}\\sim \\mathcal{O}(1)$, within reach of upcoming surveys.",
+      "score": 87,
+      "reason": "軸状スペクテーターでインフレ観測量を普遍シフト🌌 rを抑えn_sもズラし不利なポテンシャルをCMBと整合、f_NL~O(1)も予言✨🔭",
+      "summary": "インフレ後に軸が転がりisocurvatureが一時タキオン化→曲率スペクトルをほぼスケール不変に増幅📈 テンソル比抑制+傾き混合、局所非ガウス予言"
+    },
+    {
+      "arxiv_id": "2606.12822",
+      "title": "Geometric obstruction to resolving the Hubble tension: orthogonality of scale and shape in distance measurements",
+      "authors": [
+        "Zhihuan Zhou",
+        "Zhuang Miao",
+        "Sheng Bi",
+        "Chaoqian Ai",
+        "Hongchao Zhang"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2606.12822",
+      "abstract": "We identify a geometric obstruction to resolving the Hubble tension by combining early-time sound-horizon reduction with late-time smooth dark energy. Within $\\Lambda$CDM, the BAO--SN matter-density gap $\\Delta\\Omega_m = 0.037$ is exactly invariant under the sound-horizon rescaling $\\alpha \\equiv r_s^{\\rm mod}/r_s^{\\Lambda{\\rm CDM}}$, and late-time $w(z)$ deformations cannot eliminate this gap either: reconciling the two datasets requires \\emph{opposite} deformations -- phantom ($w  -1$) for SN at $z < 0.5$ -- an anti-alignment quantified by $\\cos\\theta = -0.97$ in $w(z)$ space. A full MCMC analysis of DESI DR2 BAO, Planck plik\\_lite, and Pantheon+ bears this out: the optimal $\\alpha^* = 0.992$ ($0.8\\%$ $r_s$ reduction) brings the joint fit to $H_0 = 70.3 \\pm 0.3\\;\\mathrm{km\\,s^{-1}\\,Mpc^{-1}}$, still $3.2\\sigma$ below SH0ES, with the inter-dataset tension reduced but not removed. The obstruction reflects not a shortage of model freedom but an irreducible disagreement between probes. The deformation space $\\{\\alpha, \\beta_{\\rm damp}, w(z)\\}$ already spans $93\\%$ of the $\\Omega_m$ response direction; nonetheless BAO and SN constrain $\\Omega_m$ through independent channels and disagree, while the residual $H_0$ deficit, anchored by the local distance ladder, resides in the absolute distance scale that $w(z)$ reshapes but cannot rescale.",
+      "score": 86,
+      "reason": "H0張力は早期音響地平線+後期DEでは解けない幾何学的障害⛔ BAO-SN物質密度ギャップが不変でSH0ESと3.2σ残存📉 張力勢必読✨",
+      "summary": "α=0.992(r_s0.8%減)でもH0=70.3でSH0ESより3.2σ低いまま📊 w(z)は距離尺度を再形成できても再スケール不可、探査機間の本質的不一致🔭"
+    },
+    {
+      "arxiv_id": "2606.12980",
+      "title": "A Review on Resolving the Hubble Tension via Late-Universe Physics",
+      "authors": [
+        "Xuan-Dong Jia",
+        "Xin-Yi Dai",
+        "Yu-Peng Yang",
+        "Fa-Yin Wang"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2606.12980",
+      "abstract": "The $\\Lambda$CDM cosmological model has been successful in explaining many astronomical observations. However, recent observations increasingly point to deviations from the standard $\\Lambda$CDM framework. Among these, one of the most significant discrepancies is the \\textit{Hubble tension}, which refers to the difference in values obtained for the Hubble constant $H_0$ from high-redshift measurement and local observation. To address this issue, numerous cosmological models and methodological approaches have been proposed. This review offers a concise overview of recent progress in resolving the Hubble tension. The combination of Dark Energy Spectroscopic Instrument (DESI) Baryon Acoustic Oscillations (BAO) and uncalibrated Type Ia supernovae data yields a value for $H_0$ that is significantly higher than the $\\Lambda$CDM predication based on early-universe probes, even without incorporating local distance ladder constraints. This result indicates that the origin of the Hubble tension lies in new physics at low redshifts. Our findings suggest that although many unresolved systematics persist in current observations, they are insufficient to account for the magnitude of the current Hubble tension. This implies the likely existence of new physical mechanisms that have yet to be discovered.",
+      "score": 85,
+      "reason": "H0張力レビュー📚 DESI BAO+SNeが距離梯子なしでも高H0を示し起源は低赤方偏移の新物理側だと整理、全体像つかむのに便利✨🔭",
+      "summary": "系統誤差だけでは現在のH0張力の大きさは説明不足と結論📉 ΛCDMからの逸脱は低zの未知メカニズムの存在を示唆、最近の進展を簡潔に概観🌌"
+    }
+  ]
+}
