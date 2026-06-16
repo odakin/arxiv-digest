@@ -1,0 +1,106 @@
+{
+  "total_fetched": 150,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.14454",
+      "title": "Tripartite entanglement of oscillating and decohering neutrinos",
+      "authors": [
+        "Subhashish Banerjee",
+        "Heinrich P\"as",
+        "Erika Rani"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.14454",
+      "abstract": "We study entanglement measures for oscillating neutrinos in the wave-packet formalism and confirm that an oscillating neutrino exhibits genuine tripartite entanglement and can be characterized as a member of the W class of states. We also show that this feature survives in the decoherence limit, and discuss the effect of CP phases on the entanglement. These findings provide new insights into the quantum nature of neutrino oscillations and their potential role in quantum information science, especially for neutrinos propagating large distances such as the astrophysical neutrinos observed at neutrino telescopes.",
+      "score": 90,
+      "reason": "波束形式×ニュートリノ振動のド真ん中🎯✨ 振動νが W クラスの三者もつれを持ち、デコヒーレンス極限でも生き残るって話、見るしかない🔥🌀",
+      "summary": "波束形式で振動νのもつれを定量化🌊 genuine tripartite entanglement = W 状態、CP 位相の効果とデコヒーレンス耐性も議論⚛️"
+    },
+    {
+      "arxiv_id": "2606.14014",
+      "title": "Constraints on Stable Scalar-Tensor Dark Energy from DESI Data and Solar System Tests",
+      "authors": [
+        "Husam Adam",
+        "Mark P. Hertzberg",
+        "Daniel Jim'enez-Aguilar"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc",
+        "hep-ph",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2606.14014",
+      "abstract": "We investigate the viability of scalar-tensor (quintessence) models of dark energy with a quartic polynomial nonminimal coupling to gravity and a linear scalar potential. The polynomial nonminimal coupling is used to ensure that the field is well stabilized in the early universe. We perform a systematic exploration of the parameter space spanned by the quadratic and quartic nonminimal couplings, as well as the slope of the potential. We confront the predictions of the model with the latest Dark Energy Spectroscopic Instrument (DESI) constraints on the dark energy equation of state and also with complementary bounds from local tests of gravity, including solar system constraints and limits on the time variation of the effective Newton's constant. We identify bands in parameter space where all these constraints are satisfied, finding such bands to be very narrow.",
+      "score": 88,
+      "reason": "君のスカラーテンソル重力の観測テストど真ん中🌌✨ DESI のダークエネルギー状態方程式＋太陽系＋G 変化で四次非最小結合を締め上げる💪🔭",
+      "summary": "四次多項式非最小結合＋線形ポテンシャルのクインテッセンス🪐 DESI＋局所重力テストで許容帯は非常に細いと判明📏⚖️"
+    },
+    {
+      "arxiv_id": "2606.14549",
+      "title": "Searching for Extra Dimensions with Gravitational Waves: Dark-Siren Constraints from GWTC-4",
+      "authors": [
+        "Anson Chen",
+        "Jun Zhang"
+      ],
+      "categories": [
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2606.14549",
+      "abstract": "Higher-dimensional theories of gravity predict that gravitational waves (GWs) can propagate into extra spatial dimensions, leading to modified amplitude damping over cosmological distances. Measurements of GW luminosity distances therefore provide a unique probe of the dimensionality of spacetime. In this work, we constrain higher-dimensional GW propagation using the dark-siren method with the Gravitational-Wave Transient Catalog 4.0 (GWTC-4). We adopt a phenomenological parameterization motivated by braneworld scenarios, in which deviations from General Relativity are characterized by the spacetime dimension number $D$ and a crossover scale $R_c$ governing the transition between four- and higher-dimensional gravity. We perform a hierarchical Bayesian analysis combining 141 compact binary coalescences from GWTC-4 with line-of-sight galaxy information from the GLADE+ catalog. For a prior $H_0 \\in [65,77]\\ {\\rm km~s^{-1}Mpc^{-1}}$ and $\\log(R_c/{\\rm Mpc}) \\in [2.7,4.0]$, we obtain $D = 4.38^{+1.91}_{-1.01}$ (68\\% credible interval). We also find that the inferred posterior distribution of $R_c$ accumulates near the upper prior boundary, indicating that the crossover scale remains poorly constrained by current observations. We further show that the inferred constraint on $D$ depends sensitively on the assumed prior range of $R_c$, which determines the characteristic distance scale at which deviations from General Relativity become significant. Our results provide the first GWTC-4 dark-siren constraints on higher-dimensional GW propagation and demonstrate that current observations remain consistent with four-dimensional General Relativity.",
+      "score": 87,
+      "reason": "余剰次元×重力波の合わせ技🌀✨ ブレーンワールドで GW が高次元に漏れる効果を GWTC-4 ダークサイレンで制限、D=4.38 で 4 次元 GR と整合🔭🎯",
+      "summary": "141 イベント＋GLADE+ で高次元 GW 伝播を階層ベイズ解析🌌 D=4.38(+1.91/-1.01)、交差スケール R_c は弱拘束のまま📊"
+    },
+    {
+      "arxiv_id": "2606.13943",
+      "title": "A Model-Independent Approach to First-Order Phase Transitions, Gravitational Waves, and Primordial Magnetic Fields",
+      "authors": [
+        "Fayez Abu-Ajamieh",
+        "Nobuchika Okada"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.13943",
+      "abstract": "We employ a model-independent Effective Field Theory (EFT) to analyze the possibility of a strong First-Order Phase Transition (FOPT) in extensions Beyond the Standard Model (BSM). We find that sizable deviations in the Higgs cubic and quartic interactions that are still allowed experimentally could lead to a strong FOPT, whereas the Higgs interactions to the top quark yield a weak FOPT. We also study the Gravitational Wave (GW) power spectra corresponding to the strong FOPT and find that they could be detectable in future experiments. In particular, we find that deformations of the Higgs quartic coupling have the dominant impact on the FOPT, with a GW signal that could be probed by a number of future experiments, such as LISA, BBO, and DECIGO. We also study the magnetic field produced by the corresponding FOPT and find that it could explain the primordial magnetic field puzzle. We find that for the size of deformations that could induce a strong FOPT, a scale of NP can be as low as $\\sim 4\\text{--}5~\\text{TeV}$ for deformations in the Higgs cubic coupling, and $\\sim 9\\text{--}11~\\text{TeV}$ for deformations in the Higgs quartic coupling. This highlights the synergy between collider searches and GW experiments in probing the Higgs couplings, specifically the Higgs quartic coupling.",
+      "score": 87,
+      "reason": "岡田さん絡みの BSM 🎯 Higgs 4 次結合の変形で強い一次相転移→GW(LISA/BBO/DECIGO)＋原始磁場まで一網打尽🔥⚡✨",
+      "summary": "model-independent EFT で Higgs 3 次/4 次結合の変形を解析⚙️ 4 次結合が FOPT を支配、NP は ~9-11 TeV、GW＋原始磁場も説明🌊🧲"
+    },
+    {
+      "arxiv_id": "2606.14320",
+      "title": "Unavoidable Loop-Induced Quintessence -- Higgs Mixing and Its Phenomenological Consequences",
+      "authors": [
+        "Zurab Kepuladze"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2606.14320",
+      "abstract": "We investigate a class of quintessence models in which the dark-energy scalar field interacts with sterile neutrinos responsible for neutrino mass generation through the seesaw mechanism. Radiative corrections involving sterile neutrinos induce Higgs-quintessence mixing and provide an effective portal between quintessence and Standard Model particles. We calculate the corresponding one-loop mixing amplitude and show that its structure depends on the relation between the characteristic momentum transfer and the sterile-neutrino mass. In the low-momentum regime the mixing is effectively kinetic, while at high energies it acquires a mass-mixing form. A notable result is that the overall suppression of the induced mixing is governed by the physical neutrino mass scale, leading to a predictive relation between neutrino properties and Higgs-quintessence interactions. The resulting loop-induced effects are found to be suppressed by factors comparable to those controlling the tree-level quintessence-neutrino interaction. The induced mixing generates effective couplings of quintessence to Standard Model fermions and gauge bosons, leading to modified Higgs, W and Z boson processes and opening decay channels for the quintessence field, which may prove to be cosmologically important. While the corresponding effects remain well below current experimental sensitivities in the minimal heavy-seesaw scenario, the framework establishes a direct connection between dark-energy dynamics, neutrino mass generation and Higgs-sector phenomenology and provides a basis for studying scenarios with lighter sterile neutrino states where observable effects may be enhanced.",
+      "score": 86,
+      "reason": "Higgs ポータル×シーソーνの欲張りセット🎯✨ ステライルνのループでクインテッセンスと Higgs が必ず混合、ν 質量スケールが混合を支配🌌🔬",
+      "summary": "dark energy スカラーがシーソーのステライルνとループ混合⚛️ 低運動量で運動項型・高エネで質量混合型、SM 粒子との有効結合を誘起🌀"
+    },
+    {
+      "arxiv_id": "2606.13820",
+      "title": "Unifying Gravities with Internal Interactions based on $SO(10)$ GUT",
+      "authors": [
+        "Stelios Stefas",
+        "George Zoupanos"
+      ],
+      "categories": [
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2606.13820",
+      "abstract": "Building on two key ingredients, namely the well established gauge-theoretic formulation of gravity and the observation that the tangent space of a curved manifold need not have the same dimension as the manifold, we discuss how all known fundamental interactions can be accommodated within a single unified framework. The unification is realised by enlarging the tangent group of the four-dimensional spacetime manifold to $SO(2,16)$, a choice that simultaneously encompasses both the gauge group underlying the gravitational sector and the $SO(10)$ Grand Unified Theory for the internal interactions. The gravitational theories entering this construction are Conformal Gravity and Fuzzy (Noncommutative) Gravity, each formulated in gauge-theoretic terms.",
+      "score": 86,
+      "reason": "ゲージ重力×GUT の野心作🌌✨ 接空間群を SO(2,16) に拡大して重力セクターと SO(10) を一括統一、共形＋ファジー重力で全相互作用を収める🔭🔥",
+      "summary": "4 次元時空の接空間群を拡張し全基本相互作用を単一枠組へ⚙️ 共形重力＋非可換(ファジー)重力をゲージ理論的に定式化🌀"
+    }
+  ]
+}
