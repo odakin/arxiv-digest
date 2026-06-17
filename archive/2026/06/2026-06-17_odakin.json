@@ -1,0 +1,58 @@
+{
+  "total_fetched": 271,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.15381",
+      "title": "EMRI Dephasing from a Torsion-Inspired Near-Zone Kerr Deformation: Motivated by Spin-Polarized Dark Matter",
+      "authors": [
+        "Jingxu Wu",
+        "Liangyu Luo",
+        "Daniil Stepanenko",
+        "Jie Shi"
+      ],
+      "categories": [
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2606.15381",
+      "abstract": "Extreme-mass-ratio inspirals (EMRIs) are sensitive probes of weak conservative perturbations in the strong-field region of massive black holes. We study a phenomenological EMRI model motivated by Einstein--Cartan gravity in which a spin-polarized dark-matter spike is described by a Weyssenhoff fluid. After torsion is eliminated algebraically, the local spin contribution contains a repulsive exterior source $U_{tt}^{\\rm spin}\\propto-\\sigma_0^2/r^3$. Solving the corresponding static linearized field equation, however, does not produce a global $1/r^3$ metric perturbation; the response contains a mass renormalization, a logarithmic $r^{-1}$ tail, and an $M/r^2$ term. We therefore introduce $g_{\\mu\\nu}^{\\rm eff}=g_{\\mu\\nu}^{\\rm Kerr}+\\alpha h_{\\mu\\nu}^{\\rm eff}$ only as a local near-zone matching ansatz, not as a complete rotating Einstein--Cartan black-hole solution. Within this torsion-inspired deformation we compute circular equatorial inspirals and analytic-kludge waveforms. The fiducial model can produce large phase shifts in an idealized adiabatic calculation, but the forecast is optimistic and does not include a full LISA/Taiji response, Teukolsky/self-force fluxes, eccentricity, inclination, or high-dimensional parameter degeneracies. The results should be read as constraints on an effective near-zone operator rather than as a prediction of minimally coupled Einstein--Cartan dark matter.",
+      "score": 90,
+      "reason": "🌀 Einstein-Cartan のトーション✨が EMRI の位相に効くという話！💫 スピン分極ダークマターを Weyssenhoff 流体で記述🔥 まさにドンピシャ案件🎯🚀",
+      "summary": "⚙️ トーションを代数的に消すと斥力的外場 U_tt∝-σ²/r³ が残り EMRI の保存力を変形🛰️ 強重力場でのスピン物質の痕跡を探る✨"
+    },
+    {
+      "arxiv_id": "2606.16982",
+      "title": "Electromagnetic Kantowski--Sachs Solutions in Teleparallel $F(T)$ Gravity",
+      "authors": [
+        "Alexandre Landry"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-th",
+        "math-ph",
+        "math.MP"
+      ],
+      "url": "https://arxiv.org/abs/2606.16982",
+      "abstract": "A covariant reconstruction framework for electromagnetic Kantowski--Sachs (KS) geometries in teleparallel $F(T)$ gravity is developed using the coframe/spin-connection (CSC) formalism and the Coley--Landry invariant approach. In a restricted Maxwell-compatible branch, the electromagnetic conservation laws strongly constrain the anisotropic KS scale factors and lead to the scaling $\\rho_{\\mathrm{em}}\\propto A_3^{-4}$. The corresponding symmetric and antisymmetric field equations are derived and used to reconstruct the functional form of $F(T)$ directly from the KS dynamics. Power-law and exponential ans\\\"atze generate distinct invariant reconstruction branches associated with electric, magnetic, and transverse electromagnetic sectors. The exponential branch naturally admits reduced teleparallel de Sitter limits and shifted models of the form $F(T)=f(T_0-T)$. The reconstructed branches describe anisotropic cosmological sectors together with local BH-interior-like sectors that may reproduce reduced BH-interior-like or RN--dS-type behaviors at the level of the KS dynamics. These branches are organized through the invariant coframe/spin-connection classification and screened using the necessary leading-order viability conditions $F_T>0$ and $F_{TT}>0$. The local and branch-dependent nature of the construction is emphasized throughout.",
+      "score": 85,
+      "reason": "🌌 テレパラレル F(T) 重力✨ での電磁 Kantowski-Sachs 解！🔭 coframe/spin-connection で異方宇宙を再構成🛠️ テレパラレル好きは見とくやつ👀⚡",
+      "summary": "📐 Maxwell 整合枝で ρ_em∝A₃⁻⁴ のスケーリングが出て異方スケール因子を強く制約🧩 F(T) の関数形を逆算で再構成✨"
+    },
+    {
+      "arxiv_id": "2606.16445",
+      "title": "High-quality Axion Strings from Monopole Strings",
+      "authors": [
+        "Nathaniel Craig",
+        "Amalia Madden"
+      ],
+      "categories": [
+        "hep-ph",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2606.16445",
+      "abstract": "Five-dimensional 't Hooft-Polyakov monopole strings whose cores restore a non-abelian gauge symmetry become axion strings for extra-dimensional axions. The parametric separation between the string tension and the scale of quantum gravity admits a viable post-inflationary cosmology for high-quality axion dark matter.",
+      "score": 87,
+      "reason": "🪐 5次元 't Hooft-Polyakov モノポール弦✨ が余剰次元アクシオンの弦になる！🔥 高品質アクシオン暗黒物質🌀 余剰次元×アクシオンの合わせ技🎯🚀",
+      "summary": "🌌 弦の張力と量子重力スケールの分離でインフレ後宇宙論が成立✨ high-quality axion DM を実現する綺麗な構成🛠️"
+    }
+  ]
+}

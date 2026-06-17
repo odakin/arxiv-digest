@@ -1,0 +1,41 @@
+{
+  "total_fetched": 271,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.16711",
+      "title": "Revisiting the Lyth bound constraints on inflation from ACT DR6 results",
+      "authors": [
+        "Rui Yang",
+        "Jun Tao",
+        "Peng Wang",
+        "Mian Zhu"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.16711",
+      "abstract": "The Lyth bound asserts that the field excursion of inflaton must be sub-Planckian, thereby imposing an upper bound on the amplitude of the tensor power spectrum in inflationary scenario. This bound is conventionally derived assuming a scale-invariant curvature power spectrum, i.e., $n_s = 1$. However, astrophysical observations confirm a red-tilted spectrum with $n_s < 1$. In light of recent results from the Atacama Cosmology Telescope (ACT) DR6, we revisit these constraints using the newly implied scalar spectral index of $n_s \\simeq 0.9743$. Incorporating the ACT data yields a different upper bound on the tensor-to-scalar ratio $r$, which can potentially exclude inflationary scenarios previously robust under the original Lyth bound with $n_s = 1$. Our result highlights the urgent need to combine theoretical Lyth bound considerations with the most up-to-date astrophysical data.",
+      "score": 86,
+      "reason": "🌌 ACT DR6 の n_s≃0.974 で Lyth 限界を再検討✨ テンソルパワースペクトル＝原始重力波の振幅に上限🎯 LiteBIRD の r 探索に直結する話🔭",
+      "summary": "📐 赤いスペクトル(n_s<1)を正しく入れると従来の Lyth 限界が変わる✨ 場の超プランク変位と r の関係を ACT 最新値で更新🛰️"
+    },
+    {
+      "arxiv_id": "2606.15603",
+      "title": "Impact of CMB low-$\\ell$ EE polarization data on dark energy parameterizations",
+      "authors": [
+        "Shubham Barua",
+        "Shantanu Desai"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2606.15603",
+      "abstract": "Measurement of the optical depth to reionization ($\\tau_\\mathrm{reio}$) is largely driven by the large-scale EE polarization mode of CMB ($\\ell -1$) upon exclusion of low-$\\ell$ EE data, driven primarily by the strengthening of the $w_a-A_s$ and the $w_a-\\tau_\\mathrm{reio}$ correlations, with a small effect from the correlations of $w_0$ with $A_s$ and $\\tau_\\mathrm{reio}$. The most prominent effect occurs in JBP, where the EOS lies entirely within the quintessence regime at $1\\sigma$ when excluding low-$\\ell$ EE data. Model comparison through AIC shows positive evidence in favor of CPL and BA and weak evidence in favor of JBP, robust to the inclusion of low-$\\ell$ EE data and CMB data used. DIC model comparison shows strong (positive) evidence in favor of CPL and BA when including (excluding) low-$\\ell$ EE data. For JBP, ACT DR6 yields positive (weak) evidence when including (excluding) low-$\\ell$ EE data, while Planck weakly favors $\\Lambda$CDM regardless of low-$\\ell$ EE inclusion.",
+      "score": 85,
+      "reason": "🔭 CMB 大角度 EE 偏光(再電離バンプ)が暗黒エネルギー制約に効くか検証✨ τ_reio と w_a の相関がカギ🎯 偏光パワースペクトル好きに刺さる📡",
+      "summary": "📈 低ℓ EE を除くと w_a-A_s, w_a-τ 相関が強まり JBP では EOS が完全にクインテッセンス領域へ✨ 偏光データの威力を定量化🔬"
+    }
+  ]
+}
