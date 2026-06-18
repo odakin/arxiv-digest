@@ -1,0 +1,41 @@
+{
+  "total_fetched": 160,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.17994",
+      "title": "Constraints on the Sum of Neutrino Masses from ACT DR6 and DESI DR2 Considering Isocurvature Initial Conditions",
+      "authors": [
+        "Hongsheng Hou",
+        "Sai Wang",
+        "Zhi-Chao Zhao",
+        "Xin Zhang"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.17994",
+      "abstract": "We present a robust assessment of cosmological constraints on the sum of neutrino masses ($\\sum m_\\nu$) when relaxing the standard assumption of purely adiabatic primordial initial conditions. Allowing for a neutrino density isocurvature (NDI) component alongside the adiabatic mode, we analyse the latest CMB-SPA combination (Planck 2018, ACT DR6, and SPT-3G), DESI DR2 baryon acoustic oscillation data, and the DES Year 5 supernova sample. Within the $\\Lambda$CDM model, the 95\\% upper limit weakens only marginally from $\\sum m_\\nu < 0.052$ eV (purely adiabatic) to $< 0.057$ eV (including NDI), with the NDI amplitude consistent with zero. In the CPL dynamical dark energy model, the adiabatic limit is $< 0.111$ eV, shifting to $< 0.115$ eV with NDI, yet the isocurvature mode remains undetected. While these limits are robust against the inclusion of isocurvature perturbations, they are highly sensitive to both the assumed dark energy equation of state and the prior lower bound on $\\sum m_\\nu$. Notably, the adiabatic $\\Lambda$CDM limit of $0.052$ eV lies below the minimum sum required by the normal neutrino mass hierarchy ($0.05878$ eV), indicating that this bound is an artifact of the statistical prior extending to zero. Imposing a physically motivated hierarchy-informed prior raises the limit to $< 0.092$ eV. Our results demonstrate that current data show no evidence for NDI modes and that the inferred neutrino mass upper limit is robust against this extension, but a definitive, model-independent bound requires addressing prior dependencies and dark energy uncertainties. This work provides the first joint constraint on $\\sum m_\\nu$ and NDI using the full CMB-SPA+DESI DR2+DES dataset.",
+      "score": 86,
+      "reason": "ACT DR6＋DESI DR2のCMB制約で、等曲率初期条件を許すとΣm_ν上限がどう緩むか検証。CMB×宇宙論的緊張のど真ん中だね🌌",
+      "summary": "ニュートリノ密度等曲率を足してもΛCDMで95%上限は0.052→0.057eVと微増のみ。CPL動的DEでは断熱限界が変化する📊"
+    },
+    {
+      "arxiv_id": "2606.17749",
+      "title": "Alleviating the Hubble tension with the $\\Lambda_{\\omega_s}$CDM model",
+      "authors": [
+        "Youri Carloni"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2606.17749",
+      "abstract": "We formulate a novel extension of the $\\Lambda$CDM model, named $\\Lambda_{\\omega_s}$CDM, in which we consider an additional term at early times in order to alleviate the Hubble tension. This additional component, referred to as \\emph{matter with pressure}, indicates a barotropic fluid that is subdominant to dust and radiation as the Universe expands, thereby recovering the $\\Lambda$CDM paradigm at late times. We constrain the $\\Lambda_{\\omega_s}$CDM cosmology by performing a Markov Chain Monte Carlo analysis with Planck 2018 CMB, DESI DR2, and Pantheon+\\texttt{SH0ES} data. The results suggest that the barotropic factor and the normalized density of the new fluid are given, respectively, by $\\omega_s=0.294_{-0.004(0.023)}^{+0.014(0.015)}$ and $10^{5}\\Omega_s=1.62_{-0.56(0.91)}^{+0.36(1.02)}$. With these two additional parameters, the Hubble constant is increased to $H_0 = 71.51^{+0.72(1.43)}_{-0.74(1.46)}$ km/s/Mpc, alleviating \\emph{de facto} the Hubble tension.",
+      "score": 85,
+      "reason": "早期に「圧力を持つ物質」を足してH0緊張を緩和。EDE系の早期宇宙改変としてband7ど真ん中📈",
+      "summary": "Planck18+DESI DR2+Pantheon+SH0ESでMCMC。dust/放射にsubdominantなbarotropic流体で後期はΛCDM回帰しつつH0を持ち上げる🚀"
+    }
+  ]
+}

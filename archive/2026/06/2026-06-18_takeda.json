@@ -1,0 +1,24 @@
+{
+  "total_fetched": 160,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.17240",
+      "title": "Quantum decoherence of hyperon spin correlations in QCD hadronization",
+      "authors": [
+        "Feng Liu",
+        "Zhoudunming Tu"
+      ],
+      "categories": [
+        "hep-ph",
+        "hep-ex",
+        "nucl-ex",
+        "nucl-th"
+      ],
+      "url": "https://arxiv.org/abs/2606.17240",
+      "abstract": "Hadronization, the transition of quarks and gluons into hadrons, lies beyond the reach of perturbative quantum chromodynamics (QCD) and is commonly described by the semiclassical Lund string model. Yet this very success raises a fundamental question: where does the quantumness go during hadronization? In this Letter, we propose an approach inspired by quantum information science, in which (i) quark-antiquark pairs excited from the QCD vacuum inherit its quantum numbers, giving rise to spin entanglement at their creation, and (ii) subsequent string breaking generates environmental degrees of freedom that induce quantum decoherence of the spin state. This framework simultaneously describes the $\\Lambda$ hyperon spin-correlation data measured at RHIC [Nature 650, 65-71 (2026)] and at the LHC, establishing a quantitative connection between the QCD vacuum, spin entanglement and decoherence, and hadronization.",
+      "score": 86,
+      "reason": "クォーク対のスピンもつれ→ストリング切断でデコヒーレンス、というハドロン化の量子性を追う。素粒子のもつれ＆高エネ過程のデコヒーレンスど真ん中🎯",
+      "summary": "真空量子数を継いだqq̄対の生成時スピンもつれが、ストリング切断の環境自由度でデコヒーレンス。ハイペロン対のスピン相関を同時記述⚛️"
+    }
+  ]
+}
