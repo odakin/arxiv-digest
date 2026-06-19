@@ -1,0 +1,60 @@
+{
+  "total_fetched": 162,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.18470",
+      "title": "Exact propagating Dirac wave packets in an attractive Coulomb-like potential",
+      "authors": [
+        "Siddhant Das"
+      ],
+      "categories": [
+        "quant-ph",
+        "hep-th",
+        "math-ph",
+        "math.MP"
+      ],
+      "url": "https://arxiv.org/abs/2606.18470",
+      "abstract": "We construct exact, positive-energy, normalizable wave-packet solutions of the Dirac equation in the axisymmetric potential $V=-\\,v_0/\\rho$ -- to our knowledge, the first such solutions in any external potential. Remarkably, one family comprises only elementary functions whose longitudinal profiles reproduce the free-Schr\\\"odinger Hermite--Gauss wave packets in the nonrelativistic limit. All packets share two striking features: (i) a probability density that is pointwise decoupled from spin orientation -- despite the inherent spin-orbit coupling of the Dirac equation -- and (ii) a complete freezing of their time evolution at the critical coupling $v_0\\to\\hbar c/2$. We also present a simple scheme that maps solutions of the 2D Helmholtz equation to further exact Dirac wave packets.",
+      "score": 88,
+      "reason": "🌊 波束形式ど真ん中！外場中 Dirac 方程式で初の厳密伝播波束、非相対論極限で自由 Hermite-Gauss 波束に一致🎯✨",
+      "summary": "引力クーロン型 V=-v0/ρ で正エネルギー・規格化可能な厳密波束を構成🧮 スピン軌道結合があるのに確率密度がスピン配向と完全デカップル⚛️"
+    },
+    {
+      "arxiv_id": "2606.18987",
+      "title": "From Evidence to Evident: Decisive Cosmological Evidence for the Normal Neutrino Mass Hierarchy",
+      "authors": [
+        "Raul Jimenez",
+        "Carlos Pe~na Garay",
+        "Fergus Simpson",
+        "Licia Verde"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.18987",
+      "abstract": "Cosmological data have reached the precision needed to turn the neutrino mass ordering from a weak Bayesian preference into a decisive model-selection test. We compute the evidence for the Normal and Inverted Hierarchies by combining DESI DR2 clustering with NuFIT oscillation data. In baseline $\\Lambda$CDM, DESI DR2 plus Planck CamSpec gives $\\Sigma m_\\nu40$, in baseline-model extensions. We show that this result is robust to the choice between a reference prior and a physically motivated logarithmic hierarchical prior, marking the transition from {\\em prior-sensitive evidence} to {\\em likelihood-dominated exclusion} of the inverted hierarchy within standard cosmology. Embedding these priors in the two-dimensional design space of measure (logarithmic versus linear in mass) and structure (hierarchical versus non-hierarchical), we find that all four prior constructions give decisive evidence under DESI DR2, with residual prior dependence governed mainly by the measure -- a factor $\\sim\\!10$ in $K$ -- rather than by the hierarchy assumption. At the prior-family level, the evidence favors the SJPV prior predictive over HS by a Bayes factor above $4,700$ across each matched-support variation tested. The favored normal ordering pushes the effective Majorana mass to the few-meV regime, with median $m_{\\beta\\beta}=3.28\\,{\\rm meV}$ and 95\\% credible interval $0.95<m_{\\beta\\beta}<11.55\\,{\\rm meV}$, below the inverted-ordering target for upcoming neutrinoless double-beta decay experiments.",
+      "score": 86,
+      "reason": "🧪 ニュートリノ質量模型×ベイズモデル選択の合わせ技！DESI DR2×NuFIT で正常階層が decisive 判定に📊",
+      "summary": "宇宙論データが順階層 vs 逆階層をベイズ証拠で決着⚖️ プリオール依存から尤度主導へ移行し、参照／対数階層プリオール両方で頑健✅"
+    },
+    {
+      "arxiv_id": "2606.18349",
+      "title": "Ghosts versus Unstable Particles in Quantum Field Theory",
+      "authors": [
+        "Luca Buoninfante"
+      ],
+      "categories": [
+        "hep-th",
+        "gr-qc",
+        "hep-ph",
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.18349",
+      "abstract": "We elucidate the physical nature of ghosts above the multi-particle threshold by contrasting them with unstable particles in quantum field theory. We first consider the asymptotic formulation, where ordinary positive-norm one-particle states can be unstable and decay, whereas ghosts survive asymptotically without decaying, yet admit no particle interpretation due to interference with the multi-particle component which masks the negative-norm one-particle state. This distinction originates from two different analytic structures of the dressed propagator, whose complex conjugate poles lie in the first or second Riemann sheet in the ghost or ordinary case, respectively. Ghost resonances are, in principle, phenomenologically distinguishable from ordinary ones, being narrower and exhibiting weaker interference between positive- and negative-energy peaks. We then formulate the quantum field theory in a finite interval of time and, working within a suitable approximation for the dressed propagator, find that finite-time effects amplify differences in the resonant behavior and give rise to new features, such as higher peaks in ghost resonances. Distinct temporal regimes are also identified: for times shorter than the inverse width, an approximate free-particle description is valid, whereas at later times interactions and interference effects dominate, leading to decay or multi-particle masking. Complex poles in the dressed propagator emerge only at late times and become complex-conjugate pairs asymptotically, determining the asymptotic dynamics. This study supports the absence of freely propagating ghost particles in the asymptotic limit.",
+      "score": 85,
+      "reason": "👻 ゴースト問題に正面から！スケール不変・高階微分重力のゴースト議論に直結する QFT の基礎的考察🔬",
+      "summary": "多粒子閾値上のゴーストを不安定粒子と対比👻 ゴーストは漸近的に崩壊せず、負ノルム1粒子状態が多粒子成分との干渉で隠れる構造を解明🧩"
+    }
+  ]
+}

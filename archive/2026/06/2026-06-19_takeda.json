@@ -1,0 +1,22 @@
+{
+  "total_fetched": 162,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.19219",
+      "title": "Spontaneous parametric down-conversion pumped by spatiotemporal structured light",
+      "authors": [
+        "Lukas Montenegro",
+        "Rafael F. Barros"
+      ],
+      "categories": [
+        "quant-ph",
+        "physics.optics"
+      ],
+      "url": "https://arxiv.org/abs/2606.19219",
+      "abstract": "Here we investigate the all-optical control of spectral correlations in spontaneous parametric down-conversion. We show that when photon pairs are projected onto high-order spatial modes, the spatial structure of the pump field defines the phase-matching function of the nonlinear interaction. Thus, by structuring the pump field in both space and spectrum, the biphoton spectral correlations are fully controlled.Considering a standard periodically-poled crystal as the nonlinear medium, we show that the Gouy phase matching method proposed here can generate both spectrally uncorrelated and high-dimensional spectrally entangled photon pairs, similarly to what is achieved with aperiodically-poled crystals. Furthermore, we show that our method can generate a wider class of quantum states if the pump field is a spatiotemporal wavepacket, that is, if its spatial and spectral structures are correlated.",
+      "score": 88,
+      "reason": "💡 SPDC・二光子のど真ん中！ポンプの時空間構造で二光子スペクトル相関をまるごと制御🎛️",
+      "summary": "高次空間モードへ射影するとポンプの空間構造が位相整合関数を決定。Gouy 位相整合でスペクトル無相関〜高次元バイフォトンを生成可能に✨"
+    }
+  ]
+}
