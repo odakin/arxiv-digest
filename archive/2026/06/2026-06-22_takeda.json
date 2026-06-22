@@ -1,0 +1,24 @@
+{
+  "total_fetched": 191,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.19548",
+      "title": "Real and Virtual Propagation in Neutrino Oscillations",
+      "authors": [
+        "Kenji Nishiwaki",
+        "Kin-ya Oda",
+        "Juntaro Wada"
+      ],
+      "categories": [
+        "hep-ph",
+        "hep-ex",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2606.19548",
+      "abstract": "We revisit flavor oscillations in vacuum in terms of the propagation time of intermediate states. In the limit of a long propagation time (or distance), degenerate intermediate states exhibit oscillatory behavior, as described by the Jacob--Sachs (or Grimus--Stockinger) theorem within wave-packet quantum field theory. By explicitly evaluating the relevant integrals using the saddle-point method, we derive an extended expression for the flavor-changing amplitude that remains valid even for shorter propagation times. We show that oscillations occur only when the propagation time exceeds a threshold set by the energy uncertainty of the external wave packets and by the decay width of the propagating particle. For shorter propagation, the intermediate particle behaves as a purely virtual state, in the sense that it cannot propagate over a macroscopic distance. Although a direct experimental test of the transition from virtual to real propagation is challenging, since it typically occurs at microscopic scales, our result implies that the Jacob--Sachs theorem holds to higher accuracy than previously expected, even at short propagation times. Our formalism applies not only to neutrinos but also to other propagating particles, and future improvements in energy resolution may make this threshold observable.",
+      "score": 92,
+      "reason": "🌊波束形式でニュートリノ振動を量子干渉として捉える指導陣の新作！まさに二光子干渉×波束のQFT版で必読🔬",
+      "summary": "Jacob-Sachs定理を波束QFTで再訪📐サドル点法で短時間伝播まで有効な振幅を導出、振動に伝播時間の閾値が要ると示す⚡"
+    }
+  ]
+}
