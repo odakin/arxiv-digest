@@ -1,0 +1,45 @@
+{
+  "total_fetched": 191,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.19548",
+      "title": "Real and Virtual Propagation in Neutrino Oscillations",
+      "authors": [
+        "Kenji Nishiwaki",
+        "Kin-ya Oda",
+        "Juntaro Wada"
+      ],
+      "categories": [
+        "hep-ph",
+        "hep-ex",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2606.19548",
+      "abstract": "We revisit flavor oscillations in vacuum in terms of the propagation time of intermediate states. In the limit of a long propagation time (or distance), degenerate intermediate states exhibit oscillatory behavior, as described by the Jacob--Sachs (or Grimus--Stockinger) theorem within wave-packet quantum field theory. By explicitly evaluating the relevant integrals using the saddle-point method, we derive an extended expression for the flavor-changing amplitude that remains valid even for shorter propagation times. We show that oscillations occur only when the propagation time exceeds a threshold set by the energy uncertainty of the external wave packets and by the decay width of the propagating particle. For shorter propagation, the intermediate particle behaves as a purely virtual state, in the sense that it cannot propagate over a macroscopic distance. Although a direct experimental test of the transition from virtual to real propagation is challenging, since it typically occurs at microscopic scales, our result implies that the Jacob--Sachs theorem holds to higher accuracy than previously expected, even at short propagation times. Our formalism applies not only to neutrinos but also to other propagating particles, and future improvements in energy resolution may make this threshold observable.",
+      "score": 90,
+      "reason": "🌊 ニュートリノ振動を量子干渉×波束QFTで再考!平面波を超えた波束形式がまさに興味の中心に刺さる一本✨",
+      "summary": "⏱️ Jacob–Sachs定理を鞍点法で評価、伝播時間がしきい値超で振動。短い伝播時間でも有効なflavor振幅の拡張式"
+    },
+    {
+      "arxiv_id": "2606.19786",
+      "title": "Robust Generation of Topological Biphoton Mode via Adiabatic Passage",
+      "authors": [
+        "Jaesung Lim",
+        "Jihwan Kim",
+        "Dong-Gil Im",
+        "Kyungdeuk Park",
+        "Dongkyu Kim",
+        "Yonggi Jo",
+        "Yong Sup Ihn"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.19786",
+      "abstract": "Topological waveguide arrays support robust mode propagation in the presence of fabrication imperfections, providing a significant advantage for on-chip quantum information processing. However, this robustness does not fully extend to nonlinear biphoton generation. Structural disorder can enhance the excitation of non-topological biphoton modes during nonlinear interactions, which degrades the quantum properties of the generated state. To overcome this limitation, we propose an adiabatic passage that connects an isolated site to a topological defect array. By initiating the nonlinear process in a strongly isolated regime, nonlinear coupling to unwanted modes is effectively suppressed, thereby preserving the Schmidt number of the generated state. The subsequent adiabatic connection facilitates the high fidelity transfer of the generated biphoton into the topological biphoton mode. Our numerical simulations demonstrate that, unlike conventional topological structures, the adiabatic scheme maintains both high biphoton fidelity and a unit Schmidt number in the presence of waveguide gap disorder. Furthermore, we show that this robustness extends to path entangled NOON states, achieving a near-unity quantum interference visibility. Our approach provides a practical design strategy for disorder-tolerant integrated quantum photonic devices.",
+      "score": 87,
+      "reason": "💡 トポロジカル導波路で二光子(biphoton)モードを頑健に生成!非線形過程の乱れ耐性を断熱通過で改善する提案✨",
+      "summary": "🔬 構造乱れが非トポロジカルbiphotonモードを励起し量子性を劣化させる問題を、孤立サイト→欠陥アレイの断熱通過で克服"
+    }
+  ]
+}

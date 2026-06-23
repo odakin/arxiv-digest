@@ -1,0 +1,41 @@
+{
+  "total_fetched": 191,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.20278",
+      "title": "Proposal of quantum arrival-time measurement with a Bose-Einstein condensate",
+      "authors": [
+        "Pascal Naidon",
+        "Lucas Happ",
+        "Denis Boiron"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.20278",
+      "abstract": "This work shows how a Bose-Einstein condensate of ultracold atoms could be used to address a long-standing question in quantum theory: how much time does it take for a particle to reach a detector? To this end, we propose a realistic experimental setup, whose key idea is not to measure arrival times directly, but the arrival flux on the detector as a function of its position. This novel approach not only solves practical issues with having a detector close to the system, but also results in signals that allow to unambiguously distinguish different theoretical predictions. This proposal raises prospects for resolving the decades-old debate on this fundamental issue.",
+      "score": 91,
+      "reason": "⏱️ 量子の積年の難問「到達時間」をBECで測る提案!直接でなく到達フラックスを位置の関数で測る発想が面白い🌊",
+      "summary": "🔬 超低温原子BECで検出器位置ごとの到達フラックスを測定し、異なる到達時間の理論予言を曖昧さなく識別"
+    },
+    {
+      "arxiv_id": "2606.19548",
+      "title": "Real and Virtual Propagation in Neutrino Oscillations",
+      "authors": [
+        "Kenji Nishiwaki",
+        "Kin-ya Oda",
+        "Juntaro Wada"
+      ],
+      "categories": [
+        "hep-ph",
+        "hep-ex",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2606.19548",
+      "abstract": "We revisit flavor oscillations in vacuum in terms of the propagation time of intermediate states. In the limit of a long propagation time (or distance), degenerate intermediate states exhibit oscillatory behavior, as described by the Jacob--Sachs (or Grimus--Stockinger) theorem within wave-packet quantum field theory. By explicitly evaluating the relevant integrals using the saddle-point method, we derive an extended expression for the flavor-changing amplitude that remains valid even for shorter propagation times. We show that oscillations occur only when the propagation time exceeds a threshold set by the energy uncertainty of the external wave packets and by the decay width of the propagating particle. For shorter propagation, the intermediate particle behaves as a purely virtual state, in the sense that it cannot propagate over a macroscopic distance. Although a direct experimental test of the transition from virtual to real propagation is challenging, since it typically occurs at microscopic scales, our result implies that the Jacob--Sachs theorem holds to higher accuracy than previously expected, even at short propagation times. Our formalism applies not only to neutrinos but also to other propagating particles, and future improvements in energy resolution may make this threshold observable.",
+      "score": 88,
+      "reason": "🌊 共同研究グループ(尾田ら)の新作!波束QFTで振動を伝播時間から再考、波束形式と時間の話に直結✨",
+      "summary": "⏱️ 鞍点法でflavor変化振幅を評価、伝播時間がしきい値超で振動。短時間でも有効な拡張式を導出"
+    }
+  ]
+}

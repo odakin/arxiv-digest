@@ -1,0 +1,47 @@
+{
+  "total_fetched": 191,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.20171",
+      "title": "High-accuracy polarimetry for CMB: new frontiers with the POLOCALC project",
+      "authors": [
+        "A. Novelli",
+        "F. Astori",
+        "L. Bizzarri",
+        "F. Cacciotti",
+        "G. Cattaneo",
+        "G. Coppi",
+        "N. Dachlythra",
+        "I. Karaaslan",
+        "N. Mezzanzanica",
+        "F. Nati",
+        "M. Zannoni"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "astro-ph.IM"
+      ],
+      "url": "https://arxiv.org/abs/2606.20171",
+      "abstract": "Modern telescopes observing the Cosmic Microwave Background (CMB) polarization require an exquisite control of systematics to target Inflationary Gravitational Waves (IGW), Cosmic Birefringence (CB), and Primordial Magnetic Fields (PMF). The absolute polarization angle of the detectors is a critical parameter to disentangle the $E$-modes and $B$-modes of the CMB, allowing a correct detection of primordial $B$-modes as well as testing Cosmic Birefringence theories. To this end, we discuss the current status of the POLOCALC project, an ERC Advanced Grant that aims to develop air-borne calibration sources for CMB small-aperture telescopes. The main scientific objective of POLOCALC is to enable a direct calibration of the absolute polarization angle of CMB polarimeters with an accuracy of $0.01 \\degree $. We present the latest developments regarding the calibration source, the calibration strategies designed to use drone-based calibrators, and the application to modern ground-based experiments.",
+      "score": 92,
+      "reason": "🛰️ CMB偏光の系統誤差制御の最前線!偏光角の絶対較正でB-mode・宇宙複屈折に迫る、LiteBIRD系統に直結✨",
+      "summary": "📡 ERC AdGのPOLOCALC計画。気球搭載の偏光較正源で検出器の絶対偏光角を高精度決定しE/B分離を改善"
+    },
+    {
+      "arxiv_id": "2606.20434",
+      "title": "The Hubble tension: A decade review",
+      "authors": [
+        "Rong-Gen Cai",
+        "Shao-Jiang Wang"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2606.20434",
+      "abstract": "Ever since the new millennium, precision cosmology has forged the $\\Lambda$-cold-dark-matter ($\\Lambda$CDM) model as the standard model of concordant cosmology, withstanding various tests except for an ever-enlarging discrepancy between early-Universe observations and late-Universe measurements on the current Hubble expansion rate of our observable Universe. This Hubble-constant tension has likely become a real crisis for modern cosmology, with the discrepancy persisting regardless of whether the early-Universe observations depend on \\textit{Planck} CMB or not, and the late-Universe measurements depend on distance ladders at all. If the Hubble tension originates from a different early Universe, its resolutions pertain to shrinking the sound horizon by altering either early expansion or recombination histories, but at the same time necessitating modifications to both primordial and late Universe altogether. Alternatively, if the Hubble tension arises from a different late Universe, its resolutions operate by changing the absolute magnitude of supernovae either intrinsically or effectively, both of which have been strongly constrained by the inverse distance ladders with the cosmic distance duality relation. The remaining options seem to turn to our local Universe, but a local Hubble bubble or cosmic void solution has long been ruled out as a significant contribution to the Hubble tension. In view of this dilemma, we review in this paper alternative resolutions involving interacting dark energy models, either combining early-time and late-time modifications or operating at the transition from inhomogeneity to homogeneity scales.",
+      "score": 87,
+      "reason": "📈 H0張力の10年総説!早期宇宙と後期測定の不一致がΛCDMの危機に。τやCMB由来の議論も整理で背景把握に最適✨",
+      "summary": "🔭 Planck CMB依存・非依存の双方で張力が持続することを概観、近年の測定と提案された解決策を体系的にレビュー"
+    }
+  ]
+}

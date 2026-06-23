@@ -1,0 +1,76 @@
+{
+  "total_fetched": 191,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.19548",
+      "title": "Real and Virtual Propagation in Neutrino Oscillations",
+      "authors": [
+        "Kenji Nishiwaki",
+        "Kin-ya Oda",
+        "Juntaro Wada"
+      ],
+      "categories": [
+        "hep-ph",
+        "hep-ex",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2606.19548",
+      "abstract": "We revisit flavor oscillations in vacuum in terms of the propagation time of intermediate states. In the limit of a long propagation time (or distance), degenerate intermediate states exhibit oscillatory behavior, as described by the Jacob--Sachs (or Grimus--Stockinger) theorem within wave-packet quantum field theory. By explicitly evaluating the relevant integrals using the saddle-point method, we derive an extended expression for the flavor-changing amplitude that remains valid even for shorter propagation times. We show that oscillations occur only when the propagation time exceeds a threshold set by the energy uncertainty of the external wave packets and by the decay width of the propagating particle. For shorter propagation, the intermediate particle behaves as a purely virtual state, in the sense that it cannot propagate over a macroscopic distance. Although a direct experimental test of the transition from virtual to real propagation is challenging, since it typically occurs at microscopic scales, our result implies that the Jacob--Sachs theorem holds to higher accuracy than previously expected, even at short propagation times. Our formalism applies not only to neutrinos but also to other propagating particles, and future improvements in energy resolution may make this threshold observable.",
+      "score": 98,
+      "reason": "🎉✨ ご自身の最新論文!🌊波束QFTでニュートリノ振動を伝播時間の観点から再考、振動が立ち上がる時間しきい値を導出🔬⏱️",
+      "summary": "📐 Jacob–Sachs/Grimus–Stockinger定理を鞍点法で評価し、短い伝播時間でも有効なflavor変化振幅の拡張式を導出🌊"
+    },
+    {
+      "arxiv_id": "2606.19403",
+      "title": "Emergent Gauge Symmetries in Particle Physics and Cosmology",
+      "authors": [
+        "Steven D. Bass"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2606.19403",
+      "abstract": "Where do gauge symmetries come from? These lectures develop the idea that the Standard Model might be emergent, with its gauge symmetries dissolving in some phase transition deep in the ultraviolet. The (meta-)stability of the Higgs vacuum may be pointing to some new critical phenomena at very high energy scales, with the Higgs connecting physics at LHC laboratory energies to that in the deep ultraviolet. In the emergence scenario, the dark energy scale comes out similar to the size of light Majorana neutrino masses. These two quantities appear at the same order in a low energy expansion in inverse powers of the scale of emergence, about $10^{16}$ GeV. Dark matter candidates include axions and phonon like excitations of degrees of freedom above the scale of emergence. Possible tests of these ideas involve neutrinos as well as gravitational-waves-related signals from the early Universe, which are sensitive to physics at very high energy scales.",
+      "score": 86,
+      "reason": "🌌✨ 標準模型は創発か?🔥ゲージ対称性がUVで溶ける描像。Higgs真空の臨界性が鍵で多重臨界点原理に通じる話🎓💡",
+      "summary": "📝 Higgs(メタ)安定性をUV臨界現象の兆候と解釈、暗黒エネルギーが軽いMajoranaニュートリノ質量と同程度に🔭"
+    },
+    {
+      "arxiv_id": "2606.19839",
+      "title": "Constraining ADD black holes at the LHC with $\\sqrt{s} = 14$ TeV",
+      "authors": [
+        "Ashfaque Ahmad",
+        "Sudhir Kumar Gupta",
+        "Abbas Ali"
+      ],
+      "categories": [
+        "hep-ph",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2606.19839",
+      "abstract": "We explore microscopic black holes at the Large Hadron Collider (LHC) in the context of the ADD model for the centre-of-mass energy $\\sqrt{s} = 14~\\mathrm{TeV}$ at an integrated luminosity of $349.4~\\mathrm{fb}^{-1}$ and provide constraints on the black hole mass, $M_{\\mathrm{B}}$ by taking into account the effects of loss during the formation process of black holes through the parameter $\\zeta$. Our analysis reveals that for $\\zeta = 0$, black holes with $M_{\\mathrm{B}} \\leq 11.83~\\mathrm{TeV}$ are disfavored in the case of three extra dimensions ($\\mathcal{D}$), for the reduced Planck scale ($\\Lambda_{\\mathcal{D}}$) of about a TeV. The corresponding values for $\\Lambda_{\\mathcal{D}} = 9~\\mathrm{TeV}$ turned out to be about $10.33~\\mathrm{TeV}$. A significant reduction in the aforementioned limits is observed while the loss gets higher, e.g. for $\\zeta = 0.35$, $M_{\\mathrm{B}}$ reduces to $7.65 (6.82)~\\mathrm{TeV}$ at $\\Lambda_{\\mathcal{D}} = 1 (9)~\\mathrm{TeV}$. These limits change to $12.03 ~(10.88)~\\mathrm{TeV}$ and $7.80~ (7.03)~\\mathrm{TeV}$ respectively for $\\zeta = 0~(0.35)$ for $\\Lambda_{\\mathcal{D}} = 1 (9)~\\mathrm{TeV}$ at 95\\% C.L. in case $\\mathcal{D}$ is raised to seven.",
+      "score": 86,
+      "reason": "🕳️💥 TeV重力×余剰次元!⚡LHC 14TeVでミクロBH生成を探索、形成損失も入れて質量に制限をかける一本🔭✨",
+      "summary": "⚛️ ζ=0・余剰3次元ならM_B≤11.83TeVが棄却。形成過程の損失パラメータζを考慮したBH質量制限を提示📊"
+    },
+    {
+      "arxiv_id": "2606.20486",
+      "title": "Cosmological history after higher dimensional inflation",
+      "authors": [
+        "Luis A. Anchordoqui",
+        "Ignatios Antoniadis",
+        "Jules Cunat"
+      ],
+      "categories": [
+        "hep-th",
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2606.20486",
+      "abstract": "It was proposed that extra dimensions can acquire large size by higher dimensional inflation connecting two large hierarchies in particle physics and cosmology, namely the weakness of the actual gravitational force to the largeness of the observable universe, in terms of one fundamental scale. This proposal is consistent with the observed approximate scale invariant power spectrum of primordial density perturbations only for one or two extra dimensions of around the micron size. Assuming a stabilisation mechanism of the extra dimensions at the end of inflation, here we propose a cosmological history that describes the Universe evolution after the end of inflation up to the reheating temperature, that guarantees the absence of bulk gravitons at earlier times, avoiding their overproduction in the early universe. The proposed cosmological history connects the period of higher dimensional inflation to the beginning of the standard cosmology.",
+      "score": 85,
+      "reason": "🌠🪐 高次元インフレーションで余剰次元が巨大化✨ほぼスケール不変なゆらぎと整合するのは1–2次元・ミクロン級🔬💫",
+      "summary": "🌌 1つの基本スケールで重力の弱さと宇宙の大きさを結ぶ提案。インフレ後に余剰次元を安定化する宇宙史を構築🔭"
+    }
+  ]
+}
