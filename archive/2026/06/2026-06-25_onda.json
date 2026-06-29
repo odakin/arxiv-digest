@@ -1,0 +1,40 @@
+{
+  "total_fetched": 195,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.24131",
+      "title": "Minimal Extensions of the $\\alpha$-Starobinsky Model: Reconciling ACT DR6 and Reheating Constraints",
+      "authors": [
+        "Nehla Shobcha",
+        "Norma Sidik Risdianto",
+        "Romy Hanang Setya Budhi"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.24131",
+      "abstract": "The latest combined data from the Atacama Cosmology Telescope (ACT) DR6, Planck, and DESI yields a scalar spectral index $n_s = 0.9743 \\pm 0.0034$, which lies approximately $2\\sigma$ above the prediction of the standard $\\alpha$-Starobinsky inflation model. To address this tension, we propose two minimal extensions that preserve the model's plateau structure and attractor properties: a multiplicative exponential modification and an additive polynomial deformation, both governed by a single small perturbative parameter $\\delta>0$. We analytically derive the slow-roll parameters and inflationary observables up to second order in $\\delta$ and integrate them with reheating dynamics via the consistency equation. It is shown that the $\\delta$ term effectively shifts $n_s$ into the $1\\sigma$ confidence region of the joint P-ACT-LB-BK18 dataset without violating the tensor-to-scalar ratio bound ($r < 0.038$). The viable parameter space at $1\\sigma$ requires $\\alpha \\lesssim 35$ with $\\delta \\sim \\mathcal{O}(10^{-2})$ for the exponential model, while the additive model requires $\\delta \\sim \\mathcal{O}(10^{-3})$ for $p=1$ and $\\delta \\sim \\mathcal{O}(10^{-4})$ for $p=2$. For the e-folding range $N_k \\in [50, 65]$, the relevant reheating equation of state is $0<\\omega_{\\mathrm{re}}\\le1$. All viable scenarios yield a reheating temperature $T_{\\mathrm{re}} \\sim 10^9$ GeV, which is safely above the Big Bang Nucleosynthesis (BBN) bound and below the gravitino overproduction limit.",
+      "score": 88,
+      "reason": "📈 ACT DR6＋Planck＋DESI の n_s=0.9743 が標準α-Starobinskyから2σ上振れ💫 プラトー保つ最小拡張で1σ内に収める、CMB検証派に刺さる🌌✨",
+      "summary": "⚛️ δ展開で観測量を解析導出。r<0.038維持・T_re~10⁹GeVでBBN/グラビティーノもOK。インフレ検証にどんぴしゃ🔭"
+    },
+    {
+      "arxiv_id": "2606.24474",
+      "title": "Inflation in a nutshell: From basics to latest advances",
+      "authors": [
+        "Zhi-Chong Qiu",
+        "Qing-Guo Huang"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2606.24474",
+      "abstract": "Inflation is an elegant paradigm for the very early Universe. It not only offers a simple solution to the flatness and horizon puzzles of the standard hot Big Bang model, but also generates quantum fluctuations that seed CMB anisotropies and the formation of large-scale structure. In particular, both the spatial flatness of the Universe and a nearly Gaussian, scale-invariant power spectrum of the curvature perturbation predicted by inflation have been confirmed by various observations. Recently, a larger spectral index of curvature perturbation is preferred when combining with ACT DR6, and particularly when further including the $H_0$ prior from SH0ES, and then the Starobinsky inflation model is disfavored at more than $95\\%$ confidence level. Even though modified reheating histories and non-minimal couplings have been proposed to achieve a larger value of the spectral index, the model with higher-order curvature corrections to Starobinsky inflation offers a concise and well-motivated explanation.",
+      "score": 85,
+      "reason": "📚 インフレ概観レビュー✨ ACT DR6＋SH0ES の H_0 prior で Starobinsky が95%超棄却される最新状況まで。M1の足場固めに◎🌌",
+      "summary": "🔭 高次曲率補正版 Starobinsky が大きい n_s を簡潔に説明。CMB揺らぎ生成から H_0 テンションまで一気通貫📈"
+    }
+  ]
+}

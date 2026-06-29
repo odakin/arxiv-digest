@@ -1,0 +1,61 @@
+{
+  "total_fetched": 195,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.23836",
+      "title": "Mode-selective nonlinear interference for high-brightness and high-purity fiber-coupled SPDC sources",
+      "authors": [
+        "Carlos Sevilla-Guti'errez",
+        "Purujit Singh Chauhan",
+        "Varun Raj Kaipalath",
+        "Fabian Steinlechner"
+      ],
+      "categories": [
+        "quant-ph",
+        "physics.optics"
+      ],
+      "url": "https://arxiv.org/abs/2606.23836",
+      "abstract": "Single-mode-fiber-coupled spontaneous parametric down-conversion (SPDC) sources are a key resource for photonic quantum technologies, but in single-crystal geometries brightness, heralding efficiency, and spectral purity remain constrained by intrinsic trade-offs. Here, we show how nonlinear interference in a cascaded two-crystal type-II SPDC source can be used to engineer the modal structure of SPDC emission, improving the brightness--heralding-efficiency trade-off by more than one order of magnitude beyond the single-crystal limit. We further demonstrate two routes to near-unity spectral purity while retaining high brightness and/or heralding efficiency, even with standard periodically poled crystals, and study the additional advantages of aperiodic poling with Gaussian phase matching. Using a spectrally resolved Laguerre--Gauss modal decomposition, we show that these improvements arise from mode-selective interference of spatial-spectral SPDC modes within the nonlinear interferometer. We experimentally validate the model through sum-frequency-generation measurements of the spatial-spectral state.",
+      "score": 90,
+      "reason": "🔬✨ カスケード2結晶 type-II SPDC の非線形干渉でモード構造を設計、明るさ×ヘラルド効率を1桁改善🎯 波束×干渉ど真ん中",
+      "summary": "💡 空間-スペクトルSPDCモードのモード選択干渉で近ユニティ純度を実現。Laguerre-Gauss分解＋SFGで実証🔭"
+    },
+    {
+      "arxiv_id": "2606.24036",
+      "title": "Spectrally engineered collinear type-0 SPDC source with enhanced spectral brightness for entanglement distribution",
+      "authors": [
+        "Dong-Gil Im",
+        "Jungmo Lee",
+        "Kyungdeuk Park",
+        "Dongkyu Kim",
+        "Yonggi Jo",
+        "Yong Sup Ihn"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.24036",
+      "abstract": "Entangled photon sources with high spectral brightness are important resources for photonic quantum information processing, particularly in quantum communication and quantum networking where usable photon flux of entangled photons is often constrained by channel loss and source inefficiency. Here, we demonstrate a spectrally engineered type-0 spontaneous parametric down-conversion (SPDC) source with enhanced spectral brightness for entanglement distribution. By pumping a 30-mm ppKTP crystal with an ultra-narrowband laser slightly detuned from degeneracy, photon-pair generation is concentrated into a narrow spectral bandwidth while retaining the strong nonlinear interaction of type-0 phase matching. The source produces a coincidence rate of 44.6 kHz corresponding to a detected spectral brightness of 0.507 MHz/mW/nm. We further integrate the source into a Sagnac interferometer to generate polarization-entangled photon pairs and demonstrate entanglement distribution through a 2.56 km free-space round-trip channel. Our results show that spectral engineering provides a practical route to compact, spectrally bright entangled-photon sources for quantum communication applications.",
+      "score": 88,
+      "reason": "🌐✨ 30mm ppKTP を縮退から少しデチューンして type-0 SPDC を狭帯域に集中、明るい偏光もつれ源を実現🎯 SPDC好き必見",
+      "summary": "📡 検出スペクトル輝度0.507MHz/mW/nm。Sagnac干渉計で偏光もつれを生成し2.56km自由空間で配送実証✨"
+    },
+    {
+      "arxiv_id": "2606.24468",
+      "title": "Entanglement and non-separability of momenta and coordinates at colliders",
+      "authors": [
+        "Marco Fabbrichesi",
+        "Roberto Floreanini",
+        "Luca Marzola"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.24468",
+      "abstract": "We explore the possibility of testing in collider experiments whether phase-space variables are separable. We first study phase-space non-separability by means of EPR-like correlations. The original EPR setting is realized in an actual experiment, specifically in terms of coordinates and momenta, as per the original formulation, rather than spins or polarizations. We then show how to quantify the entanglement in the momenta of particle pairs by reducing the continuous variables to a two-qubit system through hemispherical projections. We discuss in detail the production of $\\tau$-leptons at an electron collider, reconstructing the momenta of the former from their decays into pions and neutrinos, and demonstrate through a Monte Carlo simulation that phase-space non-separability can be experimentally assessed.",
+      "score": 87,
+      "reason": "⚛️✨ コライダーで位置・運動量のEPR非分離性を検証する提案🎯 連続変数を半球射影で2量子ビット化、波束×衝突実験の交差点",
+      "summary": "🔬 e⁺e⁻でτ対生成、π＋νから運動量を再構成し Monte Carlo で非分離性を実証可能と示す。元祖EPR設定の実現✨"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "total_fetched": 376,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.22212",
+      "title": "Probing the Weak-Driving Quantum Speed Limit via Drift-Aware Shooting Methods",
+      "authors": [
+        "Denis Jankovi'c",
+        "Saba Taherpour",
+        "Paul-Louis Etienney",
+        "Paul-Antoine Hervieux",
+        "Christoph Wolf"
+      ],
+      "categories": [
+        "quant-ph",
+        "math-ph",
+        "math.MP",
+        "physics.comp-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.22212",
+      "abstract": "A central goal of quantum optimal control is to achieve high-fidelity and low-energy control pulses. When quantum optimal control methods optimize every point of a pulse discretized over small time steps independently this can yield high fidelity control but also results in broadband and energy-hungry waveforms. We extend MAGICARP -- a shooting method inspired by Pontryagin's maximum principle on energy that generates an entire pulse from a small set of parameters, making it smooth and energy-efficient by construction -- from driftless systems to closed systems with the constant drift Hamiltonian of two exchange-coupled spins in an external magnetic field. The optimization proceeds in stages: the dressed states of the drift Hamiltonian structure the target, an initial shooting optimization is performed in the rotating-wave frame, and an exact laboratory-frame refinement follows. Benchmarked against Krotov and GRAPE at matched gate infidelity, MAGICARP consistently achieves the lowest energy and a conserved pulse area, concentrates its spectral weight on the gate-relevant transitions, and is the most robust to fluctuations in the exchange coupling; GRAPE independently converges to essentially the same pulse, while Krotov's method pays an order-of-magnitude energy premium. Moreover, a large statistical survey of unselected optimization runs resolves a weak-driving quantum speed limit for two exchange-coupled electron spins: low-amplitude realizations of the two-qubit quantum Fourier transform cease to exist below a critical gate time $T^*$ set by the drift's interaction rate, and the minimum control energy diverges on approach to this limit. The divergence obeys a simple two-parameter area-pole law, $E_2^{\\mathrm{law}}(T)=A/T+B/(T-T^*)$, whose first term is the time-optimal area cost and whose second term is a pole at the speed limit.",
+      "score": 85,
+      "reason": "量子速度限界がテーマ⏱️ quantum speed limits/quantum clocksの興味に直結。弱駆動QSLの臨界ゲート時間T*が面白い",
+      "summary": "Pontryagin最大原理ベースの射撃法MAGICARPでパルス設計、2スピンの2量子ビットQFTに弱駆動QSLが出現しエネルギーがT-T*で発散📈"
+    },
+    {
+      "arxiv_id": "2606.23102",
+      "title": "Understanding Squeezed States of Light Through Wigner's Phase-Space",
+      "authors": [
+        "Sibel Baskal",
+        "Marilyn E. Noz"
+      ],
+      "categories": [
+        "quant-ph",
+        "math-ph",
+        "math.MP"
+      ],
+      "url": "https://arxiv.org/abs/2606.23102",
+      "abstract": "This paper starts with the transition from classical physics to quantum mechanics which was greatly aided by the concept of phase space. The role of canonical transformations in quantum mechanics is addressed. The Wigner phase-space distribution function is then defined which arises from the formulation of the density matrix, followed by the harmonic oscillator in phase space. Coherent and one- and two-mode squeezed states of light as well as the squeezed vacuum are discussed in the phase-space picture. Attention is also drawn to the fact that squeezed states naturally generate entanglement between the two-modes. Coupled harmonic oscillators are also elucidated in connection with the Wigner phase space. It will be noted that the phase-space picture of quantum mechanics has become an important scientific language for the rapidly expanding field of quantum optics. Here, we mainly focus on the simplest form of the Wigner function, which finds application in many branches of quantum mechanics. We make use of several symmetry groups such as Lorentz groups, the symplectic group in two and four dimensions, and the Euclidean group. The decoherence problem of an optical field is examined through a reformulation of the Poincar\\'e sphere as a further illustration of the density matrix.",
+      "score": 85,
+      "reason": "squeezed coherent statesとuncertaintyのど真ん中🎯 位相空間での1・2モードsqueezing・絡み合いの直感が掴める",
+      "summary": "Wigner位相空間でコヒーレント/1・2モードsqueezed状態と真空を解説、2モードsqueezingが自然に絡み合いを生む点や群論的対称性を整理🌀"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "total_fetched": 376,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.21874",
+      "title": "Demonstration of a Monolithic and Fully Telecom-Fiber-Compatible Tunable Source of Polarization Entangled Photon Pairs Based on a van der Waals Material",
+      "authors": [
+        "Benjamin Laudert",
+        "Fatemeh Abtahi",
+        "Duk Choi",
+        "Dragomir Neshev",
+        "Falk Eilenberger"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.21874",
+      "abstract": "We present a tunable, single-mode-optical-fiber-based source of polarization entangled photon pairs for the near-infrared telecommunication band that is deployable in standard infrastructure. The photon pairs are generated via spontaneous parametric down-conversion (SPDC) in a submicron-scale thin film of the inversion-broken rhombohedral polytype of the transition metal dichalcogenide molybdenum disulfide (3R-MoS$_2$), located between two fiber connectors. By exploiting the intrinsic symmetries of the second-order nonlinear susceptibility tensor of 3R-MoS$_2$, this hybrid approach offers control over the generated two-photon polarization state through the incident pump polarization. Most notably, two of the four maximally entangled Bell states, as well as fully co-polarized pairs can be produced. This represents a substantial improvement in terms of tunability and simplicity over established fiber-integrated sources, which require additional optical elements, precise alignment, or careful engineering of design parameters. Additionally, a nonlinear drop in the background photoluminescence signal of 3R-MoS$_2$ is observed at low pump powers, allowing us to reach a coincidences-to-accidentals ratio (CAR) of $(8.3\\pm1.8)\\times10^{3}$, the highest value recorded for SPDC in van der Waals materials to date.",
+      "score": 87,
+      "reason": "SPDC偏光もつれ光子対の実装デモ🔬 二光子干渉/SPDCのど真ん中、Bell状態生成が綺麗",
+      "summary": "3R-MoS2薄膜でSPDC、ポンプ偏光制御で2種のBell状態と共偏光対を生成、ファイバ統合型でCAR=8.3e3を達成(vdW材料SPDC最高値)✨"
+    },
+    {
+      "arxiv_id": "2606.21152",
+      "title": "Spin correlations and quantum entanglement in $\\gamma\\gamma \\to t\\bar t$ at polarized photon colliders with NLO QCD corrections",
+      "authors": [
+        "Jun Jiang",
+        "Zong-Guo Si",
+        "Han Zhang",
+        "Xin-Yi Zhang"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.21152",
+      "abstract": "We study spin correlations and quantum entanglement in the process $\\gamma\\gamma\\to t\\bar t$ with the photons coming from Compton backscattered laser beam. We present predictions for the cross sections and spin observables including next-to-leading order (NLO) QCD corrections under various beam-polarization configurations. The NLO QCD corrections significantly enhance the total cross section while having only a minor impact on spin observables. Using the spin density matrix of the $t\\bar t$ system, we further investigate quantum entanglement and Bell nonlocality. We find that the entanglement is the strongest near the $t\\bar t$ invariant-mass threshold, while both entanglement and Bell nonlocality are highly sensitive to the initial beam polarization. Our results provide a theoretical basis for future studies of quantum correlations in top-quark pair production at photon colliders.",
+      "score": 86,
+      "reason": "コライダーでの量子もつれ・Bell非局所性🎯 粒子崩壊/コライダーでの絡み合いの興味に直結",
+      "summary": "Compton後方散乱光子によるγγ→tt̄のスピン相関と絡み合いをNLO QCDで予測、閾値近傍で絡み合い最大・ビーム偏光に強く依存🌀"
+    },
+    {
+      "arxiv_id": "2606.22292",
+      "title": "Probing Single-Particle Spatial Extent With Helical Neutron Wavefronts",
+      "authors": [
+        "D. Sarenac",
+        "O. Lailey",
+        "C. W. Clark",
+        "D. G. Cory",
+        "H. Ekinci",
+        "D. V. Garrad",
+        "M. G. Huber",
+        "L. Matthews",
+        "N. Shentevski",
+        "P. R. Vadnere",
+        "D. A. Pushin"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.22292",
+      "abstract": "Distinguishing transverse coherence length from single-particle wavepacket extent is fundamentally challenging, as both manifest through spatial broadening of observed intensity profiles in conventional experiments. Here we introduce a method based on helical neutron wavefronts that enables this separation. Helical neutron states produce annular intensity profiles whose peak radius depends on the transverse wavepacket extent, while coherence length only contributes to profile broadening. In our experimental geometry we measure a beam divergence of ~1.1 mrad, corresponding to a transverse coherence length of ~180 nm. In contrast, the same measurement places a lower bound of >= 2 um on the spatial extent of the individual neutron wavepackets, more than an order of magnitude larger than the coherence length. These results provide direct experimental evidence that transverse coherence length and single-particle wavepacket extent are distinct physical quantities, resolving a longstanding source of confusion in the neutron literature.",
+      "score": 86,
+      "reason": "横コヒーレンス長と単一粒子の波束サイズを分離🎯 まさに波束形式の核心、伝播の議論に効く必読",
+      "summary": "らせん中性子波面の環状強度プロファイルで分離、コヒーレンス長~180nmに対し単一中性子の波束広がりは>2μmと一桁大きいと実証🔬"
+    }
+  ]
+}

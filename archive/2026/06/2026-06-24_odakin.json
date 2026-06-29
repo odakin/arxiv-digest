@@ -1,0 +1,71 @@
+{
+  "total_fetched": 376,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.23447",
+      "title": "Dark matter from the quadratic spinor Lagrangian I: Geometric mass for a gravitationally produced spin-1/2 fermion",
+      "authors": [
+        "Roh-Suan Tung"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2606.23447",
+      "abstract": "The gravitational-wave induced freeze-in of Maleknejad and Kopp (2026) produces dark fermions from a stochastic gravitational-wave background, but requires them to acquire mass by separate means. We develop the Quadratic Spinor Lagrangian (QSL) formulation of general relativity, extended to Einstein--Cartan, as a framework that supplies this mass geometrically. The spinor 1-form built from a single Dirac field is purely spin-1/2 -- its gamma-traceless (spin-3/2) part vanishes identically -- so the propagating excitation is a Dirac fermion, the same content as the produced Weyl fermion. A cosmological spinor condensate sources a vectorial trace torsion $K\\propto\\dot\\chi/\\chi$, and an explicit Clifford reduction shows that this torsion gives the fermion a pure Dirac mass $M_{eff}=(1/\\sqrt6)\\,|\\dot\\chi/\\chi|$, with no pseudoscalar or cross terms. The mass is not a free parameter but is locked to the Hubble rate at production, $M_{eff}\\simeq(c_\\chi/\\sqrt6)H_*$, making the relic abundance a function of essentially the single scale $H_*$ ($\\Omega h^2\\propto H_*^{5/2}$) and supplying the mass the parent mechanism must postulate. Whether promoting the spinor 1-form to an independent field yields a propagating spin-3/2 candidate is a distinct dynamical question; Paper II shows that it does not -- the QSL channels all propagation into the gravitational sector -- so the composite spin-1/2 Dirac fermion is the unique QSL dark-matter candidate. We discuss the resulting dark-matter phenomenology and its link to asymptotically free scalar-field cosmology.",
+      "score": 90,
+      "reason": "ど真ん中🎯 Einstein-Cartan拡張でtorsionが重力生成DMに質量を与える話。einstein-cartanの議論に直結🔥",
+      "summary": "QSLをEinstein-Cartanへ拡張。宇宙論的スピノル凝縮のtrace torsion K∝χ̇/χ が生成スピン1/2に純Dirac質量 M≃H_*/√6 を供給📐"
+    },
+    {
+      "arxiv_id": "2606.23418",
+      "title": "Spacetime torsion fixes the mass and spin of gravitationally produced dark matter",
+      "authors": [
+        "Roh-Suan Tung"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2606.23418",
+      "abstract": "The gravitational production of dark matter from stochastic gravitational waves requires the produced fermion to acquire a mass by unspecified late-time physics. We show that this mass is supplied by spacetime torsion alone -- no Higgs sector and no free mass parameter. In the Quadratic Spinor Lagrangian formulation of general relativity, extended to Einstein--Cartan, a cosmological spinor condensate generates a vectorial trace torsion $K\\propto\\dot\\chi/\\chi$; an explicit Clifford reduction confers on the produced spin-1/2 fermion a pure Dirac mass $M_{\\rm eff}=(1/\\sqrt6)\\,|\\dot\\chi/\\chi|$, with no pseudoscalar or cross terms, locked to the Hubble rate at production, $M_{\\rm eff}\\simeq(c_\\chi/\\sqrt6)H_*$. The relic abundance is then a one-parameter prediction, $\\Omega h^2\\propto H_*^{5/2}$, and the spin is fixed: the same framework admits no propagating spin-3/2 mode, so the composite spin-1/2 Dirac fermion is its unique dark-matter candidate.",
+      "score": 90,
+      "reason": "torsionだけで暗黒物質の質量とスピンが決まる⚡ Higgs不要・自由パラメータ無し。Ω h²∝H_*^{5/2} の一発予言が痛快✨",
+      "summary": "QSL定式化でtrace torsionが生成フェルミオンに純Dirac質量を付与、spin-3/2は伝播せずspin-1/2 Diracが唯一のDM候補🌀"
+    },
+    {
+      "arxiv_id": "2606.23273",
+      "title": "Dark matter from the quadratic spinor Lagrangian II: A spin-3/2 no-go and the uniqueness of the spin-1/2 candidate",
+      "authors": [
+        "Roh-Suan Tung"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2606.23273",
+      "abstract": "The composite Quadratic Spinor Lagrangian (QSL) propagates a spin-1/2 Dirac fermion whose mass is generated geometrically by cosmological trace torsion. It is natural to ask whether promoting the spinor 1-form $\\Psi_\\mu$ to an \\emph{independent} Dirac-vector field yields a genuine spin-3/2 dark-matter candidate. We prove that it does not. Three results combine into a no-go theorem. First, the torsional term, computed exactly by Clifford reduction, is a frame-aligned mass confined to the time-component sector -- not a uniform spin-3/2 mass. Second, the second-order form $2 D\\Psi \\gamma_5 D\\Psi$ has identically vanishing kinetic and cross terms for the independent field: as a component expression it is the boundary part of the spinor-curvature identity and carries no bulk dynamics. Third, the genuine dynamics therefore reside in the curvature side of that identity, $S=-\\int\\bar\\psi\\psi R\\sqrt{-g}$, in which the metric $g=\\Psi\\otimes_S\\Psi$ and the scalar $\\bar\\psi\\psi$ are \\emph{both} composites of $\\Psi$; the second variation consequently factors, $\\delta^2S=\\mathcal Q(h_{\\mu\\nu}[\\delta\\Psi],\\delta\\Phi[\\delta\\Psi])$, through the linearized metric and a scalar, both massless. Every propagating pole therefore lies on the metric light cone $k^2=0$ -- the graviton and a scalar -- and no massive spin-3/2 mode exists, on any background. This is the dynamical completion of the kinematic fact that the composite spinor 1-form has no spin-3/2 part, and it establishes the composite spin-1/2 Dirac fermion as the unique propagating matter excitation, and the unique dark-matter candidate, of the QSL. Through the super-SL(2,C) structure this surviving mode is naturally read as the Goldstino of the local supersymmetry broken by the metric condensate -- a composite, gravitational descendant of the light-gravitino dark matter of Pagels and Primack.",
+      "score": 87,
+      "reason": "上の三部作のII🧩 spin-3/2 no-go定理でスピン1/2 Dirac候補の一意性を証明。torsion質量の話が綺麗にまとまってる👍",
+      "summary": "スピノル1形式を独立場に昇格してもspin-3/2運動項は恒等的に消滅、伝播極は重力セクター(graviton+scalar)のみでspin-1/2が唯一🔬"
+    },
+    {
+      "arxiv_id": "2606.22408",
+      "title": "Starobinsky-inflation in asymptotically safe shift-symmetric scalar-tensor theory",
+      "authors": [
+        "Benjamin Koch",
+        "Cristobal Laporte",
+        "Frank Saueressig"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2606.22408",
+      "abstract": "We investigate the constraining power of scalaron-driven inflation on asymptotically safe scalar-tensor theories. Starting from a Horndeski-type theory and applying a renormalization group improvement procedure generates higher-derivative couplings which are fixed in terms of the microscopic parameters - a structure that is expected to occur also within first principle computations based on the asymptotic safety mechanism. The latter are taken to be the free parameters appearing at the Gaussian fixed point. We find that the free parameter initially associated with the non-minimal gravity-matter coupling is not confined to the gravity-matter sector of the theory and also enters the effective higher-derivative couplings in the gravitational sector. We review the setting of multi-field inflationary models which is appropriate to analyze the inflationary dynamics in this context and illustrate their applicability by working out the explicit bounds on the non-minimal gravity-matter coupling resulting from cosmological observations. Given the fixed point structure of asymptotically safe scalar-tensor theories, the results indicate that UV-completions by two of the three available non-Gaussian fixed points can be ruled out while pinpointing phenomenologically viable RG trajectories emanating from the third fixed point.",
+      "score": 85,
+      "reason": "Starobinskyインフレ×scalar-tensor×漸近安全🌌 Higgsインフレ/scalar-tensor重力の興味にドンピシャ✨",
+      "summary": "Horndeski型にRG改良を施しscalaron駆動インフレを解析、非最小結合の自由度を宇宙論観測で制限し3固定点のうち2つを排除🪐"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "total_fetched": 195,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.24041",
+      "title": "Nonrotating and rotating black holes with secondary disformal hair in a ghost-free metric-affine parity-violating scalar-torsion theory",
+      "authors": [
+        "E. Brito",
+        "G. Macedo",
+        "J. R. Nascimento",
+        "A. Yu. Petrov",
+        "P. J. Porf'irio"
+      ],
+      "categories": [
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2606.24041",
+      "abstract": "In this paper, we formulate a ghost-free metric-affine scalar-torsion model in which a pseudoscalar field is coupled to the Nieh--Yan density and derivatively coupled to the Einstein-Palatini tensor. The theory is projectively invariant and, in the shift-symmetric sector, depends on the scalar only through its gradient. After fixing the projective gauge, the independent connection is solved exactly: its symmetric part is the Levi-Civita connection associated with the metric \\(h_{\\mu\\nu}\\), disformally related to the metric $g_{\\mu\\nu}$, while its antisymmetric part is a purely axial torsion sourced by $v_\\mu=\\partial_\\mu\\vartheta$. We identify a degenerate ghost-free branch, $\\alpha=6\\beta^2\\kappa^2$, for which Ricci-flat geometries in the $h$-metric frame solve the metric equations and the Noether current vanishes identically. For example, we consider Schwarzschild and Kerr geometries in the $h$-metric frame, which generate disformal deformations on these geometries from the perspective of the $g$-metric frame. For the Schwarzschild black hole in the $h$-metric frame, we construct static and Babichev--Charmousis-like time-dependent scalar profiles, and discuss horizon regularity in Eddington--Finkelstein coordinates. For the Kerr black hole in the $h$-metric frame, we show that the fixed-norm scalar profile is generically axisymmetric, depending on both the radial and angular coordinates, and we construct a stationary future-regular profile in ingoing Kerr coordinates. The Kerr solution with the nontrivial scalar field is stealth only in the $h$-metric frame. In the $g$-metric frame, it produces disformal corrections stemming from the nontrivial scalar field profile and it represents secondary disformal scalar hair rather than primary Noether-charge hair.",
+      "score": 90,
+      "reason": "🌀✨ Einstein-Cartan ど真ん中！Nieh-Yan 結合の計量アフィン×捩率理論で Kerr/Schwarzschild に disformal hair が立つ話、面白すぎ🔥🕳️🚀",
+      "summary": "🌌 射影不変なゴーストフリー擬スカラー-捩率模型。接続を厳密に解き、h計量側の Ricci平坦解が二次的 disformal hair を生む✨🔭"
+    },
+    {
+      "arxiv_id": "2606.24131",
+      "title": "Minimal Extensions of the $\\alpha$-Starobinsky Model: Reconciling ACT DR6 and Reheating Constraints",
+      "authors": [
+        "Nehla Shobcha",
+        "Norma Sidik Risdianto",
+        "Romy Hanang Setya Budhi"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.24131",
+      "abstract": "The latest combined data from the Atacama Cosmology Telescope (ACT) DR6, Planck, and DESI yields a scalar spectral index $n_s = 0.9743 \\pm 0.0034$, which lies approximately $2\\sigma$ above the prediction of the standard $\\alpha$-Starobinsky inflation model. To address this tension, we propose two minimal extensions that preserve the model's plateau structure and attractor properties: a multiplicative exponential modification and an additive polynomial deformation, both governed by a single small perturbative parameter $\\delta>0$. We analytically derive the slow-roll parameters and inflationary observables up to second order in $\\delta$ and integrate them with reheating dynamics via the consistency equation. It is shown that the $\\delta$ term effectively shifts $n_s$ into the $1\\sigma$ confidence region of the joint P-ACT-LB-BK18 dataset without violating the tensor-to-scalar ratio bound ($r < 0.038$). The viable parameter space at $1\\sigma$ requires $\\alpha \\lesssim 35$ with $\\delta \\sim \\mathcal{O}(10^{-2})$ for the exponential model, while the additive model requires $\\delta \\sim \\mathcal{O}(10^{-3})$ for $p=1$ and $\\delta \\sim \\mathcal{O}(10^{-4})$ for $p=2$. For the e-folding range $N_k \\in [50, 65]$, the relevant reheating equation of state is $0<\\omega_{\\mathrm{re}}\\le1$. All viable scenarios yield a reheating temperature $T_{\\mathrm{re}} \\sim 10^9$ GeV, which is safely above the Big Bang Nucleosynthesis (BBN) bound and below the gravitino overproduction limit.",
+      "score": 88,
+      "reason": "📈🌠 ACT DR6 で n_s が Starobinsky 予言から 2σ ずれた問題に、プラトー構造を保つ最小拡張2案で対処💡 reheating まで込み🔥🎯",
+      "summary": "⚛️ 乗法指数＆加法多項式変形(δ)で n_s を 1σ 内へ。r<0.038 維持、T_re~10⁹GeV で BBN・グラビティーノ条件もクリア✨🌌"
+    },
+    {
+      "arxiv_id": "2606.24613",
+      "title": "The $\\omega$-Effect from a Multimode Squeezed Graviton State",
+      "authors": [
+        "Nick E. Mavromatos",
+        "Sarben Sarkar"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-ph",
+        "hep-th",
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.24613",
+      "abstract": "The $\\omega$-effect in entangled neutral-meson systems provides a sensitive probe of CPT violation induced by quantum-gravitational environments. In open quantum systems, interactions with inaccessible gravitational degrees of freedom can render the reduced meson dynamics non-unitary, causing the CPT operator to become ill-defined, even when the underlying microscopic Hamiltonian is CPT invariant. We present a microscopic derivation of the $\\omega$-effect arising from a multimode squeezed gravitational environment generated by an axion cloud around a Kerr black hole. Using the Takagi decomposition of the associated complex symmetric squeezing kernel, the graviton field is expressed in terms of independent squeezed supermodes possessing anomalous correlators. These correlators provide a microscopic quantum counterpart of the stochastic fluctuations that appear in earlier D-particle foam descriptions of the $\\omega$-effect, replacing phenomenological variances of flavour-changing D-particle recoil by calculable graviton correlation functions. After tracing over the graviton bath, the anomalous correlators and the weak-interactions-induced mixing combine to generate transitions between the antisymmetric and symmetric two-meson sectors. This results in a small exchange-symmetric admixture, parametrised by $\\omega$, in the otherwise antisymmetric EPR state. We obtain an explicit expression for $\\omega$ in terms of a sum over Takagi supermodes weighted by their squeezing amplitudes and phases together with the weak-interaction flavour-mixing matrix element. The resulting framework suggests that the $\\omega$-effect may be a generic signature of non-classical states of gravitational environments, extending beyond the specific axion-cloud scenario considered here. The observability of the $\\omega$-effect from other astrophysical and microscopic black-hole sources is discussed.",
+      "score": 86,
+      "reason": "🕳️🌀 Kerr BH 周りの axion 雲が作る多モードスクイーズド重力環境から ω効果(CPT破れ)を微視的に導出🔥 スクイーズド状態好きに刺さる✨🎯",
+      "summary": "🌌 Takagi 分解で重力子をスクイーズド超モードに展開。異常相関が中性中間子の EPR 状態に対称admixture ω を生む✨🔭"
+    }
+  ]
+}
