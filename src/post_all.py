@@ -8,7 +8,9 @@ import json
 import sys
 import traceback
 
-from .archive import archive_scored_papers, commit_archives_to_git
+from .archive import (
+    archive_scored_papers, commit_archives_to_git, already_posted_on_origin,
+)
 from .config import (
     load_config, load_dotenv, check_env_vars,
     list_active_profiles, STATE_DIR,
@@ -18,6 +20,19 @@ from .publish import publish, notify_error
 
 def main():
     load_dotenv()
+
+    # Defense-in-depth against double execution (= 2026-06-29 incident).
+    # Layer 1 is the cron-time ``routine-host-gate.py``. Layer 2 (here) is a
+    # post-time check against ``origin/main``: if another machine has already
+    # pushed today's archive, abort before posting so we don't duplicate to
+    # Mastodon / Discord. Fail-open inside the helper.
+    if already_posted_on_origin():
+        print(
+            "⚠️ Today's archive is already on origin/main — another machine "
+            "has posted. Aborting to prevent duplicate distribution."
+        )
+        print("   (See SESSION.md double-execution incident, 2026-06-29.)")
+        return
 
     profiles = list_active_profiles()
     if not profiles:

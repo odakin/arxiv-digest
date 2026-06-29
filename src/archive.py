@@ -28,6 +28,59 @@ from pathlib import Path
 ARCHIVE_DIR = Path(__file__).resolve().parent.parent / "archive"
 
 
+def already_posted_on_origin(_today=None):
+    """Return True if today's archive is already present on ``origin/main``.
+
+    Defense-in-depth against double execution (= 2026-06-29 incident root):
+    if another machine has already posted today's digest and pushed the
+    archive commit, this returns True so the caller (``post_all.main``) can
+    abort before posting and avoid duplicate distribution to Mastodon /
+    Discord.
+
+    Layered defense:
+      - Layer 1 (cron-time): ``routine-host-gate.py`` checks
+        ``private/active-routine-host.json`` before the launchd job runs.
+      - Layer 2 (post-time, this function): even if the gate ledger is stale
+        or both machines somehow pass it, the second runner sees today's
+        archive already on origin and aborts before posting.
+
+    Race window: ~tens of seconds between "first runner pushes" and "second
+    runner fetches". Closing this window further would require a content
+    lock on a shared remote, which is overkill for daily cadence.
+
+    Fail-open: any git/network error returns False so the function can
+    never block a legitimate run.
+    """
+    today = (_today or date.today()).isoformat()
+    yyyy = today[:4]
+    mm = today[5:7]
+    repo_root = ARCHIVE_DIR.parent
+
+    def run(args):
+        return subprocess.run(
+            args, cwd=str(repo_root),
+            capture_output=True, text=True, timeout=15,
+        )
+
+    try:
+        fetch = run(["git", "fetch", "origin", "--quiet"])
+        if fetch.returncode != 0:
+            return False  # fail-open: network/auth issues never block
+        ls = run([
+            "git", "ls-tree", "--name-only", "origin/main",
+            f"archive/{yyyy}/{mm}/",
+        ])
+        if ls.returncode != 0:
+            return False
+        for line in ls.stdout.splitlines():
+            # entries like: archive/2026/06/2026-06-29_odakin.json
+            if today in line and line.endswith(".json"):
+                return True
+    except Exception:
+        return False
+    return False
+
+
 def archive_scored_papers(profile_name, *, scored_path=None, data=None):
     """Copy scored papers to archive/{year}/{month}/{date}_{profile}.json.
 
