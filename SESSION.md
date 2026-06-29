@@ -3,6 +3,15 @@
 ## 現在の状態
 **安定運用中**: Mode B（ローカル scheduled task）で平日朝に自動配信
 
+## ⚠️ 要対応 (2026-06-29 二重実行インシデント)
+
+2026-06-29、本番ホストが朝 10:31 にダイジェストを配信・commit（`24c4a1e`）した後、**別マシンの arxiv-digest routine が failover gate 無しのまま再実行**し、同日のダイジェストを**チャンネルへ二重配信**した（odakin Mastodon 3 toots / onda Discord 5 msgs / takeda Discord 2 msgs を重複、ogawa は両 run とも 0 件）。再実行側はローカルの重複 6/29 archive を破棄し canonical（`24c4a1e`）へ ff-pull 同期して git 状態は復旧済み。
+
+- [ ] **二重実行の停止**: 非本番マシンの routine に failover gate を焼く（`install-claude-cron-routines.sh`）か、本番ホストを `routine-host-ledger.py --claim` で切り替える。gate 無しの二重 run が再発するとまた二重配信になる
+- [x] **二重投稿の扱い**: **放置確定** (2026-06-29 user 判断「面倒くさいから残そう」)。実測: odakin Mastodon 6/29 = 7 toots in 3 runs (01:19 UTC = 2 toots / 01:38 UTC = 3 + 2 toots、 run B は LLM が Stochastic GW 1 件を追加で拾った)。Discord は webhook post-only で API delete 不可、手動削除も省略。post 時の message ID 捕捉は未実装（下記「将来課題」参照）
+- [ ] **将来課題: post 時の message ID 捕捉**: `src/post_all.py` / 各 channel adapter (`mastodon.py` / `discord.py`) は post 時に返却される status ID / message ID を archive に保存していない。保存すれば再発時に自動削除可能。`archive/{date}_{profile}.json` の各 paper entry に `posted_ids: {mastodon: <status_id>, discord: <message_id>}` 等を追記し、Mastodon は `DELETE /api/v1/statuses/<id>`、Discord は **bot 化が必要** (webhook では削除不可、本格採用なら Discord Bot Token 移行)
+- [ ] **archive 自動 commit のブロック解消**: `archive/` の自動 commit が 2026-06-24 以降ずっと失敗していた。原因は個人層 leak guard の **substring 偽陽性**（個人層 sensitive-term が公開 arXiv abstract 内の一般的な数学用語に部分一致）。実害は無く `git commit --no-verify` で bypass 可能だが、根治は **matcher の word-boundary 化**（substring でなく単語境界一致に）。2026-06-24 / 06-25 の archive はこのマシンにのみ存在し未 commit のまま作業ツリーに保全。matcher 修正後に正常 commit 可能
+
 ### 配信中プロファイル
 | プロファイル | チャンネル | スケジュール |
 |------------|-----------|------------|
