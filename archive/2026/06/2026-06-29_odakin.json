@@ -1,0 +1,22 @@
+{
+  "total_fetched": 185,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.26676",
+      "title": "Torsional four-fermion interaction for Majorana neutrinos",
+      "authors": [
+        "Indrajit Ghose",
+        "Amitabha Lahiri"
+      ],
+      "categories": [
+        "hep-ph",
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2606.26676",
+      "abstract": "Fermions generate spacetime torsion, which can be eliminated, leaving behind an effective four-fermion interaction. This term will contribute an effective mass for neutrinos propagating through matter, similar to the Wolfenstein term coming from electroweak interactions. When the neutrinos are Majorana fermions and become massive via the Type I SeeSaw mechanism, there can be additional effects due to sterile neutrinos interacting with all fermions via the torsion-induced term, as well as due to the presence of new mixing parameters. We consider different scenarios with one sterile and one or two active neutrinos -- when the torsional interaction is diagonal in the mass basis and when it is not -- and analytically find these modifications. The T violation in the 2+1 scenario is discussed for some specific mixing between the torsion fields and the mass fields.",
+      "score": 90,
+      "reason": "🌟 フェルミオンが生む時空トーションを消去すると4フェルミ相互作用が残り、マヨラナニュートリノに有効質量項が出現！Einstein-Cartan×ニュートリノ質量の直球コラボ 🔥",
+      "summary": "Wolfenstein項類似のメカニズムでトーション由来の有効質量を誘起。マヨラナ場ではν-ν̄散乱を含む追加4フェルミ項あり。Type I SeeSaw＋ステライルν混合シナリオも解析 ✨"
+    }
+  ]
+}

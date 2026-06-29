@@ -1,0 +1,22 @@
+{
+  "total_fetched": 185,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.26303",
+      "title": "Mechanisms governing photon-pair generation and emission directionality in quantum metasurfaces",
+      "authors": [
+        "Alberto Paniate",
+        "Ivano Ruo-Berchera",
+        "Francesco Monticone"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.26303",
+      "abstract": "Metasurfaces are emerging as a promising platform for photon-pair generation through spontaneous parametric down-conversion, thanks to their compactness, integrability, and intrinsic multifunctionality, which enables the engineering of complex quantum states. However, their full potential remains only partially exploited because the physical mechanisms governing key properties of the generated photon pairs, such as generation efficiency and emission directionality, are not yet fully understood. As a result, metasurface designs and experimental configurations are often optimized through trial-and-error procedures. Here, we theoretically investigate the main mechanisms that control photon-pair generation and detection by studying how different pump configurations and measurement geometries affect the generation efficiency, emission directionality, and collection efficiency of the emitted photon pairs. This framework allows us to interpret existing experimental results and to provide general guidelines for the design of metasurfaces and the choice of experimental configurations in future experiments. Finally, we show that substrate thickness and multilayer configurations represent additional degrees of freedom for quantum metasurface design and can be engineered to enhance the generation efficiency and control the emission directionality, providing a new route for the optimization of photon-pair sources based on metasurfaces.",
+      "score": 86,
+      "reason": "🔮 量子メタサーフェスでのSPDC光子ペア生成機構を理論的に解明！ポンプ配置や測定ジオメトリが生成効率・放射指向性に与える効果を系統的に分析した論文 ✨",
+      "summary": "メタサーフェスSPDCにおける位相整合・共振・基板厚さ効果を包括的に解析。実験設計の最適化ガイドラインを提供。コンパクトな光子ペア源としての新展開に期待。"
+    }
+  ]
+}
