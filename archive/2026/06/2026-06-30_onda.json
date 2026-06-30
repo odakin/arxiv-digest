@@ -1,0 +1,22 @@
+{
+  "total_fetched": 186,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.27903",
+      "title": "A hidden reionization prior biases cosmological inference",
+      "authors": [
+        "Zihan Wang",
+        "Huanyuan Shan"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "astro-ph.GA"
+      ],
+      "url": "https://arxiv.org/abs/2606.27903",
+      "abstract": "Precision cosmology assumes that cosmic reionization was a single smooth transition. We show that this assumption is in tension with current observations: the Planck optical depth, patchy kinetic Sunyaev--Zel'dovich (PkSZ)limits from SPT and ACT, and the Ly$\\alpha$ forest endpoint cannot be simultaneously reproduced by any viable monotonic ionization history. Non-parametric reconstructions and Planck EE polarization provide independent support for an additional ionization component at $z \\gtrsim 12$. Incorporating this early phase relaxes the upper bound on the summed neutrino mass to $\\sum m_\\nu < 0.39$~eV ($95\\%$ CL) and shifts $\\sigma_8$ toward values preferred by weak-lensing surveys, both consequences of the standard $A_s$--$\\tau_e$ degeneracy. These shifts arise from relaxing a hidden prior on reionization shape rather than from new physics, and identify reionization shape as an implicit prior in cosmological inference. Next generation of CMB and 21~cm experiments will be able to test this directly,which will convert what has been an unflagged systematic on $\\sigma_8$ and $\\sum m_\\nu$ into a quantified statistical uncertainty.",
+      "score": 88,
+      "reason": "再電離は単一の滑らかな遷移という隠れ前提がσ8とΣmνをバイアス⚠️ z≳12の早期成分が鍵🌌✨ LiteBIRD的にも要注目",
+      "summary": "Planck τ・SPT/ACTのpkSZ・Lyα端点を単調史で同時に満たせず、EE偏光が早期再電離を支持。Σmν<0.39eVに緩和📡🔭"
+    }
+  ]
+}

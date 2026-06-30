@@ -1,0 +1,22 @@
+{
+  "total_fetched": 186,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.27630",
+      "title": "Scalable Acceleration of Many-Body Quantum Dynamics via Time-Rescaling",
+      "authors": [
+        "Edson B. de Almeida Filho",
+        "^Angelo F. da Silva Franca",
+        "Bert'ulio de Lima Bernardo"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.27630",
+      "abstract": "Fast quantum control is essential to overcome decoherence in contemporary quantum platforms, yet achieving this in many-body systems remains a major challenge. We show that the time-rescaling (TR) method enables efficient acceleration of closed many-body quantum dynamics, extending its applicability beyond previously studied regimes. Applying TR to the transverse-field Ising model with a longitudinal field, we demonstrate a significant enhancement of quantum annealing performance, maintaining high ground-state fidelity at evolution times where standard adiabatic dynamics breaks down, with only weak dependence on system size. We further demonstrate high-fidelity preparation of Greenberger-Horne-Zeilinger states in many-body systems, where TR extends the accessible system sizes within fixed evolution times. We additionally show that the Mandelstam-Tamm quantum speed limit does not fundamentally limit the acceleration achievable through TR, as the reduction in evolution time is exactly compensated by increased energy fluctuations. These results establish TR as a scalable and experimentally viable approach to fast quantum control in many-body systems.",
+      "score": 87,
+      "reason": "時間再スケーリングで多体ダイナミクスを高速化⚡ マンデルシュタム–タムの量子速度限界を超える加速（エネルギー揺らぎで相殺）が面白い⏱️✨",
+      "summary": "横磁場イジング模型で量子アニーリングを加速、GHZ状態生成も高速化。QSLは本質的制約でないと示す🔬⏱️"
+    }
+  ]
+}

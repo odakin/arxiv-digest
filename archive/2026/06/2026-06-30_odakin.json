@@ -1,0 +1,62 @@
+{
+  "total_fetched": 186,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.27433",
+      "title": "Tidal Forces in the Presence of Torsion and Nonmetricity",
+      "authors": [
+        "Armin van de Venn",
+        "Marcelo Netz-Marzola",
+        "David Vasak",
+        "J\"urgen Struckmeier"
+      ],
+      "categories": [
+        "gr-qc",
+        "math-ph",
+        "math.MP"
+      ],
+      "url": "https://arxiv.org/abs/2606.27433",
+      "abstract": "This work investigates how torsion and nonmetricity modify tidal accelerations in metric-affine gravity. We derive a projected deviation equation that generalizes the standard geodesic deviation equation to metric-affine geometry, and apply it to the relative acceleration of neighboring autoparallels in the weak-field, nonrelativistic limit. In this regime, the tidal acceleration separates into the usual Newtonian contribution and linear post-Riemannian corrections sourced by torsion and non-metricity. By decomposing torsion and nonmetricity into their irreducible Lorentz components, we identify the corresponding signatures in the tidal tensor and discuss to what extent these contributions can be distinguished. We then show how future direct tidal measurements could be translated into benchmark bounds on post-Riemannian tidal contributions, assuming probe dynamics sensitive to the affine connection. Our results suggest that the tidal acceleration may provide a systematic route toward probing post-Riemannian spacetime features in the future.",
+      "score": 88,
+      "reason": "捻率と非計量性が潮汐力をどう変えるか🌀 測地偏差方程式を計量アフィン重力に一般化、ポスト・リーマン項を将来の潮汐測定で縛る話🪐🔭✨🧲",
+      "summary": "弱場・非相対論極限で潮汐加速度をニュートン項＋捻率/非計量の線形補正に分解、既約ローレンツ成分で signature を同定📐🔬⚙️"
+    },
+    {
+      "arxiv_id": "2606.28275",
+      "title": "Revealing precision bounds on neutrino oscillation parameters with quantum estimation theory",
+      "authors": [
+        "Jihong Huang",
+        "Tommy Ohlsson",
+        "Sampsa Vihonen",
+        "Shun Zhou"
+      ],
+      "categories": [
+        "hep-ph",
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.28275",
+      "abstract": "Quantum estimation theory provides ultimate precision bounds on parameter estimation, independent of experimental setups. In this article, we apply this theoretical framework to neutrino oscillations, aiming to clarify some subtle issues and reveal the maximum achievable precision of oscillation parameters. First, taking the example of two-flavor oscillations, we clarify how the quantum Fisher information (QFI) depends on the choice of bases when the basis transformation itself involves the parameters in question. Then, for three-flavor oscillations, we compute the QFI matrix for electron and muon neutrino states in the flavor basis and derive analytical expressions and numerical results for both diagonal and off-diagonal elements. The implications of off-diagonal correlations for multiparameter estimation are discussed, and the quantum Cram\\'{e}r-Rao bounds on the precision of oscillation parameters for typical reactor and long-baseline accelerator neutrino experiments are obtained. Our results establish a theoretical benchmark for the ultimate precision achievable in future neutrino oscillation experiments.",
+      "score": 87,
+      "reason": "ニュートリノ振動を量子推定理論で攻める🔬 振動パラメータの究極精度（量子フィッシャー情報）を導出、波束/量子基礎×BSMの交差点⚛️📊✨🌌",
+      "summary": "2/3フレーバーでQFI行列を計算し基底依存性を整理、原子炉・長基線実験の量子クラメール・ラオ限界を提示📐⚛️🔭"
+    },
+    {
+      "arxiv_id": "2606.27992",
+      "title": "Probing Two Dark Dimensions through Primordial Black Holes, Gravitational Waves, and Colliders",
+      "authors": [
+        "Waqas Ahmed",
+        "George K. Leontaris"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-ph",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2606.27992",
+      "abstract": "We study primordial-black-hole (PBH) dark matter in the two-dark-dimensions (2DD) framework, a six-dimensional brane-world scenario with two compact extra dimensions and a fundamental gravity scale of order $10\\,\\mathrm{TeV}$. We calculate the evolution of higher-dimensional PBHs including the recently proposed quantum-gravitational memory-burden effect. For a memory exponent $p=2$, the evaporation rate is strongly suppressed, allowing PBHs with initial masses as small as $\\sim10^{-3}\\,\\mathrm{g}$ to survive until the present epoch. Consequently, PBHs can account for the observed dark matter over a mass range extending from $10^{-3}\\,\\mathrm{g}$ to $10^{21}\\,\\mathrm{g}$. We further compute the stochastic gravitational-wave background generated at second order by the primordial curvature perturbations responsible for PBH formation. We show that the conventional four-dimensional formalism for scalar-induced gravitational waves remains applicable throughout the mass range accessible to current and future gravitational wave experiments. The resulting signals can be probed by LISA, DECIGO, and pulsar timing arrays. Using Fisher forecasts, we find that these observations can constrain the PBH mass, dark-matter fraction, and width of the primordial curvature spectrum with high precision. The low fundamental gravity scale of the 2DD framework also permits the production of microscopic black holes at future high-energy colliders. Their decay signatures, together with gravitational-wave measurements, provide complementary tests of higher-dimensional gravity, the memory-burden mechanism, and primordial-black-hole dark matter.",
+      "score": 86,
+      "reason": "二つの余剰次元×PBHダークマター🌑 メモリーバーン効果で10⁻³gのPBHが生き残る、GW(LISA/DECIGO/PTA)とコライダーで検証⚛️🕳️✨🌀",
+      "summary": "重力スケール~10TeVの6次元ブレーンワールドでPBH DMを10⁻³〜10²¹gに拡張、二次のSIGWをFisher予測🔭🕳️📡"
+    }
+  ]
+}

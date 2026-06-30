@@ -1,0 +1,60 @@
+{
+  "total_fetched": 186,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.27817",
+      "title": "Detector-Conditioned Source-Space Nulls and Null-Mask Loss in a Programmable Two-Slit Interferometer",
+      "authors": [
+        "Jianming Wen"
+      ],
+      "categories": [
+        "quant-ph",
+        "physics.optics"
+      ],
+      "url": "https://arxiv.org/abs/2606.27817",
+      "abstract": "Afshar's double-slit experiment probes wave--particle complementarity by placing a wire grid at the dark fringes of a downstream interference pattern while retaining an imaging basis that appears to preserve which-path information. Here we propose and analyze a time-reversed Young--Afshar configuration in which the corresponding null test is transferred from the downstream field plane to the source-label plane of a time-reversed Young interferometer. In this reciprocal geometry, a point-addressable source illuminates a double slit, while the detector remains fixed. The observed fringe is therefore not a single-shot spatial intensity pattern, but a detector-conditioned response reconstructed by scanning the source coordinate. Consequently, a null in this pattern is not a node of a freely propagating field; it is a source label for which the coherent two-slit transfer amplitude to the selected detector vanishes. A mask placed at such source-plane labels is invisible to that detector when both slits are open, yet becomes visible when either slit is opened alone. We develop the scalar Fresnel model, derive the source-space null condition, introduce a detector-conditioned null-mask loss, and examine how this loss evolves under a tunable which-path marker. The source-space visibility and path distinguishability satisfy the standard duality relation, so no violation of complementarity is implied. The essential new feature is instead a reciprocal, detector-conditioned form of complementarity: Afshar's field-space transparency is replaced by response-function transparency in a reconstructed source basis.",
+      "score": 90,
+      "reason": "アフシャー二重スリットを時間反転！🔁 source-label平面でのnull testに置換し、which-path情報と相補性を再構成⚛️✨ ど真ん中",
+      "summary": "点光源で二重スリットを照らす相反配置。検出器条件付きnull-maskで相補性の双対関係を保ちつつ新形を提示🔬⚛️"
+    },
+    {
+      "arxiv_id": "2606.28176",
+      "title": "Direct Observation of X-ray Double-Slit Interference in Momentum Space",
+      "authors": [
+        "Fugui Yang",
+        "Xiaoxiao Liang",
+        "Tianchong Zhang",
+        "Xiaowei Zhang"
+      ],
+      "categories": [
+        "physics.optics",
+        "physics.app-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.28176",
+      "abstract": "Young's double-slit experiment is conventionally deemed a spatial phenomenon emerging from free-space transport. In this Letter, we invert this perspective to demonstrate that Young's interference can be accessed directly as a pure momentum-space observable. Using a perfect-crystal diffraction to project the field's reciprocal-space profile immediately downstream of the aperture, we resolve the complete hard X-ray double-slit fringe structure without any propagation arm, focusing optics, or imaging detector. This direct capture of the field's invariant momentum marginal establishes a compact, lensless, and propagation-free approach to coherence diagnostics, proving that the fundamental physics of wave interference can be detached from real-space propagation.",
+      "score": 88,
+      "reason": "ヤング干渉を運動量空間の純粋観測量として直接取得！📐 伝播アーム・結像光学なしで硬X線二重スリット縞を完全分解⚛️✨",
+      "summary": "完全結晶回折で開口直後の逆空間プロファイルを射影、伝播なしのレンズレスなコヒーレンス診断を実証🔬📐"
+    },
+    {
+      "arxiv_id": "2606.28034",
+      "title": "Quantum Correlations in the Decay of $B^0$ meson and Entanglement Entropy",
+      "authors": [
+        "Divya Sharma",
+        "Vaibhav Rawoot",
+        "Sudip Kumar Haldar"
+      ],
+      "categories": [
+        "hep-ph",
+        "hep-ex",
+        "hep-th",
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.28034",
+      "abstract": "We present a phenomenological study of quantum correlations in the decay of $B^0$ mesons into a system of two vector mesons. The decay of the $B^0$ meson into two vector mesons constitutes a bipartite system of two qutrits. The entanglement entropy is used as a measure of quantum correlations in the system of decaying particles. We study the variation of the R\\'enyi entropy with R\\'enyi order ($\\alpha$) for the decay channels $B_s^0 \\rightarrow \\phi\\, \\phi$, $B_d^0 \\rightarrow J/\\psi\\, K^{*}(892)^0$, $B_d^0 \\rightarrow \\phi\\, K^{*}(892)^0$ and $B_s^0 \\rightarrow J/\\psi\\, \\phi$ and discuss the significance of entanglement entropy at different R\\'enyi order regimes. The LHCb, ATLAS and Belle collaborations experimental measurements of complex polarization amplitudes and relative phases are used as input for our analysis. A comparison of entanglement entropy for all the $B^0$ meson decay processes, with both vanishing and non-vanishing phases, reveals a strong phase dependence of the entropy. We further present the results of Hartley entropy (Max-Entropy), von Neumann entropy, collision entropy, and min-entropy, each corresponding to different values and limits of the R\\'enyi order. The comparison between the branching fractions of the decay processes and the von Neumann entropy shows a connection between entanglement and decay dynamics, indicating the role of weak and strong interaction in generating quantum entanglement. In addition, we evaluate several other entanglement measures, including linear entropy, I-concurrence, tangle, negativity, logarithmic negativity, Schmidt coefficients, and Schmidt rank for different $B^0$ meson decay processes. Our study demonstrates that entanglement measures provide useful insights into the underlying decay dynamics and may serve as important tools for understanding quantum correlations in high-energy particle physics processes.",
+      "score": 86,
+      "reason": "B0中間子崩壊（2量子トリットの二体系）の量子相関を解析⚛️ 崩壊力学とエンタングルメント、コライダーBell的話題に直結✨",
+      "summary": "φφ/J/ψK*等の崩壊でRényi/von Neumannエントロピーを評価、強い位相依存性と崩壊分岐比の相関を議論🔬⚛️"
+    }
+  ]
+}
