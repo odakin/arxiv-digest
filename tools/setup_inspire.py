@@ -183,6 +183,31 @@ When scoring papers, consider:
     return profile
 
 
+COLLAB_LABEL = "Frequent collaborators:"
+
+
+def _load_preserved_collaborators(output_path):
+    """Return existing 'Frequent collaborators:' line if it looks manually annotated.
+
+    A parenthesized value (e.g. '(see private registry — foo.yaml)') signals that
+    the user deliberately replaced the auto-generated name list, typically to keep
+    collaborator identities out of this file. Preserve such lines across regeneration.
+
+    Returns the full line (without trailing newline) or None if no preservation is warranted.
+    """
+    try:
+        text = output_path.read_text(encoding="utf-8")
+    except FileNotFoundError:
+        return None
+    for line in text.splitlines():
+        if line.startswith(COLLAB_LABEL):
+            value = line[len(COLLAB_LABEL):].strip()
+            if value.startswith("("):
+                return line
+            return None
+    return None
+
+
 def regenerate_profile(bai, profile_name, name=None, affiliation=None):
     """Fetch from INSPIRE and write inspire_profile.txt + update config.yaml categories.
 
@@ -198,6 +223,14 @@ def regenerate_profile(bai, profile_name, name=None, affiliation=None):
     output_dir.mkdir(parents=True, exist_ok=True)
 
     output_path = output_dir / "inspire_profile.txt"
+
+    preserved = _load_preserved_collaborators(output_path)
+    if preserved is not None:
+        profile = "\n".join(
+            preserved if line.startswith(COLLAB_LABEL) else line
+            for line in profile.split("\n")
+        )
+
     output_path.write_text(profile, encoding="utf-8")
 
     # Update config.yaml with inspire_bai, name, affiliation, and auto-generated categories
