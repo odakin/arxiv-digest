@@ -1,0 +1,23 @@
+{
+  "total_fetched": 295,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.29992",
+      "title": "Equality Conditions for an Additive Three-Observable Uncertainty Relation",
+      "authors": [
+        "Yao-Yi Zeng",
+        "Zhi-Jie Liu",
+        "Jie Zhou",
+        "Jing-Ling Chen"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.29992",
+      "abstract": "Uncertainty relations play a fundamental role in quantum mechanics by quantifying the intrinsic limitations on the simultaneous sharpness of incompatible observables. Beyond the standard two-observable product form, additive uncertainty relations for triples of observables provide a natural framework for describing collective constraints among three noncommuting components. In this work, we study an additive uncertainty relation for three Hermitian observables from the viewpoint of rotational symmetry and covariance geometry. We give a short rotational derivation by rotating the observable triple and applying the Robertson uncertainty relation to the two transverse observables. This derivation makes the saturation mechanism transparent and leads to a necessary and sufficient condition for equality for general density operators. In the nontrivial equality case, the covariance ellipsoid of the observable triple degenerates into a disk perpendicular to the expectation value of the commutator vector. We also discuss an inverse construction based on finite-dimensional representations of the Lie algebra \\(\\mathfrak{su}(2)\\), which provides a systematic way to construct observable triples with prescribed saturating states. These results clarify the geometric and representation-theoretic structure underlying the tightness of additive three-observable uncertainty relations.",
+      "score": 85,
+      "reason": "不確定性関係の等号条件⚖️3つの非可換オブザーバブルの加法的不確定性をRobertson関係＋回転対称性から導出、飽和機構が透明📐",
+      "summary": "観測量トリプルの共分散楕円体が交換子ベクトルに垂直な円盤へ退化する時に等号成立。su(2)表現で飽和状態を構成✨"
+    }
+  ]
+}

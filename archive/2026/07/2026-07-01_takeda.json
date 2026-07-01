@@ -1,0 +1,43 @@
+{
+  "total_fetched": 295,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.29944",
+      "title": "Soft-Radiation-Induced Decoherence of Heavy-Quark Spin Entanglement at the Electron-Ion Collider",
+      "authors": [
+        "Sanskriti Agrawal",
+        "Muneeb Zahoor",
+        "Raktim Abir"
+      ],
+      "categories": [
+        "hep-ph",
+        "hep-ex",
+        "hep-th",
+        "nucl-th",
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.29944",
+      "abstract": "Using the soft-gluon theorem, we identify a soft-recoil mechanism by which unresolved gluon radiation induces decoherence in the spin correlations of heavy quark-antiquark pairs produced in deep-inelastic scattering. We show the eikonal soft contribution preserves the Born spin structure, whereas the subleading soft term generates stochastic recoil-induced rotations of the spin-correlation plane. Upon tracing over the unresolved gluon, these rotations produce an effective dephasing channel: the normal-axis correlation remains unchanged at this order, while the in-plane spin coherences are suppressed. We estimate the resulting reduction of concurrence and Bell-CHSH violation, and propose a radiation-binned EIC observable based on the ratio of in-plane to normal spin correlations. This observable isolates the characteristic anisotropic suppression predicted by the soft-recoil mechanism and provides a measurable handle on radiation-induced spin decoherence of an entangled quark-antiquark pair produced in a deep-inelastic scattering process.",
+      "score": 86,
+      "reason": "EICでの重クォークスピン・エンタングルメントのデコヒーレンス🎯ソフトグルーオン放射がスピン相関面を回転、Bell-CHSH破れを抑制⚛️",
+      "summary": "エイコナル項はBorn構造を保つがsubleadingソフト項が確率的回転→面内コヒーレンス抑制。放射binのEIC観測量を提案📊"
+    },
+    {
+      "arxiv_id": "2606.29035",
+      "title": "Quantifying Quantum Correlations in Annihilation Photon Pairs under Compton Scattering",
+      "authors": [
+        "Z. AskariPour Ravari",
+        "Z. Riazi"
+      ],
+      "categories": [
+        "quant-ph",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.29035",
+      "abstract": "We present a theoretical study of the evolution of polarization entanglement and quantum coherence in 511 keV photon pairs produced by para-positronium decay during successive Compton scattering events. We start with a maximally entangled Bell state and employ the generalized Stokes-Mueller formalism to derive the two-photon density matrix following single-, double-, and triple-Compton scattering, explicitly considering both polar and azimuthal scattering geometries. Using this framework, we quantify the degradation of quantum correlations through concurrence (as a measure of entanglement) and the $l_1$-norm (as a measure of coherence). Our results demonstrate that entanglement is highly sensitive to the scattering geometry and disappears near right-angle scattering, while quantum coherence remains finite even in regimes where entanglement vanishes completely. These findings provide a unified description of polarization-dependent decoherence in annihilation photon pairs and clarify the distinct roles of entanglement and coherence in realistic two-photon interactions. These results are relevant for quantum-enhanced positron emission tomography and highlight the persistence of quantum resources in scattering-dominated media.",
+      "score": 85,
+      "reason": "ポジトロニウム崩壊の511keV光子対の偏光エンタングルメント⚛️Compton散乱でのデコヒーレンスをconcurrence/l1で定量、二光子相関ど真ん中✨",
+      "summary": "単・二重・三重Compton散乱後の二光子密度行列を導出。直角散乱でエンタングルメント消失もコヒーレンスは残存🔬📉"
+    }
+  ]
+}
