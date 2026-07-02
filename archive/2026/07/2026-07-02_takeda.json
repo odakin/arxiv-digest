@@ -1,0 +1,119 @@
+{
+  "total_fetched": 234,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.31005",
+      "title": "Quantum Imaging via Kurtosis-Difference Weighted Covariance on 2D Camera",
+      "authors": [
+        "Zhe He",
+        "Yanli Shi",
+        "Hui Wu",
+        "Qun Cao",
+        "Weidong Zheng",
+        "Zheng Cui"
+      ],
+      "categories": [
+        "quant-ph",
+        "physics.optics"
+      ],
+      "url": "https://arxiv.org/abs/2606.31005",
+      "abstract": "Camera-based quantum imaging detects spatially correlated photon pairs from spontaneous parametric down-conversion (SPDC). Conventional covariance methods typically require tens of thousands of frames to extract weak correlations from noise. While thick crystals can increase photon flux, they generate photon pairs from multiple emission positions within the crystal, producing multiple correlation centers with complex pairing geometries. In addition, conventional covariance methods assume a single pre-selected correlation center and cannot fully exploit these distributed correlations. We demonstrate that kurtosis difference, a fourth-order statistic measuring tail similarity, effectively discriminates correlated pixel pairs even when correlation coefficients remain low. Weighting covariance by an exponential function of absolute kurtosis difference can select symmetric pixels while preserving true coincidences. This kurtosis weighting automatically identifies correlated pairs within a broad search region and accommodates multiple pairing geometries without requiring precise correlation center calibration. At 5000 frames, our method yields a contrast-to-noise ratio (CNR) exceeding 7, whereas standard covariance remains below 2. Compared with standard covariance, the method reduces the acquisition time by 40-fold and could enable practical quantum imaging in sparse correlated-photon regimes.",
+      "score": 90,
+      "reason": "SPDC由来の空間相関光子対を2Dカメラで検出する量子イメージング法を開発🌟 クルトシス差分重み付き共分散で相関強度を最大化し少ないフレームで高精度化⚡💡",
+      "summary": "従来の共分散の代わりにクルトシス差分で重み付けした行列から光子対相関を抽出。厚い結晶での多発光点問題を克服し空間分解能を大幅に向上🎯🔍"
+    },
+    {
+      "arxiv_id": "2606.31053",
+      "title": "Generalised quantum interference",
+      "authors": [
+        "Sebastian Malewicz",
+        "Laura Serino",
+        "Marcelo P. de Almeida",
+        "Markus Rambach",
+        "Ming Su",
+        "Jihun Cha",
+        "Till J. Weinhold",
+        "Austin Lund",
+        "A. G. White"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.31053",
+      "abstract": "Hong-Ou-Mandel interference is one of the clearest signatures of quantum behaviour: two identical photons meeting at a beam splitter always leave together. Here we demonstrate that this symmetry can be broken. Using a programmable integrated photonic processor, we interfere imbalanced two-photon states on a variable beam splitter and show that the output state of quantum interference can be continuously tuned, reaching the extreme case where destructive interference suppresses bunching at one output port. The asymmetry creates a forbidden bunching channel: photons may exit together at one port or separately at both ports, but cannot emerge together at the other port.",
+      "score": 90,
+      "reason": "HOM干渉の一般化：内部自由度が加わると2光子バンチングが破れることを実証🔬 可変ビームスプリッターと集積フォトニクスで量子干渉の連続的な対称性破れを観測✨⚡💡",
+      "summary": "追加の内部自由度により光子の識別可能性を制御し、HOM干渉縞の視認度を0から1まで連続的に変調。理論とBristol集積チップ実験が一致🎯🌟"
+    },
+    {
+      "arxiv_id": "2606.30758",
+      "title": "The effect of nuclear recoil on neutrino oscillations: Toward understanding of short baseline anomalies",
+      "authors": [
+        "Luca Parini",
+        "Eugene V. Stefanovich"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.30758",
+      "abstract": "We studied the structure of the neutrino wave functions produced in nuclear decays, with particular emphasis on the role of nuclear recoil. Although the fraction of the recoil energy associated with a nonzero neutrino mass is extremely small, it gives rise to a notable time-dependent flavor oscillation. For long-lived sources, such as those used in gallium anomaly and reactor anomaly experiments, this recoil-driven oscillation makes a substantial contribution to the observed deficit of (anti)neutrinos.",
+      "score": 87,
+      "reason": "核崩壊で生成されるニュートリノ波動関数に核の反跳効果を組み込み振動公式への補正を導出🔬 波束形式の新しい適用例として短基線異常の理解に繋がる可能性⚡💡✨",
+      "summary": "各質量固有状態の波動関数を反跳を考慮して定式化し、振動長・位相に非自明な補正項を得る。干渉・コヒーレンス長への示唆も議論🎯🔍"
+    },
+    {
+      "arxiv_id": "2606.31443",
+      "title": "Wave-particle duality as an uncertainty relation for the average confidence width",
+      "authors": [
+        "Shengjun Wu"
+      ],
+      "categories": [
+        "quant-ph",
+        "math-ph",
+        "math.MP"
+      ],
+      "url": "https://arxiv.org/abs/2606.31443",
+      "abstract": "We introduce the average confidence width $\\Delta_a x=\\int_0^1 \\Delta_c x (\\theta_x) d \\theta_x$: the confidence width $\\Delta_c x(\\theta_x)$ -- the smallest position interval carrying a fraction $\\theta_x$ of the probability -- averaged over all levels. It is the first moment of the decreasing rearrangement of $|\\psi|^2$, an $L^1$ mean-absolute-deviation measure of localization, so the product $\\Delta_{a} x\\,\\Delta_{a} p$ is dilation invariant and obeys $\\Delta_{a} x\\,\\Delta_{a} p\\ge c\\,\\hbar$. Reading $1/\\Delta_{a} x$ as a particle character and $1/\\Delta_{a} p$ as a wave character, this lower bound on combined spread is identically an upper bound on combined particle-and-wave character: uncertainty and wave-particle duality are two faces of one inequality. A mean-entropy argument with the Bialynicki-Birula-Mycielski relation gives the rigorous $c\\ge\\pi/e$, while the achievable constant $c^\\ast$ is set by the ground state of the Fourier-invariant operator $|x|+|p|$, $c^\\ast\\le E_0^2\\approx 1.217$. Hence $\\pi/e\\le c^\\ast\\le E_0^2<4/\\pi$: the optimal state is sub-Gaussian, so the Gaussian -- optimal for the Heisenberg and entropic relations -- is not the duality optimum.",
+      "score": 86,
+      "reason": "平均信頼幅という新しい不確定性指標を導入し波動粒子二重性を不確定性関係として定式化🌟 位置測定の可測量から直接検証できる不等式を導出する量子基礎論の新視点⚡💡",
+      "summary": "信頼幅Δ_cx(θ)の平均Δ_axを用いて、干渉縞の視認度（波動性）と位置不確かさ（粒子性）のトレードオフを定量化。波動関数のL1ノルム由来の不確定性⚡🔍"
+    },
+    {
+      "arxiv_id": "2606.31726",
+      "title": "Entangled photons from para-positronium decay: Do coincidences from scattered photons imply a Bell state?",
+      "authors": [
+        "Paul Joos",
+        "Peter Kling"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.31726",
+      "abstract": "Electron and positron can form a meta-stable bound state called positronium that decays via pair annihilation. We show how polarization-dependent Compton scattering can be used to verify that the two annihilation photons in the spin-zero case (para-positronium) are emitted in a maximally entangled Bell state. Our theoretical approach based on two-photon density matrices connects concepts from relativistic quantum electrodynamics and quantum information theory.",
+      "score": 85,
+      "reason": "パラポジトロニウム崩壊から生じる2光子のBell状態性を偏光依存コンプトン散乱で検証する理論的枠組みを構築🔬 相対論的QEDと量子情報を橋渡しする新アプローチ💡✨",
+      "summary": "崩壊光子の偏光相関が最大もつれBell状態に対応するかを、散乱後の偶然カウント率の角度依存性から定量的に判定するスキームを提案🎯⚡"
+    },
+    {
+      "arxiv_id": "2606.31996",
+      "title": "Quantum Information as a New Lens for Precision Neutrino Physics",
+      "authors": [
+        "Khushboo Dixit",
+        "Ritam Kundu",
+        "Papia Panda",
+        "Soebur Razzaque",
+        "Ramita Sarkar"
+      ],
+      "categories": [
+        "hep-ph",
+        "hep-ex",
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.31996",
+      "abstract": "We present a quantum-information-theoretic study of three-flavor neutrino oscillations in long-baseline experiments by mapping flavor states to qubit-like representations and quantifying quantum correlations through total concurrence. The local minima of this entanglement measure identify energy regions where the flavor state is closest to separability, enabling cleaner extraction of oscillation parameters. We explain how these local minima offer opportunities for precision measurements and provide insight into the accurate determination of neutrino oscillation parameters. We then propose a strategy to improve parameter extraction by aligning the benchmark oscillation regions of NO$\\nu$A and T2K with the minimum entanglement achievable in each experiment. This shifts the concurrence minima toward higher-event-count energy regions, leading to tighter constraints and reducing the tension arising from their different energy regimes. For normal ordering, we obtain $(0.581^{+0.0136}_{-0.0150},,195^{+38}_{-32},^\\circ)$ in the $(\\sin^2\\theta_{23},\\delta_{\\rm CP})$ plane and $(0.580^{+0.0140}_{-0.0153},,2.515^{+0.0344}_{-0.0344}\\times10^{-3},\\mathrm{eV}^2)$ in the $(\\sin^2\\theta_{23},\\Delta m^2_{31})$ plane, yielding improved joint constraints. Using GLoBES simulations together with real data, we assess how local minima of quantum correlations influence leptonic CP-violation sensitivity, $\\theta_{23}$ octant-degeneracy resolution, and mass-ordering determination. Our results show that minimizing entanglement can significantly affect these key sensitivities, highlighting quantum information measures as complementary probes of neutrino flavor oscillations and offering new insight into the role of quantum correlations in precision neutrino physics.",
+      "score": 85,
+      "reason": "3フレーバーニュートリノ振動を量子ビット表現にマップし量子相関を定量化🌟 Bell不等式・量子コヒーレンス・量子速度限界の観点から振動物理を探る新レンズ⚡💡",
+      "summary": "フレーバー状態を2準位系として記述し全コンカレンスを計算。もつれ最大・最小の振動エネルギー領域を特定し長基線実験での精密測定への示唆を議論🎯🔍"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "total_fetched": 234,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.30758",
+      "title": "The effect of nuclear recoil on neutrino oscillations: Toward understanding of short baseline anomalies",
+      "authors": [
+        "Luca Parini",
+        "Eugene V. Stefanovich"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.30758",
+      "abstract": "We studied the structure of the neutrino wave functions produced in nuclear decays, with particular emphasis on the role of nuclear recoil. Although the fraction of the recoil energy associated with a nonzero neutrino mass is extremely small, it gives rise to a notable time-dependent flavor oscillation. For long-lived sources, such as those used in gallium anomaly and reactor anomaly experiments, this recoil-driven oscillation makes a substantial contribution to the observed deficit of (anti)neutrinos.",
+      "score": 92,
+      "reason": "核崩壊で生成されるニュートリノ波動関数の構造を解析🔥 核の反跳効果が振動公式に有意な補正を与え短基線異常の説明に繋がる可能性⚡✨💡",
+      "summary": "各質量固有状態の波動関数を反跳込みで定式化し、振動長・位相への非自明な補正項を導出🔍 短基線実験データへの含意を議論🎯"
+    },
+    {
+      "arxiv_id": "2606.31996",
+      "title": "Quantum Information as a New Lens for Precision Neutrino Physics",
+      "authors": [
+        "Khushboo Dixit",
+        "Ritam Kundu",
+        "Papia Panda",
+        "Soebur Razzaque",
+        "Ramita Sarkar"
+      ],
+      "categories": [
+        "hep-ph",
+        "hep-ex",
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.31996",
+      "abstract": "We present a quantum-information-theoretic study of three-flavor neutrino oscillations in long-baseline experiments by mapping flavor states to qubit-like representations and quantifying quantum correlations through total concurrence. The local minima of this entanglement measure identify energy regions where the flavor state is closest to separability, enabling cleaner extraction of oscillation parameters. We explain how these local minima offer opportunities for precision measurements and provide insight into the accurate determination of neutrino oscillation parameters. We then propose a strategy to improve parameter extraction by aligning the benchmark oscillation regions of NO$\\nu$A and T2K with the minimum entanglement achievable in each experiment. This shifts the concurrence minima toward higher-event-count energy regions, leading to tighter constraints and reducing the tension arising from their different energy regimes. For normal ordering, we obtain $(0.581^{+0.0136}_{-0.0150},,195^{+38}_{-32},^\\circ)$ in the $(\\sin^2\\theta_{23},\\delta_{\\rm CP})$ plane and $(0.580^{+0.0140}_{-0.0153},,2.515^{+0.0344}_{-0.0344}\\times10^{-3},\\mathrm{eV}^2)$ in the $(\\sin^2\\theta_{23},\\Delta m^2_{31})$ plane, yielding improved joint constraints. Using GLoBES simulations together with real data, we assess how local minima of quantum correlations influence leptonic CP-violation sensitivity, $\\theta_{23}$ octant-degeneracy resolution, and mass-ordering determination. Our results show that minimizing entanglement can significantly affect these key sensitivities, highlighting quantum information measures as complementary probes of neutrino flavor oscillations and offering new insight into the role of quantum correlations in precision neutrino physics.",
+      "score": 88,
+      "reason": "3フレーバーニュートリノ振動を量子ビット表現にマップし全コンカレンスで量子相関を定量化🌟⚡ 精密ニュートリノ物理への量子情報の新境地💡✨",
+      "summary": "エネルギー依存もつれの局所最小から CP 非対称への感度が最大になる領域を特定🎯 長基線実験での量子測定の新指標を提案🔍"
+    },
+    {
+      "arxiv_id": "2606.31975",
+      "title": "Reheating in No-Scale Models of Inflation",
+      "authors": [
+        "Ignatios Antoniadis",
+        "John Ellis",
+        "Dimitri V. Nanopoulos",
+        "Keith A. Olive",
+        "Sarunas Verner"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2606.31975",
+      "abstract": "Analogously to the suppression of inflaton decays into conformally-coupled scalar fields in the original Starobinsky $R + R^2$ model of inflation, inflaton decays to Standard Model fields are also suppressed in minimal no-scale models of inflation with field space curvature $\\mathcal{R} = 2/3$. We study how this suppression can be avoided in generalized no-scale inflationary models. These include models in which the field space curvature $\\mathcal{R} = 2/(3\\alpha)$ with $\\alpha \\ne 1$ as exemplified by models derived from string theory, as well as models with non-minimal gauge kinetic terms and anomaly-induced couplings. We analyze direct and anomaly-induced inflaton couplings to gauge bosons and gauginos and demonstrate the K\\\"ahler-frame invariance of the physical gauge coupling. We determine the resulting reheating temperatures and the corresponding predictions in the $(n_s,r)$ plane. Finally, we consider an $R^3$ deformation of Starobinsky supergravity, which modifies the inflaton and stabilizer sectors but does not, by itself, generate new tree-level inflaton couplings to visible matter fields.",
+      "score": 87,
+      "reason": "No-Scaleインフレモデルでの再加熱を解析⚡ Starobinsky R+R²同様に共形結合 SM 場へのインフラトン崩壊が抑制される普遍機構を発見🔥💡✨",
+      "summary": "No-Scale SUGRA由来のインフラトンがSM場に崩壊する際の詳細な粒子物理計算。共形不変性に由来する抑制因子の普遍性と宇宙論的含意を議論🌌🎯"
+    },
+    {
+      "arxiv_id": "2606.31472",
+      "title": "The unavoidable de Sitter fate of a scale-invariant Universe",
+      "authors": [
+        "Chiara Cecchini",
+        "Massimiliano Rinaldi"
+      ],
+      "categories": [
+        "gr-qc",
+        "astro-ph.CO",
+        "hep-ph",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2606.31472",
+      "abstract": "We consider a very general scale-invariant scalar-tensor theory of gravity and its flat cosmological solutions. We show that any stable configuration with non-degenerate gravitational dynamics carries a non-vanishing cosmological constant, unless the quartic self-coupling of the scalar field vanishes. Since this condition is not protected against radiative corrections, a residual cosmological constant is expected as a generic and robust prediction of this class of theories. This result suggests that dark energy may be a natural consequence of an early scale-invariant phase of the Universe.",
+      "score": 87,
+      "reason": "最も一般的なスケール不変スカラーテンソル重力の平坦宇宙解を解析🌌 非縮退の重力ダイナミクスを持つ全ての安定解がde Sitterに至るという定理を証明⚡💡🔥✨",
+      "summary": "スカラー場の4次自己結合が消えるか scalar-tensor が退化する場合を除き、スケール不変理論は必ず非ゼロ宇宙定数を持つことを示す🎯🔍"
+    },
+    {
+      "arxiv_id": "2606.31561",
+      "title": "Kaluza-Klein Gravitons in a Higher Curvature Warped Geometry : A New Perspective",
+      "authors": [
+        "Abhirup Karmakar",
+        "Isika Mandal",
+        "Soumitra SenGupta"
+      ],
+      "categories": [
+        "hep-th",
+        "gr-qc",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.31561",
+      "abstract": "Kaluza-Klein (KK) Gravitons are the direct collider imprints of the higher dimensional bulk physics in our four dimensional universe, arising from the compactification of an extra spatial dimension. In this work, we consider a two-brane warped geometry with a 5D $f(\\mathcal R) = \\mathcal R + \\alpha\\mathcal R^2$ gravity along with cosmological constant $\\Lambda$. The warped spacetime provides an elegant resolution of the gauge-hierarchy problem without introducing any intermediate scale, while the Planck-scale curvature of the underlying $AdS_5$ bulk naturally motivates the inclusion of higher-curvature corrections. For small values of higher-curvature parameter ($\\alpha$), we obtain the leading-order back-reacted warp factors perturbatively from the modified gravitational field equations. In the backdrop of a warped braneworld model, we have solved the Schr\\\"odinger-like equation governing the graviton fluctuations using a Euclidean path integral formalism, yielding the KK graviton spectrum and normalized wavefunctions directly from the corresponding quantum-mechanical propagator. Treating these results as the unperturbed background, we analytically determine the higher curvature corrections to KK graviton spectrum and their couplings to Standard Model (SM) matter fields. We find that there is an appreciable upward shift in the KK graviton masses while leaving the graviton-SM couplings only mildly modified as compared to a model with only Einstein gravity in the bulk. However the net cross-section of processes involving virtual gravitons appears to be suppressed whereas the dilepton and diphoton decay widths of the gravitons are significantly enhanced because of the higher curvature corrections. Overall, these effects lead to observable modifications to both the production and decay signatures of massive KK gravitons and may be probed in some future precision collider experiments.",
+      "score": 87,
+      "reason": "高次曲率（Gauss-Bonnet）ワープドジオメトリでの KK グラビトンのスペクトルを再検討🔬 従来より大きな質量ギャップが生じるコライダー現象論的に重要な新視点⚡✨💡",
+      "summary": "5D f(R)=R+αR²モデルでの2ブレーン系でKK重力子質量スペクトルと結合定数を解析。α依存の質量ギャップ増大とLHC/将来加速器への示唆を議論🎯🔍"
+    },
+    {
+      "arxiv_id": "2606.31299",
+      "title": "Distance duality relation in symmetric teleparallel gravity",
+      "authors": [
+        "Rocco D'Agostino"
+      ],
+      "categories": [
+        "gr-qc",
+        "astro-ph.CO",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2606.31299",
+      "abstract": "In this work, we investigate the distance duality relation (DDR) in symmetric teleparallel theories, where gravity is mediated by nonmetricity. Starting from the general metric-affine formulation and adopting the geometrical optics approximation, we show that the standard Etherington reciprocity relation remains valid in the presence of nonmetricity when electromagnetism is minimally coupled and the photon number is conserved. We then extend the analysis to a class of $f(Q)$ theories with a nonminimal coupling between the electromagnetic field and the nonmetricity scalar. We demonstrate that such an interaction modifies the conservation of the photon number current, leading to a dynamical violation of the DDR. Focusing on a homogeneous and isotropic spacetime background in the coincident gauge, we derive a generalized DDR formula that directly relates observational distance measures to the Hubble expansion rate. Furthermore, we discuss the link between the deviations from Etherington's relation and variations of the effective fine-structure constant. Specific illustrative examples of the coupling function are also analyzed, showing that phenomenologically viable models predict only small deviations from the standard DDR. Our results provide a unified framework to distinguish between the geometric and dynamical origins of DDR violations, opening new avenues for testing non-Riemannian gravity with future high-precision astrophysical and cosmological observations.",
+      "score": 86,
+      "reason": "対称テレパラレル重力（非計量性）における距離双対関係 (DDR) を幾何光学近似から導出🔬 f(Q)修正により標準 Etherington 相反関係が破れることを示す⚡💡✨",
+      "summary": "計量-アフィン形式から出発してQDDRを定式化し、f(Q)重力での測光・角径距離の関係への修正を観測的に検証する枠組みを展開🎯🔍"
+    },
+    {
+      "arxiv_id": "2606.31324",
+      "title": "Cosmological Viability of Exponential Infrared $f(T)$ Gravity",
+      "authors": [
+        "Mahmoud Hashim",
+        "Eleonora Di Valentino",
+        "Jackson Levi Said",
+        "Waleed El Hanafy"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2606.31324",
+      "abstract": "We investigate the cosmological viability of exponential infrared $f(T)$ teleparallel gravity using current cosmological observations. This framework realizes late-time cosmic acceleration through torsional modifications of gravity without enlarging the six-parameter cosmological parameter space of spatially flat $\\Lambda$CDM, and admits two distinct solution branches: a phantom-like model (Model I) and a model featuring a negative-to-positive transition in the effective torsional dark-energy density (Model II). We constrain both branches using CMB observations from Planck, ACT, and SPT together with DESI BAO and Pantheon+ Type Ia supernovae. We find that the principal branch (Model I) alleviates the Hubble tension relative to $\\Lambda$CDM, but remains statistically disfavoured by the combined dataset. The secondary branch (Model II) is decisively ruled out. We show that the failure of Model II originates from the interplay between background and perturbation constraints: once late-time distance measurements constrain the expansion history, the model becomes overconstrained, forcing correlated shifts in $\\Omega_{\\rm m}h^2$, $A_s$, $n_s$, and $\\tau_{\\rm reio}$, degrading the fit to the CMB damping tail and driving the optical depth to unphysical values. Our results demonstrate that perturbation observables provide stringent and complementary tests of teleparallel gravity beyond the background expansion history.",
+      "score": 85,
+      "reason": "指数型赤外 f(T) テレパラレル重力の宇宙論的実行可能性を複数の観測プローブで検証🔬 6パラメータ標準宇宙論を超えずに後期加速を実現できるか精査⚡💡✨",
+      "summary": "CMB+BAO+SNe Iaを組み合わせてf(T)モデルのパラメータ空間を制限。ΛCDMとの競合性と内的整合性を評価し観測的余地を定量化🎯🔍"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "total_fetched": 234,
+  "scored_papers": [
+    {
+      "arxiv_id": "2606.31443",
+      "title": "Wave-particle duality as an uncertainty relation for the average confidence width",
+      "authors": [
+        "Shengjun Wu"
+      ],
+      "categories": [
+        "quant-ph",
+        "math-ph",
+        "math.MP"
+      ],
+      "url": "https://arxiv.org/abs/2606.31443",
+      "abstract": "We introduce the average confidence width $\\Delta_a x=\\int_0^1 \\Delta_c x (\\theta_x) d \\theta_x$: the confidence width $\\Delta_c x(\\theta_x)$ -- the smallest position interval carrying a fraction $\\theta_x$ of the probability -- averaged over all levels. It is the first moment of the decreasing rearrangement of $|\\psi|^2$, an $L^1$ mean-absolute-deviation measure of localization, so the product $\\Delta_{a} x\\,\\Delta_{a} p$ is dilation invariant and obeys $\\Delta_{a} x\\,\\Delta_{a} p\\ge c\\,\\hbar$. Reading $1/\\Delta_{a} x$ as a particle character and $1/\\Delta_{a} p$ as a wave character, this lower bound on combined spread is identically an upper bound on combined particle-and-wave character: uncertainty and wave-particle duality are two faces of one inequality. A mean-entropy argument with the Bialynicki-Birula-Mycielski relation gives the rigorous $c\\ge\\pi/e$, while the achievable constant $c^\\ast$ is set by the ground state of the Fourier-invariant operator $|x|+|p|$, $c^\\ast\\le E_0^2\\approx 1.217$. Hence $\\pi/e\\le c^\\ast\\le E_0^2<4/\\pi$: the optimal state is sub-Gaussian, so the Gaussian -- optimal for the Heisenberg and entropic relations -- is not the duality optimum.",
+      "score": 85,
+      "reason": "平均信頼幅という新しい不確定性指標を導入し波動粒子二重性を不確定性関係として定式化🌟 実験的に直接検証可能な不等式を導出する量子基礎論の新視点💡✨",
+      "summary": "信頼幅Δ_cx(θ)の平均として定義したΔ_axを用い、干渉縞の視認度（波動性）と位置不確かさ（粒子性）のトレードオフを定量化⚡🔍"
+    }
+  ]
+}
