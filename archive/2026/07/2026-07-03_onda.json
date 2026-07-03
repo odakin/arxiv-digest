@@ -1,0 +1,27 @@
+{
+  "total_fetched": 190,
+  "scored_papers": [
+    {
+      "arxiv_id": "2607.00265",
+      "title": "The Simons Observatory: Overview of the Cryogenic Half-wave Plate Polarization Modulators",
+      "authors": [
+        "Junna Sugiyama",
+        "Kyohei Yamada",
+        "Bryce Bixler",
+        "Daichi Sasaki",
+        "Yuki Sakurai",
+        "Kam Arnold",
+        "Nicholas Galitzki",
+        "Akito Kusaka"
+      ],
+      "categories": [
+        "astro-ph.IM"
+      ],
+      "url": "https://arxiv.org/abs/2607.00265",
+      "abstract": "The Simons Observatory (SO) is a ground-based Cosmic Microwave Background (CMB) experiment that is located in the Atacama plateau. The Small Aperture Telescopes (SATs) of SO are optimized for polarimetry on the degree scale. Atmospheric $1/f$ contamination of the CMB signal poses a significant challenge for observations at this angular scale. In order to control the $1/f$ noise, the SATs utilize a Cryogenic Half-Wave Plate (CHWP) in their optics. The CHWP modulates the polarization signal to a higher frequency to separate it from the unpolarized atmospheric noise. Precision measurements of the CHWP rotation angle are required to successfully recover the target polarized signals. We present a method to reconstruct the CHWP rotation angle that achieves a noise level of 0.16 $\\mu\\mathrm{rad\\sqrt{s}}$, meeting our requirement.",
+      "score": 89,
+      "reason": "Simons Observatoryの低温HWP偏光変調器の全体設計を詳解🛰️✨ SAT大気1/fノイズ対策として連続回転HWPを採用。LiteBIRD HWP設計に直結する技術文書💫🔭",
+      "summary": "SO-SAT向け連続回転HWP変調器（10K低温動作）の機械設計・制御・試験結果を報告。大気揺らぎ由来の1/fノイズをHWP回転周波数以上にシフトさせCMB Bモード偏光観測精度を向上🌌"
+    }
+  ]
+}

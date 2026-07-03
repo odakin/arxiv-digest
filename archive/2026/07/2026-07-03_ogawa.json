@@ -1,0 +1,24 @@
+{
+  "total_fetched": 190,
+  "scored_papers": [
+    {
+      "arxiv_id": "2607.00184",
+      "title": "A universal time-of-arrival signature of Bose--Einstein condensation",
+      "authors": [
+        "Mathieu Beau",
+        "Timothey Szczepanski"
+      ],
+      "categories": [
+        "quant-ph",
+        "cond-mat.quant-gas",
+        "math-ph",
+        "math.MP"
+      ],
+      "url": "https://arxiv.org/abs/2607.00184",
+      "abstract": "We show that Bose--Einstein condensation produces a cusp in the time-of-arrival (TOA) statistics of a harmonically trapped gas released into free fall. In the semiclassical long time-of-flight regime, with $\\epsilon=\\sigma_V/\\sqrt{2gH}\\ll1$, both the mean and standard deviation of the arrival time distribution, which are governed by the longitudinal velocity variance, remain continuous, but acquire a cusp whose one-sided slope ratio is universal within the ideal-gas far-field limit, $\\mathcal{R}_\\infty=2.5556\\ldots$, and equals the trapped-gas specific-heat ratio $C(Tc^-)/C(Tc^+)$. Finite atom number rounds the cusp and weak interactions perturb it only weakly, leaving a measurable time-domain signature of condensation.",
+      "score": 87,
+      "reason": "到着時刻(TOA)統計でBEC転移を普遍的に特定できる！🎯 長時間飛行レジームでTOA分布にカスプが現れ、BEC固有の普遍的シグネチャを形成。到着時刻問題の実験的検証に直結⏱️✨",
+      "summary": "調和トラップから解放されたBECのTOA分布を半古典近似で解析。凝縮相転移で縦速度分散のカスプ（非解析性）が発生し、平均・標準偏差の温度依存性に普遍的特異点が現れる🔬"
+    }
+  ]
+}

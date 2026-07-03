@@ -1,0 +1,24 @@
+{
+  "total_fetched": 190,
+  "scored_papers": [
+    {
+      "arxiv_id": "2607.00971",
+      "title": "Quantum entanglement of photon pairs at proton-proton colliders",
+      "authors": [
+        "Yue Pan",
+        "Yipin Wang",
+        "Leyun Gao",
+        "Qiang Li",
+        "Chen Zhou"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.00971",
+      "abstract": "Diphoton systems, with photon polarizations measurable at low energies, serve as ideal qubits and were first used to demonstrate quantum entanglement. However, due to the current absence of dedicated polarimeters at high-energy colliders, the entanglement properties of diphoton systems remain largely unexplored at the high-energy frontier. Studying quantum entanglement at the high-energy frontier, where particle colliders serve as a natural relativistic laboratory, helps us better understand the quantum nature and seek new physics. In this letter, we propose a novel method to measure the entanglement of diphoton systems at proton-proton colliders. The photon spin analyzing power arises from the Bethe-Heitler process occurring in the tracker, where photons scatter off nuclei to produce electron-positron pairs whose joint angular distribution encodes the polarization of the diphoton system. Simulation results show that, under HL-LHC conditions, the statistical significance of quantum entanglement in the Higgs $\\to \\gamma\\gamma$ process is $0.007\\sigma$, while measuring the continuum diphoton process $q\\bar{q} \\to \\gamma\\gamma$ alone can reach about $1.5\\sigma$.",
+      "score": 87,
+      "reason": "コライダーで光子ペアの量子もつれを探る！✨ Diphoton系の偏光相関を活用し、高エネルギーLHCでの二光子量子情報を議論。粒子実験における量子もつれ研究の新地平📡🔬",
+      "summary": "pp衝突のdiphoton偏光相関をStokesパラメータ・密度行列で定式化。偏光計なしで測定可能な量子もつれ観測量を同定し、高エネルギーフロンティアで量子情報を解析する手法を提示🌟"
+    }
+  ]
+}

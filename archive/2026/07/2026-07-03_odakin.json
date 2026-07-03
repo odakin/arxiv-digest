@@ -1,0 +1,58 @@
+{
+  "total_fetched": 190,
+  "scored_papers": [
+    {
+      "arxiv_id": "2607.00096",
+      "title": "Escape from Ostrogradsky via Hidden Ghost Parity",
+      "authors": [
+        "Sam Bateman",
+        "Neil Turok"
+      ],
+      "categories": [
+        "hep-th",
+        "gr-qc",
+        "hep-ph",
+        "math-ph",
+        "math.MP"
+      ],
+      "url": "https://arxiv.org/abs/2607.00096",
+      "abstract": "We present a counterexample to Ostrogradsky's famous \"no go\" theorem as usually interpreted in quantum field theory (QFT), namely a four-derivative, UV-complete QFT with a consistent perturbative expansion which describes high energy scattering processes. We carefully quantize the theory on an $\\textit{indefinite}$ space of states - a Krein space - using covariant methods which ensure perturbative causality and unitarity (in the form of the optical theorem) to all orders. We generalize the Born rule to Krein spaces and prove that all tree level transition probabilities are positive in spite of the presence of ghosts. A key role in the proof is played by a hidden \"ghost parity\" symmetry which becomes explicit when the theory is embedded in a two-derivative, two-field $O(1,1)$-symmetric perturbative field theory.",
+      "score": 88,
+      "reason": "Ostrogradsky禁則を打ち破るUV完全4微分QFT！🎉 Hidden ghost parity + Krein空間量子化で高階微分理論を安定化。EC重力や修正重力の理論基盤に直結する画期的結果🔥✨",
+      "summary": "4微分scalar場をKrein空間で量子化し、散乱振幅がunitarityを保ちつつUV完全なことを証明。Ghost自由度はhidden parityで封じ込め、perturbative安定性を確保🧩"
+    },
+    {
+      "arxiv_id": "2607.00667",
+      "title": "Spin-torsion interaction and geodesic bending",
+      "authors": [
+        "Sagar Kumar Maity",
+        "Amitabha Lahiri"
+      ],
+      "categories": [
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2607.00667",
+      "abstract": "The intrinsic spin of fermions induces torsion in spacetime, leading to an effective four-fermion interaction. This affects the bending of null and timelike geodesics inside a star with a spherically symmetric distribution of gravitationally dense fermionic matter of constant density. Our analysis shows an additional torsional contribution to the geodesic deflection, alongside the conventional curvature-induced effect. This change depends on the fermion number density, coupling constants of the different species of fermions with different chiralities, and the temperature of the matter distribution. We have shown that the torsion-induced corrections to null geodesic bending remains very small for both low- and high-mass white dwarfs, whereas significantly larger effects may arise in more compact astrophysical objects such as neutron stars.",
+      "score": 88,
+      "reason": "フェルミオンのスピンが誘起するEC重力のトーションが測地線偏折に追加寄与！📐🌀 球対称・等密度フェルミオン星でスピン-トーション補正を厳密計算し定量化🔬✨",
+      "summary": "定密度フェルミオン星の球対称解でスピン-トーション相互作用を組み込み、null/timelike測地線の偏折角に対するEC補正項を解析的に導出。GRへのトーション補正の観測可能量を提示🧲"
+    },
+    {
+      "arxiv_id": "2607.00169",
+      "title": "Cosmological implications of f(T, B) gravity: constraints from recent observations",
+      "authors": [
+        "Laxmipriya Pati",
+        "Santosh V. Lohakare",
+        "S. K. Maurya"
+      ],
+      "categories": [
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2607.00169",
+      "abstract": "In this work, we examine the theoretical framework of modified teleparallel gravity with the inclusion of the boundary term in the action and investigate its cosmological implications by considering the power-law model $f(T, B) = -T + \\alpha (-B)^{\\beta}$, with the aim of addressing the late-time accelerated expansion and the dark energy. In this context, $T$ denotes the torsion scalar and $B$ represents the boundary term, whose presence allows for departures from standard teleparallel dynamics and provides a unified description that connects torsion and curvature-based formulations, reproducing $f(T)$ and $f(R)$ gravity in appropriate limits. The viability of the model is assessed by confronting its theoretical predictions with observational data while constraining the cosmological and model parameters through a Markov Chain Monte Carlo (MCMC) analysis using cosmic chronometers (CC), the Pantheon Plus sample (PPS), and the DESI baryon acoustic oscillation (BAO) Data Release 2 (DR2) datasets, and comparing its performance with the standard $\\Lambda$CDM model. The Akaike Information Criterion (AIC) analysis shows that the combined CC+PPS dataset strongly favors the $f(T, B)$ model, suggesting an improved phenomenological fit to late-time observations relative to $\\Lambda$CDM. Our result further shows an alleviation of H0 tensions, although a dedicated analysis is required to establish its full statistical significance. Furthermore, the background cosmological quantities indicate that the model exhibits a dynamical phantom-divide crossing while remaining consistent with late-time observations and yielding a viable expansion history and characteristic dark energy evolution.",
+      "score": 85,
+      "reason": "テレパラレル重力に境界項Bを加えたf(T,B)理論の宇宙論！⚡🌌 Power-lawモデルをDESI/Pantheon等で制約し、後期加速膨張と暗黒エネルギーをトーションで説明🔭",
+      "summary": "f(T,B)=-T+α(-B)^βのpower-lawモデルを最新CMB/BAO/SN観測で制約。トーションTと境界Bの双方が後期宇宙の加速膨張を駆動できることを示す🌠✨"
+    }
+  ]
+}
