@@ -1,0 +1,24 @@
+{
+  "total_fetched": 178,
+  "scored_papers": [
+    {
+      "arxiv_id": "2607.02017",
+      "title": "Boson Stars in Teleparallel Gravity with a Nonminimally Coupled Field: The Violation of Energy Conditions and Gravitational Waveforms from EMRIs",
+      "authors": [
+        "Long-Xing Huang",
+        "Ke Yang",
+        "Yong-Qiang Wang"
+      ],
+      "categories": [
+        "gr-qc",
+        "astro-ph.HE",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2607.02017",
+      "abstract": "In this work, we investigate boson star models within the framework of teleparallel gravity with non-minimal coupling, and obtain static, spherically symmetric solutions for both the ground state and excited states. The results indicate that the energy density of the excited-state solutions can become negative. For these solutions, the four commonly used energy conditions are no longer satisfied. In contrast, for all the ground-state solutions we have studied, the energy density remains positive and all four energy conditions are consistently satisfied. Moreover, considering the importance of astrophysical observations, the gravitational-wave signals from Extreme-Mass-Ratio Inspirals (EMRIs) composed of these boson stars are investigated. Our results reveal that the frequency-domain characteristic strain of these waveforms falls within the detectability range of LISA, which can provide potential evidence for distinguishing compact astrophysical objects.",
+      "score": 90,
+      "reason": "テレパラレル重力＋非最小結合でボソン星を構成！Einstein-Cartan／テレパラレル重力の研究に直撃 🔥 励起状態でエネルギー条件の破れが生じ、EMRI の重力波形まで導出。観測接続まで視野に入った注目論文 ✨",
+      "summary": "テレパラレル重力で非最小結合スカラー場のボソン星（基底・励起状態）を球対称解として構築。励起状態でのエネルギー条件違反を確認し、EMRI 重力波形も解析 🔭"
+    }
+  ]
+}

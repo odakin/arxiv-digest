@@ -1,0 +1,20 @@
+{
+  "total_fetched": 178,
+  "scored_papers": [
+    {
+      "arxiv_id": "2607.01296",
+      "title": "Exact quantum time compatible with positive energy",
+      "authors": [
+        "Ovidiu Cristinel Stoica"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.01296",
+      "abstract": "What would it be like to be in a superposition of yesterday, today, and tomorrow? This question may seem at best entertaining, but it is necessary, and exploring it allows us to understand how exact irreversible clocks and change are possible, despite the Unruh-Wald and Hegerfeldt-Ruijsenaars no-go theorems forbidding them.\nUnruh and Wald (1989) proved that if energy is bounded from below, no observable can increase monotonically with the Schrödinger time parameter t. Perfectly monotonic clocks and irreversible observable changes (Hegerfeldt-Ruijsenaars, 1980) seem impossible. From the perspective of the Schrödinger time, the world appears in a superposition of different intrinsic clock states indicating different times and opposite time directions. This seems to directly contradict our daily experiences of time and change.\nI show that there is no contradiction: from an intrinsic perspective of the world, sharp irreversible changes do happen, because the macroscopic pointer states resolve the superposition of different times. Large-scale time-reversing or discontinuous transitions are not internally observable in the records. From the intrinsic perspective, an unbounded intrinsic-time translation generator plays the role of the Hamiltonian, generating only forward time evolution with respect to the intrinsic time, but not to the Schrödinger parameter t, which is thus not justified to play the role of time. This allows sharp time observables even if the external Hamiltonian is bounded from below. In addition, this leads to a stationary wavefunction of the universe satisfying a Wheeler-DeWitt-type equation, without assuming gravity.",
+      "score": 88,
+      "reason": "正エネルギー条件と両立する正確な「量子時間」演算子を構成！時間演算子・到達時間問題の研究に直結 ⏱️ Unruh-Wald 禁止定理を回避する枠組みで、時間の重ね合わせを厳密に記述",
+      "summary": "不可逆で正エネルギー条件を満たす量子時刻演算子を厳密構成。昨日・今日・明日の量子的重ね合わせを記述し、量子時計と変化の理論的起源を論じる 🕰️"
+    }
+  ]
+}
