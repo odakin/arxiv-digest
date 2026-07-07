@@ -1,0 +1,59 @@
+{
+  "total_fetched": 178,
+  "scored_papers": [
+    {
+      "arxiv_id": "2607.02017",
+      "title": "Boson Stars in Teleparallel Gravity with a Nonminimally Coupled Field: The Violation of Energy Conditions and Gravitational Waveforms from EMRIs",
+      "authors": [
+        "Long-Xing Huang",
+        "Ke Yang",
+        "Yong-Qiang Wang"
+      ],
+      "categories": [
+        "gr-qc",
+        "astro-ph.HE",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2607.02017",
+      "abstract": "In this work, we investigate boson star models within the framework of teleparallel gravity with non-minimal coupling, and obtain static, spherically symmetric solutions for both the ground state and excited states. The results indicate that the energy density of the excited-state solutions can become negative. For these solutions, the four commonly used energy conditions are no longer satisfied. In contrast, for all the ground-state solutions we have studied, the energy density remains positive and all four energy conditions are consistently satisfied. Moreover, considering the importance of astrophysical observations, the gravitational-wave signals from Extreme-Mass-Ratio Inspirals (EMRIs) composed of these boson stars are investigated. Our results reveal that the frequency-domain characteristic strain of these waveforms falls within the detectability range of LISA, which can provide potential evidence for distinguishing compact astrophysical objects.",
+      "score": 90,
+      "reason": "テレパラレル重力＋非最小結合スカラー場のボソン星🌟 励起状態でエネルギー条件が全て破れ、EMRIの重力波波形まで解析した総合研究⚡🔭",
+      "summary": "テレパラレル重力の非最小結合場でボソン星解を構成。励起状態では負エネルギー密度が出現し4種エネルギー条件が全滅。EMRI軌道の重力波形も予測した。"
+    },
+    {
+      "arxiv_id": "2607.01301",
+      "title": "Dirac oscillator in a helically twisted spacetime with axial torsion",
+      "authors": [
+        "Matheus D. Moro",
+        "Fabiano M. Andrade",
+        "Faizuddin Ahmed",
+        "Edilberto O. Silva"
+      ],
+      "categories": [
+        "hep-th",
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.01301",
+      "abstract": "We investigate the Dirac oscillator in a helically twisted spacetime endowed with a uniform axial torsion. Starting from an orthonormal coframe, we compute the Levi--Civita spin connection explicitly and separate the geometric contribution from the axial contortion. Retaining the matrix $\\beta$ in the radial Moshinsky coupling, we show that the second-order problem is the ordered product $\\hat\\Pi_+\\hat\\Pi_-$ rather than the square of a single operator. The resulting radial dynamics is a coupled, self-adjoint two-component system in which the spin connection supplies the correct cylindrical radial operator, while the off-diagonal metric generates the helical combination $m/r-\\omega k$ and a Coulomb-like geometric term. A finite-element solution reproduces the planar Dirac-oscillator spectrum in the flat limit and reveals asymmetric dependence on the longitudinal momentum, avoided level crossings, and a supersymmetric zero mode at $E=Mc^2$. The axial torsion and longitudinal momentum preserve this zero mode, whereas the helical twist lifts it quadratically. Sector-resolved thermodynamic functions are obtained from the relativistic bound-state spectrum. The explicit spinors further determine longitudinal vector and axial currents, and a Witten-index analysis identifies the helical twist as the deformation that removes the protected zero mode.",
+      "score": 88,
+      "reason": "アインシュタイン-カルタン的なねじれ時空（軸方向トーション）でのディラック振動子を完全解析🔬 トーションが量子スペクトルに与える幾何学的効果を精密に✨💫",
+      "summary": "ヘリカルにねじれた時空で軸方向トーションを持つディラック振動子を解析。スピン接続を厳密計算しトーションの幾何学的寄与と量子数への効果を分離した。"
+    },
+    {
+      "arxiv_id": "2607.01274",
+      "title": "Inflation from Covariant Signature Change: A Geometric Mechanism",
+      "authors": [
+        "Raghvendra Singh",
+        "Sergey Bondarenko"
+      ],
+      "categories": [
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2607.01274",
+      "abstract": "We present a covariant mechanism in which a smooth change of metric signature, from a Euclidean to a Lorentzian regime, drives a finite interval of accelerated expansion. The transition, encoded by a scalar interpolator along a timelike congruence, occurs on a codimension-one hypersurface where the continued metric is degenerate but curvature invariants remain finite, so the surface is curvature-regular. Using this covariant continuation, we rewrite the Einstein tensor of the continued metric as a localized, interpolator-dependent effective source for the post-transition Lorentzian branch, yielding a purely geometric stress tensor supported near the crossing. In the Lorentzian regime, we derive a model-independent, local criterion for acceleration: inflation persists while the interpolator's slope exceeds a critical value fixed by the extrinsic curvature and the spatial Ricci curvature on the initial hypersurface, and ends when this inequality is first saturated. Standard smooth profiles (tanh, generalized logistic, and power-law/arctan) admit closed-form expressions for the proper-time duration of the accelerated epoch, showing that, for fixed geometric data, the profile shape controls this duration. The construction provides a non-singular, inflaton-free route from a regular Euclidean origin to an early Lorentzian phase of accelerated expansion, in a manner compatible with no--boundary--type boundary conditions.",
+      "score": 85,
+      "reason": "計量の符号変化（ユークリッド→ローレンツ）がインフレーションを引き起こす純粋幾何学的機構🌌 Higgs膨張とは全く異なる新たなインフレーション原理💡✨",
+      "summary": "スカラー補間子で符号が連続変化する計量を用い、余次元1の縮退超曲面でインフレーションを駆動。曲率不変量は有限のまま有限区間の加速膨張を実現する共変機構。"
+    }
+  ]
+}

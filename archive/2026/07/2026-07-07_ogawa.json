@@ -1,0 +1,36 @@
+{
+  "total_fetched": 178,
+  "scored_papers": [
+    {
+      "arxiv_id": "2607.01296",
+      "title": "Exact quantum time compatible with positive energy",
+      "authors": [
+        "Ovidiu Cristinel Stoica"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.01296",
+      "abstract": "What would it be like to be in a superposition of yesterday, today, and tomorrow? This question may seem at best entertaining, but it is necessary, and exploring it allows us to understand how exact irreversible clocks and change are possible, despite the Unruh-Wald and Hegerfeldt-Ruijsenaars no-go theorems forbidding them.\nUnruh and Wald (1989) proved that if energy is bounded from below, no observable can increase monotonically with the Schrödinger time parameter t. Perfectly monotonic clocks and irreversible observable changes (Hegerfeldt-Ruijsenaars, 1980) seem impossible. From the perspective of the Schrödinger time, the world appears in a superposition of different intrinsic clock states indicating different times and opposite time directions. This seems to directly contradict our daily experiences of time and change.\nI show that there is no contradiction: from an intrinsic perspective of the world, sharp irreversible changes do happen, because the macroscopic pointer states resolve the superposition of different times. Large-scale time-reversing or discontinuous transitions are not internally observable in the records. From the intrinsic perspective, an unbounded intrinsic-time translation generator plays the role of the Hamiltonian, generating only forward time evolution with respect to the intrinsic time, but not to the Schrödinger parameter t, which is thus not justified to play the role of time. This allows sharp time observables even if the external Hamiltonian is bounded from below. In addition, this leads to a stationary wavefunction of the universe satisfying a Wheeler-DeWitt-type equation, without assuming gravity.",
+      "score": 93,
+      "reason": "正エネルギー条件と両立する量子時刻演算子の厳密構成🕰️ Unruh-Wald禁止定理を回避する正確な量子クロックの理論——time-energyの核心テーマ！✨",
+      "summary": "エネルギー下限付き系でも正確な不可逆クロックが存在することを証明。Unruh-Wald（1989）とHegerfeldt-Ruijsenaars（1980）の禁止定理をいずれも回避する新構成を与える。"
+    },
+    {
+      "arxiv_id": "2607.02331",
+      "title": "Temporal nonlocality of a qudit resides in the input state, not the channel, and certifies temporal teleportation up to a fundamental limit",
+      "authors": [
+        "Karol Bartkiewicz",
+        "Patrycja Tulewicz"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.02331",
+      "abstract": "Correlations between two moments in time can be too strong for any classical explanation -- and, remarkably, this can happen for a single quantum system measured twice, with no second particle involved. We show that when one qudit is sent through a noisy channel, the strength of this \"nonlocality in time\" -- the temporal nonlocality robustness $\\mathrm{TNR}$ -- is carried entirely by the starting state: it vanishes precisely when the input is maximally mixed (completely random), $\\mathrm{TNR}(\\rho_A,\\mathcal{E})=0\\Leftrightarrow\\rho_A=\\mathbb{1}/d$, for the standard noise families. The resource is not any coherence in the channel but the back-action of the input's mixedness, and it survives even complete decoherence. This is at once a power and a trap. As a power, $\\mathrm{TNR}$ device-independently lower-bounds the fidelity of temporal teleportation -- sending an unknown state forward in time -- reaching $7/9$ at $d=3$, without trusting the measuring devices. As a trap, because the certified quantity is decoupled from the channel's actual coherence transmission, it can certify more than the channel delivers: an injective (reversible) unitary attains the maximal temporal-Bell signal yet teleports below the classical baseline. We resolve this over-certification completely -- a universal cap $\\mathrm{TNR}\\le(d-1)/d$ with an exact channel-resolved value, honest certification for the depolarizing channel and for any sufficiently mixed probe, and a proof that no choice of probes makes it channel-universal. Underpinning the results is a unified semidefinite-programming hierarchy of the temporal entanglement, steering and nonlocality robustnesses ($\\mathrm{TER}$, $\\mathrm{TSR}$, $\\mathrm{TNR}$), with a strict lower hierarchy and an upper one conditional on no-signaling in time ($\\mathrm{NSIT}$). All structure is verified numerically for $d=2$ through $5$.",
+      "score": 88,
+      "reason": "単一量子系の時間的非局所相関（テンポラル非局所性）が入力状態のみに由来することを証明🕐 量子時間テレポーテーションの基本限界も導出💫",
+      "summary": "quditをノイズチャンネルに通した際のテンポラル非局所性ロバストネスTNRは入力状態だけに依存。最大混合入力でTNR=0となり、量子時間テレポーテーションの上限も導かれる。"
+    }
+  ]
+}

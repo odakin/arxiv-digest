@@ -1,0 +1,23 @@
+{
+  "total_fetched": 178,
+  "scored_papers": [
+    {
+      "arxiv_id": "2607.02016",
+      "title": "Mid-infrared pure-state quantum light source based on lithium niobate waveguides",
+      "authors": [
+        "Huang Yuhang",
+        "Wang Dongzhou",
+        "Ke Shaolin",
+        "Jin Ruibo"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.02016",
+      "abstract": "Mid-infrared quantum light sources hold broad application prospects in fields such as gas sensing and infrared thermal imaging. However, currently used mid-infrared quantum entangled light sources primarily rely on bulk periodically poled lithium niobate (PPLN) crystals, which limits brightness and integration. This paper proposes a theoretical scheme based on lithium niobate thin films, in which 1556.9 nm pumping is used to generate entangled photon pairs with a central wavelength of 3113.8 nm. By optimizing the waveguide structure and periodic polarization design, type-II phase matching and group velocity matching are achieved. This enables transverse electric (TE)-polarized pump input to be down converted to generate photon pairs with TE and transverse magnetic (TM) polarizations. Furthermore, by combining a domain arrangement algorithm used for the customized design of polarization direction in PPLN waveguides, precise phase matching is achieved, resulting in a quantum light source with a purity as high as 0.999 and a brightness of 6.18$\\times 10^6$ cps/mW, which is three orders of magnitude higher than that of the bulk PPLN crystal source. This study provides a promising solution for realizing high-brightness, high-purity on-chip quantum light sources in the mid-infrared band.",
+      "score": 87,
+      "reason": "薄膜LiNbO₃導波路のSPDCで中赤外純粋状態量子光源を実現する理論提案🔬 バルクPPLNの集積化限界を超えたフォトンペア生成の新展開✨",
+      "summary": "1556.9nmポンプで3113.8nmのもつれ光子ペアを薄膜LiNbO₃導波路SPDCで生成。タイプII位相整合最適化により純粋状態の高輝度中赤外量子光源を集積デバイスで実現する設計。"
+    }
+  ]
+}
