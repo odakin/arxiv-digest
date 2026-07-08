@@ -1,0 +1,20 @@
+{
+  "total_fetched": 409,
+  "scored_papers": [
+    {
+      "arxiv_id": "2607.03636",
+      "title": "From the Hong-Ou-Mandel Effect to Quantum Sensing: Interference of Nonclassical Light with Partial Distinguishability and Noise",
+      "authors": [
+        "Matheus Eiji Ohno Bezerra"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.03636",
+      "abstract": "This thesis explores the interference of nonclassical states of light, particularly Fock and Gaussian states, in noisy linear interferometers, with applications to quantum information and quantum sensing. Using the phase-space formalism, analytical tools based on generating functions are developed to describe quantum optical interference in a unified way. For multiphoton Fock states, new zero probability events (suppression laws) are identified beyond the previously derived symmetry permutation principle, revealing rich interference structures that is degraded with photon distinguishability. For Gaussian states, the Hafnian-based description of Gaussian Boson Sampling is extended to include partial distinguishability via the overlap matrix of the internal state of the photons. Finally, the link between these interference effects and quantum multiparameter estimation is examined for the simultaneous estimation of phase and loss. This study shows that while probe incompatibility can vanish for optimized non-Gaussian states and some two-mode Gaussian states, at high photon number, measurement incompatibility remains a fundamental constraint even in this limit.",
+      "score": 95,
+      "reason": "HOM効果から量子センシングまで！🎯 部分的可識別性とノイズを含む非古典光干渉の統一理論 位相空間形式で解析✨",
+      "summary": "Fock・Gauss状態の線形干渉計干渉を生成関数法で解析、部分的可識別性がHOM可視度とセンシング精度に与える影響を定量化"
+    }
+  ]
+}

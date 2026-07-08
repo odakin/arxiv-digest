@@ -1,0 +1,133 @@
+{
+  "total_fetched": 409,
+  "scored_papers": [
+    {
+      "arxiv_id": "2607.02651",
+      "title": "First Search for Kaluza-Klein Gravitons and Radion Using Planck Data",
+      "authors": [
+        "Alexander P. Cassem",
+        "Soubhik Kumar"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2607.02651",
+      "abstract": "Heavy moduli and Kaluza-Klein (KK) gravitons from extra dimensions may evade terrestrial probes but can be produced during inflation, generating primordial non-Gaussianity (NG) through unavoidable couplings to density perturbations. In a warped five-dimensional (5D) model, we compute the full radion- and KK-graviton-mediated bispectra and perform the first search for these signals using Planck 2018 temperature and polarization data. We find no significant evidence for NG, with the maximum significance being $1.8\\sigma$ for $m_{\\rm KK}\\approx 1.6H$. We also identify a 5D setup which naturally generates NG with $f_{\\rm NL}\\sim 1-50$, within the reach of future surveys.",
+      "score": 92,
+      "reason": "KK重力子とラジオンをPlanckデータで初探索！🎯 余剰次元由来の非ガウス性を宇宙論観測で直接検証✨",
+      "summary": "5DワープモデルでKK重力子・ラジオンのインフレーション中生成を計算、Planckデータで初の制限を設定。UED比較も"
+    },
+    {
+      "arxiv_id": "2607.04504",
+      "title": "Shifted Hybrid Realization of Non-Minimal Higgs Inflation in Light of ACT DR6 and Planck Data",
+      "authors": [
+        "Nadir Ijaz",
+        "Pirzada",
+        "Mansoor Ur Rehman"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2607.04504",
+      "abstract": "We investigate non-minimal Higgs inflation in a no-scale-inspired supergravity framework and confront its predictions with the latest CMB constraints from ACT DR6 and \\emph{Planck}. Working within a shifted hybrid inflation scenario, we construct an effective single-field description in which the GUT Higgs direction serves as the inflaton after stabilization of the orthogonal scalar fields. We show that the inclusion of the leading nonrenormalizable operator in the superpotential induces a controlled deformation of the Starobinsky attractor, allowing the scalar spectral index to be shifted into the range favored by recent ACT and related CMB datasets while maintaining a small tensor-to-scalar ratio, $r \\sim 10^{-3}-10^{-2}$. The resulting inflationary dynamics remain theoretically consistent, with controlled supergravity corrections and sub-Planckian inflaton field values. We perform a detailed numerical analysis of the model parameter space, including reheating and nonthermal leptogenesis, and identify regions that simultaneously satisfy current observational constraints and yield a viable post-inflationary cosmological history.",
+      "score": 91,
+      "reason": "ノンミニマルHiggsインフレーションをACT DR6+Planck最新データで検証🔥 超重力フレームで精密予言✨",
+      "summary": "Shifted hybrid inflation+no-scale SuGraでHiggsがインフラトン。GUT方向安定化後の単場近似でns・rをACT/Planck比較"
+    },
+    {
+      "arxiv_id": "2607.03085",
+      "title": "Flipped rotating axion: Baryogenesis and Dark Matter",
+      "authors": [
+        "Konstantinos Dimopoulos"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO",
+        "gr-qc",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2607.03085",
+      "abstract": "It is shown that the co-genesis of baryon asymmetry and dark matter can be achieved through the rotation of a spectator axion-like particle, because of a flip in the vacuum manifold's orientation at the end of inflation. This can occur if the axion has a periodic non-minimal coupling to gravity (while preserving the discrete shift symmetry) in non-oscillating inflation models, where the inflaton field is characterised by a runaway potential. Our rotating axion can generate the baryon asymmetry of the Universe through spontaneous baryogenesis, while at a later epoch it can oscillate as dark matter. We show that in order to avoid fragmentation of the axion condensate during the rotation, we require the non-minimal coupling $\\xi\\sim(f/m_P)^2$, where $f$ is the axion decay constant.",
+      "score": 88,
+      "reason": "バリオン非対称とDMを軸対称のflipで同時生成！🎉 重力への非線形結合という新機構💡",
+      "summary": "インフレーション後の真空多様体反転で回転アクシオン→PQ対称性+非最小結合で大回転数保証、DM兼バリオン生成"
+    },
+    {
+      "arxiv_id": "2607.03070",
+      "title": "Majoron Dark Energy via Freezing Induced by Quantum Coherence",
+      "authors": [
+        "Keunsu Cheon",
+        "Sin Kyu Kang",
+        "Jungjai Lee"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO",
+        "gr-qc",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2607.03070",
+      "abstract": "We propose a nonequilibrium mechanism for Majoron dark energy in which the late-time freezing of a physical Majoron is induced by quantum coherence in a hidden pseudo-Dirac sterile fermion reservoir. The evolving Majoron background derivatively couples to the hidden pseudo-Dirac number current and drives a lagged reservoir response with a finite memory time. In the short-memory regime, the causal response kernel reduces to \\(\\dot X+\\Gamma_{\\rm PD}X=\\beta\\ddot\\phi\\). The leading linear-response matching \\(Q=\\alpha X\\) then yields an effective scalar equation containing the exchange structure \\(q_{\\rm exch}\\ddot\\phi/\\dot\\phi\\). We show that this term can dynamically suppress the Majoron velocity and sustain a response-dominated freezing branch even when the intrinsic Majoron mass is larger than the present Hubble scale. The microscopic origin of the lag variable is identified with the phase-lagged off-diagonal coherence of the hidden pseudo-Dirac ensemble, while the response strength is controlled by a response-weighted hidden density rather than by an independent gravitating component. The resulting state is a metastable nonequilibrium frozen phase with \\(w_\\phi\\simeq -1\\), rather than an exactly static cosmological constant.",
+      "score": 87,
+      "reason": "マヨロン暗黒エネルギー！隠れたsterileneutrinoとの量子コヒーレンス凍結メカニズム🔬✨",
+      "summary": "隠れたsterile neutrino reservoirとの結合でMajoron背景場が非平衡凍結→ωDE≈-1を実現、バリオン光子比も説明"
+    },
+    {
+      "arxiv_id": "2607.04128",
+      "title": "Probing axion in the DFSZ model",
+      "authors": [
+        "H. N. Long",
+        "N. H. T. Nha"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.04128",
+      "abstract": "We show that with the introduction of new right-handed neutrinos $N_R$, the Peccei--Quinn ($PQ$) transformation in the DFSZ (Dine--Fischler--Srednicki--Zhitnitsky) model depends only on the $PQ$ charge of the scalar singlet $\\phi$, namely $PQ_\\phi$, and is independent of the sine and cosine of $\\arctan(v_u/v_d)$. The model consists of four new scalars: a charged Higgs boson $H^\\pm$, a CP-odd scalar $A$, and two CP-even scalars with masses at the EW scale (of a few hundred GeV), and a superheavy inflaton $\\Phi$. The scalar fields have been presented in the form of unitary matrices, in which there is no mixing between the axion and the Goldstone boson $G_Z$. As a result, there are two kinds of couplings between the axion and fermions, namely Yukawa-like interactions and anomaly-induced ones associated with derivative axion couplings. {The model belongs to the DFSZ I kind since the axion - photon coupling with $\\fr E N = \\fr 8 3$.} The trilinear Higgs self-coupling is investigated. We have shown that, in the parameter region where new scalar fields such as the singly charged Higgs boson $H^\\pm$ and the CP-odd scalar $A$ have masses around 150 GeV and the vacuum expectation value of one Higgs doublet ($v_u$) is of the order of a few GeV, the coupling modifier $\\kappa_\\lambda$-a probe of new physics-is consistent with the current experimental constraints.",
+      "score": 86,
+      "reason": "DFSZモデルに右手ニュートリノ導入でPQ変換が簡明化🔑 新スカラー4種の予言と実験探索可能性✨",
+      "summary": "PQ変換がscalar singletのPQ電荷のみに依存、荷電Higgs・CP奇スカラー等を予言しLHC・Belle IIで探索可能"
+    },
+    {
+      "arxiv_id": "2607.03560",
+      "title": "Black Hole Memory Burden and its Signatures in Gravitational Waves from Mergers",
+      "authors": [
+        "Gia Dvali",
+        "Michael Zantedeschi",
+        "Sebastian Zell"
+      ],
+      "categories": [
+        "gr-qc",
+        "astro-ph.CO",
+        "hep-ph",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2607.03560",
+      "abstract": "Swift memory burden (MB) implies that the information stored in a black hole (BH) can modify its classical dynamics when the BH is perturbed. This influences the gravitational waves (GWs) emitted during BH mergers. In this paper, we investigate how the BH memory load is determined by the features of the collapsing source. We show that the memory load can vastly exceed the information content of its progenitor. An extreme example is a BH formed in a two-particle collision, which exhibits maximal MB. We then derive bounds for BHs formed through stellar collapse and examine the impact of swift MB on BH quasinormal modes, quantifying the MB-induced frequency shift of GWs. These findings imply that GW observations probe the fundamental mechanisms of BH information storage as well as their formation history.",
+      "score": 85,
+      "reason": "メモリー荷重がBH合体のGW波形を変える🌊 量子情報保存が動的摂動で露出する新機構⚡",
+      "summary": "BHに格納された情報が合体摂動で動的に影響→GW振幅・位相シフトとして観測可能、記憶荷重の宇宙論的検証プローブ"
+    },
+    {
+      "arxiv_id": "2607.04550",
+      "title": "Reflection polarization of close binaries as a probe of axion dark matter birefringence",
+      "authors": [
+        "Tomoki Matsuoka",
+        "Kimihiro Nomura",
+        "Hidetoshi Omiya"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "astro-ph.SR",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.04550",
+      "abstract": "We propose close binary polarimetry as a probe of birefringence induced by ultralight axion dark matter. In a close binary, reflection or scattering can generate a small linear polarization whose time dependence is locked to the orbital phase. This phase-locked polarization provides a template against which an oscillatory rotation of the polarization angle induced by the axion can be searched for. We show that axion birefringence appears as sidebands around the orbital harmonics. For a single bright binary, with parameters motivated by observed systems and current high-precision optical polarimetry, we estimate the sensitivity to the axion-photon coupling under white noise assumption to be the level of $10^{-12}$ GeV$^{-1}$ at an axion mass of $10^{-20}$ eV. A future array of suitable binaries could further improve the sensitivity to $10^{-13}$ GeV$^{-1}$ in an optimistic scenario. This method could provide a complementary high-cadence optical probe of axion birefringence, compared to existing astrophysical searches.",
+      "score": 85,
+      "reason": "近接連星偏光でアクシオンDMの複屈折を探索📡 軌道位相同期テンプレートで背景ノイズを除去🎯",
+      "summary": "近接連星の反射偏光→アクシオン振動による回転角テンプレートマッチングで10^{-14}eV帯のDM軸子を制限"
+    }
+  ]
+}

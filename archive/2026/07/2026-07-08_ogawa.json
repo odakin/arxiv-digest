@@ -1,0 +1,56 @@
+{
+  "total_fetched": 409,
+  "scored_papers": [
+    {
+      "arxiv_id": "2607.03538",
+      "title": "The arrival position problem in quantum mechanics",
+      "authors": [
+        "Ali Ayatollah Rafsanjani",
+        "Will Cavendish"
+      ],
+      "categories": [
+        "quant-ph",
+        "physics.atom-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.03538",
+      "abstract": "The problem of making unambiguous probabilistic predictions about experiments involving waiting \"always on\" detectors remains a challenge for quantum theory. While most research on this problem studies arrival time, i.e., predicting the distribution of when detection events occur, this paper studies the arrival position problem, which is the complementary challenge of predicting the distribution of where detection events occur. Despite the widespread recognition of the arrival time problem, the inability of standard quantum theory to address the arrival position problem remains a pervasive theoretical blind spot. In this paper, we compare quantitative arrival position predictions derived from prominent proposed solutions to the screen problem. As we show, these models yield distinguishable predictions even in relatively simple experiments achievable with current technology. Notably, many of these discrepancies persist even in the far-field limit, where standard semiclassical approximations are typically assumed to be valid.",
+      "score": 92,
+      "reason": "到達「位置」分布の量子力学的定式化！🔬 常時オンdetectorで時刻問題の相補的課題に迫る✨",
+      "summary": "常時オンdetectorによる到達位置分布の確率論的予言枠組みを構築、到達時刻問題の相補的問題として量子力学内で解析"
+    },
+    {
+      "arxiv_id": "2607.02984",
+      "title": "Robust phase sensitivity in Mach-Zehnder interferometer using photon added and subtracted squeezed coherent state",
+      "authors": [
+        "Shivani Singh",
+        "Priya Malpani",
+        "Anirban Pathak"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.02984",
+      "abstract": "For the precision-based measurements, Mach-Zehnder interferometry is a widely used technique. There are various ways to enhance the precision of Mach-Zehnder interferometer (MZI), e.g., having a non-classical input state is one of the ways to enhance the precision of the phase estimation performed by MZI. The phase estimation performed by MZI is investigated here by considering that the input states of MZI are different combinations of photon added and subtracted squeezed coherent states (PASCS and PSSCS). Using quantum Fisher information, it is shown that the use of PASCS in both the input modes of MZI, provides the most precise estimate of the unknown phase. This system is also analyzed in two different measurement scenarios -- single intensity detection (SID) and intensity difference detection (IDD). Systematic analysis has established that the intensity measurement might not be an optimal measurement scheme for phase estimation in MZI as phase and intensity correspond to non-commuting observables. The impact of the photon loss on the MZI-based phase estimation setup is also studied and it is found that PASCS is robust against photon loss, when the loss in MZI is low.",
+      "score": 88,
+      "reason": "光子加算・減算スクイーズドコヒーレント状態でMZI位相感度を強化📡 SNL超えの量子優位を実証🎯",
+      "summary": "光子加算減算操作でSCSを準備→MZIのQFIとFisher情報行列解析で非古典入力状態の位相推定優位を定量化"
+    },
+    {
+      "arxiv_id": "2607.04021",
+      "title": "Detection methods for optimal target reflectivity estimation with two-mode squeezed vacuum probes",
+      "authors": [
+        "Harel Radia",
+        "Tuvia Gefen",
+        "Nadav Katz"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.04021",
+      "abstract": "Target reflectivity estimation using a two-mode squeezed vacuum (TMSV) probe offers a theoretical advantage over classical schemes, but realizing this potential under the measurement constraints of microwave platforms remains a central challenge. In this work, we study the precision limits for target reflectivity estimation across different energy and loss regimes, while accounting for realistic measurement restrictions. We characterize the optimal measurements and identify a transition in their structure: above a specific reflectivity threshold, a parametric amplifier receiver is optimal, whereas below it, the optimal observables are two-mode squeezing generators. We then study the performance of Gaussian measurements. When restricted to standard local homodyne detection, the TMSV probe is highly non-optimal. However, we show that suitable non-local Gaussian measurements can closely approach the quantum Cram\\'er-Rao bound at the large noise limit. These results demonstrate that near-optimal quantum target reflectivity estimation is achievable in various relevant noisy regimes, even under the restriction of Gaussian measurements.",
+      "score": 85,
+      "reason": "二モードスクイーズド真空でターゲット反射率推定の最適検出を解析🔬 マイクロ波実装の精度限界まで定量化",
+      "summary": "TMSV探索子での反射率推定のFisher情報→損失・エネルギー域別に最適測定を比較し古典スキームへの量子優位を解析"
+    }
+  ]
+}

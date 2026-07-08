@@ -1,0 +1,62 @@
+{
+  "total_fetched": 409,
+  "scored_papers": [
+    {
+      "arxiv_id": "2607.04925",
+      "title": "Inverse-k Primordial Oscillations from a Symbolic Regression Search",
+      "authors": [
+        "Ze-Yu Peng",
+        "Qing-Yu Lan",
+        "Yun-Song Piao"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2607.04925",
+      "abstract": "Oscillatory features in the primordial power spectrum, potential signatures of new physics in the early universe, are usually searched for using fixed templates. In this work, we perform a template-free search for primordial features using symbolic regression. We find that both Planck and the combined Planck+ACT+SPT-3G datasets independently select an inverse-$k$ oscillation, $\\cos(B/k)$ with $B\\simeq4\\,\\mathrm{Mpc}^{-1}$, as the leading low-complexity feature. Comparing this inverse-$k$ template with standard linear and logarithmic oscillating templates, we find that it fits the data best, showing a weak preference for a non-zero amplitude. Our results show that symbolic regression as a powerful machine learning technique can provide an interpretable, model-independent approach to cosmological discovery.",
+      "score": 90,
+      "reason": "記号回帰で原始パワースペクトル特徴をテンプレートフリー探索！🎯 Planck+ACT+SPT-3G全てでcos(B/k)振動を発見✨",
+      "summary": "記号回帰でPlanck・ACT・SPT-3Gデータを検索、逆k振動cos(B/k)が複数データセットで独立に選択されることを発見"
+    },
+    {
+      "arxiv_id": "2607.04550",
+      "title": "Reflection polarization of close binaries as a probe of axion dark matter birefringence",
+      "authors": [
+        "Tomoki Matsuoka",
+        "Kimihiro Nomura",
+        "Hidetoshi Omiya"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "astro-ph.SR",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.04550",
+      "abstract": "We propose close binary polarimetry as a probe of birefringence induced by ultralight axion dark matter. In a close binary, reflection or scattering can generate a small linear polarization whose time dependence is locked to the orbital phase. This phase-locked polarization provides a template against which an oscillatory rotation of the polarization angle induced by the axion can be searched for. We show that axion birefringence appears as sidebands around the orbital harmonics. For a single bright binary, with parameters motivated by observed systems and current high-precision optical polarimetry, we estimate the sensitivity to the axion-photon coupling under white noise assumption to be the level of $10^{-12}$ GeV$^{-1}$ at an axion mass of $10^{-20}$ eV. A future array of suitable binaries could further improve the sensitivity to $10^{-13}$ GeV$^{-1}$ in an optimistic scenario. This method could provide a complementary high-cadence optical probe of axion birefringence, compared to existing astrophysical searches.",
+      "score": 88,
+      "reason": "近接連星反射偏光で宇宙複屈折を探索🔭 アクシオンDMによる偏光角回転の軌道位相同期テンプレート✨",
+      "summary": "位相固定反射偏光テンプレートと観測データの相関→近赤外偏光測定がaxion-photon結合をGe V以上の領域で制限"
+    },
+    {
+      "arxiv_id": "2607.03569",
+      "title": "Hubble tension in k-essence: Evidence for robust tension alleviation",
+      "authors": [
+        "Isaac Opio (BIUST)",
+        "Didam Duniya (BIUST)",
+        "Bishop Mongwane (Cape Town)",
+        "Hassan Abdalla (NWU",
+        "Omdurman)"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2607.03569",
+      "abstract": "The Hubble tension has come to stay as a major problem in modern cosmology as it continues to plague the standard cosmological model ($\\Lambda$CDM). As one of the viable, self-consistent dark energy theories, k-essence involves nontrivial self-interactions that can modify the background expansion beyond recombination; thereby impacting the sound horizon to last scattering, and hence, the inferred value of the Hubble constant. We examine this tension in two physically motivated k-essence models, dilaton and tachyon, using datasets from Planck and late-Universe probes including Pantheon+SH0ES, cosmic chronometer (CC), Supernova Cosmology Project Union compilation (Union3), Dark Energy Survey Year~5 (DESY5), and Dark Energy Spectroscopic Instrument (DESI) measurements. While $\\Lambda$CDM exhibits inconsistent tension inferences, both k-essence models exhibit a substantial tension alleviation that is robust against the inclusion of the independent late-Universe cosmological datasets, giving consistent tension reduction irrespective of whether the observations are supernovae (Pantheon+SH0ES, Union3, DESY5) alone or in combination with cosmic chronometers (CC) and baryon acoustic oscillation measurements (DESI). The combined late-Universe dataset leads to only $0.14\\sigma$ and $0.69\\sigma$ offsets from the Planck prediction in the dilaton and tachyon models, respectively, compared to $5.89\\sigma$ tension in $\\Lambda$CDM. Both models demonstrate that the inferred tension alleviation is a stable, intrinsic consequence of the underlying k-essence dynamics rather than of model fine tuning: model parameters remain unchanged across datasets. The results establish that the apparent Hubble tension is not an unavoidable feature of late-Universe cosmology but depends critically on the description of dark energy.",
+      "score": 85,
+      "reason": "k-essenceがHubble tension解消に頑健に効く📊 Planck+BAO+SNIaで自己整合的に検証✨",
+      "summary": "k-essence暗黒エネルギーの自己相互作用が背景膨張を修正→H0緊張解消をstate parameter形式で体系的にデータ検証"
+    }
+  ]
+}
