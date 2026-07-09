@@ -1,0 +1,79 @@
+{
+  "total_fetched": 183,
+  "scored_papers": [
+    {
+      "arxiv_id": "2607.05715",
+      "title": "Entangled quantum clocks as operational probes of spacetime curvature",
+      "authors": [
+        "Ivana DJordjevi'c",
+        "Aleksandra Gocanin",
+        "Dragoljub Gocanin"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.05715",
+      "abstract": "Building on the framework developed by Perche [Phys. Rev. D 106, 025018 (2022)], we study two localized nonrelativistic quantum particles propagating along timelike geodesics in a curved spacetime background. Each particle is coupled to a quantum clock that operationally records the time spent in a prescribed spatial region. We compute the covariance of the resulting time observables for separable and entangled two-particle states, comparing flat and curved backgrounds. We then reformulate the protocol as a Bell-like experiment and show that the Bell parameter can acquire a curvature-induced c",
+      "score": 92,
+      "reason": "量子時計の時間オブザーバブルの共分散を計算！⏰ 曲がった時空での時間測定という量子時計形式の核心テーマに直撃🎯 エンタングル状態とベル型不等式まで展開してて読み応え抜群✨",
+      "summary": "2粒子系の量子時計が曲がった時空での時間を操作的に計測📐 セパラブル・エンタングル状態での時間観測量の共分散を導出し、曲率によるベルパラメータ補正を解析。"
+    },
+    {
+      "arxiv_id": "2607.06395",
+      "title": "Attosecond metrology of bright quantum light",
+      "authors": [
+        "P. Stammer",
+        "J. Rivera-Dean",
+        "E. Pisanty",
+        "M. Lewenstein"
+      ],
+      "categories": [
+        "quant-ph",
+        "physics.optics"
+      ],
+      "url": "https://arxiv.org/abs/2607.06395",
+      "abstract": "Attosecond metrology is the ability to measure ultrafast optical light-wave oscillations, yet its approach has been limited to classical fields. Hence, the influence of the fluctuations of a quantum field on attosecond measurements has remained unexplored. Here, we close this gap by showing that the attosecond streaking measurement of bright quantum light is sensitive to quantum fluctuations of the optical field on the attosecond timescale. The distinct sub-cycle modulations allow to extract the properties of the squeezed field quadrature in regimes where conventional state tomography approach",
+      "score": 90,
+      "reason": "アト秒ストリーキング測定がスクイーズド場の量子ゆらぎに敏感と判明！⚡ サブサイクルの変調からスクイーズド二次系を抽出🌊 時間-エネルギー不確定性とスクイーズド状態の交差点🎯✨",
+      "summary": "明るい量子光のアト秒計測で初めて量子場ゆらぎへの感度を実証⏱️ スクイーズド光の二次系特性をアト秒時間分解で抽出し、通常のトモグラフィが困難なレジームで威力を発揮。"
+    },
+    {
+      "arxiv_id": "2607.06410",
+      "title": "Geometric obstructions to quadratic time scaling in multiparameter quantum estimation",
+      "authors": [
+        "Eoin O'Connor",
+        "Jiayu He",
+        "Matteo G. A. Paris",
+        "Marco G. Genoni"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.06410",
+      "abstract": "Unitary encoding of a single parameter provides quadratic enhancement in precision, with the quantum Fisher information scaling quadratically with the encoding time. However, when estimating multiple parameters simultaneously, this fundamental scaling is not guaranteed. Here, we establish a universal geometric obstruction that dictates when multiparameter quantum metrology fails to achieve simultaneous $t^{-2}$ scaling. By decomposing the Hamiltonian derivatives into components that commute and do not commute with the system Hamiltonian, we prove that linear dependence among the commuting comp",
+      "score": 88,
+      "reason": "量子フィッシャー情報のt²スケーリングが多パラメータ推定で崩れる幾何的障害を解明⏰ ハミルトニアンの可換/非可換分解が鍵🔑 時間エネルギー不確定性と量子速度限界の核心に触れる✨🎯",
+      "summary": "単一パラメータでは量子フィッシャー情報がt²で精度向上するが、多パラメータ同時推定では普遍的な幾何的障害が存在🚧 ハミルトニアン微分の可換/非可換分解で条件を完全特定。"
+    },
+    {
+      "arxiv_id": "2607.06232",
+      "title": "Learning to Reconstruct Wigner Functions in Phase Space",
+      "authors": [
+        "Xinyu Tang",
+        "Yi-hsin Lin",
+        "Yan Zhu",
+        "Tailong Xiao",
+        "Yuxuan Du",
+        "Giulio Chiribella"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.06232",
+      "abstract": "Wigner function learning is a central tool for characterizing continuous variable quantum systems. A fundamental challenge in this setting is to infer a continuous phase-space function from sparse pointwise measurement data, a task that becomes increasingly demanding as the effective dimension enlarges. Here, we develop a general machine learning framework to reconstruct Wigner functions directly as continuous functions from sparse phase-space data. For states with sparse Fock-space or coherent-state representations, such as binomial code states and cat states, we devise provably efficient reg",
+      "score": 85,
+      "reason": "ウィグナー関数をスパース測定データから機械学習で再構成🌀 猫状態・二項符号など非ガウス状態まで対応📊 ガウス波束・コヒーレント状態の位相空間描像と直結する内容🎯✨",
+      "summary": "連続変数量子系のウィグナー関数を疎な位相空間データから効率的に学習する汎用フレームワーク📐 フォック空間スパース状態・コヒーレント状態表現で証明可能な効率的アルゴリズムを構築。"
+    }
+  ]
+}
