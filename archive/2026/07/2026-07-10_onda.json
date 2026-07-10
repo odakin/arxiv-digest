@@ -1,0 +1,43 @@
+{
+  "total_fetched": 184,
+  "scored_papers": [
+    {
+      "arxiv_id": "2607.06582",
+      "title": "ACT-DR6 consistent inflation in generalised entropic cosmology and $f(Q)$ gravity",
+      "authors": [
+        "Shin'ichi Nojiri",
+        "Sergei D. Odintsov"
+      ],
+      "categories": [
+        "gr-qc",
+        "astro-ph.CO",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2607.06582",
+      "abstract": "Within the framework of generalised entropic cosmology and its equivalent $f(Q)$ gravity, we construct inflationary scenarios consistent with recent Atacama Cosmology Telescope (ACT) observations combined with Planck-BAO data. We work with $f(Q)$ gravity and use the reconstruction scheme from which one can obtain an arbitrary cosmological evolution consistent with desirable theoretical or observational considerations. Explicit inflationary cosmologies of the above theory, which pass ACT-Data Release 6 (DR6) data combined with Planck and BAO, are obtained. For $f(Q)$ gravity coupled with scalar, we obtain ACT inflation for large classes of $f(Q)$ via the choice of the scalar potentials. The entropic cosmology based on generalised entropy, which includes most of the known entropies like Tsallis, R\\'{e}nyi, Barrow, etc as a particular case, is investigated. The corresponding FRW equations, depending on the parameters of generalised entropy, are presented. Using the correspondence between the generalised entropy and $f(Q)$ gravity, we obtain generalised entropic inflation, which is consistent with the ACT-DR6. At the next step, the entropic gravity coupled with scalar is considered. It is demonstrated how one can obtain ACT-DR6-consistent inflation for such a theory based on any generalised entropy considered in this paper via the choice of scalar potentials. These findings may point towards the correct unifying entropy of the early universe.",
+      "score": 86,
+      "reason": "ACT-DR6でf(Q)重力インフレーションの整合性を検証🎯テンソルスカラー比rの制約がLiteBIRD発見空間と直結✨🌌",
+      "summary": "テレパラレルf(Q)重力とエントロピック宇宙論でACT-DR6・Planck・BAOを満たすインフレ模型を再構成法で系統的に構築"
+    },
+    {
+      "arxiv_id": "2607.07602",
+      "title": "When the Environment Speaks: Quantum Signatures in Non-Attractor Inflation",
+      "authors": [
+        "Mattia Cielo",
+        "Simone Scarlatella",
+        "Gianpiero Mangano",
+        "Ofelia Pisanti"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2607.07602",
+      "abstract": "We study the open quantum dynamics of the adiabatic curvature perturbation interacting with a massive entropic scalar environment during an inflationary scenario featuring a transient Ultra-Slow-Roll phase. Working within a Gaussian two-field effective Lagrangian, we employ the exact Transport Equations Method to track the full non-unitary, non-Markovian evolution of the system's covariance matrix across the SR-USR-SR transition. We find that the efficiency of decoherence is sensitive to the background kinematics at horizon crossing. Most importantly, the interaction with the environment leaves distinct observable imprints on the primordial scalar power spectrum: the characteristic interference dip preceding the USR-driven enhancement can be partially or completely erased, the growth slope modified, and oscillatory features induced near the peak. Propagated to second order, these distortions further imprint on the stochastic background of Scalar-Induced Gravitational Waves, breaking single-field predictions and yielding unique spectral signatures potentially accessible to LISA. Our results demonstrate that the quantum environment is not a passive spectator during inflation, but an active agent whose imprint on the primordial universe may be within reach of the next generation of cosmological observations.",
+      "score": 85,
+      "reason": "USR型インフレの環境デコヒーレンスが原始スペクトルの量子痕跡をどう変えるか🌌CMBに残る量子シグネチャ✨🎯",
+      "summary": "USRフェーズを持つ二場インフレで曲率摂動の開量子系進化を完全追跡し、CMB観測可能な量子シグネチャを解析"
+    }
+  ]
+}

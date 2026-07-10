@@ -1,0 +1,24 @@
+{
+  "total_fetched": 184,
+  "scored_papers": [
+    {
+      "arxiv_id": "2607.06932",
+      "title": "Enhanced two-photon sources in a cavity-coupled two-atom system",
+      "authors": [
+        "Zhicai Chen",
+        "Jun Xu",
+        "Deyi Kong",
+        "Xiangming Hu",
+        "Fei Wang"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.06932",
+      "abstract": "We propose a component-selective scheme for improving two-photon sources in a cavity-coupled two-atom system, where a single cavity mode interacts with two two-level atoms driven by phase-controlled classical fields of the same frequency. By controlling the atomic detunings and driving phase, the system can be tailored toward optimized cavity-field two-photon blockade or strongly correlated fluorescence photon-pair emission. When the two-cavity-photon component is enhanced, the cavity field exhibits optimized two-photon blockade with simultaneous suppression of unwanted one- and three-photon components at a comparable two-photon population. In another parameter regime, strongly correlated fluorescence photon pairs can also be generated from the two atoms by selecting the double-atomic-excitation component in the same two-excitation manifold. This approach provides a route toward high-quality and versatile two-photon sources, with potential applications in few-photon quantum optics and quantum information processing.",
+      "score": 88,
+      "reason": "空洞-二原子系での二光子源強化の新提案💡位相制御で二光子ブロケードと強相関光子対放出を切り替え！✨🔬🎯",
+      "summary": "位相制御された古典駆動場で二準位原子×空洞系を調整し、最適二光子ブロケードまたは強相関蛍光光子対放出を実現"
+    }
+  ]
+}

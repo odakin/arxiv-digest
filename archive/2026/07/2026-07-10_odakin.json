@@ -1,0 +1,114 @@
+{
+  "total_fetched": 184,
+  "scored_papers": [
+    {
+      "arxiv_id": "2607.06582",
+      "title": "ACT-DR6 consistent inflation in generalised entropic cosmology and $f(Q)$ gravity",
+      "authors": [
+        "Shin'ichi Nojiri",
+        "Sergei D. Odintsov"
+      ],
+      "categories": [
+        "gr-qc",
+        "astro-ph.CO",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2607.06582",
+      "abstract": "Within the framework of generalised entropic cosmology and its equivalent $f(Q)$ gravity, we construct inflationary scenarios consistent with recent Atacama Cosmology Telescope (ACT) observations combined with Planck-BAO data. We work with $f(Q)$ gravity and use the reconstruction scheme from which one can obtain an arbitrary cosmological evolution consistent with desirable theoretical or observational considerations. Explicit inflationary cosmologies of the above theory, which pass ACT-Data Release 6 (DR6) data combined with Planck and BAO, are obtained. For $f(Q)$ gravity coupled with scalar, we obtain ACT inflation for large classes of $f(Q)$ via the choice of the scalar potentials. The entropic cosmology based on generalised entropy, which includes most of the known entropies like Tsallis, R\\'{e}nyi, Barrow, etc as a particular case, is investigated. The corresponding FRW equations, depending on the parameters of generalised entropy, are presented. Using the correspondence between the generalised entropy and $f(Q)$ gravity, we obtain generalised entropic inflation, which is consistent with the ACT-DR6. At the next step, the entropic gravity coupled with scalar is considered. It is demonstrated how one can obtain ACT-DR6-consistent inflation for such a theory based on any generalised entropy considered in this paper via the choice of scalar potentials. These findings may point towards the correct unifying entropy of the early universe.",
+      "score": 87,
+      "reason": "ACT-DR6データでf(Q)重力のインフレーション一貫性を検証🎯テレパラレル重力とインフレーションの直撃テーマ💫✨🔥",
+      "summary": "エントロピック宇宙論とf(Q)重力でACT・Planck・BAOを同時に満たすインフレシナリオを再構成法で系統構築📚"
+    },
+    {
+      "arxiv_id": "2607.06983",
+      "title": "From inflation to hot big bang -- a tutorial on cosmological perturbations",
+      "authors": [
+        "Mikko Laine",
+        "Simona Procacci"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2607.06983",
+      "abstract": "These lecture notes are meant as a pedagogic guide to cosmological inflation and the early epochs thereafter. Inflation explains how the seeds for density perturbations, which evolved into the largest structures in our universe, could have formed during a period of exponential expansion. Apart from density perturbations, also tensor perturbations are generated, which may be observed as gravitational waves. The formalism is developed through explicit computations, paying attention to general-relativistic gauge invariance, and to thermalization (the mechanism that converts part of the energy density driving exponential expansion into the conventional hot big bang). For the steps best handled numerically or computer-algebraically, simple python scripts are provided. We aim at an unassuming style, hopefully accessible to students of theoretical high-energy physics.",
+      "score": 86,
+      "reason": "インフレーションから熱い宇宙へのチュートリアル📚宇宙論的摂動論を一から体系化、テンソル摂動まで網羅🌌🎓✨",
+      "summary": "原始量子揺らぎ生成からBBNまでを繋ぐ摂動理論の教育的レビュー、重力波テンソル摂動も含む充実の講義ノート"
+    },
+    {
+      "arxiv_id": "2607.07193",
+      "title": "Higgs boson mass and thermal wino dark matter from Starobinsky supergravity with the MSSM",
+      "authors": [
+        "Daniel Frolovsky",
+        "Alexander Belyaev",
+        "Sergei V. Ketov"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO",
+        "gr-qc",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2607.07193",
+      "abstract": "We propose a framework connecting cosmic microwave background (CMB) observables with high-energy particle phenomenology, based on Starobinsky supergravity coupled to the Minimal Supersymmetric Standard Model (MSSM). Cosmic inflation and supersymmetry (SUSY) breaking occur within the hidden sector emerging from Starobinsky supergravity. The inflationary scale fixes the characteristic mass scale of the hidden sector, which determines the MSSM soft terms through gravitational mediation of SUSY breaking. The same hidden sector can also dynamically generate a high-scale $\\mu$ term. The resulting MSSM spectrum fixes the high-scale threshold corrections and the boundary conditions for the renormalisation-group (RG) evolution of the Higgs quartic coupling. Three-loop RG evolution of the Higgs quartic coupling gives a Higgs boson mass consistent with the measured value within the theoretical and experimental uncertainties, thereby linking the amplitude of primordial scalar perturbations to the Higgs boson mass. With conserved R-parity, the lightest supersymmetric particle is stable, making it a compelling dark matter candidate. The observed relic abundance selects a nearly pure thermal wino with a physical mass of about 3 TeV. Its loop-induced spin-independent wino-nucleon scattering cross section lies below the current sensitivity of the LUX-ZEPLIN experiment, but within the projected reach of next-generation multi-ton liquid-xenon detectors. Electroweak radiative corrections generate a small mass splitting between the charged and neutral wino states, leading to a long-lived charged wino and the characteristic disappearing-track signature. A future 100 TeV proton collider can discover the disappearing-track signal from a 3 TeV wino or fully exclude this thermal wino dark matter scenario.",
+      "score": 92,
+      "reason": "Starobinsky超重力＋MSSMでHiggs質量もウィーノDMも同時解決🔥CMBと粒子物理の架け橋が完璧すぎる💫🌌✨🎯",
+      "summary": "Starobinsky超重力の隠れたセクターでインフレとSUSY破れを担い、正しいHiggs質量と熱的ウィーノDMを統一的に予言"
+    },
+    {
+      "arxiv_id": "2607.07560",
+      "title": "Does Born Rule Imply Unitarity of Time Evolution in Quantum Mechanics?",
+      "authors": [
+        "Ali Mostafazadeh"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.07560",
+      "abstract": "The Born rule for computing probabilities of the outcomes of measurements is an indispensable ingredient of quantum mechanics. The standard textbook description of this rule gives the impression that it implies the unitarity of time evolution. This view relies on the argument that unless the dynamics is unitary, the probabilities of finding all possible outcomes of a measurement do not add up to 1, i.e., the total probability is not conserved. We show that this argument is flawed, and that the general expression for the Born rule ensures the conservation of total probabilities even when the dynamics of a quantum system is not unitary. This applies to the dynamics of ensembles of quantum systems in both pure and mixed states. We discuss the status of the local conservation of probabilities and the arguments against the plausibility of non-unitary time evolutions that are based on the identification of the Hamiltonian operator with the energy observable.",
+      "score": 86,
+      "reason": "Bornの規則はユニタリ時間発展を自動保証する？🌊量子力学の基礎を問い直す核心的議論💡測定論の根幹へ✨🔍",
+      "summary": "Born則から時間発展のユニタリ性が論理的に含意されるかを厳密に分析、量子力学の公理体系の独立性を解明"
+    },
+    {
+      "arxiv_id": "2607.07602",
+      "title": "When the Environment Speaks: Quantum Signatures in Non-Attractor Inflation",
+      "authors": [
+        "Mattia Cielo",
+        "Simone Scarlatella",
+        "Gianpiero Mangano",
+        "Ofelia Pisanti"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2607.07602",
+      "abstract": "We study the open quantum dynamics of the adiabatic curvature perturbation interacting with a massive entropic scalar environment during an inflationary scenario featuring a transient Ultra-Slow-Roll phase. Working within a Gaussian two-field effective Lagrangian, we employ the exact Transport Equations Method to track the full non-unitary, non-Markovian evolution of the system's covariance matrix across the SR-USR-SR transition. We find that the efficiency of decoherence is sensitive to the background kinematics at horizon crossing. Most importantly, the interaction with the environment leaves distinct observable imprints on the primordial scalar power spectrum: the characteristic interference dip preceding the USR-driven enhancement can be partially or completely erased, the growth slope modified, and oscillatory features induced near the peak. Propagated to second order, these distortions further imprint on the stochastic background of Scalar-Induced Gravitational Waves, breaking single-field predictions and yielding unique spectral signatures potentially accessible to LISA. Our results demonstrate that the quantum environment is not a passive spectator during inflation, but an active agent whose imprint on the primordial universe may be within reach of the next generation of cosmological observations.",
+      "score": 86,
+      "reason": "非アトラクターインフレでの環境デコヒーレンス🌌USRフェーズで量子シグネチャは生き残るのか？量子×宇宙論✨💫🔥",
+      "summary": "SR-USR-SR遷移での曲率摂動の非マルコフ・非ユニタリ開量子系進化をコバリアンス行列で完全追跡し量子痕跡を解析"
+    },
+    {
+      "arxiv_id": "2607.07684",
+      "title": "Unification of polynomial and exponential cosmological attractors",
+      "authors": [
+        "Renata Kallosh",
+        "Andrei Linde"
+      ],
+      "categories": [
+        "hep-th",
+        "astro-ph.CO",
+        "gr-qc",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.07684",
+      "abstract": "We introduce a family of simple $\\alpha$-attractor models that can interpolate between exponential and polynomial cosmological attractors. By varying the interpolation parameter $\\mu$ in these models, one can scan a wide range of values of the spectral index $n_{s}$ matching any combination of CMB and DESI data.",
+      "score": 93,
+      "reason": "多項式型と指数型の宇宙論アトラクターを統一💫αアトラクターがHiggインフレとStarobinskyを完全包含🔥✨🎯🌌",
+      "summary": "補間パラメータμでCMB＋DESIのns値をスキャンするαアトラクター族、Higgs/Starobinskyインフレを特殊ケースとして含む"
+    }
+  ]
+}

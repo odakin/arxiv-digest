@@ -1,0 +1,20 @@
+{
+  "total_fetched": 184,
+  "scored_papers": [
+    {
+      "arxiv_id": "2607.07560",
+      "title": "Does Born Rule Imply Unitarity of Time Evolution in Quantum Mechanics?",
+      "authors": [
+        "Ali Mostafazadeh"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.07560",
+      "abstract": "The Born rule for computing probabilities of the outcomes of measurements is an indispensable ingredient of quantum mechanics. The standard textbook description of this rule gives the impression that it implies the unitarity of time evolution. This view relies on the argument that unless the dynamics is unitary, the probabilities of finding all possible outcomes of a measurement do not add up to 1, i.e., the total probability is not conserved. We show that this argument is flawed, and that the general expression for the Born rule ensures the conservation of total probabilities even when the dynamics of a quantum system is not unitary. This applies to the dynamics of ensembles of quantum systems in both pure and mixed states. We discuss the status of the local conservation of probabilities and the arguments against the plausibility of non-unitary time evolutions that are based on the identification of the Hamiltonian operator with the energy observable.",
+      "score": 86,
+      "reason": "Born則からユニタリ時間発展が自動的に導けるか？💡量子測定の公理体系を根本から問い直す核心的論文✨🎯",
+      "summary": "Born則と時間発展のユニタリ性の論理的独立性を厳密に検討、量子力学の基礎公理の構造的関係を明確化"
+    }
+  ]
+}
