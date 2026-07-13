@@ -1,0 +1,22 @@
+{
+  "total_fetched": 139,
+  "scored_papers": [
+    {
+      "arxiv_id": "2607.09118",
+      "title": "Measurement Speed Limits for Quantum State Purification",
+      "authors": [
+        "Jiaxin Liu",
+        "Zuoxian Wang",
+        "Danyue Ma"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.09118",
+      "abstract": "We derive three matched speed limits on the purification of a monitored system, valid in every finite dimension and for every strategy and efficiency. All three are set by one functional, the square root of the state's impurity, whose maximal decay rate is a state-independent constant. For a qubit this reduces to the square root of the determinant, whose protocol-independent decay at unit efficiency is a sharp null test. The three rate constants stand in ratio two to four to eight, and attainment freezes at that square root, the half-moment. Numerics confirm the bounds; for the qubit, a conservation law settles the local-versus-global optimality puzzle, and doubling feedback spends exactly twice the minimum.",
+      "score": 88,
+      "reason": "モニタリングされた系の量子純化速度限界を任意次元・任意戦略で厳密導出。不純度の平方根が全戦略共通の上限functionalとして確定。",
+      "summary": "QFI/4が速度定数の最大値を設定。量子ビットで保存則が局所vs大域最適性を解決。測定誘起量子速度限界の新定式化。"
+    }
+  ]
+}
