@@ -1,0 +1,38 @@
+{
+  "total_fetched": 146,
+  "scored_papers": [
+    {
+      "arxiv_id": "2607.09118",
+      "title": "Measurement Speed Limits for Quantum State Purification",
+      "authors": [
+        "Jiaxin Liu",
+        "Zuoxian Wang",
+        "Danyue Ma"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.09118",
+      "abstract": "We derive three matched speed limits on the purification of a monitored system, valid in every finite dimension and for every strategy and efficiency. All three are set by one functional, the square root of the state's impurity, whose maximal decay rate is a state-independent constant. For a qubit this reduces to the square root of the determinant, whose protocol-independent decay at unit efficiency is a sharp null test.",
+      "score": 90,
+      "reason": "✨⚡ モニタリング下の量子状態純化に対する速度限界を3種類導出。純化速度の上界が状態非依存定数で決まると判明。量子速度限界の測定過程への直接拡張！",
+      "summary": "速度定数の比は2:4:8で、量子ビットでは保存則が局所対大域最適性の問題を解決。フィードバック倍増は最小値の正確に2倍を消費。任意次元・任意戦略で有効な普遍限界。"
+    },
+    {
+      "arxiv_id": "2607.09075",
+      "title": "Quantitative Wigner-Araki-Yanase Theorems for Unitary and Antiunitary Symmetries",
+      "authors": [
+        "Akihiro Hokkyo",
+        "Hiroyasu Tajima"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.09075",
+      "abstract": "Symmetry imposes fundamental constraints on quantum measurement and control. The Wigner-Araki-Yanase theorem and its quantitative extensions capture this restriction for continuous symmetries, in terms of fluctuations of conserved generators. Here we establish quantitative WAY-type theorems for symmetry-breaking projective measurements and unitary gates under arbitrary unitary and antiunitary symmetries.",
+      "score": 85,
+      "reason": "🔬📐 離散ユニタリ・反ユニタリ対称性に対するWigner-Araki-Yanase定理を定量的に拡張。装置の非対称性が測定誤差の下界を与えるという測定の基礎的制約を確立！",
+      "summary": "二目標のno-programmingの不等式から、対称性破れ測定の誤差が装置状態の非対称性によって直接下から押さえられることを示す。連続対称性を超えた量子制御の基本限界。"
+    }
+  ]
+}
