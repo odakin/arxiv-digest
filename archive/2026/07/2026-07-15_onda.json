@@ -1,0 +1,35 @@
+{
+  "total_fetched": 294,
+  "scored_papers": [
+    {
+      "arxiv_id": "2607.10845",
+      "title": "GroundBIRD: First On-Sky Responsivity Calibration at the Teide Observatory",
+      "authors": [
+        "Alessandro Fasano",
+        "Yonggil Jo",
+        "Ricardo Tanaus'u G'enova-Santos",
+        "Makoto Hattori",
+        "Shunsuke Honda",
+        "Kenichi Karatsu",
+        "Chiko Otani",
+        "Michael Peel",
+        "Jos'e Alberto Rubi~no-Mart'in",
+        "Yoshinori Sueno",
+        "Junya Suzuki",
+        "Osamu Tajima",
+        "Tomonaga Tanaka",
+        "Miku Tsujii",
+        "Eunil Won"
+      ],
+      "categories": [
+        "astro-ph.IM",
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2607.10845",
+      "abstract": "GroundBIRD is a cosmic microwave background (CMB) experiment located at the Teide Observatory (altitude $\\sim2400$ m, Spain) designed to measure large-angular-scale intensity and polarization anisotropies ($\\ell \\gtrsim 6$ to $\\ell \\sim 300$) to constrain the reionization optical depth, $\\tau$. The instrument employs a rapidly rotating telescope with a fixed elevation of $70$ deg and is equipped with 161 lenslet-coupled kinetic inductance detectors (KIDs): 138 at 145 GHz for CMB observations and 23 at 220 GHz for thermal dust characterization, all operated at $\\sim280$ mK. This scan strategy provides daily coverage of $\\sim$40% of the Northern Hemisphere sky.\n  We present the first on-sky responsivity calibration model for GroundBIRD, derived from repeated observations of Jupiter using the twelve most stable KIDs from GroundBIRD array 6 (GB06). The analysis establishes and validates a calibration methodology for this detector subset while providing the first empirical characterization of detector responsivity as a function of precipitable water vapor (PWV). We find that the responsivity decreases by approximately 30% across the sampled PWV range and is well described by a linear PWV-dependent model. Comparison with Moon observations reveals distinct detector operating regimes associated with different optical loading conditions.\n  The Jupiter-based calibration achieves better than 20% precision under typical observing conditions and better than 20% relative stability over a one-month timescale. These results establish the basis for extending the calibration methodology to the full GroundBIRD focal plane.",
+      "score": 88,
+      "reason": "テイデ天文台でのGroundBIRDの初オンスカイ感度較正に成功📡CMBBモード探索への重要な一歩！",
+      "summary": "GroundBIRD望遠鏡のスピンビーム変調による感度（responsivity）較正を天体電波源観測で実証。"
+    }
+  ]
+}

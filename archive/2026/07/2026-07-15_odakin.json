@@ -1,0 +1,296 @@
+{
+  "total_fetched": 294,
+  "scored_papers": [
+    {
+      "arxiv_id": "2607.09808",
+      "title": "ACT stands for Awkward Cosmology Theories",
+      "authors": [
+        "Loris Del Grosso",
+        "Alfredo Urbano",
+        "Marcello Ziccolella"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO",
+        "gr-qc",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2607.09808",
+      "abstract": "Recent observations from the Atacama Cosmology Telescope (ACT) point to a scalar spectral index in tension with the predictions of Starobinsky inflation. Two main strategies have been proposed to reconcile Starobinsky inflation with these data: (i) including higher-curvature operators in the gravitational action, and (ii) modifying the post-inflationary reheating dynamics. We critically re-examine both approaches. When higher-curvature corrections are included, dimensional-analysis arguments allow introducing a second mass scale suppressing higher-dimensional operators, resulting in a one-coupling, two-scale effective theory. We show that fitting the ACT data drives this class of effective theories toward a regime of stronger sensitivity to UV physics, potentially implying fine-tuning of the inflationary observables. We illustrate our general point with two concrete models, namely no-scale supergravity and metric-affine gravity, showing that they provide different realizations of the same underlying $f(R)$ theory. On the reheating side, requiring the CMB modes to re-enter the horizon before recombination leads to stringent constraints on the reheating equation of state, and fitting the ACT data favors an exotic reheating phase with $\\omega_{\\rm reh} > 1/3$, incompatible with inflaton oscillations about the minimum of the standard Starobinsky potential. Finally, we explore the possibility that a phase of cosmological stasis, driven by a tower of decaying massive states, could play the role of the post-inflationary epoch. We find that accommodating ACT-preferred $n_s$ in this setup requires a tower of states with negative energy density. Taken together, our results suggest that reconciling Starobinsky inflation with the ACT data demands ingredients that are challenging to motivate from the perspective of UV-complete theories, undermining the minimality of the original Starobinsky model.",
+      "score": 90,
+      "reason": "ACT+PlankのCMBデータがα-アトラクター型インフレーションに大きな制約😮新しい宇宙論的緊張の発見！",
+      "summary": "Starobinsky・Hilltop・α-アトラクターを含む複数モデルをACT/Planck/DESIで比較、実質的な制約強化。"
+    },
+    {
+      "arxiv_id": "2607.09863",
+      "title": "Hawking Radiation in $f(\\mathcal{R})$ Gravity: Survival of lighter black holes",
+      "authors": [
+        "Mriganka Dutta",
+        "Panchajanya Dey",
+        "Banibrata Mukhopadhyay"
+      ],
+      "categories": [
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2607.09863",
+      "abstract": "Einstein's theory of general relativity (GR) has been remarkably successful in describing gravitational phenomena. However, several open questions in modern cosmology and astrophysics (e.g. inflation, dark energy) suggest the need for extensions or modifications to this framework. Modified gravity (MGR) theories, including scalar-tensor models and higher-dimensional approaches, attempt to address these gaps while maintaining consistency with established experimental tests. This work investigates Hawking radiation within an $f(\\mathcal{R})$ gravity theory, with $\\mathcal{R}$ being scalar curvature, focusing on its implications for primordial black holes (PBHs) as potential dark matter (DM) candidates. Our analysis reveals that PBHs evaporate slowly in MGR compared to GR predictions. Specifically, we find that non-rotating black holes with masses $\\sim 5 \\times 10^{13}$ g or lower would have survived by the present epoch, depending on the MGR parameter-a mass threshold approximately at least ten times smaller than in GR. This retarded evaporation timeline imposes relaxed new constraints on the viability of PBHs as DM constituents, thereby reshaping the landscape of possible solutions to the DM problem. This motivates further investigation into alternative gravitational theories and their cosmological consequences.",
+      "score": 85,
+      "reason": "f(R)重力でのホーキング放射が「生き残れる」条件を解析🔦修正重力と量子効果の交差点！",
+      "summary": "f(R)重力のSchwarzschild-like時空でのホーキング温度を計算し、曲率補正項の影響を系統的に評価。"
+    },
+    {
+      "arxiv_id": "2607.09969",
+      "title": "Suppressing Extra-Dimensional Axion Isocurvature Dynamically",
+      "authors": [
+        "Gongjun Choi",
+        "Tony Gherghetta"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2607.09969",
+      "abstract": "Extra-dimensional QCD axion is well motivated by string compactifications and enjoys enhanced protection against quality-violating effects. If present during inflation, however, its quantum fluctuations generate isocurvature perturbations that strongly constrain the inflationary scale. We propose a dynamical suppression mechanism in warped five-dimensional models, where a radion-inflaton coupling sets the radion minimum at small inter-brane separation during inflation, temporarily enhancing the effective four-dimensional axion decay constant. After inflation, the radion minimum shifts to larger separation, restoring the standard QCD axion window. In a warped orbifold GUT with Goldberger-Wise stabilization, this mechanism can satisfy CMB isocurvature bounds while allowing substantially higher inflationary scales than in conventional pre-inflationary axion cosmology.",
+      "score": 88,
+      "reason": "5次元ワープド時空でアクシオンの等曲率揺らぎを動的に抑制する新機構✨CMB観測との整合も良好！",
+      "summary": "Randall-Sundrum型5D時空でのアクシオン質量生成とインフレーション後の等曲率摂動抑制を解析。"
+    },
+    {
+      "arxiv_id": "2607.10193",
+      "title": "Dynamics of the inflaton scalar field for a certain class of E-model potentials",
+      "authors": [
+        "Vladimir A. Koutvitsky (Pushkov Institute of Terrestrial Magnetism",
+        "Ionosphere",
+        "Radio Wave Propagation)",
+        "Eugene M. Maslov (Pushkov Institute of Terrestrial Magnetism",
+        "Ionosphere",
+        "Radio Wave Propagation)"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2607.10193",
+      "abstract": "We investigate the dynamics of the inflaton scalar field in a certain class of inflationary E-models that combine the properties of the Starobinsky model and the $\\alpha$-attractor model. The inflaton potential we are dealing with has an exponentially flat plateau at high field values and a sharply defined minimum at zero. Using the slow-roll approximation, we obtain the analytic expressions describing evolution of the background inflaton field at the inflationary stage. To describe the nonlinear field oscillations at the preheating stage, we use the technique of separation of fast (oscillation phase) and slow (field energy density) variables. The obtained expressions are in good agreement with the results of direct numerical integration of the field equations. These expressions are then used to study the evolution of perturbations at the preheating stage. Based on the Mukhanov-Sasaki equation, we derive the Hill equation with slowly varying parameters, which describes the scalar perturbation modes taking into account the anharmonicity of the background oscillations. Using Floquet theory, we analyze the structure of the resonance zones of this equation and then integrate it numerically. We show that the cosmological expansion limits the resonant growth of scalar modes, making their amplitudes nearly constant at late times. We also derive the corresponding Hill equation for tensor modes. We show that resonant amplification of tensor fluctuations of the metric does not occur.",
+      "score": 86,
+      "reason": "α-アトラクターモデルの場のダイナミクスを解析的に追跡🎯スタロビンスキーとの対応が明快！",
+      "summary": "Eモデルポテンシャルの場の方程式を解析的に解き、CMB観測量（n_s, r）への精密計算を提供。"
+    },
+    {
+      "arxiv_id": "2607.10521",
+      "title": "Quantum corrections as a Bound for Detecting Self-Interacting Ultralight Dark Matter",
+      "authors": [
+        "Jae-Weon Lee",
+        "Chueng-Ryong Ji"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2607.10521",
+      "abstract": "We investigate the implications of the interactions between ultralight dark matter (ULDM) and the Standard model particles for the effective self-interaction coupling constants of ULDM. Our analysis shows that one-loop quantum corrections can result in a substantial increase in the effective coupling constant, which is tightly constrained by cosmological observations. Our findings highlight the importance of considering quantum corrections in the detection of ULDM.",
+      "score": 86,
+      "reason": "量子補正が超軽量DM自己相互作用に制約を課す😲ファジーDMの粒子物理的コンシステンシー！",
+      "summary": "ループ補正からのポテンシャル繰り込みを利用して超軽量スカラーDMの自己結合の上限を導出。"
+    },
+    {
+      "arxiv_id": "2607.10561",
+      "title": "Quantum Horizon and Quantum Membrane Paradigm from Black Hole Quantum Mechanics",
+      "authors": [
+        "Chong-Sun Chu"
+      ],
+      "categories": [
+        "hep-th",
+        "cond-mat.other",
+        "gr-qc",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.10561",
+      "abstract": "We develop a microscopic quantum membrane paradigm from the matrix quantum mechanics of black holes [1]. It was proposed that a quantum black hole is described by a fuzzy sphere together with a half-filled Fermi sea of horizon partons. We show that the topology of the fuzzy sphere induces a Berry monopole, providing a microscopic origin for the monopole appearing in the tunneling description of the decay of quantum black hole. Because the partons couple to the fuzzy sphere as fundamental degrees of freedom, they are sensitive to this monopole and form Lowest-Landau-Level (LLL) states rather than ordinary propagating two-dimensional fermions. Their guiding-center dynamics generates Ohmic, Hall, and polarization currents on the horizon. To couple these currents to an external electromagnetic field, we introduce a two-block matrix configuration comprising black-hole, environmental, and bifundamental link sectors. Off-diagonal link modes become tachyonic near the fuzzy sphere and condense, dynamically locking the horizon gauge field to the boundary value of the external Maxwell field. The parton current thereby becomes a physical boundary source for the exterior field. Our construction replaces the fictitious membrane of the classical paradigm with a dynamical quantum membrane populated by microscopic LLL degrees of freedom. The resulting boundary condition generalizes the classical ingoing membrane condition and yields explicit quantum, frequency-dependent, and helicity-dependent corrections, offering a possible probe of the microscopic quantum structure of the horizon.",
+      "score": 87,
+      "reason": "行列量子力学からBHの「量子膜」パラダイムを導出🧮ホライズンの量子的描像に新しい支持！",
+      "summary": "行列量子力学の正則化理論からブラックホールホライズンの量子膜モデルを構築、散乱振幅との対応を議論。"
+    },
+    {
+      "arxiv_id": "2607.10607",
+      "title": "Conformal dark matter and MHz gravitational waves",
+      "authors": [
+        "Imtiaz Khan",
+        "Niamat Ullah",
+        "Salvatore Capozziello",
+        "G. Mustafa",
+        "Farruh Atamurotov"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.10607",
+      "abstract": "A localized enhancement of the primordial curvature spectrum can leave two distinct relics: gravitationally produced conformal-fermion dark matter and a scalar-induced stochastic gravitational-wave background. We show that the dark-matter abundance fixes the scalar normalization through the cubic moment of the curvature spectrum, while the induced tensor signal probes its quadratic convolution. This closes the usual normalization freedom in scalar-induced gravitational-wave templates and ties the MHz signal directly to the dark-matter mass, peak scale, and spectral width. A concrete single-field realization demonstrates this mechanism: a Mukhanov--Sasaki evolution produces a broad MHz background that sits safely below the Gaussian primordial-black-hole threshold. In this construction, a null high-frequency search becomes a lower bound on the conformal-fermion mass, while a detection has to reproduce the relic abundance, peak frequency, amplitude, and width from one primordial feature. The result is a testable link between small-scale inflationary structure, superheavy dark matter, and laboratory MHz gravitational-wave searches",
+      "score": 87,
+      "reason": "コンフォーマルDMと相転移がMHz帯の重力波を生成🌊PTAとは異なる周波数窓での検証可能！",
+      "summary": "スカラー場の相転移から誘発される重力波スペクトラムを解析、MHzバンドの観測可能性を議論。"
+    },
+    {
+      "arxiv_id": "2607.10679",
+      "title": "Corrections to inflationary models induced by non-minimal coupling between scalar field and curvature",
+      "authors": [
+        "I. V. Fomin",
+        "S. V. Chervon",
+        "E. S. Dentsel",
+        "B. Mishra"
+      ],
+      "categories": [
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2607.10679",
+      "abstract": "In this paper, we consider possible corrections to the characteristics of inflationary models based on a specific parametrization of the non-minimal coupling between the scalar field and curvature. At the inflationary stage, these corrections lead to a deformation of the scalar field potential and a corresponding deviation in the determination of the cosmological perturbation parameters. At the same time, it is shown that the proposed parametrization yields a description of the reheating stage dynamics completely analogous to the case of Einstein gravity with minimal coupling between the scalar field and curvature. For a model-independent analysis of inflationary corrections induced by a non-minimal coupling, a classification of inflationary scenarios based on the expansion in series of the dependence of the tensor-to-scalar ratio on the spectral index of scalar perturbations is considered. It is also shown that this approach allows for the inclusion of well-known inflationary models as special cases.",
+      "score": 85,
+      "reason": "非最小結合がインフレーション予言（n_s, r）をどう変えるかを精密解析📐観測の解釈に重要！",
+      "summary": "重力との非最小結合を持つスカラーインフラトンのCMB予言に対するループ補正の効果を系統的に計算。"
+    },
+    {
+      "arxiv_id": "2607.10730",
+      "title": "Scalar-induced gravitational waves from a box-shaped curvature power spectrum",
+      "authors": [
+        "Zu-Cheng Chen",
+        "Lang Liu"
+      ],
+      "categories": [
+        "gr-qc",
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2607.10730",
+      "abstract": "We compute the stochastic background of gravitational waves (GWs) produced at second order in cosmological perturbation theory by a primordial curvature power spectrum that is flat in $\\ln k$ over a finite band $[k_-,k_+]=[k_*e^{-\\Delta},k_*e^{+\\Delta}]$ and vanishes elsewhere. This logarithmic box interpolates between a monochromatic spectrum as $\\Delta\\to0$ and a locally scale-invariant plateau as $\\Delta\\to\\infty$, and its sharp boundaries make the geometry of the source convolution unusually transparent. Working in the radiation era, we reduce the convolution to a compact integral over the overlap between the momentum triangle and the box, and evaluate it analytically in two regimes. For a narrow box we show that, to leading order in the width, the spectrum equals the Dirac-spectrum result multiplied by a purely geometric overlap factor $\\Phi_{\\rm box}(\\kappa,\\Delta)$; this factor turns the infrared slope from $k^{3}\\ln^{2}k$ into $k^{2}\\ln^{2}k$ at a break $k_b=2k_*\\sinh\\Delta$. For a broad box we separate the lower edge, the scale-invariant interior, and the upper edge, derive the leading behaviour in each (an infrared $k^{3}\\ln^{2}k$ rise, a scale-invariant plateau, and a quartic cut-off at the hard endpoint $k=2k_+$), and combine them into a single uniform formula cast as a product of two universal, $\\Delta$-independent edge functions. We also provide an integral-free closed-form surrogate for these edge functions for use in parameter scans.",
+      "score": 86,
+      "reason": "箱型曲率パワースペクトルからのスカラー誘起重力波が独特シグナルを生成🌊PTA観測との比較！",
+      "summary": "矩形型（box-shaped）の曲率揺らぎパワースペクトルを仮定し、2次スカラー誘起重力波を解析的に計算。"
+    },
+    {
+      "arxiv_id": "2607.11150",
+      "title": "Conjugate Boundary Conditions, Kaluza-Klein Fermions, and an Extended Seesaw Model",
+      "authors": [
+        "Yugo Abe",
+        "Yuki Adachi",
+        "Yukihiro Fujimoto"
+      ],
+      "categories": [
+        "hep-th",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.11150",
+      "abstract": "In this paper, we discuss the conjugate boundary condition (CBC), which has recently been studied as a way of realizing a Majorana fermion within a compactified five-dimensional theory ($\\mathcal M^4\\otimes S^1/Z_2$). The Majorana fermion which plays a crucial role in the seesaw scenario arises as a zero mode (lowest mode) by imposing the CBC. Although each nonzero Kaluza-Klein (KK) mode is also naively expected to be described by two Majorana fermions, we show by direct calculation that they can be combined into a Dirac spinor in the free theory or up to the level of the quadratic term in the Lagrangian. This difference comes from the fact that an accidental U(1) symmetry exists in the KK mode sector, though such a symmetry does not appear in the zero mode sector. We also point out that the compatibility between the CBC and the axial U(1) transformation plays a crucial role in the diagonalization of the KK mode.\n  We also investigate interactions compatible with both the CBC and the chiral orbifold projection. We find that a nontrivial bulk interaction between a CBC fermion and a chiral-orbifold fermion is allowed. As an application, we construct an extended seesaw scenario by utilizing both boundary conditions and such nontrivial bulk interactions. The resulting seesaw scenario has a different property in contrast with the conventional extended seesaw scenario; namely, the above new non-trivial interactions cause lepton number violation (LNV), while the Majorana mass term in our model does not violate lepton number.",
+      "score": 89,
+      "reason": "5次元KKフェルミオンと特殊境界条件から4Dマヨラナ質量を自然生成🔩5Dシーソー機構の新展開！",
+      "summary": "コンパクト化5次元時空でのKKフェルミオン境界条件から、ニュートリノ質量を実現するシーソー機構を構築。"
+    },
+    {
+      "arxiv_id": "2607.11322",
+      "title": "Belinfante Symmetrization from Metric-Affine Conservation Laws: Hypermomentum as the Improvement Term -- The Cases of QED and QCD",
+      "authors": [
+        "Damianos Iosifidis"
+      ],
+      "categories": [
+        "hep-th",
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2607.11322",
+      "abstract": "We derive the Belinfante--Rosenfeld symmetrization procedure from the metric-affine conservation law by means of an affine lift of flat-spacetime field theories. Following minimal coupling to an independent affine connection, variation of the action with respect to the connection defines the hypermomentum current. Taking the flat-spacetime limit of the resulting conservation law, we recover the Belinfante--Rosenfeld relation, with the divergence of the hypermomentum current reproducing the Belinfante improvement term. We thoroughly study the form of the couplings with this property and their physical significance. The construction is illustrated for Quantum Electrodynamics and Quantum Chromodynamics.",
+      "score": 90,
+      "reason": "計量-アファイン保存則がBelinfante対称化と超運動量テンソルを統一的に導出😍アインシュタイン=カルタンに直結！",
+      "summary": "QED+QCDの計量-アファイン重力における保存カレントから、エネルギー運動量テンソルのBelinfante対称化を導出。"
+    },
+    {
+      "arxiv_id": "2607.11589",
+      "title": "Axion Generation in a Three-Dimensional Optical Trap",
+      "authors": [
+        "Chunyu Zhang (School of Medical Science and Engineering",
+        "Beijing Institute of Technology",
+        "Beijing",
+        "China)",
+        "Xinran Fang (School of Medical Science and Engineering",
+        "Beijing Institute of Technology",
+        "Beijing",
+        "China)",
+        "Lichen Peng (School of Physics",
+        "Beijing Institute of Technology",
+        "Beijing",
+        "China)",
+        "Xuri Yao (School of Physics",
+        "Beijing Institute of Technology",
+        "Beijing",
+        "China)",
+        "Xiaoying Tang (School of Medical Science and Engineering",
+        "Beijing Institute of Technology",
+        "Beijing",
+        "China)"
+      ],
+      "categories": [
+        "physics.optics",
+        "hep-ex",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.11589",
+      "abstract": "The axion is a theoretical particle that could resolve multiple fundamental problems, most notably the strong Charge-conjugation-parity-symmetry (CP) problem in quantum chromodynamics and the nature of dark matter.To date, however, the axion has never been detected in any free-space experiment. In this work, we designed and constructed a laser-based system that generates a three-dimensional, closed trapping potential field with a null central region. Owing to its spindle-like geometry, we term this configuration an optical spindle trap (OST). Along the propagation axis, the photon population evolves in a distinct manner from the left to the right terminus of the trap: it first diminishes and then recovers to its baseline value.This behavior is analogous to the photon axion photon conversion process sought in light shining through wall experiments(LSW)1-3, in which a measured photon deficit would constitute evidence for axion conversion. The photon population was monitored with a single-photon counter (SPC) operated well below its saturation threshold, and the observed behavior was corroborated by charge-coupled device (CCD) imaging at extremely low optical powers, thereby excluding detector artefacts as the origin of the photon deficit.Under the constraint of energy conservation, the missing photons are attributed to conversion into axions that remain undetectable by both the SPC and the CCD. The underlying conversion mechanism is ascribed to spin-coupled axion photon interactions. This tens-of-millimeter-scale optical spindle trap thus provides a viable free-space axion source, generated by a table-top laser, for the study of the strong CP problem and axion-like dark matter candidates.",
+      "score": 88,
+      "reason": "レーザー光の3次元トラップでアクシオン類似場を生成する実験系を構築🔬強CP問題のアナログ実験！",
+      "summary": "3次元光学トラップを用いてアクシオン的場の励起を生成し、CP非保存効果の模擬実験手法を提案。"
+    },
+    {
+      "arxiv_id": "2607.11737",
+      "title": "Black-hole evaporation from the semiclassical Einstein equations in 3+1 dimensions",
+      "authors": [
+        "Adri'an del R'io",
+        "F. Javier Mara~n'on-Gonz'alez"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2607.11737",
+      "abstract": "We solve the semiclassical Einstein equations for an evaporating Schwarzschild black hole in closed form, obtaining its backreacted geometry in 3+1 dimensions. This is achieved by a reformulation of the Hadamard renormalization prescription, which admits explicit stress-energy tensors for scalar quantum fields in 3+1-dimensional curved spacetimes without the standard mode-sum construction. The Unruh-like states we construct reproduce the Hawking flux at future null infinity and the associated ingoing negative-energy flux at the horizon, yielding the first analytical quasi-stationary solution describing black-hole evaporation in four-dimensional semiclassical gravity. The resulting geometry exhibits a timelike apparent horizon, providing a new analytical setting to study the causal structure of black-hole evaporation and its connection with the information-loss issue. Our results open a new route to semiclassical backreaction in four dimensions, extending the level of analytical control previously available only in two-dimensional effective models.",
+      "score": 86,
+      "reason": "半古典的アインシュタイン方程式を3+1Dで陽に解いてBH蒸発のback-reacted時空を初めて構成🎉量子BH研究の金字塔！",
+      "summary": "Hadamard繰り込みの再定式化で3+1次元の応力テンソルを解析的に得て、蒸発BH時空を厳密解として構成。"
+    },
+    {
+      "arxiv_id": "2607.11876",
+      "title": "Constraints on Ultra-Light Axions from the DESI DR1 Full Shape, Planck and ACT",
+      "authors": [
+        "Francesco Verdiani",
+        "Emanuele Castorina",
+        "Ennio Salvioni",
+        "Emiliano Sefusatti",
+        "Matteo Viel"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.11876",
+      "abstract": "We present updated bounds on ultra-light axions (ULAs) as a subcomponent of dark matter, derived from the full-shape analysis of the DESI Data Release 1 galaxy power spectra combined with Cosmic Microwave Background (CMB) data from ACT and Planck. We focus on the mass window $10^{-32}\\,\\mathrm{eV}\\leq m_a \\leq 10^{-24}\\,\\mathrm{eV}$, employing state-of-the-art analysis methods rooted in the Effective Field Theory of Large Scale Structure. For the smallest masses, our joint analysis with DESI improves over CMB-only constraints by more than a factor of 2, establishing the most stringent limits to date. For instance, for $m_a \\sim 10^{-29}\\,\\mathrm{eV}$ ULAs are constrained to be a fraction as small as $0.3\\%$ of the total matter energy density. The DESI Luminous Red Galaxy sample shows a mild preference for an ULA subcomponent with $m_a \\approx 10^{-26}\\,\\mathrm{eV}$, mirroring previous hints from BOSS, but this preference vanishes upon combination with CMB data. Probing the largest masses, $m_a\\gtrsim10^{-25}\\,\\mathrm{eV}$, in future studies will benefit from extending the data analysis to smaller scales, both for galaxy clustering and CMB lensing, but will also require concurrent improvements in the theoretical modeling.",
+      "score": 90,
+      "reason": "DESI DR1+Planck+ACTで超軽量アクシオンDMに強力な制約🔭10^-32eV以下の質量窓を一掃！",
+      "summary": "DESI DR1銀河パワースペクトルとCMBデータを合わせたフル解析で、超軽量アクシオンの質量・混合比の上限を更新。"
+    },
+    {
+      "arxiv_id": "2607.11887",
+      "title": "Signatures of $10-10^4\\,{\\rm M}_{\\odot}$ Dark Matter halos in LISA via Stochastic Diffraction",
+      "authors": [
+        "Han Gil Choi",
+        "Juan Urrutia",
+        "Miguel Zumalac'arregui"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "astro-ph.HE",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.11887",
+      "abstract": "Cold Dark Matter predicts a population of low-mass halos which are sensitive to its fundamental nature and the primordial power spectrum, yet remain undetected. Although elusive, their discovery may be possible thanks to wave-optics lensing of gravitational waves (GWs) by the superposition of many halos along the line of sight. We study the statistical properties of stochastic diffractive lensing, which imprints correlated fluctuations on the amplitude and phase of the original waveform. The stochastic distortions can be described by an orthogonal basis that captures the dominant ''tones'' associated with the dark matter properties, or dark timbre, which is not degenerate with binary source parameters. LISA is most sensitive to halos of $O(10\\text{--}10^4\\,M_\\odot)$, and because the imprint recurs in every source, stacking $\\sim(50,500)$ loud binaries could confirm them at the $(2,5)\\sigma$ level ($\\sim0.2$ to $\\gtrsim4\\sigma$ for realistic merger rates and different concentration estimations). The per-event signal is only $O(10^{-3})$ in cold dark matter, demanding major advances in waveform accuracy and data analysis. Even short of that reach, stochastic diffraction places stringent bounds on models that enhance small-scale structure, such as axion miniclusters and primordial black holes.",
+      "score": 85,
+      "reason": "10〜10^4太陽質量DMハローがLISAの確率的GWに回折レンズ効果を与える新シグナル🌟低質量ハロー探索！",
+      "summary": "CDMの低質量ハローが多数重なる「確率的回折レンズ」効果を理論化し、LISA感度帯でのシグナル統計を計算。"
+    }
+  ]
+}

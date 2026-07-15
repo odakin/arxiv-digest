@@ -1,0 +1,57 @@
+{
+  "total_fetched": 294,
+  "scored_papers": [
+    {
+      "arxiv_id": "2607.11494",
+      "title": "A diode nanocavity for fast, efficient and tunable emission of highly entangled photon pairs and Fourier-transform-limited single photons",
+      "authors": [
+        "Ievgen Brytavskyi",
+        "Thomas Oberleitner",
+        "Christian Weidinger",
+        "Maximilian Aigner",
+        "Gabriel Undeutsch",
+        "Tobias Steindl",
+        "Johannes Reindl",
+        "Ailton Garcia Jr.",
+        "Melina Peter",
+        "Christian Schimpf",
+        "Santanu Manna",
+        "Michele B. Rota",
+        "Quirin Buchinger",
+        "Sven H\"ofling",
+        "Tobias Huber-Loyola",
+        "Rinaldo Trotta",
+        "Tobias M. Krieger",
+        "Eva Sch\"oll",
+        "Armando Rastelli"
+      ],
+      "categories": [
+        "quant-ph",
+        "physics.optics"
+      ],
+      "url": "https://arxiv.org/abs/2607.11494",
+      "abstract": "Deterministic sources of entangled photon pairs and indistinguishable photons are expected to play a key role in photonic quantum technologies. Semiconductor quantum dots are promising candidates due to their on-demand emission and compatibility with nanophotonic structures. However, current implementations face trade-offs between extraction efficiency, Purcell enhancement, as well as charge noise that causes blinking and degrades indistinguishability. Here we demonstrate a tunable nano-optoelectronic device based on a quantum dot embedded in a p-i-n diode circular-Bragg-grating-resonator and featuring extraction efficiencies up to 0.55(6) and Purcell-factor of $\\sim$8. The device generates wavelength-tunable entangled photon pairs with suppressed blinking and raw (corrected) concurrence > 0.89 (0.91) over a range of 1.6 nm. The very same source also emits single, nearly Fourier-limited and highly indistinguishable photons with raw (corrected) $\\mathcal{V}_{\\text{HOM}}$ = 0.951(4) (0.988(6)). These results demonstrate a viable platform for semiconductor quantum photonics.",
+      "score": 90,
+      "reason": "二極ナノキャビティから高効率もつれ光子対と単一光子を同時放出！🎉実用的量子光源の大きな前進！",
+      "summary": "半導体量子ドットを利用した二極ナノキャビティで、高抽出効率・Purcell増強・フーリエ変換限界単一光子を実現。"
+    },
+    {
+      "arxiv_id": "2607.11708",
+      "title": "Near-Optimal Mode Scaling for Finite-Dimensional Boson Sampling via Lie-Algebraic Leakage Bounds",
+      "authors": [
+        "Chon-Fai Kam",
+        "En-Jui Kuo"
+      ],
+      "categories": [
+        "quant-ph",
+        "math-ph",
+        "math.MP"
+      ],
+      "url": "https://arxiv.org/abs/2607.11708",
+      "abstract": "Boson sampling demonstrates quantum advantage through the interference of indistinguishable particles, with output probabilities governed by matrix permanents. Realizing it on deterministic, matter-based platforms requires encoding the bosonic modes in finite-dimensional local Hilbert spaces, which introduces a leakage channel absent in linear optics: multi-particle bunching beyond the local truncation $d$. We develop a unified framework for non-interacting sampling on the irreducible representations of compact Lie groups, in which the transition amplitude is the immanant of a submatrix of the single-particle transition matrix, recovering the permanent in the bosonic case. Within this framework we bound the bunching leakage through a Dyson-series analysis: decomposing the correlated many-body leakage operator into independent random matrices and applying non-commutative concentration inequalities, we prove, in a Gaussian model of the transition matrix, that its spectral norm concentrates at $\\tilde{O}(\\sqrt{n})$ rather than the $O(n)$ worst-case of prior spin-based emulations; the passage to the physical Haar ensemble is reduced to a single submatrix-comparison input, verified at leading order. Exact numerics across local dimensions $d=2$--$5$ indicate that the bound is tight, the Haar-ensemble norm matching the closed form $\\sqrt{d(n-d+1)}$ to sub-percent accuracy. This tightens the required mode number from $m=\\Omega(n^4)$ to the near-optimal $m=\\tilde{\\Omega}(n^{1+2/(d-1)})$; for a spin-1 representation ($d=3$) the overhead falls to $m=\\tilde{\\Omega}(n^2)$, matching the collision-free threshold. The result is independent of particle statistics and applies across finite-dimensional Lie-symmetric architectures, quantifying the spatial resources needed to preserve sampling hardness.",
+      "score": 87,
+      "reason": "不可識別粒子のボソンサンプリングを有限次元プラットフォームで実装する際の漏れ誤差を厳密評価🧮光子干渉の量子優位性研究に直結！",
+      "summary": "Lie代数的アプローチでモード切り詰めによる漏れを束縛し、有限次元ボソンサンプリングの最適モードスケーリングを導出。"
+    }
+  ]
+}
