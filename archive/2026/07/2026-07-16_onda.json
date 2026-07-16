@@ -1,0 +1,116 @@
+{
+  "total_fetched": 194,
+  "scored_papers": [
+    {
+      "arxiv_id": "2607.12698",
+      "title": "Status and future development of the COSMOCal Project for absolute CMB polarization calibration",
+      "authors": [
+        "Silvia Micheli",
+        "Alessia Ritacco",
+        "Alessandro Carones",
+        "Jonathan Aumont",
+        "Stefano Berta",
+        "Ludovico Bizzarri",
+        "Francois Boulanger",
+        "Andrea Catalano",
+        "Francesco Cuttaia",
+        "Anne Denis",
+        "Francois-Xavier D'esert",
+        "Anne Laure Fontana",
+        "David Gonz'alez-Ovejero",
+        "Benedetta Kalemi",
+        "Nicoletta Krachmalnicoff",
+        "Samuel Leclercq",
+        "Thibaut Louis",
+        "Juan-Francisco Mac'ias-P'erez",
+        "Bruno Maffei",
+        "Tania Mcnamara",
+        "Marina Migliaccio",
+        "Ludovic Montier",
+        "Pascal Morfin",
+        "Michel Moulin",
+        "Louise Mousset",
+        "Matteo Murgia",
+        "Ioannis Myserlis",
+        "Federico Nati",
+        "Pierluigi Ortu",
+        "Michel P'erault",
+        "Giampaolo Pisano",
+        "Tonino Pisanu",
+        "Nicolas Ponthieu",
+        "Sofia Savorgnano",
+        "Luca Terenzi",
+        "Jeanne Treuttel",
+        "L'eo Vacher",
+        "Christophe Vescovi",
+        "Mario Zannoni"
+      ],
+      "categories": [
+        "astro-ph.IM",
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2607.12698",
+      "abstract": "Cosmic Microwave Background (CMB) polarization measurements are pushing instrumental sensitivities to levels where calibration systematics become a dominant limitation. The large dynamic range between cosmological and Galactic emission prevents future experiments from relying only on diffuse sky measurements or standard celestial calibrators. To address this challenge, the COSmological Microwave Observations Calibrator (COSMOCal) project proposes an artificial calibration source deployed as a guest payload on a geostationary satellite, scheduled for launch by the Eutelsat group by 2030. This source will provide stable, well-characterized polarized microwave signals accessible to multiple ground-based observatories. In this work, we present the status of the project, the updated development timeline, and the refined scientific and technical requirements, defined with the observatories that plan to use this calibration source. Furthermore, we investigate the interplay between instrumental systematics and component separation in the presence of complex models of interstellar dust emission. We discuss in this paper how this can impact the recovery of the primordial signal, and whether residual calibration errors can degrade the performance of foreground cleaning algorithms.",
+      "score": 93,
+      "reason": "CMB偏光絶対較正COSMOCalプロジェクト最新状況🛰️🌟 LiteBIRD系統誤差の核心、偏光較正技術の最前線！",
+      "summary": "将来CMB偏光観測（LiteBIRD含む）向けの絶対偏光較正プロジェクト。拡散sky測定に依存しない新手法を開発・実証。"
+    },
+    {
+      "arxiv_id": "2607.12974",
+      "title": "Models with Non-minimal Coupling in Primordial Universe and Cosmological Observations",
+      "authors": [
+        "Alireza Talebian",
+        "Hassan Firouzjahi",
+        "Fereshteh Felegary"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2607.12974",
+      "abstract": "A non-minimal coupling between gravity and the inflaton field is a generic contribution in inflationary cosmology. In this work, we consider models of inflation with a non-minimal coupling $-\\xi\\phi^2 R$ and study their observational predictions for the tensor-to-scalar ratio $r$ and the spectral index $n_s$. Unlike the conventional approach of working in the Einstein frame, we perform the analysis in the Jordan frame where the underlying dynamics, particularly the competition between the potential force and the coupling-induced friction, are more transparent. For suitable values of $\\xi$, the system exhibits an extended constant-roll regime, in which this friction counteracts the potential force. Focusing on monomial potentials $V(\\phi) \\propto \\phi^n$, we find that negative $\\xi$ systematically reduces $r$ in the $(n_s, r)$ plane, while the shift in $n_s$ depends on the power $n$: for $n \\geq 4$, the spectral index increases with $|\\xi|$, whereas for $n < 4$, it decreases. Notably, the quartic model $V(\\phi) = \\lambda \\phi^4/4$ with $\\xi \\lesssim -0.1$ shows good agreement with the ACT DR6 data and exhibits a distinct $n_s(\\xi)$ dependence compared to other monomial cases. Our results demonstrate that non-minimally coupled models can effectively reconcile Planck and ACT observations, providing a unified framework for interpreting current CMB constraints.",
+      "score": 90,
+      "reason": "非最小結合インフレーションをJordanフレームで解析しr-ns予測をCMB観測と比較🌌📊 LiteBIRD目標の理論予測！",
+      "summary": "ξφ²R型非最小結合インフレーションを多モデル系統的に研究。r-ns平面でのCMB制限との比較と将来観測への予測を提示。"
+    },
+    {
+      "arxiv_id": "2607.12446",
+      "title": "Measuring Ultralight-Axion Coherence with Galaxy Polarization Correlations",
+      "authors": [
+        "Yasuo Doi"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2607.12446",
+      "abstract": "Ultralight axion-like particles coupled to photons rotate the linear polarization of distant sources. We propose using the three-dimensional two-point correlation of galaxy polarization-rotation angles to measure not only the amplitude of this birefringence field but also its spatial coherence scale. For a nonrelativistic ALP component with an isotropic Gaussian velocity distribution, the equal-time field correlation has an $e^{-1}$ scale $L_{\\rm G}^{\\rm phys}=\\sqrt{6}/(m_a v_a)$, where $v_a$ is the three-dimensional rms ALP velocity dispersion. A detected turnover in the galaxy-pair correlation therefore measures the characteristic momentum scale $m_a v_a$, while the correlation amplitude constrains $g_{a\\gamma}\\sqrt{\\Omega_a/\\Omega_{\\rm DM}}$. For a fiducial survey with $10^6$ polarized galaxies over a quarter of the sky to $z=2$ and effective per-galaxy scatter $\\sigma_{\\rm tot}=10^\\circ$, we find $5\\sigma$ sensitivity to sub-degree correlated rotations over $m_a(10^{-3}c/v_a)\\sim10^{-29}$--$10^{-27}\\,{\\rm eV}$, with $\\sigma[\\log_{10}(m_a v_a)]\\lesssim0.1$ for detected signals across much of this range. This provides a geometric late-time probe complementary to CMB birefringence and structure-formation constraints.",
+      "score": 88,
+      "reason": "超軽量アクシオンの銀河偏光相関を使ったコヒーレンス測定手法を提案🌀🔭 宇宙複屈折の新検証法！",
+      "summary": "超軽量アクシオン的粒子の時空コヒーレンスを銀河偏光の波長・赤方偏移依存性で検出する手法。CMBデータへの応用も議論。"
+    },
+    {
+      "arxiv_id": "2607.12280",
+      "title": "Dynamics of potential-free warm $\\mathbf{k}$-inflation with nonminimal derivative coupling",
+      "authors": [
+        "Xiao-Min Zhang",
+        "Zi-Xin Bai",
+        "Run-Qing Zhao",
+        "Peng-Cheng Chu",
+        "Yun-Cai Feng",
+        "Zhi-Peng Peng",
+        "Xi-Bin Li"
+      ],
+      "categories": [
+        "gr-qc",
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2607.12280",
+      "abstract": "In contrast to potential-driven warm inflation models, this paper presents a new inflationary scenario driven purely by noncanonical kinetic terms. We derive the evolution equations and the associated slow-roll approximations specific to the kinetic case. The model incorporates a nonminimal derivative coupling that enhances gravitational friction; when combined with thermal damping, this leads to a significantly slower evolution of the pure kinetic inflaton. The resulting slow-roll approximations differ fundamentally from those of potential-driven inflation. The attractor behavior of this warm $k$-inflation with nonminimal derivative coupling is explored, confirming that slow-roll solutions can approach a strict exponential expansion attractor under relaxed slow-roll conditions. We further calculate the density fluctuation equations and obtain analytic expressions for the power spectrum, spectral index, and tensor-to-scalar ratio. Compared to standard inflation in general relativity, the energy scale at horizon crossing is lower, and the tensor-to-scalar ratio is significantly reduced due to the combined effects of thermal damping and nonminimal derivative coupling. The field excursion remains comfortably sub-Planckian. The model's predictions are in excellent agreement with the latest Planck 2018 data, offering a novel and successful extension of the warm inflation paradigm.",
+      "score": 86,
+      "reason": "ポテンシャルなし非標準運動インフレーションのCMBスペクトル整合性を解析🔥🌡️ インフレーション模型の新クラス！",
+      "summary": "k型運動項と非最小微分結合によるウォームインフレーション。熱摩擦と重力摩擦の相乗効果によりCMBと整合するスペクトルを実現。"
+    }
+  ]
+}

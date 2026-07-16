@@ -1,0 +1,159 @@
+{
+  "total_fetched": 194,
+  "scored_papers": [
+    {
+      "arxiv_id": "2607.11989",
+      "title": "Geometric effects of torsion on black hole ringdown and shadows in Poincar\\'e gauge gravity",
+      "authors": [
+        "Terkaa Victor Targema",
+        "Kazuharu Bamba",
+        "Riasat Ali",
+        "Usman Zafar"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2607.11989",
+      "abstract": "Spacetime torsion provides a natural extension of general relativity and may lead to black hole solutions that differ significantly from their Einsteinian counterparts. We investigate a class of Reissner-Nordstr\\\"om-like black holes in Poincar\\'e gauge gravity, where the effective charge is generated entirely by spacetime torsion instead of an electromagnetic field. Within the physically relevant torsion sector, the spacetime exhibits a single-horizon structure, free from the inner horizons and extremal states characteristic of charged black holes. Using the sixth-order Wentzel-Kramers-Brillouin (WKB) approximation, Leaver's continued-fraction method, and the eikonal correspondence between quasinormal modes and unstable null geodesics, we study scalar perturbations and spin-2 test fields on the torsion-modified background. We find that increasing torsion decreases both the oscillation frequencies and damping rates, leading to longer-lived ringdown signals. We further compare the model predictions with Event Horizon Telescope observations of Sgr A* and M87*, along with representative LIGO-Virgo-KAGRA (LVK) ringdown scales, to derive constraints on the torsion parameter via a profile-$\\chi^{2}$ analysis supplemented by Monte Carlo sampling. Although the resulting bounds remain consistent with the Schwarzschild limit within current observational uncertainties, our results show that spacetime torsion leaves correlated imprints on both black hole shadows and ringdown observables.",
+      "score": 91,
+      "reason": "ポアンカレゲージ重力（トーション）でのBHリングダウン解析🌀✨ アインシュタイン＝カルタン拡張でのBH物理の核心！",
+      "summary": "ポアンカレゲージ重力でトーションが実効電荷を生む新クラスのBHを解析。準正規モードと影に対するトーション幾何学的効果を定量化。"
+    },
+    {
+      "arxiv_id": "2607.12012",
+      "title": "LHC Constraints on Resonant Kaluza-Klein Gravitons",
+      "authors": [
+        "Arturo de Giorgi",
+        "Matteo Marcoli",
+        "Federico Silvetti"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.12012",
+      "abstract": "The signature prediction of extra-dimensional theories is the appearance of a tower of massive gravitons. In this work, we study the constraints on resonant heavy spin-2 particles at the Large Hadron Collider (LHC), with focus on the entire tower of gravitons, beyond the traditional single-resonance analysis. Since several states of the tower can lie within the same accessible mass window, the combined signal is enhanced, and the resulting constraints can be significantly stronger than those obtained from a single resonance alone. We first update the current constraints on single graviton searches stemming from diphoton and dilepton data from ATLAS and CMS, using datasets collected above $\\sim 200\\,{\\rm GeV}$, and then consider the impact on the bounds of the full tower of states for different extra-dimensional scenarios. This allows us to extend the reach of current searches to lower mass regions than typically considered, paving the way for future analyses by experimental collaborations.",
+      "score": 90,
+      "reason": "KKグラビトン塔を単一共鳴解析超えてフル質量窓で制限🔍⚡ 余剰次元理論の核心的予測に直撃！",
+      "summary": "LHCでのKKグラビトン塔全体の制限を複数共鳴を考慮して系統的に解析。既存の単一共鳴解析を大幅に改善した。"
+    },
+    {
+      "arxiv_id": "2607.12974",
+      "title": "Models with Non-minimal Coupling in Primordial Universe and Cosmological Observations",
+      "authors": [
+        "Alireza Talebian",
+        "Hassan Firouzjahi",
+        "Fereshteh Felegary"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2607.12974",
+      "abstract": "A non-minimal coupling between gravity and the inflaton field is a generic contribution in inflationary cosmology. In this work, we consider models of inflation with a non-minimal coupling $-\\xi\\phi^2 R$ and study their observational predictions for the tensor-to-scalar ratio $r$ and the spectral index $n_s$. Unlike the conventional approach of working in the Einstein frame, we perform the analysis in the Jordan frame where the underlying dynamics, particularly the competition between the potential force and the coupling-induced friction, are more transparent. For suitable values of $\\xi$, the system exhibits an extended constant-roll regime, in which this friction counteracts the potential force. Focusing on monomial potentials $V(\\phi) \\propto \\phi^n$, we find that negative $\\xi$ systematically reduces $r$ in the $(n_s, r)$ plane, while the shift in $n_s$ depends on the power $n$: for $n \\geq 4$, the spectral index increases with $|\\xi|$, whereas for $n < 4$, it decreases. Notably, the quartic model $V(\\phi) = \\lambda \\phi^4/4$ with $\\xi \\lesssim -0.1$ shows good agreement with the ACT DR6 data and exhibits a distinct $n_s(\\xi)$ dependence compared to other monomial cases. Our results demonstrate that non-minimally coupled models can effectively reconcile Planck and ACT observations, providing a unified framework for interpreting current CMB constraints.",
+      "score": 90,
+      "reason": "Jordanフレームのまま非最小結合インフレーションを解析🌌 Higgs inflation含む多モデルをCMB観測と直接比較！",
+      "summary": "ξφ²R型非最小結合を持つインフレーションモデルをJordanフレームで解析。r-nsプロットでCMBデータとの比較を実施。"
+    },
+    {
+      "arxiv_id": "2607.12956",
+      "title": "Naturally quality-safe GeV axion with charm coupling",
+      "authors": [
+        "Bo-Qiang Lu"
+      ],
+      "categories": [
+        "hep-ph",
+        "gr-qc",
+        "hep-ex",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2607.12956",
+      "abstract": "The GeV-scale QCD axion -- where Peccei-Quinn (PQ) symmetry is broken by the QCD condensate at $f_a\\sim\\mathcal{O}(1)$~GeV -- faces a structural isospin problem: the PQ spurion coupling to light quarks ($u,d,s$) breaks $\\mathrm{SU}(2)$ isospin, generating an unacceptable $\\sim 15\\%$ $\\pi^0$--$\\pi^\\pm$ mass splitting. We show that coupling the PQ scalar to the charm quark instead eliminates this violation entirely, and lowering $m_\\phi\\sim 3$--$4$~MeV makes the charm Yukawa $\\kappa_c\\propto m_\\phi$ perturbative ($\\kappa_c<1$). The resulting $f_a\\sim\\text{GeV}\\ll M_{\\rm Pl}$ solves the axion quality problem: even the lowest-dimension $d=6$ Planck-suppressed operator gives $m_{\\rm PQ}/m_a\\sim 10^{-14}$, without any additional symmetry. The model predicts a distinctive {\\it negative} $\\Delta N_{\\rm eff}\\sim -0.1$ for $m_\\phi\\sim 3$~MeV, testable by CMB-S4. The $B\\to K\\sigma$ penguin predicts $\\mathrm{BR}\\sim 2\\times 10^{-5}$, consistent with the Belle~II evidence for $B^+\\to K^+\\nu\\bar{\\nu}$ at $(2.3\\pm0.7)\\times 10^{-5}$~\\cite{BelleII:2024knv}. All ten classes of experimental, astrophysical, and cosmological constraints are satisfied in the viable window $m_\\phi\\sim 3$--$4$~MeV, with the $B_s$ mixing constraint pending a dedicated lattice calculation.",
+      "score": 88,
+      "reason": "チャームクォーク結合でGeVスケールQCDアクシオンの品質問題を自然に解決🎯⚛️ PQ機構の新展開！",
+      "summary": "QCDアクシオンのGeVスケール版でπ⁰-π±質量分裂問題をチャーム結合で解決。Peccei-Quinn品質安全性も自然に実現。"
+    },
+    {
+      "arxiv_id": "2607.12025",
+      "title": "How invisible can QCD axions be? From Supernova emission to Cherenkov signals",
+      "authors": [
+        "Luca Di Luzio",
+        "Vincenzo Fiorentino",
+        "Maurizio Giannotti",
+        "Alessandro Lella",
+        "Federico Mescia"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2607.12025",
+      "abstract": "We investigate the scenario of maximally invisible axions, namely QCD axions whose interactions with matter arise exclusively from the irreducible coupling to gluons responsible for solving the strong-CP problem. We first analyze the production of such axions in core-collapse supernovae. In particular, we derive the corresponding SN 1987A cooling constraint and compute the emission spectra for the dominant production channels, namely nucleon-nucleon bremsstrahlung and pion conversion. We then investigate the prospects for detecting maximally invisible axions in Cherenkov detectors, with the goal of establishing a robust lower bound on the overall detectability of QCD axions.",
+      "score": 87,
+      "reason": "グルオンのみのアクシオンという極端な不可視シナリオを初めて体系的に解析🎆 SN1987AとCherenkov両方で制限！",
+      "summary": "物質との最小結合（グルオンのみ）のQCDアクシオンを超新星冷却とチェレンコフ放射の観点から制限。"
+    },
+    {
+      "arxiv_id": "2607.12280",
+      "title": "Dynamics of potential-free warm $\\mathbf{k}$-inflation with nonminimal derivative coupling",
+      "authors": [
+        "Xiao-Min Zhang",
+        "Zi-Xin Bai",
+        "Run-Qing Zhao",
+        "Peng-Cheng Chu",
+        "Yun-Cai Feng",
+        "Zhi-Peng Peng",
+        "Xi-Bin Li"
+      ],
+      "categories": [
+        "gr-qc",
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2607.12280",
+      "abstract": "In contrast to potential-driven warm inflation models, this paper presents a new inflationary scenario driven purely by noncanonical kinetic terms. We derive the evolution equations and the associated slow-roll approximations specific to the kinetic case. The model incorporates a nonminimal derivative coupling that enhances gravitational friction; when combined with thermal damping, this leads to a significantly slower evolution of the pure kinetic inflaton. The resulting slow-roll approximations differ fundamentally from those of potential-driven inflation. The attractor behavior of this warm $k$-inflation with nonminimal derivative coupling is explored, confirming that slow-roll solutions can approach a strict exponential expansion attractor under relaxed slow-roll conditions. We further calculate the density fluctuation equations and obtain analytic expressions for the power spectrum, spectral index, and tensor-to-scalar ratio. Compared to standard inflation in general relativity, the energy scale at horizon crossing is lower, and the tensor-to-scalar ratio is significantly reduced due to the combined effects of thermal damping and nonminimal derivative coupling. The field excursion remains comfortably sub-Planckian. The model's predictions are in excellent agreement with the latest Planck 2018 data, offering a novel and successful extension of the warm inflation paradigm.",
+      "score": 86,
+      "reason": "ポテンシャル不要！非標準運動項＋非最小微分結合でウォームインフレーション🔥💫 Higgs inflation隣接領域！",
+      "summary": "k型運動項と非最小微分結合の組み合わせで熱散逸下のスローロール条件を新たに導出。CMB整合性を解析。"
+    },
+    {
+      "arxiv_id": "2607.12015",
+      "title": "Decoherence and More Coherence in the Radiative Decay of the $Z$ Boson",
+      "authors": [
+        "Kun Cheng",
+        "Tao Han",
+        "Harman Singh",
+        "Youle Su"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.12015",
+      "abstract": "Final state radiation in collider processes can be interpreted as interactions with unobserved degrees of freedom and is often discussed within the context of decoherence of an entangled state. We consider the radiative decay of the $Z$ boson as a representative example and perform a detailed analytical study of the $\\tau^-\\tau^+\\gamma$ spin state, as determined by the chiral interactions of the Standard Model, over the complete three-body phase space. We explore various quantum information observables to quantify how the $\\tau^-\\tau^+$ spin state changes with the photon radiation. We find some striking features, for example that the emitted photon could either lead to decoherence or monotonic enhancement of entanglement for the fermion pair.",
+      "score": 86,
+      "reason": "Z→τ⁺τ⁻γでスピン密度行列解析✨🔬 コヒーレンス喪失と保持の量子力学的競合をはじめて系統的に議論！",
+      "summary": "Z崩壊τ⁺τ⁻γ系のスピン状態を最終状態放射の影響を含めて解析。デコヒーレンスとコヒーレンスの競合を明示。"
+    },
+    {
+      "arxiv_id": "2607.12039",
+      "title": "Constraining the real singlet extension of the Standard Model: implications for vacuum stability",
+      "authors": [
+        "Moritz Bosse",
+        "Gudrun Hiller",
+        "Daniel Litim",
+        "Fabio Maltoni",
+        "Michael J. Ramsey-Musolf",
+        "Simone Tentori",
+        "Guotao Xia"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.12039",
+      "abstract": "Amongst the simplest extensions of the Standard Model is the addition of a real singlet scalar field with profound phenomenological consequences. The singlet can catalyze a strong first-order electroweak phase transition, necessary for successful electroweak baryogenesis. Furthermore, the current prediction of a metastable Higgs vacuum can be lifted towards absolute stability. While current data mainly constrain the scalar mixing angle, future measurements of the Higgs self-coupling and direct searches for additional scalar states will probe much larger parts of the viable parameter space. We report on a combined study of theoretical and experimental constraints on the real singlet extension, highlighting here in particular its implications for vacuum stability.",
+      "score": 85,
+      "reason": "実シングレット拡張SMを真空安定性・電弱相転移・LHC制限で総合制限🧪⚗️ Higgs portal系統の最前線！",
+      "summary": "実シングレットスカラー拡張SMに対し真空安定性・強一次電弱相転移・LHCデータを組み合わせた包括的制限を提示。"
+    }
+  ]
+}
