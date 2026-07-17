@@ -1,0 +1,73 @@
+{
+  "total_fetched": 147,
+  "scored_papers": [
+    {
+      "arxiv_id": "2607.13592",
+      "title": "Right-Handed Neutrino Production by an Axion-like Inflaton: Implications for Leptogenesis",
+      "abstract": "We study heavy right-handed neutrino production induced by a derivative coupling to an axion-like inflaton and its implications for non-thermal leptogenesis. We develop a unified treatment of Majorana-fermion production during inflation and preheating. During inflation, the rolling inflaton background generates a helicity-asymmetric spectrum that can be obtained analytically in the slow-roll regime, while during preheating the oscillating background drives repeated non-adiabatic production events with a helicity-dependent effective momentum and a natural momentum cutoff. We compute the resulting abundance in both the delayed-decay and prompt-decay limits, including the effects of Pauli blocking and successive production stages. We further clarify the relation between the fermion basis used to identify non-adiabatic production and the Hamiltonian-diagonal basis used to define instantaneous occupation numbers. Applying these results to non-thermal leptogenesis, we identify parameter regions consistent with the observed baryon asymmetry.",
+      "authors": [
+        "Weiyi Deng",
+        "Chengcheng Han",
+        "Wuzhou Yin",
+        "Tong Ju"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2607.13592",
+      "score": 90,
+      "reason": "アクシオン様インフラトンの微分結合でRH-ニュートリノ生成→非熱的レプトジェネシスを統一解析🔥✨インフレ中〜加熱後を統一的に扱う新フレームワーク！",
+      "summary": "ゆっくりロール背景がヘリシティ非対称スペクトルを生成し加熱後も生産継続。Majoranaフェルミオン生成の解析+数値統一解析でバリオン非対称を推定🧬"
+    },
+    {
+      "arxiv_id": "2607.13992",
+      "title": "DARK-HIDE: Dark matter versus hidden dimensions in black hole images",
+      "abstract": "Dark matter near a black hole and effective extra-dimensional corrections can change the same horizon-scale observables. This creates a simple but important question: if an image differs from Kerr, what caused the difference? We study this problem with DARK-HIDE. The dark-matter branch is described by rotating metrics with radial mass functions, while the hidden-dimensional branch is a rotating braneworld metric with a non-electromagnetic tidal charge. We compare photon regions, critical curves, controlled image morphology, a shadow-size likelihood calibrated to EHT results, and local ZAMO escape cones. A strong negative tidal charge is easy to separate from Kerr and from the two benchmark dark-matter profiles. The difficult case appears after the tidal charge is continuously adjusted to mimic the dark-matter critical curve and image proxy. At $\\varepsilon/M=0.025$, the best $P+I$ mimics occur at $q/M^2=-0.01917$ for Einasto and $-0.01117$ for cored cNFW, with small standardized separations of $0.084$ and $0.051$. A ray-bundle caustic test does not pass the required convergence and topology checks, so it is excluded from inference. After marginalizing over spin and isotropic inclination, current EHT shadow-size constraints leave both dark-matter amplitudes prior dominated. They mildly suppress large negative tidal charge, but remain fully compatible with $q=0$. Local escape cones retain a small, smooth, and well-resolved difference between the matched branches. Thus, present shadow size alone cannot break the DARK-HIDE degeneracy, while local photon transport keeps additional strong-field information.",
+      "authors": [
+        "Mohsen Fathi"
+      ],
+      "categories": [
+        "gr-qc",
+        "astro-ph.HE"
+      ],
+      "url": "https://arxiv.org/abs/2607.13992",
+      "score": 88,
+      "reason": "BHイメージの地平線スケール観測量で暗黒物質モデルvs余剰次元モデルを識別するDARK-HIDEフレームワーク🕳️✨回転BHの計量を両分岐で構築！",
+      "summary": "暗黒物質質量関数vs有効余剰次元補正Kerr計量を解析、BHシャドウ・フラックス・高次リングで両モデルを観測的に識別する判別戦略を提示🔭"
+    },
+    {
+      "arxiv_id": "2607.13483",
+      "title": "Testing the Transverse Scalar Mode of Gravitational Quantum Field Theory with Taiji and LISA",
+      "abstract": "Space-based gravitational-wave (GW) detectors, including LISA and Taiji, offer unprecedented access to regimes where alternative theories of gravity may deviate from General Relativity (GR). Gravitational Quantum Field Theory (GQFT) provides a novel framework in which the Poincar\\'e-type inhomogeneous spin symmetry of Weyl-type fermions in the Standard Model is elevated to a gauge symmetry. Within this construction, the fundamental gravitational field is identified with a gravigauge field which behaves as a Goldstone-type bi-covariant vector field. Unlike GR, GQFT predicts additional polarization states: one transverse scalar (breathing) mode and two vector modes. In this work, we focus on the transverse, isotropic scalar mode and investigate its detectability with Taiji. To isolate this mode, we employ the null-response channel (NRC), a specific interferometric combination designed to suppress contributions from other polarizations. We implement an analytical, dynamic orbital model to realistically simulate a triangular constellation. We compute the response functions and sensitivity curves for various interferometric channels, compare them with the standard Michelson channel, and demonstrate the effectiveness of the NRC approach. Our results show that the NRC provides a reliable, waveform-independent criterion for testing non-GR polarizations, and we anticipate that it will serve as a valuable tool for probing gravitational theories in future space-based GW missions.",
+      "authors": [
+        "Cong Xu",
+        "Yong Tang",
+        "Yue-Liang Wu"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.13483",
+      "score": 85,
+      "reason": "Weyl型フェルミオンのPoincaré型ゲージ対称性拡張が予言する横スカラーGWモードをTaiji・LISAで検証🌊💡Einstein-Cartanや遠隔平行理論との関連で必読！",
+      "summary": "標準模型Weyl型フェルミオンのPoincaré不変性をゲージ対称性に昇格させた新理論。横スカラーモード波形を解析しLISA/Taijiの感度帯で検出可能な信号を予測⚡"
+    },
+    {
+      "arxiv_id": "2607.13910",
+      "title": "Testing string theory with combined cosmological probes: a case study for dark matter gravitons",
+      "abstract": "The string theory Swampland programme has resulted in distinct scenarios for the particle nature of dark matter. In this research note, I use combined cosmological probes to constrain the Dark Dimension scenario, which predicts that dark matter consists of decaying massive gravitons characterised by a time-dependent kick velocity. I first provide updated constraints using a combination of CMB and BAO data. I then produce forecasts for a Stage-IV tomographic survey, and outline strategies for predicting the model's behaviour on nonlinear scales. The results demonstrate the potential of surveys like Euclid and LSST to confirm or rule out string theory models of the dark sector.",
+      "authors": [
+        "Alkistis Pourtsidou"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2607.13910",
+      "score": 85,
+      "reason": "Dark Dimension仮説（余剰次元+崩壊するKK重力子=暗黒物質）をCMB・BAO等の組み合わせで検証🌌⭐ スワンプランド条件との整合性も議論！",
+      "summary": "Dark Dimensionシナリオで暗黒物質＝時変キック速度を持つ崩壊KK重力子。CMB+BAO+Lyα制限でモデルパラメータを拘束し弦理論Swampland条件との比較を実施📐"
+    }
+  ]
+}

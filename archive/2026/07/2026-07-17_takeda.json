@@ -1,0 +1,29 @@
+{
+  "total_fetched": 147,
+  "scored_papers": [
+    {
+      "arxiv_id": "2607.13215",
+      "title": "A Fibre-Integrated SPDC Heralded Single-Photon Source Using Zn-Indiffused PPLN Ridge Waveguides at Telecom Wavelengths",
+      "abstract": "We report a fibre-integrated heralded single-photon source based on a commercial Zn-indiffused MgO:PPLN ridge waveguide operated in Type-0 degenerate spontaneous parametric down-conversion (SPDC). The device emits a broadband spectrum spanning approximately 70 nm across the telecom C-and L-bands, with an absolute brightness of $9.1\\times 10^{9}$ pairs/(s mW). After accounting for optical losses, we determine an internal heralding efficiency of 58(5)%. The source maintains high purity, exhibiting a coincidences-to-accidentals ratio exceeding $9\\times 10^{4}$ and a heralded second-order correlation of $g_{\\text{h}}^{(2)}(0) = (5.53 \\pm 0.46)\\times 10^{-4}$. Low multi-photon noise and broadband emission demonstrate the viability of such platforms for wavelength-multiplexed quantum networking.",
+      "authors": [
+        "Peter Iveson",
+        "Paolo L. Mennea",
+        "Goronwy Tawy",
+        "Rex H. S. Bannerman",
+        "Noe Palomar-Davidson",
+        "Lewis D. Wright",
+        "Patrick M. Ledingham",
+        "Peter G. R. Smith",
+        "James C. Gates",
+        "Corin B. E. Gawith"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.13215",
+      "score": 88,
+      "reason": "テレコムC/L帯で動作する光ファイバ統合型PPLN導波路SPDC光源⭐ Type-0縮退でペア輝度9.1×10⁹/s/mW達成。二光子量子干渉実験に直接使えるヘラルド単光子源！",
+      "summary": "Zn拡散MgO:PPLN尾根型導波路でのType-0縮退SPDC、~70nm帯域・3.7kHzスペクトル幅。光子対の波束コヒーレンス時間が量子干渉の可視度を決める鍵📡"
+    }
+  ]
+}

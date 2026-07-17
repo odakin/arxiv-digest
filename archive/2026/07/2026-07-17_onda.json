@@ -1,0 +1,53 @@
+{
+  "total_fetched": 147,
+  "scored_papers": [
+    {
+      "arxiv_id": "2607.13282",
+      "title": "The $H_0$ World Cup. I. Summary of the baseline group stage results",
+      "abstract": "The Hubble tension has reached a nominal significance above $7\\sigma$, while new high-precision measurements of the cosmic microwave background (CMB) and baryon acoustic oscillations (BAO) sharpen the test of proposed solutions. Using a common framework, we compare fourteen representative alternatives to the standard $\\Lambda$ Cold Dark Matter ($\\Lambda$CDM) model in light of up-to-date CMB, BAO and supernovae data to gauge their ability to resolve the tension. The models span late-time modifications, modified recombination, and exotic pre-recombination expansion histories driven by additional radiation or a localized dark energy injection. We evaluate each proposal with complementary frequentist and Bayesian measures of the residual calibration tension and of the improvement in the joint fit. Both approaches identify the same broad hierarchy. Early dark energy and early modified gravity models perform best, shifting the $H_0$ inference without local measurement priors toward $70\\,\\mathrm{km\\,s^{-1}\\,Mpc^{-1}}$ and reducing the residual discrepancy with SH0ES to approximately $2.5-3.6\\sigma$, depending on the model and statistic, while receiving strong support over $\\Lambda$CDM in the combined fit. Varying the electron mass at recombination yields an intermediate improvement, whereas the enhanced-radiation and late-time scenarios do not improve over $\\Lambda$CDM. This Letter summarizes the group stage of the competition; in a companion paper (Paper II) we present the results of an exhaustive set of analyses and assess their robustness to variations in modeling assumptions and datasets.",
+      "authors": [
+        "Nils Sch\"oneberg",
+        "Vivian Poulin",
+        "Angelo G. Ferrari",
+        "Fabio Finelli",
+        "Julien Lesgourgues",
+        "Luca Morelli",
+        "Markus R. Mosbech",
+        "Ravi Kumar Sharma",
+        "Th'eo Simon"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.13282",
+      "score": 88,
+      "reason": "ハッブル緊張が7σに達し、ΛCDM代替14モデルをCMB・BAO・超新星データで統一比較🔭 LiteBIRDが測るCMBパラメータへの波及を把握するのに必読！",
+      "summary": "ACT・SPT高精度CMBとDESI BAOを用いて早期暗黒エネルギー・曲率・ΔN_effなど14モデルを格付け、EDE系が依然上位を維持するか多軸で検証📊"
+    },
+    {
+      "arxiv_id": "2607.13283",
+      "title": "The $H_0$ world cup. II. A comprehensive competition between proposed Hubble tension solutions",
+      "abstract": "Cosmology stands at a crossroads. The Hubble tension has reached a nominal significance above $7\\sigma$, while analyses combining DESI BAO and Type Ia supernova data show emerging hints of departures from $\\Lambda$CDM. Meanwhile, high-precision CMB measurements from ACT and SPT enable a timely and more stringent reassessment of proposed solutions to the tension. In this paper, we revisit the $H_0$ Olympics, a systematic contest comparing proposed alternatives to $\\Lambda$CDM using common datasets, likelihoods, and statistical criteria. In this updated edition, the $H_0$ World Cup, we subject fourteen representative solutions to a common analysis of current CMB, BAO, and SN data. The contenders span four broad mechanisms: late-time modifications of the expansion history, modified recombination, additional pre-recombination radiation, and early non-radiative energy injection. Relative to the original analysis, the present competition includes models and mechanisms proposed in the intervening years and evaluates all contenders using both Bayesian and Frequentist tests of tension and model performance, letting the neutrino mass sum vary. We further test if late-time extensions through curvature or the Chevallier-Polarski-Linder (CPL) dark energy parametrization can aid the success of the models. Finally, we subject the leading contenders to dedicated robustness tests involving alternative CMB likelihoods and multipole cuts, supernova samples, large-scale-structure information, and big-bang nucleosynthesis constraints. This framework assesses both the ability of each mechanism to ease the Hubble tension and the robustness of our conclusions to datasets and analysis choices.",
+      "authors": [
+        "Nils Sch\"oneberg",
+        "Vivian Poulin",
+        "Angelo G. Ferrari",
+        "Fabio Finelli",
+        "Julien Lesgourgues",
+        "Luca Morelli",
+        "Markus R. Mosbech",
+        "Ravi Kumar Sharma",
+        "Th'eo Simon"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.13283",
+      "score": 88,
+      "reason": "H_0 World Cup IIでDESI BAO+SNIaによる詳細モデル比較を実施🏆 EDE・NEDE・修正再結合など多様な解の候補をCMB観測と包括的に再評価！",
+      "summary": "ΛCDM逸脱のヒントをDESI+SNIaで確認しつつ、CMBとのテンションを解消する各解の現状と限界を分析。LiteBIRD設計に絡むτ・A_L拘束への含意を議論⚡"
+    }
+  ]
+}
