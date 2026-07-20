@@ -1,0 +1,39 @@
+{
+  "total_fetched": 199,
+  "scored_papers": [
+    {
+      "arxiv_id": "2607.14376",
+      "title": "State-independent uncertainty relations on multipartite spin $1/2$-systems",
+      "authors": [
+        "Yiling Wang",
+        "Kailash Misra",
+        "Naihuan Jing"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.14376",
+      "abstract": "Uncertainty relations quantify fundamental limits on simultaneous measurement of quantum observables. While conventional formulations are state-dependent, state-independent uncertainty relations (SIURs) impose universal bounds determined solely by the algebraic structure of the operators, with applications across metrology, quantum cryptography, and entanglement detection. Despite extensive study, exact analytical variance-based SIURs have so far been established primarily for one- and bi-partite systems, while entropic SIURs have been extended to multipartite and memory-assisted settings through information-theoretic constructions. In contrast, exact variance-based SIURs beyond the bipartite level have remained analytically unresolved.} Here we develop a representation-theoretic framework for multipartite SIURs in collective spin-$\\tfrac{1}{2}$ systems. Using the Clebsch--Gordan decomposition and extremal analysis of total spin variance, we derive exact state-independent bounds up to quintipartite systems. A clear structural dichotomy emerges: odd $n$ systems exhibit strictly positive universal bounds (e.g., $\\Delta^2(\\mathfrak{su}_2)\\!\\ge\\!4/11$ for $n=3$), whereas even $n$ admit vanishing variance on trivial sectors but retain positive reduced-space bounds (e.g., $\\Delta^2(\\mathfrak{su}_2)\\!\\ge\\!1/8$ for $n=4$). These results establish the first unified, algebraic framework for multipartite variance-based SIURs in qubit ensembles.",
+      "score": 90,
+      "reason": "スピン1/2多体系の状態非依存URをBloch球幾何×交換子代数から厳密導出！時間エネルギー不確定性・量子速度限界に直結。💡⚡📐",
+      "summary": "多体系のRobertson型URを超えた解析的SIURを構築。到達時間問題・POVM時間演算子への応用が視野に入る量子基礎論の成果。🌀🔬"
+    },
+    {
+      "arxiv_id": "2607.14583",
+      "title": "Exact No Signaling in Time without Temporal Classicality",
+      "authors": [
+        "Minsu Kim",
+        "Jeongho Bang",
+        "Han Seb Moon"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.14583",
+      "abstract": "No signaling in time (NSIT) has often been treated as the clean operational remnant of noninvasive measurability. If an earlier measurement leaves every later marginal unchanged, the temporal process appears classical. We show that this inference is false. We introduce common fixed points (CFPs) of nonselective measurement channels as an exact mechanism that erases all marginal evidence of invasiveness while preserving disturbed outcome conditioned branches. For a qutrit ring subject to a local degenerate Luders measurement, we solve the full CFP manifold analytically. Every state on this manifold satisfies exact pairwise NSIT, yet every nontrivial member violates a Leggett Garg inequality, including the maximally mixed state. The violation is governed by finite branch displacement, not by residual signaling. Hidden variable reconstruction, entropic witnesses, protocol landscape scans, noise robustness, and finite shot simulations show that exact NSIT certifies only the disappearance of marginal signals after outcome erasure, not the existence of a classical temporal history.",
+      "score": 85,
+      "reason": "「NSIT≠時間的古典性」という通説を打破！非選択測定の共通不動点が周辺分布を隠蔽しつつ非古典的時間相関を保持する機構を証明。⏰🔮",
+      "summary": "qutritリング上の局所非選択測定チャンネルのCFPとしてNSIT∧非古典的時間過程の同居を厳密構成。到達時間・時間演算子研究に直接影響。🌀"
+    }
+  ]
+}

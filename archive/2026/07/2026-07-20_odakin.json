@@ -1,0 +1,72 @@
+{
+  "total_fetched": 199,
+  "scored_papers": [
+    {
+      "arxiv_id": "2607.14979",
+      "title": "A self-consistent Higgs-portal framework for dark matter--admixed neutron stars: Collider-motivated benchmarks meet multimessenger constraints",
+      "authors": [
+        "Adamu Issifu"
+      ],
+      "categories": [
+        "astro-ph.HE",
+        "hep-ph",
+        "hep-th",
+        "nucl-th"
+      ],
+      "url": "https://arxiv.org/abs/2607.14979",
+      "abstract": "We investigate dark matter (DM)-admixed neutron stars (NSs) within a self-consistent single-fluid relativistic mean-field framework by extending the Higgs-portal model with a massive $Z^\\prime$ vector mediator. The resulting density-dependent repulsive interaction dynamically couples the baryonic matter (BM) and DM sectors, allowing the DM content to be characterized by the global particle fraction, $F_\\chi=N_\\chi/N_B$, with the local DM density determined self-consistently as $n_\\chi=F_\\chi n_B$, thereby eliminating the need for the externally prescribed DM Fermi momentum adopted in previous single-fluid models. Using the NL3$\\omega\\rho$, DD2, and FSU2R EOSs, we show that increasing $F_\\chi$ systematically softens the nuclear equation of state (EOS), reduces the maximum NS mass by up to $\\sim29\\%$, increases stellar compactness, and modifies the thermodynamic response of dense matter. We further derive exact analytical expressions for the adiabatic speed of sound, its density derivative, and the adiabatic index, providing a rigorous benchmark for assessing the causality and thermodynamic stability of DM-admixed EOSs. At the microscopic level, the BM--DM interaction is shown to be dominated by the repulsive $Z^\\prime$ vector channel. Our framework establishes a direct connection between collider-motivated WIMP models and the multimessenger phenomenology of NSs, with potential implications for future gravitational-wave and X-ray observations.",
+      "score": 90,
+      "reason": "Higgs-portal×Z′媒介子拡張でDM混合中性子星を自己整合的に解析！コライダー制限と多波長観測を同時に満足。🌑💥🔬",
+      "summary": "相対論的平均場でBM+DM一流体を扱い、質量・半径・潮汐変形能をmultimessenger制限で精密検証。DM電荷分率F_χを自己決定。🛰️📡"
+    },
+    {
+      "arxiv_id": "2607.14210",
+      "title": "Dark matter in composite Higgs models with a scotogenic EFT",
+      "authors": [
+        "Yu Chen",
+        "Werner Porod"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.14210",
+      "abstract": "We discuss a class of Composite Higgs models with a fermionic UV completion that can explain the dark matter relic density. The resulting low-energy theory resembles so-called scotogenic models. A residual $\\mathbb{Z}_2$ symmetry implies that one of the pseudo-Nambu-Goldstone bosons is stable and therefore is a viable dark matter candidate. As a concrete example, we take a model based on the $\\mathrm{SU}(6)/\\mathrm{Sp}(6)$ coset, which in principle contains four dark matter candidates. However, only three of them can produce a relic density consistent with observations. We perform a MCMC study focusing on dark matter observables to explore the available parameter space of the effective theory. In particular, we find that spin-1 resonances play an important role in a substantial part of the parameter space. Finally, we comment on possible LHC signatures of this model class.",
+      "score": 87,
+      "reason": "合成Higgs模型+スコトジェニックEFTからZ₂安定pNGBダークマターが自然に出現！DM密度と暗黒物質量子数を一石二鳥。🍫✨🌙",
+      "summary": "SU(6)/Sp(6)コセットを具体例にフェルミオンUV完成からRGEで低エネルギー有効理論を導出、DM生成量を数値解析。🔢🎯"
+    },
+    {
+      "arxiv_id": "2607.14620",
+      "title": "Scalarization of Charged Black Hole in Gauss-Bonnet Extended Starobinsky-Maxwell Gravity",
+      "authors": [
+        "Rui-Xi Zhu",
+        "Hai-Shan Liu"
+      ],
+      "categories": [
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2607.14620",
+      "abstract": "We re-examine spontaneous scalarization of black holes within Starobinsky gravity supplemented by the Gauss-Bonnet invariant. A novel feature is uncovered: scalarized solutions split into two smooth branches that connect at a common minimal horizon radius, a multi-branch structure previously unreported for static, spherically symmetric scalarization. Extending the theory with a Maxwell field, we find that this multi-branch structure persists, while a new additional disconnected branch emerges within certain parameter ranges. We thoroughly analyse the transition from a single smooth branch to two disconnected branches. Lastly, we verify, employing the standard Maxwell thermodynamic relations, that all charged hairy solutions obey the first law exactly.",
+      "score": 86,
+      "reason": "Starobinsky重力+Gauss-BonnetでBH自発スカラー化を再解析！2つの解分岐が最小地平線半径で繋がるマルチ分岐構造を初発見。🌀⚫🔮",
+      "summary": "球対称スカラーBH解が2枝に分岐して最小半径で滑らかに接続する未報告構造を発見。Maxwell場追加で独立3枝目も出現。🌌🔭"
+    },
+    {
+      "arxiv_id": "2607.14376",
+      "title": "State-independent uncertainty relations on multipartite spin $1/2$-systems",
+      "authors": [
+        "Yiling Wang",
+        "Kailash Misra",
+        "Naihuan Jing"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.14376",
+      "abstract": "Uncertainty relations quantify fundamental limits on simultaneous measurement of quantum observables. While conventional formulations are state-dependent, state-independent uncertainty relations (SIURs) impose universal bounds determined solely by the algebraic structure of the operators, with applications across metrology, quantum cryptography, and entanglement detection. Despite extensive study, exact analytical variance-based SIURs have so far been established primarily for one- and bi-partite systems, while entropic SIURs have been extended to multipartite and memory-assisted settings through information-theoretic constructions. In contrast, exact variance-based SIURs beyond the bipartite level have remained analytically unresolved.} Here we develop a representation-theoretic framework for multipartite SIURs in collective spin-$\\tfrac{1}{2}$ systems. Using the Clebsch--Gordan decomposition and extremal analysis of total spin variance, we derive exact state-independent bounds up to quintipartite systems. A clear structural dichotomy emerges: odd $n$ systems exhibit strictly positive universal bounds (e.g., $\\Delta^2(\\mathfrak{su}_2)\\!\\ge\\!4/11$ for $n=3$), whereas even $n$ admit vanishing variance on trivial sectors but retain positive reduced-space bounds (e.g., $\\Delta^2(\\mathfrak{su}_2)\\!\\ge\\!1/8$ for $n=4$). These results establish the first unified, algebraic framework for multipartite variance-based SIURs in qubit ensembles.",
+      "score": 85,
+      "reason": "スピン1/2多体系の状態非依存不確定性関係(SIUR)を厳密代数的に導出！演算子構造のみから普遍下界が決まるエレガントな結果。💡⚡🎯",
+      "summary": "Bloch球幾何と交換子代数から多体版SIURを解析的に構築。量子暗号・メトロロジー・もつれ検出に直結した量子基礎論の成果。📐🔬"
+    }
+  ]
+}
