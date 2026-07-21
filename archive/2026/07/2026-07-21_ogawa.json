@@ -1,0 +1,44 @@
+{
+  "total_fetched": 145,
+  "scored_papers": [
+    {
+      "arxiv_id": "2607.15874",
+      "title": "The statistical disturbance bound of quantum measurements",
+      "authors": [
+        "Ties-A. Ohst",
+        "Sebastian Schl\"osser",
+        "Roope Uola"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.15874",
+      "abstract": "Quantifying the disturbance caused by a quantum measurement typically requires detailed knowledge of the underlying measurement channel. In this work, we introduce a statistical disturbance bound, which connects the statistical properties of a quantum measurement to the state disturbance induced by any compatible measurement channel. Specifically, we show that the average fidelity between input and output with respect to an arbitrary ensemble of pure input states is fundamentally bounded in terms of the measurement, described as a positive operator-valued measure (POVM). We further develop the weighted state exclusion technique, which enables an experimental determination of the statistical disturbance bound without requiring explicit knowledge of the measurement effects. To see the advantages of our approach over existing information-disturbance relations, we show that our bound distinguishes between measurements with equivalent informativeness. Furthermore, we demonstrate that the weighted state exclusion technique can detect and quantify measurement-induced disturbance using state preparations that are insufficient for tomographic reconstruction of the measurement operators. Finally, we illustrate how disturbance bounds defined with respect to specific input ensembles can be used to bound an eavesdropper's guessing probability in a simple protocol for quantum randomness generation.",
+      "score": 87,
+      "reason": "📏 測定前後の状態統計だけで計算できる「統計的擾乱バウンド」を導入。チャンネルの知識なしに測定の擾乱を定量化できる新手法で量子測定論に直結！",
+      "summary": "🔬 測定後の状態のみを入力に擾乱の下界を提供。精度-擾乱トレードオフ関係を新たな形で定式化する。"
+    },
+    {
+      "arxiv_id": "2607.15461",
+      "title": "Generation and detection of squeezed light on a single silicon photonic chip",
+      "authors": [
+        "Oliver M. Green",
+        "Bethany Puzio",
+        "Rowan A. Hoggarth",
+        "Rachel N. Clark",
+        "Edward C. R. Deacon",
+        "Alex S. Clark",
+        "Jonathan C. F. Matthews",
+        "Giacomo Ferranti"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.15461",
+      "abstract": "The ability to generate and detect quantum states of light on a single integrated photonic device is essential to scale quantum photonics into useful quantum technologies. Integrating the required capabilities into complementary-metal-oxide-semiconductor compatible monolithic chips can reduce cost and unlock new functionality through miniaturisation. In this work we demonstrate a single silicon-on-insulator photonic integrated circuit for the monolithic generation and detection of quantum light on a commercially available platform that operates entirely at room temperature. Specifically, we leverage spontaneous four-wave mixing in silicon waveguides to produce squeezed light which is subsequently detected by photodiodes operating in a pulsed homodyne detector configuration on the same chip as the source. We directly measure $0.25(1)$ dB of squeezing, including contributions from waveguide propagation loss and detection inefficiency, and include a detailed analysis of the impact of nonlinear loss on the squeezing levels achievable using this platform.",
+      "score": 86,
+      "reason": "✨ シリコンフォトニクスチップ上でスクイーズド光の生成と検出を一体化。スクイーズドコヒーレント状態を集積デバイスで実現した注目の実装論文！",
+      "summary": "💡 単一集積フォトニクスデバイスで光スクイージングと検出を実現。量子フォトニクスのスケールアップへの重要な一歩。"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "total_fetched": 145,
+  "scored_papers": [
+    {
+      "arxiv_id": "2607.15666",
+      "title": "Update on the Physics of the Cosmic Microwave Background (2015-2025)",
+      "authors": [
+        "Martin Bucher (Laboratoire Astroparticules et Cosmologie)"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2607.15666",
+      "abstract": "We review the present status of observations of the Cosmic Microwave Background. This book chapter is an update to an earlier review \"Physics of the Cosmic Microwave Background Anisotropy\" that appeared a decade ago in the compilation \"One Hundred Years of General Relativity: From Genesis and Empirical Foundations to Gravitational Waves, Cosmology and Quantum Gravity.\" The earlier contribution summarized the state of the field then as well as the underlying cosmology and gravitational physics. This contribution reports on what new has occurred in the field during the intervening time 2015-2025. We also review future prospects.",
+      "score": 92,
+      "reason": "🌟 CMB物理の2015-2025年アップデート総説。B-mode偏光・宇宙複屈折・テンソルモードの10年分の進展が凝縮された超必読文献！LiteBIRDの文脈で最高の資料。",
+      "summary": "📡 CMB偏光・非ガウス性・暗黒エネルギー・ニュートリノ質量など次世代実験の科学目標を体系的にレビュー。観測的進展と理論予測を網羅。"
+    },
+    {
+      "arxiv_id": "2607.15335",
+      "title": "Primordial tensor mode from the neutrino sector",
+      "authors": [
+        "Shohei Saga",
+        "Shuichiro Yokoyama"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2607.15335",
+      "abstract": "We show that a regular solution for primordial tensor fluctuations can arise from the higher-order multipoles of the collisionless neutrino distribution after neutrino decoupling. Focusing on the leading case with the neutrino octupole mode (tensor-octupole mode), we derive the initial conditions for the Einstein-Boltzmann system and calculate angular power spectra for the cosmic microwave background (CMB) anisotropies. Compared with the standard gravitational-wave mode, the tensor-octupole mode has a weaker large-scale metric response. It therefore gives a suppressed reionization bump and a different oscillation phase in the tensor CMB power spectra, providing a way to separate it from the standard tensor mode.",
+      "score": 88,
+      "reason": "🎯 ニュートリノデカップリング後の高次多極子から原始テンソルモードが生成される新機構。テンソル・スカラー比への影響を次世代CMB偏光実験で検出可能！",
+      "summary": "🌊 自由ストリーミングニュートリノの高次多極子がテンソル摂動に結合しGW背景を生成。次世代CMB偏光観測での検出感度を定量評価。"
+    },
+    {
+      "arxiv_id": "2607.15354",
+      "title": "Tunnelling out of Starobinsky inflation: Raising the spectral tilt",
+      "authors": [
+        "Jose A. R. Cembranos",
+        "Jes'us Luque",
+        "Javier Rubio"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.15354",
+      "abstract": "We propose a hybrid realization of Starobinsky inflation in which the inflationary epoch ends through vacuum decay. The model consists of an effective two-field system with a metastable Starobinsky branch shifted with respect to the true one. During the observable stage, the inflaton slow-rolls along the false branch, until a first-order phase transition in an orthogonal direction connects it to the true branch and ends inflation abruptly. This old-inflation-like exit skips the last part of the would-be Starobinsky trajectory. As a result, the Cosmic Microwave Background pivot scale exits the Hubble radius further from the minimum of the false branch than in ordinary Starobinsky inflation, raising the scalar spectral tilt $n_s$ while preserving the characteristic small tensor-to-scalar ratio. This provides a simple way of moving Starobinsky inflation towards the high-$n_s$ region favoured by recent ACT-related combinations. The same vacuum transition leaves a stochastic gravitational-wave relic whose peak frequency is controlled by the tunnelling timescale and the subsequent reheating history.",
+      "score": 85,
+      "reason": "🎇 スタロビンスキーインフレーションに真空崩壊ハイブリッド機構を加え、nsを上げながらrを調整。次世代CMB実験でのインフレーションモデル識別に示唆あり！",
+      "summary": "🔭 準安定スタロビンスキーブランチでのトンネル崩壊がインフレーション終了を担う。nsとrの観測的整合性を改善した新モデルを提示。"
+    },
+    {
+      "arxiv_id": "2607.16162",
+      "title": "Constraining primordial non-Gaussianity and parity-violation through Scalar-Induced Gravitational Waves with next-generation ground-based interferometers",
+      "authors": [
+        "Ilaria Caporali",
+        "H. V. Ragavendra",
+        "Angelo Ricciardone",
+        "Nicola Bartolo"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2607.16162",
+      "abstract": "In this work, we investigate the prospects for probing primordial non-Gaussianity and associated symmetry of parity through scalar-induced gravitational waves (SIGWs), with third-generation gravitational-wave detectors. We develop a framework that accounts for contributions to the energy density spectrum of GWs arising from the scalar non-Gaussianity quantified by bispectrum and trispectrum, and perform parameter inference using simulated data from Einstein Telescope and Cosmic Explorer. The parity-odd component of the scalar trispectrum induces circular polarization in the stochastic gravitational-wave background (SGWB), providing a direct probe of parity-violation in the primordial Universe. We show that future interferometers can place competitive constraints on the parity-odd scalar trispectrum, along with the bispectrum and parity-even trispectrum. Moreover, we include the astrophysical contribution, which could act as a foreground for the SIGWs. We show that, despite the addition of such a foreground, we are still able to effectively constrain the cosmological parameters related to SIGWs and the astrophysical parameters as well.",
+      "score": 85,
+      "reason": "🌀 スカラー誘起重力波で原始非ガウス性とパリティ対称性破れを同時検証。第三世代地上GW検出器での感度が宇宙複屈折研究と相補的で興味深い！",
+      "summary": "📻 SIGWの角度相関とヘリシティモードを活用し、fnlとパリティ非保存パラメータを制限。ET・CEでの検出感度を定量評価する。"
+    }
+  ]
+}
