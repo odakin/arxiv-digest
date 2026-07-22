@@ -1,0 +1,101 @@
+{
+  "total_fetched": 241,
+  "scored_papers": [
+    {
+      "arxiv_id": "2607.16849",
+      "title": "Attosecond delay metrology beyond the photon coherence time with spectrally resolved Hong-Ou-Mandel interferometry",
+      "authors": [
+        "Yingwen Zhang",
+        "Kyle Jordan",
+        "Duncan England",
+        "Vincenzo Tamma",
+        "Ebrahim Karimi",
+        "Benjamin Sussman"
+      ],
+      "categories": [
+        "quant-ph",
+        "physics.optics"
+      ],
+      "url": "https://arxiv.org/abs/2607.16849",
+      "abstract": "We demonstrate attosecond delay metrology beyond the photon coherence time using a single measurement via spectrally resolved Hong-Ou-Mandel interferometry.",
+      "score": 88,
+      "reason": "スペクトル分解HOMでコヒーレンス時間を超える経路差の遅延をスキャンなし単一測定で量子精度限界まで計測🎯スペクトルもつれ光子対の鍵応用",
+      "summary": "スペクトル干渉縞から遅延情報を抽出しコヒーレンス窓の100倍超のダイナミックレンジを実現。100万光子対で20アト秒精度、損失・可視度変動に対し原理的に頑健"
+    },
+    {
+      "arxiv_id": "2607.16575",
+      "title": "80 Channel Photon Pair Source from a Thin-Film Lithium Niobate Racetrack Microresonator",
+      "authors": [
+        "Mihir Chaudhari",
+        "Ian Christen",
+        "Xinyi Ren",
+        "Chun-Ho Lee",
+        "Tushar Sanjay Karnik",
+        "Reshma Kopparapu",
+        "Clayton Cheung",
+        "Kai-Chi Chang",
+        "Mengjie Yu"
+      ],
+      "categories": [
+        "physics.optics",
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.16575",
+      "abstract": "We demonstrate a thin-film lithium niobate racetrack microresonator as an 80-channel photon pair source using spontaneous parametric down-conversion.",
+      "score": 87,
+      "reason": "薄膜ニオブ酸リチウムマイクロリング共振器でSPDCを使った80チャネル光子ペア源を実証🔬量子情報スケーラビリティの鍵となる多チャネルもつれ光子",
+      "summary": "X-cut TFLN racetrack共振器でC/Lバンド80ch(49.5 GHz間隔)の光子ペア生成。PGR=125.7 kHz/μW、herald g²(0)=0.054達成"
+    },
+    {
+      "arxiv_id": "2607.17629",
+      "title": "Fully-connected three-mode squeezed vacuum: Gaussian entanglement, steering, and collective photon subtraction",
+      "authors": [
+        "Manjia Mai",
+        "Jifeng Sun",
+        "Teng Zhao",
+        "Ming Zhang",
+        "Liyun Hu"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.17629",
+      "abstract": "We investigate the fully-connected three-mode squeezed vacuum (FC-C3MSV) and derive its covariance matrix and Wigner function analytically using the IWOP technique.",
+      "score": 87,
+      "reason": "全結合三モード圧搾真空(FC-C3MSV)のGaussianもつれ・steeringを完全解析📐2モード間steeringゼロでcollective resource構造が鮮明",
+      "summary": "K₃トポロジーで全モードペアを非線形結合、共分散行列・Wigner関数をBogoliubov変換から解析的に導出。光子減算によるWigner負性はcollective modeで生成"
+    },
+    {
+      "arxiv_id": "2607.16672",
+      "title": "A projection-free approach toward mapping the structured polarization fields",
+      "authors": [
+        "Sandeep Singh",
+        "G. K. Samanta"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.16672",
+      "abstract": "We demonstrate a projection-free approach to map structured polarization fields using Hong-Ou-Mandel interferometry with SPDC photon pairs.",
+      "score": 85,
+      "reason": "HOM干渉を使った投影なし偏光分布マッピング手法を実証🔭Stokes偏光計の較正誤差問題をSPDCベース2光子バンチングで根本解決",
+      "summary": "810nm SPDC光子対を用いBirefringent vortex waveplateの空間依存偏光変換をcoincidenceカウントで直接マップ、角度分解能≈0.4°で95%再現"
+    },
+    {
+      "arxiv_id": "2607.17321",
+      "title": "Locally Scrambled Quantum Memories for Loss-Tolerant Entanglement-Assisted Optical Interferometry",
+      "authors": [
+        "Jianqi Sheng"
+      ],
+      "categories": [
+        "quant-ph",
+        "physics.optics"
+      ],
+      "url": "https://arxiv.org/abs/2607.17321",
+      "abstract": "We propose locally scrambled quantum memories for loss-tolerant entanglement-assisted long-baseline optical interferometry of astronomical sources.",
+      "score": 85,
+      "reason": "天文光コヒーレンスを分散量子メモリにマップし局所スクランブルで損失許容型もつれ補助長基線干渉計を定式化🌌GJC干渉計の拡張",
+      "summary": "天文光コヒーレンスをQFI/CFI行列で定式化し、局所フラグ付き消失の完全補正でvisibility・QFIを完全復元。消失閾値<1/2の保護条件を証明"
+    }
+  ]
+}

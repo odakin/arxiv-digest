@@ -1,0 +1,24 @@
+{
+  "total_fetched": 241,
+  "scored_papers": [
+    {
+      "arxiv_id": "2607.17629",
+      "title": "Fully-connected three-mode squeezed vacuum: Gaussian entanglement, steering, and collective photon subtraction",
+      "authors": [
+        "Manjia Mai",
+        "Jifeng Sun",
+        "Teng Zhao",
+        "Ming Zhang",
+        "Liyun Hu"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.17629",
+      "abstract": "We investigate the fully-connected three-mode squeezed vacuum state with K_3 topology where each pair of modes is pairwise nonlinearly coupled. Using IWOP technique we derive the covariance matrix and Wigner function analytically.",
+      "score": 85,
+      "reason": "全結合K₃トポロジーの三モード圧搾真空を完全解析📐pairwise entangledでも2モード間Gaussian steeringがゼロというユニークな性質",
+      "summary": "IWOP法で共分散行列を解析的に導出。二モード間steeringは不在でone-to-two collective steeringが本質的資源、損失臨界値η≈0.58も算出"
+    }
+  ]
+}

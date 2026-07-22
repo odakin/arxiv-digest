@@ -1,0 +1,23 @@
+{
+  "total_fetched": 241,
+  "scored_papers": [
+    {
+      "arxiv_id": "2607.17500",
+      "title": "Simultaneous inference of isotropic and anisotropic polarization rotation angles for next-generation cosmic microwave background experiments",
+      "authors": [
+        "Yue Zhang",
+        "Chang Feng",
+        "Sen Li",
+        "Filipe B. Abdalla"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2607.17500",
+      "abstract": "We develop a comprehensive Bayesian analysis framework for simultaneous inference of isotropic and anisotropic cosmic birefringence rotation angles from CMB polarization data for next-generation experiments.",
+      "score": 90,
+      "reason": "次世代CMB実験で等方・異方性宇宙複屈折回転角を同時推定する包括的Bayes解析✨アクシオン様粒子探索に直結、LiteBIRD世代の核心手法",
+      "summary": "前景放射・レンズ・較正誤差を統合的モデル化し偏光データから複屈折回転を抽出。多波長同時フィットで縮退を破り、次世代実験の感度要件を定量化"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "total_fetched": 241,
+  "scored_papers": [
+    {
+      "arxiv_id": "2607.16370",
+      "title": "No late-time role for adiabatic torsion: a no-go result for Hubble-cutoff holographic dark energy in Einstein--Cartan cosmology",
+      "authors": [
+        "Fernando Izaurieta",
+        "Samuel Lepe",
+        "Cristian Quinzacara"
+      ],
+      "categories": [
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2607.16370",
+      "abstract": "In Friedmann cosmology with Einstein--Cartan torsion, the homogeneous torsion mode compatible with a separately conserved matter sector scales as Phi prop a^{-3} and enters the Friedmann constraint as a stiff component of negative energy density. It has recently been claimed that this mode rescues the Hubble radius as an infrared cutoff for holographic dark energy. We show that it cannot.",
+      "score": 90,
+      "reason": "EC捩率がHubbleカット型HDEを晩期宇宙では救えないno-go定理🚫DESI DR2でΩ_Φ<8.7×10⁻⁴、BBNで5×10⁻²⁴の超厳制限を証明",
+      "summary": "捩率モードΦ∝a^{-3}は負エネルギー密度成分でHDEと組んでも加速膨張はtransient windowのみ。DESI/CMB/BBN/高赤方偏移銀河でΩ_Φが壊滅的に制限される"
+    },
+    {
+      "arxiv_id": "2607.16405",
+      "title": "The Goldstone Awakens: Unimodular dark energy in scale-invariant R^2 gravity",
+      "authors": [
+        "Mariaveronica De Angelis",
+        "Javier Rubio"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2607.16405",
+      "abstract": "We construct an R^2 cosmology based on scale invariance and unimodular gravity in which the Goldstone boson of dilatations establishes a predictive connection between inflation and dark energy.",
+      "score": 88,
+      "reason": "スケール不変R²重力×単モジュラー重力でゴールドストーンボソンがインフレとDEを一本の糸で繋ぐ🌟n_sとw₀に鋭い相関が生まれる予言的モデル",
+      "summary": "Noether電流保存でインフレ軌道を1次元に凍結しsingle field動力学を実現。単モジュラー定数がDE指数ポテンシャルを生成し(w₀,wₐ)≃(-0.992,-0.011)を自然に予測"
+    },
+    {
+      "arxiv_id": "2607.17277",
+      "title": "Heavy meson chiral perturbation theory constraints on a charm-coupled GeV-scale QCD axion",
+      "authors": [
+        "Bo-Qiang Lu"
+      ],
+      "categories": [
+        "hep-ph",
+        "gr-qc",
+        "hep-ex",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2607.17277",
+      "abstract": "The QCD axion with charm-only Peccei-Quinn coupling evades the isospin-violation problem of light-quark models. Since m_c>Lambda_QCD, we employ heavy meson chiral perturbation theory (HMChPT) to constrain this GeV-scale axion.",
+      "score": 87,
+      "reason": "チャームのみPQ結合のGeVスケールQCDアクシオンをHMChPTで解析🪄χPTのアイソスピン問題を回避しつつDメソン過程で結合定数空間を制限",
+      "summary": "m_c>Λ_QCDゆえHMChPT適用、σがleading order・aはO(1/m_c)でπ混合経由。B_s-混合が最強制限、レアD崩壊・K→πa検証は現感度の若干下"
+    },
+    {
+      "arxiv_id": "2607.17034",
+      "title": "Imprints of Higgs-portal fermionic dark matter on neutron-star tidal deformability and the mass-radius slope",
+      "authors": [
+        "Monmoy Molla",
+        "Mehedi Kalam",
+        "Tuhin Malik"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.17034",
+      "abstract": "We investigate the structure of neutron stars admixed with fermionic dark matter using three density-dependent relativistic mean-field functionals for beta-equilibrated nucleonic matter.",
+      "score": 85,
+      "reason": "ヒッグスポータルフェルミオンDMが中性子星に残すimprint🌟潮汐変形率Λ_{1.4}がDM量の最鋭敏な識別子で7.8σ変化と衝撃的感度",
+      "summary": "3種DDRMF汎関数でDM admixed中性子星のM-R関係・Λ・c_s²を解析。k_F^DM増大でΛ_{1.4}が系統的減少、GW170817とNICERデータでDM含有量を制限"
+    },
+    {
+      "arxiv_id": "2607.17825",
+      "title": "A Gauge Model for Quasi-Dirac Neutrinos",
+      "authors": [
+        "Zhao-Xing Fan",
+        "Chun Liu"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.17825",
+      "abstract": "In a model with L_mu - L_tau Abelian gauge symmetry, anomaly-free chiral fermions as right-handed neutrinos are introduced. This U(1) symmetry keeps the right-handed neutrinos Majorana massless. Tiny nonvanishing Dirac masses come from higher-dimensional operators.",
+      "score": 85,
+      "reason": "L_μ-L_τゲージ対称性でアノマリーフリーな右巻きニュートリノが自然に現れ、高次元演算子からQuasi-Diracニュートリノ質量を生成🧮",
+      "summary": "U(1)_{Lμ-Lτ}破れでMajorana質量をゼロに保ちながら高次元演算子でtiny Dirac質量生成→准ディラックシナリオ。現行振動データ・宇宙論的側面も議論"
+    }
+  ]
+}
