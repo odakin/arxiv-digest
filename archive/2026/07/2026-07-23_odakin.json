@@ -1,0 +1,25 @@
+{
+  "total_fetched": 165,
+  "scored_papers": [
+    {
+      "arxiv_id": "2607.18657",
+      "title": "Scale-invariant Schr\\ödinger geometry in symmetric teleparallel gravity",
+      "authors": [
+        "Wei-Zhi Liu",
+        "Jing-Ying Wang",
+        "Shi-Dong Liang",
+        "Hong-Hao Zhang",
+        "Tiberiu Harko",
+        "Lei Ming"
+      ],
+      "categories": [
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2607.18657",
+      "abstract": "We construct a locally scale-invariant formulation of Schr\\\"{o}dinger geometry in symmetric teleparallel gravity. The unique scale transformation preserving autoparallelism, torsionlessness and the Schr\\\"{o}dinger affine structure is first identified, from which a quadratic scale-invariant action is obtained. Using the Palatini formalism, we show that the conditions required for scale invariance are exactly those ensuring that the affine connection is dynamically reduced to the Schr\\\"{o}dinger form. Our results establish a direct correspondence between local scale symmetry and length-preserving affine geometry, providing a new geometric framework for scale-invariant metric-affine gravity.",
+      "score": 88,
+      "reason": "対称テレパラレル重力でスケール不変シュレーディンガー幾何学を構成🔥 Palatini形式でスケール不変条件を同定、非計量性が核心的役割✨⚡",
+      "summary": "自動平行性・無捩れ性を保つ一意なスケール変換を特定。二次スケール不変作用から重力波解・スペクトルを解析的に導出。"
+    }
+  ]
+}
