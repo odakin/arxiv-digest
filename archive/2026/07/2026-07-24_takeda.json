@@ -1,0 +1,22 @@
+{
+  "total_fetched": 145,
+  "scored_papers": [
+    {
+      "arxiv_id": "2607.19499",
+      "title": "A unified framework for anomalous boson bunching",
+      "authors": [
+        "L'eo Pioge",
+        "Leonardo Novo",
+        "Nicolas J. Cerf"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.19499",
+      "abstract": "Anomalous bunching is a paradoxical quantum interferometric phenomenon in which partially distinguishable photons exhibit a higher probability of bunching into two or more modes than fully indistinguishable photons [Nat. Photonics 17, 702 (2023)]. While this effect is directly linked to violations of certain conjectures on matrix permanents, the mechanism underlying the anomaly is not yet fully understood. Here, we show that boson bunching is governed not by internal indistinguishability alone, but by the total indistinguishability of the postselected output state. Total indistinguishability combines the internal degrees of freedom, such as polarization or arrival time, with the spatial degrees of freedom of their wave functions restricted to the measured output modes of the interferometer. This reformulation preserves the expected connection between boson bunching and total indistinguishability, while clarifying how anomalous bunching can arise. It also reveals several additional facets of the same phenomenon, which are captured within a unified framework. In particular, we exhibit situations in which adding an independent source of distinguishability, either internal or spatial, can enhance multimode or even single-mode bunching probabilities, offering new insights into the subtle role of distinguishability in multiphoton interference.",
+      "score": 90,
+      "reason": "📸 部分的に区別可能な光子が完全に区別不能な光子より高確率でバンチングする逆説的現象を統一理論で解明！Bell不等式違反と直結 🎯",
+      "summary": "異常バンチングの統一フレームワーク。部分的可識別性と多光子干渉の相互作用を解析し、2光子実験の設計指針を提供 💡"
+    }
+  ]
+}

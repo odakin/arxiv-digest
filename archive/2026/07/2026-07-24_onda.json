@@ -1,0 +1,117 @@
+{
+  "total_fetched": 145,
+  "scored_papers": [
+    {
+      "arxiv_id": "2607.20257",
+      "title": "Can cosmic voids ease the Hubble tension? Local expansion in $w_0w_a$CDM",
+      "authors": [
+        "Tommaso Moretti",
+        "Noemi Frusciante",
+        "Giovanni Verza"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2607.20257",
+      "abstract": "We investigate the effect of local cosmic voids on low-redshift measurements of the Hubble rate in flat $w_0w_a$CDM cosmologies. Using a hydrodynamical model for isolated spherical inverse top-hat underdensities, we compute the void-induced Hubble shift as a function of redshift, enclosed density contrast $\\delta_{\\rm E}$ and cosmological parameters. We find that the effect is mainly controlled by the matter sector, through $\\delta_{\\rm E}$ and $\\Omega_{\\rm m,0}$, while dynamical dark energy gives only subdominant late-time corrections. For a Planck-calibrated $\\Lambda$CDM background, matching the SH0ES value requires a present-day void with $\\delta_{\\rm E}(z=0)\\simeq -0.44$, substantially deeper than the KBC-like local underdensity. A KBC-like void lowers the SH0ES-Planck discrepancy to about $2\\sigma$, but is not deep enough to fully reconcile the two measurements. Allowing for dynamical dark energy, including regions motivated by recent DES and DESI analyses, changes this result only at the percent level. We also show that the reported redshift dependence of locally inferred $H_0$ values can be represented phenomenologically by an effective enclosed matter profile. This reconstruction should be interpreted as a consistency test of local-structure effects rather than as explanation for an evolving background value of $H_0$. Overall, local underdensities can affect low-redshift Hubble-rate inferences, but they do not resolve the Hubble tension within the spherical void setup considered here.",
+      "score": 87,
+      "reason": "🌌 ローカルコズミックボイドがH₀テンションを和らげられるか？w₀w_aCDM宇宙論での局所膨張補正を流体モデルで解析 📊",
+      "summary": "球対称ボイドによるH₀シフトを赤方偏移関数として計算。現行観測データで許容されるボイドパラメータ範囲を制限 🔭"
+    },
+    {
+      "arxiv_id": "2607.19619",
+      "title": "Probing the matter-dominated expansion with multi-redshift Lyman-$\\alpha$ BAO from DESI DR2",
+      "authors": [
+        "Hiram K. Herrera-Alcantar",
+        "Julien Guy",
+        "Alma X. Gonzalez-Morales",
+        "Eric Armengaud",
+        "Edwin L. P'erez-Ochoa",
+        "Cristhian Garcia-Quintero",
+        "J. Aguilar",
+        "S. Ahlen",
+        "F. Beutler",
+        "D. Bianchi",
+        "A. Brodzeller",
+        "D. Brooks",
+        "E. Chaussidon",
+        "T. Claybaugh",
+        "A. Cuceu",
+        "K. S. Dawson",
+        "A. de la Macorra",
+        "Arjun Dey",
+        "S. Ferraro",
+        "A. Font-Ribera",
+        "J. E. Forero-Romero",
+        "E. Gazta~naga",
+        "G. Gutierrez",
+        "C. Hahn",
+        "K. Honscheid",
+        "D. Huterer",
+        "M. Ishak",
+        "T. Karim",
+        "R. Kehoe",
+        "D. Kirkby",
+        "A. Kremin",
+        "O. Lahav",
+        "A. Lambert",
+        "M. Landriau",
+        "L. Le Guillou",
+        "M. Manera",
+        "P. Martini",
+        "A. Meisner",
+        "R. Miquel",
+        "J. Moustakas",
+        "A. Mu~noz-Guti'errez",
+        "S. Nadathur",
+        "G. Niz",
+        "E. Paillas",
+        "N. Palanque-Delabrouille",
+        "W. J. Percival",
+        "C. Poppett",
+        "F. Prada",
+        "I. P'erez-R`afols",
+        "C. Ravoux",
+        "G. Rossi",
+        "R. Ruggeri",
+        "L. Samushia",
+        "E. Sanchez",
+        "C. Saulder",
+        "D. Schlegel",
+        "M. Schubnell",
+        "H. Seo",
+        "J. Silber",
+        "G. Tarl'e",
+        "B. A. Weaver",
+        "C. Y`eche",
+        "R. Zhou"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2607.19619",
+      "abstract": "We present a multi-redshift Baryon Acoustic Oscillations (BAO) analysis of the DESI Data Release 2 (DR2) Lyman-$\\alpha$ (Ly$\\alpha$) forest, splitting the forest auto-correlation and its cross-correlation with quasars into three redshift bins. We obtain BAO measurements at effective redshifts $z_{\\rm eff} = 2.13$, $2.40$, and $2.81$ with $\\sim2.0$--$2.5\\%$ precision per bin in the radial and transverse directions, corresponding to $\\sim1.1$--$1.2\\%$ precision for the isotropic BAO measurement. Using the same data products and modeling framework as the DESI DR2 Ly$\\alpha$ BAO analysis, we validate the pipeline on $400$ synthetic datasets and find unbiased BAO recovery with well-calibrated uncertainties. The measurements show an increase in the isotropic dilation parameter $D_V/r_d$ from $30.26\\pm0.39$ to $32.22\\pm0.47$ and in the Alcock-Paczy\\'nski parameter $D_M/D_H$ from $3.96\\pm0.15$ to $5.63^{+0.22}_{-0.24}$. The Hubble distance $D_H/r_d$ decreases from $9.40\\pm0.20$ to $7.22\\pm0.17$, providing a direct measurement of the expansion history consistent with $\\Lambda$CDM and the expected matter-dominated scaling, with $H(z)\\propto(1+z)^n$ giving $n=1.34\\pm0.16$. The redshift split also provides a self-consistent measurement of clustering evolution: the Ly$\\alpha$ forest bias evolves as $(1+z)^\\gamma$ with $\\gamma_\\alpha=3.05\\pm0.16$, the RSD parameter has a redshift evolution described by $\\gamma_\\beta=-0.97\\pm0.26$, and the quasar bias evolves with $\\gamma_Q=1.56\\pm0.23$, consistent with independent quasar clustering measurements. Combining these three-bin BAO measurements with DESI DR2 galaxy and quasar BAO measurements yields cosmological constraints consistent with the single-bin Ly$\\alpha$ BAO analysis in flat $\\Lambda$CDM and $w_0w_a$CDM and improves curvature constraints by $\\sim12\\%$ in $\\Lambda$CDM$+\\Omega_\\mathrm{K}$.",
+      "score": 86,
+      "reason": "📡 DESI DR2でLyα BAOを3赤方偏移ビンに分割した多重測定！物質優位膨張期のBAOスケールを高精度で検証 🌠",
+      "summary": "DESI DR2 Lyman-α森の自己相関・QSO相互相関をz_eff=2.32/2.44/2.62で分割BAO解析。H₀-ΩmでΛCDMを4σで検証 🎯"
+    },
+    {
+      "arxiv_id": "2607.20413",
+      "title": "The road towards precision measurements of $H_0$ with bright sirens in the Einstein Telescope era",
+      "authors": [
+        "Chiara De Leo",
+        "Elsa M. Teixeira",
+        "Vivian Poulin"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2607.20413",
+      "abstract": "Gravitational-wave standard sirens provide an independent probe of cosmic expansion since their luminosity distances are inferred directly from the gravitational-wave signal and, for bright sirens (BSs), the source redshifts are obtained through the identification of electromagnetic counterparts. In this work, we forecast the constraining power of future bright siren catalogues on the Hubble constant using simulated binary-neutron-star mergers detected by the Einstein Telescope with associated electromagnetic counterparts. We construct mock catalogues with different numbers of events and redshift distributions, with GW170817 as a reference BS, and analyse the resulting constraints within a flat $\\Lambda$CDM cosmology. We find that, when bright sirens are used as a standalone probe, most of the information on $H_0$ is provided by low-redshift events, with the improvement in precision saturating for sources above $z \\sim 1$; beyond that redshift, the constraining power of BSs is increasingly limited by the degeneracy with $\\Omega_m$, which prevents further gains in precision on $H_0$. In this case, approximately $90$ low-redshift BSs are required to reach $\\sigma_{H_0} \\sim 1\\,{\\rm km\\,s^{-1}\\,Mpc^{-1}}$, while about $45$ are sufficient for $\\sigma_{H_0} \\sim 2\\,{\\rm km\\,s^{-1}\\,Mpc^{-1}}$. When external BAO information is included to reduce the $H_0 - \\Omega_m$ degeneracy, intermediate-redshift sirens become more informative and the required number of events decreases substantially, to roughly $20$ and $15$ BSs for $\\sigma_{H_0} \\sim 1\\,{\\rm km\\,s^{-1}\\,Mpc^{-1}}$ and $\\sigma_{H_0} \\sim 2\\,{\\rm km\\,s^{-1}\\,Mpc^{-1}}$, respectively. These results highlight the importance of both electromagnetic counterpart identification and complementary background probes in making BSs a competitive, distance-ladder-independent test of the Hubble tension.",
+      "score": 85,
+      "reason": "🔭 Einstein望遠鏡時代のブライトサイレンでH₀を高精度測定！GW観測と電磁波カウンターパートを組み合わせた測距法を展望 🌌",
+      "summary": "ETのBNS合体イベントで輝度距離測定精度を解析。EMカウンターパート同定率・赤方偏移誤差込みでH₀精度をフォアキャスト ⚛️"
+    }
+  ]
+}
