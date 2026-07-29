@@ -1,0 +1,264 @@
+{
+  "total_fetched": 284,
+  "scored_papers": [
+    {
+      "arxiv_id": "2607.22809",
+      "title": "Axion isocurvature and the model-building problem of low-scale inflation",
+      "authors": [
+        "Sarunas Verner"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO",
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2607.22809",
+      "abstract": "",
+      "score": 87,
+      "reason": "🔥 低スケールインフレでPQ対称性が破れる場合のアクシオン等曲率揺らぎとCMB制限の関係を解析。インフレモデル選択とアクシオンDMの接点を鮮明にする！",
+      "summary": "PQ対称性のインフレ中の自発的破れを想定する低スケールモデルで生成されるアクシオン等曲率揺らぎがCMBスペクトルに与える制限を系統的に評価。"
+    },
+    {
+      "arxiv_id": "2607.22810",
+      "title": "Wigner negativity and stellar rank for SU(1,1) states",
+      "authors": [
+        "A. B. Klimov",
+        "A. Muñoz",
+        "F. Leuchs"
+      ],
+      "categories": [
+        "quant-ph",
+        "math-ph",
+        "math.MP"
+      ],
+      "url": "https://arxiv.org/abs/2607.22810",
+      "abstract": "",
+      "score": 94,
+      "reason": "✨ スクイーズド状態・非線形干渉計のSU(1,1)対称性に対してウィグナー関数族を体系的に構築！ステラーランクとの関係まで確立した量子光学基礎の傑作。",
+      "summary": "双曲面上のs順序準確率分布族を構築し、ウィグナー負性とステラーランク（非ガウス量子資源測度）をSU(1,1)状態に対して厳密に定量化する枠組みを確立。"
+    },
+    {
+      "arxiv_id": "2607.22893",
+      "title": "Stability in Axion Inflation with Strong Backreaction from a Massive Vector Boson",
+      "authors": [
+        "Michael J. Baker",
+        "Joaquim Iguaz Juan",
+        "Lorenzo Sorbo"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "hep-ph",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2607.22893",
+      "abstract": "",
+      "score": 86,
+      "reason": "🧲 大質量ベクトルボソンへの強バックリアクション領域でもアクシオンインフレのアトラクター安定性が保たれることを解析。GW生成と粒子生成の共存モデルを提示。",
+      "summary": "アクシオン-大質量ベクトル結合系でバックリアクションが強い領域でのインフレーターポテンシャルの安定性を解析し、重力波生成の同時記述との整合性を示す。"
+    },
+    {
+      "arxiv_id": "2607.22914",
+      "title": "Tensor Catalyzed Decoherence of Primordial Scalar Fluctuations",
+      "authors": [
+        "C. P. Burgess",
+        "D. Dineen",
+        "R. Holman"
+      ],
+      "categories": [
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2607.22914",
+      "abstract": "",
+      "score": 86,
+      "reason": "🌌 テンソル揺らぎが宇宙インフレ中のスカラー揺らぎのデコヒーレンスを触媒する機構を提案。「インフレが量子起源」という主張の精度を評価する枠組みとして重要！",
+      "summary": "テンソルモードを環境として扱うと、スカラー揺らぎは標準的なシナリオより速くデコヒーレンスが進む可能性があることをオープン量子系の手法で示す。"
+    },
+    {
+      "arxiv_id": "2607.23152",
+      "title": "High-frequency gravitational waves from axion inflation in the weak-backreaction regime",
+      "authors": [
+        "Xun-Jie Xu",
+        "Junyu Zhu"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2607.23152",
+      "abstract": "",
+      "score": 87,
+      "reason": "📡 弱バックリアクション近似でのアクシオンインフレからの高周波GWスペクトルを解析的に導出！DECIGO・ET等次世代検出器での検証可能性を評価した実用的論文。",
+      "summary": "チャーン-サイモンズ結合でゲージ場を増幅する軸線インフレの弱バックリアクション近似でGWスペクトルを解析的に計算し、将来検出器への感度帯を具体的に評価。"
+    },
+    {
+      "arxiv_id": "2607.23200",
+      "title": "Status of light inflaton: from inflation to laboratory",
+      "authors": [
+        "Niloy Mondal",
+        "Shashwat Sharma",
+        "Mathew Thomas Arun"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2607.23200",
+      "abstract": "",
+      "score": 85,
+      "reason": "🏭 keV〜GeV帯の軽いインフラトン（崩壊残存型）の宇宙論・実験室制限を網羅した総括レビュー。CMB・BBN・直接探索が重なる現象論の全体像が掴める。",
+      "summary": "インフレトン崩壊残存モデルについてCMB等曲率・BBN・メソン崩壊・固定標的実験からの制限を系統的にまとめ、light inflatonの現在の許容パラメータ領域を整理。"
+    },
+    {
+      "arxiv_id": "2607.23573",
+      "title": "Quantum Speed Limits and the Ultimate Scaling of the Quantum Sensors",
+      "authors": [
+        "Yusef Maleki"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.23573",
+      "abstract": "",
+      "score": 85,
+      "reason": "⚡ 量子センサーの究極スケーリングを量子速度限界の観点から再定式化！真のハイゼンベルク限界を物理的資源計量で明確化し、見かけのスーパーハイゼンベルクパラドックスを解消。",
+      "summary": "光子数×スクイージング次数を資源として正規化することで、QSLとハイゼンベルクスケーリングの対応が明確になり量子センサーの古典・量子の差が正確に評価できる。"
+    },
+    {
+      "arxiv_id": "2607.23852",
+      "title": "Canonical Clock Sectors and Relational Frame Equivalence in Brans-Dicke Theory",
+      "authors": [
+        "Yaser Tavakoli",
+        "Jerzy Lewandowski"
+      ],
+      "categories": [
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2607.23852",
+      "abstract": "",
+      "score": 92,
+      "reason": "⏱ ブランズ-ディッケ理論で「正準時計セクター」を確立し、異なる関係論的参照枠の等価性を証明！「問題の時間」の量子宇宙論的解決に向けた重要なステップ🌟",
+      "summary": "BD理論を完全ディラック量子化し、スカラー場を内部時計とするユニタリー発展フレームワークを構築。フレーム同士が等価な物理を与えることを厳密に示す。"
+    },
+    {
+      "arxiv_id": "2607.24329",
+      "title": "Ultraviolet boundary condition and the Higgs mass",
+      "authors": [
+        "Jinku Guo",
+        "Junqiang Bai"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.24329",
+      "abstract": "",
+      "score": 87,
+      "reason": "🔭 余剰次元UV端での境界条件選択でヒッグス質量の自然性問題に新アプローチ。境界値問題としてのヒッグスポテンシャルの階層性を安定化する機構を提案！",
+      "summary": "ランドール-サンドラム型余剰次元でUV境界上のヒッグス場境界条件を適切に選ぶことで電弱スケールを安定化し、ヒッグス質量の自然性を改善する枠組みを構築。"
+    },
+    {
+      "arxiv_id": "2607.24404",
+      "title": "A Bogoliubov-ratio framework for quantum-information diagnostics of time-dependent two-mode Boson Hamiltonian",
+      "authors": [
+        "Shi-Cheng Liu",
+        "Lei-Hua Liu",
+        "Bichu Li"
+      ],
+      "categories": [
+        "quant-ph",
+        "gr-qc",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2607.24404",
+      "abstract": "",
+      "score": 90,
+      "reason": "🌀 時間依存2モードボゾン系の量子情報量をリカッチ方程式1本で追跡するコンパクトな枠組みを提案！絡み合い・スクイージング・宇宙論的粒子生成を統一的に診断💫",
+      "summary": "ボゴリューボフ比λ=β/αで2モードボゾンの時間発展を記述し、フォン・ノイマンエントロピー・対数ネガティビティ・スクイーズパラメータをλから一括導出。"
+    },
+    {
+      "arxiv_id": "2607.24452",
+      "title": "Generation-separated hypercharges and dark charges: origin of flavor, neutrino masses, and dark matter",
+      "authors": [
+        "Duong Van Loi"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.24452",
+      "abstract": "",
+      "score": 87,
+      "reason": "🌑 世代ごとに異なるU(1)超電荷とダーク電荷を導入し、フレーバー階層性・ニュートリノ質量・ダークマターを統一的に説明するモデルを提案！BSMの三大謎を一網打尽🎯",
+      "summary": "各世代が異なるアーベルゲージ対称性を持つSM拡張を構築し、CKM混合角・ニュートリノ振動パラメータ・DM候補の質量を自然に再現するパラメータ空間を示す。"
+    },
+    {
+      "arxiv_id": "2607.24469",
+      "title": "The Higgs vacuum in the presence of strong gravitational fields: curvature induced electroweak symmetry restoration",
+      "authors": [
+        "Paul G. Abel"
+      ],
+      "categories": [
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2607.24469",
+      "abstract": "",
+      "score": 85,
+      "reason": "🌀 ブラックホール近傍などの強曲率時空でヒッグスVEVが消え電弱対称性が局所回復する可能性を解析。重力×ヒッグス真空の基礎的な相互作用を扱う興味深い論文。",
+      "summary": "強重力場での曲率がヒッグスポテンシャルに有効的な質量項を与え、電弱対称性の回復（ゼロVEV相への転移）を引き起こすことを場の理論的に示す。"
+    },
+    {
+      "arxiv_id": "2607.24474",
+      "title": "The bare necessities of a physically reasonable mathematical model for quantum theory",
+      "authors": [
+        "Gerd Niestegge"
+      ],
+      "categories": [
+        "quant-ph",
+        "hep-th",
+        "math-ph",
+        "math.MP"
+      ],
+      "url": "https://arxiv.org/abs/2607.24474",
+      "abstract": "",
+      "score": 86,
+      "reason": "🔬 遷移確率・連続可逆ダイナミクス・複素測度の3公理だけからQM数学を再導出する基礎論的挑戦。量子力学の最小限の物理的要件を問い直す刺激的な論文！",
+      "summary": "確率論の複素数値版（複素測度論）を出発点に、QMに必要な最小限の仮定から波動関数形式・ユニタリー発展・ボルン則を再構築することを目指す試み。"
+    },
+    {
+      "arxiv_id": "2607.24734",
+      "title": "Gravitational waves from super-Hubble bubbles",
+      "authors": [
+        "Pulkit S. Ghoderao",
+        "Arttu Rajantie",
+        "Daniele Steer"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2607.24734",
+      "abstract": "",
+      "score": 86,
+      "reason": "🫧 超ハッブルスケール泡（一次相転移起源）からのGWスペクトルを計算。通常の亜ハッブル泡と異なる周波数依存性を持ち、インフレ中の相転移の新しい観測可能量を提案！",
+      "summary": "泡サイズがハッブル地平線を超える一次相転移で発生するGWスペクトルを計算し、通常の亜ハッブル泡とは異なる特徴的な周波数スペクトルを理論的に導出。"
+    },
+    {
+      "arxiv_id": "2607.24742",
+      "title": "Measuring Cosmic Neutrino Masses Independently of Dark Energy",
+      "authors": [
+        "Frank J. Qu",
+        "Fei Ge",
+        "Hanyue Wang"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "hep-ex",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.24742",
+      "abstract": "",
+      "score": 87,
+      "reason": "📡 CMB+DESI BAOでダークエネルギーモデルによらずニュートリノ質量を測定する新手法を提案。DEの系統誤差を切り離したΣmν制限が宇宙論的精度の限界に迫る！",
+      "summary": "CMBレンズ効果とBAOデータをDEモデルに依存しない内部整合的な枠組みで解析し、宇宙論的ニュートリノ質量上限をロバストに導出する手法を提案・適用。"
+    }
+  ]
+}

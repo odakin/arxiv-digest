@@ -1,0 +1,93 @@
+{
+  "total_fetched": 284,
+  "scored_papers": [
+    {
+      "arxiv_id": "2607.24605",
+      "title": "Map Multi-Tool: A Map-Space Beam Systematic Modelling Framework for CMB Experiments",
+      "authors": [
+        "Nadia Dachlythra",
+        "Josquin Errard",
+        "Aritoki Suzuki"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "astro-ph.IM"
+      ],
+      "url": "https://arxiv.org/abs/2607.24605",
+      "abstract": "",
+      "score": 95,
+      "reason": "🛰 LiteBIRD直撃！CMB実験のビーム系統誤差をマップ空間でシミュレートする新フレームワーク「Map Multi-Tool」を開発。B-mode偏光への汚染評価に活用できる。",
+      "summary": "マップ空間のビーム系統誤差モデリングツールを提案し、主ビーム非対称性・サイドローブ・クロスポラリゼーション等の複数効果をCMBスペクトルへの偏りとして定量評価。"
+    },
+    {
+      "arxiv_id": "2607.24443",
+      "title": "Measuring H0 with Supernovae: Pantheon+ and DES-DOVEKIES",
+      "authors": [
+        "David Rubin",
+        "Greg Aldering",
+        "Saul Perlmutter"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2607.24443",
+      "abstract": "",
+      "score": 87,
+      "reason": "📏 Pantheon+とDES-DOVEKIEの系統誤差補正でH₀を1.1%精度で更新。ハッブル緊張の状況を最新データで再評価。",
+      "summary": "SNIa距離はしごの系統誤差を再校正したPantheon+とDES-DOVEKIEデータを組み合わせ、H₀ = 73.5 ± 0.8 km/s/Mpc を導出。テンション継続を確認。"
+    },
+    {
+      "arxiv_id": "2607.23152",
+      "title": "High-frequency gravitational waves from axion inflation in the weak-backreaction regime",
+      "authors": [
+        "Xun-Jie Xu",
+        "Junyu Zhu"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2607.23152",
+      "abstract": "",
+      "score": 85,
+      "reason": "📡 弱バックリアクション領域のアクシオンインフレから原始高周波重力波が生成されるスペクトルを解析的に導出。LiteBIRDより高周波帯の原始GW探索に関連。",
+      "summary": "アクシオン-ゲージ場チャーン-サイモンズ結合を持つインフレモデルで弱バックリアクション近似を使い、GHzスケールのGWスペクトルを解析的に求めた。"
+    },
+    {
+      "arxiv_id": "2607.24742",
+      "title": "Measuring Cosmic Neutrino Masses Independently of Dark Energy",
+      "authors": [
+        "Frank J. Qu",
+        "Fei Ge",
+        "Hanyue Wang"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "hep-ex",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.24742",
+      "abstract": "",
+      "score": 86,
+      "reason": "🔭 CMB+DESI BAOでダークエネルギーモデルに依存しないニュートリノ質量測定手法を提案。標準宇宙論パラメータの系統誤差を分離してΣmν上限を導出。",
+      "summary": "CMBレンズ効果とBAOの組み合わせをDEに依存しない内部整合的枠組みで解析し、Σmν < 0.12 eVのロバストな上限を導出する。"
+    },
+    {
+      "arxiv_id": "2607.22809",
+      "title": "Axion isocurvature and the model-building problem of low-scale inflation",
+      "authors": [
+        "Sarunas Verner"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO",
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2607.22809",
+      "abstract": "",
+      "score": 86,
+      "reason": "🌌 低エネルギースケールインフレでのアクシオン等曲率揺らぎとCMB制限の相互関係を解析。QCDアクシオンDMとインフレーション模型選択の接点。",
+      "summary": "PQ対称性のインフレ中の破れを想定する低スケールインフレモデルで生成されるアクシオン等曲率揺らぎがCMBスペクトルに与える制限を系統的に評価。"
+    }
+  ]
+}

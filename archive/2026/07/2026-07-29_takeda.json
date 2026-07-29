@@ -1,0 +1,57 @@
+{
+  "total_fetched": 284,
+  "scored_papers": [
+    {
+      "arxiv_id": "2607.23048",
+      "title": "Effect of photon distinguishability and loss on heralded entanglement generation from Gaussian SPDC",
+      "authors": [
+        "Brian Doolittle",
+        "Eric Chitambar"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.23048",
+      "abstract": "",
+      "score": 88,
+      "reason": "💡 光子識別可能性と損失がヘラルディング型もつれ光子対生成（ガウス型SPDC）に与える影響を理論解析。HOM干渉の可視度や結果の純粋度を定量評価。",
+      "summary": "部分識別可能光子（スペクトル・偏光の不純物）と検出損失がSPDCヘラルド型Bell状態生成に与える効果を正確にモデル化し、最適化条件を導出した。"
+    },
+    {
+      "arxiv_id": "2607.23483",
+      "title": "Photon-pair correlations from second-order coherence of photon pairs",
+      "authors": [
+        "Markus Rambach",
+        "Geoff J. Pryde"
+      ],
+      "categories": [
+        "quant-ph",
+        "physics.optics"
+      ],
+      "url": "https://arxiv.org/abs/2607.23483",
+      "abstract": "",
+      "score": 89,
+      "reason": "🔬 光子対イベント間の2次相関関数（対g^(2)）を定義・測定。単独光子のアンチバンチングと異なる「対」スケールのバンチング/アンチバンチング現象を実証！",
+      "summary": "光子対生成過程での「対単位」のHBT相関を実験的に測定し、個々の光子ではなく対同士の時間相関が新しい非古典性指標になることを示した。"
+    },
+    {
+      "arxiv_id": "2607.24718",
+      "title": "Spatial entanglement certification and quantification from stimulated parametric down-conversion",
+      "authors": [
+        "Jorge Fuenzalida",
+        "Armin Hochrainer",
+        "Anton Zeilinger",
+        "Mario Krenn"
+      ],
+      "categories": [
+        "quant-ph",
+        "physics.optics"
+      ],
+      "url": "https://arxiv.org/abs/2607.24718",
+      "abstract": "",
+      "score": 92,
+      "reason": "🌟 刺激型PDCで偶然計数なしに空間エンタングルメントを認証・定量化！古典光強度測定だけでSPDC量子相関を引き出す新手法で検出効率の制約を大幅緩和。",
+      "summary": "刺激型パラメトリックダウンコンバージョンの古典的強度パターンから空間的Bell不等式違反と絡み合い次元を定量化する手法を提案・実証。"
+    }
+  ]
+}

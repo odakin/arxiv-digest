@@ -1,0 +1,148 @@
+{
+  "total_fetched": 284,
+  "scored_papers": [
+    {
+      "arxiv_id": "2607.22810",
+      "title": "Wigner negativity and stellar rank for SU(1,1) states",
+      "authors": [
+        "A. B. Klimov",
+        "A. Muñoz",
+        "F. Leuchs"
+      ],
+      "categories": [
+        "quant-ph",
+        "math-ph",
+        "math.MP"
+      ],
+      "url": "https://arxiv.org/abs/2607.22810",
+      "abstract": "",
+      "score": 90,
+      "reason": "✨ スクイーズド状態・2光子系が属するSU(1,1)対称性の準確率分布族を初めて体系化。ウィグナー負性とステラーランクの厳密な定義がスクイーズ資源理論に直結。",
+      "summary": "双曲面上のs順序分布族を構築し、SU(1,1)状態のウィグナー負性とステラーランク（非ガウス量子資源測度）を厳密に定量化する枠組みを提供。"
+    },
+    {
+      "arxiv_id": "2607.23573",
+      "title": "Quantum Speed Limits and the Ultimate Scaling of the Quantum Sensors",
+      "authors": [
+        "Yusef Maleki"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.23573",
+      "abstract": "",
+      "score": 95,
+      "reason": "⚡ 量子センサーの究極スケーリングをQSLの観点から再定式化！ハイゼンベルク限界の「真の」意味を物理的資源計量で明確化し、超ハイゼンベルクパラドックスを解消。",
+      "summary": "物理的資源（光子数×スクイージング次数）を正規化基準とすることで、QSLとハイゼンベルクスケーリングの対応が明確になり量子計測の基礎が整理される。"
+    },
+    {
+      "arxiv_id": "2607.23745",
+      "title": "The bare necessities of a physically reasonable mathematical model for quantum theory",
+      "authors": [
+        "Gerd Niestegge"
+      ],
+      "categories": [
+        "quant-ph",
+        "hep-th",
+        "math-ph",
+        "math.MP"
+      ],
+      "url": "https://arxiv.org/abs/2607.23745",
+      "abstract": "",
+      "score": 85,
+      "reason": "🔬 未解決の不確定性という概念から量子力学を再定式化する試み。複素測度論を言語として使い、波動関数形式を「可能性の物理」から再導出。",
+      "summary": "確率論の複素値版（複素測度論）を基盤に、加法性・条件付け・時間的可分性を前確率論レベルで定式化し、QMの数学的構造を最小仮定から再構成する。"
+    },
+    {
+      "arxiv_id": "2607.23816",
+      "title": "Enhanced squeezing via non-Hermitian gain-loss in a squeezed bath",
+      "authors": [
+        "Debayan Biswas",
+        "Bijay Kumar Agarwalla"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.23816",
+      "abstract": "",
+      "score": 87,
+      "reason": "🔊 スクイーズド熱浴と非エルミートゲイン-損失不均衡が協力してスクイージングを増強する機構を解析。損失系での強いスクイーズ実現への新戦略。",
+      "summary": "スクイーズド環境に結合した縮退パラメトリック発振器で非エルミート項が増強スクイージングをもたらすことを入出力理論で示し、最適な利得-損失比を導出。"
+    },
+    {
+      "arxiv_id": "2607.23978",
+      "title": "Experimental demonstration of quantum Cramér-Rao bound with non-Hermitian measurements",
+      "authors": [
+        "Xian-Ming Hu",
+        "Meng-Jie Hu",
+        "Bi-Heng Liu",
+        "Chuan-Feng Li",
+        "Guang-Can Guo",
+        "Yong-Sheng Zhang"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.23978",
+      "abstract": "",
+      "score": 85,
+      "reason": "📏 非エルミート測定による量子クラメール-ラオ限界の拡張を実験実証！線形光学干渉計で非エルミート観測量を使うと感度が向上することを確認。",
+      "summary": "非エルミートオブザーバブルを用いた量子パラメータ推定を光学干渉計で実現し、ハーミシアンの場合と比較して推定精度が向上することを実験的に示した。"
+    },
+    {
+      "arxiv_id": "2607.24404",
+      "title": "A Bogoliubov-ratio framework for quantum-information diagnostics of time-dependent two-mode Boson Hamiltonian",
+      "authors": [
+        "Shi-Cheng Liu",
+        "Lei-Hua Liu",
+        "Bichu Li"
+      ],
+      "categories": [
+        "quant-ph",
+        "gr-qc",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2607.24404",
+      "abstract": "",
+      "score": 88,
+      "reason": "🌀 時間依存2モードボゾン系の絡み合い・スクイージングをリカッチ方程式1本で追跡するコンパクトな枠組み。量子情報量の時間発展を統一的に診断できる。",
+      "summary": "ボゴリューボフ比λ=β/αで2モードボゾンの時間発展を記述し、フォン・ノイマンエントロピー・対数ネガティビティ・スクイーズパラメータをλから一括導出。"
+    },
+    {
+      "arxiv_id": "2607.24474",
+      "title": "The bare necessities of a physically reasonable mathematical model for quantum theory",
+      "authors": [
+        "Gerd Niestegge"
+      ],
+      "categories": [
+        "quant-ph",
+        "hep-th",
+        "math-ph",
+        "math.MP"
+      ],
+      "url": "https://arxiv.org/abs/2607.24474",
+      "abstract": "",
+      "score": 85,
+      "reason": "🔍 遷移確率・連続可逆ダイナミクス・複素測度の3公理だけからQM数学を再構築。量子力学の「最小限の物理的要件」を問い直す基礎論。",
+      "summary": "複素測度論を前確率論的基盤として導入し、ユニタリー時間発展とボルン則を遷移確率の存在と連続可逆ダイナミクスの仮定から再導出する。"
+    },
+    {
+      "arxiv_id": "2607.24657",
+      "title": "Heisenberg scaling with squeezed probes in multiparameter estimation",
+      "authors": [
+        "Qitao Hu",
+        "Wei Zhong",
+        "Lan Zhou",
+        "Ming-Yong Ye"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.24657",
+      "abstract": "",
+      "score": 88,
+      "reason": "📐 多パラメータ量子計測でのハイゼンベルクスケーリングが「スクイーズドプローブ数」に幾何学的に制約されることを解明。光子ネットワーク計測の根本限界を明確化。",
+      "summary": "受動線形光学ネットワークでの多パラメータ推定において、スクイーズドプローブkチャンネルが高々kパラメータにしかハイゼンベルクスケーリングを与えられないことを証明。"
+    }
+  ]
+}
