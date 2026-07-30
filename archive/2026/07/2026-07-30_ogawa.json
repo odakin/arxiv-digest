@@ -1,0 +1,89 @@
+{
+  "total_fetched": 194,
+  "scored_papers": [
+    {
+      "arxiv_id": "2607.25307",
+      "title": "Actualization, Records, and the Emergence of Entropic Time",
+      "authors": [
+        "Lionel Martellini"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.25307",
+      "abstract": "We develop a record-based account of internal time in quantum mechanics, where the formation of a stable record is represented as conditioning on actualized information, and along a history the accumulated record algebras are ordered by inclusion. If the duration of a realized outcome depends only on its conditional Born probability, composes additively under sequential conditioning, and is continuous and calibrated, then the actualization of each outcome contributes an internal duration equal to its surprisal, the negative logarithm of that probability, so that a certain outcome contributes no duration, whereas less likely outcomes contribute larger increments. The ensemble mean of the accumulated clock is the Shannon entropy of the record process, its moment-generating function is fixed by the R\\'enyi entropy spectrum, and the realized clock admits a Doob decomposition into a predictable entropic compensator and a martingale of clock fluctuations, so that each increment is the information gain of the corresponding actualization. Records are characterized by graded criteria of distinguishability, decoherence, and stability. We also clarify the multiple-clock problem: in one fixed context, additivity of two surprisal clocks is equivalent to factorization of the Born distribution in that context, whereas for a pure bipartite state, additivity in every pair of local contexts is equivalent to rank-one factorization of the joint state and to the vanishing of all its $2\\times2$ minors.",
+      "score": 92,
+      "reason": "⏳ 量子力学の「内部時間」を記録の生成から導く試み📝 各結果の surprisal が持続時間を与える構成で、時間-エネルギー問題に直結⚡️",
+      "summary": "🧮 記録代数の包含順序で履歴を並べ、条件付き Born 確率のみに依存・加法的・連続という要請から持続 = -log p を導出。平均は Shannon エントロピー。"
+    },
+    {
+      "arxiv_id": "2607.24976",
+      "title": "Quantum reference frames beyond subsystems: a reconstruction and generalization of the perspective-neutral framework",
+      "authors": [
+        "Stefan L. Ludescher",
+        "Manuel Mekonnen",
+        "Thomas D. Galley",
+        "Markus P. Mueller"
+      ],
+      "categories": [
+        "quant-ph",
+        "gr-qc",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2607.24976",
+      "abstract": "We generalize the notion of quantum reference frames (QRFs) to cases where the frame does not necessarily correspond to a tensor factor subsystem, but to a covariant quantum instrument. This unlocks a variety of physical applications: \"frames of labeling\" for indistinguishable particles, suggesting explanations for the symmetrization postulate and the absence of parastatistics, and yielding a transparent description of the entanglement of bosons and fermions; and relational clocks reproducing the Schr\\\"odinger equation exactly even when all subsystems are interacting or when there are frequency superselection sectors. Our work generalizes the perspective-neutral approach to QRFs pioneered by H\\\"ohn and co-authors, which we reconstruct from a simple operational scenario. We give a resource-theoretic grounding of this framework, and show how the notion of completely covariant operations explains the relevance of the charge-zero sector and the pure-state transformation behavior across perspectives. This also suggests operational clarifications of some aspects of constraint quantization, e.g. of the meaning of constraint equations such as $C|\\psi\\rangle=0$. Some of our results, such as our generalization of relationalization maps to instruments, apply more broadly to other QRF frameworks too, and they contribute to bridging the gap between operational quantum information theory and the internal QRF research program.",
+      "score": 90,
+      "reason": "🕰 QRF をテンソル因子でなく共変量子操作へ一般化⚡️相互作用があっても厳密に Schrödinger 方程式を再現する relational clock が目玉✨",
+      "summary": "📐 perspective-neutral の枠組みを操作的シナリオから再構成し資源理論的に基礎付け。同種粒子の「ラベルの参照系」から対称化仮設も議論。🔍"
+    },
+    {
+      "arxiv_id": "2607.25627",
+      "title": "Theory of Cubic-Phase Dynamics in the Linear Potential",
+      "authors": [
+        "Maximilian L. D. D. Pellner",
+        "Georgi Gary Rozenman"
+      ],
+      "categories": [
+        "quant-ph",
+        "physics.optics"
+      ],
+      "url": "https://arxiv.org/abs/2607.25627",
+      "abstract": "A quantum wave packet in a linear potential, i.e., under a constant force such as gravity, accumulates a cubic-in-time phase that is universal across Schrodinger-type platforms and naturally realized by Airy eigenstates. Because the classical action is quadratic in the force, this phase comprises exactly three contributions: intrinsic, force-induced, and a cross term. The force-induced contribution alone is shape-independent, whereas the Airy eigenstate renders the shape-dependent contributions non-dispersing. An eigenstate-based nondimensionalization identifies the eigenforce, namely the intrinsic force underlying the packet's acceleration in the absence of an applied force, as a natural parameter. As a function of both forces, the cubic coefficient takes an analytically closed and physically interpretable form that factors along two zero lines: the static Airy eigenstate and a nontrivial zero at which the phase cancels without stationarity. This exposes the eigenforce as an effective antagonist to the applied force, not only in the caustic's self-acceleration but also within the phase, while leaving the centroid unaffected in accordance with Ehrenfest's theorem. Spatially uniform within each packet, the phase cannot be measured directly and is accessible only through the relative phase of two colliding packets, each evolving in its own potential. The general relative cubic coefficient, forbidden by symmetry for identical packets and activated by preparation asymmetry, therefore provides a designable signal. Extracted through heterodyne demodulation of the simulated interference between two Airy packets, its central value agrees with the prediction to sub-percent accuracy within the fitting uncertainty. The analysis spans ultracold-atom condensates, paraxial optics, and surface-gravity water waves.",
+      "score": 88,
+      "reason": "🌊 一定力下の波束が獲得する時間 3 次位相を、内在項・力起因項・交差項に厳密分解⚡️波束形式の伝播解析にそのまま効く道具立て✨",
+      "summary": "🧮 Airy 固有状態では形状依存項が非分散に。eigenforce による無次元化で 3 次係数が閉じた形になり、2 本のゼロ線に沿って因数分解される。📐"
+    },
+    {
+      "arxiv_id": "2607.25101",
+      "title": "Covariant Quantum Measurements and Stochastic Dynamics on Representation Space",
+      "authors": [
+        "Naeem Shahid"
+      ],
+      "categories": [
+        "quant-ph",
+        "math-ph",
+        "math.MP"
+      ],
+      "url": "https://arxiv.org/abs/2607.25101",
+      "abstract": "We develop a framework for group-covariant quantum measurements in which measurement-induced transitions between irreducible representation sectors are described by a stochastic process on representation space. Starting from the Peter-Weyl decomposition, we construct covariant measurement operators from irreducible tensor operators and show that, for symmetry-invariant states, the measurement channel reduces to a Markov process on the representation graph. We further show that analyticity of the measurement operator constrains the detector spectrum through Sugiura's theorem, motivating a class of exponentially decaying detector models. Specializing to SU(2), we obtain the transition kernel in closed form, establish reversibility and the associated invariant measure, and derive a continuum Fokker-Planck description of the induced dynamics. Analytical predictions for the drift and diffusion coefficients are found to agree with numerical simulations. Our results provide a stochastic description of repeated covariant quantum measurements on representation space.",
+      "score": 86,
+      "reason": "🔍 群共変測定を表現空間上の確率過程として定式化⚡️共変時間観測量や POVM 的アプローチと地続きの構成で参考になる✨",
+      "summary": "📊 Peter-Weyl 分解から共変測定作用素を作り、対称不変状態では表現グラフ上の Markov 過程に帰着。SU(2) で遷移核と Fokker-Planck 極限を導出。🧮"
+    },
+    {
+      "arxiv_id": "2607.25900",
+      "title": "Effect-valued measurement models and contextuality",
+      "authors": [
+        "Samson Abramsky"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.25900",
+      "abstract": "We generalize the Abramsky--Brandenburger sheaf-theoretic treatment of contextuality by replacing probability distributions with distributions valued in a convex effect algebra \\(A\\). This yields a notion of \\(A\\)-valued measurement model encompassing probabilistic, deterministic, and quantum measurement structures within a single framework.\n  States \\(\\sigma:A\\to[0,1]\\) induce ordinary empirical models, allowing observable behaviour to be viewed as arising from effect-valued measurement data. This leads to a distinction between internal contextuality of \\(A\\)-models and observable contextuality after state evaluation. We analyze the relationship between these notions and identify coherence conditions under which observable classical explanations assemble into internal ones.\n  Using the ordered-vector-space representation of effect modules, we show that non-contextuality is characterized by feasibility of an associated cone program, generalizing the linear-programming formulation of contextuality in the probabilistic case. We also introduce an effect-valued contextual fraction and study its relation to observable contextuality witnesses. We show how cone duality leads to a notion of Bell witnesses for contextuality as a direct generalization of Bell inequalities.\n  Finally, we analyze sharp realizability and uniform dilation for measurement models, clarifying the relationship between general POVMs and projective measurements, and show how resource-indexed effect structures induce graded monads generalizing the quantum monad.",
+      "score": 85,
+      "reason": "🎲 Abramsky らの層理論的文脈依存性を、確率でなく effect algebra 値の分布へ一般化⚡️測定理論の基礎を統一的に見る枠組み✨",
+      "summary": "📐 確率的・決定論的・量子的な測定構造を A 値測定モデルとして包含し、内部的文脈依存性と状態評価後の観測可能な文脈依存性を区別する。🔍"
+    }
+  ]
+}

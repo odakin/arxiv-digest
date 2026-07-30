@@ -1,0 +1,94 @@
+{
+  "total_fetched": 194,
+  "scored_papers": [
+    {
+      "arxiv_id": "2607.25306",
+      "title": "Loss-induced anomalous generalized bunching in multiphoton interference",
+      "authors": [
+        "Rikizo Ikuta"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.25306",
+      "abstract": "We show that internal loss and survival conditioning can activate anomalous generalized bunching in passive linear optical circuits. We introduce a conditional bunching probability that all photons occupy a target region of accessible output modes, given that all photons survive. For two-photon inputs, we prove that this probability is always monotonic for any circuit size and loss configuration, although a multimode target region can reverse the monotonic direction. For three-photon inputs in a minimal three-mode lossy interferometer, we find a nonmonotonic anomaly in which the conditional bunching probability is maximized for partially distinguishable photons. This behavior is forbidden for the corresponding unconditioned target-region probability, demonstrating that survival-conditioned loss changes the minimal hierarchy of generalized bunching.",
+      "score": 93,
+      "reason": "🎯 内部ロスと「全光子生存」条件付けが多光子干渉の bunching を異常化させる⚡️吸収モデルと条件付き状態の扱いに直結する話✨",
+      "summary": "🔬 2 光子では回路サイズ・ロス配置に依らず単調だが、3 モード 3 光子では部分的識別可能性で条件付き bunching 確率が最大化する非単調性が出現。📐"
+    },
+    {
+      "arxiv_id": "2607.25029",
+      "title": "Quantum detection of CP violation in the $t\\bar{t}$ system: production",
+      "authors": [
+        "Priyanka Lamba",
+        "Fabio Maltoni",
+        "Olimpia Miniati",
+        "Eleni Vryonidou"
+      ],
+      "categories": [
+        "hep-ph",
+        "hep-ex",
+        "hep-th",
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.25029",
+      "abstract": "We investigate how possible new CP-violating top-quark interactions are encoded in the quantum state of a produced $t\\bar t$ pair. We derive analytic expressions for the production density matrix in several benchmark channels relevant to hadron, lepton and photon colliders. In a common spin basis, we identify two characteristic CP-odd structures in the Fano--Bloch decomposition: a difference between the top and antitop polarisation vectors and an antisymmetric component of the spin-correlation matrix. We construct observables that directly probe these structures and study how quantum information measures, including discord, concurrence, magic and trace distance, respond to CP-even and CP-odd SMEFT contributions. Finally, using current measurements and future collider projections, we assess the sensitivity of these observables to possible new sources of CP violation in top-quark production. This establishes the production-level framework whose experimental reconstruction is developed in a companion paper.",
+      "score": 87,
+      "reason": "⚛️ tt̄ 対の量子状態に CP 破れがどう刻まれるかを生成密度行列で解析⚡️コライダーでの量子情報・スピン相関の実例として面白い✨",
+      "summary": "📊 Fano-Bloch 分解で 2 つの CP-odd 構造（偏極ベクトルの差・スピン相関行列の反対称成分）を同定し、discord・concurrence・magic の応答を評価。🔍"
+    },
+    {
+      "arxiv_id": "2607.25034",
+      "title": "Quantum detection of CP violation in the $t\\bar{t}$ system: tomography",
+      "authors": [
+        "Priyanka Lamba",
+        "Fabio Maltoni",
+        "Olimpia Miniati",
+        "Eleni Vryonidou"
+      ],
+      "categories": [
+        "hep-ph",
+        "hep-ex",
+        "hep-th",
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.25034",
+      "abstract": "We develop a quantum-tomographic framework for determining whether possible CP-odd effects in $t\\bar t$ events originate in production, in decay, or in both. In the narrow-width approximation, the process $I\\to t\\bar t\\to b\\ell^+\\nu\\,\\bar b\\ell^-\\bar\\nu$ factorises into a production density matrix and top and antitop decay density matrices. We extend the standard tomography procedure to a general anomalous $Wtb$ vertex and derive the corresponding angular distributions. Polar-angle distributions retain their usual tomographic form, up to modifications of the spin-analysing powers, and can therefore be used to reconstruct the production density matrix and test its CP properties. By contrast, dedicated azimuthal observables involving the $b$--lepton decay planes contain characteristic sine modulations that provide linear probes of possible new CP-violating interactions in the decay vertex. Combining the two classes of observables gives a systematic strategy for separating sources of CP violation in production and in decay. We illustrate the resulting angular signatures for representative $t\\bar t$ production scenarios at hadron and lepton colliders.",
+      "score": 86,
+      "reason": "🔬 CP 破れが生成側か崩壊側かを量子トモグラフィで切り分ける枠組み⚡️トモグラフィ手続きの一般化が丁寧で読みやすい✨",
+      "summary": "📐 狭幅近似で生成密度行列と崩壊密度行列に分解し、異常 Wtb 頂点まで一般化。b-lepton 崩壊面の方位角観測量に sine 変調が現れると示す。⚛️"
+    },
+    {
+      "arxiv_id": "2607.25699",
+      "title": "Counterfactual Quantum Sensing: What Interaction-Free Measurement Can and Cannot Buy",
+      "authors": [
+        "Christoph F. Wildfeuer"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.25699",
+      "abstract": "Interaction-free measurement infers the presence of an absorbing object from a photon that, in the counterfactual sense, never interacted with it, and is widely described as a route to minimally invasive sensing. We ask what it actually buys, in estimation-theoretic terms. Written as a channel-estimation problem, the Elitzur-Vaidman interferometer carries exactly half the Fisher information about the object's transmissivity that direct transmission probing does, and the two schemes deliver identical Fisher information per absorbed photon. For measuring how transparent something is, the interferometer buys nothing. The advantage lies in discrimination, and we show that what it requires is not that the object be opaque but that the competing hypothesis be the object's absence. Against empty space the Chernoff information per absorbed photon grows almost linearly, as the number of Zeno cycles times its logarithm, even for a weakly absorbing object; between two partial transparencies it does not grow at all. Parasitic loss in the cycle caps the advantage. The number of conclusive interrogations per absorbed photon reaches a maximum inversely proportional to the loss per cycle, at an optimal cycle number that is likewise inversely proportional to it, which identifies the loss per cycle as the figure of merit governing how far interaction-free sensing can be pushed. Finally, the negative result is not special to the interferometer. For a single photon meeting a memoryless, non-dispersive object any number of times through arbitrary fixed optics, the accessible quantum Fisher information never exceeds that of the same incident flux spent on independent single-pass probes, and is generically far below it. This recovers the bound of Massar, Mitchison and Pironio for this class, by a short argument that also identifies when it is tight.",
+      "score": 86,
+      "reason": "🎲 相互作用なし測定は本当に得なのか？を推定理論で問い直す⚡️which-path・相補性・吸収の扱いを考える上で示唆的✨",
+      "summary": "📊 Elitzur-Vaidman 干渉計の透過率 Fisher 情報は直接測定の半分で、吸収光子あたりでは同等。利点は推定でなく「不在との識別」側にあると示す。🔍"
+    },
+    {
+      "arxiv_id": "2607.25627",
+      "title": "Theory of Cubic-Phase Dynamics in the Linear Potential",
+      "authors": [
+        "Maximilian L. D. D. Pellner",
+        "Georgi Gary Rozenman"
+      ],
+      "categories": [
+        "quant-ph",
+        "physics.optics"
+      ],
+      "url": "https://arxiv.org/abs/2607.25627",
+      "abstract": "A quantum wave packet in a linear potential, i.e., under a constant force such as gravity, accumulates a cubic-in-time phase that is universal across Schrodinger-type platforms and naturally realized by Airy eigenstates. Because the classical action is quadratic in the force, this phase comprises exactly three contributions: intrinsic, force-induced, and a cross term. The force-induced contribution alone is shape-independent, whereas the Airy eigenstate renders the shape-dependent contributions non-dispersing. An eigenstate-based nondimensionalization identifies the eigenforce, namely the intrinsic force underlying the packet's acceleration in the absence of an applied force, as a natural parameter. As a function of both forces, the cubic coefficient takes an analytically closed and physically interpretable form that factors along two zero lines: the static Airy eigenstate and a nontrivial zero at which the phase cancels without stationarity. This exposes the eigenforce as an effective antagonist to the applied force, not only in the caustic's self-acceleration but also within the phase, while leaving the centroid unaffected in accordance with Ehrenfest's theorem. Spatially uniform within each packet, the phase cannot be measured directly and is accessible only through the relative phase of two colliding packets, each evolving in its own potential. The general relative cubic coefficient, forbidden by symmetry for identical packets and activated by preparation asymmetry, therefore provides a designable signal. Extracted through heterodyne demodulation of the simulated interference between two Airy packets, its central value agrees with the prediction to sub-percent accuracy within the fitting uncertainty. The analysis spans ultracold-atom condensates, paraxial optics, and surface-gravity water waves.",
+      "score": 86,
+      "reason": "🌊 一定力下の波束が持つ時間 3 次位相を内在項・力起因項・交差項へ厳密分解⚡️波束形式の伝播計算に直接使える道具立て✨",
+      "summary": "🧮 Airy 固有状態では形状依存項が非分散に。eigenforce による無次元化で 3 次係数が閉じた形になり、2 本のゼロ線に沿って因数分解される。📐"
+    }
+  ]
+}
