@@ -1,0 +1,129 @@
+{
+  "total_fetched": 179,
+  "scored_papers": [
+    {
+      "arxiv_id": "2607.26373",
+      "title": "No way ou$\\tau$: Epoch of Reionization Observations Do not Support Large Values of the Optical Depth to Reionization",
+      "authors": [
+        "Paulo Montero-Camacho",
+        "Yi Mao"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2607.26373",
+      "abstract": "Recent cosmological analyses combining high-redshift cosmic microwave background (CMB) measurements with low-redshift baryon acoustic oscillation (BAO) data have reported a preference for dynamical dark energy, with the cosmological constant scenario ($\\Lambda$CDM) disfavored at the $\\sim 3\\sigma$ level. These analyses, however, typically rely on large-scale CMB polarization measurements to constrain the optical depth to reionization $\\tau_{\\rm reio}\\sim 0.06$, raising the question of whether potential systematics in this dataset could influence the inferred cosmological preference. Excluding large-scale polarization data substantially weakens the tension with $\\Lambda$CDM to the $\\lesssim 2\\sigma$ level, nevertheless at a price of increasing $\\tau_{\\rm reio}$ significantly to $\\sim 0.09$. Here, we use a physically motivated Gompertzian reionization framework to perform a self-consistent Bayesian analysis combining CMB (excluding large-scale polarization data), BAO, and independent measurements of the neutral hydrogen fraction evolution from quasar damping wing observations and dark pixel constraints. We derive $\\tau_{\\rm reio} = 0.067 \\pm 0.011$, in good agreement with cosmological analyses that would include large-scale CMB polarization data, while the inferred reionization history is consistent with multiple observational constraints. Our analysis recovers a preference for dynamical dark energy at the $\\gtrapprox2\\sigma$ level. These results demonstrate that astrophysical probes of reionization independently recover the optical depth required by CMB polarization measurements, suggesting that potential systematics in large-scale polarization alone are unlikely to fully explain the emerging preference for dynamical dark energy.",
+      "score": 90,
+      "reason": "🔭 大スケール偏光を外しても τ=0.067 が再現されるという再電離側からの独立検証。B-mode 陣営にも効く結果✨",
+      "summary": "Gompertz 型再電離と CMB（大スケール偏光を除く）+BAO+クェーサー減衰翼で τ を制約、動的ダークエネルギー選好も≳2σで残存📊"
+    },
+    {
+      "arxiv_id": "2607.27193",
+      "title": "Non-Minimally Coupled Chain Inflation at High Scales",
+      "authors": [
+        "Miguel Barroso Varela",
+        "Orfeu Bertolami",
+        "Katherine Freese",
+        "Evangelos Sfakianakis"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc",
+        "hep-ph",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2607.27193",
+      "abstract": "Chain inflation offers an alternative to standard slow-roll dynamics, with accelerated expansion proceeding through a sequence of rapid quantum tunneling events between metastable vacua. At the high energy scales relevant for the early Universe, scalar fields are generically expected to couple non-minimally to gravity via operators like $\\xi R\\phi^2$, allowed by symmetry and required as counterterms for interacting theories in curved spacetime. We study the dynamical and observational consequences of this coupling for chain inflation. We find the modifications to the model for arbitrary $\\xi$ and focus on interesting phenomenology for $\\xi ={\\cal O}( 10)$. We show that, in the Einstein frame, the non-minimal coupling induces a field-dependent amplification of the Euclidean bounce action, thus modifying the tunneling rate across the chain. We develop an analytic framework connecting this modified tunneling dynamics to the scalar spectral index, its running, the primordial curvature power spectrum, and the stochastic gravitational wave background from bubble collisions. As one consequence, the non-minimal coupling breaks the rigid relation between the scalar tilt and inflationary scale that drives the minimally coupled pure tilted cosine model to very low energies ($V_*^{1/4}\\lesssim 3\\,\\rm{GeV}$, where $V_*$ is the value of the inflationary potential when the CMB-relevant modes exit the horizon), allowing for viable high-scale chain inflation with $V_*^{1/4}\\sim 10^{11}\\,\\rm{GeV}$. Furthermore, non-minimally coupled chain inflation at high scales produces a peaked stochastic gravitational wave signal in the dHz-kHz bands, accessible to upcoming interferometers such as the Einstein Telescope and Cosmic Explorer. Finally, the model predicts a distinct running of the spectral index that will be testable by the Simons Observatory, making it a prime target for multi-messenger cosmology.",
+      "score": 87,
+      "reason": "🚀 非最小結合で chain inflation が高スケール化し、n_s の running を Simons Observatory が試せる。検証項目が増える✨",
+      "summary": "ξRφ² でバウンス作用が増幅されトンネル率が変化、V*^(1/4)~10^11 GeV が可能に。dHz-kHz の確率的GWも予言🌌"
+    },
+    {
+      "arxiv_id": "2607.26101",
+      "title": "Early- and late-time constraints on Wald-Gauss-Bonnet topological dark energy and implications for the $H_0$ and $S_8$ tensions",
+      "authors": [
+        "Stylianos A. Tsilioukas",
+        "Fotios K. Anagnostopoulos",
+        "Spyros Basilakos",
+        "Andronikos Paliathanasis",
+        "Emmanuel N. Saridakis"
+      ],
+      "categories": [
+        "gr-qc",
+        "astro-ph.CO",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2607.26101",
+      "abstract": "The persistent $H_0$ and $S_8$ tensions motivate the search for new dark-energy mechanisms capable of modifying the late-time expansion history while preserving the successful early-Universe predictions of $\\Lambda$CDM scenario. Wald-Gauss-Bonnet (WGB) topological dark energy provides a physically motivated realization of this possibility, where the effective dark-energy sector emerges from cosmic horizon thermodynamics and the black-hole formation and merger history. We present the first early- and late-Universe analysis of WGB cosmology, implementing the model as an effective fluid in a modified \\texttt{CLASS} solver and constraining it against CMB data from \\textit{Planck}, ACT~DR6 and SPT-3G, DESI~DR2 BAO, and Pantheon+ supernovae. While late-time data alone are consistent with $\\Lambda$CDM, the full dataset prefers a non-zero WGB contribution, $\\Cn=0.435^{+0.150}_{-0.132}$, corresponding to a $\\sim3\\sigma$ phantom-like deviation and an improved fit. The preferred solution raises $H_0$ from $68.5$ to $69.8~\\kmsmpc$, reducing the Hubble tension by $\\sim0.9\\sigma$, at the cost of a mild increase in $S_8$. The reconstructed cosmological observables show that WGB leaves the primary CMB almost unchanged while enhancing lensing and small-scale clustering, revealing a characteristic $H_0$-$S_8$ trade-off. WGB dark energy therefore emerges as a physically motivated and observationally viable late-time mechanism for partially alleviating the Hubble tension without introducing new early-Universe physics.",
+      "score": 86,
+      "reason": "📉 Planck+ACT+SPT-3G+DESI+Pantheon+ で H0 を 0.9σ 緩和、代わりに S8 は悪化。H0-S8 トレードオフの実例として有用✨",
+      "summary": "地平線熱力学由来の Wald-Gauss-Bonnet 暗黒エネルギーを CLASS に実装、~3σでファントム的寄与、一次 CMB はほぼ不変🔬"
+    },
+    {
+      "arxiv_id": "2607.26612",
+      "title": "Probing Primordial Chirality in the Matter Distribution",
+      "authors": [
+        "Fang-Na Shao",
+        "Hao-Ran Yu",
+        "Ming-Jie Sheng",
+        "Bing-Hang Chen",
+        "Huiyuan Wang"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2607.26612",
+      "abstract": "Whether parity symmetry was violated in the early universe remains one of the fundamental open questions in cosmology. If so, it may leave an intrinsic handedness in the large-scale matter distribution. Here we formulate a helicity-based estimator to measure this handedness. Using cosmological simulations with parity-violating initial conditions, we show that it survives nonlinear structure formation. Applying the estimator to density fields reconstructed from the SDSS DR7 galaxy catalog, we find mild deviations but statistically insignificant evidence for parity violation in the local universe. Our results establish the intrinsic handedness of the matter distribution as an observable relic of primordial parity violation, enabling a direct probe with current and future large-scale structure surveys.",
+      "score": 86,
+      "reason": "🌀 大規模構造の「利き手」でパリティ破れを測る推定量。非線形進化を生き延びると示した点が CMB 側の議論とも響く✨",
+      "summary": "ヘリシティ推定量をパリティ破れ初期条件のシミュレーションで検証し、SDSS DR7 の再構成密度場に適用（有意な検出はなし）📊"
+    },
+    {
+      "arxiv_id": "2607.27149",
+      "title": "Shear-kSZ: A New Estimator for the Matter-Electron Power Spectrum from kSZ Tomography and Weak Lensing",
+      "authors": [
+        "Boryana Hadzhiyska"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "astro-ph.GA"
+      ],
+      "url": "https://arxiv.org/abs/2607.27149",
+      "abstract": "We propose a new estimator for the ionized gas--matter power spectrum, which correlates the kinematic Sunyaev--Zel'dovich (kSZ) field with the line-of-sight velocity field and the weak-lensing convergence map. Analogously to the standard stacked kSZ estimator, this estimator factorizes into a calibratable velocity kernel multiplying the matter--electron cross-power spectrum, $P_{me}(k)$. Because the estimator accesses $P_{me}(k)$ for the full matter distribution rather than around a specific biased tracer as is the case with the standard stacked kSZ estimator, it allows us to determine the baryonic suppression of the matter power spectrum, $S(k)$, one of the dominant astrophysical systematics for Stage-IV cosmic shear. We derive and validate an analytical expression for the estimator against simulations, finding percent-level agreement. Due to its parity structure, contributions from cosmic microwave background (CMB) foregrounds cancel. Using a realistic CMB temperature map with Simons Observatory-like noise and beam, a smoothed velocity field as obtained via linear velocity reconstruction applied to DESI-like luminous red galaxies (LRGs), and LSST-like sources at high redshifts, which suppresses the effect of intrinsic alignments and boost factors, we forecast a $16\\sigma$ measurement over $f_{\\rm sky}=0.2$ (corresponding to 1\\% measurement of $S(k)$), establishing our estimator as a readily measurable target for current surveys, e.g., LSST and \\textit{Euclid}. Because the signal-to-noise is dominated by CMB noise rather than lensing depth, we expect a detection already at $\\sim10\\sigma$ with early LSST data releases. Substantial (factor of 2) gains in signal-to-noise are expected with Advanced Simons Observatory. While here we focus on DESI-like LRGs as the foreground sample, lower-redshift samples provide an even wider array of source samples in the background.",
+      "score": 86,
+      "reason": "🛰️ kSZ×速度場×弱レンズで物質-電子パワーを直接掴む新推定量。SO 級ノイズで16σ、バリオン抑制 S(k) を1%精度✨",
+      "summary": "パリティ構造から CMB 前景の寄与が相殺、DESI 型 LRG の速度再構成と LSST 源で予測。初期 LSST でも~10σ検出が見込める📈"
+    },
+    {
+      "arxiv_id": "2607.26163",
+      "title": "High-statistics simulations of NewAthena WFI background using Geant4",
+      "authors": [
+        "Matthew K. Heine",
+        "Catherine E. Grant",
+        "Marshall W. Bautz",
+        "Beverly J. LaMarr",
+        "Eric D. Miller",
+        "Michael W. J. Hubbard",
+        "David Hall",
+        "Joan Requena",
+        "Emanuele Perinati",
+        "Steven W. Allen",
+        "Artem Poliszczuk",
+        "Dan Wilkins",
+        "Fabio Gastaldello",
+        "Silvano Molendi",
+        "Ralph P. Kraft",
+        "Gerrit Schellenberger",
+        "Arnab Sarkar"
+      ],
+      "categories": [
+        "astro-ph.IM"
+      ],
+      "url": "https://arxiv.org/abs/2607.26163",
+      "abstract": "The observation of hot gas structures is one science goal of the Wide Field Imager (WFI) on ESA's NewAthena X-ray observatory. Because the measurement of these faint diffuse sources is limited by background from cosmic ray particle interactions within the instrument, understanding and reducing this background is critical. To this end, we employ a two-pronged approach, performing high-fidelity Geant4 simulations on both detailed, realistic geometry models as well as complementary simple geometry models. The former can reveal subtle sensitivities of background to details of the instrument design. The latter allows for fast iteration, useful in guiding and understanding the larger simulations. We show how we leverage High Performance Computing (HPC) resources to achieve simultaneously high throughput and fast time to result. We discuss our recent results, which are applicable not only to WFI, but also other X-ray missions.",
+      "score": 86,
+      "reason": "☄️ 宇宙線起源バックグラウンドを Geant4 で高統計評価。検出器設計の細部が背景に効くという教訓は低温検出器側にも有効✨",
+      "summary": "詳細形状と簡易形状の二本立てでシミュレーションし、HPC で高スループット化。WFI 以外の X 線ミッションにも適用可能🔬"
+    }
+  ]
+}

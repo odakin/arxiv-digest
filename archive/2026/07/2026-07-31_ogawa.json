@@ -1,0 +1,72 @@
+{
+  "total_fetched": 179,
+  "scored_papers": [
+    {
+      "arxiv_id": "2607.26999",
+      "title": "Two-state generator extraction: property currents and a two-layer arrow of time in pre- and post-selected quantum dynamics",
+      "authors": [
+        "Seiki Saito"
+      ],
+      "categories": [
+        "quant-ph",
+        "cond-mat.stat-mech"
+      ],
+      "url": "https://arxiv.org/abs/2607.26999",
+      "abstract": "Conditioning on both past and future assigns intermediate-time properties a causal observer does not; these time-symmetric assignments obey exact symmetry theorems and are measurable from trajectories. We use two-state generator extended dynamic mode decomposition (gEDMD): because weak values obey $dA_w/dt=i\\langle[H,A]\\rangle_w$ exactly, generator extraction, with an exact-derivative baseline, applies unchanged to them. First, a reflection involution on the pre-/post-selected ensemble splits every window-fitted friction uniquely as $\\gamma_{fwd}=\\gamma_A+\\gamma_S$: $\\gamma_A$, antisymmetric about the midpoint, carries the modes' boundary-condition physics; $\\gamma_S$, symmetric, comes from the differencing scheme; both follow from the same data as $(\\gamma_{fwd}\\pm\\gamma_{bwd})/2$. At a fixed inference resolution the arrow of time has two layers: the coherent-mode arrow reverses at the midpoint, the fluctuation-level one does not, $\\gamma_S$ dominating $\\gamma_A$ at every size and class. The difference is one of degree: $\\gamma_S$ is 34 times larger there than at the mode layer, and with the exact derivative both layers reverse: immunity belongs to the inference, not the ensemble. Second, in a lattice interferometer conditioned only at its ports, the quantum Cheshire-cat structure emerges unimposed: particle and polarization obey separate continuity equations, and a local field in the polarization-carrying arm rotates that phase alone, at exactly twice the field strength, entering the generator as a rigid imaginary shift, while the particle's weak density stays invariant to machine precision. We verify the sample-level identity and the two layers from $2^8$ to $2^{20}$ dimensions: $|\\gamma_A|/\\gamma_S=0.09$ to $0.27$ across five classes; self-averaging makes it insensitive to class among those sharing a boundary modulation, removing the $2^{-N/2}$ overlap obstruction for $N$ qubits.",
+      "score": 87,
+      "reason": "⏳ 前選択・後選択の下で「時間の矢」が2層に分かれるという主張。弱値の運動方程式を生成子抽出に載せる発想が面白い🔍",
+      "summary": "反射対称性で摩擦を γ_A（境界条件由来）と γ_S（差分化由来）に一意分解、量子チェシャ猫の構造も自然に出現📊"
+    },
+    {
+      "arxiv_id": "2607.26431",
+      "title": "The Klein-Gordon-Fock theory as a one-particle relativistic quantum mechanics",
+      "authors": [
+        "N. L. Chuprikov"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.26431",
+      "abstract": "The Klein-Gordon-Fock (KGF) theory with scalar and vector potentials is presented as a one particle relativistic quantum mechanics (QM). First, the KGF equation is written in a Hamiltonian form, in spinor space; unlike the Feshbach-Villars approach, the Hamiltonian here is strictly Hermitian. Then this equation is rewritten for a one-component wave function. Expressions for the Hamiltonian and other observables' operators acting in the space of one-component wave functions are presented. The nonrelativistic and ultrarelativistic limits of these expressions are considered. A general solution to the KGF equation describing a free particle is presented.",
+      "score": 86,
+      "reason": "📐 Klein-Gordon-Fock を厳密にエルミートな1粒子相対論的量子力学として再構成。時間演算子の議論の土台になりそう⚛️",
+      "summary": "スピノル空間でハミルトン形式に書き換え、1成分波動関数に対する観測量演算子と非相対論／超相対論極限、自由解を提示✨"
+    },
+    {
+      "arxiv_id": "2607.26400",
+      "title": "Self-similar rigid rotation in anisotropic squeezed Laguerre--Gaussian beams",
+      "authors": [
+        "D. Aguirre-Olivas",
+        "G. Mellado-Villase~nor",
+        "B. M. Rodriguez-Lara"
+      ],
+      "categories": [
+        "physics.optics"
+      ],
+      "url": "https://arxiv.org/abs/2607.26400",
+      "abstract": "We introduce anisotropic squeezed Laguerre--Gaussian beams as an analytically complete family of structured paraxial scalar beams with Gouy-phase-controlled rigid rotation. Our construction organizes the Laguerre--Gaussian transverse modal Hilbert space into circular modal subspaces carrying parity-resolved single-mode $\\mathrm{su}(1,1)$ representations. The resulting optical Bargmann bases support squeezed states whose lowest-weight forms factor into Gaussian beam phases, parity-dependent polynomials, and elliptically anisotropic Gaussian envelopes. Excited seeds are polynomial deformations of the same squeezed envelope, extending the analytic construction to the full family. The Gouy-dressed squeezing parameter sets the semi-axis widths, aspect ratio, handedness, and orientation, while propagation rotates the profile by the accumulated Gouy phase without changing the scaled transverse shape. We generate these fields with synthetic phase holograms and experimentally confirm their self-similar rigid rotation. Our scalar-beam family provides a tunable anisotropic structured-light platform whose transverse orientation encodes propagation distance and may support axial localization, range finding, optical manipulation, and modal diagnostics.",
+      "score": 85,
+      "reason": "🌀 su(1,1) スクイーズド状態で LG モードを組み替え、Gouy 位相で剛体回転する光を実証。スクイーズド系の直感が育つ✨",
+      "summary": "円形モード部分空間のパリティ分解で Bargmann 基底を構成、異方 Gaussian 包絡の幅・向き・旋回をスクイーズ量が決める📐"
+    },
+    {
+      "arxiv_id": "2607.26080",
+      "title": "Quantum mechanics on the line with two origins",
+      "authors": [
+        "Abhiram Sripat"
+      ],
+      "categories": [
+        "quant-ph",
+        "math-ph",
+        "math.GN",
+        "math.MP",
+        "math.OA"
+      ],
+      "url": "https://arxiv.org/abs/2607.26080",
+      "abstract": "We study scalar and spinorial quantum dynamics on the standard line with two origins, \\[\n  \\Ltwo=(\\R_1\\sqcup\\R_2)/\\!\\sim,\n  \\qquad\n  (x,1)\\sim(x,2)\\quad\\text{for }x\\neq0, \\] equipped with its identity-glued smooth structure and flat metric. We first show that the ordinary scalar theory is insensitive to the doubled origin: every continuous map from \\(\\Ltwo\\) to a Hausdorff space factors through the quotient \\(q:\\Ltwo\\to\\R\\), while, for the natural measure, \\[\n  C^\\infty(\\Ltwo)\\cong C^\\infty(\\R),\n  \\qquad\n  L^2(\\Ltwo)\\cong L^2(\\R). \\] Accordingly, the natural scalar free Hamiltonian is unitarily equivalent to the free Laplacian on \\(\\R\\).\n  The doubled origin remains visible, however, in the spinor line associated with the nontrivial spin structure. The oriented flat structure on \\(\\Ltwo\\) admits two spin structures, distinguished by the relative transition sign on the two connected components of the chart overlap. For the nontrivial structure, these signs are opposite. This forces every continuous global spinor section to vanish at both origins and every smooth section to vanish there to infinite order. The associated first-order operator \\[\n  -i\\,\\frac{\\mathrm d}{\\mathrm dx} \\] on compactly supported smooth twisted sections is symmetric but not essentially self-adjoint: its deficiency indices are \\((1,1)\\), and a self-adjoint first-order evolution requires an additional transmission condition at the origin. The natural positive quadratic form associated with the flat twisted structure instead yields the direct sum of two Dirichlet half-line Laplacians and hence perfect reflection. Thus the ordinary scalar theory does not detect the doubled origin, whereas the nontrivially glued spinor line does, although the spin structure alone does not determine a unique unitary transmission law.",
+      "score": 85,
+      "reason": "🔍 二重原点の直線ではスピノルだけが幾何を見る。-i d/dx の欠損指数 (1,1) と接続条件の話は時間演算子論と地続き⚛️",
+      "summary": "スカラー理論は R 上と同値だが、非自明なスピン構造では大域切断が原点で消え、自己共役化には透過条件が必要と示す📐"
+    }
+  ]
+}

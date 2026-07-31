@@ -1,0 +1,141 @@
+{
+  "total_fetched": 179,
+  "scored_papers": [
+    {
+      "arxiv_id": "2607.26142",
+      "title": "State preparation and detection for quantum simulation of particle collisions",
+      "authors": [
+        "Federica Maria Surace",
+        "Sary Bseiso",
+        "John Preskill"
+      ],
+      "categories": [
+        "quant-ph",
+        "cond-mat.quant-gas",
+        "cond-mat.stat-mech",
+        "hep-lat"
+      ],
+      "url": "https://arxiv.org/abs/2607.26142",
+      "abstract": "Simulating the real-time dynamics of particle collisions is a promising application of quantum simulators, because classical methods such as tensor networks struggle to capture the highly entangled states generated in high-energy scattering. Realizing such simulations requires both the preparation of incoming wave packets and the detection of the outgoing scattering products. In this work, we propose protocols that address both challenges on programmable analog and digital quantum simulation platforms. Our state-preparation scheme uses a weakly coupled auxiliary qubit - or, more generally, a customized local quench - to inject a single quasiparticle with well-defined momentum. Because it relies only on conservation of energy, this scheme requires no fine-tuning or prior knowledge about particle eigenstates, making it robust against errors in calibration and implementation. The momenta of scattering products are then extracted, using only local measurements, from the interference pattern that arises when particles are reflected at the system's boundary. We validate our protocols through numerical simulations, first in a simple single-particle model and subsequently in two interacting many-body systems: a Rydberg atom chain and an Ising chain in a mixed field. We demonstrate how high-energy regimes, necessary to access inelastic scattering processes, can be reached through an adiabatic ramp, and how the wave packet shape can be optimized by spatially modulating the Hamiltonian. Finally, we show how the protocol can be generalized to systems with more than one spatial dimension. Our proposal provides a versatile approach to the quantum simulation of scattering phenomena, and is compatible with several quantum simulation platforms that are already experimentally available.",
+      "score": 90,
+      "reason": "🌌 捩率と非計量性が光の伝播に効く！⚡ Einstein-Cartan 系の観測的入口として複屈折・光円錐の変形は要チェック🔭✨",
+      "summary": "U(1)と射影不変性を保つ2種の電磁セクターを構成し、幾何光学極限で複屈折・モード混合・強度と振幅の関係の変更を導出📐🔬"
+    },
+    {
+      "arxiv_id": "2607.26532",
+      "title": "Massive and massless particles in Mielke--Baekler geometries",
+      "authors": [
+        "Carles Batlle",
+        "Roberto Casalbuoni",
+        "Daniele Dominici",
+        "Jos'e Figueroa-O'Farrill",
+        "Joaquim Gomis"
+      ],
+      "categories": [
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2607.26532",
+      "abstract": "The Mielke--Baekler geometries are three-dimensional\n  reductive homogeneous spacetimes together with a choice of invariant\n  connection which is compatible with a lorentzian metric. The\n  spacetimes generalise Minkowski and (anti)de~Sitter spacetimes in\n  that the invariant metric connection can have torsion, a peculiarity\n  of three dimensions. Using coadjoint orbits and the techniques of\n  nonlinear realisations, we construct worldline actions for massive\n  and massless spinning particles moving in these spacetimes. We pay\n  particular attention to the so-called teleparallel branch, in which\n  the curvature of the invariant connection vanishes. Apart from the trivial Minkowski case, this singles\n  out anti-de~Sitter spacetime, as the only of these lorentzian\n  manifolds admitting an invariant Weitzenb\\\"ock connection; that is, a\n  flat connection with torsion. The introduction of a Wess--Zumino\n  term describing spin has, as a main consequence, the appearance of\n  dynamical sectors (denoted ``regular'' and ``critical''), with a\n  different number of physical degrees of freedom. In particular, in\n  the massive case, we discuss the formulation of the dynamics in\n  terms of either the Weitzenb\\\"ock or the Levi-Civita connection, and\n  the emergence of a Papapetrou-type forcing term in the critical sector.\n  For the massless particle we study the Noether\n  symmetries of the action, which, for the spinless case, include the\n  conformal transformations. For nonzero spin, only the Killing subset\n  survives as genuine Noether transformations in the regular sector,\n  while in the critical sector any conformal Killing contribution can\n  be set to zero by a gauge transformation.",
+      "score": 90,
+      "reason": "🌀 3次元の捩率つき不変接続の上を走る粒子の世界線作用！⚡ teleparallel 分枝が AdS だけという結論が効いてる🎯✨",
+      "summary": "余随伴軌道と非線形実現で質量あり／なしスピン粒子の作用を構成、WZ 項が regular と critical のセクターを生む🧮⚙️"
+    },
+    {
+      "arxiv_id": "2607.27193",
+      "title": "Non-Minimally Coupled Chain Inflation at High Scales",
+      "authors": [
+        "Miguel Barroso Varela",
+        "Orfeu Bertolami",
+        "Katherine Freese",
+        "Evangelos Sfakianakis"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc",
+        "hep-ph",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2607.27193",
+      "abstract": "Chain inflation offers an alternative to standard slow-roll dynamics, with accelerated expansion proceeding through a sequence of rapid quantum tunneling events between metastable vacua. At the high energy scales relevant for the early Universe, scalar fields are generically expected to couple non-minimally to gravity via operators like $\\xi R\\phi^2$, allowed by symmetry and required as counterterms for interacting theories in curved spacetime. We study the dynamical and observational consequences of this coupling for chain inflation. We find the modifications to the model for arbitrary $\\xi$ and focus on interesting phenomenology for $\\xi ={\\cal O}( 10)$. We show that, in the Einstein frame, the non-minimal coupling induces a field-dependent amplification of the Euclidean bounce action, thus modifying the tunneling rate across the chain. We develop an analytic framework connecting this modified tunneling dynamics to the scalar spectral index, its running, the primordial curvature power spectrum, and the stochastic gravitational wave background from bubble collisions. As one consequence, the non-minimal coupling breaks the rigid relation between the scalar tilt and inflationary scale that drives the minimally coupled pure tilted cosine model to very low energies ($V_*^{1/4}\\lesssim 3\\,\\rm{GeV}$, where $V_*$ is the value of the inflationary potential when the CMB-relevant modes exit the horizon), allowing for viable high-scale chain inflation with $V_*^{1/4}\\sim 10^{11}\\,\\rm{GeV}$. Furthermore, non-minimally coupled chain inflation at high scales produces a peaked stochastic gravitational wave signal in the dHz-kHz bands, accessible to upcoming interferometers such as the Einstein Telescope and Cosmic Explorer. Finally, the model predicts a distinct running of the spectral index that will be testable by the Simons Observatory, making it a prime target for multi-messenger cosmology.",
+      "score": 88,
+      "reason": "✨ ξRφ² が chain inflation を高スケールへ引き上げる🚀 非最小結合の効き方が Higgs inflation 好きに刺さる🌌🔥",
+      "summary": "Einstein frame でバウンス作用が場依存に増幅、n_s の running と dHz-kHz の確率的GWを予言、ET/CE で検証可📊🎯"
+    },
+    {
+      "arxiv_id": "2607.26138",
+      "title": "A multi-axion model of inflation and dark matter",
+      "authors": [
+        "Marcos A. G. Garcia",
+        "Hansel Gordillo-Ruiz",
+        "Raul Henriquez-Ortiz",
+        "Saul Ramos-Sanchez"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.26138",
+      "abstract": "Models with extra dimensions include a tower of massive states that unavoidably contribute to cosmological dynamics. In particular, after compactification, a higher-dimensional axion gives rise to a set of states whose dynamics at early times exhibit the properties of inflation and, at late times, those of dynamical dark matter. Interestingly, natural choices of parameters imply that the inflationary trajectory in field space is approximately geodesic, meaning that inflation is effectively driven by a single inflaton corresponding to the heaviest state. In this scenario, all inflationary observables, including the emerging spectral distortions, are consistent with current observational constraints, and exact numerical solutions of the equations of motion show that reheating can consistently proceed down to temperatures of a few MeV. Furthermore, all states lighter than the inflaton only come to dominate the energy density of the Universe during the matter-dominated era, thus behaving as dark matter at late times. These states undergo a cascade of decays into radiation, while maintaining a sufficient dark-matter abundance to account for the observed relic density. The lightest dark-matter candidate remains stable on timescales far exceeding the age of the Universe, thereby satisfying even the most conservative observational constraints.",
+      "score": 87,
+      "reason": "🌀 余剰次元由来の axion 塔が、初期はインフレーション・後期は暗黒物質という二役🎁 KK 好きにはご褒美な設定✨🔭",
+      "summary": "コンパクト化した高次元 axion の状態群を数値で追跡、ほぼ測地的なインフレ軌道と数 MeV までの再加熱、残存量も整合🧮📈"
+    },
+    {
+      "arxiv_id": "2607.26868",
+      "title": "World-Line Actions in Weyl Geometry",
+      "authors": [
+        "Cezar Condeescu",
+        "Andrei Micu"
+      ],
+      "categories": [
+        "hep-th",
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2607.26868",
+      "abstract": "In this note we construct, from a gauge theory perspective, the world-line action for a particle moving on a time-like curve in Weyl geometry. The action we find is dimensionless, Weyl invariant, additive and, in general, non-local due to an open Wilson line which we have to add in order to account for a general Weyl field. In special cases, this Wilson line can be local, but the geometry becomes integrable. The action can not be used to measure the proper time as it is dimensionless and no mass parameter is allowed in the symmetric phase of the theory. We show that the usual conditions for defining proper time: affine parametrization, dimension of time and additivity supplemented by the requirement of Weyl invariance can not be fulfilled simultaneously and therefore no satisfactory notion of proper time exists in the symmetric phase. Under spontaneous symmetry breaking the particle acquires a mass, the action becomes Riemannian and the proper time can be again defined. We also construct a classically equivalent quadratic action by using an einbein on the world-line and show that the non-locality can be seen to arise from integrating out a constrained field.",
+      "score": 86,
+      "reason": "⚖️ Weyl 不変な世界線作用は無次元で Wilson 線つき非局所🌀 対称相では固有時が定義できないという主張が刺激的✨🔍",
+      "summary": "ゲージ理論の視点で Weyl 幾何上の粒子作用を構成、自発的破れで質量と Riemann 的作用、そして固有時が復活📐🧩"
+    },
+    {
+      "arxiv_id": "2607.26122",
+      "title": "Qubit-qubit-qutrit quantum correlations in $H \\to f \\bar f V$",
+      "authors": [
+        "Michal Banacki",
+        "Misaki Ohta",
+        "Abhyoudai S. Shaleena",
+        "Pawel Caban",
+        "Michal Eckstein",
+        "Kazuki Sakurai",
+        "Michael Spannowsky",
+        "Pawel Horodecki"
+      ],
+      "categories": [
+        "quant-ph",
+        "hep-ex",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.26122",
+      "abstract": "We perform an extensive analysis of the quantum correlations carried by the qubit-qubit-qutrit pure state arising in the decay of a massive scalar into a fermion-antifermion pair and a massive gauge boson, $H \\to f \\bar f V$, specialising to the Higgs boson decay $h \\to \\tau^- \\tau^+ Z$. Working with the exact tree-level spin state and its systematic expansion around the massless-fermion limit, we obtain analytic control over the entire phase space: the bipartite entanglement measures, the genuine $2 \\otimes 2 \\otimes 3$ entanglement structure (the Miyake classification), as well as the Bell-inequality violations and the non-stabiliserness (magic) are all mapped and reproduced by compact formulas. The bipartite measures exhibit a monogamy-like trade-off between the fermion pair and the fermion-boson pairs. The state is genuinely $2 \\otimes 2 \\otimes 3$ entangled over almost the entire phase space, most strongly in the collinear regions. We derive, for the first time, semi-analytical expressions for the tight $4 \\times 4 \\times 2$ Bell inequalities of the $2 \\otimes 2 \\otimes 3$ system, generalising the optimisation previously available only for three qubits, and find that the local-hidden-variable bound is violated over the entire phase space, reaching within a few per cent of the quantum bound at the upper endpoint of the di-tau mass spectrum. We further extend the stabiliser R\\'enyi entropy and the non-local magic to systems with unequal local dimensions, and show that the near-endpoint state carries almost exactly one bit of non-local magic, which peaks at $\\log_2 \\frac{27}{7} \\simeq 1.95$ in the collinear regions. The differential decay rate concentrates precisely in the most nonclassical region of the phase space.",
+      "score": 85,
+      "reason": "🎲 h→ττZ の qubit-qubit-qutrit 状態を全位相空間で解剖⚛️ Bell 破れも magic も解析式で出る力技が痛快✨🔬",
+      "summary": "厳密なツリーレベルのスピン状態から 2⊗2⊗3 の真の絡み合い、4×4×2 Bell 不等式、非スタビライザー性を評価📊🧮"
+    },
+    {
+      "arxiv_id": "2607.26601",
+      "title": "Signature of Magnon-Raman Phonon-Polariton Condensation in a Cavity via Transverse Pumping",
+      "authors": [
+        "Subrata Chakraborty",
+        "Shishir Kumar Pandey"
+      ],
+      "categories": [
+        "physics.optics",
+        "cond-mat.str-el"
+      ],
+      "url": "https://arxiv.org/abs/2607.26601",
+      "abstract": "Polaritons---hybrid light-matter quasiparticles---provide a versatile platform for dynamically controlling a wide range of condensed matter systems. While conventional polaritonic platforms rely on direct dipole coupling, controlling dipole-forbidden or Raman-active lattice and spin excitations remains challenging due to optical selection rules and the limitations of THz cavities. Here, we propose a theoretical platform for realizing a continuous-wave magnon--Raman phonon--polariton condensate. By embedding a magnetic medium hosting strongly coupled magnon and Raman-active phonon (MRP) modes inside an optical microcavity under continuous-wave transverse laser pumping, we derive the stationary-state phase diagram and demonstrate the emerging signature of distinct MRP condensation phases under critical conditions. Furthermore, since the bare magnon frequency is tunable via an external magnetic field, we show that the transverse pump frequency and the external magnetic field-dependent magnon simultaneously as highly flexible control parameters for exploring and controlling macroscopic quantum phenomena at the interface of cavity quantum optics, lattice dynamics, and quantum magnetism.",
+      "score": 85,
+      "reason": "🫧 泡壁のさざ波が重い粒子の生成を跳ね上げる⚡ 一次相転移からの非熱的生成に新チャネル、宇宙論的示唆も大きい🌌✨",
+      "summary": "振動する厚い壁プロファイルで分裂過程の遷移確率を導出、壁の微細構造との共鳴的な運動量交換が生成率を支配🧮🔥"
+    }
+  ]
+}
