@@ -1,0 +1,42 @@
+{
+  "total_fetched": 118,
+  "scored_papers": [
+    {
+      "arxiv_id": "2608.13736",
+      "title": "Beyond $\\Delta m^2$: Absolute Mass Sensitivity in Neutrino Oscillations",
+      "authors": [
+        "Gustavo F. S. Alves",
+        "Andr'e L. C. de Gouv^ea",
+        "Joshua Kaler",
+        "Shirley Weishi Li",
+        "Pedro A. N. Machado"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.13736",
+      "abstract": "Conventional wisdom says that neutrino oscillations measure only mass-squared differences and not the absolute neutrino mass scale. This is true, however, only at leading order in the expansion parameters $m_i/E$, the ratios of the neutrino masses $m_i$ ($i=1,2,3$) to the neutrino energy $E$. At next-to-leading order, the oscillation phase includes terms proportional to $m_i^4-m_j^4 = \\Delta m^2_{ij}(m_i^2+m_j^2)$, and is therefore sensitive to the absolute mass scale. In this paper, we derive the next-to-leading-order corrections using a wave-packet treatment and taking into account the neutrino-production kinematics. We then apply this result to reactor antineutrinos and find that the JUNO experiment is sensitive to neutrino masses of a few hundred keV. While not competitive with existing bounds from beta decay, electron capture, and cosmology, neutrino oscillations provide a novel, complementary probe of the neutrino mass scale, with sensitivity to a different combination of neutrino masses.",
+      "score": 93,
+      "reason": "波束形式でニュートリノ振動の位相を解析、次順序補正が絶対質量スケールに感度を持つと発見🌊✨まさに専門ど真ん中💥",
+      "summary": "JUNOで反応炉ニュートリノを使えば数百keVの質量感度に届くと評価、振動実験からの新しい絶対質量プローブ📊🔬"
+    },
+    {
+      "arxiv_id": "2608.14269",
+      "title": "Nonstandard Solution for Anomaly Cancellation as Seesaw Neutrino Origin in the SM",
+      "authors": [
+        "Zi-Yue Zou",
+        "Chia-Wei Liu",
+        "Zhong-Lv Huang",
+        "Xiao-Gang He"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.14269",
+      "abstract": "For fixed Standard Model (SM) non-Abelian representations of 15 chiral fermions with arbitrary hypercharges, anomaly cancellation admits the usual assignment and a distinct nonstandard solution. In the latter, the colored exotic quark and exotic lepton weak doublets and exotic lepton singlet have zero hypercharge, whereas the two colored exotic quark singlets carry opposite hypercharges $-q$ and $q$. The exotic neutral lepton singlets naturally play the role of the heavy neutrinos. The minimal model with two exotic lepton copies gives a rank-two seesaw, the minimal seesaw model, with one massless active neutrino and predicts $m_{\\beta\\beta} = 1.2 \\text{-} 4.1 \\, \\mathrm{meV}$ for normal ordering or $15.9\\text{-}48.9 \\,\\mathrm{meV}$ for inverted ordering. In a direct SM realization, generating exotic quark masses through the SM Higgs mechanism forces the exotic quarks to carry electric charges $\\pm 1/2$. A separate $\\mathrm{SU}(2)_{L'}$ realization of the nonstandard solution can allow exotic quarks from several TeV to $10\\,\\mathrm{TeV}$ with order-one Yukawa couplings. In this model, the charged exotic quarks and leptons carry electric charges $\\pm q$. In both cases, the lightest exotic quark and lepton are stable, but suitable choices of their charges and masses can satisfy experimental constraints.",
+      "score": 85,
+      "reason": "SMのアノマリー相殺条件から非標準解を発見、エキゾチックレプトン一重項が自然に重いニュートリノ役を担う🧩🔥",
+      "summary": "15個のカイラルフェルミオンの非標準アノマリー相殺解でランク2シーソーが実現、ββ崩壊の質量予測も🐘⚡"
+    }
+  ]
+}
