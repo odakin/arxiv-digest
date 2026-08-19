@@ -1,0 +1,53 @@
+{
+  "total_fetched": 262,
+  "scored_papers": [
+    {
+      "arxiv_id": "2608.16510",
+      "title": "The Unidirectional Current as First Arrival-Time POVM: An MS-Kijowski Identity, Physical Interpretation, and Mathematical Applications",
+      "authors": [
+        "Avi Marchewka"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.16510",
+      "abstract": "Detector-based first-arrival models and operator-based arrival-time observables provide two conceptually distinct approaches to the quantum time-of-arrival problem. Here we connect these approaches by using the positive unidirectional first-arrival current of Marchewka and Schuss (MS) as the basis for constructing a family of positive arrival-time operators and, after normalization, an arrival-time POVM. The first-arrival character is inherited from the dynamics with a Dirichlet boundary, while the detector response is introduced at the amplitude level through a non-negative spectral function $\\lambda(k)$.\n  For a one-dimensional free particle, resolution of the identity uniquely selects $\\lambda(k)=\\frac{\\pi}{4k}$, yielding an arrival-time POVM. The normalized unidirectional current can therefore be interpreted as a generalized Born-rule probability density rather than as a hazard rate, as in the original MS formulation.\n  We further show that the normalized one-sided MS amplitude coincides, up to an irrelevant phase, with the corresponding momentum-sector amplitude in Kijowski's arrival-time distribution. Consequently, the two directional contributions in Kijowski's distribution can be reproduced by two first-arrival problems defined on opposite sides of the boundary. This establishes an equivalence between the resulting arrival-time statistics while emphasizing the different physical interpretations: MS describes a first-arrival process with coherent momentum components, whereas Kijowski's POVM treats the two momentum sectors as separate directional contributions.\n  Thus, the normalized unidirectional current provides a POVM description of first arrival at a point, combining detector-based dynamics with a positive-operator measurement structure.",
+      "score": 94,
+      "reason": "まさに専門分野ど真ん中の論文⏱️✨ arrival time問題のPOVM構成、Kijowski分布との関係も要チェック🔍",
+      "summary": "MS最初到達電流からarrival-time POVMを構成し、Kijowski分布の運動量成分と同一であることを示す理論論文。"
+    },
+    {
+      "arxiv_id": "2608.16732",
+      "title": "The preferred-time problem in the conditional interpretation of time",
+      "authors": [
+        "Ovidiu Cristinel Stoica"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.16732",
+      "abstract": "In timeless formulations of quantum theory, the Page-Wootters proposal (PW) recovers time and dynamics as relative clock-and-world states. By interpreting the total timeless system as a clock entangled with the world, the states having a definite clock reading appear to recover the temporal states of the world as relative states, and dynamics emerges. But an entangled state admits infinitely many decompositions as a superposition of product states, each decomposition corresponding to a different but equally valid time operator of the same clock system. Different valid choices of the time operator for the same clock system lead to different physical histories, where the world states in a history are superpositions of the world states from another history. Fixing one operator as \"the\" clock time would import the temporal meaning that the Page-Wootters proposal is meant to explain in the first place. Therefore, the interpretation of PW that the world state is passively conditioned on the clock state cannot hold. The timeless state is resolved into time-dependent states by the intrinsic pointer observables of the world, without having to outsource the role of the time operator to a separate clock. Fortunately, the formalism of PW remains valid, provided that it is interpreted in terms of intrinsic pointer observables of the world itself.",
+      "score": 90,
+      "reason": "Page-Wootters形式のtime operator問題、まさに専門テーマのど真ん中📐⏰ 一読の価値ありそう👀",
+      "summary": "PW提案で時計のtime operatorの選び方が一意でない問題を指摘し、世界の内在的pointer observableで解決を図る。"
+    },
+    {
+      "arxiv_id": "2608.16107",
+      "title": "Unfolding the low-energy reactor neutrino flux from CE$\\nu$NS data with a finite Dirac sum",
+      "authors": [
+        "Muping Chen",
+        "Graciela Gelmini",
+        "Danny Marfatia",
+        "Koichiro Yasuda"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.16107",
+      "abstract": "We present a novel method to analyze coherent elastic neutrino--nucleus scattering (CE$\\nu$NS) data to extract the reactor antineutrino spectrum below the inverse beta decay threshold of 1.8 MeV, where it remains unmeasured. Adapting halo-independent analysis techniques developed for direct dark matter detection, we show how to obtain a best-fit and a pointwise confidence band for the integrated neutrino flux, without assuming a parametric form or smoothness prior for the spectrum. In our approach, which follows from convex geometry arguments, the differential neutrino rate is written as a linear combination of Dirac delta functions -- a finite Dirac sum (FDS) -- with a maximum number of terms determined by the number of data points. We apply our ``FDS method'' to mock CE$\\nu$NS data for a low-threshold Ge detector and compare it with Tikhonov-regularized unfolding.",
+      "score": 86,
+      "reason": "共同研究者の安田さん(UCLA)の新作論文発見🎉 テーマはニュートリノ物理で普段とは違うみたい👀",
+      "summary": "CEvNSデータから未測定の低エネルギー原子炉ニュートリノスペクトルを、有限Diracサムで無仮定に抽出する新手法。"
+    }
+  ]
+}

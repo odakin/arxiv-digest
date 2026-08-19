@@ -1,0 +1,41 @@
+{
+  "total_fetched": 262,
+  "scored_papers": [
+    {
+      "arxiv_id": "2608.16524",
+      "title": "Spectral filtering and crystal length as control parameters for conditional correlations in quantum imaging",
+      "authors": [
+        "Hashir Kuniyil",
+        "Asad Ali",
+        "Mohammadreza Rezaee",
+        "Saif Al-Kuwari"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.16524",
+      "abstract": "We establish spectral filtering as a control parameter for the conditional momentum and position correlations of SPDC biphotons used in quantum imaging. The conditional momentum uncertainty in spontaneous parametric down-conversion (SPDC) is strongly crystal-length and spectral-filter dependent along the walk-off axis; therefore, the effect is observed only in critically phase-matched (CPM) crystals such as $\\beta$-barium borate (BBO) crystals, while quasi-phase-matched (QPM) crystals and the non-walk-off axis of BBO remain scaled strictly according to the standard pump waist size ($w_0$) dependent scaling law $1/w_0$-independent of the filter. In position space, the spectral-filter effect is universal and produces a flat-dip-rise (FDR) profile in every crystal class examined. Although this FDR profile was previously demonstrated in BBO only in the nondegenerate regime, our results establish its generality: the FDR dip is also present at exact degeneracy in QPM crystals, an unexpected feature that was previously thought to deliver a resolution advantage in the nondegenerate regime alone. Our treatment applies to all SPDC-based quantum-imaging regimes (including CPM and QPM crystals, walk-off and non-walk-off axes, degenerate and nondegenerate emission, and signal and idler filtering) and offers enhanced quantum-imaging resolution via the design rules presented-most prominently along the walk-off axis of CPM crystals (in far field) and across all transverse axes in the near field.",
+      "score": 96,
+      "reason": "SPDC光子対の条件付き運動量・位置相関を結晶長とスペクトルフィルタで制御🔬✨まさに武田さんの研究ど真ん中な一本💡",
+      "summary": "BBO(CPM)結晶とQPM結晶でSPDC条件付き相関の結晶長・フィルタ依存性を比較、flat-dip-rise形状の一般性を実証🔎📐"
+    },
+    {
+      "arxiv_id": "2608.16107",
+      "title": "Unfolding the low-energy reactor neutrino flux from CE$\\nu$NS data with a finite Dirac sum",
+      "authors": [
+        "Muping Chen",
+        "Graciela Gelmini",
+        "Danny Marfatia",
+        "Koichiro Yasuda"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.16107",
+      "abstract": "We present a novel method to analyze coherent elastic neutrino--nucleus scattering (CE$\\nu$NS) data to extract the reactor antineutrino spectrum below the inverse beta decay threshold of 1.8 MeV, where it remains unmeasured. Adapting halo-independent analysis techniques developed for direct dark matter detection, we show how to obtain a best-fit and a pointwise confidence band for the integrated neutrino flux, without assuming a parametric form or smoothness prior for the spectrum. In our approach, which follows from convex geometry arguments, the differential neutrino rate is written as a linear combination of Dirac delta functions -- a finite Dirac sum (FDS) -- with a maximum number of terms determined by the number of data points. We apply our ``FDS method'' to mock CE$\\nu$NS data for a low-threshold Ge detector and compare it with Tikhonov-regularized unfolding.",
+      "score": 85,
+      "reason": "共同研究者の安田さん論文📄CEνNSデータから原子炉νスペクトルを再構成する新手法、専門はズレるけど一応チェック✨",
+      "summary": "CEνNS散乱データにダークマター解析のhalo非依存手法を応用、有限Diracsum法で低エネルギー原子炉反ν流束を再構成🧮"
+    }
+  ]
+}
