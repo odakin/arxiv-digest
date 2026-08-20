@@ -1,0 +1,60 @@
+{
+  "total_fetched": 176,
+  "scored_papers": [
+    {
+      "arxiv_id": "2608.16933",
+      "title": "Effective propagators of flavor neutrinos",
+      "authors": [
+        "Maxim Dvornikov (IZMIRAN)"
+      ],
+      "categories": [
+        "hep-ph",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2608.16933",
+      "abstract": "We analyze the possibility to construct propagators of flavor neutrinos, which are particles with indefinite masses. This kind of propagators was used previously while studying neutrino flavor oscillations in frames of the quantum field theory (QFT) based approach. Starting with the operator and the path integral formulations of the QFT, we obtain that the naive derivation of propagators for flavor neutrinos violates the basic principles of the QFT. Nevertheless, we can still construct the effective propagator of flavor neutrinos considering the mass mixing term as a perturbation. In this situation, the effective propagator arises from the solution of a Dyson-like equation. We use the derived effective propagator to rederive the quantum mechanical transition probability for neutrino oscillations in vacuum in frames of the QFT. The application of the obtained results to neutrino oscillations in background matter is also considered.",
+      "score": 88,
+      "reason": "フレーバーニュートリノの有効伝播関数をQFTから厳密導出、波束形式のS行列的視点とも相性◎🌊振動を干渉現象として捉える立場に直結",
+      "summary": "混合質量項を摂動としてDyson方程式を解き振動確率を再現、物質中への拡張も⚛️"
+    },
+    {
+      "arxiv_id": "2608.18030",
+      "title": "Three-qubit entanglement in the Bethe-Heitler process",
+      "authors": [
+        "Haotian Cao",
+        "Yuxun Guo",
+        "Yoshitaka Hatta",
+        "Jakob Schoenleber"
+      ],
+      "categories": [
+        "quant-ph",
+        "hep-ph",
+        "nucl-th"
+      ],
+      "url": "https://arxiv.org/abs/2608.18030",
+      "abstract": "The familiar Bethe-Heitler process on the proton target $e+p\\to e+p+\\gamma$ is transformed into a laboratory for studying multiparticle entanglement. We discuss how bipartite and genuine tripartite entanglement between the final state electron, proton and photon are built up by successive $1\\to 2$ and $2\\to 2$ elementary interactions. We validate our argument by simulating events. Below 5 GeV center-of-mass energy, we identify more than 900 Greenberger-Horne-Zeilinger (GHZ) states and 1200 W states, each with a fidelty exceeding 99%.",
+      "score": 86,
+      "reason": "Bethe-Heitler過程を舞台に電子・陽子・光子の三体エンタングルメントを解析、GHZ/W状態を99%超の忠実度で同定🎇コライダーBellテストの新舞台",
+      "summary": "1→2, 2→2過程の逐次相互作用でエンタングルメントが構築される様をシミュレーションで検証🔬"
+    },
+    {
+      "arxiv_id": "2608.17685",
+      "title": "Entanglement of back-to-back gluon pair",
+      "authors": [
+        "Lei Yang",
+        "Wen-Hao Yao",
+        "Yu-Kun Song",
+        "Shu-Yi Wei"
+      ],
+      "categories": [
+        "hep-ph",
+        "hep-ex"
+      ],
+      "url": "https://arxiv.org/abs/2608.17685",
+      "abstract": "We investigate the polarization correlation of back-to-back gluon pairs in unpolarized $pp$ collisions and compute their density matrix. For gluon pairs produced through $q\\bar{q}$ annihilation, the linear polarization correlation is sizable, even reaching unity when the final-state gluons are emitted perpendicular to the beam direction in the $q\\bar{q}$ rest frame. Combining with the fact that their helicity remains maximally correlated across different scattering angle, the gluon pair system thus resides in a maximally entangled Bell state in this configuration. In contrast, for the $gg\\to gg$ channel, both the helicity and linear polarization correlations are considerably suppressed, producing a separable state. Nonetheless, it still retains an appreciable linear polarization correlation of about $11\\%$ at central scattering. Employing the anisotropy of energy correlators, we demonstrate that the linear polarization correlation of gluon pairs can be extracted from the $\\cos 2\\Delta\\Phi$ modulation.",
+      "score": 85,
+      "reason": "back-to-backグルーオン対の偏極相関を計算、qq̄消滅でBell状態並みの最大エンタングルメントを実現🎯コライダーでのエンタングルメント研究に直結",
+      "summary": "helicityと線偏極相関からグルーオン対の密度行列を構成、角度相関からの抽出法も提示📐"
+    }
+  ]
+}

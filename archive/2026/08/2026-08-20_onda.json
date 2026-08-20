@@ -1,0 +1,75 @@
+{
+  "total_fetched": 176,
+  "scored_papers": [
+    {
+      "arxiv_id": "2608.17212",
+      "title": "Investigating The Effects of Early Dark Energy on Large-scale Structure Within the EDENS Suite",
+      "authors": [
+        "Sophie Hodgson",
+        "Patrick Wells",
+        "Katrin Heitmann",
+        "Niyantri Krishnan"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2608.17212",
+      "abstract": "Early Dark Energy (EDE) models have been suggested as a possible solution to the so-called Hubble Tension, a discrepancy of the measurement of the Hubble constant at early and late times. In this paper, we investigate the effects of EDE on large-scale structure probes of cosmology via the EDENS (Early Dark Energy N-body Simulations) suite. The EDENS suite extends the reach of available EDE simulations considerably by adding volume and resolution. We derive several key metrics, such as the halo mass function, the nonlinear power spectrum, and the concentration-mass relation. Furthermore, we implement a halo occupation distribution model to populate the simulations with synthetic galaxies. This allows us to measure the galaxy-galaxy correlation function and galaxy bias. We choose an EDE model that is consistent with observations across several probes and allows for the increase of the present day value of the Hubble constant to resolve the Hubble tension. This model adds three more parameters to the standard $\\Lambda$CDM model. Additionally, it requires small shifts in the best-fit $\\Lambda$CDM cosmological parameters to accommodate existing observational constraints. We find significant differences between the standard $\\Lambda$CDM model and the EDE model, suggesting that some of our chosen metrics may allow us to distinguish EDE from $\\Lambda$CDM, and future observations should help further constrain possible cosmological models. We release outputs from our simulations via the OpenCosmo data portal.",
+      "score": 89,
+      "reason": "EDE理論をN体シミュレーションで検証、ハローや銀河相関関数への影響を定量化🌌LiteBIRD文脈のH0緊張解決策として要チェック📊",
+      "summary": "EDENSシミュレーションでEDEとΛCDMのLSS予言差を提示、将来観測での識別可能性を議論🔭"
+    },
+    {
+      "arxiv_id": "2608.17215",
+      "title": "Removability criterion for radiative corrections to the Starobinsky attractor in weakly nonlocal gravity",
+      "authors": [
+        "Ekapob Kulchoakrungsun",
+        "Phongpichit Channuie",
+        "Daris Samart"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2608.17215",
+      "abstract": "Radiative corrections at the percent level can shift the predictions of $\\alpha$-attractor and Starobinsky-like models into the region of the $(n_s,r)$ plane preferred by ACT DR6. We show that the decisive property is not the size of a correction but whether it is removable. In the slow-roll $N$-formalism the observables are functionals of $\\eps(N)$, and equality of $\\eps(N)$ on an interval reconstructs the potential up to an amplitude rescaling and a shift of the canonical field. A larger class, selected by $(V/V')\\Delta'={\\rm const}$, preserves the leading predictions and provides a criterion for any proposed deformation. In weakly nonlocal completions of $R+R^{2}$ the improvement scale $\\mu=H(\\phi)$ makes the renormalization-group time one half of the logarithm of the tree potential, so the local one-loop flow passes the test and evolves the model onto the E-model family $V\\propto(1-e^{-\\sqrt{2/3}\\,\\phi/\\mpl})^{p}$ with $p=2+K$. Since the divergent local beta functions of these super-renormalizable completions are one-loop exact, no higher-loop local running modifies this picture. The induced shifts are $\\ord(\\ln N/N^{2})$ in $n_s$, obtained in closed form for the removable part and numerically for the rest. The number of $e$-folds, which the criterion does not protect, contributes at the \\red{$22\\%$} level with an opposite sign. Matter-induced corrections fail the same test at leading order, which is why they shift the predictions. Among the deformations proposed since ACT DR6, an $R^{n}$ term in $f(R)$ gives $(V/V')\\Delta'=\\ord(N^{n-1})$, so only $n=2$ is removable, and no deformation that increases $n_s$ satisfies the criterion. For Standard Model matter, the removable channel is fixed by the Higgs nonminimal coupling alone and is $\\ord(10^{-11})$, because the measured amplitude sets the coefficient of $R^{2}$ to $5.1\\times10^{8}$.",
+      "score": 88,
+      "reason": "Starobinsky型インフレーションの輻射補正の除去可能性を判定、ACT DR6が好むn_s,rへの影響を解析📈テンソルスペクトル予言の頑健性に直結",
+      "summary": "ε(N)一定条件で除去可能な補正を分類しHiggs非最小結合の寄与も評価🌠"
+    },
+    {
+      "arxiv_id": "2608.17002",
+      "title": "Spectral Fingerprints Beyond Degeneracies in Primordial Gravitational-Wave Sources",
+      "authors": [
+        "Subhasis Maiti"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.17002",
+      "abstract": "Stochastic gravitational-wave backgrounds from different primordial mechanisms can produce identical peak frequencies and amplitudes, obscuring their physical origin. We show that the broadband spectral shape breaks this degeneracy. Comparing scalar-induced and gauge-field-induced gravitational waves for identical primordial spectral profiles and cosmological evolution, we find that their spectra retain distinct source-dependent signatures even after matching both the peak frequency and amplitude. While the two mechanisms share a universal deep-infrared behavior, their tensor-source kernels generate different peak morphologies and ultraviolet asymptotic scalings. In particular, the ultraviolet spectrum provides a direct diagnostic of the underlying source mechanism that is insensitive to the overall normalization. Our analysis shows that broadband spectral information contains additional source-dependent signatures that are inaccessible from peak observables alone.",
+      "score": 87,
+      "reason": "原始重力波の広帯域スペクトル形状がスカラー誘起とゲージ場誘起の起源を区別可能と指摘🌊ピーク周波数・振幅が同じでも判別できる🔍",
+      "summary": "テンソル源核のUV漸近挙動が起源ごとに異なる特徴を残すことを示す📡"
+    },
+    {
+      "arxiv_id": "2608.17208",
+      "title": "Dark Energy in the $w-c_s^2$ Plane",
+      "authors": [
+        "Oem Trivedi",
+        "Robert J. Scherrer",
+        "Alfredo Gurrola"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2608.17208",
+      "abstract": "We introduce a unified framework for dark energy diagnostics based on the joint phase space of the equation of state $w$ and the sound speed $c_s^2$. The resulting $w-c_s^2$ plane provides a minimal extension beyond background cosmology, capturing both the expansion history and perturbative properties within a single representation. Building on this framework, we define the microphysical flow parameter $F=dc_s^2/dw$, which encodes the dynamical relation between background evolution and perturbative response. We derive a direct connection between the present-day value $F_0$, $H_0$, and $\\sigma_8$, and show that the microphysical flow parameter enables a hierarchy of increasingly stringent consistency tests that substantially reduce the viable dark energy theory space. We further demonstrate how trajectories in the $w-c_s^2$ plane distinguish models that are nearly degenerate at the level of $w(a)$, including canonical quintessence, Chaplygin gas models, and noncanonical scalar field realizations. This framework provides a compact phenomenological bridge between dark energy microphysics and future perturbation-sensitive observations, establishing $F_0$ as a useful discriminator of the kinetic structure underlying cosmic acceleration.",
+      "score": 85,
+      "reason": "w-c_s^2平面でダークエネルギーを診断、F_0がH_0とσ_8を直接結びつける新パラメータとして提案📐H0/S8緊張の議論に効く",
+      "summary": "微視的流れパラメータFで縮退したモデルを識別する枠組みを構築🧭"
+    }
+  ]
+}
