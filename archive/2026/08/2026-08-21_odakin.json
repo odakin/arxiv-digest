@@ -1,0 +1,92 @@
+{
+  "total_fetched": 160,
+  "scored_papers": [
+    {
+      "arxiv_id": "2608.18649",
+      "title": "Broadband Chiral Primordial Gravitational Waves from Constant-roll Inflation in Parity-violating Symmetric Teleparallel Gravity",
+      "authors": [
+        "Xu Zhang",
+        "Chang Liu",
+        "Chengjie Fu"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2608.18649",
+      "abstract": "We investigate primordial gravitational waves (GWs) generated during constant-roll inflation in a parity-violating extension of symmetric teleparallel gravity. The parity-violating interactions leave the background evolution and linear scalar perturbations unchanged, while inducing velocity birefringence in the tensor sector. Consequently, one of the two circular polarization states undergoes tachyonic amplification, producing a strongly blue and nearly fully chiral tensor spectrum from the cosmic microwave background (CMB) to interferometer scales. We identify viable constant-roll parameter regions consistent with current CMB constraints and determine the largest coupling strength compatible with both CMB B-mode measurements and the LIGO-Virgo-KAGRA (LVK) O1--O4a bound on the stochastic GW background. The predicted CMB B-mode spectra may be detectable by LiteBIRD, while the enhanced high-frequency signal could be accessible to the LISA--Taiji network and LVK O5 run. The model also predicts nonvanishing TB and EB correlations. These results highlight the potential of combining CMB and multi-band GW observations to test parity-violating gravity during inflation.",
+      "score": 88,
+      "reason": "🚀テレパラレル重力×パリティ破れ×インフレーション、ど真ん中の組み合わせ✨ CMBからLISAまで全帯域でカイラルGW🌀 LiteBIRDで見える🔭",
+      "summary": "対称テレパラレル重力にパリティ破れ項を入れると背景・スカラー摂動は不変のままテンソルだけ複屈折⚡片方の円偏光がタキオン増幅されて青い準完全カイラルスペクトル🌊TB・EB相関も非ゼロ"
+    },
+    {
+      "arxiv_id": "2608.18200",
+      "title": "Heating Up the Black Hole X-ray Binary Accretion Disk by Superradiance",
+      "authors": [
+        "Antonios Kyriazis",
+        "Fengwei Yang",
+        "Siyu Zhou"
+      ],
+      "categories": [
+        "astro-ph.HE",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.18200",
+      "abstract": "A superradiant cloud of ultralight axions around a black hole, that is part of an X-ray binary system, can heat up its accretion disk and be detected by the thermal X-ray spectrum emitted by the disk. We consider a derivative coupling of the axions to the plasma fermions and calculate the emissivity of the inverse bremsstrahlung process that results in a temperature fluctuation of the disk. Based on the thin-disk model and the multicolor disk model, we derive the thermal spectrum with axion heating, which shows an enhanced thermal photon flux and a red-/blue- shifted peak spectral frequency. A single bump hunting search of the axion heating signature in the thermal spectrum of a $10M_\\odot$ black hole X-ray binary with a spectral measurement sensitivity of 10\\% (1\\%) can derive the constraint on axion-electron coupling $|g_{ae}|\\gtrsim7.5\\times 10^{-12} ~(2.4 \\times 10^{-12})$ for axion mass $m_a=5.2\\times 10^{-12}\\,$eV in a saturated $|211\\rangle$ state, and $|g_{ae}|\\gtrsim4.5\\times 10^{-12} ~(1.4 \\times 10^{-12})$ for axion mass $m_a=1.0\\times10^{-11}\\,$eV in a saturated $|322\\rangle$ state. The projected sensitivities are competitive with those from XENONnT. A detailed continuum fitting can further improve the detectability and provide a complementary bound to the black hole spin-down measurement.",
+      "score": 86,
+      "reason": "🌀超放射で降着円盤が温まる話🔥 アクシオン雲×X線連星の熱スペクトルという新しい探索窓⭐ XENONnT級の感度が出るのが面白い🎯✨",
+      "summary": "アクシオンとプラズマ中電子の微分結合で逆制動放射の放射率を計算🧮 薄い円盤モデルの熱スペクトルにバンプ+ピーク偏移が出て、g_ae ≳ 10⁻¹¹ を制限🔭"
+    },
+    {
+      "arxiv_id": "2608.18506",
+      "title": "Axion-like particle at the 10 GeV scale: Higgs decays to wide jets and photons",
+      "authors": [
+        "Bogdan A. Dobrescu",
+        "Subhojit Roy"
+      ],
+      "categories": [
+        "hep-ph",
+        "hep-ex"
+      ],
+      "url": "https://arxiv.org/abs/2608.18506",
+      "abstract": "If axion-like particles (ALPs) exist, they may have renormalizable couplings only to the Higgs boson ($h^0$) or to fields beyond the Standard Model. An ALP $A_h$ lighter than about 60 GeV would allow the $h^0 \\to A_h A_h$ decay, with a branching fraction determined by the explicit global symmetry breaking responsible for the main contributions to the $A_h$ mass ($M_A$). New heavy fields that carry color and electric charge, such as squarks, can mediate $A_h$ decays at one loop mostly into gluons, but also into photons. Exploring LHC sensitivity to $A_h$, we show that the $h^0 \\to A_h A_h \\to (gg)(\\gamma\\gamma)$ channel leads to a diphoton resonance at $M_A$ whose production rate is consistent with a $3.5\\sigma$ excess reported by a CMS search at $M_A \\approx 13.6$ GeV. For $M_A$ of order 10 GeV, the $h^0 \\to A_h A_h \\to 4g$ cascade decay leads to two wide jets (each with 2-prong substructure) that form a resonance at 125 GeV.",
+      "score": 86,
+      "reason": "💡ヒッグスにしか繋がらないALPというポータル的設定🚪 CMSの13.6 GeV 3.5σ超過を h→AA→(gg)(γγ) で説明🎯 検証チャンネルも具体的✨🔥",
+      "summary": "カラー・電荷を持つ重い場（スクォーク等）が1ループでALP→gg, γγを媒介🌀 M_A~10 GeV なら h→4g が2本の wide jet（2-prong）となって125 GeV共鳴に⚡"
+    },
+    {
+      "arxiv_id": "2608.19019",
+      "title": "Quantifying uncertainty in the neutron-star equation of state using point estimates and posterior distributions",
+      "authors": [
+        "Andr'e Goncalves da Silva",
+        "Ricardo Luciano Sonego Farias"
+      ],
+      "categories": [
+        "astro-ph.HE",
+        "hep-ph",
+        "hep-th",
+        "nucl-th"
+      ],
+      "url": "https://arxiv.org/abs/2608.19019",
+      "abstract": "We investigate uncertainty quantification for the neutron-star equation of state (EOS) by comparing point-estimation and distributional inference approaches using the same Chebyshev and piecewise-linear parameterizations. We combine neutron-star mass--radius and gravitational-wave tidal-deformability information within Bayesian, multilayer-perceptron (MLP), and normalizing-flow frameworks. Although the methods yield similar mean EOS behavior, the deterministic MLP produces substantially narrower uncertainty bands at high densities. We show that this behavior is associated with the point-estimation objective, which maps degenerate solutions toward the conditional mean rather than representing the full parameter posterior. By contrast, the normalizing flow yields distributions more consistent with the Bayesian inference. Our results demonstrate that reliable uncertainty quantification of the high-density EOS requires methods that represent conditional probability distributions rather than only point estimates.",
+      "score": 86,
+      "reason": "📊ベイズ vs 点推定の不確かさ評価、まさに errors-on-errors 的な論点🎯 MLPが高密度側で誤差を過小に出す構造を名指しで指摘してるのが良い🔥✨",
+      "summary": "同じChebyshev/区分線形パラメトリゼーションでベイズ・MLP・正規化フローを比較🧮 平均EOSは似るがMLPは高密度で誤差帯が細すぎ、条件付き平均に潰れるのが原因📉"
+    },
+    {
+      "arxiv_id": "2608.18162",
+      "title": "Order-Sensitive Quantum Distinguishability in Hawking Greybody Scattering",
+      "authors": [
+        "Nazir A. Ganaie"
+      ],
+      "categories": [
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2608.18162",
+      "abstract": "We study how composition order becomes operationally distinguishable when a phase-sensitive Gaussian control is applied before or after black-hole greybody scattering. The scattering process is formulated on calibrated asymptotic mode ports as a bosonic attenuation channel, and the control is a calibrated squeezing transformation. For finite-dimensional faithful families near a common faithful output, the local symmetrized Umegaki response is governed by the Bogoliubov-Kubo-Mori norm of the channel-composition defect; the corresponding bosonic problem is solved exactly at the Gaussian-state level. The exact attenuation-squeezing response yields an infrared exponent-transfer law relating greybody transmission and occupation scalings to distinguishability. For a massless scalar on Schwarzschild, matched low-frequency scattering gives an explicit fixed-partial-wave logarithmic coefficient and a locally integrable packet response. At finite squeezing, the infrared outputs approach distinct pure Gaussian supports, producing finite sandwiched R\\'enyi divergence below unit order, logarithmic Umegaki growth at unit order, and divergence above unit order. Schwarzschild-de Sitter boundary prescriptions generate controlled source-isolated and product-horizon crossover sectors. The results apply to calibrated asymptotic-port compositions and to the reduced finite-band selected-mode realization under the stated narrowband and channel assumptions.",
+      "score": 85,
+      "reason": "🕳️ホーキング灰体散乱を減衰チャネル、制御をスクイージングとして合成順序の識別可能性を測る発想が面白い✨🎯 ガウス状態レベルで厳密に解けてる🔥",
+      "summary": "Schwarzschildの低振動数散乱に対し赤外での指数移送則を導出🌊 有限スクイージングでは次数1未満でRényiダイバージェンス有限、1で対数発散という階層が出る⚡"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "total_fetched": 160,
+  "scored_papers": [
+    {
+      "arxiv_id": "2608.18159",
+      "title": "Quantum Processes under Epistemic Constraints",
+      "authors": [
+        "Varun Immanuel"
+      ],
+      "categories": [
+        "quant-ph",
+        "physics.hist-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.18159",
+      "abstract": "This doctoral dissertation on the foundations of quantum theory isolates and then formalizes a physically relevant concept that I have called \"Epistemic Constraint.\" Here, epistemic constraints are the definite, intersubjectively agreeable, ordinary-language conditions under which experiments are described. The usual formulation of the quantum measurement problem, which I call the Schrodingerian measurement problem, has the structure of an anomaly: if we take quantum theory at face value, we expect no definite values, and yet we see definite values in experiments. The responses to this problem have been either to solve it or to dissolve it. These responses, which have taken the form of interpretation, modification, or reconstruction of quantum mechanics, seek either to derive (conceptually or mathematically) epistemic constraints from within quantum mechanics or suitable modifications of it, as is the case with certain interpretations and modifications, or to posit the epistemic constraint, or parts of it, as a primitive assumption with the goal of deriving quantum mechanics, as is the case in some reconstruction programs. In contrast to the Schrodingerian measurement problem, which had the structure of an anomaly, this dissertation develops the Bohrian Program, which (for lack of a better comparison) has a structure similar to the problem historically associated with Euclid's fifth postulate. It seeks to keep epistemic constraints as primitive in an onto-epistemic sense. It then seeks new physical conclusions from the joint consideration of quantum mechanics and epistemic constraints, without seeking to derive one from the other. Among other results, this leads to a notion of the probability of instantiability of the Born Rule that specifies when to apply the Born Rule and when to apply a unitary transformation to a quantum state.",
+      "score": 85,
+      "reason": "🤔測定問題を「解く/解消する」のではなく、認識論的制約を原始概念として置いたまま進める構成が新鮮。ボルン則をいつ使うかの基準まで出してるのが面白い✨",
+      "summary": "実験記述の日常言語的条件を「認識論的制約」として形式化📐 シュレディンガー型の測定問題（異常型）に対し、ユークリッド第五公準型の問題として扱うボーア的プログラムを展開🔍"
+    },
+    {
+      "arxiv_id": "2608.19020",
+      "title": "Interface Capacity and Architectural Replenishment Determine Entanglement-Generation Speed in Quantum Networks",
+      "authors": [
+        "Shi-Ju Ran"
+      ],
+      "categories": [
+        "quant-ph",
+        "cond-mat.str-el"
+      ],
+      "url": "https://arxiv.org/abs/2608.19020",
+      "abstract": "We show that entanglement-generation speed across a fixed network interface is governed by two distinct resources: the entangling capacity of the interface itself and the ability of the surrounding architecture to replenish it with fresh degrees of freedom. For fermionic Gaussian dynamics, we derive the coefficient-sharp bound $\\sum_k|\\dot\\theta_k|\\leq\\frac12\\|K_{AB}\\|_*$ on the collective speed of the canonical entanglement angles. Explicit Ising-chain rematching trajectories saturate this bound, thereby certifying exact minimum interaction times under the stated control model. Beyond the Gaussian setting, exhaustive optimization of the complete $N=8$ tree--tree family shows that, at fixed interface capacity, first-layer entanglement, connectedness, and edge budget, the saturation depth is exactly classified by rooted architecture. With higher-resolution $x$-only control, variational entanglement-enhancing-field (VEEF) optimization reaches the numerically resolved fast-$X$ optimum in a two-channel benchmark. Across all 21 symmetry-reduced rooted orbits, a pre-specified two-time VEEF growth diagnostic recovers the complete replenishment partition directly from optimized dynamics. Interface capacity therefore sets how much entangling flux is available, whereas architecture determines whether fresh degrees of freedom can continually replenish the interface and sustain repeated use of that capacity.",
+      "score": 85,
+      "reason": "⏱エンタングルメント生成「速度」の厳密上界と、それを飽和する具体的軌道＝最小相互作用時間の証明📏 量子速度限界の多体版として読める🔗",
+      "summary": "フェルミオン的ガウス動力学で Σ|θ̇_k| ≤ ‖K_AB‖_*/2 を導出🧮 界面の絡み合い容量が「使える流束」を決め、周辺構造が新鮮な自由度を補充できるかが持続性を決める⚙️"
+    },
+    {
+      "arxiv_id": "2608.18757",
+      "title": "Robustness of spin state superpositions for noisy quantum metrology",
+      "authors": [
+        "Trinidad B. Lanta~no",
+        "Gabriela W'ojtowicz",
+        "Susana F. Huelga",
+        "Martin B. Plenio"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.18757",
+      "abstract": "Quantum metrology faces major challenges in noisy environments, where decoherence rapidly degrades useful quantum resources. We investigate the dynamics of the precision limits given by the quantum Fisher information (QFI) for phase estimation under spatially correlated dephasing. We characterize the dynamics of the QFI by the sensitivity and degradation indicators that can be obtained as analytical expressions derived using perturbative theory treatment. These short-time and weak-noise formulas yield analytic insight into how collective-spin moments govern both (i) the noiseless sensitivity and (ii) the leading noise-induced degradation of metrological usefulness. We identify a trade-off that is intrinsic to our commuting encoding-noise structure. We analyze the QFI dynamics for the Gaussian spin state (GSS) superpositions, encompassing spin coherent state (SCS), Dicke state superpositions, spin-squeezed states, and GHZ-like states. Predictions from indicators of the QFI dynamics are compared to both the quantum Cram\\'er--Rao bound and the measurement-specific sensitivity bounds for an optimal parameter and interrogation time under a finite total time resource. When possible, we analytically derive the measurement-specific sensitivity bounds for spin-projection and parity-based measurements.",
+      "score": 85,
+      "reason": "📉空間相関のあるデフェージング下でQFIがどう劣化するか、摂動論で解析式に落としてるのが実用的✨ スクイーズド状態やGHZ的状態を横並びで比較🔬",
+      "summary": "短時間・弱ノイズ展開から感度指標と劣化指標を導出📐 集団スピンモーメントが無雑音感度と劣化の両方を支配し、可換なエンコード-ノイズ構造ゆえのトレードオフが出る⚖️"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "total_fetched": 160,
+  "scored_papers": [
+    {
+      "arxiv_id": "2608.18649",
+      "title": "Broadband Chiral Primordial Gravitational Waves from Constant-roll Inflation in Parity-violating Symmetric Teleparallel Gravity",
+      "authors": [
+        "Xu Zhang",
+        "Chang Liu",
+        "Chengjie Fu"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2608.18649",
+      "abstract": "We investigate primordial gravitational waves (GWs) generated during constant-roll inflation in a parity-violating extension of symmetric teleparallel gravity. The parity-violating interactions leave the background evolution and linear scalar perturbations unchanged, while inducing velocity birefringence in the tensor sector. Consequently, one of the two circular polarization states undergoes tachyonic amplification, producing a strongly blue and nearly fully chiral tensor spectrum from the cosmic microwave background (CMB) to interferometer scales. We identify viable constant-roll parameter regions consistent with current CMB constraints and determine the largest coupling strength compatible with both CMB B-mode measurements and the LIGO-Virgo-KAGRA (LVK) O1--O4a bound on the stochastic GW background. The predicted CMB B-mode spectra may be detectable by LiteBIRD, while the enhanced high-frequency signal could be accessible to the LISA--Taiji network and LVK O5 run. The model also predicts nonvanishing TB and EB correlations. These results highlight the potential of combining CMB and multi-band GW observations to test parity-violating gravity during inflation.",
+      "score": 92,
+      "reason": "🎯LiteBIRDで見えるB-modeを名指しで予言してる論文✨ パリティ破れ重力＋constant-rollで青くて準完全カイラルなテンソルスペクトル、TB・EB相関も非ゼロ🔭",
+      "summary": "対称テレパラレル重力のパリティ破れ項が速度複屈折を生み、片方の円偏光だけタキオン増幅🌀 CMB制限とLVK O1-O4a制限を同時に満たす結合強度を決定、LISA-Taijiでも到達可能📡"
+    },
+    {
+      "arxiv_id": "2608.18998",
+      "title": "Physical Optics Analysis of Polarization Effects in SO LAT Reflectors",
+      "authors": [
+        "Xiaodong Ren",
+        "Patricio A. Gallardo",
+        "Jon E. Gudmundsson"
+      ],
+      "categories": [
+        "astro-ph.IM"
+      ],
+      "url": "https://arxiv.org/abs/2608.18998",
+      "abstract": "We present a physical-optics analysis of the polarization response of the reflective optical of the Simons Observatory Large Aperture Telescope (SO LAT). Far-field co-polar and cross-polar beam patterns are simulated for representative feedhorn positions, and the corresponding polarization-angle offsets are evaluated. The results show that the crossed-Dragone reflector system has good polarization performance. Off-axis feed positions introduce small, position-dependent offsets in the far-field polarization orientation, with a maximum value of 0.23 degrees, due to optical asymmetry. The relative polarization-angle offset under feedhorn polarization rotation, however, remains consistent with zero. No significant frequency dependence is found over the frequencies considered. These results provide a practical reference for polarization-angle calibration and for assessing reflector-induced polarization systematics in the SO LAT.",
+      "score": 90,
+      "reason": "🔭SO LATの反射鏡由来の偏光角オフセットを物理光学で評価。最大0.23度・周波数依存なしという具体的な数値が偏光角較正の実務にそのまま効く✨",
+      "summary": "crossed-Dragone系のco-pol/cross-pol遠方界を代表的フィードホーン位置で計算📐 軸外位置では光学的非対称性で位置依存オフセットが出るが、フィード回転に対する相対オフセットはゼロと整合⚙️"
+    },
+    {
+      "arxiv_id": "2608.18348",
+      "title": "The Atacama Cosmology Telescope: Passband Measurements with an Analysis of Systematic Errors",
+      "authors": [
+        "Thomas Alford",
+        "Rahul Datta",
+        "Erminia Calabrese",
+        "Steve K. Choi",
+        "Shannon M. Duff",
+        "Adriaan J. Duivenvoorden",
+        "Joseph Golec",
+        "Matthew Hasselfeld",
+        "J. Colin Hill",
+        "Johannes Hubmayr",
+        "Jeffrey McMahon",
+        "Michael D. Niemack",
+        "Lyman A. Page",
+        "Alex Thomas",
+        "Cristian Vargas",
+        "Yuhan Wang",
+        "Edward J. Wollack"
+      ],
+      "categories": [
+        "astro-ph.IM"
+      ],
+      "url": "https://arxiv.org/abs/2608.18348",
+      "abstract": "We present measurements of the spectral response of the four Advanced ACTPol (AdvACT) multichroic detector arrays, which observed in frequency bands centered near 30, 40, 90, 150, and 220 GHz. The passbands were measured with a Fourier transform spectrometer (FTS) combined with coupling optics that direct and match the output of the FTS to the AdvACT receiver. We perform optical simulations of the FTS and coupling optics in order to model frequency-dependent systematic effects in this system. We use these simulations to apply corrections to the measurements and evaluate the remaining systematic uncertainty. We combine these systematic estimates with statistical errors to determine the measured passbands and their uncertainties from our FTS measurement, which are typically 0.75 to 1.5% per detector array. We present the passband characteristics for all measurements made by ACT in a common framework. Additionally, we discuss the performance achieved as well as ways to improve passband measurements in the future.",
+      "score": 88,
+      "reason": "📊AdvACT 4アレイのパスバンドをFTSで測り、系統誤差まで丁寧に切り分けた論文✨ 精度0.75-1.5%/アレイ、将来の測定改善の指針まで書いてあるのが有難い🔬",
+      "summary": "FTSと結合光学系の光学シミュレーションで周波数依存の系統効果をモデル化🧮 補正を適用した上で残存系統と統計誤差を合成し、ACT全測定を共通枠組みで提示📡"
+    },
+    {
+      "arxiv_id": "2608.18793",
+      "title": "Millimeter and sub-millimeter characterization of polymers used for infrared filters in high-sensitivity cryogenic microwave telescopes",
+      "authors": [
+        "Miranda Eiben",
+        "Rustam Balafendiev",
+        "Thomas Gascard",
+        "Jon E. Gudmundsson"
+      ],
+      "categories": [
+        "astro-ph.IM"
+      ],
+      "url": "https://arxiv.org/abs/2608.18793",
+      "abstract": "Vacuum windows and infrared filters are important transmissive optical components in millimeter receivers, as they hold out the atmosphere and reduce radiative loading on cold stages, thereby improving cryogenic performance. However, the complex optical properties of the materials commonly used for windows and filters are poorly characterized, particularly in-band and in the sub-millimeter regime. The absorption and scattering properties of these materials are becoming increasingly important for designing high-sensitivity millimeter instruments, as their loosely constrained properties are one of the greatest sources of uncertainty remaining in noise modeling. We report the absorption in the millimeter and sub-millimeter regime of nylon 6, nylon 6/6, PTFE and polyethylene (both bulk HDPE and foam HDPE used in radio transparent filter stacks). Additionally, we report the relative power scattered out of the main beam by these materials from 90 to 330 GHz, measured in free space by a robot-enabled scanning vector network analyzer.",
+      "score": 88,
+      "reason": "🧊窓・IRフィルタ材の吸収と散乱が雑音モデル最大の不定性、というのは実感通り✨ nylon 6 / 6-6・PTFE・HDPE（バルク＋フォーム）を実測してくれてるのが実用的🔬",
+      "summary": "ミリ波・サブミリ波帯の吸収に加え、90-330 GHzで主ビーム外へ散乱される相対パワーをロボットスキャン式VNAで自由空間測定📐 極低温受信機の放射負荷設計に直結⚙️"
+    },
+    {
+      "arxiv_id": "2608.19176",
+      "title": "Effects of manufacturing tolerances on the performance of metamaterial microwave anti-reflection coatings",
+      "authors": [
+        "Rustam Balafendiev",
+        "Miranda Eiben",
+        "Jon E. Gudmundsson"
+      ],
+      "categories": [
+        "astro-ph.IM",
+        "physics.optics"
+      ],
+      "url": "https://arxiv.org/abs/2608.19176",
+      "abstract": "Metamaterial anti-reflection coatings (ARC) are used in a variety of applications, including: lenses, filters, and absorbers. Typically, the design of a given ARC is done within an infinite medium approximation, which presupposes that every unit cell on the interface is identical. However, in realistic applications, the geometry of a given ARC usually has some degree of variability, be it due to the shape of the surface inherent to the application, like in a lens, or manufacturing tolerances. This variation may alter the performance of the optical element in unanticipated ways, by creating additional scattering, enabling diffractive maxima that would normally be absent and, most crucially, changing the transparency of the ARC as a function of frequency. In this work we utilize full-wave modeling of finite samples of plastic which are matched with free space using a metamaterial ARC on both of their interfaces. By adding a degree of randomness to the ARC geometry we attempt to characterize the extent to which a given variation affects the expected performance of an ARC.",
+      "score": 87,
+      "reason": "⚙️ARC設計は普通「全ユニットセルが同一」と仮定するけど、実物はレンズ形状や加工公差でばらつく。そのズレが透過率をどう壊すかを正面から評価✨",
+      "summary": "両面にメタマテリアルARCを付けた有限厚プラスチック試料をフルウェーブ計算🧮 ARC形状にランダム性を入れ、追加散乱・本来無いはずの回折極大・透過率の周波数依存変化を定量化📉"
+    }
+  ]
+}
