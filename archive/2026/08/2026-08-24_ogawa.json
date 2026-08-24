@@ -1,0 +1,39 @@
+{
+  "total_fetched": 206,
+  "scored_papers": [
+    {
+      "arxiv_id": "2608.19403",
+      "title": "Rescaled Mandelstam Tamm characterization of discrete time crystal response in a disordered Floquet Ising chain",
+      "authors": [
+        "Abrar Ahmed Naqash",
+        "Salman Sajad Wani",
+        "Saif Al-Kuwari"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.19403",
+      "abstract": "For pure state unitary dynamics, the Mandelstam Tamm (MT) lower-bound functional compares the endpoint Fubini Study return angle with path averaged energy dispersion. Their distinct size and temporal dependences obscure the origin of period two MT structure in discrete time crystal (DTC) like dynamics and its relation to the spin response. For binary Floquet drives, we derive an exact segment resolved MT expression without assuming commuting segment Hamiltonians and apply it to a disordered Floquet Ising chain. Absolute and uniform summability of connected covariances of local energy terms implies an $O(\\sqrt{L})$ upper bound on the path-averaged energy dispersion. Endpoint data for four system sizes are consistent with this leading behavior and support the corresponding rescaling of the MT functional. At a representative point in the finite-size region with a locked spin response, odd and even rescaled MT branches remain separated throughout the $10^2$ period observation window. The return angle alternates strongly, whereas the size-normalized path-averaged energy dispersion shows little discernible parity dependence, indicating that endpoint geometry is the main source of the branch splitting. Across the interacting parameter grid, the period-two MT component has a strong partial Spearman rank correlation with the locked spin response after controlling for pulse error and interaction strength. The rescaled MT functional characterizes the global return geometry of finite-size period-two dynamics and quantifies its association with the locked spin response.",
+      "score": 92,
+      "reason": "⏱ Mandelstam-Tamm 束縛を離散時間結晶に厳密適用！✨ 時間エネルギー不確定性の応用例として直球🎯",
+      "summary": "二値 Floquet 駆動で segment 分解した厳密 MT 表式を導き、周期 2 の MT 構造とスピン応答の関係を明確化📐"
+    },
+    {
+      "arxiv_id": "2608.19261",
+      "title": "Relational Wigner-Smith Duration in Wheeler-DeWitt Scattering",
+      "authors": [
+        "Daulet Berkimbayev"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-th",
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.19261",
+      "abstract": "A closed Friedmann-Lemaitre-Robertson-Walker Wheeler-DeWitt model is formulated as an exact reflection problem. The derivative of its reflection phase defines a relational crossing duration whose first two clock moments follow from a covariant scalar-clock observable. An analytic expression is obtained for this duration, its classical recollapse limit, and the leading quantum correction. A finite spectral packet also gives an operational, equal-prior minimum error probability for distinguishing the two orientations of recollapse with a geometric reading. The construction is extended to a bounded finite quantum detector. Its multichannel reflection matrix yields probe transitions, spectral-probe correlations, and a matrix duration. A direct weak-coupling calculation verifies the predicted transition and duration scalings. Scalar-clock conditioning and oriented geometric sections are shown to be local representations of the same positive-frequency Dirac sector. These results define duration and transition observables entirely through correlations and scattering records of a stationary constrained state, without introducing a background clock.",
+      "score": 90,
+      "reason": "⌛ Wheeler-DeWitt を反射問題に読み替え、位相微分から「関係論的な所要時間」を定義✨ 時間演算子論と地続き🎯",
+      "summary": "反射位相の微分でクロッシング時間を定義し、古典的再収縮極限と主要量子補正を解析的に導出📐🌌"
+    }
+  ]
+}

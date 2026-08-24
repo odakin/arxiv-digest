@@ -1,0 +1,111 @@
+{
+  "total_fetched": 206,
+  "scored_papers": [
+    {
+      "arxiv_id": "2608.19392",
+      "title": "Gravitational-wave propagation constraints on the dynamical Barbero--Immirzi field from GWTC-3 dark sirens",
+      "authors": [
+        "Zhi-Fu Gao",
+        "Hui Wang",
+        "Luiz Carlos Garcia de Andrade"
+      ],
+      "categories": [
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2608.19392",
+      "abstract": "The Barbero--Immirzi (BI) parameter, originally a constant in the Holst term of first-order gravity, can be promoted to a dynamical scalar field $\\gamma(x)$ coupled to torsion in Einstein--Cartan theory. We formulate the leading gravitational-wave (GW) propagation effect of this dynamical BI sector as an effective friction term, $\\Gamma_{\\rm BI}=\\xi_{\\rm BI}H$, and relate it to the GW luminosity distance. We then compare the resulting distance-redshift relation with the published LIGO--Virgo--KAGRA GWTC-3 dark-siren constraint on the Belgacem--Maggiore parameter $\\Xi_{0}=1.2^{+0.7}_{-0.7}$. Without repeating the LVK hierarchical Bayesian analysis, and using a representative-redshift mapping together with a Gaussian approximation to the quoted posterior, we obtain the conservative effective constraint $|\\xi_{\\rm BI}|\\lesssim 2.1$ at approximately 90\\% credibility. For the specific BI realization considered here, $\\xi_{\\rm BI}$ is non-negative at the leading order adopted, so the corresponding one-sided interpretation is $0\\leq\\xi_{\\rm BI}\\lesssim 2.1$. The observable constraint is therefore a statement about the effective BI-induced GW friction. Translating it into the microscopic fluctuation amplitude requires an independent normalization of the BI--torsion sector; we do not impose such a normalization phenomenologically. This GW-propagation test probes a sector complementary to torsion-wave and matter-sector constraints and does not rely on an assumption that astrophysical sources excite propagating torsion modes.",
+      "score": 92,
+      "reason": "🌀 Einstein-Cartan の捩率に効く BI 場を GW 伝播で縛る話！⚡ ど真ん中🎯 観測から捩率セクターに制限がかかる🔭✨",
+      "summary": "動的 Barbero-Immirzi 場を GW 摩擦項 Γ=ξH に落とし込み、GWTC-3 dark siren の Ξ₀ 制限から ξ_BI を制約🌌📏"
+    },
+    {
+      "arxiv_id": "2608.19765",
+      "title": "How Inflation Might Explain Large-Scale Anisotropy",
+      "authors": [
+        "Brett McInnes"
+      ],
+      "categories": [
+        "gr-qc",
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2608.19765",
+      "abstract": "Several recent observational analyses have suggested the possible existence of a large-scale anisotropy in our Universe. It is often thought that this would contradict the inflationary picture of the earliest times. We show that this is not the case: if we relax the artificial restriction that spacetime torsion must be zero, then such anisotropies arise naturally, indeed almost inevitably, in a theory of torsional Inflation. This is seen most clearly if one uses a ``$1\\,+\\,3\\,$'' analysis of a torsional spacetime, leading naturally to concepts of intrinsic torsion and extrinsic torsion. An anisotropic quantum fluctuation of the inflaton leads to an extrinsic torsion field which is anisotropic and which grows throughout the inflationary era, even though the intrinsic geometry of the spatial sections is isotropised in the conventional manner. The competition between the intrinsic torsion (which does inflate away) and the extrinsic torsion leads to a short interval, early in the inflationary era, during which there is a torsion-induced energy flux, which leaves an anisotropic signal in superhorizon modes and thus ultimately at large scales in the present Universe.",
+      "score": 90,
+      "reason": "🌪 捩率を許すと大規模異方性がインフレから自然に出るという主張！😳 1+3 分解で intrinsic/extrinsic torsion を扱う手つきが面白い🔥✨",
+      "summary": "捩率ありインフレで異方的量子ゆらぎが生じ、観測が示唆する大規模異方性と整合する枠組みを提示🌀📐"
+    },
+    {
+      "arxiv_id": "2608.19546",
+      "title": "Observation of an excess at the top quark pair production threshold in the single-lepton channel",
+      "authors": [
+        "CMS Collaboration"
+      ],
+      "categories": [
+        "hep-ex"
+      ],
+      "url": "https://arxiv.org/abs/2608.19546",
+      "abstract": "A search is presented for top quark-antiquark ($\\mathrm{t\\bar{t}}$) quasi-bound ``toponium'' states, near the kinematic $\\mathrm{t\\bar{t}}$ production threshold in final states with a single electron or muon and jets. The study uses proton-proton collision data at $\\sqrt{s}$ = 13 TeV, collected by the CMS experiment at the CERN LHC, corresponding to an integrated luminosity of 138 fb$^{-1}$. The analysis examines the relative velocity between the top quark and antiquark, along with two angular observables sensitive to the parity and spin of the $\\mathrm{t\\bar{t}}$ system. A significant excess of events is observed relative to the standard model prediction for $\\mathrm{t\\bar{t}}$ production calculated at next-to-next-to-leading order in perturbative quantum chromodynamics (QCD). The excess corresponds to an observed total cross section of 5.1$\\pm$0.9 pb and is consistent with a simplified model of a color singlet pseudoscalar toponium motivated by nonrelativistic QCD, with a resulting observed significance of 6.1 standard deviations. The result provides an independent confirmation of the excess reported in the dilepton channel.",
+      "score": 89,
+      "reason": "🚨 CMS が tt̄ 閾値の超過を single-lepton でも観測！🍾 トポニウム＝クォーコニウムだから波束効果の出番かも👀⚡✨",
+      "summary": "138 fb⁻¹、相対速度＋2 つの角度観測量で擬束縛 tt̄ 状態を示唆する有意な超過を報告🎯📊"
+    },
+    {
+      "arxiv_id": "2608.19287",
+      "title": "On trace invariance and energy-dependent entanglement in muon decay",
+      "authors": [
+        "Saulo Carneiro",
+        "Fernando César Sobrinho"
+      ],
+      "categories": [
+        "hep-ph",
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.19287",
+      "abstract": "We revisit a proposed correction to the muon magnetic anomaly measurement and compare it with energy-binned scans reported by the Fermilab $g-2$ collaboration. The central point is that, for a relativistic three-body decay inferred from an ensemble of detected positrons, the relevant neutrino partial trace is defined on the asymptotic state at the detector, not on an idealised state at the decay vertex. Because the fitted positron sample mixes events with different decay times, flight times, energies and acceptances, tracing over the unobserved neutrino helicities leaves a time-dependent mixed state in the observed sector. Using angular-momentum balance, we obtain an energy-dependent correction in the positron energy interval $E_p \\in (1.5,2.9)$ GeV. The corrected experimental interval for the muon anomaly moves towards the BaBar- and $\\tau$-based determinations, while remaining compatible at the $1\\sigma$ level with both data-driven and lattice-based Standard Model evaluations. We then fit digitised public $R(E_p)$ scans for Fermilab's runs $1$ to $6$, with two one-parameter hypotheses: a constant shift and the entanglement-motivated energy-dependent shift. Within digitisation accuracy, the differences in $\\chi^2$ remain modest and the current binned data do not provide decisive discrimination between them.",
+      "score": 88,
+      "reason": "🎯 「部分トレースは崩壊点でなく検出器での漸近状態で取れ」という主張！⚡ 波束形式の問題意識そのもの😤🔥✨",
+      "summary": "μ 崩壊で飛行時間・エネルギーの異なる事象が混ざると、観測側にエネルギー依存の混合状態が残ると議論⏱🧩"
+    },
+    {
+      "arxiv_id": "2608.19781",
+      "title": "Quintessential α-attractors, updated",
+      "authors": [
+        "Renata Kallosh",
+        "Andrei Linde",
+        "Marina Shmakova",
+        "Yusuke Yamada"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc",
+        "hep-ph",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2608.19781",
+      "abstract": "Quintessential $\\alpha$-attractor models of single-field inflation and evolving dark energy were constructed about a decade ago. Recently, it was pointed out that some of them might be disfavored due to dark-radiation constraints on gravitational waves and the higher values of $n_s$ favored by ACT. Here we present a class of updated quintessential $\\alpha$-attractor models in which a single field describes both inflation and evolving dark energy, yields higher values of $n_s$, and admits reheating scenarios consistent with the dark-radiation bound on $\\Delta N_{\\rm eff}$. Depending on the value of the cosmological constant $\\Lambda$, these models interpolate between $\\Lambda$CDM with $\\Lambda > 0$ (future dS universe), dynamical dark energy with $\\Lambda = 0$ (future Minkowski universe), and dynamical dark energy with $\\Lambda < 0$ (future cosmological collapse). We also study quintessential $\\alpha$-attractor models based on an axion-inflaton complex scalar field with hyperbolic geometry, which describe inflation and dark energy of a ``phantom illusion'' type compatible with DESI DR2.",
+      "score": 88,
+      "reason": "🌌 単一場でインフレとダークエネルギーを両方やる更新版！✨ 「2 つの加速膨張の共通起源」と同じ土俵😏🔭⚡",
+      "summary": "n_s を上げつつ ΔN_eff の dark radiation 制限と両立する再加熱を持つ α-attractor 族を構成🎈📈"
+    },
+    {
+      "arxiv_id": "2608.20293",
+      "title": "Non-Minimally Coupled Warm Inflation in the Defining Frame",
+      "authors": [
+        "Adrián Casado-Turrión",
+        "Paulo B. Ferraz",
+        "Mindaugas Karčiauskas",
+        "José Jaime Terente Díaz"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.20293",
+      "abstract": "Warm inflation in $F(\\Phi)R$ scalar-tensor theories of gravity is investigated in the `defining' frame, where the theory and its parameter values are specified. Translating the resulting dynamics to the Einstein frame, we find that the dissipation ratio is suppressed by the modified-gravity effects. Thus, although the effective warm-inflation dynamics can be consistently analysed in either frame, the dissipative regimes need not coincide between them. In particular, we find that quantum perturbations can dominate over thermal fluctuations in the scalar power spectrum even in a high-temperature, strong-dissipation regime in the defining frame. Finally, we compute the scalar spectral index and tensor-to-scalar ratio for a non-minimal coupling function $F(\\Phi) = 1+\\xi (\\Phi/m_{\\rm P})^2$ with a quartic potential and both constant and quadratic field-dependent dissipation coefficients, and identify benchmark points compatible with current CMB constraints.",
+      "score": 86,
+      "reason": "🖼 F(Φ)R で「どのフレームが理論の定義か」問題！⚡ Jordan/Palatini 好きに刺さる🎯 散逸比がフレームで変わる😳✨",
+      "summary": "非最小結合 warm inflation を defining frame で解析、修正重力効果で散逸比が抑制されると指摘🔥📉"
+    }
+  ]
+}

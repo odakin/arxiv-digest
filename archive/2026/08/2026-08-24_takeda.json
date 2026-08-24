@@ -1,0 +1,58 @@
+{
+  "total_fetched": 206,
+  "scored_papers": [
+    {
+      "arxiv_id": "2608.19287",
+      "title": "On trace invariance and energy-dependent entanglement in muon decay",
+      "authors": [
+        "Saulo Carneiro",
+        "Fernando César Sobrinho"
+      ],
+      "categories": [
+        "hep-ph",
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.19287",
+      "abstract": "We revisit a proposed correction to the muon magnetic anomaly measurement and compare it with energy-binned scans reported by the Fermilab $g-2$ collaboration. The central point is that, for a relativistic three-body decay inferred from an ensemble of detected positrons, the relevant neutrino partial trace is defined on the asymptotic state at the detector, not on an idealised state at the decay vertex. Because the fitted positron sample mixes events with different decay times, flight times, energies and acceptances, tracing over the unobserved neutrino helicities leaves a time-dependent mixed state in the observed sector. Using angular-momentum balance, we obtain an energy-dependent correction in the positron energy interval $E_p \\in (1.5,2.9)$ GeV. The corrected experimental interval for the muon anomaly moves towards the BaBar- and $\\tau$-based determinations, while remaining compatible at the $1\\sigma$ level with both data-driven and lattice-based Standard Model evaluations. We then fit digitised public $R(E_p)$ scans for Fermilab's runs $1$ to $6$, with two one-parameter hypotheses: a constant shift and the entanglement-motivated energy-dependent shift. Within digitisation accuracy, the differences in $\\chi^2$ remain modest and the current binned data do not provide decisive discrimination between them.",
+      "score": 90,
+      "reason": "⚡ 検出器での漸近状態で部分トレースを取るべき、という波束形式の核心的主張🎯 素粒子崩壊のもつれ議論にも直結✨",
+      "summary": "μ 崩壊で飛行時間・エネルギーが混ざった事象集団では、ν を潰した後にエネルギー依存の混合状態が残る🧩"
+    },
+    {
+      "arxiv_id": "2608.19494",
+      "title": "Stability and squeezing of the three-photon degenerate parametric down-conversion",
+      "authors": [
+        "Vinícius V. Seco",
+        "Alencar J. de Faria"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.19494",
+      "abstract": "Nonlinear multiphoton conversion processes are theoretically and experimentally challenging systems in quantum optics and related areas. These phenomena bring remarkable quantum properties and can be of fundamental relevance in quantum information and computation applications. Based on recent experimental advances and the possible uses in generalized three-photon squeezing, we investigate degenerate three-photon parametric down-conversion generated inside a cavity fed by a classical pump. In addition, we consider that the process is stimulated by a coherent driving mode and subjected to dissipation by spontaneous emission of the cavity. A treatment using phase-space methods and stochastic differential equations is applied and the stability conditions of its steady states are found. We find that the system does not exhibit multistability, instead it has a limited parameter region leading to a single stable steady branch, alongside multiple unstable branches. Focusing on the stable steady states and linearizing the dynamics around them, we calculate the spectral densities of the quadrature variables. We identify and characterize the squeezing of three-photon down-conversion. Moreover, since the quasi-probability differential equations of the higher-order multiphoton processes have higher-order derivatives, hindering their mapping into stochastic differential equations, we make use of a positive Wigner function approach to calculate two-dimensional spectral densities associated with three-time correlation functions, with the goal of studying non-Gaussian properties of the system.",
+      "score": 88,
+      "reason": "🔦 三光子縮退パラメトリック下方変換のキャビティ内安定性とスクイージング✨ SPDC の一般化として押さえたい一本🎯",
+      "summary": "古典ポンプ＋コヒーレント駆動＋自然放出散逸の下で、三光子 PDC の定常状態・安定領域・スクイーズ度を解析📐"
+    },
+    {
+      "arxiv_id": "2608.20015",
+      "title": "Wide-field mid- to long-wave infrared imaging with undetected photons",
+      "authors": [
+        "Vladimir Kornienko",
+        "Nathan Gemmell",
+        "Caiyi Liu",
+        "Asteria Chen",
+        "Chris Phillips",
+        "Rupert Oulton"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.20015",
+      "abstract": "Quantum imaging with undetected photons (QIUP) allows an object to be probed at mid-infrared frequencies by only measuring interference in the visible range, thus leveraging silicon camera technology. We show that non-collinear phase-matching in a silver thiogallate (AgGaS$_2$) crystal enables wide-field QIUP in the wavelength range of 6-10 $\\mu$m (1670-1000 cm$^{-1}$). A combination of coherent detection and infrared photons being ``undetected'' enables imaging at ${\\sim}$100 times better than the background-limited infrared photodetection (BLIP) limit. At 8 $\\mu$m, our images have over 8000 $\\pm$ 100 resolvable elements with a 297 $\\pm$ 5 $\\mu$m resolution, and 10 s acquisition time. Our results pave the way to fast, background-noise-free, room-temperature, spectrally-selective mid-infrared imaging.",
+      "score": 86,
+      "reason": "👻 検出しない光子で 6-10 μm を撮る wide-field QIUP！✨ もつれ光子対の干渉を使う ghost imaging 系の最新例🎯",
+      "summary": "AgGaS₂ の非共線位相整合で広視野化、8 μm で BLIP 限界の約 100 倍、8000 超の分解要素を持つ像を取得🔬"
+    }
+  ]
+}
