@@ -1,0 +1,39 @@
+{
+  "total_fetched": 140,
+  "scored_papers": [
+    {
+      "arxiv_id": "2608.20702",
+      "title": "Quantum Zeno and Anti-Zeno Responses: Universal Spectral Criterion for Measurement-Induced Decay",
+      "authors": [
+        "Yu-Xiang Chen",
+        "Yuan-De Jin",
+        "Wen-Long Ma"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.20702",
+      "abstract": "We develop a general framework for characterizing the response of an evolving quantum system to repetitive quantum measurements. Modeling each evolution-measurement cycle as a quantum channel induced by an effective Liouvillian generator, we find that the Liouvillian spectral gap determines the measurement-induced decay rate. We analyze how the spectral gap responds to the measurement frequency, and define a quantum Zeno response as a decrease in the gap with increasing measurement frequency, and an anti-Zeno response as the opposite. We illustrate this criterion for both discrete-time and continuous-time quantum measurements. In an exactly solvable discrete-time qubit model, the exceptional-point spectral coalescence or spectral crossings mark the transition between Zeno and anti-Zeno responses, which can be experimentally distinguished from the long-time decay envelope of the survival probability. In a continuous-time superconducting-qubit defect model, the same transition manifests as smooth extrema of the spectral gap. Our results establish a universal spectral criterion for measurement-induced decay, offering a practical route to identify and manipulate these effects in generic quantum systems.",
+      "score": 85,
+      "reason": "⏱ 繰り返し測定で崩壊が速まるか遅まるかを Liouvillian のスペクトルギャップ一つで判定✨ 時間‐エネルギー側の話題と地続き🎯",
+      "summary": "🔬 各「発展＋測定」サイクルを実効 Liouvillian が生成する量子チャネルとみなし、そのスペクトルギャップが測定誘起崩壊率を決めると示す。Zeno/anti-Zeno の普遍的判定条件📐"
+    },
+    {
+      "arxiv_id": "2608.21217",
+      "title": "Probing quantumness of superpositions of Gaussian states via Tsirelson probability",
+      "authors": [
+        "Yue Zhang"
+      ],
+      "categories": [
+        "quant-ph",
+        "math-ph",
+        "math.MP"
+      ],
+      "url": "https://arxiv.org/abs/2608.21217",
+      "abstract": "Superpositions of Gaussian states, including circular states and generalized circular states, exhibit a rich variety of nonclassical features such as Wigner negativity and sub-Planck phase-space structures. The Tsirelson probability, central to the Tsirelson precession protocol, is defined as the average probability that a precessing quadrature yields a positive outcome when measured at equally spaced times, with the classical bound given by $1/2 \\pm 1/(2d).$ In this work, we compute this probability for superpositions of Gaussian states. For circular states (superpositions of $d$ coherent states), we analytically calculate their Tsirelson probability and find violations of the classical bounds for $d=3,5,7$. For generalized circular states, which incorporate squeezing, we derive a general expression and identify parameter regimes that enhance the violation. Our results provide a comprehensive map of the dynamical nonclassicality of superpositions of Gaussian states and establish them as versatile platforms for testing nonclassicality witnesses.",
+      "score": 85,
+      "reason": "🌀 Gaussian 状態の重ね合わせの量子性を Tsirelson 歳差プロトコルで測る試み✨ 時間相関から非古典性を引き出す視点が面白い🎯",
+      "summary": "📊 円状態・一般化円状態など Wigner 負性やサブプランク構造を持つ状態について、等間隔時刻で歳差する quadrature が正となる平均確率を評価し古典限界と比較🔭"
+    }
+  ]
+}

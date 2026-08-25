@@ -1,0 +1,73 @@
+{
+  "total_fetched": 140,
+  "scored_papers": [
+    {
+      "arxiv_id": "2608.20482",
+      "title": "Intensity-Frontier Signals of Warped Extra Dimensions",
+      "authors": [
+        "Doojin Kim",
+        "Deepak Sathyan",
+        "Ankur Verma"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.20482",
+      "abstract": "Can warped extra dimensions first appear at the intensity frontier rather than as TeV-scale resonances at colliders? We explore this possibility in extended warped models in which gravity propagates to a deep infrared region with warped scale $\\Lambda_{\\rm IR}\\sim \\mathcal{O}({\\rm MeV})$, producing a densely spaced Kaluza-Klein (KK) graviton tower. We develop a benchmark photon-portal realization in which a visible vector sector reaches an intermediate GeV-scale brane, while the Higgs sector remains associated with a higher warped scale. The resulting graviton-photon couplings are controlled by wave-function overlap in the extra dimension, so the production rate is not governed simply by an independent mass and coupling as in conventional light-mediator simplified models. Instead, GeV-scale photons in beam-dump environments can preferentially produce heavier KK gravitons whose profiles probe the intermediate brane, after which the excited modes cascade down the tower. If decays into radion-like states are kinematically closed for the terminal mode, the lightest accessible KK graviton can be long-lived and decay visibly into a pair of photons. This leads to a distinctive intensity-frontier signature: heavy-mode production, intratower showering, and macroscopic electromagnetic decays. We present the model ingredients, derive the relevant overlap-controlled couplings, characterize the generic production and decay phenomenology, and discuss the theoretical and precision constraints on this class of low-scale warped scenarios.",
+      "score": 88,
+      "reason": "🚀 warped 余剰次元が TeV 共鳴じゃなく強度フロンティアに顔を出すかも⁉️ 密集した KK グラビトン塔という切り口が刺さる🔭✨🎯",
+      "summary": "⚡ 重力が Λ_IR ~ MeV の深い赤外まで伸びる拡張 warped 模型を構築。光子ポータル経由で密集 KK 塔が可視セクターに現れ、強度実験で探索可能と示す🔬🌌"
+    },
+    {
+      "arxiv_id": "2608.20508",
+      "title": "Probing Non-Holomorphic Modular $A_4$ Double Seesaw: Signatures in Neutrino Oscillation Experiments and Implications for Leptogenesis",
+      "authors": [
+        "Pratik Adarsh",
+        "Dinesh Kumar Singha",
+        "Mitesh Kumar Behera",
+        "Sudhanwa Patra"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.20508",
+      "abstract": "We realize the double seesaw mechanism within a non-holomorphic modular $A_4$ framework by extending the Standard Model with three generations of right-handed neutrinos (RHNs), three left-handed sterile neutrino fields, and an $A_4$-singlet scalar. The modular construction forbids a bare Majorana mass term for the RHNs and realizes the hierarchy required for the double seesaw, with RHN masses induced through the heavier sterile neutrino sector. A comprehensive scan of the modular parameter space yields viable normal ordering solutions consistent with current neutrino oscillation data. We further examine their testability at DUNE, T2HK, and JUNO. DUNE and T2HK strongly probe the atmospheric mixing parameters and constrain the allowed model space, while JUNO provides complementary precision sensitivity to the solar mixing angle and mass-squared splitting. The oscillation compatible points also determine the induced RHN spectrum and complex Yukawa textures relevant for thermal leptogenesis. For a representative unflavored benchmark in the strong-washout regime, numerical Boltzmann evolution including decays and inverse decays yields $Y_{\\Delta B}\\simeq8.11\\times10^{-11}$, close to the observed baryon asymmetry. The allowed parameter space also admits an $N_1$-dominated two-flavor thermal leptogenesis realization with a hierarchical, non-resonant RHN spectrum. Our results establish the non-holomorphic modular $A_4$ double seesaw as a predictive framework linking low-energy neutrino phenomenology and thermal leptogenesis, with oscillation predictions directly testable at forthcoming precision neutrino experiments.",
+      "score": 86,
+      "reason": "🌊 非正則 modular A_4 で double seesaw を実現💡 RHN のベア Majorana 質量が禁止され階層が自然に出るのが面白い🧩✨🎯",
+      "summary": "🔍 SM に RHN 3 世代・左巻き sterile・A_4 一重項スカラーを追加。より重い sterile 経由で RHN 質量を誘起し、振動観測量とレプトジェネシスを議論📊⚛️"
+    },
+    {
+      "arxiv_id": "2608.21328",
+      "title": "Classical dynamics from QFT via Stratonovich-Weyl correspondence",
+      "authors": [
+        "Alexander Ochirov",
+        "Canxin Shi"
+      ],
+      "categories": [
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2608.21328",
+      "abstract": "We develop a formalism for extracting relativistic classical dynamics from the S-matrix, in which massive bodies are described on phase space while massless radiation is kept in the Fock space. Our formalism relies on the Stratonovich-Weyl (SW) correspondence between the operator and phase-space formulations of quantum mechanics, as implemented covariantly by the SW quantizer. For localized incoming states, classical observables are given by SW symbols of the appropriate operators evaluated on incoming asymptotic trajectories. In combination with the exponential form of the S-matrix, the observables are naturally given by nested mixed Dirac/commutator brackets involving Magnus amplitudes. The latter are the matrix elements of the logarithm of the S-matrix, and we provide a straightforward algorithm for computing the combinatorial Murua coefficients that control the placement of retarded propagators inside Magnus-amplitude diagrams. This picture is well-suited for gravitational-wave physics applications.",
+      "score": 85,
+      "reason": "📦 平面波を超えて局在した入射状態から古典力学を取り出す定式化🌀 波束形式と地続きの話で、S 行列の扱い方が参考になる✨🎯🔭",
+      "summary": "🧮 質量粒子を位相空間・輻射を Fock 空間で記述し、Stratonovich-Weyl 量子化子で S 行列を共変的に Weyl 変換。古典 observable を系統的に導出⚙️📐"
+    },
+    {
+      "arxiv_id": "2608.20451",
+      "title": "Tunneling from a Slowly Rolling Multifield Background Using Tadpole Subtraction",
+      "authors": [
+        "Masaki Yamada"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO",
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2608.20451",
+      "abstract": "We study semiclassical tunneling in scalar field theories with slowly evolving homogeneous backgrounds. We formulate the problem by combining tadpole subtraction with an adiabatic expansion: the former maps the rolling system to an instantaneous multi-field tunneling problem, while the latter systematically tracks the slow evolution of the background. This formulation is particularly useful for tunneling during slow-roll inflation, where the tunneling direction may be transverse to the rolling inflaton direction. For a time-reflection-symmetric bounce on a fixed on-shell geometry, we show that the real tunneling exponent receives no direct correction linear in the rolling velocity. The tunneling rate nevertheless drifts along the rolling trajectory because the frozen tadpole-subtracted potential evolves. We also find that the exponent approaches a finite but nonanalytic limit as the tangential curvature vanishes, suggesting that a weakly tachyonic tangential direction can yield an exponent of the same order.",
+      "score": 85,
+      "reason": "🕳 slow-roll 中の真空崩壊を tadpole 引き算＋断熱展開で定式化💫 インフレ中のトンネル効果を背景の緩慢な進化込みで追える🔥✨🎯",
+      "summary": "📐 転がる背景を瞬間的な多場トンネル問題へ写像し、背景の遅い時間発展を断熱展開で追跡。slow-roll インフレ中の半古典崩壊率への応用を示す🌌⚡"
+    }
+  ]
+}

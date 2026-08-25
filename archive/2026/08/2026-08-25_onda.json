@@ -1,0 +1,22 @@
+{
+  "total_fetched": 140,
+  "scored_papers": [
+    {
+      "arxiv_id": "2608.20595",
+      "title": "Causal Gravitational-Wave Production Does Not Generate Infrared Adiabatic Curvature",
+      "authors": [
+        "Ruth Durrer",
+        "Alessandro Melchiorri"
+      ],
+      "categories": [
+        "gr-qc",
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2608.20595",
+      "abstract": "Short tensor modes can generate a white noise contribution to the local scalar $K=8\\pi G\\rho/3-\\theta^2/9$, but this does not induce an infrared-enhanced adiabatic curvature spectrum. For a conserved causal source, analyticity of the longitudinal velocity correlator requires $P_V=\\mathcal O(k^2)$, hence $P_{\\mathcal R}=\\mathcal O(k^0)$ and $\\Delta_{\\mathcal R}^2=\\mathcal O(k^3)$, excluding the $\\Delta_{\\mathcal R}^2\\propto k^{-1}$ relic. We also construct a conserved conversion of radiation into gravitational waves: the white field resides in a compensated entropy mode, and the fluid response cancels the slowly decaying $a^{-2}$ relic. Adiabatic bounds on such sources are therefore source- and matching-dependent.",
+      "score": 86,
+      "reason": "🌌 因果的な GW 源は赤外で増大する断熱曲率ゆらぎを作らない、と明快に否定✨ 原始 GW とスカラーゆらぎの関係を締める話🎯",
+      "summary": "📐 保存する因果的ソースでは縦速度相関の解析性から P_V=O(k²)、従って Δ²_R=O(k³)。短波長テンソルモードによる赤外増大シナリオを排除すると示す🔬"
+    }
+  ]
+}

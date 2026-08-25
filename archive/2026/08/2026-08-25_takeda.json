@@ -1,0 +1,56 @@
+{
+  "total_fetched": 140,
+  "scored_papers": [
+    {
+      "arxiv_id": "2608.21328",
+      "title": "Classical dynamics from QFT via Stratonovich-Weyl correspondence",
+      "authors": [
+        "Alexander Ochirov",
+        "Canxin Shi"
+      ],
+      "categories": [
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2608.21328",
+      "abstract": "We develop a formalism for extracting relativistic classical dynamics from the S-matrix, in which massive bodies are described on phase space while massless radiation is kept in the Fock space. Our formalism relies on the Stratonovich-Weyl (SW) correspondence between the operator and phase-space formulations of quantum mechanics, as implemented covariantly by the SW quantizer. For localized incoming states, classical observables are given by SW symbols of the appropriate operators evaluated on incoming asymptotic trajectories. In combination with the exponential form of the S-matrix, the observables are naturally given by nested mixed Dirac/commutator brackets involving Magnus amplitudes. The latter are the matrix elements of the logarithm of the S-matrix, and we provide a straightforward algorithm for computing the combinatorial Murua coefficients that control the placement of retarded propagators inside Magnus-amplitude diagrams. This picture is well-suited for gravitational-wave physics applications.",
+      "score": 86,
+      "reason": "📦 局在した入射状態＝波束から古典 observable を引き出す S 行列の定式化✨ 平面波近似を超える扱いの実例として面白い🎯",
+      "summary": "🧮 質量粒子を位相空間、輻射を Fock 空間で記述。Stratonovich-Weyl 量子化子で S 行列を共変的に Weyl 変換し、力積・波形などを導出⚙️"
+    },
+    {
+      "arxiv_id": "2608.21318",
+      "title": "Inclusive Radiation and Backreaction from the Phase-Space S-Matrix",
+      "authors": [
+        "Nathan Moynihan"
+      ],
+      "categories": [
+        "hep-th",
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2608.21318",
+      "abstract": "We develop a phase-space description of classical scattering in which the matter sector of the Dyson S-matrix is partially Weyl transformed while the radiation sector remains operator valued. The resulting S-matrix symbol provides a common origin for several classical observables: we show that the inclusive waveform, the classical displacement in phase-space (i.e. the impulse and position shift), and the angular momentum arise as different projections of the same object. We show that the partially Weyl-transformed $S$-matrix admits an exponential organisation in terms of an elastic phase and connected radiation kernels, while its inclusive one-point projection admits a coherent representative with waveshape $\\alpha_I$ describing classical radiation, extending our recent proposal. Furthermore, we show explicitly how nonlinear gravitational memory can be derived from an inclusive coherent waveshape. The dependence of the waveshape on the hard scattering data naturally leads to a quantum geometry, including an induced Berry connection on the space of waveforms, whose contribution to the phase-space displacement captures both radiation-reaction and static-field effects. We illustrate this structure by deriving static contributions to the position shift and field angular momentum in both scalar QED and gravity.",
+      "score": 85,
+      "reason": "🌀 姉妹版とも言える位相空間 S 行列の話✨ 輻射を演算子のまま残して波形・反作用・角運動量を統一的に出す構成が読みどころ🎯",
+      "summary": "📐 Dyson S 行列の物質セクターを部分的に Weyl 変換した記号から、包括的波形・位相空間での変位（力積と位置シフト）・角運動量が共通の起源で現れると示す🔬"
+    },
+    {
+      "arxiv_id": "2608.21361",
+      "title": "Classical versus non-classical photon states for detecting vacuum non-linearity",
+      "authors": [
+        "N. Ahmadiniaz",
+        "C. Kohlf\"urst",
+        "R. Shaisultanov",
+        "R. Sch\"utzhold"
+      ],
+      "categories": [
+        "quant-ph",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.21361",
+      "abstract": "Quantum electrodynamics (QED) predicts that the vacuum should behave as a non-linear medium. For many schemes aimed at verifying this fundamental prediction, the signal consists of one or more photons in a certain mode (determined by polarization $\\sigma$ and wave-number $\\boldsymbol{k}$) which would be empty in the absence of a QED vacuum non-linearity. Here we consider modifying these schemes by sending in a classical or non-classical (e.g., squeezed) photon state instead of the initial vacuum state in that mode. We find that the detectability can be improved significantly.",
+      "score": 85,
+      "reason": "💡 QED 真空の非線形性検出に、古典光と非古典光のどちらが得かを正面から比較✨ 光子状態の作り方が信号を左右する話🎯",
+      "summary": "🔦 通常は空のモードに現れる信号光子に対し、あらかじめ古典的／非古典的な光子状態を入射する方式を検討し、検出感度への影響を評価📊"
+    }
+  ]
+}
