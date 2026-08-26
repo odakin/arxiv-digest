@@ -1,0 +1,60 @@
+{
+  "total_fetched": 255,
+  "scored_papers": [
+    {
+      "arxiv_id": "2608.22850",
+      "title": "Implementation of nonlocal multi-photon interference by mode swapping",
+      "authors": [
+        "Holger F. Hofmann",
+        "Yuki Kodama",
+        "Jonte R. Hance"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.22850",
+      "abstract": "Multi-photon interference can be observed using independently generated photons as input. In the most simple case, these photons meet up at a beam splitter, resulting in quantum interference between transmission and reflection of the photons. Here, we show that non-local multi-photon interference can be implemented by using a mode swap operation to generate entanglement between the photons detected in the outputs of two spatially separated interferometers. The spatial separation of the output photons makes this implementation of multi-photon interference particularly suitable for quantum protocols that distribute quantum information to different parties.",
+      "score": 95,
+      "reason": "🎯 ど真ん中！独立生成した光子の多光子干渉を、モード交換で離れた 2 つの干渉計の間にエンタングルさせて非局所化 ✨ Hofmann 一派",
+      "summary": "🔀 ビームスプリッターでの透過／反射干渉をモードスワップ操作に置き換え、出力光子を空間分離。分散型の量子プロトコル向き 📡"
+    },
+    {
+      "arxiv_id": "2608.21435",
+      "title": "Complex-Time Parametrization of Evanescent Tunneling and Transmission Delay in non-Hermitian Scattering",
+      "authors": [
+        "Iulia-Maria Daia"
+      ],
+      "categories": [
+        "quant-ph",
+        "gr-qc",
+        "math-ph",
+        "math.MP"
+      ],
+      "url": "https://arxiv.org/abs/2608.21435",
+      "abstract": "The quantum tunneling process is a fundamental concept that presents the unconventional nature of quantum dynamics. The main anomaly of this effect revolves around the choice of imposing the classical 4-momentum to become imaginary during the barrier traversal. This paper addresses this paradox by introducing a complex-time parametrization, which uses a complex temporal coordinate, $\\tau = t + i\\kappa$. Here, the real axis $(t)$ represents standard thermodynamic time, while the imaginary axis $(i\\kappa)$ is correlated to spatial evanescence. We demonstrate that evaluating this extended complex-time framework yields a hyperbolic section of the causal lightcone, proving that the traversal is strictly bounded by the speed of light and preserves causal disconnection. Applied to quantum tunneling, we resolve the anomaly of imaginary momentum through a continuous geometric signature flip of the effective complex-time momentum norm from a timelike to a spacelike state. This theoretical model finds a physically phenomenological analogy in microwave scattering experiments using open, non-Hermitian systems, which link complex transmission time delay to spatial wave decay.",
+      "score": 86,
+      "reason": "⏲ トンネル時間の虚数運動量問題を複素時間で解く話。非エルミート散乱＝吸収・検出モデルの側から読むと面白い ✨",
+      "summary": "🌀 τ=t+iκ で障壁通過を因果的光円錐の双曲切断として表し光速を超えないと示す。開いた非エルミート系のマイクロ波散乱と対応 🔍"
+    },
+    {
+      "arxiv_id": "2608.23032",
+      "title": "What do position and time mean in the quantum wavefunction?",
+      "authors": [
+        "Mustafa Bakr",
+        "Zichi Zhang",
+        "Margot Stakenborg"
+      ],
+      "categories": [
+        "quant-ph",
+        "cond-mat.mes-hall",
+        "math-ph",
+        "math.MP"
+      ],
+      "url": "https://arxiv.org/abs/2608.23032",
+      "abstract": "The notation $\\psi(x,t)$ is among the first pieces of quantum mechanics that students learn. It is also among the easiest to over-interpret. Because $x$ and $t$ occur as arguments of the same function, students may ask whether they have the same mathematical status. They may also ask whether $\\psi(t)$ should require a generalized bra $\\bra{t}$ in the same way that $\\psi(x)=\\braket{x}{\\psi}$ is often written. A related question is whether the absence of a universal time operator follows simply from Pauli's argument. These questions mix several structures that are usually introduced in different parts of the curriculum. We present a unified pedagogical treatment built around two maps hidden in $\\psi(x,t)$. Time evolution selects a state along a trajectory in Hilbert space. A spectral representation then maps that state to amplitudes labelled by outcomes of a chosen observable. We formulate the position representation without generalized eigenkets. We recover Dirac's $\\ket{x}$ notation as a controlled continuum shorthand and use a finite-grid limit to show where delta normalization enters. We distinguish background coordinates, translation parameters, observables, spectral labels, and physical records. We also clarify the Stone-theorem analogy, compare prescribed-time position measurements with arrival-time measurements, state what the strong form of Pauli's argument excludes, and exhibit an exactly solvable boundary case in which a canonical self-adjoint time observable exists. Spin, circuit-QED, and optical-clock examples provide experimentally grounded checks. The aim is not a new interpretation of time. It is a reusable teaching framework for separating mathematical role from notation.",
+      "score": 86,
+      "reason": "📏 ψ(x,t) の x と t の身分の違いを丁寧に整理。波束形式で時間分解検出を扱うときの土台になる一本 ✨",
+      "summary": "🧭 時間発展とスペクトル表現の 2 写像に分解し、一般化固有ケットなしで位置表示を構成。δ 正規化がどこで入るかを有限格子極限で明示 🔬"
+    }
+  ]
+}

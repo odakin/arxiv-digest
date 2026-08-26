@@ -1,0 +1,105 @@
+{
+  "total_fetched": 255,
+  "scored_papers": [
+    {
+      "arxiv_id": "2608.22658",
+      "title": "A Margolus-Levitin speed limit for observables: mean energy bounds expectation-value change quadratically",
+      "authors": [
+        "Bryan Nasr"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.22658",
+      "abstract": "The Mandelstam-Tamm and Margolus-Levitin quantum speed limits bound how fast a state evolves, using the energy variance and the mean energy above the ground state. Speed limits on observables -- the change of an expectation value  -- have so far used the variance (the Mandelstam-Tamm / quantum-Fisher-information lineage); the mean energy has not been brought to bear on the change of  in a fixed state. We close this branch. First, a no-go theorem: there is no state-independent linear mean-energy bound on the time to change an observable's expectation by Delta = | - |; the optimal state-independent exponent of Delta is exactly two. Second, the corresponding sharp quadratic bound, T ( - E_0) >= C_* Delta^2 / sigma_A^2, for every time-independent Hamiltonian H (ground energy E_0), every bounded observable A with spectral spread sigma_A = (lambda_max - lambda_min)/2, and every pure or mixed state, with the dimension-independent constant C_* = 1/(8 sin x_*) = 0.172506267461..., where x_* is the smallest positive root of tan(x/2) = x. The bound is tight, approached but not attained by a near-ground two-level family. We then give the exact energy-time/swing trade-off curve of which C_* is the small-swing slope -- tight at every swing, the observable analog of the Giovannetti-Lloyd-Maccone curve for states -- show the constant survives for mixed states via joint convexity of the trace distance, sharpen it for bandwidth-limited generators and several observables at once, and show the quadratic law degrades to a linear one when the initial state is an eigenvector of the observable. It completes the (mean-energy x observable) corner of the speed-limit landscape and, being quadratic, is most constraining where the linear variance bounds are weakest. Its cleanest physical home is the autonomous quantum clock, where it gives a coherent mean-energy resolution floor.",
+      "score": 96,
+      "reason": "🎯 ど真ん中！観測量の期待値変化に平均エネルギーで縛りをかける Margolus-Levitin の観測量版 ✨ no-go 定理付きなのが効く",
+      "summary": "⏱ 状態非依存の線形バウンドは存在せず最適指数は 2、と示した上で T(⟨H⟩−E₀) ≥ C*Δ²/σ_A² という鋭い 2 次バウンドを証明 📐"
+    },
+    {
+      "arxiv_id": "2608.23032",
+      "title": "What do position and time mean in the quantum wavefunction?",
+      "authors": [
+        "Mustafa Bakr",
+        "Zichi Zhang",
+        "Margot Stakenborg"
+      ],
+      "categories": [
+        "quant-ph",
+        "cond-mat.mes-hall",
+        "math-ph",
+        "math.MP"
+      ],
+      "url": "https://arxiv.org/abs/2608.23032",
+      "abstract": "The notation $\\psi(x,t)$ is among the first pieces of quantum mechanics that students learn. It is also among the easiest to over-interpret. Because $x$ and $t$ occur as arguments of the same function, students may ask whether they have the same mathematical status. They may also ask whether $\\psi(t)$ should require a generalized bra $\\bra{t}$ in the same way that $\\psi(x)=\\braket{x}{\\psi}$ is often written. A related question is whether the absence of a universal time operator follows simply from Pauli's argument. These questions mix several structures that are usually introduced in different parts of the curriculum. We present a unified pedagogical treatment built around two maps hidden in $\\psi(x,t)$. Time evolution selects a state along a trajectory in Hilbert space. A spectral representation then maps that state to amplitudes labelled by outcomes of a chosen observable. We formulate the position representation without generalized eigenkets. We recover Dirac's $\\ket{x}$ notation as a controlled continuum shorthand and use a finite-grid limit to show where delta normalization enters. We distinguish background coordinates, translation parameters, observables, spectral labels, and physical records. We also clarify the Stone-theorem analogy, compare prescribed-time position measurements with arrival-time measurements, state what the strong form of Pauli's argument excludes, and exhibit an exactly solvable boundary case in which a canonical self-adjoint time observable exists. Spin, circuit-QED, and optical-clock examples provide experimentally grounded checks. The aim is not a new interpretation of time. It is a reusable teaching framework for separating mathematical role from notation.",
+      "score": 93,
+      "reason": "⏳ 時間演算子が無いのは本当に Pauli の議論だけのせい？に正面から答える教育的レビュー ✨ 時間演算子形式の足場固めに最適",
+      "summary": "🧭 ψ(x,t) に隠れた 2 つの写像（時間発展とスペクトル表現）を分離し、一般化固有ケットなしで位置表示を構成。⟨t| の是非も整理 📏"
+    },
+    {
+      "arxiv_id": "2608.21435",
+      "title": "Complex-Time Parametrization of Evanescent Tunneling and Transmission Delay in non-Hermitian Scattering",
+      "authors": [
+        "Iulia-Maria Daia"
+      ],
+      "categories": [
+        "quant-ph",
+        "gr-qc",
+        "math-ph",
+        "math.MP"
+      ],
+      "url": "https://arxiv.org/abs/2608.21435",
+      "abstract": "The quantum tunneling process is a fundamental concept that presents the unconventional nature of quantum dynamics. The main anomaly of this effect revolves around the choice of imposing the classical 4-momentum to become imaginary during the barrier traversal. This paper addresses this paradox by introducing a complex-time parametrization, which uses a complex temporal coordinate, $\\tau = t + i\\kappa$. Here, the real axis $(t)$ represents standard thermodynamic time, while the imaginary axis $(i\\kappa)$ is correlated to spatial evanescence. We demonstrate that evaluating this extended complex-time framework yields a hyperbolic section of the causal lightcone, proving that the traversal is strictly bounded by the speed of light and preserves causal disconnection. Applied to quantum tunneling, we resolve the anomaly of imaginary momentum through a continuous geometric signature flip of the effective complex-time momentum norm from a timelike to a spacelike state. This theoretical model finds a physically phenomenological analogy in microwave scattering experiments using open, non-Hermitian systems, which link complex transmission time delay to spatial wave decay.",
+      "score": 88,
+      "reason": "🌀 トンネル時間の虚数運動量パラドックスを、複素時間 τ=t+iκ の導入で解消。到達時間問題に効きそうな幾何的視点 ✨",
+      "summary": "⏲ 障壁通過を因果的光円錐の双曲切断として記述し光速を超えないことを示す。有効複素運動量の時間的↔空間的シグネチャ反転が鍵 🔍"
+    },
+    {
+      "arxiv_id": "2608.22656",
+      "title": "Sharp State-Independent Uncertainty Relations for Multipartite systems",
+      "authors": [
+        "Yiling Wang",
+        "Naihuan Jing"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.22656",
+      "abstract": "Uncertainty relations constrain the fluctuations of incompatible observables, but most familiar bounds depend on the quantum state. State-independent uncertainty relations instead ask how much fluctuation remains unavoidable for every quantum state. For observables generated by a continuous symmetry, sharp state-independent bounds are known when the symmetry representation is irreducible. Multipartite collective systems, however, generally appear as reducible tensor-product representations of a symmetry algebra, which raises the question of how to determine their total uncertainty.\n  We resolve this problem for multipartite quantum systems with a compact semisimple symmetry algebra $\\mathfrak g$. Exploiting the symmetry structure, we formulate a general framework for state-independent uncertainty based on representation theory. The total variance admits an exact decomposition into intrinsic fluctuations within irreducible sectors and a nonnegative dispersion between sectors. This yields the sharp state-independent bound for the total variance $\\Delta_\\rho^2(\\mathfrak g)$ on the multipartite Hilbert space $\\mathcal H$ \\[ \\min_{\\rho}\\Delta_\\rho^2(\\mathfrak g) =\n\\min_{\\lambda\\in\\Lambda(\\mathcal H)} 2\\langle\\lambda,\\delta\\rangle, \\] where $\\rho$ is any density operator on $\\mathcal H$, $\\Lambda(\\mathcal H)$ is the set of highest weights $\\lambda$ labeling those sectors, and $\\delta$ is the Weyl vector. This demonstrates that the ultimate uncertainty is completely controlled by its intrinsic symmetry structure. As a special example, this result confirms our previous conjecture that the total uncertainty floor of collective spin-$1/2$ systems depends only on the parity of the particle number. We further illustrate the framework for multipartite spin-$1$ systems, demonstrating that the same symmetry-sector mechanism persists beyond spin-$1/2$.",
+      "score": 87,
+      "reason": "📐 状態に依らない不確定性関係を、可約なテンソル積表現＝多体集団系まで拡張。既約表現の枠を超えた鋭いバウンド ✨",
+      "summary": "🧩 コンパクト半単純代数 g に対し全分散を既約セクター内の固有揺らぎとセクター間分散に厳密分解し、鋭い状態非依存下限を導出 🔬"
+    },
+    {
+      "arxiv_id": "2608.22043",
+      "title": "Conditional Gaussian filtering by Arthurs--Kelly readout in a three-mode cluster wire",
+      "authors": [
+        "B. M. Rodr'iguez-Lara",
+        "J. A. Mendoza-Fierro"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.22043",
+      "abstract": "Measurement readout programs the Gaussian operation implemented by a continuous-variable cluster wire. For the standard three-node wire, momentum homodyne readout gives an additive parity channel with finite-squeezing noise. We classify the pattern-resolved input--output covariance transformations generated by calibrated uncorrelated Arthurs--Kelly readout on one or both consumed nodes. Any finite Arthurs--Kelly position record produces a conditional Gaussian filter whose gain and residual covariance depend on the input covariance entries, rather than an input-independent additive Gaussian channel. Writing $\\mathrm{A}$ for Arthurs--Kelly readout and $\\mathrm{H}$ for homodyne readout, the readout pattern selects the filtered sector, with $\\mathrm{AH}$ selecting position, $\\mathrm{HA}$ selecting momentum, and $\\mathrm{AA}$ retaining both. The hierarchy $0 < \\tau_{\\mathrm{AA}} < \\min \\left\\{ \\tau_{\\mathrm{AH}}, \\tau_{\\mathrm{HA}} \\right\\} < 1 = \\tau_{\\mathrm{HH}}$ shows that finite Arthurs--Kelly position records contract the gain-transferred covariance area. Our results identify calibrated uncorrelated Arthurs--Kelly readout as a measurement-level method for covariance-sensitive Gaussian filtering inside a fixed cluster graph.",
+      "score": 86,
+      "reason": "🔎 位置と運動量の同時測定（Arthurs-Kelly）を CV クラスター配線に入れると何が起きるか。ガウス測定と不確定性の交差点 ✨",
+      "summary": "📊 有限の Arthurs-Kelly 記録は加法的ガウス通信路ではなく入力依存の条件付きフィルタを生む。読み出しパターンが濾過セクターを選ぶ 🧪"
+    },
+    {
+      "arxiv_id": "2608.21434",
+      "title": "Maximal-Rank Squeezing from Rank-One Quenches: An Exact Spectral-Reachability Theorem for Gaussian Bosonic Systems",
+      "authors": [
+        "Kamran Ansari"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.21434",
+      "abstract": "We prove an exact spectral-reachability theorem for multimode squeezing generated by finite-rank quadratic quenches in Gaussian bosonic systems. For a stable sign-definite stiffness quench $\\Omega^2 \\to \\Omega^2+\\varepsilon U U^T$, the kernel, range, and rank of the anomalous Bogoliubov block are determined exactly by the block-Krylov subspace generated by $\\Omega$ and $U$. In particular, $\\operatorname{rank}(\\beta_\\varepsilon)=\\sum_a \\operatorname{rank}(P_a U)$, where $P_a$ projects onto each distinct free-frequency eigenspace. Consequently, the microscopic rank of a perturbation does not bound the number of squeezing channels it can activate: for a simple spectrum, a single rank-one element with nonzero overlap with every mode produces a full-rank anomalous Bogoliubov response at every nonzero stable coupling. A signed Lyapunov-Gramian path shows that spectrally reachable directions cannot disappear through finite-coupling cancellation. The theorem also gives exact dark sectors, degeneracy bottlenecks, and actuator-position rules without computing the full Bogoliubov transformation. These results provide a direct hardware-screening principle for multimode Gaussian systems: one or a few physical elements can provide simultaneous support across many canonical squeezing channels, although algebraic rank alone does not imply strong squeezing or independent tunability.",
+      "score": 85,
+      "reason": "✨ ランク 1 の摂動でも全ランクのスクイージングが立ち上がる、という厳密定理。生成可能性を代数だけで決められる 🔧",
+      "summary": "🧮 異常 Bogoliubov ブロックの核・像・階数がブロック Krylov 部分空間で厳密に決まり、rank(β)=Σ_a rank(P_a U) が成立 📐"
+    }
+  ]
+}

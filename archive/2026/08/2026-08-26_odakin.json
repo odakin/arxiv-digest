@@ -1,0 +1,128 @@
+{
+  "total_fetched": 255,
+  "scored_papers": [
+    {
+      "arxiv_id": "2608.22669",
+      "title": "Towards Perturbative Unimodular Poincar\\'e Gauge Theories with Propagating Torsion",
+      "authors": [
+        "Arthur F. Vieira",
+        "Antonio D. Pereira",
+        "Reinhard Alkofer"
+      ],
+      "categories": [
+        "hep-th",
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2608.22669",
+      "abstract": "We study the one-loop relation between an effective-field-theory extension of Poincar\\'e gauge theories of gravity with propagating torsion and its unimodular counterpart. In the Einstein representation, we consider two representative quadratic torsion subsectors, namely totally antisymmetric (axial) torsion and the vector component of hook-antisymmetric torsion. On maximally symmetric metric backgrounds with vanishing background torsion, the diffeomorphism-invariant and genuine unimodular theories yield identical one-loop determinants in both sectors, reproducing the same local logarithmic divergences. We further examine flat backgrounds with homogeneous axial or vector torsion, where metric-torsion mixing is present. In each case, the torsion-dependent one-loop effective action in unimodular gauge and in the genuine unimodular formulation is controlled by the same physical determinant. Thus, for the actions and backgrounds considered, the unimodular constraint does not modify local one-loop torsion dynamics. We also delineate the limitations of this equivalence and the extensions needed for generic torsionful curved backgrounds.",
+      "score": 95,
+      "reason": "🔥🎯 ねじれが伝播する Poincaré ゲージ重力の 1-loop！Einstein-Cartan 直撃 ✨🌀 unimodular にしても局所ダイナミクスは変わらない、という結論も効く 💫",
+      "summary": "⚙️ 軸性ねじれとフック反対称ねじれのベクトル成分について、微分同相不変版と真の unimodular 版の 1-loop 行列式が一致し、対数発散も同一と示す 🔍"
+    },
+    {
+      "arxiv_id": "2608.23555",
+      "title": "Two-loop renormalisation and Higgs phenomenology in the five-dimensional MSSM",
+      "authors": [
+        "Ammar Abdalgabar",
+        "Alan S. Cornell",
+        "Aldo Deandrea",
+        "Howeida M. Esmaeil",
+        "Mohammed Omer Khojali"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.23555",
+      "abstract": "The five-dimensional Minimal Supersymmetric Standard Model (5D MSSM) provides an attractive framework in which power-law renormalisation group evolution naturally generates a sizeable trilinear stop coupling, allowing the observed Higgs boson mass to be reproduced without requiring too heavy a supersymmetric spectra. In this work we present a comprehensive two-loop analysis of the 5D MSSM, deriving the complete renormalisation group equations governing the gauge, Yukawa and soft supersymmetry-breaking sectors and examining the perturbative consistency of the theory. Particular attention is given to the ultraviolet behaviour of the model, where we demonstrate that the potentially dangerous leading two-loop contributions cancel as a consequence of the underlying $\\mathcal{N}=2$ supersymmetry, leaving a well-behaved perturbative expansion. Building upon this framework, we compute the radiatively corrected Higgs effective potential including the complete Kaluza-Klein (KK) contributions through KK resummation, and investigate the resulting implications for the Higgs sector. The phenomenological viability of the model is subsequently explored through detailed numerical studies of the Higgs boson mass, electroweak precision observables, Higgs coupling modifiers and signal strengths, allowing constraints on the compactification scale and supersymmetric parameter space to be established. We find that the inclusion of the two-loop corrections preserves the characteristic power-law behaviour of the five-dimensional theory while yielding a phenomenologically viable parameter space consistent with current collider and precision measurements.",
+      "score": 89,
+      "reason": "🌌✨ 余剰次元 × Higgs！5D MSSM を 2-loop まで押し上げ、KK 総和込みの Higgs 有効ポテンシャルに到達 🚀🔬 UED 好きは要チェック 💡",
+      "summary": "📐 N=2 SUSY のおかげで危険な 2-loop 寄与が相殺し摂動論が健全。KK 再和した輻射補正で Higgs セクターの現象論を再評価 ⚡"
+    },
+    {
+      "arxiv_id": "2608.23220",
+      "title": "Conformal and Noncommutative Gravity from Gauge Symmetry Breaking and SO(2,16) Unification",
+      "authors": [
+        "Stelios Stefas",
+        "George Zoupanos"
+      ],
+      "categories": [
+        "hep-th",
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2608.23220",
+      "abstract": "Motivated by the old idea of treating gravity as a gauge theory, we review the gauge-theoretic construction of Conformal Gravity and of Noncommutative (Fuzzy) Gravity. We then outline how these gauge formulations of gravity can be unified with internal interactions described by an SO(10) Grand Unified Theory, based on the critical observation that the dimension of the tangent-space symmetry group of a curved manifold need not coincide with the spacetime dimension.",
+      "score": 88,
+      "reason": "🌀🎇 重力をゲージ理論として扱う路線！接空間の対称性群の次元は時空次元と一致しなくてよい、が肝 👀✨ vierbein 派に刺さる 🔥",
+      "summary": "🧩 共形重力とファジー（非可換）重力のゲージ構成を整理し、SO(10) GUT の内部対称性と SO(2,16) で統一する筋道を提示 🌐"
+    },
+    {
+      "arxiv_id": "2608.22005",
+      "title": "Effects of RG running in breaking $\\mu-\\tau$ reflection symmetry, conventional versus minimal seesaw",
+      "authors": [
+        "Chandan Kumar Borah",
+        "Chandan Duarah"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.22005",
+      "abstract": "The $\\mu$--$\\tau$ reflection symmetry has attracted considerable attention owing to its prediction of a maximal atmospheric mixing angle and a Dirac CP-violating phase $\\delta=3\\pi/2$, consistent with indications from the T2K and NO$\\nu$A experiments. Since current neutrino oscillation data exhibit small but significant deviations from the exact symmetry predictions, understanding the origin of its breaking has become an important problem. In this work, we investigate the radiative breaking of $\\mu$--$\\tau$ reflection symmetry within the framework of the minimal seesaw model through the renormalization group (RG) evolution of neutrino parameters. Assuming the symmetry to be exact at the flavor symmetry (seesaw) scale, we examine whether the observed low-energy neutrino oscillation data can be reproduced after RG evolution. Owing to the rank-two structure of the minimal seesaw model, one light neutrino mass eigenvalue vanishes, reducing the number of independent high-energy neutrino parameters from five to four. We perform a systematic numerical analysis to determine the allowed high-energy parameter space capable of reproducing the current experimental constraints at low energies. Furthermore, a comparative study between the conventional Type-I seesaw and the minimal seesaw frameworks is carried out by analyzing the RG evolution of the solar and atmospheric mass-squared differences.",
+      "score": 86,
+      "reason": "🧪✨ μ-τ 反射対称性の破れを RG 進化だけで説明できるか？最小シーソーと通常シーソーを正面から比較 🔍🌊 δ=3π/2 の由来を追う 💫",
+      "summary": "📊 シーソースケールで厳密対称性を仮定して RG 進化。ランク 2 構造で高エネルギー側の独立パラメータが 4 個に減り、許容領域を数値的に特定 ⚙️"
+    },
+    {
+      "arxiv_id": "2608.23367",
+      "title": "Black holes from a Higgs-like field in the radiation era",
+      "authors": [
+        "Ethan Milligan",
+        "Luis E. Padilla",
+        "David J. Mulryne"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2608.23367",
+      "abstract": "Light spectator fields during inflation can acquire superhorizon fluctuations that cross a potential barrier between positive and negative regions of their potential. Motivated by the Standard Model Higgs instability, in this work we study the subsequent evolution of patches where this occurs in the radiation era after inflation ends for a Higgs-like spectator field. We utilise fully nonlinear, spherically symmetric numerical relativity. Across the black hole forming configurations in our investigation we find a robust two-stage evolution. First, the central negative potential region reverses its expansion, becomes kinetic dominated, and forms a primordial black hole that hides the runaway core. The positive potential barrier that survives outside this first horizon then determines one of two late-time branches. In the subcritical branch the original apparent horizon grows smoothly and engulfs the remaining scalar structure. In the supercritical branch, however, the potential energy of the barrier dominates the local evolution. The result is a transient wormhole throat, a bifurcating trapping horizon, and an inflating child universe branch. In both branches the parent radiation dominated universe is ultimately left with an ordinary primordial black hole whose subsequent growth is governed by radiation accretion.",
+      "score": 86,
+      "reason": "💥🕳 Higgs の不安定性が種になって PBH ができる話！完全非線形の数値相対論で追跡 🔥✨ 超臨界枝ではワームホール喉まで現れる 😳",
+      "summary": "🌀 負ポテンシャル領域が膨張を反転して運動優勢になり、暴走コアを隠す PBH を形成。外側に残る障壁が亜臨界／超臨界の 2 分岐を決める 🔭"
+    },
+    {
+      "arxiv_id": "2608.23032",
+      "title": "What do position and time mean in the quantum wavefunction?",
+      "authors": [
+        "Mustafa Bakr",
+        "Zichi Zhang",
+        "Margot Stakenborg"
+      ],
+      "categories": [
+        "quant-ph",
+        "cond-mat.mes-hall",
+        "math-ph",
+        "math.MP"
+      ],
+      "url": "https://arxiv.org/abs/2608.23032",
+      "abstract": "The notation $\\psi(x,t)$ is among the first pieces of quantum mechanics that students learn. It is also among the easiest to over-interpret. Because $x$ and $t$ occur as arguments of the same function, students may ask whether they have the same mathematical status. They may also ask whether $\\psi(t)$ should require a generalized bra $\\bra{t}$ in the same way that $\\psi(x)=\\braket{x}{\\psi}$ is often written. A related question is whether the absence of a universal time operator follows simply from Pauli's argument. These questions mix several structures that are usually introduced in different parts of the curriculum. We present a unified pedagogical treatment built around two maps hidden in $\\psi(x,t)$. Time evolution selects a state along a trajectory in Hilbert space. A spectral representation then maps that state to amplitudes labelled by outcomes of a chosen observable. We formulate the position representation without generalized eigenkets. We recover Dirac's $\\ket{x}$ notation as a controlled continuum shorthand and use a finite-grid limit to show where delta normalization enters. We distinguish background coordinates, translation parameters, observables, spectral labels, and physical records. We also clarify the Stone-theorem analogy, compare prescribed-time position measurements with arrival-time measurements, state what the strong form of Pauli's argument excludes, and exhibit an exactly solvable boundary case in which a canonical self-adjoint time observable exists. Spin, circuit-QED, and optical-clock examples provide experimentally grounded checks. The aim is not a new interpretation of time. It is a reusable teaching framework for separating mathematical role from notation.",
+      "score": 86,
+      "reason": "⏳🎓 ψ(x,t) の x と t は同格か？時間演算子の不在は本当に Pauli の議論だけで従うのか ✨🤔 到達時刻まわりの土台を洗い直す一本 💡",
+      "summary": "🧭 時間発展＝ヒルベルト空間内の軌道、スペクトル表現＝観測値へのラベル付け、と 2 つの写像に分離。一般化固有ケットなしで位置表示を構成 📏"
+    },
+    {
+      "arxiv_id": "2608.22667",
+      "title": "Toward a Unified Axion Cosmology",
+      "authors": [
+        "Takeshi Fukuyama"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.22667",
+      "abstract": "We explore a unified axion framework connecting grand unification, string-inspired axion-like particles (ALPs), and cosmology. Starting from the QCD axion associated with Peccei--Quinn symmetry in supersymmetric SO(10) GUT, we consider the broader spectrum of ultralight ALPs motivated by heterotic string theory. Within this multi-axion structure, we focus on two ultralight scales selected by cosmological requirements. A mode of order $10^{-22}$ eV is assumed to constitute the dominant dark-matter component and can form a Bose--Einstein condensate whose attractive self-interaction leads to nonlinear collapse, providing possible seeds for high-redshift supermassive black holes. A lighter eigen-direction with a characteristic dynamical scale of order $10^{-28}$ eV can transiently increase the pre-recombination expansion rate and reduce the sound horizon. An order-of-magnitude estimate shows that addressing the Hubble tension requires a sound-horizon-weighted axion fraction of order 0.1, corresponding, for a large initial displacement, to an effective decay constant of order $10^{18}$ GeV. We show that a multi-axion--multi-instanton system can in principle provide both the required aligned light direction and a higher-order effective potential that makes the $10^{-28}$ eV contribution transient. The framework links theoretically motivated axionic degrees of freedom to the distinct scales required by dark-matter, early-black-hole, and Hubble-tension phenomenology.",
+      "score": 85,
+      "reason": "🪐✨ SO(10) GUT の QCD axion から超軽量 ALP までを一本の枠組みに 🌌🔭 10⁻²² eV が DM、10⁻²⁸ eV が Hubble tension 担当 💫",
+      "summary": "🧵 多軸子構造から 2 つの超軽量モードを選び、BEC の非線形崩壊で超大質量 BH の種、音響地平線の短縮で H₀ 緊張の緩和を見積もる ⚖️"
+    }
+  ]
+}
