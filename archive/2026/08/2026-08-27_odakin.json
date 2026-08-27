@@ -1,0 +1,137 @@
+{
+  "total_fetched": 173,
+  "scored_papers": [
+    {
+      "arxiv_id": "2608.23891",
+      "title": "Cosmological Evolution of the Higgs Vacuum Expectation Value in Emergent Gravity",
+      "authors": [
+        "Nazim Ruzgar Guneri",
+        "Metin Arik"
+      ],
+      "categories": [
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2608.23891",
+      "abstract": "In a generally covariant theory whose Lagrangian density contains no derivatives of the metric, the spacetime geometry is fixed algebraically by the scalar fields, and the simplest quadratic potential is known to generate exponentially expanding, recollapsing and big-rip cosmologies. We extend this emergent-gravity Higgs cosmology by one new spacelike scalar field - the vacuum-expectation-value generating field - coupled to the Higgs particle through the Standard Model potential, so that the electroweak vacuum expectation value becomes a dynamical quantity evolving with cosmological time. We show that the broken-symmetry valley of the potential is an exact and stable solution of the full nonlinear system, on which the background is solved in closed form in terms of a single conserved charge. The charge feeds the Friedmann equation with a radiation-like component of purely geometric origin, diluting with the inverse fourth power of the scale factor although no radiation fluid is present; as a consequence the universe is born at a finite cosmological time in a radiation-dominated big bang, and for vanishing constant term in the potential the expansion history realizes a spontaneous radiation-to-dark-energy sequence. The sign of the Higgs kinetic term is not an assumption of the model: the requirement that the broken phase be the physical vacuum fixes it dynamically, and the stable choice reproduces the Standard Model relation between the Higgs mass, the self-coupling and the vacuum expectation value with no adjustable parameter. Oscillations about the valley describe a Higgs condensate which is frozen at early times, begins to oscillate through a misalignment mechanism, obeys a parameter-free adiabatic amplitude law, and backreacts on the expansion history as a definite renormalization of the background constants that feeds the radiation-like component.",
+      "score": 92,
+      "reason": "🎯🔥 計量に微分を含まない emergent gravity で Higgs の真空期待値が宇宙時間とともに動く！scale 不変重力路線ど真ん中です ✨🌌💫",
+      "summary": "📐 VEV 生成場を新たに導入し SM ポテンシャル経由で Higgs と結合、電弱 VEV を力学変数化。破れた相の宇宙論的振る舞いを解析 🌠"
+    },
+    {
+      "arxiv_id": "2608.24140",
+      "title": "Towards a Connection Formulation of Action-Dependent Palatini Gravity",
+      "authors": [
+        "Callum Bell",
+        "David Sloan"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2608.24140",
+      "abstract": "Previous work has shown that first-order Palatini gravity may be cast as a non-conservative Herglotz Lagrangian field theory, which excludes the conformal mode from its space of dynamical variables. In the present work, we analyse the role of the $SO(1,3)$ gauge connection in the construction of this action-dependent theory. The connection may be decomposed into `shape' and `scale' pieces, where only the former is retained within the Herglotz theory, while the latter is incorporated into the action-dependent sector. It is shown that the choice of connection decomposition is a space that can be smoothly parameterised. Such an observation leads to the finding that there exists a `moduli space of frictional field theories', in which each point corresponds to a distinct splitting of the shape and scale connection dynamics. Movement within the moduli space transitions between Herglotz Lagrangians whose on-shell dynamics all reproduce first-order Palatini gravity. The distinction lies in how the reproduction of the scale dynamics of the original theory is partitioned between action dependence and dynamical torsion.",
+      "score": 90,
+      "reason": "🚀✨ Palatini 重力を Herglotz 型の非保存理論として書き、SO(1,3) 接続を shape と scale に分解！Einstein-Cartan 系の道具立てと直結 🔧🌀🎯",
+      "summary": "🧩 接続分解の選び方が滑らかにパラメータ化できる空間をなすことを示す。共形モードを力学変数から外す構成の幾何学的整理 📏"
+    },
+    {
+      "arxiv_id": "2608.24050",
+      "title": "SU(9) grand unified model with rank-reducing discrete boundary conditions on $T^2/\\mathbb Z_4$",
+      "authors": [
+        "Yoshiharu Kawamura",
+        "Kentaro Kojima",
+        "Toshifumi Yamashita"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.24050",
+      "abstract": "We study a six-dimensional SU(9) grand unified model with rank-reducing discrete boundary conditions and continuous Wilson line phases on the orbifold $T^2/\\mathbb Z_4$. We show that the model can realize grand unification of the Standard Model gauge interactions and electroweak symmetry breaking via the Hosotani mechanism. The model has several attractive features. Two Higgs doublets arise as zero modes of the extra-dimensional components of the gauge field, and the leptons and quarks in each generation are separately embedded into two bulk multiplets, in the ${\\bf 36}$ and ${\\bf 84}$ representations of SU(9), respectively, without exotic matter. Furthermore, proton decay processes mediated by the gauge bosons in the bulk are absent, because the leptons and quarks belong to different bulk multiplets.",
+      "score": 89,
+      "reason": "🌌🔥 6 次元 SU(9) を T²/Z₄ 上で階数降下 BC ＋ Wilson line！Hosotani 機構で電弱対称性が破れる、余剰次元 Higgs 路線に刺さります 🎯✨💫",
+      "summary": "⚙️ ゲージ場の余剰次元成分のゼロモードとして 2 つの Higgs 二重項が出現。各世代のクォーク・レプトンは 36 と 84 に分離埋め込み 🧮"
+    },
+    {
+      "arxiv_id": "2608.23656",
+      "title": "Brans Dicke scalar-tensor gravity and unimodular FRW cosmology with Coleman-Weinberg potential",
+      "authors": [
+        "Manda Malekpour",
+        "Hossein Ghaffarnejad"
+      ],
+      "categories": [
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2608.23656",
+      "abstract": "As alternative gravity theories with respect to the general relativity, the Brans-Dicke (BD) scalar tensor model is well known for which the BD parameter is controller the best fit observational data and so its cosmological model is studied in the literature well. On the other side, the Coleman Weinberg (CW) self-interaction scalar field potential coming from radiation corrections of Feynman diagrams is used to describe the best fit cosmic inflation phase and reheating phase. This has a logarithmic term with respect to the Higgs potential and it is applicable even for massless bosons. From particle physics point of view, this is used usually to describe the Higgs mechanism and creation of massive Goldstone bosons. As a basic model to describe the cosmic inflation the cosmological constant is used to describe the de Sitter space where the cosmological constant play as dark energy density. Since, the cosmological constant is a hierarchy problem and it is added in the Einstein equation without to describe that where that is come originally? at a first time the Albert Einstein himself proposed a uni-modular frame for which the cosmological constant generate from a integral constant. This idea is very well because it resolve `fine tuning` problem of the cosmological constant parameter. Hence we use this idea for the BD theory in presence of the CW potential and obtained suitable solutions of the field equations for a flat Robertson-Walker space time by regarding the slow roll parameters of cosmic inflation and then we find the best fit correspondence between the theoretical predictions of the parameters of the solutions and the Planck2018, DESI2024, and ACT2025 observational data.",
+      "score": 88,
+      "reason": "🎯🌠 Brans-Dicke × unimodular FRW に Coleman-Weinberg ポテンシャル！eJBD 重力とインフレーション両方の交差点で気になる一本です 🔥✨💫",
+      "summary": "📊 輻射補正由来の対数項をもつ CW ポテンシャルで加速膨張と再加熱を記述、BD パラメータを観測ベストフィットと突き合わせ 🌌"
+    },
+    {
+      "arxiv_id": "2608.23654",
+      "title": "Operational quantum estimation theory for neutrino oscillations: identifiability, attainability, and spectral precision bounds",
+      "authors": [
+        "Jianlong Lu"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.23654",
+      "abstract": "Quantum Fisher information (QFI) bounds state-encoded precision before measurement choice but does not establish identifiability, joint attainability, or detector sensitivity. We develop an operational framework for three-flavor oscillations that separates state, measurement, and reconstructed-event information. At fixed baseline, energy, source flavor, and matter profile, the propagated state is a pure qutrit, so its six-coordinate QFI has rank at most four. Resolved broadband components can restore rank because the aggregate kernel equals the intersection of their active kernels. We analyze joint attainability using quantum curvature, exact pure-state Holevo costs, and numerical primal-dual brackets, and propagate information through flavor projection, detector response, Poisson sampling, and nuisance profiling. An independent implementation of the public DUNE GLoBES configuration reproduces the reference spectra to relative error $3.87\\times10^{-16}$ and the profiled likelihood curvature to $3.26\\times10^{-6}$. Under the declared scaling and tolerance, its 264-bin event information has numerical rank six at all 176 documented physics points, whereas any four retained rule totals have rank at most four. The weakest record has effective rank five at the declared practical threshold. A conditional likelihood pilot also shows finite-grid overcoverage and dependence on the auxiliary-measurement ensemble. The framework identifies when local quantum or Fisher bounds do not support global experimental-sensitivity claims.",
+      "score": 86,
+      "reason": "🔥🎯 ニュートリノ振動を量子推定理論で操作的に定式化！状態・測定・再構成イベントの情報を分離する枠組みは波束路線と響きます 🌊✨💫",
+      "summary": "📐 3 世代振動の純粋クォートリット状態で QFI の階数は最大 4、広帯域成分の分解で階数が回復。同時達成可能性と検出器感度を解析 🧭"
+    },
+    {
+      "arxiv_id": "2608.23713",
+      "title": "Explicit soft scale symmetry breaking regulators: the Higgs mass and the consistency of scale symmetry breaking",
+      "authors": [
+        "A. R. Vieira"
+      ],
+      "categories": [
+        "hep-ph",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2608.23713",
+      "abstract": "In this work, we search for explicit regulators that do not spuriously break scale invariance starting from conditions established by implicit regularization. There is a family of regulator functions that obey the conditions and lead to soft breaking terms of the dilatation current. This family of functions is shown to be related with the Laguerre polynomials. We apply this approach by revisiting quadratic divergences in the context of the naturalness problem of the Standard Model.",
+      "score": 86,
+      "reason": "✨🔥 スケール不変性を偽って壊さない正則化子を探す試み！Laguerre 多項式と結びつくとは面白い、自然性問題の再訪です 🎯🌀💫",
+      "summary": "🧮 暗黙的正則化の条件を満たす正則化子の族を構成し、ディラテーション流のソフト破れ項を導出。SM の二次発散を再検討 📏"
+    },
+    {
+      "arxiv_id": "2608.24739",
+      "title": "Discovery Potentials for the Cosmic Neutrino Background using Single Arm Interferometer",
+      "authors": [
+        "Chrisna Setyo Nugroho"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.24739",
+      "abstract": "We study the interaction between light and non-relativistic cosmic neutrino background (CNB). We propose single arm laser interferometry with coherent laser source and two distinct squeezing operators to probe such interaction. We analyze the induced phase shift in four distinct quantum regimes of the interferometer operation: the standard quantum limit (SQL), the Heisenberg limit, super-Heisenberg limit with $N^{3/2}$ enhancement, and super-Heisenberg limit with $N^{2}$ enhancement where $N$ is the number of photons in the interferometer. We demonstrate that the $N^{2}$ super-Heisenberg enhancement has the potential to probe the magnetic moment down to $10^{-25}\\, \\mu_{B}$ where $ \\mu_{B}$ is the Bohr magneton. If the CNB and photons interact via its magnetic moment, this interaction could be revealed in single arm interferometer operating at super-Heisenberg limit with $N^{2}$ enhancement.",
+      "score": 86,
+      "reason": "🌌🔥 宇宙背景ニュートリノを単腕干渉計＋2 つのスクイーズ演算子で狙う！スクイーズド状態と ν の合わせ技が刺激的です 🎯✨💫",
+      "summary": "📡 SQL・Heisenberg 限界・N^{3/2} と N² の超 Heisenberg 領域で誘起位相シフトを評価、N² 増強に検出可能性ありと主張 🔭"
+    },
+    {
+      "arxiv_id": "2608.24676",
+      "title": "Testing $f(Q)$ Gravity with DESI DR2 and Strong-Lensing Time Delays",
+      "authors": [
+        "Darshan Kumar (HNAS)",
+        "Saibal Ray",
+        "Fengge Zhang",
+        "Nisha Rani",
+        "Praveen Kumar Dhankar",
+        "Jie Zheng"
+      ],
+      "categories": [
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2608.24676",
+      "abstract": "Symmetric teleparallel gravity provides an alternative description of gravitation in which non-metricity replaces curvature and torsion. Its extension through $f(Q)$ gravity offers a different geometric description of the late-time expansion of the Universe and its accelerated phase. In this work, we investigate two $f(Q)$ models, a normalized power-law model and a square-root exponential model, and test their ability to describe the late-time expansion history. We constrain the model parameters through Markov chain Monte Carlo analyses using Cosmic Chronometer measurements, DESI DR2 baryon acoustic oscillations, strong-lensing time-delay observations, and three Type Ia supernova compilations, Pantheon$^+$, Union 3.0, and DES Y5. We compare both models with the flat $\\Lambda$CDM model using the minimum $\\chi^2$, Akaike information criterion, and Bayesian information criterion. The square-root exponential model provides a better statistical fit than $\\Lambda$CDM for the combinations of Cosmic Chronometer, DESI DR2, and strong-lensing time-delay data with Pantheon$^+$ and Union 3.0, with improvements in both the goodness of fit and information criteria. The normalized power-law model remains statistically competitive with $\\Lambda$CDM for the supernova-inclusive combinations, although the information criteria do not favor its additional parameter. We also determine the transition redshift from cosmic deceleration to acceleration for both models, obtaining consistent values across the different dataset combinations. The transition redshifts agree with observational estimates of the cosmic acceleration epoch. Overall, our results support $f(Q)$ gravity as a viable alternative to $\\Lambda$CDM for explaining the late-time accelerated expansion of the Universe without requiring a cosmological constant.",
+      "score": 85,
+      "reason": "🌠✨ 対称テレパラレル f(Q) を DESI DR2 と強レンズ時間遅延で検定！ねじれ・非計量性系の観測的な締め上げ状況が分かります 🔥🎯",
+      "summary": "📊 正規化べき乗型と平方根指数型の 2 模型を MCMC で制約。宇宙年代計・BAO・時間遅延で後期加速膨張の記述能力を比較 🌌"
+    }
+  ]
+}

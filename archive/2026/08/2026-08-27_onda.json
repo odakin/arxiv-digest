@@ -1,0 +1,87 @@
+{
+  "total_fetched": 173,
+  "scored_papers": [
+    {
+      "arxiv_id": "2608.24456",
+      "title": "CMB Birefringence from Axion String Networks Calibrated to an AMR Simulation",
+      "authors": [
+        "Mustafa A. Amin",
+        "Mudit Jain",
+        "Andrew J. Long",
+        "Aden Pugsley",
+        "Moira Venegas",
+        "Magdalena Whelley"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.24456",
+      "abstract": "A cosmological network of axion strings may exist in the Universe today. If axion-like particles couple to electromagnetism, such a network induces spatially varying birefringence in the polarization of the cosmic microwave background (CMB), which can be probed by current and next-generation CMB experiments. We calibrate a loop-crossing model against a large-scale adaptive-mesh-refinement (AMR) simulation of axion-string network dynamics in the early Universe and use the calibrated model to predict CMB birefringence from recombination to today. We find that the non-detection of anisotropic birefringence in CMB observations places a strong upper bound on the electromagnetic anomaly coefficient $\\mathcal{A}$ that enters the axion-photon coupling $g_{a\\gamma\\gamma} = - \\mathcal{A} \\alpha_\\mathrm{em} / \\pi f_a$. A joint analysis of available anisotropic birefringence measurements constrains $|\\mathcal{A}| < 0.24$ at 95% C.L., which is independent of the Peccei-Quinn scale $f_a$, assuming that the axions are hyperlight so that the network survives until today. This limit strongly restricts the high-energy embedding of hyperlight axions, excluding the minimal Grand Unified Theory prediction for the electromagnetic anomaly coefficient at high significance. In addition, we discuss the implications of an axion-string origin for the recently reported evidence of isotropic birefringence.",
+      "score": 92,
+      "reason": "🎯 アクシオン string 網が作る CMB 複屈折を AMR シミュで較正！非等方複屈折の非検出から network への制限が出ます ✨🌌",
+      "summary": "🔭 loop-crossing 模型を大規模 AMR 計算に合わせ込み、再結合から現在までの複屈折を予測。次世代 CMB 実験の感度と比較 📊"
+    },
+    {
+      "arxiv_id": "2608.24459",
+      "title": "A high-isolation wideband channelizer for MKID readouts: a custom HLS implementation on RFSoC",
+      "authors": [
+        "Alberto Hernandez Fernandez",
+        "David Diaz Martin",
+        "Jose Javier Diaz Garcia",
+        "Roger John Hoyland",
+        "Luis Fernando Rodriguez Ramos",
+        "Diego Portero Rodriguez",
+        "Silvestre Rodriguez Perez"
+      ],
+      "categories": [
+        "astro-ph.IM",
+        "eess.SP"
+      ],
+      "url": "https://arxiv.org/abs/2608.24459",
+      "abstract": "We present a high-performance channelizer for Microwave Kinetic Inductance Detectors (MKIDs), designed to mitigate spectral leakage and scalloping loss through a 50% overlapping polyphase filter bank (PFB). The design is implemented on a Xilinx Zynq UltraScale+ RFSoC ZCU111 using a custom design - primarily in Vitis High-Level Synthesis (HLS), with the time-critical output serializer and glue logic in VHDL - that processes a 4.096 GSPS input stream with a per-branch super-sample rate (SSR) of 16. Rather than relying on aggressive 512 MHz clocking and vendor IP cores, our split-path architecture computes the delayed and non-delayed polyphase branches concurrently, so that the bulk of the channelizer operates at a robust 256 MHz while a single 512 MHz subdomain is confined to the BRAM-to-FFT section. This architectural parallelism enables a deep 16-tap prototype filter that doubles the filter depth of comparable high-speed systems and substantially improves channel isolation. We report the complete internal architecture of the reordering engine that implements the overlap, including two implementation hazards not documented in prior art: a pipeline-stage skew affecting state toggles in HLS, and the state-preservation requirements of a restartable design. The 2/1 overlapped channel response is validated in simulation - recovering the ~3.9 dB scalloping loss of a critically sampled channelizer to below 0.1 dB across the full 2 MHz channel - and characterized systematically with a 100-tone batch frequency sweep, while the parent readout system has been operated cryogenically with an MKID array in an adiabatic demagnetization refrigerator (ADR), identifying individual resonators in total darkness. The result is a resource-efficient, high-isolation benchmark for wideband frequency-division-multiplexed readouts.",
+      "score": 90,
+      "reason": "🔧 MKID 読み出し用チャネライザを RFSoC 上に HLS 実装！50% オーバーラップ PFB でスペクトル漏れとスカラップ損を抑制 ✨📡",
+      "summary": "⚙️ ZCU111 で 4.096 GSPS 入力を SSR 16 で処理。512 MHz の高速クロックやベンダ IP に頼らない分割経路構成で実現 🧮"
+    },
+    {
+      "arxiv_id": "2608.24413",
+      "title": "The Primordial power spectrum from the largest to smallest CMB scales",
+      "authors": [
+        "Debabrata Chandra",
+        "Dhiraj Kumar Hazra",
+        "Arman Shafieloo",
+        "Tarun Souradeep"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "hep-ph",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2608.24413",
+      "abstract": "We reconstruct the primordial power spectrum (PPS) across the full range of cosmological scales accessible to Cosmic Microwave Background (CMB) observations. Using the Modified Richardson--Lucy algorithm, we perform free-form reconstructions through deconvolution of Planck PR3 and PR4, Atacama Cosmology Telescope (ACT) DR6, and South Pole Telescope 3G (SPT-3G) D1 data. Across different regularization schemes, we find no evidence for significant deviations from a power-law primordial spectrum. The reconstructed spectra show a strong correlation between Planck and ACT, even at the level of localized features over their overlapping range, $0.07 < k < 0.14\\,\\mathrm{Mpc}^{-1}$, demonstrating consistency between the two observations. Using a complementary parametric Bayesian reconstruction, we find that the previously discussed preference for a blueward tilt in the ACT data at small scales is preferred only at the $1\\sigma$ level.",
+      "score": 88,
+      "reason": "🌌 Planck PR3/PR4・ACT DR6・SPT-3G D1 で原始パワースペクトルを自由形式で再構成！べき則からの有意なズレは見えず ✨🔭",
+      "summary": "📊 Modified Richardson-Lucy でデコンボリューション。正則化の取り方を変えても Planck と ACT は局所的特徴レベルで強く相関 📐"
+    },
+    {
+      "arxiv_id": "2608.23680",
+      "title": "Primordial spectra from modified Bekenstein-Hawking entropy law",
+      "authors": [
+        "Marco de Cesare",
+        "Giulia Gubitosi",
+        "Varun Kushwaha"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-ph",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2608.23680",
+      "abstract": "Many approaches to quantum gravity predict logarithmic corrections to the Bekenstein-Hawking entropy. Within the spacetime-thermodynamic description of gravity, such corrections lead to modified gravitational field equations. We study their effect on primordial perturbations during standard single-field slow-roll inflation. We derive the evolution equation for the comoving curvature perturbation and show that it retains the standard Mukhanov--Sasaki form, with the quantum-gravity correction entering through the time-dependent effective frequency. We compute the scalar and tensor primordial spectra at next-to-next-to-next-to-leading order ($\\mathrm{N}^3\\mathrm{LO}$) in the Hubble-flow parameters, keeping the leading contribution from the logarithmic correction. The scalar spectrum remains nearly scale invariant, but the quantum-gravity correction shifts its tilt and runnings. Free tensor modes still propagate as in general relativity, although on the quantum-gravity-corrected background. This different response of the two sectors shifts both the tensor-to-scalar ratio and the single-field consistency relation, which provide the starting point for tracing the model's signatures through the post-inflationary evolution and into the CMB.",
+      "score": 85,
+      "reason": "🌠 Bekenstein-Hawking エントロピーの対数補正が原始ゆらぎに効く！Mukhanov-Sasaki 形は保たれ、有効振動数に補正が入ります ✨📐",
+      "summary": "🧮 時空熱力学的な重力描像から修正場方程式を導き、単一場スローロールでスカラー・テンソルスペクトルを NNLO まで計算 🌌"
+    }
+  ]
+}
