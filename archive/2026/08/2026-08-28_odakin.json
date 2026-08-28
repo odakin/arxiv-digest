@@ -1,0 +1,134 @@
+{
+  "total_fetched": 162,
+  "scored_papers": [
+    {
+      "arxiv_id": "2608.25004",
+      "title": "Slowly Rolling on a Quantum Correction",
+      "authors": [
+        "Ido Ben-Dayan",
+        "Ayushi Srivastava",
+        "Amresh Verma"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc",
+        "hep-ph",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2608.25004",
+      "abstract": "Recent advances in cosmological measurements such as DESI and ACT may indicate an increase in the preferred value of the spectral tilt $n_s$ such that it disfavors rather popular models such as the Higgs or Starobinski inflation models. We argue that it actually means that the data is now sensitive enough to quantum corrections beyond simple tree-level models. Resurrecting the old theme of Coleman-Weinberg effective potential, we analyze the predictions of such models, as well as likelihood analysis, leading to a more established and interesting predictive framework.",
+      "score": 92,
+      "reason": "🔥 DESI/ACT の n_s 上昇で Higgs・Starobinsky インフレーションが不利、という流れに真正面から反論💥 Coleman-Weinberg 補正を効かせれば生き残る、と🚀 ど真ん中の一本です✨",
+      "summary": "📈 一ループ有効ポテンシャルを入れた模型群の予言を尤度解析で比較。データがついに量子補正に感度を持ち始めた、という主張🧮"
+    },
+    {
+      "arxiv_id": "2608.24997",
+      "title": "Anti-Ultralocality and Plateau Models of Inflation",
+      "authors": [
+        "Joshua Shterenberg",
+        "David Garfinkle",
+        "Anna I. Rosenzweig",
+        "David Shlivko",
+        "Paul J. Steinhardt"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2608.24997",
+      "abstract": "Anti-ultralocality refers to the growth of spatial gradient terms relative to velocity terms in the coupled Einstein--scalar field equations. It is a characteristic feature of decelerated expansion before the onset of inflation. Previous numerical relativity studies have shown that anti-ultralocality prevents the onset of inflation in models with power-law inflaton potentials. In this paper, we show that models with plateau-shaped inflaton potentials, which are considered to be the simplest way to generate a tensor-to-scalar ratio below current observational upper limits, are especially vulnerable to anti-ultralocality effects. The reasons are the flatness of the plateau and the energy density gap of $\\sim 10$ orders of magnitude between the Planck density and the plateau potential energy. To study the problem, we develop a protocol for assessing the viability of inflationary models in general, and we apply it to a plateau potential using a previously validated numerical relativity code. We find that, starting from generic initial conditions, the growth of gradient terms in the Einstein equations relative to non-gradient terms either prevents inflation from lasting for enough $e$-folds or triggers a phase of quantum runaway. We show that the fine-tuning of initial conditions necessary to avoid these issues becomes more severe as the energy scale of inflation is made smaller, disfavoring common approaches for reducing the tensor-to-scalar ratio.",
+      "score": 88,
+      "reason": "⚠️ Steinhardt 一派からの刺客💣 プラトー型ポテンシャルこそ anti-ultralocality に一番弱い、と数値相対論で主張🌀 Higgs 型の初期条件問題に直撃です🎯🔭",
+      "summary": "📐 減速膨張期に空間勾配項が速度項より育つ効果を数値相対論で追跡。プラトーの平坦さと約 10 桁のエネルギー差が仇になる🕳️"
+    },
+    {
+      "arxiv_id": "2608.25069",
+      "title": "Energy-independent neutrino dephasing from an ultralight axion-like background",
+      "authors": [
+        "B. A. Couto e Silva",
+        "B. L. S'anchez-Vega"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.25069",
+      "abstract": "We study neutrino oscillations in an ultralight axion-like particle (ALP) dark-matter background using a bottom-up derivative interaction for active neutrinos. For couplings diagonal in the neutrino mass basis, the leading relative phase is fixed by the difference of the ALP field between production and detection. More generally, an unresolved background multiplies each interference term by the characteristic function of this endpoint field difference. For a single fixed-amplitude coherent mode with uniformly sampled phase, the factor is $J_0(A_{ij})$. In the slow-flight and small-dephasing regimes, this result and a Gaussian virialized-halo treatment agree at quadratic order and produce a leading $L^2E^0$ suppression. We identify the finite-exposure and coherence conditions under which the two statistical descriptions apply. As an application, we analytically map the energy-independent damping constraint derived from the first JUNO data onto the flavor benchmark $g_2=g_3$. For a local ALP density of $0.4\\mathrm{GeV}/\\mathrm{cm}^3$, the low-mass plateau gives $|\\Delta g_{21}|=|\\Delta g_{31}|\\lesssim0.90\\mathrm{GeV}^{-1}$. This number is a baseline-matched EFT recast of the reference damping analysis. No specific ultraviolet completion is assumed.",
+      "score": 87,
+      "reason": "🌌 超軽量 ALP 背景場でニュートリノ振動が位相を失う話🌠 アクシオン DM とニュートリノが一本で繋がる上に、JUNO 初データで制限がつくのが美味しい🍀✨",
+      "summary": "🔬 質量基底対角結合なら位相差は生成点と検出点の場の差で決まり、減衰因子は J_0(A) 型に。L²E⁰ のエネルギー非依存な damping🧊"
+    },
+    {
+      "arxiv_id": "2608.25540",
+      "title": "Pair creation in weak gravity and gauge backgrounds: spinning fields and binary stars",
+      "authors": [
+        "S. A. Franchino-Vi~nas",
+        "N. Varacalli",
+        "O. Zanusso"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-th",
+        "math-ph",
+        "math.MP"
+      ],
+      "url": "https://arxiv.org/abs/2608.25540",
+      "abstract": "We study pair creation for quantum fields of spin $0$, $1/2$, and $1$ in the presence of weak gravitational and gauge backgrounds. Using resummed heat-kernel techniques, we obtain closed expressions for the pair creation probability up to quadratic order in the ``generalized curvatures''. In addition, for gravitational backgrounds, we recast the pair production probability in terms of the matter distribution required for consistency with the Einstein equation. Finally, to illustrate the powerfulness of our methods, we analyze the effect of pair creation in a binary star system.",
+      "score": 86,
+      "reason": "⚡ 弱い重力・ゲージ背景でのスピン 0, 1/2, 1 の対生成を熱核の再和で閉じた形に✨ gravitational production 好きにはたまらない一本🌟 連星系への応用付き🪐",
+      "summary": "🧮 一般化曲率の 2 次までで生成確率を導出し、Einstein 方程式と整合する物質分布で書き直す。締めは連星系での評価🌠"
+    },
+    {
+      "arxiv_id": "2608.25566",
+      "title": "Two-branch detector response for Dirac infall into a Schwarzschild--MOG black hole",
+      "authors": [
+        "Nikko John Leo S. Lobos",
+        "Emmanuel T. Rodulfo"
+      ],
+      "categories": [
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2608.25566",
+      "abstract": "We study a localized spin-$1/2$ detector falling into a Schwarzschild--MOG black hole. The detector interacts with a neutral massless scalar field through a charge-preserving two-level transition, while its translational wave packet obeys the MOG-charged Dirac equation. Near the outer horizon, the separated radial system reduces to an inverse-square equation with index $\\Theta_{\\rm D}=E_{\\rm H}/(2\\hbar\\kappa_\\alpha)$. The gauge-invariant horizon energy satisfies $E_{\\rm H}=m_\\psi U_{\\rm H}>0$ for every future-directed crossing trajectory. We quantize the scalar field in a globally normalized Boulware scattering basis and retain both radial-flux branches of a mode that is outgoing at infinity. This treatment does not identify a local outgoing ansatz with a complete mode. A finite radial gate $\\chi_p(x)=(x/L_\\chi)^p e^{-x/L_\\chi}$ gives closed-form excitation and absorption probability densities that include the ingoing contribution and scattering-phase interference. Within the controlled near-horizon approximation, the full detailed-balance ratio factorizes into a branch-resolved outgoing ratio and a two-branch factor. Only the outgoing ratio approaches $\\exp(-2\\pi\\nu/\\kappa_\\alpha)$ when the near-horizon, adiabatic, high-gap, and branch-isolation conditions all hold. The leading switching correction is controlled by $(\\nu/\\kappa_\\alpha)/(S_\\pm L_\\chi)$, not by $(S_\\pm L_\\chi)^{-1}$ alone. In a weak-MOG expansion, the local correction separates into surface-gravity, trajectory-prefactor, and finite-gate terms. The full response also contains a contribution from global scattering. This separation shows which terms follow from the local horizon geometry and which depend on the detector protocol and scalar propagation outside the horizon region.",
+      "score": 86,
+      "reason": "🕳️ BH に落ちる spin-1/2 検出器の応答を、並進波束を Dirac 方程式で扱って計算✨ 波束形式 × Hawking 輻射の詳細釣り合いという好物の組み合わせ🔥🎯",
+      "summary": "📡 Boulware 散乱基底で両方の径方向フラックス枝を残すと、詳細釣り合い比が枝ごとに分解される。局所 outgoing ansatz では不十分と指摘🧊"
+    },
+    {
+      "arxiv_id": "2608.26063",
+      "title": "Strong CP and the PMNS Phase in Dirac Left-Right Symmetry",
+      "authors": [
+        "Vladimir Tello"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.26063",
+      "abstract": "Left--right symmetric theories with generalized parity restrict the bare QCD angle to a CP-conserving value and relate the physical strong-CP phase \\(\\bar\\theta\\) to a CP-odd parity-breaking parameter \\(\\eps\\). We show that, in the Dirac-neutrino realization, imposing a sectorial reality condition on the Dirac lepton Yukawa matrices turns observable leptonic CP violation from an independent input into a branch-dependent prediction. Parity reconstructs the right-handed leptonic mixing matrix, whereas leptonic reality requires it to be rephasing-equivalent to the complex conjugate of the left-handed one. For generic three-generation Yukawas, compatibility is equivalent to the vanishing of a single Jarlskog-type CP-odd invariant. In the physical Dirac hierarchy, for fixed oscillation data, mass ordering, and discrete leptonic branch, compatibility determines the PMNS Jarlskog invariant as a function of the lightest neutrino mass and \\(\\eps\\). We derive its leading analytic behavior and obtain the nonlinear compatibility branches numerically. In compressed mixed-sign Dirac-neutrino spectra, small signed mass sums can amplify a tiny parity deformation into order-one values of the normalized PMNS Jarlskog invariant, including maximal CP violation. The corresponding quark reconstruction independently provides a calculable, branch-dependent conversion between \\(\\eps\\) and \\(\\bar\\theta\\). Together, the leptonic and quark relations define a family of correlations among leptonic CP violation, the absolute neutrino mass scale, and strong CP.",
+      "score": 85,
+      "reason": "🧭 左右対称性 + Dirac ニュートリノで、レプトン CP 位相が独立な入力でなく予言になる💡 strong CP と PMNS が一本の枝で結ばれる構成が面白い🌟🔭",
+      "summary": "⚖️ Yukawa に sectorial reality を課すと整合性が Jarlskog 型不変量の消失に帰着。最軽質量と ε の関数として J が決まる🧮"
+    },
+    {
+      "arxiv_id": "2608.25436",
+      "title": "Stationary Dirac condensates around Kerr black holes",
+      "authors": [
+        "Sen Guo",
+        "Peng-Yu Chen",
+        "Yi-Han Huang",
+        "Xin Li",
+        "Yu Liang",
+        "Kai Lin",
+        "Lin Wen"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2608.25436",
+      "abstract": "Ultralight bosonic fields can form macroscopic clouds around rotating black holes, whereas the existence of analogous stationary fermionic condensates is strictly constrained by their intrinsic spin. Here we establish a complete geometric and kinematic framework to resolve the stationary bound states of massive Dirac fields on Kerr and Kerr-Newman backgrounds. By mapping the Kerr-Dirac system to a globally integrated sourced radial problem, we strictly isolate the boundary constraints dictated by horizon causality. The angular sector reveals a fundamental topological distinction: because the azimuthal quantum number is strictly half-integer, the regular boundary branches prevent the local field density from vanishing on the rotation axis. Consequently, rotating fermionic clouds inherently form globally filled, oblate geometries, in stark contrast to the hollow toroidal structures characteristic of scalar condensates. Crucially, our radial indicial analysis unveils the exact mathematical origin of the absence of synchronized Dirac hair. Precisely at the kinematic synchronization locus, the Frobenius matrix of the Dirac operator is non-defective and entirely devoid of logarithmic divergences. Without these singular branches to be selectively excised by boundary regularity, the physical burden of existence falls entirely onto the causal flux barrier, which strictly trivializes the zero-source amplitude. This synchronization veto demonstrates that a black hole's capacity to support macroscopic stationary fields is governed not merely by superradiant kinematics, but by the profound interplay between local horizon causality and quantum spin statistics.",
+      "score": 85,
+      "reason": "🌀 Kerr 周りにフェルミオン雲は立つのか、を Dirac 場で真面目に解いた一本✨ 半整数の方位量子数ゆえ回転軸上で密度が消えず、扁球状に詰まるのが綺麗🕳️🔭",
+      "summary": "📐 動径問題の指数解析から synchronized Dirac hair が存在しない理由を厳密に特定。スカラー雲のトーラス型と対照的な充填構造🌟"
+    }
+  ]
+}

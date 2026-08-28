@@ -1,0 +1,80 @@
+{
+  "total_fetched": 162,
+  "scored_papers": [
+    {
+      "arxiv_id": "2608.25211",
+      "title": "Multipair-resilient entanglement swapping with complementary linear-optical measurements",
+      "authors": [
+        "Siavash Mirzaei Ghormish",
+        "Ryan M. Camacho"
+      ],
+      "categories": [
+        "quant-ph",
+        "physics.optics"
+      ],
+      "url": "https://arxiv.org/abs/2608.25211",
+      "abstract": "Multipair emission is a principal source of false heralds in entanglement swapping with spontaneous parametric down-conversion sources. A conventional Bell-state measurement (BSM) cannot distinguish the desired arrival of one photon from each neighboring source from a mixed-polarization double emission by one source accompanied by vacuum from the other. We show that a cascaded network can resolve this ambiguity by allowing its successive swapping stations to perform different measurements. A direct-basis BSM rejects same-polarization double emissions, whereas a balanced equatorial analyzer, implemented by a four-mode Green Machine (GM), uses two-photon interference to reject mixed-polarization double emissions. At the same time, it recovers same-polarization inter-source events rejected by the BSM as resolved $\\phi$-type Bell heralds. Their rejection sets jointly cover both single-source two-photon classes while retaining contributions from both useful inter-source classes. We classify the passive four-mode, number-resolving analyzers satisfying this condition and identify the BSM and GM as canonical balanced representatives. Using a Gaussian-state analysis exact to all orders of multipair emission, we evaluate three-source BSM--GM and four-source BSM--GM--BSM Pure Bell Pair sources under coupling, detector, and channel loss. The three-source network suppresses the leading infidelity, while the four-source network heralds an exact Bell state in the lossless limit, a property that holds for every alternating BSM--GM chain with four or more sources. The fidelity advantage over source-count-matched all-BSM networks persists at every loss level studied, a single-channel rate advantage appears without multiplexing, and spectral multiplexing raises the Bell-pair delivery probability toward the asymptotically deterministic limit.",
+      "score": 92,
+      "reason": "🎯 SPDC のマルチペア放出が偽ヘラルドを生む問題に真正面から取り組んだ一本。二光子干渉で誤検出を落とす設計は、まさに研究テーマのど真ん中です✨",
+      "summary": "🔬 直接基底 BSM が同偏光の二重放出を、Green Machine 型の赤道面解析器が混合偏光の二重放出を棄却。カスケードで両者を組み合わせる🧩"
+    },
+    {
+      "arxiv_id": "2608.25069",
+      "title": "Energy-independent neutrino dephasing from an ultralight axion-like background",
+      "authors": [
+        "B. A. Couto e Silva",
+        "B. L. S'anchez-Vega"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.25069",
+      "abstract": "We study neutrino oscillations in an ultralight axion-like particle (ALP) dark-matter background using a bottom-up derivative interaction for active neutrinos. For couplings diagonal in the neutrino mass basis, the leading relative phase is fixed by the difference of the ALP field between production and detection. More generally, an unresolved background multiplies each interference term by the characteristic function of this endpoint field difference. For a single fixed-amplitude coherent mode with uniformly sampled phase, the factor is $J_0(A_{ij})$. In the slow-flight and small-dephasing regimes, this result and a Gaussian virialized-halo treatment agree at quadratic order and produce a leading $L^2E^0$ suppression. We identify the finite-exposure and coherence conditions under which the two statistical descriptions apply. As an application, we analytically map the energy-independent damping constraint derived from the first JUNO data onto the flavor benchmark $g_2=g_3$. For a local ALP density of $0.4\\mathrm{GeV}/\\mathrm{cm}^3$, the low-mass plateau gives $|\\Delta g_{21}|=|\\Delta g_{31}|\\lesssim0.90\\mathrm{GeV}^{-1}$. This number is a baseline-matched EFT recast of the reference damping analysis. No specific ultraviolet completion is assumed.",
+      "score": 87,
+      "reason": "🌌 ニュートリノ振動を量子干渉として見る立場から面白い一本。超軽量 ALP 背景がコヒーレンスを削る仕組みが、干渉項の特性関数として綺麗に書けます✨",
+      "summary": "📐 質量基底対角結合なら位相差は生成点と検出点の場の差だけで決まり、単一モードなら減衰因子は J_0(A)。JUNO 初データで制限🔍"
+    },
+    {
+      "arxiv_id": "2608.25415",
+      "title": "Quantum skyrmion parallelism via metasurface-tailored high-dimensional entanglement",
+      "authors": [
+        "Pedro Ornelas",
+        "Ramona Bedford",
+        "Fazilah Nothlawala",
+        "Chi Li",
+        "Haoyi Yu",
+        "Isaac Nape",
+        "Stefan A. Maier",
+        "Haoran Ren",
+        "Andrew Forbes"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.25415",
+      "abstract": "Quantum skyrmions are topological structures that have garnered significant interest due to their demonstrated robustness and versatility across diverse optical platforms. However, existing approaches for their generation are limited to producing pre-determined two dimensional qubit states with a single topology. Here we create multi-dimensional topological states by introducing a non-local interaction between high-dimensional photonic entanglement and a metasurface, where the topological transformation induced by the metasurface is made non-deterministic by the probabilistic nature of the interfacing entangled state. Within this framework, we demonstrate that individual quantum states can host multiple co-existing topologies that are only revealed upon measurement, allowing for their parallel transport within distinct spatial mode channels. We confirm this by revealing the rich topological landscape within our modified Hilbert space while controlling the desired output topology by orbital angular momentum (OAM) projections on one of the entangled photons, producing multiple non-local polarization-OAM entangled states characterized by distinct topological classes, all from a single metasurface device. Our results reveal new capability when structured high-dimensional entanglement is interfaced with structured matter capable of coupling photonic degrees of freedom, establishing a new pathway for the compact generation of complex quantum states.",
+      "score": 86,
+      "reason": "✨ 高次元もつれ光子とメタサーフェスを組み合わせ、1 つの状態に複数のトポロジーを同居させる話。片方の光子の OAM 射影で出力を選ぶ構成が conditional state そのものです🎯",
+      "summary": "🔬 非局所相互作用でトポロジー変換を確率的にし、異なる空間モードチャネルへ並列輸送。測定して初めてトポロジーが確定する🧩"
+    },
+    {
+      "arxiv_id": "2608.25802",
+      "title": "How elastic unitarity governs resonance peaks and residue phases",
+      "authors": [
+        "S. Ceci",
+        "R. Omerovi'c",
+        "H. Osmanovi'c",
+        "M. Uroi'c",
+        "B. Zauner"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.25802",
+      "abstract": "Imposing elastic unitarity on resonant amplitudes yields a geometric rule connecting the reaction threshold, S-matrix pole, and Breit-Wigner peak. Validated across six orders of magnitude in energy, from $^5\\text{He}$ to the Higgs boson, this rule predicts currently unknown residue phases: $-44(12)^\\circ$ for $^5\\mathrm{He}$, $-24(7)^\\circ$ for $\\Sigma(1385)^+$, and $-7(13)^\\circ$ for $\\Xi(1530)^0$. By inverting this formalism, we determine the $\\Upsilon(4S)$ pole from its empirical peak to be $10575(1)-i\\,8.3(13)$ MeV, with a $-52(6)^\\circ$ phase.",
+      "score": 85,
+      "reason": "📐 弾性ユニタリ性だけから、閾値・S 行列極・Breit-Wigner ピークを結ぶ幾何学的な規則を導く一本。ユニタリ性と吸収の関係を考える上で示唆的です✨",
+      "summary": "🔎 ⁵He から Higgs まで 6 桁のエネルギー域で検証し、未知の残差位相を予言。逆に使って Υ(4S) の極位置も決定🧮"
+    }
+  ]
+}
