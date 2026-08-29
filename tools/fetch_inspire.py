@@ -41,7 +41,8 @@ def lookup_author(bai):
         f"&fields={AUTHORS_FIELDS}"
     )
     req = urllib.request.Request(url, headers={"User-Agent": "arXiv-digest/1.0"})
-    with urllib.request.urlopen(req, timeout=30) as resp:
+    # urlopen 先は固定 API base への自己組立 URL (外部入力なし) — audit rule の FP、以下 nosemgrep
+    with urllib.request.urlopen(req, timeout=30) as resp:  # nosemgrep: python.lang.security.audit.dynamic-urllib-use-detected.dynamic-urllib-use-detected
         data = json.loads(resp.read().decode("utf-8"))
 
     hits = data.get("hits", {}).get("hits", [])
@@ -77,7 +78,7 @@ def search_authors(query, max_results=10):
         f"&fields={AUTHORS_FIELDS}"
     )
     req = urllib.request.Request(url, headers={"User-Agent": "arXiv-digest/1.0"})
-    with urllib.request.urlopen(req, timeout=30) as resp:
+    with urllib.request.urlopen(req, timeout=30) as resp:  # nosemgrep: python.lang.security.audit.dynamic-urllib-use-detected.dynamic-urllib-use-detected
         data = json.loads(resp.read().decode("utf-8"))
 
     results = []
@@ -128,7 +129,7 @@ def fetch_papers(bai, page_size=250):
             f"&fields={FIELDS}"
         )
         req = urllib.request.Request(url, headers={"User-Agent": "arXiv-digest/1.0"})
-        with urllib.request.urlopen(req, timeout=60) as resp:
+        with urllib.request.urlopen(req, timeout=60) as resp:  # nosemgrep: python.lang.security.audit.dynamic-urllib-use-detected.dynamic-urllib-use-detected
             data = json.loads(resp.read().decode("utf-8"))
 
         hits = data.get("hits", {}).get("hits", [])

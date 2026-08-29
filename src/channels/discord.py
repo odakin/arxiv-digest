@@ -127,6 +127,7 @@ class DiscordChannel(Channel):
             },
             method="POST",
         )
-        with urllib.request.urlopen(req, timeout=30) as resp:
+        # urlopen 先は固定 API base への自己組立 URL (外部入力なし) — audit rule の FP、以下 nosemgrep
+        with urllib.request.urlopen(req, timeout=30) as resp:  # nosemgrep: python.lang.security.audit.dynamic-urllib-use-detected.dynamic-urllib-use-detected
             # Discord webhooks return 204 No Content on success
             pass

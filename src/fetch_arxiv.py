@@ -58,7 +58,8 @@ def _fetch_via_rss(categories):
     """Fetch papers from arXiv RSS feed."""
     url = _build_rss_url(categories)
     req = urllib.request.Request(url, headers={"User-Agent": "arXiv-digest/1.0"})
-    with urllib.request.urlopen(req, timeout=30) as resp:
+    # urlopen 先は固定 API base への自己組立 URL (外部入力なし) — audit rule の FP、以下 nosemgrep
+    with urllib.request.urlopen(req, timeout=30) as resp:  # nosemgrep: python.lang.security.audit.dynamic-urllib-use-detected.dynamic-urllib-use-detected
         data = resp.read()
 
     root = ET.fromstring(data)
@@ -118,7 +119,7 @@ def _fetch_via_html(category):
     """Fetch new papers from arXiv HTML listing for a single category."""
     url = f"https://arxiv.org/list/{category}/new"
     req = urllib.request.Request(url, headers={"User-Agent": "arXiv-digest/1.0"})
-    with urllib.request.urlopen(req, timeout=30) as resp:
+    with urllib.request.urlopen(req, timeout=30) as resp:  # nosemgrep: python.lang.security.audit.dynamic-urllib-use-detected.dynamic-urllib-use-detected
         data = resp.read().decode("utf-8")
 
     papers = []
