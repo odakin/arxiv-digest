@@ -2,7 +2,14 @@
 
 import re
 import urllib.request
-import xml.etree.ElementTree as ET
+
+# 外部 XML (arXiv API/RSS) の parse は entity 爆発 (billion laughs) 対策で defusedxml を
+# 第一選択にする (Semgrep use-defused-xml)。 未 install 環境 (requirements 再 install 前の
+# local 実行) では stdlib に fallback — 相手は https://arxiv.org 固定なので受容可。
+try:
+    import defusedxml.ElementTree as ET
+except ImportError:
+    import xml.etree.ElementTree as ET  # nosemgrep: python.lang.security.use-defused-xml.use-defused-xml
 from html import unescape
 
 
