@@ -1,0 +1,45 @@
+{
+  "total_fetched": 170,
+  "scored_papers": [
+    {
+      "arxiv_id": "2608.26499",
+      "title": "Real-Space Analysis of Two-Photon Polarization States in Type-II SPDC for High-Purity Polarization Entanglement",
+      "authors": [
+        "Koji Taninaka",
+        "Takashi Kakue",
+        "Ken Morita"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.26499",
+      "abstract": "Spontaneous parametric down-conversion (SPDC) is one of the most widely used sources of polarization-entangled photon pairs, and understanding the generated biphoton state is essential for realizing high-brightness and high-purity entangled-photon sources. In particular, Type-II SPDC produces a biphoton wavefunction with a complex coupling between the spatial and polarization degrees of freedom owing to birefringence. In this study, we calculate the real-space distribution of the two-photon polarization state from the biphoton wavefunction of Type-II SPDC generated in a \\b{eta}-barium borate (BBO) crystal. By identifying the spatial correlation direction between polarization and real-space coordinates, we designed aperture shapes that restrict the collection along this correlation direction. Through both numerical simulations and experiments, we demonstrate that such correlation-aligned apertures simultaneously achieve higher entanglement purity and improved photon collection efficiency. These results establish a practical design principle for optimizing aperture geometries based on the real-space biphoton wavefunction, providing a new approach to realizing high-purity and high-brightness SPDC entangled-photon sources.",
+      "score": 94,
+      "reason": "🎯 Type-II SPDC の biphoton 波動関数から二光子偏光状態の実空間分布を計算。波束形式による二光子干渉と直結するテーマ ✨",
+      "summary": "BBO 中の複屈折が生む空間・偏光の結合を実空間で可視化し、高純度な偏光もつれ源の設計条件を導出 🔬✨"
+    },
+    {
+      "arxiv_id": "2608.26778",
+      "title": "Observing relativistic trajectories of single photons",
+      "authors": [
+        "Sayantan Das",
+        "Daniel S. Dahl",
+        "Daniel Peace",
+        "Marcelo P. Almeida",
+        "Abhishek Roy",
+        "Markus Rambach",
+        "Andrew G. White",
+        "Timothy C. Ralph",
+        "Jacquiline Romero"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.26778",
+      "abstract": "While the standard interpretation of quantum mechanics does not assign definite trajectories to particles, the Bohmian interpretation does. Only recently has an operational method for reconciling Bohmian mechanics with relativity been proposed. Here, we experimentally reconstruct relativistic Bohmian trajectories of a single photon in a Michelson-Sagnac interferometer, where counter-propagating probability amplitudes interfere head-on at the speed of light. As predicted by the relativistic Bohmian theory, we observe subluminal and superluminal features of the Bohmian trajectories of the photon traversing through the fringes. Our work provides experimental access to relativistic Bohmian mechanics and enables exploration of its unusual and counterintuitive properties.",
+      "score": 85,
+      "reason": "🌊 単一光子の相対論的ボーム軌道を実験的に再構成。干渉する確率振幅の「どの経路」描像を実測で問う試み ✨",
+      "summary": "Michelson-Sagnac 干渉計で対向振幅を正面衝突させ、亜光速・超光速的な軌道の特徴を観測 🔭"
+    }
+  ]
+}

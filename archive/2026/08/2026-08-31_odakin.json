@@ -1,0 +1,54 @@
+{
+  "total_fetched": 170,
+  "scored_papers": [
+    {
+      "arxiv_id": "2608.26920",
+      "title": "Bumpy inflation from explosive particle production",
+      "authors": [
+        "Kaloian D. Lozanov",
+        "Xavier Pritchard",
+        "Misao Sasaki"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2608.26920",
+      "abstract": "We present a first-principles derivation of an effective inflaton potential with a bumpy feature. We consider the coupling of a spectator field \\chi to the inflaton \\phi such that \\chi is massive enough for almost all values of \\phi, but becomes massless when the inflaton crossed the value \\phi_\\star. This gives rise to a burst of \\chi-particle production at \\phi=\\phi_\\star. By taking the backreaction of the particle production, we obtain a bumpy feature in the effective potential.",
+      "score": 88,
+      "reason": "🎉 スペクテイター場の粒子生成が inflaton ポテンシャルにコブを作る第一原理導出！✨ プレヒーティング・超放射崩壊の話と真正面から噛み合う 🔥🚀",
+      "summary": "χ が φ=φ⋆ で質量ゼロになり爆発的に生成される 💥 その backreaction を取り込んで有効ポテンシャルの bump を導出 📐"
+    },
+    {
+      "arxiv_id": "2608.26499",
+      "title": "Real-Space Analysis of Two-Photon Polarization States in Type-II SPDC for High-Purity Polarization Entanglement",
+      "authors": [
+        "Koji Taninaka",
+        "Takashi Kakue",
+        "Ken Morita"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.26499",
+      "abstract": "Spontaneous parametric down-conversion (SPDC) is one of the most widely used sources of polarization-entangled photon pairs, and understanding the generated biphoton state is essential for realizing high-brightness and high-purity entangled-photon sources. In particular, Type-II SPDC produces a biphoton wavefunction with a complex coupling between the spatial and polarization degrees of freedom owing to birefringence. In this study, we calculate the real-space distribution of the two-photon polarization state from the biphoton wavefunction of Type-II SPDC generated in a \\b{eta}-barium borate (BBO) crystal. By identifying the spatial correlation direction between polarization and real-space coordinates, we designed aperture shapes that restrict the collection along this correlation direction. Through both numerical simulations and experiments, we demonstrate that such correlation-aligned apertures simultaneously achieve higher entanglement purity and improved photon collection efficiency. These results establish a practical design principle for optimizing aperture geometries based on the real-space biphoton wavefunction, providing a new approach to realizing high-purity and high-brightness SPDC entangled-photon sources.",
+      "score": 86,
+      "reason": "🌟 Type-II SPDC の biphoton 波動関数を実空間で書き下す論文 ✨ 二光子干渉の波束形式そのもので、共同研究のネタに直結 🎯🔬💡",
+      "summary": "BBO 結晶の複屈折による空間・偏光自由度の結合を実空間分布として計算 🧮 高純度な偏光もつれ源の設計指針を提示 ✨"
+    },
+    {
+      "arxiv_id": "2608.26670",
+      "title": "Post-sphaleron conversion between baryon and lepton numbers",
+      "authors": [
+        "Pei-Hong Gu"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.26670",
+      "abstract": "The conversion between baryon and lepton numbers has a significant impact on the mechanisms for dynamically generating the matter-antimatter asymmetry in the present universe. Under the traditional wisdom, such conversion originates from the so-called electroweak sphaleron processes. In this work we find that in association with a proper scalar and the other TeV new physics, the baryon-lepton conversion can still keep efficient after the electroweak sphalerons are no longer active. Moreover this scenario can provide a solution to the puzzle of neutron lifetime and predict some decay modes of multi-nucleons to multi-leptons.",
+      "score": 85,
+      "reason": "⚡ スファレロン凍結後も B-L 変換が効く新機構 🤔 中性子寿命パズルの解にもなるという主張、ベイズ解析の的として面白い 📊🔍",
+      "summary": "TeV スケールの新スカラーで sphaleron 後の変換を維持 🌀 多核子崩壊モードを予言し実験検証の道も示す 🧪"
+    }
+  ]
+}

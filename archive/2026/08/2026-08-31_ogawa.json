@@ -1,0 +1,81 @@
+{
+  "total_fetched": 170,
+  "scored_papers": [
+    {
+      "arxiv_id": "2608.26781",
+      "title": "Uncertainty limits for post-selected metrology",
+      "authors": [
+        "Ming Ji",
+        "Holger F. Hofmann"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.26781",
+      "abstract": "For unitary transformations, the quantum Fisher information (QFI) of a pure state is given by the uncertainty of the generator in that state. In post-selected metrology, the QFI is given by a modified expression describing conditional quantum statistics of the generator. Here, we show that the conditional generator uncertainties defined by post-selected QFI correspond to Ozawa-Hall uncertainties known from the theoretical analysis of quantum measurements. The post-selected measurement outcome updates the generator uncertainty according to the quantum statistics of that outcome. Enhancements of QFI beyond the maximal uncertainties of the generator eigenvalues are possible because post-selection tends to concentrate the largest part of the initial generator uncertainty in low probability outcomes of the post-selection measurement. Anomalous conditional uncertainties thus explain the extreme sensitivities that can be achieved in post-selected metrology.",
+      "score": 90,
+      "reason": "📐 後選択 QFI が与える「条件付き生成子の不確定性」が Ozawa-Hall 不確定性と一致するという指摘。不確定性関係の再定式化として面白い ✨",
+      "summary": "後選択で更新された生成子の量子統計が QFI を決め、QFI 増大の上限が Ozawa-Hall 型の不等式で与えられる 🔍"
+    },
+    {
+      "arxiv_id": "2608.26240",
+      "title": "Least Variable Quantum Counting Processes",
+      "authors": [
+        "Bita Olamaei",
+        "Florian Meier",
+        "Costantino Budroni",
+        "Pharnam Bakhshinezhad",
+        "Giuseppe Vitagliano"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.26240",
+      "abstract": "Counting processes provide a fundamental description of stochastic events ranging from photon detection to clock ticks. A central question is how accurately such events can be timed when only finite memory resources are available. Here, we investigate this problem within a general framework of finite-dimensional classical and quantum counting processes. We derive a rigorous finite-memory variance bound obeyed by every classical $d$-state counting process, which is tight and saturated by a discrete Erlang-type ladder process. Through numerical optimization, we identify quantum counting processes that violate this classical bound, achieving smaller first-tick fluctuations than any classical process with the same memory size and mean tick time. For the qubit case, we further derive an analytical large-mean bound within a single-Kraus no-tick family, showing that the quantum advantage persists asymptotically within this class. The optimized quantum processes exhibit coherent conditioned dynamics and approach a continuous-time quantum-jump description as the mean increases. Our results establish a finite-memory quantum advantage in temporal precision and connect discrete-time counting processes with continuous-time quantum timekeeping.",
+      "score": 88,
+      "reason": "⏱ 有限メモリで「時計の刻み」をどこまで正確に打てるかの限界を導出。量子時計・量子速度限界の議論に直結する ✨",
+      "summary": "古典 d 状態計数過程の分散限界を導出し、それを破る量子計数過程を数値的に同定 📊 Erlang 型ラダーが限界を飽和 🔬"
+    },
+    {
+      "arxiv_id": "2608.26778",
+      "title": "Observing relativistic trajectories of single photons",
+      "authors": [
+        "Sayantan Das",
+        "Daniel S. Dahl",
+        "Daniel Peace",
+        "Marcelo P. Almeida",
+        "Abhishek Roy",
+        "Markus Rambach",
+        "Andrew G. White",
+        "Timothy C. Ralph",
+        "Jacquiline Romero"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.26778",
+      "abstract": "While the standard interpretation of quantum mechanics does not assign definite trajectories to particles, the Bohmian interpretation does. Only recently has an operational method for reconciling Bohmian mechanics with relativity been proposed. Here, we experimentally reconstruct relativistic Bohmian trajectories of a single photon in a Michelson-Sagnac interferometer, where counter-propagating probability amplitudes interfere head-on at the speed of light. As predicted by the relativistic Bohmian theory, we observe subluminal and superluminal features of the Bohmian trajectories of the photon traversing through the fringes. Our work provides experimental access to relativistic Bohmian mechanics and enables exploration of its unusual and counterintuitive properties.",
+      "score": 86,
+      "reason": "🌊 単一光子の相対論的ボーム軌道を干渉計で実験再構成。到達時刻問題を軌道の言葉で見る実験として示唆的 ✨",
+      "summary": "Michelson-Sagnac 干渉計で対向する確率振幅を正面衝突させ、亜光速・超光速的な軌道の特徴を観測 🔭"
+    },
+    {
+      "arxiv_id": "2608.26350",
+      "title": "Enhancing the phase sensitivity of a Mach-Zehnder interferometer beyond the Heisenberg limit through dynamic squeezing",
+      "authors": [
+        "Lakshya Bhardwaj",
+        "Ankit Tiwari",
+        "Mohan Sarovar",
+        "Christian Arenz"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.26350",
+      "abstract": "We propose a method to enhance the phase sensitivity of a Mach-Zehnder interferometer, independent of its input states. This is achieved by applying squeezing sequences to one arm of the interferometer. By alternating between squeezing along orthogonal quadratures, we demonstrate that the phase sensitivity of a Mach-Zehnder interferometer can be generically enhanced. Since this enhancement is independent of the input states, the proposed dynamic squeezing method allows for further improvement in phase sensitivity when combined with non-classical input states. We compare the dynamic squeezing approach with existing quantum sensing protocols and show that super-Heisenberg scaling can be achieved. Finally, we demonstrate that the scheme is robust against moderate photon loss.",
+      "score": 85,
+      "reason": "✨ 干渉計の片腕にスクイーズ列を入れるだけで、入力状態によらず位相感度が上がる。スクイーズド状態の効用が明快 📈",
+      "summary": "直交クアドラチャ間でスクイーズを交互に印加してハイゼンベルク限界を超える感度を実現 🔬 非古典入力とも併用可 ✨"
+    }
+  ]
+}
