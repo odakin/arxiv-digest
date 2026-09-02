@@ -1,0 +1,36 @@
+{
+  "total_fetched": 272,
+  "scored_papers": [
+    {
+      "arxiv_id": "2608.29969",
+      "title": "The MS Unidirectional Current as a Generalization of the ABC Absorption Current",
+      "authors": [
+        "Avi Marchewka"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.29969",
+      "abstract": "For a free scalar particle in one spatial dimension, in a single-pass half-line geometry, we compare the absorbing Robin boundary condition with the generalized Marchewka--Schuss (MS) unidirectional-current family. Robin absorption is characterized by a single parameter $\\kappa>0$: once $\\kappa$ is specified, its momentum-dependent absorption profile is fixed. In the generalized MS construction, by contrast, the detector response is described by a spectral function $\\lambda(k)$, subject to the positivity and subnormalization conditions of the detection law. We show that every Robin choice of $\\kappa$ corresponds to the particular MS calibration $\\lambda_\\kappa(k)=\\pi\\kappa/(k+\\kappa)^2$, which reproduces the complete Robin absorption current for every admissible one-sided spectral amplitude and at every time. Thus the entire one-parameter Robin absorption family is contained within the generalized MS family. The MS construction is more general: the choice $\\lambda_{\\rm full}(k)=\\pi/(4k)$ gives unit absorption efficiency for every wave number, which cannot be achieved by any fixed Robin parameter. In this precise sense, the generalized MS detector process extends the Robin absorbing-boundary family. We also compare their asymptotic behavior in the ballistic fixed-ray regime and in the fixed-distance late-time limit.",
+      "score": 90,
+      "reason": "⏱到達時刻問題の直球。吸収境界条件による検出モデルと Marchewka–Schuss 単方向カレントの包含関係を厳密に示す✨ 時間の量子論に効く💡",
+      "summary": "🔍半直線上の自由粒子で Robin 吸収の κ が MS のスペクトル関数 λ(k)=πκ/(k+κ)² に一致。Robin 族が丸ごと MS 構成に含まれることを証明📐"
+    },
+    {
+      "arxiv_id": "2608.28946",
+      "title": "On the entropy of a pseudo-density matrix",
+      "authors": [
+        "James Fullwood",
+        "Boyu Yang"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.28946",
+      "abstract": "The pseudo-density matrix (PDM) formalism naturally extends the notion of density operator to the spatiotemporal domain. While PDMs are Hermitian and of unit trace, they admit negative eigenvalues when encoding temporal correlations unattainable for spacelike separated systems. Consequently, there have been various approaches to extending the von~Neumann entropy---which is only defined for positive operators---to PDMs. Here, we prove that there exists a unique extension of the von~Neumann entropy functional to Hermitian matrices of unit trace satisfying two simple assumptions: unitary invariance and strong additivity with respect to affine combinations within the interval $[-1,1]$, which we prove contains the eigenvalues of a PDM. We also prove that this unique extension of von~Neumann entropy to PDMs is subadditive for single qubit dynamics, and we analyze its behavior in a number of examples.",
+      "score": 85,
+      "reason": "✨時空領域へ拡張した密度行列（PDM）のエントロピーを一意に決める。時間的相関を量子形式でどう測るかの基礎論として面白い💡",
+      "summary": "📐ユニタリ不変性と [-1,1] 上のアフィン結合に対する強加法性の2条件だけで von Neumann エントロピーの拡張が一意に定まると証明。1量子ビットでは劣加法性も🔍"
+    }
+  ]
+}
