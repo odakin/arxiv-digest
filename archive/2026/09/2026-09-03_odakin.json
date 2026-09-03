@@ -1,0 +1,136 @@
+{
+  "total_fetched": 205,
+  "scored_papers": [
+    {
+      "arxiv_id": "2609.01047",
+      "title": "Ultraviolet Closure in Asymptotically Weyl-Invariant Gravity",
+      "authors": [
+        "Daniel Coumbe"
+      ],
+      "categories": [
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2609.01047",
+      "abstract": "We investigate asymptotically Weyl-invariant gravity (AWIG) in the Palatini formulation, defined by an exponent n that interpolates between an Einstein-like infrared regime, where n goes to one, and a Weyl-invariant ultraviolet regime, where n goes to two. In four dimensions, we show that exact Weyl invariance within the minimal scalar Palatini f(R) sector uniquely selects the R^2 action as the ultraviolet endpoint. Interpreting the exponent as an effective curvature-dependent quantity, we constrain a phenomenological class of smooth autonomous flows compatible with the required infrared and ultraviolet endpoints. We then analyse the strict ultraviolet theory. On the regular branch R not equal to zero, and within a restricted torsionless, parity-even sector constructed purely from curvature, all admissible divergent on-shell counterterms reduce at arbitrary loop order to the original \\sqrt{-g}R^2 term plus a topological Euler density. Although this conditional result does not establish full off-shell perturbative renormalizability, it provides nontrivial evidence for improved ultraviolet behaviour relative to Einstein gravity and identifies a concrete target for a future first-principles renormalization-group calculation.",
+      "score": 92,
+      "reason": "🔥 Palatini × Weyl 不変性 × R² が UV 端点として一意に選ばれる話！⚡ スケール不変重力ど真ん中で、torsionless 制限という但し書きも気になる 🧲✨🌌",
+      "summary": "Palatini f(R) の最小スカラー扇形で厳密 Weyl 不変性が R² 作用を UV 端点に一意選択 🌀 正則枝では発散する反項が全ループ次数で元の形に還元 ✨"
+    },
+    {
+      "arxiv_id": "2609.00221",
+      "title": "Radiative Corrections and Reheating in Supergravity Models of Inflation",
+      "authors": [
+        "John Ellis",
+        "Tony Gherghetta",
+        "Kunio Kaneta",
+        "Wenqi Ke",
+        "Keith A. Olive"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2609.00221",
+      "abstract": "We consider the effects of radiative corrections in Starobinsky-like models of inflation, concentrating on models of inflation formulated in N=1 no-scale supergravity. Inflaton couplings to matter fields are necessary for reheating and these have an impact on loop corrections to the inflaton potential. Whilst corrections due to the supergravity couplings of the inflaton to Standard Model (MSSM) fields are negligible, we use {\\it Planck} data to obtain interesting constraints on GUT bilinear couplings, vevs, and gauge boson masses that could be sharpened by future CMB measurements.",
+      "score": 88,
+      "reason": "🌟 Ellis-Olive 組の no-scale supergravity 版 Starobinsky！⚡ 再加熱に要る湯川結合がインフラトンポテンシャルのループ補正にどう効くか 🔭🎯🌌",
+      "summary": "MSSM 場への超重力結合由来の補正は無視できる一方、Planck データが GUT の双線形結合・vev・ゲージボソン質量を制限 📊✨"
+    },
+    {
+      "arxiv_id": "2609.01480",
+      "title": "Gravitational Waves from Reheating beyond Instantaneous Thermalization",
+      "authors": [
+        "Kyohei Mukaida",
+        "Tenta Tsuji"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2609.01480",
+      "abstract": "We study gravitational-wave production during perturbative reheating without assuming instantaneous thermalization of the inflaton decay products. The injected energetic particles thermalize through an in-medium cascade of nearly collinear splittings subject to the Landau-Pomeranchuk-Migdal effect and are ultimately isotropized by elastic scatterings near the thermal scale. The non-thermal hard population present before complete thermalization produces an additional gravitational-wave component through hard-soft scatterings, with $\\Omega_{\\mathrm{GW}}\\propto f^{1/2}$ below the injection-scale turnover. The same isotropization erases the directional information underlying the vacuum $1/k$ bremsstrahlung soft pole, changing the deep-infrared spectrum from $\\Omega_{\\mathrm{GW}}\\propto f$ to $\\Omega_{\\mathrm{GW}}\\propto f^3$.",
+      "score": 87,
+      "reason": "🎺 瞬時熱平衡を仮定しない再加熱からの重力波！⚡ LPM 効果込みの熱化カスケードが GW スペクトルを変える 🌊 超放射的加熱の描像とも噛み合う 🔥🌌",
+      "summary": "非熱的ハード成分の hard-soft 散乱で Ω_GW ∝ f^1/2 成分が追加 🌀 等方化で深赤外が f から f³ に変化 ⚡"
+    },
+    {
+      "arxiv_id": "2609.00128",
+      "title": "Dynamics and Frequency Conversion of Accreting Axion Clouds",
+      "authors": [
+        "Ximeng Li",
+        "Zhen Zhong",
+        "Yifan Chen",
+        "Yue Zhao",
+        "Hidetoshi Omiya",
+        "Vitor Cardoso"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.HE",
+        "gr-qc",
+        "hep-ex",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2609.00128",
+      "abstract": "Axion fields can form exponentially growing gravitational clouds around compact objects through self-interaction-driven relaxation of ambient axion waves. As the field amplitude approaches the axion decay constant, nonlinear effects become important. We identify two distinct regimes of late-time evolution, determined by the gravitational fine-structure constant and the cloud growth rate: a Bosenova regime, characterized by collapse accompanied by explosive axion bursts, and a saturation regime, in which self-interaction-induced axion emission balances accretion. In the latter regime, the emitted axion radiation exhibits stable discrete spectral lines at odd multiples of the bound-state energy, directly probing the global structure of the axion potential beyond its quadratic minimum. We show that single-cosine potentials and QCD axion-like potentials predict distinct emission spectra, enabling probes of the underlying axion self-interaction structure and its ultraviolet completion through terrestrial detection of relativistic axion fluxes from compact objects.",
+      "score": 86,
+      "reason": "🌀 コンパクト天体まわりのアクシオン雲が非線形領域へ！⚡ Bosenova と飽和の 2 レジーム、放射スペクトルからポテンシャル形状を読む 🔭✨🎯",
+      "summary": "飽和域では束縛エネルギーの奇数倍に離散スペクトル線 🌌 single-cosine と QCD アクシオン型で異なる放射スペクトルを予言 ⚡"
+    },
+    {
+      "arxiv_id": "2609.00150",
+      "title": "On the mass spectrum of Viel-dreibein gravity",
+      "authors": [
+        "Eloy Ay'on-Beato",
+        "Elizabeth Rodr'iguez Querts"
+      ],
+      "categories": [
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2609.00150",
+      "abstract": "We study the AdS-wave configurations of Viel-dreibein gravity, a three-dimensional theory of $N$ interacting spin-2 fields, as a pretext to characterize the mass spectrum of this multigravity theory. We manage to implement the known strategy of rewriting the system as a higher-derivative theory for a single dreibein, thereby deriving the precise $2N$th-order equation governing the dynamics of the AdS-wave profile in question. The second novelty we introduce is a factorization of such an equation as the product of $N$ Klein-Gordon operators, exploiting the recent representation of the roots of any $N$th-degree polynomial in terms of the increasingly celebrated $\\mathscr{A}$-hypergeometric functions. Remarkably, this allows us to determine the mass spectrum of the full theory independently of the number of involved gravities, which is essential for an explicit construction of the AdS-wave solutions. This enables us to explore the parameter space of the theory and find all its critical points (not only the Breitenlohner-Freedman bounds) where a much wider range of degeneracies in the squared masses arises. At those points, the solutions allow a zoo of new logarithmic modes leading to several $\\log^{\\chi-1}$ asymptotic behaviors, with $\\chi\\le N$, a signature of the existence of allegedly dual logarithmic conformal field theories.",
+      "score": 86,
+      "reason": "🔺 N 個のドライバインが相互作用する 3 次元 multigravity の質量スペクトル！⚡ vielbein 定式化好きに刺さる 🎯 A-超幾何関数で根を表す技も 🌌✨",
+      "summary": "AdS 波配位を単一ドライバインの 2N 階方程式に書き直し、N 個の Klein-Gordon 演算子の積に因数分解 🌀 重力の個数に依らず質量が決まる ✨"
+    },
+    {
+      "arxiv_id": "2609.01504",
+      "title": "Higgsino Above the Sea of Fog",
+      "authors": [
+        "JiJi Fan",
+        "Matthew Reece"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.01504",
+      "abstract": "Higgsino dark matter is a classic, but still viable, weakly-interacting massive particle (WIMP) scenario that could point to supersymmetry, a new spacetime symmetry of nature. It is a simple realization of the \"inelastic dark matter\" mechanism, where its scattering off a nucleus occurs between two nearly degenerate states. Intriguingly, very recently the LZ collaboration reported a single nuclear recoil event at a high recoil energy. Assuming that this event is a dark matter candidate, it could be explained by higgsino dark matter, e.g., a 1.1 TeV thermal higgsino with a mass splitting of about 350 keV (using the standard halo model; a much better understanding of the high speed tail in the dark matter velocity distribution is needed for a more precise determination). We map out the parameter space in the higgsino mass and splitting plane that could account for this single LZ event. The needed mass splitting implies that the electroweak gauginos and heavy Higgs scalars in supersymmetry have to be at a much higher scale $\\sim (10^3\\text{ to }10^4)$ TeV. We discuss possible UV completions to generate a SUSY spectrum in which all superpartners are at a common scale, except for a much lighter higgsino mass $\\mu$. Besides the thermal benchmark, we comment on possible non-thermal cosmological scenarios of higgsino dark matter with gravitino and modulus decays. The higgsino dark matter scenario could also be searched for at other complementary probes such as indirect detection and future colliders. One striking LZ event may herald an exciting future of further experimental developments.",
+      "score": 85,
+      "reason": "👻 LZ の 248 keV 単一事象を 1.1 TeV ヒグシーノで説明！⚡ inelastic DM の古典的シナリオ復権 🎯 同趣旨の解釈論文が同日に 4 本も並んだ 🌊✨",
+      "summary": "熱的ヒグシーノ質量 1.1 TeV・質量分裂 ~350 keV でパラメータ空間をマップ 🌌 速度分布の高速テールの理解が鍵と指摘 ⚡"
+    },
+    {
+      "arxiv_id": "2609.00664",
+      "title": "Perturbations and stability of black holes with static scalar hair in general GLPV theories",
+      "authors": [
+        "Petarpa Boonserm",
+        "Antonio De Felice",
+        "Ratchaphat Nakarachinda",
+        "Shinji Tsujikawa",
+        "Pitayuth Wongjun"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-ph",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2609.00664",
+      "abstract": "We derive the background equations and complete odd- and even-parity quadratic actions for static, spherically symmetric black holes with radial scalar hair in general quartic-quintic Gleyzes-Langlois-Piazza-Vernizzi (GLPV) theories, including Horndeski. On regular, nondegenerate branches, the formulation applies across Killing horizons and yields local no-ghost conditions and radial and angular eikonal characteristics. Tensor modes in both parity sectors share the same squared radial speed. When the radial coordinate is timelike, generic antisymmetric mixing induces nonstandard large-multipole scaling for both even-parity angular branches. Requiring both branches to have finite, nonzero eikonal phase speeds selects the Horndeski-related compatibility condition between the quartic and quintic beyond-Horndeski functions. This condition aligns the covariant degeneracy directions and permits a local disformal map to Horndeski when regular and invertible. For a finite, nonzero scalar kinetic term at the horizon, every nontrivial branch of the exact quadratic GLPV black hole is locally unstable or has a degenerate tensor cone near a simple outer horizon. Apart from identified exceptions, this obstruction extends to general shift- and reflection-symmetric quadratic GLPV theories and the regular Horndeski-related branch of the quartic-quintic class. Finally, for scalar-Gauss-Bonnet black holes with a vanishing horizon scalar kinetic term, we construct analytic power-law quartic beyond-Horndeski deformations whose associated quintic function is fixed by the same condition. At sufficiently small coupling, all local no-ghost and high-frequency gradient-stability conditions hold throughout the exterior. For a linear Gauss-Bonnet coupling, we estimate an interior scale below which the background and stability expansions lose perturbative control; this does not imply a physical instability.",
+      "score": 85,
+      "reason": "🕳 GLPV でのスカラー毛黒穴の奇・偶パリティ 2 次作用を完備化！⚡ 地平線を越えて使える定式化 🎯 スカラーテンソル重力の観測的検証にも効く 🌌✨",
+      "summary": "no-ghost 条件と eikonal 特性を導出 🌀 両分枝の有限非零位相速度の要求が quartic・quintic 間の Horndeski 型両立条件を選ぶ ⚡"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "total_fetched": 205,
+  "scored_papers": [
+    {
+      "arxiv_id": "2609.01175",
+      "title": "Quantum time-flip beats adaptive metrology: Asymptotic benefit, activation, and unsimulability",
+      "authors": [
+        "Gaurang Agrawal",
+        "Pritam Halder",
+        "Aditi Sen De"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.01175",
+      "abstract": "In quantum metrology, adaptive and causal-superposition strategies are proven to be beneficial over parallel schemes for a finite number of channel uses, but their advantages disappear in the asymptotic limit. We show that quantum operations with indefinite time direction, specifically, time-flip (TF)-assisted strategies, referred to as indefinite time-directed metrology (ITDM), can overcome this asymptotic equivalence. Using semidefinite programming, we rigorously demonstrate that TF-assisted protocols can achieve quantum Fisher information (QFI) strictly exceeding the maximum value attainable by parallel, adaptive, and causal-superposition strategies, both for finite and asymptotically many channel uses. Moreover, we identify a class of Pauli noise channels for which ITDM achieves Heisenberg scaling, while all parallel, adaptive, and causal-superposition strategies remain restricted to standard scaling. We call this phenomenon as metrological activation. Interestingly, this activation can be used to exhibit that the quantum time-flip and transposition supermaps cannot be simulated by conventional quantum circuits or causal-superposition strategies using any finite number of channel queries, thereby establishing indefinite time direction as a genuine resource for quantum metrology.",
+      "score": 87,
+      "reason": "⏳ 時間方向が不確定な操作（time-flip）が適応戦略の漸近的限界を破るという結果！✨ 時間そのものを資源にする話で time operator 界隈にも波及しそう 🎯",
+      "summary": "半正定値計画法で TF 支援プロトコルが並列・適応・因果重ね合わせの QFI 上限を超えると証明 🌀 Pauli ノイズ下で Heisenberg スケーリングを達成"
+    },
+    {
+      "arxiv_id": "2609.00848",
+      "title": "Ontic and epistemic states in the theory of spacetime-local beables",
+      "authors": [
+        "Nathan Argaman"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.00848",
+      "abstract": "Bell's theorem rules out developing a locally causal theory to describe quantum phenomena. Many take this to imply that any model of quantum entanglement must employ variables (called beables by Bell) which follow nonlocal rules, even though signaling is local. The alternative is to adopt an all-at-once (block universe) approach, with beables which may depend on both past and future inputs, even though signaling is causal. Within this lenient-causality approach (a.k.a. retrocausal), simple cases of entanglement have been successfully described by locally mediated stochastic toy models, i.e.,~toy models which are local in a sense which generalizes Bell's local causality. Developing a widely applicable reformulation of quantum mechanics along these lines is a grand challenge. This work presents a general framework for such models and theories, and identifies the corresponding ontic and epistemic states. The epistemic state is closely analogous to the quantum state, yielding an explanation for the collapse of the wavefunction. In the case of the models of the framework, it is clear what the information is about. The expression for the empirically verifiable predictions of the models in terms of the ontic and epistemic states displays remarkable parallels to the Born rule. A toy-model example is discussed.",
+      "score": 86,
+      "reason": "🧭 Bell の非局所性を、未来の入力にも依存する beable（block universe 的）で回避する枠組み！✨ 時間の扱いを問い直す量子基礎論の本流 🎯",
+      "summary": "局所媒介の確率的トイモデルを一般化する枠組みを提示し、対応する ontic 状態と epistemic 状態を同定 🌀 一般的な再定式化への足がかり"
+    },
+    {
+      "arxiv_id": "2609.01066",
+      "title": "Scattering and Tunneling in Real Quantum Mechanics",
+      "authors": [
+        "Firdevs Karakus",
+        "Daniil Stepanenko",
+        "Igor Volovich"
+      ],
+      "categories": [
+        "quant-ph",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2609.01066",
+      "abstract": "We establish the general form of the evolution equation and study scattering and tunneling in real quantum mechanics. We prove an analogue of Stone's theorem for a real Kahler space and derive the corresponding general evolution equation, whose evolution operator is both orthogonal and symplectic. We formulate scattering theory in terms of real wave operators and the associated S-matrix. For the class of potentials considered, we show that the differential scattering cross section is equivalent to that obtained in standard complex quantum mechanics. We also show that the tunneling probability in real quantum mechanics is identical to that in complex quantum mechanics.",
+      "score": 86,
+      "reason": "🔍 実数版量子力学で散乱・トンネルを定式化！✨ Stone の定理の実 Kähler 版から発展方程式を導く筋立てで、時間発展の構造そのものを問う話 🎯",
+      "summary": "発展演算子が直交かつシンプレクティックになることを示し、実波動演算子と S 行列を定義 🌀 微分断面積とトンネル確率は複素版と一致"
+    },
+    {
+      "arxiv_id": "2609.01157",
+      "title": "A continuous-mode quantum-optical representation of finite strong-field laser pulses in free space",
+      "authors": [
+        "Szabolcs Hack",
+        "Attila Czirj'ak",
+        "P'eter F\"oldi"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.01157",
+      "abstract": "We formulate an energy-consistent quantum-optical representation of finite paraxial laser pulses in free space. The formulation is based on a continuous-mode description and provides a step toward a unified treatment of coherent and nonclassical strong-field drivers. Starting from plane-wave quantization, we construct a transverse vector-mode reduction in which the selected mode can reproduce an arbitrary normalized spatial--polarization profile. For a coherent pulse, the measured pulse energy and full laboratory analytic signal determine the frequency-dependent coherent-state displacement $(\\alpha(\\omega))$, without introducing a physical quantization volume. For nonclassical pulses, the same first-order field data and total energy do not uniquely specify the quantum state. Additional correlation information or model assumptions are required. We incorporate this information through normal and anomalous covariance kernels and discuss $g^{(2)}$-based diagnostics of squeezed pulses. We also derive a phase-sensitive convergence criterion for numerical frequency-bin discretizations. An exactly solvable continuum-mode free-electron application shows that the coherent displacement reproduces the semiclassical mean trajectory, whereas the field covariances determine the electron wave packet width. The framework offers a convenient, energy-consistent interface between measured free-space pulses and quantum-optical calculations.",
+      "score": 85,
+      "reason": "📐 有限パルスを連続モードで量子光学的に表す枠組み！✨ Gauss 波束・スクイーズド状態の扱いと地続きで、量子化体積を持ち込まない点が上手い 🎯",
+      "summary": "平面波量子化から横ベクトルモード還元を構成し、コヒーレントパルスは測定エネルギーと解析信号で変位が決まる 🌀 非古典パルスは一意に定まらない"
+    }
+  ]
+}

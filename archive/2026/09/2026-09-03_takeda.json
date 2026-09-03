@@ -1,0 +1,81 @@
+{
+  "total_fetched": 205,
+  "scored_papers": [
+    {
+      "arxiv_id": "2609.01017",
+      "title": "Nonlocal wavefront shaping through complex media",
+      "authors": [
+        "Yanis Trouyet",
+        "Neelan Gounden",
+        "Pedro Ornelas",
+        "Patrick Cameron",
+        "Andrew Forbes",
+        "Hugo Defienne"
+      ],
+      "categories": [
+        "quant-ph",
+        "physics.optics"
+      ],
+      "url": "https://arxiv.org/abs/2609.01017",
+      "abstract": "Wavefront shaping is a key technique for mitigating scattering in complex media, enabling advanced imaging and optical communication. Yet existing approaches are inherently local, requiring active correction elements - such as spatial light modulators or deformable mirrors - to lie directly in the optical path of the scattered light, which limits their integration into compact imaging systems. Here, we experimentally demonstrate nonlocal wavefront shaping using spatially entangled photon pairs. By applying a phase correction to a photon that never interacts with the scattering medium, we compensate for the distortions experienced by its entangled partner and restore their initial spatial correlations. Our approach physically decouples the wavefront correction from the scattering medium, paving the way for imaging through complex media in compact and otherwise inaccessible systems.",
+      "score": 93,
+      "reason": "✨ 散乱媒質に一度も触れない側の光子に位相補正をかけ、相方の歪みを消す実験！🔬 横運動量 EPR 相関そのものを操作していて修論の枠組みと直結 🎯",
+      "summary": "空間もつれ光子対を使い、散乱を経ない光子への位相補正で元の空間相関を復元 🌀 補正素子を散乱媒質の光路から物理的に切り離せる"
+    },
+    {
+      "arxiv_id": "2609.00348",
+      "title": "Spatial correlations of photons interacting via transverse Rydberg blockade",
+      "authors": [
+        "Bankim Chandra Das",
+        "Daniil Svirskiy",
+        "Matthias Metternich",
+        "Wolfgang Alt",
+        "Sebastian Hofferberth",
+        "Ofer Firstenberg"
+      ],
+      "categories": [
+        "quant-ph",
+        "physics.atom-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.00348",
+      "abstract": "We develop a theory of the transverse spatial dynamics of two interacting photons in a Rydberg nonlinear medium. Extending the well-studied one-dimensional case, we explore both longitudinal and transverse correlations of photons propagating as Rydberg polaritons. We identify distinct behaviors and scaling laws for these correlations, arising from fundamentally different mechanisms in the two directions: diffraction for transverse correlations and diffusion for longitudinal correlations. We develop a model incorporating a Gaussian optical beam and an inhomogeneous atomic density distribution, from which we derive quantitative predictions for correlation functions in both directions. We further show that the propagation equations can be reduced to a single Schr\\\"odinger-like equation, allowing approximate solutions that are supported by full numerical results. Our findings indicate that the transverse correlation length is determined primarily by the blockade radius, whereas the longitudinal correlation length is limited by bandwidth. These results establish transverse Rydberg blockade as a distinct and measurable correlation mechanism and show that spatial photon correlations provide a direct means of measuring the blockade radius.",
+      "score": 89,
+      "reason": "🔬 2 光子の横方向空間ダイナミクスを Rydberg 媒質で理論構築！✨ 横は回折・縦は拡散という機構の違いが相関の形を分けるのが面白い 🎯",
+      "summary": "Gauss ビームと非一様原子密度を入れたモデルで縦横の相関関数を定量予言 🌀 伝播方程式を単一の Schrödinger 型方程式に帰着できる"
+    },
+    {
+      "arxiv_id": "2609.01157",
+      "title": "A continuous-mode quantum-optical representation of finite strong-field laser pulses in free space",
+      "authors": [
+        "Szabolcs Hack",
+        "Attila Czirj'ak",
+        "P'eter F\"oldi"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.01157",
+      "abstract": "We formulate an energy-consistent quantum-optical representation of finite paraxial laser pulses in free space. The formulation is based on a continuous-mode description and provides a step toward a unified treatment of coherent and nonclassical strong-field drivers. Starting from plane-wave quantization, we construct a transverse vector-mode reduction in which the selected mode can reproduce an arbitrary normalized spatial--polarization profile. For a coherent pulse, the measured pulse energy and full laboratory analytic signal determine the frequency-dependent coherent-state displacement $(\\alpha(\\omega))$, without introducing a physical quantization volume. For nonclassical pulses, the same first-order field data and total energy do not uniquely specify the quantum state. Additional correlation information or model assumptions are required. We incorporate this information through normal and anomalous covariance kernels and discuss $g^{(2)}$-based diagnostics of squeezed pulses. We also derive a phase-sensitive convergence criterion for numerical frequency-bin discretizations. An exactly solvable continuum-mode free-electron application shows that the coherent displacement reproduces the semiclassical mean trajectory, whereas the field covariances determine the electron wave packet width. The framework offers a convenient, energy-consistent interface between measured free-space pulses and quantum-optical calculations.",
+      "score": 88,
+      "reason": "📐 有限パルスを連続モードで量子光学的に表す枠組み！✨ 量子化体積を持ち込まずにコヒーレント状態変位を決める点が波束形式と相性抜群 🎯",
+      "summary": "平面波量子化から横ベクトルモード還元を構成し任意の空間偏光プロファイルを再現 🌀 非古典パルスは 1 次場データだけでは一意に定まらないと指摘"
+    },
+    {
+      "arxiv_id": "2609.01019",
+      "title": "Photonic fusion operations transform partial distinguishability",
+      "authors": [
+        "S. N. van den Hoven",
+        "G. B. Lamers",
+        "J. J. Renema"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.01019",
+      "abstract": "Photonic fusion operations are a central primitive in photonic quantum information processing and are commonly characterized by their success probability and resource cost. Here, we identify an additional way in which different implementations of fusion operations differ, namely in how they transform partial distinguishability. We consider distinguishability originating both from imperfect entangled resource states and from imperfect single photons. We find that different successful fusion events can induce markedly different distinguishability transformations depending on the fusion protocol, heralding outcome, and error model. Under a collective resource-state error model, we identify a modification to an existing fusion protocol that improves the fidelity of the remaining state on average. Generally, however, these transformations adversely affect distinguishability, and many successful fusion outcomes are accompanied by distinguishability degradation. Our results show that partial distinguishability is dynamically shaped by interference and measurements and should be considered alongside overall fusion success probability when evaluating photonic fusion protocols.",
+      "score": 87,
+      "reason": "🔀 fusion 操作が部分識別可能性をどう変換するかという新しい軸！✨ HOM 干渉の可視度を支配する量が測定でどう動くかの話で干渉の理解に効く 🎯",
+      "summary": "不完全なリソース状態と単一光子の両方に由来する識別可能性を扱い、プロトコル・heralding 結果・誤差模型で変換が大きく異なると示す 🌀"
+    }
+  ]
+}

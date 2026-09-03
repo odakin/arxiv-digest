@@ -1,0 +1,159 @@
+{
+  "total_fetched": 205,
+  "scored_papers": [
+    {
+      "arxiv_id": "2609.00841",
+      "title": "Combining Systematic Effects in CMB Polarization Experiments through map-based simulations: application to LiteBIRD's HWP non-idealities and detectors non-linearity",
+      "authors": [
+        "Silvia Micheli",
+        "Francesco Piacentini",
+        "Tommaso Ghigna",
+        "Alessandro Carones",
+        "Alessandro Novelli",
+        "Giampaolo Pisano",
+        "Giulia Barbieri Ripamonti",
+        "Alessandro Coppolecchia",
+        "Paolo de Bernardis",
+        "Silvia Masi",
+        "Andrea Occhiuzzi",
+        "Alessandro Paiella",
+        "Simone Stellati"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "astro-ph.IM"
+      ],
+      "url": "https://arxiv.org/abs/2609.00841",
+      "abstract": "We quantify the impact of coupled instrumental systematics on next-generation CMB polarization experiments targeting primordial $B$-mode polarization, with a focus on the forthcoming \\textit{LiteBIRD} satellite mission. We study the interplay between the non-linear response of Transition-Edge Sensor (TES) bolometers and Half-Wave Plate (HWP) non-idealities, in particular synchronous signals arising from differential emissivity. We develop a map-based formalism that captures the resulting intensity-to-polarization leakage by explicitly solving the binning map-making equations, avoiding the need for computationally expensive time-ordered data simulations. We apply this framework to \\textit{LiteBIRD}, adopting its baseline scanning strategy and frequency configuration, and perform analyses at both single- and multi-frequency levels, including Galactic foregrounds and blind component separation. We find that while detector non-linearity and HWP non-idealities individually induce negligible bias on the tensor-to-scalar ratio $r$, their coupling can generate non-trivial contamination, driven by large signals such as the solar dipole and amplified in high-frequency channels by foreground leakage. From these results, we derive joint requirements on detector non-linearity and HWP differential emission, and discuss their implications for the instrument design and calibration strategy of \\textit{LiteBIRD} and future CMB polarization missions targeting $r \\lesssim 10^{-3}$.",
+      "score": 97,
+      "reason": "🛰 LiteBIRD ど真ん中！✨ TES の非線形応答と HWP 非理想性という 2 つの系統誤差の結合を、マップベースで一気に評価する枠組み 🎯",
+      "summary": "binning map-making 方程式を解いて強度→偏光リークを捉え、高価な TOD シミュレーションを回避 🌀 銀河系前景と成分分離込みで単・多周波解析"
+    },
+    {
+      "arxiv_id": "2609.00357",
+      "title": "The Canadian Galactic Emission Mapper (CGEM): A Cosmic Microwave Foreground Experiment",
+      "authors": [
+        "Parham Zarei",
+        "Pedro Villalba-Gonz'alez",
+        "Mandana Amiri",
+        "Charles L. Bennett",
+        "Guinevere Berg",
+        "Mark Halpern",
+        "Gary Hinshaw",
+        "Gordon Lacy",
+        "Joshua MacEachern",
+        "Thomas J. Rennie",
+        "Shuyu van Kerkwijk",
+        "Bruce Veidt",
+        "Janet Weiland",
+        "Don Wiebe",
+        "Edward J. Wollack"
+      ],
+      "categories": [
+        "astro-ph.IM"
+      ],
+      "url": "https://arxiv.org/abs/2609.00357",
+      "abstract": "The Canadian Galactic Emission Mapper (CGEM) is a 4-meter single-dish radio telescope located at the Dominion Radio Astrophysical Observatory (DRAO) in Penticton, Canada. CGEM is designed to map polarized Galactic synchrotron emission across the entire northern sky at 8-10 GHz with 1 MHz frequency resolution and 0.5 degree angular resolution. Its goal is to obtain high-fidelity, low-noise maps of polarized Galactic synchrotron radiation, at frequencies where synchrotron dominates, in order to provide a reliable template for CMB B-mode foreground cleaning. We will show on sky performance of CGEM's single-pixel azimuthally-symmetric telescope, its coherent, dual-polarized radiometer, and show maps made from commissioning data from the first few months of operation.",
+      "score": 91,
+      "reason": "📡 B モード前景クリーニング用のシンクロトロン鋳型を作る新実験 CGEM！✨ 8-10 GHz で北天全域の偏光をマップする、LiteBIRD にも効く土台 🎯",
+      "summary": "DRAO の 4 m 単一鏡、1 MHz 周波数分解能・0.5 度角分解能 🌀 単画素・方位対称鏡と二偏波コヒーレント受信機の on-sky 性能と初期マップを報告"
+    },
+    {
+      "arxiv_id": "2609.00249",
+      "title": "Flux jump correction in the QUBIC TES data pipeline",
+      "authors": [
+        "Belen Costanza",
+        "Lucas Merlo Azzolina",
+        "Claudia G. Scoccola",
+        "Nahuel Miron Granese",
+        "Elia Battistelli",
+        "Jean-Christophe Hamilton",
+        "Michel Piat",
+        "Damien Prele",
+        "Steve Torchinsky",
+        "Ismail Bekkaoui",
+        "Alessandro Coppolecchia",
+        "Paolo De Bernardis",
+        "Sofia Ferazzoli",
+        "Massimo Gervasi",
+        "Luca Gomez",
+        "Sabrina Marwede",
+        "Silvia Masi",
+        "Youssef Moulane",
+        "Alessandro Paiella",
+        "Mathias Regnier",
+        "Gustavo Romero",
+        "Federico Sanchez",
+        "Ivan Queirolo"
+      ],
+      "categories": [
+        "astro-ph.IM"
+      ],
+      "url": "https://arxiv.org/abs/2609.00249",
+      "abstract": "Flux jumps occur in the readout electronics of Transition Edge Sensor (TES) detectors coupled to Superconducting Quantum Interference Devices (SQUIDs), as a consequence of the periodic transfer function of SQUIDs in the superconducting regime. These events manifest as discontinuities in the Time Ordered Data (TOD) and can significantly degrade the quality of the measured signals. In this work, we present an automated pipeline to identify and correct flux jumps in the calibration data of the QUBIC (Q \\& U Bolometric Interferometer for Cosmology) instrument, designed to measure the B-mode polarization of the Cosmic Microwave Background (CMB). Using data from multiple observation campaigns, we characterize the statistical properties of flux jumps and compare them with expectations based on the electronic configuration of the instrument. The proposed pipeline successfully corrects these events, allowing the recovery of affected data and enabling their use in subsequent CMB analysis.",
+      "score": 90,
+      "reason": "🔧 QUBIC の TES 読み出しに出るフラックスジャンプを自動検出・補正するパイプライン！✨ SQUID の周期性に由来する TOD 不連続という実機の系統誤差 🎯",
+      "summary": "複数観測キャンペーンのデータでジャンプの統計的性質を特徴づけ、電子回路構成からの期待と比較 🌀 補正後の信号品質の改善を示す"
+    },
+    {
+      "arxiv_id": "2609.00179",
+      "title": "TDCOSMO XXVIII. The Hubble constant from the quadruply lensed quasar J1537$-$3010 with precise time delays",
+      "authors": [
+        "A. Galan",
+        "A. G. Schweinfurth",
+        "S. H. Suyu",
+        "D. P. Johnson",
+        "A. Chawla",
+        "D. Sluse",
+        "G. V. Kharchilava",
+        "E. Buckley-Geer",
+        "H. Lin",
+        "S. Knabel",
+        "W. Sheu",
+        "S. Ertl",
+        "T. Anguita",
+        "S. Birrer",
+        "F. Courbin",
+        "F. Dux",
+        "M. Millon",
+        "V. Motta",
+        "S. Schuldt",
+        "T. Treu",
+        "D. M. Williams",
+        "M. Cappellari",
+        "K. C. Wong",
+        "D. Eckert"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "astro-ph.GA"
+      ],
+      "url": "https://arxiv.org/abs/2609.00179",
+      "abstract": "We present the first measurement of the Hubble constant ($H_0$) from the quadruply-lensed quasar J1537$-$3010, which has optically-measured time delays at $\\sim2 \\%$ precision. We combine these delays with multi-band imaging data from the Hubble Space Telescope (HST) and model the system with two independent software and teams. We adopt a mass profile that is maximally degenerate with $H_0$ to fully incorporate the mass-sheet degeneracy in the error budget, with nuisance parameters constrained by spatially resolved stellar kinematics from the Multi Unit Spectroscopic Explorer (MUSE) and a line-of-sight (LoS) analysis using the Euclid Flagship simulation. The entire analysis is performed blindly to $H_0$, distances and mass density slope of the main deflector. After unblinding, we measure $H_0 = 75.5^{+9.3}_{-5.8}\\ {\\rm km\\,s^{-1}\\,Mpc^{-1}}$, corresponding to a $10\\%$ precision measurement from a single system. This precision is driven by conservative lens modeling assumptions including differences between lens modeling methods and the limited stellar kinematics constraints, from which we infer a total mass-sheet parameter $\\lambda\\equiv(1-\\kappa_{\\rm ext})\\lambda_{\\rm int} = 0.89^{+0.11}_{-0.06}$ ($\\lambda_{\\rm int}=0.89^{+0.09}_{-0.07}$) that is consistent with current results for elliptical galaxies ($\\lambda \\approx 1$). Our lensing constraints, stellar kinematic measurements and LoS characterization will be included in subsequent population-level measurements of $H_0$. Moreover, our lens models combined with future near-infrared spectroscopy and imaging from the James Webb Space Telescope will further reduce the uncertainties on $H_0$ from J1537$-$3010 alone, bringing it closer to the few percents precision of the time delays.",
+      "score": 86,
+      "reason": "📏 4 重像クェーサーの時間遅延から H_0 を 10% 精度で測定！✨ mass-sheet 縮退を最大限織り込み、盲検してからアンブラインドという作法も丁寧 🎯",
+      "summary": "HST 撮像 + MUSE の空間分解運動学 + Euclid Flagship による視線方向解析で H_0 = 75.5 (+9.3/-5.8) km/s/Mpc 🌀 2 チーム独立モデリング"
+    },
+    {
+      "arxiv_id": "2609.00221",
+      "title": "Radiative Corrections and Reheating in Supergravity Models of Inflation",
+      "authors": [
+        "John Ellis",
+        "Tony Gherghetta",
+        "Kunio Kaneta",
+        "Wenqi Ke",
+        "Keith A. Olive"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2609.00221",
+      "abstract": "We consider the effects of radiative corrections in Starobinsky-like models of inflation, concentrating on models of inflation formulated in N=1 no-scale supergravity. Inflaton couplings to matter fields are necessary for reheating and these have an impact on loop corrections to the inflaton potential. Whilst corrections due to the supergravity couplings of the inflaton to Standard Model (MSSM) fields are negligible, we use {\\it Planck} data to obtain interesting constraints on GUT bilinear couplings, vevs, and gauge boson masses that could be sharpened by future CMB measurements.",
+      "score": 85,
+      "reason": "🌌 no-scale supergravity の Starobinsky 型インフレーションに輻射補正を入れる話！✨ 再加熱に要る結合が n_s・r 側にどう跳ね返るか 🎯",
+      "summary": "MSSM 場への超重力結合由来の補正は無視できる一方、Planck データが GUT 双線形結合・vev・ゲージボソン質量を制限 🌀 将来 CMB で先鋭化"
+    }
+  ]
+}
