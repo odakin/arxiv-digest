@@ -1,0 +1,80 @@
+{
+  "total_fetched": 186,
+  "scored_papers": [
+    {
+      "arxiv_id": "2609.01884",
+      "title": "Gouy Phase across PT-Symmetry Breaking in Non-Hermitian Dirac Systems",
+      "authors": [
+        "Dirlan J. C. de Morais Sousa",
+        "Lucas S. Marinho",
+        "Giandomenico Palumbo",
+        "Irismar G. da Paz"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.01884",
+      "abstract": "We study relativistic beam-like wave packets governed by a quasi-Hermitian massive Dirac Hamiltonian and uncover anomalous Gouy-phase behavior in non-Hermitian dynamics. We show that the Gouy phase provides a sensitive probe of the global $\\mathcal{PT}$-symmetry-breaking threshold: it remains purely real in the globally unbroken, quasi-Hermitian regime, while, after crossing the exceptional point, the Gouy phase changes sign and acquires an imaginary component. At the exceptional point, the Gouy-phase variation vanishes in the small-mass limit but becomes maximal for large masses, revealing a counterintuitive crossover from effectively classical to increasingly wave-like quantum behavior. We propose an experimental scheme to measure the components of the non-Hermitian Gouy phase in the broken regime by monitoring the attenuation of a light beam propagating through a lossy waveguide. These results highlight the potential of the non-Hermitian Gouy phase for photonic applications, including the determination of threshold conditions and the design and control of systems with gain and loss.",
+      "score": 87,
+      "reason": "🌀 ガウシアン波束の Gouy 位相が非エルミート系で複素化！✨ 波束形式と位相・時間の関係を追う人に刺さる 🎯",
+      "summary": "準エルミート Dirac ハミルトニアンのビーム状波束を解析。例外点越えで Gouy 位相が符号反転し虚部を獲得、質量依存の交差も 🔬"
+    },
+    {
+      "arxiv_id": "2609.01970",
+      "title": "Maximal-velocity deficit under a finite-support constraint in hard-wall half-line continuous-time quantum walk",
+      "authors": [
+        "Kangqiao Liu",
+        "Deyou Chen"
+      ],
+      "categories": [
+        "quant-ph",
+        "cond-mat.quant-gas",
+        "cond-mat.stat-mech",
+        "math-ph",
+        "math.MP",
+        "math.SP"
+      ],
+      "url": "https://arxiv.org/abs/2609.01970",
+      "abstract": "Continuous-time quantum walks on a lattice spread ballistically and converge to a limiting distribution for the rescaled position. On the hard-wall half line the boundary reflects the walker but does not change the bulk dispersion, so the ballistic front remains set by the maximal group velocity. We ask how close one can get to this front when the initial state is constrained to occupy only the first $M$ sites. We show that optimizing the moment-generating function of the limiting-velocity distribution over this finite-support class reduces to the principal eigenvalue of an explicit $M\\times M$ Hermitian matrix, which yields the optimal state by direct diagonalization. For large $M$, a near-front scaling limit produces a continuum description that controls the entire peak region. In particular, the maximal mean drift approaches the front with an inverse-square deficit in $M$ and a constant prefactor $\\pi^2/4$. Numerical results verify both the finite-$M$ spectral formulation and the predicted scaling.",
+      "score": 86,
+      "reason": "🚀 初期状態を M サイトに閉じ込めると弾道的前線にどこまで迫れるか？🎯 量子速度限界の最適化問題として綺麗 ✨",
+      "summary": "極限速度分布のモーメント母関数の最適化が M×M エルミート行列の主固有値に帰着。最大ドリフトは π²/4·M⁻² で前線に接近 📐"
+    },
+    {
+      "arxiv_id": "2609.02569",
+      "title": "Thouless pumping and generation of squeezed Fock-state superpositions in a Fock-state lattice",
+      "authors": [
+        "Ruo Kun Cai",
+        "Ling Lin",
+        "Chun Wang Wu",
+        "Zhi Jiao Deng",
+        "Ping Xing Chen"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.02569",
+      "abstract": "In this paper, Thouless pumping in a one-dimensional semi-infinite Fock-state lattice is investigated. A distinctive feature of such lattices is the intrinsic $\\sqrt{n}$-dependent coupling arising from the bosonic mode, which leads to spatially nonuniform hopping amplitudes. In the dimer limit, the topological invariants and the quantized transport dynamics in the Fock-state basis are numerically evaluated and analyzed. By introducing an additional inter-cell coupling and applying a squeezing transformation, the framework is then extended to Thouless pumping in the squeezed Fock-state basis, where a topologically protected scheme for preparing superpositions of squeezed Fock states is proposed. This study establishes Thouless pumping in Fock-state lattices as a useful tool for quantum state engineering, shifting the focus from observing topological transport to harnessing it for the preparation of non-classical states of the bosonic mode.",
+      "score": 86,
+      "reason": "🎼 Fock 状態格子の Thouless ポンピングでスクイズド Fock 状態の重ね合わせを生成！✨ スクイーズド状態工学の新手 🎯",
+      "summary": "√n 依存の非一様ホッピングを持つ半無限 Fock 格子。スクイーズ変換後の基底でトポロジカルに保護された状態生成法を提案 🔬"
+    },
+    {
+      "arxiv_id": "2609.02738",
+      "title": "Spin squeezing by geometric focusing in vacuum Rabi oscillations",
+      "authors": [
+        "Aoqin Liang",
+        "Qi Liu",
+        "Guoqing Wang"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.02738",
+      "abstract": "We show that vacuum Rabi oscillations can directly generate spin squeezing through geometric focusing on the Bloch sphere. Starting from a coherent spin state resonantly coupled to a cavity initially in the vacuum state, quantum fluctuations are focused by the curvature of the Bloch sphere as the collective spin approaches the atomic ground state, producing squeezing transverse to the direction of motion. The squeezing timescale is set by the collective Rabi frequency $t_s\\sim 1/(g\\sqrt{N})$. The optimal Wineland squeezing parameter scales as $\\xi_{\\rm opt}^2\\propto N^{-1/3}$, which is an outcome of the competition between the geometric focusing effects and the cavity-field vacuum fluctuations. The squeezing remains robust against realistic dissipation. In the end, an application example of $^{171}$Yb is briefly discussed to show the feasibility of our protocol.",
+      "score": 85,
+      "reason": "🌐 真空ラビ振動だけでスピンスクイージング！✨ Bloch 球の曲率が揺らぎを集束させるという幾何的な描像が気持ちいい 🎯",
+      "summary": "コヒーレントスピン状態が基底に近づく際に球面の曲率で揺らぎが集束。最適 Wineland パラメータは N^(-1/3) でスケール ⚛️"
+    }
+  ]
+}

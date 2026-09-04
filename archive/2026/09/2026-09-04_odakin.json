@@ -1,0 +1,108 @@
+{
+  "total_fetched": 186,
+  "scored_papers": [
+    {
+      "arxiv_id": "2609.02505",
+      "title": "Dark Matter as the Z_2 Partner of the Standard Model Higgs Boson",
+      "authors": [
+        "Yasunori Nomura"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.02505",
+      "abstract": "A possible gamma-ray excess from the Galactic halo favors dark matter with a mass of several hundred GeV. In previous work, we found that an electroweak scalar doublet is a particularly economical, and nearly uniquely selected, interpretation among simple renormalizable thermal dark-matter models. We point out that its unbroken Z_2 symmetry is exactly equivalent to an interchange symmetry between two Higgs doublets, making dark matter the Z_2-odd partner of the Standard Model Higgs boson and suggesting that the two doublets may share a common weak-scale origin.\n  We connect this model to the recently reported 248 keV nuclear-recoil event in the LUX-ZEPLIN experiment. For dark-matter masses of 440--600 GeV, a technically natural, mass-dependent neutral-state splitting of order 350 keV defines a narrow strip near the kinematic boundary where the fixed off-diagonal Z interaction can produce the observed recoil. Because the scattering probes the extreme high-velocity tail of the Galactic distribution, this interpretation predicts a large annual modulation, with future events preferentially occurring around early summer. Neither observation is yet conclusive, but their common interpretation is sharply testable.",
+      "score": 88,
+      "reason": "🔥 Higgs ポータル DM の理想形！✨ 暗黒物質を Higgs 二重項の Z_2 パートナーと見なし、🎯 LZ の 248 keV 事象まで説明する欲張り模型 🚀💫",
+      "summary": "⚛️ 電弱スカラー二重項 DM の Z_2 は 2 つの Higgs 二重項の交換対称性と等価。440-600 GeV + 350 keV 分裂で LZ 事象を再現し年周変調を予言 📊"
+    },
+    {
+      "arxiv_id": "2609.02150",
+      "title": "Macroscopic Coherent Axion Production by Reverse Parametric Fluorescence",
+      "authors": [
+        "Zhan Bai",
+        "Baifei Shen",
+        "Liangliang Ji",
+        "Ruxin Li"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.02150",
+      "abstract": "We propose a macroscopically coherent laboratory source of axion-like particles (ALPs) through the axion--electron coupling \\(g_{ae}\\). Two counterpropagating optical modes drive reverse parametric fluorescence in a crystal, where two pump photons are converted into a relativistic ALP through virtual ionic transitions, while the medium returns to its initial state. Phase matching enables emission amplitudes from many ions to add coherently without preparing material coherence. The pump frequencies determine the ALP energy, making the source continuously tunable. The production rate scales with the product of the two pump powers and the square of the source length. Resonant absorption followed by fluorescence completes the detection scheme. For benchmark crystal and laser parameters, a one-year operation gives a reach of \\(g_{ae}\\simeq2.8\\times10^{-11}\\), substantially improving the sensitivity of purely laboratory-based searches for low-mass ALPs.",
+      "score": 87,
+      "reason": "⚡ 逆パラメトリック蛍光で ALP を室内生成！🔬 パラメトリック増幅ネタ好きにはたまらん 🌟 完全実験室系で g_ae 感度を大幅更新 ✨🎯",
+      "summary": "💡 対向 2 光子が仮想イオン遷移経由で ALP に変換。位相整合で多イオンの振幅がコヒーレント加算し、1 年運転で g_ae≃2.8e-11 に到達 🔭"
+    },
+    {
+      "arxiv_id": "2609.01720",
+      "title": "How Much Geometry Does Horizon Entropy Determine? A Discourse on Entropy, Gravity, and Observable Quantities",
+      "authors": [
+        "Yen Chin Ong"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2609.01720",
+      "abstract": "Building on Jacobson's thermodynamics derivation of Einstein field equations, the \"generalized entropy and varying-G\" (GEVAG) framework was proposed to consistently incorporate generalized horizon entropy $S=f(A)/4G$ into both the thermodynamics and the geometry of spacetime. This leads to an effective gravitational coupling $G_\\text{eff}=G/f'(A)$. A related \"entropy-gravity correspondence\" (EGC) instead is equivalent to promoting this horizon relation to a radially varying bulk coupling $G_\\text{eff}(r)$. We clarify the similarities and fundamental distinctions between these approaches. Although they share the same horizon consistency relation, their global causal structures and asymptotic geometries can differ substantially. In addition, the radial prescription of EGC introduces an additional ambiguity for multi-center configurations. We further examine a near-horizon extension of GEVAG, which restores the equivalence between thermodynamic and ADM masses that is absent in the horizon-only formulation. We then discuss the implications of these different prescriptions for the Bekenstein bound. The Bekenstein bound provides a surprising link between $G_\\text{eff}$ in near horizon GEVAG, EGC, and the one obtained in the recent $f(R)$-reconstruction approach of generalized entropy geometry via Wald entropy. Finally, we raise the most important question: what exactly is the $G$ measured in laboratories?",
+      "score": 86,
+      "reason": "🌀 Jacobson 流の熱力学的重力の続編！✨ 一般化エントロピーと変動 G の 2 流儀を比較 🔍 創発重力・スカラーテンソル好きに刺さる 🎯🚀",
+      "summary": "🕳 GEVAG は G_eff=G/f'(A)、EGC は径方向 G_eff(r) への格上げ。地平面の整合条件は同じでも大域的因果構造と漸近幾何が別物になる ⚖️"
+    },
+    {
+      "arxiv_id": "2609.01712",
+      "title": "Axion Quality from Exact Proton Stability",
+      "authors": [
+        "Joe Davighi",
+        "Admir Greljo",
+        "Xavier Ponce D'iaz"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2609.01712",
+      "abstract": "A discrete, anomaly-free $\\mathbb Z_9$ gauge symmetry may persist to the deep infrared, exactly forbidding proton decay. This $\\mathbb Z_9$ can emerge from Higgsing a lepton-flavour non-universal $U(1)_X$ that generates realistic neutrino masses and mixings through a high-scale seesaw and predicts an additional light Goldstone. Adding an anomaly-free chiral heavy-quark sector turns this mode into the QCD axion. The same selection rules that ban proton decay also forbid PQ-violating operators below a suitably high dimension, $d_{\\rm PQ}\\gtrsim10$, including operators involving the heavy quarks that radiatively match onto the scalar potential. We construct explicit models viable when PQ breaking occurs before or after inflation; in the latter case, avoiding stable heavy relics and eliminating the string-wall network tightly constrain the heavy-quark spectrum. We identify restricted regions of parameter space where thermal leptogenesis remains viable and, for $d_{\\rm PQ}\\geq13$, can coexist with a high-quality axion constituting all of the dark matter.",
+      "score": 86,
+      "reason": "🧩 陽子崩壊を厳密に禁じる Z_9 が axion quality も守る！✨ シーソーでニュートリノ質量も出る 🎯 一石三鳥の模型 🚀🔥",
+      "summary": "🔗 レプトンフレーバー非普遍 U(1)_X の Higgs 化で離散 Z_9 が残り d_PQ≳10 まで PQ 破れを禁止。d_PQ≥13 で熱的レプトジェネシスと共存 ⚛️"
+    },
+    {
+      "arxiv_id": "2609.02501",
+      "title": "Scalar Portal Verifiable Light Dark Matter and Correlated Gravitational Wave Signatures",
+      "authors": [
+        "Ki-Young Choi",
+        "Erdenebulgan Lkhagvadorj",
+        "Satyabrata Mahapatra"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.02501",
+      "abstract": "The lack of signals in direct detection experiments has placed the canonical Weakly Interacting Massive Particle (WIMP) paradigm under severe tension, motivating a shift toward the sub-GeV Light Dark Matter (LDM) regime. However, realizing detectable LDM interaction rates typically requires large couplings to the visible sector, which leads to a severe thermal underabundance of the dark matter relic density within standard cosmology. Furthermore, LDM models featuring vector mediators face stringent constraints from the Cosmic Microwave Background (CMB) due to late-time energy injection. In this work, we propose a minimal scalar portal extension featuring a vector-like fermion dark matter candidate, which naturally evades CMB bounds via inherent p-wave annihilation suppression. To simultaneously achieve the correct relic density and large direct-detection couplings, we invoke a pre-Big Bang Nucleosynthesis (BBN) non-standard cosmology dominated by a stiff fluid ($w > 1/3$). The enhanced Hubble expansion during this epoch triggers an early dark matter freeze-out, successfully rescuing the asymptotic relic abundance. Crucially, this stiff pre-BBN phase heavily blue-shifts inflationary gravitational waves that re-enter the horizon prior to BBN, imprinting a distinct high-frequency tilt on the stochastic gravitational wave background. We establish a robust correlation between the non-standard expansion history, the particle physics parameters verifiable in future terrestrial direct detection experiments, and the unique gravitational wave signatures observable by forthcoming space-based interferometers like LISA and DECIGO. This framework highlights how multi-messenger observations can concurrently probe the dark sector and the pre-BBN thermal history of the Universe.",
+      "score": 85,
+      "reason": "🌊 スカラーポータル軽 DM を stiff fluid 宇宙論で救出！✨ relic 量と直接検出を両立させつつ GW 信号まで相関させる 🎯🔭🚀",
+      "summary": "📉 p 波消滅で CMB 制限を回避しつつ、BBN 前の w>1/3 期の速い膨張で早期フリーズアウト。直接検出可能な大きな結合を実現 ⚛️"
+    },
+    {
+      "arxiv_id": "2609.02142",
+      "title": "Quasicrystalline Inflation: From the Cosmological Dipole to Primordial Diffraction",
+      "authors": [
+        "Jiro Soda"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO",
+        "gr-qc",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2609.02142",
+      "abstract": "We propose quasicrystalline inflation. Six quasiperiodic phases decompose into three phonons and three phasons. It turns out that a coherent pure-phason displacement can generate a local power dipole while the linear traceless quadrupole vanishes. From spatially varying quadratic effective field theory, we derive off-diagonal correlations whose momentum transfer is restricted to integer combinations of the six icosahedral wavevectors. These correlated off-diagonal signals provide a characteristic observational signature of primordial quasiperiodic order, primordial diffraction.",
+      "score": 85,
+      "reason": "💠 準結晶インフレーション爆誕！✨ フェイゾンのコヒーレント変位が宇宙論的ダイポールを作る 🎯 原始回折という新しい観測署名 🔭🚀",
+      "summary": "🌌 6 つの準周期位相を 3 フォノン + 3 フェイゾンに分解。運動量移行が正 20 面体波数の整数結合に制限された非対角相関を予言 📐"
+    }
+  ]
+}

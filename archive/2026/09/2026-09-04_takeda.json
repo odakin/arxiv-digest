@@ -1,0 +1,102 @@
+{
+  "total_fetched": 186,
+  "scored_papers": [
+    {
+      "arxiv_id": "2609.02200",
+      "title": "Observation of Hong-Ou-Mandel interference between photon and polariton",
+      "authors": [
+        "Yun-Ru Fan",
+        "Ying-Ao Su",
+        "Kai Guo",
+        "Bo-Yu Fan",
+        "Yao-Qing Zhang",
+        "Hai-Zhi Song",
+        "Hao Li",
+        "Yong Geng",
+        "Kun Chen",
+        "Deng-Ke Zhang",
+        "Li-Xing You",
+        "Yan-Yu Wei",
+        "Guang-Can Guo",
+        "Qiang Zhou"
+      ],
+      "categories": [
+        "quant-ph",
+        "physics.optics"
+      ],
+      "url": "https://arxiv.org/abs/2609.02200",
+      "abstract": "Light-matter interactions underlie many quantum technologies, yet whether quasiparticles formed from such interactions preserve the full quantum state of light remains unresolved. Surface plasmon polaritons (SPPs), a class of polaritons formed by interacting photons with free-electron oscillations at metal-dielectric interfaces, are prime candidates to explore this question. Here we demonstrate quantum interference between single photons and SPPs using an Au-SiN$_{\\mathrm{x}}$ integrated photonic-plasmonic device. Our results reveal that SPPs retain the indistinguishability of their excitation photons, establishing SPP as a viable quantum information carrier and opening a potential route toward photonic-plasmonic quantum circuitry.",
+      "score": 91,
+      "reason": "✨ 光子とプラズモンポラリトンの HOM 干渉を実観測！🎯 準粒子が光の量子状態を保つのかという問いに実験で決着 🔬",
+      "summary": "Au-SiNx 集積フォトニック・プラズモニック素子で単一光子と SPP の量子干渉を実証。SPP が励起光子の識別不可能性を保持 💡"
+    },
+    {
+      "arxiv_id": "2609.01884",
+      "title": "Gouy Phase across PT-Symmetry Breaking in Non-Hermitian Dirac Systems",
+      "authors": [
+        "Dirlan J. C. de Morais Sousa",
+        "Lucas S. Marinho",
+        "Giandomenico Palumbo",
+        "Irismar G. da Paz"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.01884",
+      "abstract": "We study relativistic beam-like wave packets governed by a quasi-Hermitian massive Dirac Hamiltonian and uncover anomalous Gouy-phase behavior in non-Hermitian dynamics. We show that the Gouy phase provides a sensitive probe of the global $\\mathcal{PT}$-symmetry-breaking threshold: it remains purely real in the globally unbroken, quasi-Hermitian regime, while, after crossing the exceptional point, the Gouy phase changes sign and acquires an imaginary component. At the exceptional point, the Gouy-phase variation vanishes in the small-mass limit but becomes maximal for large masses, revealing a counterintuitive crossover from effectively classical to increasingly wave-like quantum behavior. We propose an experimental scheme to measure the components of the non-Hermitian Gouy phase in the broken regime by monitoring the attenuation of a light beam propagating through a lossy waveguide. These results highlight the potential of the non-Hermitian Gouy phase for photonic applications, including the determination of threshold conditions and the design and control of systems with gain and loss.",
+      "score": 89,
+      "reason": "🌀 相対論的波束の Gouy 位相が PT 対称性の破れを検知！✨ 非エルミート有効ハミルトニアンと波束形式が交差する好物件 🎯",
+      "summary": "準エルミート領域では Gouy 位相は実数、例外点を越えると符号反転して虚部を獲得。損失導波路での測定案も提示 🔬"
+    },
+    {
+      "arxiv_id": "2609.02554",
+      "title": "Experimental Evaluation of Passive Polarization Compensation Techniques for Fiber-Distributed Polarization-Entangled Photons",
+      "authors": [
+        "Gayatri Thik",
+        "Amit Loyal",
+        "Srinivasan K",
+        "Raghavan G"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.02554",
+      "abstract": "Entanglement distribution through optical fibers is essential for quantum communication networks; however, fiber transmission can alter photon polarization and modify the observed correlations of polarization-entangled states, necessitating polarization compensation to recover the desired entangled state in the measurement basis. Here, we experimentally evaluate two passive polarization compensation techniques: a free-space Quarter-Half-Quarter (QHQ) waveplate configuration and an in-fiber three-paddle Fiber Polarization Controller (FPC). The polarization transformation along each downconverted-photon path is independently compensated through a systematic path-by-path optimization procedure. Using both techniques, we recover high-quality polarization correlations and entanglement, with visibilities exceeding $93\\%$ in three mutually unbiased bases and fidelities above $94.5\\%$. The results demonstrate comparable restoration using free-space waveplate-based and fiber-based control, establishing a systematic framework for laboratory and short-reach quantum communication links.",
+      "score": 86,
+      "reason": "🔗 SPDC 光子対をファイバーで配るときの偏光補償を実験比較！🎯 もつれ実験の足回りを固める実務的な一本 ✨",
+      "summary": "自由空間 QHQ 波長板と 3 パドル FPC を経路ごとに最適化。3 つの相互不偏基底で可視度 93% 超・忠実度 94.5% 超を回復 🔬"
+    },
+    {
+      "arxiv_id": "2609.01726",
+      "title": "Non-Markovian interactions with pulses of quantum radiation",
+      "authors": [
+        "Julien Pinske",
+        "Stefan Scheel"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.01726",
+      "abstract": "The interaction of a traveling pulse of quantum light with a localized quantum system shows non-Markovian features when scattering takes place in a structured environment. Here, we devise a non-Markovian input-output theory by coherently coupling the scatterer to a pseudomode, which decays into a Markovian reservoir. This incorporates memory effects of a structured environment without altering the cascaded nature of the Lindblad master equation, whose solution provides the quantum state of the output field of any desired mode. We apply our theory to the stimulated emission by a two-level atom, and to transmission of a Gaussian pulse through a cavity. We observe that the non-Markovian revival of coherence in the scatterer distorts the single-mode nature of the incoming pulse, thus resulting in a multimode output field.",
+      "score": 86,
+      "reason": "📡 走る光パルスと局在系の散乱を非マルコフ入出力理論で記述！✨ 波束の多モード化が見える波束形式好み案件 🎯",
+      "summary": "擬モード結合でリンドブラッド方程式のカスケード性を保ちつつ記憶効果を導入。コヒーレンス復活がパルスの単一モード性を歪める 🔬"
+    },
+    {
+      "arxiv_id": "2609.02691",
+      "title": "Entanglement entropy minimization and global symmetry violation in scatterings",
+      "authors": [
+        "Shinya Kanemura",
+        "Masanori Tanaka"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.02691",
+      "abstract": "The concept of quantum information has provided new ways to investigate the theoretical structure of particle interactions. In particular, it has been shown that extrema of quantum entanglement in scattering and decay processes can be related to symmetries and characteristic properties of particles. We focus on a more specific question: whether the minimization of entanglement entropy generated in scattering processes is systematically related to the suppression of interactions that violate global symmetries or selection rules. We conjecture that the minimization of the entanglement entropy can select the symmetry-preserving point when a new interaction opens a symmetry-violating scattering channel. We investigate the plausibility of this conjecture by considering interactions beyond the Standard Model (BSM) that violate global symmetries or the corresponding selection rules, including lepton number violation, baryon number violation, lepton flavor violation, and flavor-changing neutral currents. We show that, when symmetry-violating interactions open final-state sectors that are orthogonal to the symmetry-preserving sector, the symmetry-preserving point becomes a local minimum of the entanglement entropy. Our results support the possibility that the minimization of entanglement provides a common information-theoretic principle underlying the suppression of BSM phenomena relevant to symmetry-violating interactions.",
+      "score": 85,
+      "reason": "🧩 散乱のエンタングルメントエントロピー最小化が大域対称性の保存点を選ぶ？🎯 素粒子と量子情報の橋渡し予想 ✨",
+      "summary": "レプトン数・バリオン数・LFV・FCNC を破る BSM 相互作用で検証。対称性を破る終状態が直交する場合に予想が成立 ⚛️"
+    }
+  ]
+}
