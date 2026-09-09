@@ -87,7 +87,9 @@ arxiv_categories:
 - トークン類は環境変数で管理（config.yaml に書かない）。`.env` ファイル（リポルート）からの自動読み込みに対応（`src/config.py` の `load_dotenv()`）。shell 環境変数が `.env` より優先される
 - **Mastodon 文字数制限**: インスタンス API から自動取得（`_fetch_instance_char_limit()`）。Vivaldi Social は 1337 文字。URL は常に保護し、文字数超過時は reason → summary の順に切り詰め
 - **reason/summary 文字数**: スコアラー（Mode A: `scorer.py`、Mode B: `skill/SKILL.md`）で各最大 120 文字を指示。合計 240 文字以内
-- **Mastodon トークン更新手順**: Vivaldi Social は同一ブラウザで1アカウントのみログイン可。odakinarxiv のトークンを操作する場合は、まず odakin をログアウト → odakinarxiv でログイン → `設定 > 開発 > アプリ` でトークン確認/再生成 → 完了後 odakin に戻る
+- **Mastodon トークン更新手順**: Vivaldi Social は同一ブラウザ（同一 Cookie jar）で1アカウントのみログイン可。**推奨 = プライベートウィンドウ（Brave/Chrome は ⇧⌘N）で odakinarxiv にログインし、`設定 > 開発 > アプリ` でトークン確認/再生成 → ウィンドウを閉じるだけ**。Cookie jar が別なので通常ウィンドウの odakin はログインしたままで、ログアウト/再ログインの往復が要らない。
+  - ⚠️ 旧手順（odakin をログアウト → odakinarxiv でログイン → 完了後 odakin に戻る）は、**サイドバーの「ログアウト」が rails-ujs の JS 経由 DELETE なので、Brave のシールド等で無効化されると押しても無反応**になる（2026-09-09 に実際に詰まった）。その場合はアドレスバーの鍵アイコン → Cookie とサイトデータ → `social.vivaldi.net` を削除で強制ログアウト。
+  - 取得したトークンの反映は `odakin-prefs/scripts/rotate-mastodon-token.sh`（`.env` / Dropbox 暗号化 backup / GitHub Secret / 旧トークン失効確認まで自動、値は端末に表示されない）
 
 ## 将来の拡張（検討中）
 
