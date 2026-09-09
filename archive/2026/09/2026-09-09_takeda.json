@@ -1,0 +1,76 @@
+{
+  "total_fetched": 156,
+  "scored_papers": [
+    {
+      "arxiv_id": "2609.05379",
+      "title": "Coincidence-based spectral engineering for spectral matching in cascaded downconversion",
+      "authors": [
+        "Mohammed Charafi",
+        "Alexandre Z. Leger",
+        "Samridhi Gambhir",
+        "Deny R. Hamel"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.05379",
+      "abstract": "Three-photon states generated via cascaded spontaneous parametric downconversion provide a direct route to multipartite entanglement. However, current implementations require careful spectral matching between successive nonlinear stages, which constrains the choice of downconversion sources. In this work, we show that coincidence-based spectral filtering relaxes this requirement by conditionally tailoring the spectrum of the pump photon entering the second stage. By filtering the herald photon, we conditionally tailor the spectrum of its partner to match the acceptance bandwidth of the secondary nonlinear process, enabling efficient coupling between broadband and narrowband stages without altering the sources themselves. Using an electro-optically gated spectrometer, we directly measure the conditional spectra that govern the cascaded process, allowing us to quantitatively predict the enhancement in second-stage conversion probability per detected herald. We then verify this prediction through photon-triplet measurements, demonstrating improved performance at fixed heralding rates. Our results establish coincidence-based spectral engineering as a practical tool for optimizing cascaded downconversion, particularly in regimes limited by detector saturation or spectral incompatibility.",
+      "score": 92,
+      "reason": "🎯 カスケード SPDC の泣き所だったスペクトル整合を同時計数フィルタで回避！✨ 条件付き整形の実演 🔬",
+      "summary": "ヘラルド光子を濾すと相方の条件付きスペクトルが 2 段目の受容帯域に一致。電気光学ゲート分光器で直接測定 💡"
+    },
+    {
+      "arxiv_id": "2609.04368",
+      "title": "Three-Photon and Hybrid Coherent-Fock Interference in a Two-Phase Six-Port Mach-Zehnder Interferometer",
+      "authors": [
+        "P. O. Amadi",
+        "P. Pewkhom",
+        "N. Sitpathom",
+        "R. Endut",
+        "N. Ali",
+        "S. A. Aljunid",
+        "S. Suryadi",
+        "P. Kalasuwan"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.04368",
+      "abstract": "We present a unified theoretical analysis of three-photon quantum interference in a Six-Port Mach-Zehnder Interferometer (6p-MZI) constructed from two cascaded tritters, with two independent phase modulators placed between the tritter arms. We analytically derive the transfer matrix of the 6p-MZI and show how they organize into three symmetry classes, governed by the discrete Fourier transform (DFT) structure of the tritter and the conjugate relations. Furthermore, we analyze two input regimes: First, three indistinguishable single photons are injected into the tritter, and the output probability distributions $P_{[111]}$, $P_{[\\{300\\}]}$, and $P_{[\\{210\\}]}$ are derived as functions of the two relative phases $(\\phi_1, \\phi_2)$. At $\\phi_2 = 0$, the single-phase limit is recovered, which confirms 100\\% visibility of the even-distribution fringe. Second, a hybrid coherent-Fock input $|\\alpha\\rangle_1|\\alpha\\rangle_2|1\\rangle_3$ is analyzed via the density matrix formalism. The average photon number at each output port exhibits amplitude-dependent phase shifts. Our results establish the 6p-MZI as a programmable platform for tripartite quantum state manipulation and coherent amplitude sensing.",
+      "score": 87,
+      "reason": "✨ 3 光子干渉を 2 位相 6 ポート MZI で統一的に解析！🎯 tritter の DFT 構造が転送行列を 3 つの対称類に分ける 🔬",
+      "summary": "識別不能な 3 光子入射で P[111]・P[300]・P[210] を 2 位相の関数として解析的に導出。単一位相極限も再現 📐"
+    },
+    {
+      "arxiv_id": "2609.04812",
+      "title": "Transition between weak and strong measurements in the presence of post-selection",
+      "authors": [
+        "Shogo Hanashiro",
+        "Holger F. Hofmann"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.04812",
+      "abstract": "In the weak measurement regime, post-selection can result in the observation of anomalous weak values, seemingly contradicting the eigenvalue statistics observed when the measurement interaction is strong. Here, we investigate the dependence of meter statistics on measurement strength in a post-selected measurement. We find that the meter statistics in the intermediate regime between weak and strong measurements is nearly independent of measurement strength and show that, in this regime, the system performs a measurement of momentum on the meter. The transition between weak and strong measurements is explained by a reversal of the roles of the system and the meter, where the post-selection acts as a readout of information about the meter.",
+      "score": 86,
+      "reason": "🔍 弱測定→強測定の遷移は系と meter の役割交代だった！🎯 後選択が meter 側の読み出しになるという転回 ✨",
+      "summary": "中間領域の meter 統計は測定強度にほぼ依存せず、系が meter の運動量を測る形に。異常弱値と固有値統計を接続 🔬"
+    },
+    {
+      "arxiv_id": "2609.04342",
+      "title": "Superselected ghost theory: entangled pairs",
+      "authors": [
+        "Bob Holdom"
+      ],
+      "categories": [
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2609.04342",
+      "abstract": "The superselection-rule approach to ghost theories is extended to theories with a nonreal spectrum containing a complex-conjugate pair of poles on the physical sheet. The two excitations are labeled by their respective complex masses, $M$ and $M^*$, and the superselection sectors are labeled by $n$, the difference between the numbers of $M$ and $M^*$ excitations. The corresponding generalized ghost parity $Q$ assigns a phase $e^{in\\alpha}$ to each sector. Under $Q$ superselection, nonvanishing norms occur only in the $n=0$ sector, and the physical state condition $Q^{2}|s\\rangle=|s\\rangle$ projects onto this sector. For a $MM^*$ pair carrying real total energy and momentum, we define a swap operation $R$. The $R$-eigenstates are entangled pairs, and an $R$ superselection rule ensures positive probabilities. We discuss how the optical theorem describes physical cuts through these entangled pairs.",
+      "score": 85,
+      "reason": "👻 複素共役対の極を持つゴースト理論を超選択則で扱う！🎯 MM* 対がエンタングルド対として現れるのが面白い ✨",
+      "summary": "複素質量 M と M* の個数差 n で超選択セクターを分類。n=0 のみ非零ノルムで、swap 演算 R の固有状態が絡む ⚛️"
+    }
+  ]
+}

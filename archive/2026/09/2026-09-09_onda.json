@@ -1,0 +1,135 @@
+{
+  "total_fetched": 156,
+  "scored_papers": [
+    {
+      "arxiv_id": "2609.04510",
+      "title": "Implementation of frequency-correlated noise in CMB component separation: Method, Validation, and Early Applications",
+      "authors": [
+        "L. Zapelli",
+        "M. Bersanelli",
+        "L. P. L. Colombo",
+        "A. Mennella",
+        "L. G. Bachar",
+        "E. Battistelli",
+        "I. Bekkaoui",
+        "L. A. Bianchi",
+        "A. Coppolecchia",
+        "B. Costanza",
+        "P. De Bernardis",
+        "G. De Gasperis",
+        "S. Ferazzoli",
+        "M. Galloway",
+        "M. Gervasi",
+        "N. Mirón-Granese",
+        "J-Ch. Hamilton",
+        "T. Laclavère",
+        "J. G. S. Lunde",
+        "S. Masi",
+        "Y. Moulane",
+        "S. Paradiso",
+        "I. D. Queirolo",
+        "M. Regnier",
+        "G. E. Romero",
+        "C. G. Scóccola"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "astro-ph.IM"
+      ],
+      "url": "https://arxiv.org/abs/2609.04510",
+      "abstract": "Parametric component separation methods used in cosmic microwave background (CMB) analyses commonly assume instrumental noise to be uncorrelated between frequency channels. This approximation may become insufficient for experiments whose design naturally introduces cross-channel correlations, such as interferometric or multi-band bolometric systems. This work aims to provide a consistent framework to include frequency-correlated noise in Commander2 and to quantify its impact on component separation in controlled and instrument-motivated simulations. We generalized the amplitude sampling of the Commander2 framework to consistently handle dense frequency-frequency noise covariance matrices, modifying the likelihood evaluation and parallel architecture. The implementation is validated on low-resolution simulations of a simplified CMB-S4-like configuration. We applied the generalized framework to instrument-motivated simulations of the QUBIC bolometric interferometer, using representative noise models derived from end-to-end simulations. Validation tests show excellent convergence and agreement between sampled parameters and analytical maximum-likelihood estimates. Accounting for frequency correlations reduces the width of the maximum-likelihood residual distributions by up to 8% on average, and up to 11% for individual parameters, relative to the diagonal-noise approximation. In QUBIC-based simulations, accounting for an anti-correlated noise produces posterior widths reduced by about 60%, while a positive-correlation test increases them by about 40%. This shows that neglecting cross-channel correlations can lead to incorrect posterior estimates in either direction. The generalized implementation presented here enables the Commander2 software to consistently propagate such correlations into parameter estimation, providing a framework for assessing their impact in future CMB analyses.",
+      "score": 89,
+      "reason": "🎯 成分分離で周波数間のノイズ相関を初めて真面目に扱う！✨ 多バンド bolometer 系では無視できない仮定 🔭",
+      "summary": "Commander2 の振幅サンプリングを密な周波数共分散行列に一般化。尤度評価と並列構造を改修し影響を定量化 📊"
+    },
+    {
+      "arxiv_id": "2609.05053",
+      "title": "Supernovae Unite: Combining Pantheon+ and DES-SN5YR",
+      "authors": [
+        "Ryan Camilleri",
+        "Jaemyoung Lee",
+        "Tamara Davis",
+        "David Rubin",
+        "Paul Shah",
+        "Dan Scolnic",
+        "Chris Lidman",
+        "Brodie Popovic",
+        "Koby Grech",
+        "Maria Vincenzi",
+        "Dillon Brout",
+        "Maria Acevedo",
+        "Patrick Armstrong",
+        "Bruce Bassett",
+        "Keith Bechtol",
+        "Rebecca Chen",
+        "Herman Diehl",
+        "Josh Frieman",
+        "Lluís Galbany",
+        "Anais Möller",
+        "Masao Sako",
+        "Bruno Sánchez",
+        "Mark Sullivan",
+        "Brad Tucker"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2609.05053",
+      "abstract": "We present the Hubble diagram and cosmological constraints resulting from the combination of the Pantheon+ and DES-SN5YR supernova (SN) samples, which we refer to as Unite. Unite updates Pantheon+, including methodology improvements that the DES sample enabled, and adds the new SN from the DES survey. This represents the most comprehensive and internally consistent SN Ia dataset available, consisting of 2884 likely type Ia supernovae. This work features consistent SN Ia modelling, sample selection, and bias corrections. We also redetermine host-galaxy stellar masses for over 98% of the sample using a consistent framework. Using Unite alone, for a flat universe with a cosmological constant (Flat-$\\Lambda$CDM), we find $\\Omega_{\\rm m} = 0.310^{+0.012}_{-0.011}$. We further present constraints using the Unite sample combined with Cosmic Microwave Background and both DES and DESI Baryon Acoustic Oscillation data. We find strong evidence of tension between CMB measurements and the combined BAO and supernova datasets when fitting a model with constant dark energy equation of state ($w$), which is alleviated when allowing $w$ to vary with time. For a flat universe with dark energy that has a time-evolving equation of state parametrized by $w_0$ and $w_a$ we find $(\\Omega_{\\rm m},w_0,w_a) = (0.305\\pm0.004,-0.861^{+0.044}_{-0.042},-0.60^{+0.17}_{-0.19})$ with a dark energy Figure of Merit of 315. This corresponds to a $\\sim30\\%$ reduction in the area of the $w_0-w_a$ confidence region relative to previous constraints from the combination of DES Y6, DESI-DR2, and CMB data (arXiv:2605.27221). The Bayesian evidence indicates only weak preference for time evolving dark energy, whereas frequentist analyses yield a preference over Flat-$\\Lambda$CDM at a significance of $2.5\\sigma$ when using the maximum $\\mathit{a\\ posteriori}$ probability, or $3.1\\sigma$ when using the maximum likelihood.",
+      "score": 86,
+      "reason": "🌟 Pantheon+ と DES-SN5YR を統合した 2884 個の最大 SN Ia 標本 Unite が登場！🎯 宇宙論制限の新しい基準 ✨",
+      "summary": "モデリング・選択・バイアス補正を統一し 98% の母銀河質量も再測定。Flat-ΛCDM で Ω_m=0.310+0.012-0.011 📈"
+    },
+    {
+      "arxiv_id": "2609.05410",
+      "title": "Early against Late: A contrast on dark energy in the light of DESI DR2",
+      "authors": [
+        "Miguel A. Zapata",
+        "Karim Carrion",
+        "Gabriela Garcia-Arroyo"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2609.05410",
+      "abstract": "Recent findings from Dark Energy Spectroscopic Instrument (DESI) Baryon Acoustic Oscillation (BAO) measurements, combined with Type Ia supernovae and Cosmic Microwave Background (CMB) data, suggest potential parameter-level deviations from $\\Lambda\\text{CDM}$. However, parameter exclusions omit prior-volume penalties, whereas Bayesian evidence uncovers a stark dichotomy between early- and late-time dynamics. To quantify this effect, we perform a Bayesian model comparison that explicitly accounts for the cosmological epoch of dark energy dynamics, contrasting two schemes acting in opposite epochs of cosmic history: pre-recombination Early Dark Energy (EDE) and late-time Chevallier--Polarski--Linder (CPL), both measured against a baseline $\\Lambda$CDM. We validate the learned harmonic-mean estimator against \\texttt{UltraNest} (at background level) before applying it to the CMB analysis. Background-only data already disfavor both extensions, yielding $\\ln B_{\\Lambda\\text{CDM},\\text{EDE}} = 2.45 \\pm 0.25$ and $\\ln B_{\\Lambda\\text{CDM},\\text{CPL}} = 3.45 \\pm 0.24$. Including CMB sharpens this result: EDE is decisively rejected ($\\ln B_{\\Lambda\\text{CDM},\\text{EDE}} = 12.44 \\pm 0.05$) with its early-time fraction constrained to $10^3\\,\\Omega_e^{\\rm EDE} = 2.0^{+0.6}_{-1.0}$, whereas CPL remains moderately disfavored ($\\ln B_{\\Lambda\\text{CDM},\\text{CPL}} = 2.33 \\pm 0.06$), even though 2D parameter posteriors for both models display a multi-$\\sigma$ deviation from $\\Lambda\\text{CDM}$. Thus, Bayesian evidence weakens reported preferences for dark energy dynamics, with the impact depending on the cosmic epoch involved, confirmed by our functional reconstructions of $w_{\\rm de}(z)$ and $\\Omega_{\\rm de}(z)$ from posterior samples.",
+      "score": 86,
+      "reason": "⚖️ 初期 (EDE) と後期 (CPL) のどちらの暗黒エネルギーが効くかをベイズ証拠で正面対決！🎯 事前体積の罰則込み ✨",
+      "summary": "DESI DR2 BAO + SNe + CMB でパラメータ水準の ΛCDM ずれを検証。作用する時期で分けると明確な二分が現れる 📊"
+    },
+    {
+      "arxiv_id": "2609.04334",
+      "title": "Model Predictive Scoring Shows Specific BAO Observations (not SNIa) Drives $w_0w_a$ Tension",
+      "authors": [
+        "Tanveer Karim",
+        "Joshua S. Speagle",
+        "Renée Hložek"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2609.04334",
+      "abstract": "The recent analyses of DESI DR2 BAO, Planck CMB and various Supernovae datasets have shown preferences for evolving dark energy at various levels of significance, under frequentist model comparison tests. However, the same analysis done with a pure Bayesian model comparison test can lead to the opposite conclusion due to the impact of $w_0w_a$ priors. In contrast to these in-sample model comparison route, we approach the problem along a third axis -- which model better predicts unseen data. We use the Expected Log Predictive Density (ELPD) metric to score the predictiveness of $\\Lambda$CDM and $w_0w_a$CDM models, using the leave-one-redshift-block-out cross-validation estimator. The comparison metric $\\Delta$ELPD is out-of-sample, unlike $\\Delta \\chi^2_{\\rm MAP}$ and Bayes Factor, and insensitive to prior width, unlike the Bayes factor. Aggregated, we find modest preferences for $w_0 w_a$CDM, primarily driven by the BAO. Decomposing the $\\Delta$ELPD score by redshift we find that a single BAO block, LRG2 ($z = 0.706$), supplies the entire BAO preference. Interestingly, the biggest outlier point, LRG1, contributes little to the model predictive scoring because both $\\Lambda$CDM and $w_0w_a$CDM fail to predict the observation by equal amount. On the other hand, all SNIa datasets' $\\Delta$ELPD scores are consistent with $0$, indicating that at an out-of-distribution predictive level, the $w_0w_a$CDM tension is entirely driven by one BAO point, not SNIa.",
+      "score": 85,
+      "reason": "🔍 w0wa 緊張を駆動しているのは SNIa ではなく特定の BAO だった！🎯 未見データの予測力で測る第三の軸 ✨",
+      "summary": "ELPD を赤方偏移ブロック leave-one-out で評価。in-sample の Δχ² やベイズ因子とは違う結論が出る 📐"
+    },
+    {
+      "arxiv_id": "2609.04316",
+      "title": "A Kinematic Measurement of the Effective Viscosity of the Intracluster Medium: The Cold Front of A3667 Seen by XRISM",
+      "authors": [
+        "Yutaka Fujita",
+        "Yuki Omiya"
+      ],
+      "categories": [
+        "astro-ph.HE",
+        "astro-ph.GA"
+      ],
+      "url": "https://arxiv.org/abs/2609.04316",
+      "abstract": "Constraints on the effective viscosity of the intracluster medium (ICM) come almost exclusively from imaging: the power spectrum of X-ray surface brightness fluctuations, and the morphology of Kelvin-Helmholtz rolls at cold fronts. Both indicate a viscosity below the isotropic Spitzer value. XRISM/Resolve opens a complementary, purely kinematic route, in which the viscosity is inferred from the thickness of the viscous shear layer that develops at a sliding contact discontinuity. We apply it to the prototypical cold front of A3667. The interface is the classical Rayleigh problem, in which momentum diffuses to a depth d in a time T, giving a kinematic viscosity \\nu ~ d^2/(4T). The XRISM velocity map shows a line-of-sight velocity jump of 535 km/s across the front, completed within the 100 kpc-wide region immediately inside it, the only region with an anomalously broad line. Hence d ~< 100 kpc. Adopting interaction times set by the sizes of the interacting regions divided by this velocity, we obtain dynamic viscosities of 5.2 x 10^3 and 3.3 x 10^3 g/cm/s for the cool and the hot side of the front, or 6.4 and 0.72 times the Spitzer value. Because d is limited by the angular resolution of XRISM, and the viscosity scales as its square, these are upper limits. The kinematic constraint is consistent with, and independent of, the imaging results.",
+      "score": 85,
+      "reason": "🔭 XRISM/Resolve の速度場から銀河団ガスの実効粘性を運動学的に初測定！🎯 撮像頼みだった制限に別経路 ✨",
+      "summary": "A3667 の cold front で視線速度 535 km/s のジャンプを検出。Rayleigh 問題として ν~d²/4T で粘性を導出 📐"
+    }
+  ]
+}

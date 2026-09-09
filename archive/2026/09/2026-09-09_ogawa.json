@@ -1,0 +1,53 @@
+{
+  "total_fetched": 156,
+  "scored_papers": [
+    {
+      "arxiv_id": "2609.04812",
+      "title": "Transition between weak and strong measurements in the presence of post-selection",
+      "authors": [
+        "Shogo Hanashiro",
+        "Holger F. Hofmann"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.04812",
+      "abstract": "In the weak measurement regime, post-selection can result in the observation of anomalous weak values, seemingly contradicting the eigenvalue statistics observed when the measurement interaction is strong. Here, we investigate the dependence of meter statistics on measurement strength in a post-selected measurement. We find that the meter statistics in the intermediate regime between weak and strong measurements is nearly independent of measurement strength and show that, in this regime, the system performs a measurement of momentum on the meter. The transition between weak and strong measurements is explained by a reversal of the roles of the system and the meter, where the post-selection acts as a readout of information about the meter.",
+      "score": 86,
+      "reason": "🔍 弱測定と強測定の間に、測定強度にほぼ依らない中間領域がある！🎯 後選択が meter の読み出しに化ける描像 ✨",
+      "summary": "中間領域では系が meter の運動量を測る側に反転。異常弱値と固有値統計の食い違いが役割交代として繋がる 📐"
+    },
+    {
+      "arxiv_id": "2609.04580",
+      "title": "Residual detuning in the laboratory-frame anti-Jaynes--Cummings model with a squeezed vacuum",
+      "authors": [
+        "Onyango Stephen Okeyo"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.04580",
+      "abstract": "The laboratory-frame anti-Jaynes--Cummings (AJC) interaction retains a residual detuning $2f\\lambda$ that is absent from the rotating-frame model. We map two proposed remedies---a Kerr shift $\\chi(\\hat a^\\dagger\\hat a)^2$ and collective Dicke coupling of $N$ two-level emitters---for a squeezed vacuum on that ladder ($r=1$, $\\langle n\\rangle=\\sinh^2 r\\simeq 1.38$). All quoted contrasts are the amplitude of the first turning point of the atomic ground-state population, which coincides with the two-level formula $\\mathcal{C}=1/[1+(2f+\\chi)^2]$ at $r=0$ to $10^{-9}$. Three results follow. (i)~A single Kerr strength never restores unit contrast at $r=1$; the $r=0$ $n$-dependent shift $\\chi(2n+1)$ cannot cancel $2f\\lambda$ on every occupied Fock component. (ii)~The exact $r=1$ contrast at $\\chi=0$ is not reproduced by an incoherent sum $\\sum_n P_n(r)\\,\\mathcal{C}_n$ built from the $r=0$ two-level formula; pointwise deviations are several tenths. (iii)~Collective coupling raises the contrast systematically. At $f=5$ one finds $\\mathcal{C}=0.140$ ($N=1$) and $\\mathcal{C}=0.575$ ($N=8$), above the unsqueezed value $8/[8+(2f)^2]=0.074$. The $N=16$ point at this $f$ remains truncation-limited and is not quoted to three digits. The same $N\\sim(2f)^2$ estimate for $\\mathcal{C}=1/2$ places trapped-ion values $f\\sim 10^{2}$--$10^{3}$ outside the present construction. The relevant platform is ultrastrong circuit QED with $f\\sim 1$--$10$. The calculation is a numerical control landscape, not a new solvable limit.",
+      "score": 85,
+      "reason": "🌀 スクイーズド真空を乗せた anti-JC 模型の残留離調をどう消すか 🎯 Kerr シフトと Dicke 結合の 2 処方を定量比較 ✨",
+      "summary": "r=1 では単一の Kerr 強度で contrast は戻らない。χ(2n+1) のシフトが全 Fock 成分で 2fλ を打ち消せないため ⚛️"
+    },
+    {
+      "arxiv_id": "2609.05355",
+      "title": "Fundamental Limits of Quantum Metrology Beyond Fixed Causal Order",
+      "authors": [
+        "Wenjie Wei",
+        "Yutong Li",
+        "Shengshi Pang"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.05355",
+      "abstract": "Quantum metrology with indefinite causal order (ICO) has attracted intense interest due to its potential to surpass the limitations of conventional fixed-order strategies. A key open question is whether ICO can fundamentally enhance asymptotic precision scaling. In this work, we bridge this gap for the estimation of a single parameter encoded in $N$ identical uses of a finite-dimensional quantum channel. We first establish a universal Heisenberg-scaling upper bound for the full general ICO process-matrix class and show that for unitary channels its optimal quantum Fisher information (QFI) coincides exactly with that of parallel strategies. For noisy channels, a structurally refined bound shows that channels restricted to the standard quantum limit (SQL) under parallel strategies remain SQL-limited under general ICO strategies. Most significantly, an asymptotically tight (AT) bound is derived to close the remaining possibility of an asymptotic ICO advantage by showing that general ICO and optimal parallel strategies have exactly the same leading QFI coefficient in both the SQL and Heisenberg regimes. For the operationally motivated class of quantum circuits with quantum control of causal order, we further obtain an iterative constraint on finite-query precision whose asymptotic limit agrees with that of the AT bound. Our results clarify the ultimate role of indefinite causality as a metrological resource for quantum channel estimation.",
+      "score": 85,
+      "reason": "⏱ 不定因果順序は精度スケーリングを本当に改善するのか？🎯 ユニタリなら並列戦略と QFI が一致という決着 ✨",
+      "summary": "一般 ICO プロセス行列に対する普遍的 Heisenberg 上界を確立。SQL 止まりのチャネルは ICO でも SQL のまま 📊"
+    }
+  ]
+}

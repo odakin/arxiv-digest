@@ -1,0 +1,127 @@
+{
+  "total_fetched": 156,
+  "scored_papers": [
+    {
+      "arxiv_id": "2609.04448",
+      "title": "From Nonmetricity Operators to the Physical Spectrum: A Branch-Complete Analysis of Local Four-Derivative Symmetric Teleparallel Gravity",
+      "authors": [
+        "Caglar Pala"
+      ],
+      "categories": [
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2609.04448",
+      "abstract": "We develop a branch-complete classical free-spectrum analysis of local parity-even symmetric teleparallel gravity containing all pure-gravity nonmetricity operators through four derivatives. After canonicalisation and integration by parts, the nonlinear action contains 116 independent operators distributed as $5+13+29+69$ among $Q^2$, $(\\nabla Q)^2$, $Q^2\\nabla Q$ and $Q^4$. Around Minkowski spacetime in the coincident gauge only the first two sectors contribute to the quadratic action, which reduces to four two-derivative and five four-derivative bilinears. We map the original coefficients to this nine-dimensional basis, construct the Hessian and momentum kernel, and classify local linear gauge symmetries. Unrestricted linearised diffeomorphism invariance imposes six independent relations and leaves a three-parameter family $(A,B,C)$. We also recover TDiff, Weyl, WTDiff and additional accidental symmetry branches. Barnes--Rivers decomposition, gauge fixing, exact inversion and conserved-source saturation reduce the physical exchange to spin-two and scalar factors $A+2Cq$ and $2A+(3B-2C)q$. The generic regular spectrum contains a massless graviton, a massive spin-two state and a massive scalar, with eight degrees of freedom. The massive spin-two residue is necessarily opposite to that of the healthy massless graviton. The regular classification leaves only GR/STEGR, $A>0$ with $B=C=0$, and the scalar extension, $A>0$, $B>0$, $C=0$, as fully healthy Minkowski loci. The latter has three degrees of freedom and mixed ultraviolet behaviour, with tensor exchange scaling as $k^{-2}$ and scalar exchange as $k^{-4}$. Thus, within this finite local metric theory, full four-derivative tensor suppression requires the finite massive spin-two pole with opposite residue.",
+      "score": 89,
+      "reason": "🔥 対称テレパラレル重力の 4 階微分項を全部数えて 116 演算子！✨ ゴースト無し分枝を総当たりで炙り出す 🎯 平行移動系が好きなら堪らん 🚀💫",
+      "summary": "⚛️ 座標ゲージの Minkowski 周りでは 9 個の双線形に縮約。線形微分同相不変性が 6 関係式を課し 3 パラメータ族 (A,B,C) が残る 📐"
+    },
+    {
+      "arxiv_id": "2609.04761",
+      "title": "Flavor Tomography of Long-Lived Neutrino-Mass Mediators: Probing the Neutrino Mass Ordering at the HL-LHC",
+      "authors": [
+        "Renjie Wang"
+      ],
+      "categories": [
+        "hep-ph",
+        "hep-ex"
+      ],
+      "url": "https://arxiv.org/abs/2609.04761",
+      "abstract": "The neutrino mass ordering remains unresolved because long-baseline oscillation measurements are entangled with the unknown CP phase $\\delta_{CP}$; a collider probe free of this degeneracy would provide a qualitatively different, complementary test. We show that when the long-lived charged particle producing a displaced-lepton signal at the High-Luminosity LHC is also the mediator responsible for Majorana neutrino masses---the \\textit{shared-coupling condition}---the Casas--Ibarra parametrization determines the lepton flavor ratio $N_e/N_\\mu$ of time-delayed leptons in terms of Pontecorvo--Maki--Nakagawa--Sakata (PMNS) mixing parameters alone. Within the resulting \\textit{shared-coupling class} of models the ratio is fixed by oscillation data, independent of all beyond-Standard-Model mass and coupling parameters up to calculable corrections bounded by charged-lepton-flavor-violation data, yielding $N_e/N_\\mu = 0.140$ for the Normal and $2.11$ for the Inverted Hierarchy---a separation of more than an order of magnitude between the two predictions. This prediction holds identically across the Scotogenic model, the Type-III seesaw, the inverse and linear seesaw, and lepton-portal dark matter, and is stable against oscillation-parameter uncertainties and detector-efficiency variations, which cancel in the ratio. A single efficiency-corrected decision criterion identifies the hierarchy, and explicit signal-yield estimates combined with an exact Poisson test show that $\\mathcal{O}(25)$ displaced-lepton events suffice for a $3\\sigma$ discrimination with the timing infrastructure already under construction at CMS and ATLAS---so that a positive long-lived-particle signal would simultaneously resolve the mass ordering, with no dependence on $\\delta_{CP}$.",
+      "score": 87,
+      "reason": "🎯 長寿命粒子の崩壊レプトンの e/μ 比だけで質量階層が決まる！✨ δ_CP の縮退から自由な collider 版の振動実験 🚀🔬💫",
+      "summary": "⚛️ 変位レプトン信号の媒介子が Majorana 質量源なら Casas-Ibarra で比が PMNS だけで固定。HL-LHC で階層を判定 📊"
+    },
+    {
+      "arxiv_id": "2609.04650",
+      "title": "Self-Interacting Sterile Neutrino Cold Dark Matter: Resonant Production Mechanism in the Early Universe",
+      "authors": [
+        "Eung Jin Chun",
+        "Kenji Kadota",
+        "Seokhoon Yun"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.04650",
+      "abstract": "Sterile neutrinos are well-motivated dark matter candidates, but their conventional production through active-sterile mixing is tightly constrained by X-ray searches and structure-formation observations. We propose a distinct production mechanism operating entirely within a sterile sector: two sterile neutrinos, $N_1$ and $N_2$, coupled to a singlet scalar $\\phi$, with $N_1$ the dark matter candidate and $N_2$ held in equilibrium through frequent scattering induced by its scalar interaction. Thermal self-energies induced by the $N_2$ and $\\phi$ backgrounds generate both a temperature-dependent mass splitting and an off-diagonal mixing between $N_1$ and $N_2$. As the Universe cools, the in-medium levels can undergo a level crossing, leading to resonantly enhanced conversion of the thermal $N_2$ population into $N_1$. We formulate the conversion using a density-matrix kinetic equation that consistently incorporates coherent $N_1$-$N_2$ conversion, collisional decoherence, and thermal repopulation of $N_2$. For a narrow resonance, the integrated conversion probability admits a simple analytic form that coincides with the Landau-Zener result, despite the underlying collisionally damped dynamics. In the weak-conversion regime relevant for freeze-in, this correspondence provides a robust analytic description of the resonant production. We derive the resulting dark matter abundance and identify the conditions for cosmological stability of $N_1$ and for resonant conversion to dominate over direct scattering and decay production. The resulting relic abundance scales as $Y_1\\propto g_{12}^2 g_{22}M_{\\rm Pl}/m_1$, making the dark matter energy density approximately independent of $m_1$. This mechanism provides a new route to sterile-neutrino dark matter that does not require appreciable active-sterile mixing.",
+      "score": 86,
+      "reason": "🌟 活性混合を使わずステライル sector の内側で暗黒物質を作る！✨ X 線制限を回避する共鳴生成の新機構 🎯🚀⚛️",
+      "summary": "🔥 N_2 と φ の熱的自己エネルギーが温度依存の質量分裂と混合を生成。冷却で準位交差が起き N_2→N_1 が共鳴増幅 📉"
+    },
+    {
+      "arxiv_id": "2609.04412",
+      "title": "Cosmological moduli problem ameliorated by decaying WIMPs",
+      "authors": [
+        "Howard Baer",
+        "Vernon Barger",
+        "Robert Wiley Deal"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.04412",
+      "abstract": "We investigate the cosmological moduli problem (CMP) in the context of supersymmetric models where discrete R-symmetries are used to suppress the mu term, and where mu is regenerated via Kim--Nilles superpotential operators. In such theories, a global U(1)_{PQ} emerges as an accidental, approximate symmetry which solves the strong CP problem. R-parity is also generated as accidental but approximate, where RPV operators gain a (f_a/m_P)^n suppression. When n=1, the thermally-produced LSPs may decay before BBN in the early universe, leaving axion-only dark matter of the SUSY DFSZ type. Meanwhile, the dominant cosmological constraint on light stringy moduli previously came from the modulus-induced WIMP overproduction problem. WIMP overproduction is now ameliorated by the RPV WIMP decays, but the moduli-induced BBN bound may be exacerbated by convolving long-lived modulus decay with long-lived RPV WIMP decay: long-lived particle (LLP) cascade decays. In this context, moduli as light as m_\\phi ~ 130 TeV may be allowed which can reconcile naturalness with the presence of stringy moduli in the early universe.",
+      "score": 85,
+      "reason": "🎲 R 対称性で mu 項を抑えると RPV が付いてきて WIMP が BBN 前に崩壊 ✨ 宇宙論的モジュライ問題が緩和 🎯🚀💫",
+      "summary": "⚛️ 残るのは SUSY DFSZ 型アクシオン暗黒物質。ただしモジュライ崩壊と長寿命 LSP の畳み込みで BBN 制限は逆に厳しくなる 📊"
+    },
+    {
+      "arxiv_id": "2609.05352",
+      "title": "Displaced Signals from Long-lived Particles in Neutrinoless Double Beta Decay",
+      "authors": [
+        "Patrick D. Bolton",
+        "Noor-Inès Boudjema",
+        "Frank F. Deppisch",
+        "Chandan Hati",
+        "Chayan Majumdar"
+      ],
+      "categories": [
+        "hep-ph",
+        "hep-ex"
+      ],
+      "url": "https://arxiv.org/abs/2609.05352",
+      "abstract": "Much of the literature on neutrinoless double beta ($0\\nu\\beta\\beta$) decay with light new-physics mediators focuses on invisible missing energy. We investigate the scenario in which a massive Majoron-like particle $\\phi$ is produced on-shell during $0\\nu\\beta\\beta$ decay and subsequently decays into visible final states after travelling a macroscopic distance. Specifically, we analyze the displaced energy deposition from $\\phi$ decays into a photon pair ($\\gamma\\gamma$), a photon and a dark photon ($\\gamma\\gamma_D$) and an electron-positron pair ($e^+e^-$). We demonstrate that the displaced decays modify the expected visible energy spectra and provide novel, distinct experimental signatures at current and upcoming $0\\nu\\beta\\beta$ experiments, with the promise of improving the sensitivity of the standard invisible Majoron searches in $0\\nu\\beta\\beta$ decay by more than two orders of magnitude. The relevant effective couplings can naturally arise in well-motivated ultraviolet-complete scenarios that conventional $0\\nu\\beta\\beta$ decay searches cannot probe.",
+      "score": 85,
+      "reason": "💡 0νββ で出た Majoron が飛んでから光子対に崩壊する！✨ 見えないエネルギー前提をひっくり返す変位信号 🎯🔬🚀",
+      "summary": "⚛️ γγ・γγ_D・e+e- への変位崩壊が可視エネルギー分布を変形。標準的な不可視 Majoron 探索より 2 桁以上高感度 📈"
+    },
+    {
+      "arxiv_id": "2609.04328",
+      "title": "Emergent dark sector in group field theory cosmology",
+      "authors": [
+        "Andrea Calcinari",
+        "Federico Greco",
+        "Daniele Oriti",
+        "Pietro Pellecchia"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2609.04328",
+      "abstract": "We develop an analytical treatment of the emergent cosmological dynamics induced by local polynomial interactions in a deparametrised group field theory model, moving beyond the usual non-interacting approximation. For a single field mode with quartic and sextic couplings we obtain a closed-form generalised Friedmann equation within a controlled Gaussian regime. The dynamics preserves the quantum bounce while generating effective dark matter and dark energy contributions as collective quantum-geometric phenomena, providing the first derivation of both components from a single model. Matching the resulting dark-energy-to-dark-matter density ratio to observations places concrete phenomenological constraints on the fundamental theory, linking the cosmic coincidence problem directly to the underlying quantum gravity dynamics. Our results extend to arbitrary even polynomial interactions, establishing a systematic dictionary between microscopic interaction orders and effective equations of state.",
+      "score": 85,
+      "reason": "🌌 群の場の理論の相互作用から暗黒物質と暗黒エネルギーが両方湧く！✨ 創発重力好きに刺さる一石二鳥 🎯🚀💫",
+      "summary": "⚛️ 4 次・6 次結合込みで閉じた一般化 Friedmann 方程式を導出。量子バウンスを保ちつつ密度比が理論を制限 📐"
+    },
+    {
+      "arxiv_id": "2609.05379",
+      "title": "Coincidence-based spectral engineering for spectral matching in cascaded downconversion",
+      "authors": [
+        "Mohammed Charafi",
+        "Alexandre Z. Leger",
+        "Samridhi Gambhir",
+        "Deny R. Hamel"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.05379",
+      "abstract": "Three-photon states generated via cascaded spontaneous parametric downconversion provide a direct route to multipartite entanglement. However, current implementations require careful spectral matching between successive nonlinear stages, which constrains the choice of downconversion sources. In this work, we show that coincidence-based spectral filtering relaxes this requirement by conditionally tailoring the spectrum of the pump photon entering the second stage. By filtering the herald photon, we conditionally tailor the spectrum of its partner to match the acceptance bandwidth of the secondary nonlinear process, enabling efficient coupling between broadband and narrowband stages without altering the sources themselves. Using an electro-optically gated spectrometer, we directly measure the conditional spectra that govern the cascaded process, allowing us to quantitatively predict the enhancement in second-stage conversion probability per detected herald. We then verify this prediction through photon-triplet measurements, demonstrating improved performance at fixed heralding rates. Our results establish coincidence-based spectral engineering as a practical tool for optimizing cascaded downconversion, particularly in regimes limited by detector saturation or spectral incompatibility.",
+      "score": 85,
+      "reason": "✨ カスケード SPDC の帯域整合を同時計数フィルタで解決！🎯 相方の条件付きスペクトルを整形する発想が良い 🔬🚀💫",
+      "summary": "💫 ヘラルド光子を濾すと相方のスペクトルが 2 段目の受容帯域に整形される。広帯域源と狭帯域源の結合が可能に 📡"
+    }
+  ]
+}
