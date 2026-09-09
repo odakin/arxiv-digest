@@ -3,6 +3,25 @@
 ## 現在の状態
 **安定運用中**: Mode B（ローカル scheduled task）で平日朝に自動配信
 
+## 2026-09-09 — Mode A (GitHub Actions) を repo レベルで disable
+
+Mode A の cron (`30 1 * * 1-5` UTC = **JST 10:30**) が Mode B のローカル routine と**同時刻**に
+組まれたまま生きていた (= 2026-06-29 の二重配信と同じ配線)。 最近二重にならなかったのは
+Actions が投稿の手前で落ちていたからで (`BadRequestError: credit balance is too low` = Anthropic
+API のクレジット切れ、 09-04/07/08 と 3 連続 failure)、 **偶然による無害化**にすぎなかった
+(= API に入金した瞬間に再発する時限爆弾)。
+
+- `gh workflow disable` で **repo レベルで停止** (state = `disabled_manually`)。
+  ⚠️ file は消していない — 本 repo は GitHub Template なので、 template 利用者には
+  Mode A が必要。 `digest.yml` の header に「Mode A と Mode B を両方 schedule すると
+  二重配信になる。 どちらか一方にせよ」 の注記を追加。
+- 再開するなら Actions 画面の Enable。 ただし Mode B を止めるのが先。
+- 併せて `CLAUDE.md §Mastodon トークン更新手順` を**プライベートウィンドウ方式**に改訂
+  (= 旧手順の「ログアウト → 再ログイン」 は、 サイドバーのログアウトが rails-ujs の JS 経由
+  DELETE ゆえ Brave のシールドで**無反応**になり実際に詰まった)。 反映は
+  `odakin-prefs/scripts/rotate-mastodon-token.sh` が `.env` / Dropbox backup / GitHub Secret /
+  旧 token 失効確認まで自動でやる (値は端末にも AI の context にも出さない)。
+
 ## ⚠️ 要対応 (2026-06-29 二重実行インシデント)
 
 2026-06-29、本番ホストが朝 10:31 にダイジェストを配信・commit（`24c4a1e`）した後、**別マシンの arxiv-digest routine が failover gate 無しのまま再実行**し、同日のダイジェストを**チャンネルへ二重配信**した（odakin Mastodon 3 toots / onda Discord 5 msgs / takeda Discord 2 msgs を重複、ogawa は両 run とも 0 件）。再実行側はローカルの重複 6/29 archive を破棄し canonical（`24c4a1e`）へ ff-pull 同期して git 状態は復旧済み。
