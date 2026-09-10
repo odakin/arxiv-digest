@@ -1,0 +1,136 @@
+{
+  "total_fetched": 490,
+  "scored_papers": [
+    {
+      "arxiv_id": "2609.09149",
+      "title": "Differential Polarization Calibration: A Consistency Test for Cosmic Birefringence",
+      "authors": [
+        "Anto I. Lonappan",
+        "Brian Keating",
+        "Kam Arnold"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "astro-ph.IM"
+      ],
+      "url": "https://arxiv.org/abs/2609.09149",
+      "abstract": "The cosmic microwave background birefringence angle $\\beta$ is exactly degenerate with a common instrumental polarization-angle offset. The Minami--Komatsu(MK) likelihood separates these quantities using Galactic foreground polarization, so its inferred detector angles merit a diagnostic that does not reuse the foreground-$EB$ model. We develop a birefringence-blind differential estimator from antisymmetric and symmetric cross-spectra and apply it for the first time as an explicit consistency test of a foreground-assisted birefringence analysis. For a map pair, the common rotation cancels identically and the estimator measures $\\Delta\\alpha_{ij}=\\alpha_i-\\alpha_j$; combining all pairs in a gauge-fixed network reconstructs the observable detector-dependent calibration pattern. Applied to eight Planck NPIPE detector-set maps, the differential reconstruction agrees with the MK pattern, giving $\\chi^2=8.18$ for seven degrees of freedom (PTE=0.32), with all shared-data residuals below $1.8\\sigma$. Because both reconstructions use the same maps, this is an independent estimator and modeling route rather than an independent-data confirmation. The agreement therefore strengthens confidence in the calibration foundation of the MK-inferred $\\beta$ without providing an independent absolute measurement of it. A conditional common-mode reconstruction gives $\\beta=0.37\\pm0.12^\\circ$. The differential test uses existing data and can serve as a validation layer for future $EB$-based birefringence analyses.",
+      "score": 95,
+      "reason": "🎯偏光角オフセットと birefringence β の完全縮退を、foreground-EB を再利用しない独立診断で切り分ける✨ Minami-Komatsu 解析の consistency test そのもの🛰️",
+      "summary": "反対称/対称クロススペクトルから β に鈍感な差分推定量を構成📐 Planck NPIPE の 8 detector-set に適用し MK の較正パターンと整合を確認📊"
+    },
+    {
+      "arxiv_id": "2609.07834",
+      "title": "The SRG/eROSITA All-Sky Survey: Early dark energy and Hubble constant from the cluster mass function",
+      "authors": [
+        "J. Strunk",
+        "E. Artis",
+        "E. Bulbul",
+        "S. Grandis",
+        "N. Clerc",
+        "V. Ghirardini",
+        "M. Kluge",
+        "A. Liu",
+        "F. Balzer",
+        "J. Comparat",
+        "I. Chiu",
+        "Z. Ding",
+        "N. Malavasi",
+        "A. Merloni",
+        "T. Mistele",
+        "H. Miyatake",
+        "S. Miyazaki",
+        "K. Nandra",
+        "F. Kleinebreil",
+        "N. Okabe",
+        "M. E. Ramos-Ceja",
+        "J. S. Sanders",
+        "T. Schrabback",
+        "R. Seppi",
+        "S. Zelmer",
+        "X. Zhang"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2609.07834",
+      "abstract": "The evolution of the mass function of massive galaxy clusters is a well-established probe of cosmology. Using the eROSITA X-ray instrument on board the Spectrum Roentgen Gamma (SRG) mission, the western Galactic hemisphere of eROSITA's first All-Sky Survey (eRASS1) delivers a uniformly selected and securely confirmed sample of 5259 galaxy clusters spanning $0.1 < z < 0.8$. When combined with overlapping weak lensing data from DES Year 3, KiDS, and HSC for mass calibration, this dataset enables precise tests of the standard $\\Lambda$CDM framework and beyond. In this work, we use the $0.1 < z < 0.45$ subsample of the eRASS1 cluster catalog to place constraints on an axion-like Early Dark Energy (EDE) scenario. Such models have been proposed as a possible mechanism to alleviate the tension between early- and late-Universe measurements of the Hubble constant. In this framework, a scalar field temporarily enhances the cosmic expansion rate around the epoch of recombination before rapidly diluting at later times, leaving distinct imprints on structure growth. We leverage these signatures to present the first constraints on EDE derived from galaxy cluster number counts. Using eRASS1 number counts alone, we obtain an upper limit on the maximum EDE fraction of $f_{\\rm EDE} < 0.3$, consistent with primary CMB analyses. Combining our cluster analysis with primary CMB measurements, baryon acoustic oscillations, and CMB lensing, while notably excluding distance-ladder calibration data, yields results consistent with a nonzero EDE contribution and $H_0$ values compatible with late-Universe measurements. The most significant detection, at $\\sim 3.2\\sigma$, arises from the joint analysis of the eRASS1 sample with the full set of external datasets, yielding $f_{\\rm EDE} = 0.10^{+0.04}_{-0.03}$ and $H_0 = 71.4 \\pm 1.4$ km/s/Mpc. [ABRIDGED]",
+      "score": 88,
+      "reason": "🔭eRASS1 の 5259 クラスター質量関数で Early Dark Energy を直接制限✨ H0 tension の EDE 解に late-time 側から切り込む一本📉",
+      "summary": "0.1<z<0.45 のサブサンプルに DES Y3 / KiDS / HSC の弱レンズ質量較正を組み合わせ🧮 axion-like EDE の許容領域と H0 への含意を評価📊"
+    },
+    {
+      "arxiv_id": "2609.08904",
+      "title": "Resolving structure within the iron line profile of Serpens X-1 with XRISM and NuSTAR",
+      "authors": [
+        "Hayden Hall",
+        "Renee M. Ludlam",
+        "Edward Cackett",
+        "Jon M. Miller",
+        "Javier A. Garc'ia"
+      ],
+      "categories": [
+        "astro-ph.HE"
+      ],
+      "url": "https://arxiv.org/abs/2609.08904",
+      "abstract": "We present the first simultaneous XRISM and NuSTAR observations of the neutron star low mass X-ray binary Serpens X-1. We perform spectral modeling on the joint observations of XRISM/Resolve, XRISM/Xtend, and NuSTAR, testing Comptonization and double thermal continuum model prescriptions. We find that a hybrid double thermal model adequately describes the underlying continuum of the source while the Comptonization models predict largely unphysical parameter values. We perform reflection modeling and confirm with tight constraints an inclination of 5^{\\circ} \\pm 1^{\\circ} and inner disk radius of 6.6 \\pm 0.6 Rg for the source. We show that the spectral resolution of XRISM/Resolve allows for the determination of a unique inner disk radius, which has the potential to constrain neutron star spin in other systems. We discuss discrepancies in spectral shape between XRISM/Resolve and NuSTAR above \\sim 8 keV. We also present lightcurve and spectral analyses of 8 Type-I X-ray bursts that occurred during the observations.",
+      "score": 87,
+      "reason": "🛰️XRISM/Resolve と NuSTAR の初同時観測で鉄輝線プロファイルの内部構造を分解✨ Resolve の分光分解能が内縁半径を一意に決める実例⚙️",
+      "summary": "傾斜角 5°±1°、内縁半径 6.6±0.6 Rg を高精度で制限📐 Comptonization 模型は非物理的な値を返し、hybrid 二成分熱模型が優位📊"
+    },
+    {
+      "arxiv_id": "2609.08457",
+      "title": "Finding the distribution of matter using lenses - I: deconvolution-based reconstruction with CMB lensing",
+      "authors": [
+        "Ajoy Dawn",
+        "Jun-Qian Jiang",
+        "Dhiraj Kumar Hazra",
+        "Benjamin L'Huillier",
+        "Arman Shafieloo"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "hep-ph",
+        "physics.data-an"
+      ],
+      "url": "https://arxiv.org/abs/2609.08457",
+      "abstract": "The matter power spectrum is one of the primary statistical descriptors of the large-scale distribution of matter in the Universe and provides a powerful probe of cosmic structure formation. Measurements of cosmic microwave background (CMB) lensing offer an integrated view of the matter distribution over a wide range of redshifts, enabling the reconstruction of the underlying matter power spectrum. In this work, we reconstruct the reference linear matter power spectrum $ P_\\text{lin}(k,0)$ from the baseline joint CMB lensing measurements of Planck PR4, ACT DR6, and SPT-3G using a covariance-weighted modified Richardson-Lucy(MRL) deconvolution algorithm. The reconstructed spectrum is found to be consistent with the fiducial linear prediction on large scales, while exhibiting a systematic enhancement for $k \\gtrsim 0.1\\,{\\rm Mpc}^{-1}$, where nonlinear gravitational evolution becomes important. To investigate this behavior, we introduce a scale-dependent correction factor, $A(k)$, defined through $P(k)=A(k)\\,P_{\\rm nl}(k),$ where $P_{\\rm nl}(k)$ is the fiducial nonlinear matter power spectrum obtained from 2LPT simulations. The reconstructed correction factor remains consistent with unity within $2\\sigma$ confidence over the reconstructed range, indicating that the observed enhancement is well explained by the standard nonlinear evolution of the matter power spectrum. In addition, the reconstruction shows agreement with the fiducial BAO template around the BAO feature at $k\\sim(0.04-0.06)\\ {\\rm Mpc}^{-1}$, indicating that some BAO-scale information survives the lensing projection.",
+      "score": 86,
+      "reason": "🔍Planck PR4 + ACT DR6 + SPT-3G の CMB lensing から線形物質パワースペクトルを deconvolution で再構成✨ 模型に寄りかからない測り直し📈",
+      "summary": "共分散重み付き修正 Richardson-Lucy 法で P_lin(k,0) を復元🧮 大スケールでは fiducial と整合、k≳0.1/Mpc で系統的な増幅を検出📊"
+    },
+    {
+      "arxiv_id": "2609.07401",
+      "title": "Ultra-slow-roll Inflation with Non-perturbative Non-Gaussianity and Scalar Induced Gravitational Waves",
+      "authors": [
+        "Manuel Drees",
+        "Chenhuan Wang"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.07401",
+      "abstract": "An ultra-slow-roll phase during inflation could potentially produce the right abundance of primordial black holes (PBHs) for them to form all of dark matter (DM). We consider such a scenario, carefully treating the transitions from slow to ultra slow roll inflation and back, using a parametrisation of the inflaton potential that can describe inflation from the time when CMB scales crossed out of the horizon until its end. A $\\delta N$ analysis shows that this model can possess $O(1)$ non-Gaussianity. When computing the primordial black hole abundance, we keep the full non-linear relation between curvature perturbations and the density contrast and consider the non-Gaussianity to all orders. We find that $O(1)$ non-Gaussianity is sufficient to enhance the PBH abundance by orders of magnitude, leading to reduced gravitational wave (GW) signals for fixed PBH abundance. The signal to noise ratio is computed for future gravitational wave observatories. We find that, in spite of the reduced strength, the GW signal is well above the sensitivity of LISA if PBHs form a significant component of DM.",
+      "score": 86,
+      "reason": "🌌ultra-slow-roll からの PBH 生成を、非ガウス性を全次数で扱って評価⚡ O(1) の非ガウス性で存在量が桁で変わり、同じ PBH 量なら GW 信号が下がる✨",
+      "summary": "δN 解析でスロー→USR→スローの遷移を丁寧に接続🧮 曲率揺らぎと密度コントラストの非線形関係を保ったまま誘導 GW の S/N を再評価📉"
+    },
+    {
+      "arxiv_id": "2609.09106",
+      "title": "A Two-Dimensional Test of Cosmological Parity Violation with the 3-Point Correlation Function",
+      "authors": [
+        "William Ortol'a Leonard",
+        "Zachary Slepian"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2609.09106",
+      "abstract": "Searches for parity violation (PV) in the Universe's large-scale structure have recently been carried out using parity-odd modes of the galaxy 4-Point Correlation Function (4PCF). Here, we introduce a new estimator for a 3-Point Correlation Function (3PCF) that is sensitive to PV. The construction exploits the handedness of triangles formed on 2D spherical shells, where mirror-image configurations cannot be related by proper rotations within the surface. By dotting the oriented area vector with an externally-defined normal vector to the shell, we obtain sensitivity to PV. We present a discrete estimator for this statistic and also show how to correct for the survey geometry. This parity-odd 3PCF provides a complementary test of PV in galaxy surveys and a potential cross-check of PV 4PCF measurements.",
+      "score": 85,
+      "reason": "🪞3点相関でパリティ破れを見る新しい推定量✨ 球殻上の三角形の「手系」を使うので、4PCF によるパリティ破れ探索の独立クロスチェックになる📐",
+      "summary": "球殻上の有向面積ベクトルと外部法線の内積でパリティ感度を得る🧮 離散推定量とサーベイジオメトリ補正の手続きまで提示📊"
+    }
+  ]
+}

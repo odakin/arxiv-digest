@@ -1,0 +1,117 @@
+{
+  "total_fetched": 490,
+  "scored_papers": [
+    {
+      "arxiv_id": "2609.07338",
+      "title": "Phase estimation in spontaneous nonlinear interferometry for enhanced quantum imaging",
+      "authors": [
+        "Jonas L. Moos",
+        "Cristofero Oglialoro",
+        "Enno Giese",
+        "Markus Gr\"afe"
+      ],
+      "categories": [
+        "quant-ph",
+        "physics.optics"
+      ],
+      "url": "https://arxiv.org/abs/2609.07338",
+      "abstract": "Bicolor quantum imaging can reach, in principle, phase supersensitivity approaching the Heisenberg limit using squeezed light from high-gain parametric down-conversion, but established quantum-imaging setups typically operate in the low-gain, spontaneous regime, where such scaling is inaccessible. Here, we show experimentally and theoretically that a symmetric nonlinear interferometer, even in the spontaneous regime, retains a phase-sensitivity advantage over configurations where entanglement is not exploited as a quantum-metrological resource, although the achievable phase sensitivity remains shot-noise-limited. This advantage appears as a shift of the optimal working point toward the dark fringe, the low-gain signature of the mechanism underlying high-gain supersensitivity. We derive design choices for phase-optimized nonlinear interferometers accordingly, favoring configurations that exploit entanglement as a metrological resource and specifying their optimal operating point.",
+      "score": 89,
+      "reason": "🔬自発領域（低利得 SPDC）の非線形干渉計でも、もつれを計量資源として使う優位性が残ると実験と理論の両面で示す✨ 量子イメージング直系📸",
+      "summary": "対称非線形干渉計の最適動作点が dark fringe 側へずれる＝高利得 supersensitivity 機構の低利得版📐 位相最適化の設計指針も導出🧮"
+    },
+    {
+      "arxiv_id": "2609.07082",
+      "title": "Broad-angle photon-pair generation from flatband quasi-BIC resonant 3R-MoS$_{2}$ metasurfaces",
+      "authors": [
+        "Tingting Liu",
+        "Huifu Qiu",
+        "Xintong Shi",
+        "Jumin Qiu",
+        "Shuyuan Xiao"
+      ],
+      "categories": [
+        "physics.optics",
+        "physics.app-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.07082",
+      "abstract": "Spontaneous parametric down-conversion (SPDC) in ultrathin optical resonant metasurfaces offers a promising platform for integrated quantum light sources. However, conventional resonances suffer from steep momentum dispersion, limiting photon-pair generation to narrow excitation and emission angles. Here, we demonstrate a flatband-resonant 3R-MoS$_{2}$ metasurface for high-efficiency, broad-angle SPDC photon-pair generation. By implementing a supercell symmetry-breaking strategy via Brillouin zone folding, we achieve a flatband quasi-bound states in the continuum (quasi-BICs) resonance in the near-infrared regime that maintains a robust quality factor across a wide range of incident angle. Exploiting the strong local electric field enhancement of resonance and the large second-order susceptibility of 3R-MoS$_{2}$, the metasurface boosts the degenerate SPDC pair-generation rate with orders of magnitude enhancement over an unpatterned film of identical thickness. Crucially, the near-zero band dispersion extends the effective emission angle to $\\pm 5^{\\circ}$ with negligible spectral drift $\\sim 0.1$ nm and high directional tolerance. Under pulsed excitation with a finite spectral bandwidth, the photon pair yield remains high, demonstrating strong spectral locking to the quasi-BIC resonance against pump detunings. This work establishes a versatile strategy for momentum-independent quantum light sources, opening new avenues for scan-free quantum ghost imaging and spatial-frequency quantum processing.",
+      "score": 88,
+      "reason": "💡3R-MoS2 メタサーフェスの flat-band quasi-BIC で、広い角度範囲にわたり SPDC 光子対を高効率生成🔦 急峻な運動量分散という壁を破る設計✨",
+      "summary": "スーパーセルの対称性破れ（ブリルアンゾーン折り畳み）で入射角に鈍感な高 Q 共鳴を実現📐 縮退 SPDC の対生成レートを桁で向上📈"
+    },
+    {
+      "arxiv_id": "2609.08555",
+      "title": "Kinematic Control and Dephasing Dynamics of Quantum Resources in $e^{+}e^{-}\\to\\tau^{+}\\tau^{-}$",
+      "authors": [
+        "Elhabib Jaloum",
+        "Omar Bachain",
+        "Mohamed Amazioug",
+        "Rachid Ahl Laamara"
+      ],
+      "categories": [
+        "quant-ph",
+        "hep-ex",
+        "hep-ph",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2609.08555",
+      "abstract": "We characterize several quantum resources carried by the spins of the $\\tau^{+}\\tau^{-}$ pair produced in $e^{+}e^{-}$ annihilation. At the Belle-II energy, $\\sqrt{s}=10.579\\,\\mathrm{GeV}$, Bell nonlocality, steerability, entanglement of formation, and coherence are governed by the production angle and are largest for transverse emission, $\\vartheta=\\pi/2$. Their common kinematic origin is exposed by expressing the spin state as a velocity and angle-dependent mixture of a separable contribution and a maximally entangled component. Within the physical production domain, this representation connects the weakly correlated threshold state at $\\sqrt{s}=2m_{\\tau}$ to the Bell-state limit approached at ultrarelativistic energies. We then propagate the two-spin state through a phenomenological correlated-dephasing channel to determine how environmental memory and inter-channel classical correlations affect the available resources. Memory effects generate collapses and revivals that are absent from the monotonic Markovian evolution. The analysis therefore separates the kinematic mechanism that creates the spin correlations from the noise properties that control their subsequent survival.",
+      "score": 88,
+      "reason": "⚛️Belle-II エネルギーで τ 対スピンの Bell 非局所性・ステアリング・もつれを生成角の関数として整理✨ コライダーでのもつれ測定の見通しが立つ📐",
+      "summary": "スピン状態を速度と角度に依存する分離可能成分＋最大もつれ成分の混合として表現🧮 相関デフェージングチャネルで環境記憶の影響も評価📉"
+    },
+    {
+      "arxiv_id": "2609.08758",
+      "title": "Backward Compton scattering with three vortex particles",
+      "authors": [
+        "Yi Liao",
+        "Zhaolong Teng",
+        "Hao-Lin Wang"
+      ],
+      "categories": [
+        "hep-ph",
+        "physics.atom-ph",
+        "physics.optics"
+      ],
+      "url": "https://arxiv.org/abs/2609.08758",
+      "abstract": "We investigate backward Compton scattering in which an incident vortex (vx) photon collides head-on with a plane-wave (pw) electron and both final-state particles are projected onto vortex states, $\\gamma_{\\rm vx}+e^-_{\\rm pw}\\to\\gamma_{\\rm vx}+e^-_{\\rm vx}$. We derive analytically the scattering amplitude and differential cross sections in the energy and cone angle of either final particle. Rotational symmetry implies a selection rule associated with the conservation of the total angular momentum along the collision axis. A Bessel-Gaussian wave packet is adopted for the incident photon to provide a physical normalization and regularize the boundary singularities of ideal Bessel states. We present numerical results for a $10~{\\rm MeV}$ electron colliding with a vortex photon of central energy $1~{\\rm MeV}$ or $10~{\\rm keV}$. The final-photon distributions exhibit strong energy--angle correlations, topological-charge-dependent interference fringes, and systematic shifts of their dominant peaks, allowing different topological charge sectors to be enhanced through angular or energy post-selection. For a longitudinally polarized incident electron, the dominant channels favor final photons of matching helicity. For the $1~{\\rm MeV}$ photon benchmark, the final electron can likewise be produced as a MeV-scale vortex state with a sizable cone angle and a large angular-momentum projection. These results demonstrate that triple-vortex backward Compton scattering offers a potential means of generating and controlling high-energy vortex photons and electrons.",
+      "score": 87,
+      "reason": "🌀渦（vortex）光子と平面波電子の後方コンプトン散乱を、終状態も渦状態に射影して解析✨ 平面波を超えた散乱の具体例として旨い📐",
+      "summary": "Bessel-Gauss 波束で入射光子を正則化し境界特異性を回避🧮 衝突軸まわりの全角運動量保存から選択則、10 MeV 電子の数値例つき📊"
+    },
+    {
+      "arxiv_id": "2609.06224",
+      "title": "The Wilson-line-dressed charged sector of scalar QED: superselection and the infraparticle",
+      "authors": [
+        "Gordon W. Semenoff",
+        "Conor Waterfield"
+      ],
+      "categories": [
+        "hep-th",
+        "hep-ph",
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.06224",
+      "abstract": "We develop a manifestly gauge and Lorentz invariant perturbative calculus to study the finite time and distance evolution of the electrically charged states created by Wilson-line-dressed scalar field operators in scalar quantum electrodynamics. By an Osterwalder-Schrader reflection and Euclidean gluing, the overlap of two dressed states is expressed as a Euclidean 2 point function of dressed operators, which is then evaluated in renormalized perturbation theory with a Stueckelberg photon mass as a gauge, BRST and Lorentz invariant infrared cutoff. This renders explicit and computable in closed form several structural features of the charged sector that have so far been accessible mainly through non-perturbative or algebraic arguments. We find that states dressed by non-parallel Wilson lines are ``cloud orthogonal\". Their overlap vanishes as a power of the infrared regulator, with an exponent that depends only on the angle between the two dressings and is an infrared analogue of the cusp anomalous dimension with the difference that it is one-loop exact whenever the charged matter is mass-gapped. Charged states are thereby superselected by the orientation of their dressing. Within a superselection sector the 2 point function is infrared finite but exhibits the infraparticle. The mass shell pole is replaced by the edge of a branch cut. As a result, the asymptotic spread of a dressed charge is a power law in proper time with a one-loop-exact computable exponent depending on the dressing and on the direction of motion. We show that although cloud orthogonality and the infraparticle are each extremely sensitive to fundamental infrared cutoffs, the infraparticle scaling law persists across a wide window of proper time.",
+      "score": 86,
+      "reason": "🎭Wilson line で dress した荷電状態の有限時間・有限距離発展を、ゲージ・ローレンツ不変な摂動計算で追う✨ 漸近状態と infraparticle の話に直結📐",
+      "summary": "非平行な Wilson line で dress した状態は「cloud 直交」＝重なりが IR 正則化因子のべきで消える🧮 OS 反射で Euclid 2 点関数に帰着📉"
+    },
+    {
+      "arxiv_id": "2609.07242",
+      "title": "Hudson's theorem fails for the SU(1,1) discrete series",
+      "authors": [
+        "Chon-Fai Kam"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.07242",
+      "abstract": "Hudson's theorem states that a pure state of a bosonic mode has a non-negative Wigner function if and only if it is Gaussian. It underwrites the reading of Wigner negativity as a faithful signature of pure-state non-classicality. We show the statement has no analogue on curved phase space. For the positive discrete series of $SU(1,1)$, realised on the upper sheet of a two-sheeted hyperboloid, the Wigner-positive pure states form a strictly larger set than the Perelomov coherent orbit. Superpositions of the lowest weight state with the first excited state stay positive up to a mixing angle of $24.93^\\circ$ at Bargmann index $k=1$, and the admissible set has positive volume, with a maximal width that is not attained in the two-state direction. We show analytically that the quadratic form controlling positivity degenerates in the far field onto a single mixing angle. That degeneracy bounds the window by $\\arctan(1/\\sqrt{2k})$ and leaves the threshold itself fixed at intermediate hyperbolic distance.",
+      "score": 85,
+      "reason": "🌀Hudson の定理（純粋状態の Wigner 正値⇔ガウス）が SU(1,1) 離散系列では破れる😳 曲がった位相空間での非古典性の判定基準の話✨📐",
+      "summary": "最低ウェイト＋第一励起の重ね合わせは混合角 24.93° まで Wigner 正値🧮 正値集合は coherent 軌道より真に大きく、正の体積を持つ📊"
+    }
+  ]
+}

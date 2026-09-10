@@ -1,0 +1,86 @@
+{
+  "total_fetched": 490,
+  "scored_papers": [
+    {
+      "arxiv_id": "2609.08458",
+      "title": "Deriving the Kijowski Arrival-Time POVM from the Schr\\\"odinger Current: Minimal Positivity and Uniqueness",
+      "authors": [
+        "Avi Marchewka"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.08458",
+      "abstract": "Quantum backflow refers here to the appearance of a negative Schr\\\"odinger current for a state whose momentum support is entirely positive. We ask for the smallest modification of the free Schr\\\"odinger current that makes it nonnegative for every such state, while preserving the current of each individual momentum component. We show that the required minimal modification changes the free-particle momentum kernel according to \\[ K_{\\rm Sch}(p,p')=\\frac{p+p'}{2m} \\;\\longrightarrow\\; K_{\\min}(p,p')=\\frac{\\sqrt{pp'}}{m}. \\] The resulting current is positive and normalized and therefore defines an arrival-time POVM. Extending the directional no-backflow requirement to states containing both momentum signs forces the cross-sector kernel to vanish, \\[ K_{\\min}^{+-}=K_{\\min}^{-+}=0, \\] so that the full current is the sum of two independent directional contributions. The resulting POVM is exactly the Kijowski time-of-arrival POVM, providing a current-based physical motivation for both its directional kernels and their separation. Within the diagonal-preserving pairwise-minimal construction considered here, the result is unique. The construction itself does not impose a first-arrival condition.",
+      "score": 96,
+      "reason": "⏳到着時刻 POVM の決定版✨ backflow を消す「最小の」電流修正を課すだけで Kijowski POVM が一意に出る🎯 到着時刻問題ど真ん中の一本📐",
+      "summary": "運動量核を (p+p')/2m → √(pp')/m に置き換えると電流が正値化🧩 正負運動量セクターの交差項は消え、方向ごとに独立な POVM になる🧮"
+    },
+    {
+      "arxiv_id": "2609.08752",
+      "title": "Quantum speed limits based on quantifiers of quantum-state texture",
+      "authors": [
+        "Yuhang Xie",
+        "Yanjun Chu",
+        "Chenyang Cui",
+        "Shao-Ming Fei"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.08752",
+      "abstract": "Quantum speed limits impose intrinsic lower bounds on the shortest time scale for quantum system evolution. As an emerging paradigm in quantum resource theory, quantum-state texture has attracted research interest amid the rapid advancement of quantum theory. Herein, we investigate the interplay between quantum speed limits and quantum-state texture via several canonical quantifiers, including trace distance, state rugosity and Jensen-Shannon divergence. To demonstrate our findings, we analyze the minimum evolution time of physical systems subject to dephasing and dissipative dynamics. For the Jensen-Shannon divergence, we further explore nonunitary dynamics described by completely positive and trace-preserving maps, taking the amplitude damping channel as a typical example. In addition, we explore the tightness of these bounds in the considered dynamical models. Our results reveal that quantum speed limits derived from quantum-state texture capture the fundamental constraints on quantum evolutionary speed, with promising applications in quantum computing, quantum control and quantum metrology.",
+      "score": 88,
+      "reason": "⏱️量子速度限界を「量子状態テクスチャ」という新しい資源量で書き直す試み✨ トレース距離・rugosity・JS ダイバージェンスで下限を構成📐",
+      "summary": "デフェージング/散逸ダイナミクスや振幅減衰チャネルで最小発展時間を評価🧮 各下限のタイトさも模型ごとに比較📊"
+    },
+    {
+      "arxiv_id": "2609.07242",
+      "title": "Hudson's theorem fails for the SU(1,1) discrete series",
+      "authors": [
+        "Chon-Fai Kam"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.07242",
+      "abstract": "Hudson's theorem states that a pure state of a bosonic mode has a non-negative Wigner function if and only if it is Gaussian. It underwrites the reading of Wigner negativity as a faithful signature of pure-state non-classicality. We show the statement has no analogue on curved phase space. For the positive discrete series of $SU(1,1)$, realised on the upper sheet of a two-sheeted hyperboloid, the Wigner-positive pure states form a strictly larger set than the Perelomov coherent orbit. Superpositions of the lowest weight state with the first excited state stay positive up to a mixing angle of $24.93^\\circ$ at Bargmann index $k=1$, and the admissible set has positive volume, with a maximal width that is not attained in the two-state direction. We show analytically that the quadratic form controlling positivity degenerates in the far field onto a single mixing angle. That degeneracy bounds the window by $\\arctan(1/\\sqrt{2k})$ and leaves the threshold itself fixed at intermediate hyperbolic distance.",
+      "score": 87,
+      "reason": "🌀Hudson の定理が SU(1,1) 離散系列では成り立たない😳 Wigner 正値な純粋状態が coherent 状態より真に広い集合になる✨ squeezed 状態の非古典性の基準に効く🔍",
+      "summary": "最低ウェイト＋第一励起の重ね合わせは混合角 24.93° まで正値📐 正値集合は正の体積を持ち、遠方場で二次形式が退化する🧮"
+    },
+    {
+      "arxiv_id": "2609.08973",
+      "title": "Restart and first detection in a lackadaisical quantum walk with flat-band localization",
+      "authors": [
+        "Debraj Das"
+      ],
+      "categories": [
+        "quant-ph",
+        "cond-mat.stat-mech"
+      ],
+      "url": "https://arxiv.org/abs/2609.08973",
+      "abstract": "We study stochastic and sharp restart in a one-dimensional lackadaisical discrete-time quantum walk with self-loop weight $\\ell$. In the absence of restart, the dynamics has a flat band responsible for intrinsic localization and two dispersive bands supporting ballistic propagation. We compare two initially localized benchmark states: a flat-band-active state with finite flat-band overlap and a flat-band-dark state with zero flat-band overlap. For geometric stochastic restart with per-step restart probability $q$, the stationary mean-squared displacement scales as $q^{-2}$ as $q\\to0$. In the same limit, the restart-site occupation probability approaches the restart-free intrinsic localized value for the flat-band-active state, whereas for the flat-band-dark state it vanishes as $q\\ln(1/q)$. For power-law restart, where $p_m\\propto m^{-s}$ is the probability that the waiting time to the next restart is $m$ steps, a normalized stationary site-occupation distribution exists only for $s>2$, while the stationary absolute spatial moment of order $p$ is finite only for $s>p+2$. In the regime $1<s\\leq2$, at every fixed lattice site, the flat-band-active occupation converges to the intrinsic flat-band profile, while the flat-band-dark occupation tends to zero. We also consider monitored first detection with sharp restart, in which the walk is reinitialized after a fixed number $r$ of consecutive unsuccessful measurements. For fixed $r$, the mean first-detected-passage time of the flat-band-active state exhibits a minimum at an intermediate self-loop weight, whereas the flat-band-dark state approaches a ballistic detection limit as $\\ell\\to\\infty$.",
+      "score": 85,
+      "reason": "🔁リスタート付き量子ウォークの初回検出問題⏱️ フラットバンド局在の有無で統計が質的に変わる✨ 離散版の到着時刻問題として面白い📐",
+      "summary": "確率的リスタート q→0 で定常平均二乗変位は q^-2 📈 フラットバンド暗状態ではリスタート点の占有確率が q ln(1/q) で消える🧮"
+    },
+    {
+      "arxiv_id": "2609.05478",
+      "title": "Can a Local Quantum-Mechanical Description of Physical Reality Be Considered Complete?",
+      "authors": [
+        "E. J. Thompson",
+        "J. W. Moffat"
+      ],
+      "categories": [
+        "quant-ph",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2609.05478",
+      "abstract": "In a complete quantum theory, one would construct it based on what we can observe in a system and operationally define in our universe. This philosophy goes back to some of the original ideals of quantum theory defined by W. Heisenberg, N. Bohr, and others as part of the Copenhagen school of thought. We argue in this letter that that if one wishes to construct a complete quantum field theory, that it is most natural to construct it based on a nonlocal theory of observable principles. If this interpretation is valid, then the one-particle nonrelativistic limit that recovers quantum mechanics would as well be dynamically nonlocal. In this interpretation we derive the nonlocal Schr\\\"odinger equation. We will as well demonstrate that the canonical position--momentum commutator and the Heisenberg uncertainty principle emerge from translation covariance.",
+      "score": 85,
+      "reason": "🤔観測できる量から量子論を作り直すと非局所的になる、という主張✨ 正準交換関係と Heisenberg 不確定性が並進共変性から「出てくる」構成が面白い📐",
+      "summary": "非局所的な観測原理から非局所 Schrödinger 方程式を導出🧩 位置-運動量交換子と不確定性原理を並進共変性の帰結として再導出📝"
+    }
+  ]
+}

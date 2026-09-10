@@ -1,0 +1,119 @@
+{
+  "total_fetched": 490,
+  "scored_papers": [
+    {
+      "arxiv_id": "2609.08641",
+      "title": "Black holes with torsion hair in cubic Holst-type Poincar\\'e gauge gravity: from singular to regular geometries",
+      "authors": [
+        "Sebastian Bahamonde",
+        "Jorge Gigante Valcarcel",
+        "Matteo Magi"
+      ],
+      "categories": [
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2609.08641",
+      "abstract": "Motivated by the singularity theorems of Poincar\\'e Gauge (PG) theory, we investigate extensions of the Holst quadratic model by introducing cubic order invariants constructed from the curvature and torsion tensors into the gravitational action. Such models are characterised by a kinetic structure that is governed by a pseudoscalar mode, whereas the remaining irreducible modes of torsion contribute through nonlinear interactions that can have important implications for the space-time geometry. In particular, in line with other well-known models of PG theory, the Birkhoff theorem does not hold in general, allowing for new exact static and spherically symmetric black hole solutions with dynamical torsion. Across the different torsion sectors, corresponding to the irreducible modes and parity components of the torsion field involved in the analysis, we find both singular and regular configurations. Among the singular solutions, we obtain Kiselev-like and Boulware-Deser-like geometries, as well as new geometries with distinct algebraic and Lambert $W$ metric corrections. In addition, we find regular black holes with both primary and secondary torsion hair, which evade the singularity theorems through violations of the causal convergence conditions induced by the nonlinear torsion interactions. Therefore, we show that Holst-type PG models can support a rich variety of black hole geometries, while providing explicit mechanisms for evading the singularity theorems of PG theory.",
+      "score": 92,
+      "reason": "🌀捻れを纏ったブラックホール！Holst 項の3次拡張でトーションが hair として残り、特異解と正則解の両方が出る🕳️✨ Einstein-Cartan 系の直球📐🔥",
+      "summary": "曲率とトーションの3次不変量を加えた Poincaré ゲージ重力で静的球対称の厳密解を構成🧮 Birkhoff 定理は一般には成り立たず、トーションの既約成分ごとに解を分類📊"
+    },
+    {
+      "arxiv_id": "2609.07856",
+      "title": "Scalar field with nonminimal couplings to metric-affine geometry",
+      "authors": [
+        "Ilaria Andrei",
+        "Damianos Iosifidis",
+        "Laur J\"arv",
+        "Margus Saal"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-ph",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2609.07856",
+      "abstract": "We study a scalar field nonminimally coupled to metric-affine gravity within actions linear in the affine curvature and containing all independent parity-even and parity-odd terms quadratic in torsion and nonmetricity, including mixed contractions. We also include Nieh-Yan-like derivative couplings between the scalar-field derivative and the four torsion and nonmetricity vectors. We derive the connection, metric, and scalar-field equations and, since the connection equation is algebraic, eliminate the independent connection on the generic nondegenerate branch to obtain an equivalent metric scalar-tensor theory in which the non-Riemannian interactions are encoded in an effective kinetic function. We classify several sectors and find that the pure quadratic nonmetricity and pure quadratic torsion sectors separately leave the Einstein-frame kinetic function unchanged relative to the simplest metric-affine scalar-tensor model, whereas their simultaneous presence, the derivative couplings, and generic mixed torsion-nonmetricity interactions can modify it. In the derivative-coupling sector, projective consistency imposes a relation among the couplings. We then consider polynomial coupling functions and study the resulting canonical field redefinition and Einstein-frame potentials. In particular, we illustrate how derivative and mixed torsion--nonmetricity couplings reshape quadratic and quartic potentials in canonical-field space, and show that a quadratic Jordan-frame potential can be mapped, for a suitable choice of derivative and nonminimal couplings, into a natural-inflation potential after canonical normalization. Finally, we separately impose the cosmological principle, determine the reduced combinations of quadratic couplings and the scalar field hypermomentum, and obtain the corresponding modified cosmological equations in the simplest sectors.",
+      "score": 90,
+      "reason": "⚡スカラー場と metric-affine 幾何の非最小結合を総ざらい！torsion と non-metricity の2次項を全部入れて有効スカラーテンソル理論に落とす🎯 Palatini 系の一般化として旨い🍚✨",
+      "summary": "接続方程式が代数的なので独立接続を消去でき、非リーマン相互作用は有効運動項に吸収される🔧 純2次トーション/非計量セクターは Einstein frame の運動項を変えない📐"
+    },
+    {
+      "arxiv_id": "2609.08420",
+      "title": "Time evolution of scalar condensate decay",
+      "authors": [
+        "Ayuki Kamada",
+        "Kodai Sakurai"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.08420",
+      "abstract": "A scalar field, which oscillates coherently over the space and decays through production of daughter particles, plays an important role in cosmology. It was recently shown that the parametric-resonance and Feynman-diagrammatic approaches give the same decay rate for a Bosonic daughter particle at a large time duration. We study how the parametric-resonance result approaches to this asymptotic value, by numerically following the time evolution of the phase density of the daughter particle. We see a difference among different instability bands in the narrow-resonance regime. The lowest-order instability band approaches to the Feynman-diagrammatic result in tens of scalar oscillation periods, while the high-order instability bands approach dependently also on a coupling between the scalar and daughter particles. This would infer that the total decay width, to which the lowest-order instability band contributes most dominantly in the perturbation theory, approaches to the Feynman-diagrammatic result also independently of the coupling. To confirm it, we consider a simpler and analytically solvable quantum mechanical model: Rabi models. In the Bosonic Rabi model, the parametric-resonance and Feynman-diagrammatic results agree with each other for all the time. On the other hand, in the Fermionic Rabi model, they disagree at a large time duration. This difference would be attributed to Bose enhancement vs Pauli blocking.",
+      "score": 88,
+      "reason": "💥コヒーレント振動するスカラーの崩壊で、パラメトリック共鳴と Feynman 図の答えが「いつ」一致するかを時間追跡⏱️🔥 preheating の解析と数値の継ぎ目そのもの📈✨",
+      "summary": "娘粒子の位相空間密度を数値的に追う🧮 最低次の不安定バンドは十数振動周期で Feynman 図の崩壊率に漸近、高次バンドは結合定数にも依存📉"
+    },
+    {
+      "arxiv_id": "2609.08458",
+      "title": "Deriving the Kijowski Arrival-Time POVM from the Schr\\\"odinger Current: Minimal Positivity and Uniqueness",
+      "authors": [
+        "Avi Marchewka"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.08458",
+      "abstract": "Quantum backflow refers here to the appearance of a negative Schr\\\"odinger current for a state whose momentum support is entirely positive. We ask for the smallest modification of the free Schr\\\"odinger current that makes it nonnegative for every such state, while preserving the current of each individual momentum component. We show that the required minimal modification changes the free-particle momentum kernel according to \\[ K_{\\rm Sch}(p,p')=\\frac{p+p'}{2m} \\;\\longrightarrow\\; K_{\\min}(p,p')=\\frac{\\sqrt{pp'}}{m}. \\] The resulting current is positive and normalized and therefore defines an arrival-time POVM. Extending the directional no-backflow requirement to states containing both momentum signs forces the cross-sector kernel to vanish, \\[ K_{\\min}^{+-}=K_{\\min}^{-+}=0, \\] so that the full current is the sum of two independent directional contributions. The resulting POVM is exactly the Kijowski time-of-arrival POVM, providing a current-based physical motivation for both its directional kernels and their separation. Within the diagonal-preserving pairwise-minimal construction considered here, the result is unique. The construction itself does not impose a first-arrival condition.",
+      "score": 88,
+      "reason": "⏳到着時刻の POVM が「backflow を消す最小の変形」から一意に出る！運動量核を √(pp')/m に置き換えるだけ🎯✨ 波束形式の到着時刻問題に直球💡🧲",
+      "summary": "正運動量状態で電流が負にならない最小修正を課すと Kijowski POVM が導かれる🧩 正負セクターの交差核は消え、方向ごとに独立な寄与になる📐"
+    },
+    {
+      "arxiv_id": "2609.07242",
+      "title": "Hudson's theorem fails for the SU(1,1) discrete series",
+      "authors": [
+        "Chon-Fai Kam"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.07242",
+      "abstract": "Hudson's theorem states that a pure state of a bosonic mode has a non-negative Wigner function if and only if it is Gaussian. It underwrites the reading of Wigner negativity as a faithful signature of pure-state non-classicality. We show the statement has no analogue on curved phase space. For the positive discrete series of $SU(1,1)$, realised on the upper sheet of a two-sheeted hyperboloid, the Wigner-positive pure states form a strictly larger set than the Perelomov coherent orbit. Superpositions of the lowest weight state with the first excited state stay positive up to a mixing angle of $24.93^\\circ$ at Bargmann index $k=1$, and the admissible set has positive volume, with a maximal width that is not attained in the two-state direction. We show analytically that the quadratic form controlling positivity degenerates in the far field onto a single mixing angle. That degeneracy bounds the window by $\\arctan(1/\\sqrt{2k})$ and leaves the threshold itself fixed at intermediate hyperbolic distance.",
+      "score": 87,
+      "reason": "🌀Hudson の定理が曲がった位相空間では破れる！SU(1,1) 離散系列では Wigner 正値な純粋状態が coherent 軌道より真に広い😳✨ squeezed 状態の非古典性の物差しが揺らぐ🔍📐",
+      "summary": "最低ウェイト状態と第一励起状態の重ね合わせは混合角 24.93° まで Wigner 正値🧮 正値集合は正の体積を持ち、遠方場で二次形式が退化📊"
+    },
+    {
+      "arxiv_id": "2609.08470",
+      "title": "Nonperturbative functional renormalization group for Higgs-singlet models with physics-informed neural networks",
+      "authors": [
+        "Norimi Yokozaki"
+      ],
+      "categories": [
+        "hep-ph",
+        "physics.comp-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.08470",
+      "abstract": "We develop a nonperturbative functional renormalization group framework within the LPA' to solve the Wetterich flow equation for the $Z_2$-symmetric real singlet extension of the Standard Model at zero and finite temperature, without a polynomial expansion of the scale-dependent effective potential, using a physics-informed neural network (PINN) representation. In contrast to conventional truncations based on low-order field expansions, our hybrid tree-level--plus--neural-network ansatz yields a continuous, mesh-free description of the effective potential over the full relevant field and scale range. As a proof of concept, we apply the framework to the finite-temperature effective potential relevant to the electroweak phase transition in this model: one-dimensional field-space slices at two benchmark temperatures, and a two-dimensional reconstruction at $T=100$ GeV from which a two-step bounce action is extracted. The renormalization group flow is implemented in a multi-domain setup in scale and field space with derivative matching conditions that ensure smoothness and numerical stability. Gauge and Yukawa sectors are incorporated via independently computed perturbative two-loop running couplings, and anomalous dimensions are included in the flow at the LPA' level. We benchmark the network against resummed perturbation theory and against a grid-based relaxation solver of the same equation. Finally, we introduce a soft consistency constraint that keeps the solution close, in sign and order of magnitude, to perturbation theory across the field-space domain; we find it necessary, rather than merely helpful, for selecting a physically sensible solution of the flow equation, and find that the converged result retains a residual dependence on this guidance -- through hand-tuned weights and an analytic thermal target -- which we identify as the central open problem.",
+      "score": 86,
+      "reason": "🤖PINN で Wetterich 方程式を多項式展開なしに解く！Z2 シングレット拡張の有限温度有効ポテンシャルを場空間まるごと再構成⚡📈 電弱相転移の2段階構造まで見える🔥",
+      "summary": "LPA' の有効ポテンシャルを tree-level + ニューラルネットの hybrid ansatz で表現🧠 T=100 GeV の2次元再構成から two-step 相転移を読む📊"
+    },
+    {
+      "arxiv_id": "2609.08369",
+      "title": "Dynamical systems in quadratic teleparallel cosmology",
+      "authors": [
+        "Manuel Hohmann"
+      ],
+      "categories": [
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2609.08369",
+      "abstract": "We discuss the cosmological dynamics of general teleparallel quadratic gravity. Using a suitable set of variables, we write the cosmological field equations as a homogeneous dynamical system. We find that this system generically features projective fixed points, where the dynamics can be solved analytically, and exhibits finite time singularities as well as an asymptotically vanishing cosmological expansion.",
+      "score": 85,
+      "reason": "🌌一般の2次テレパラレル重力の宇宙論を力学系まるごとに書き下す✨ 射影的固定点では解析解が得られ、有限時間特異点も顔を出す⚙️📐 見通しが一気に良くなる一本🔭",
+      "summary": "適切な変数選択で宇宙論場方程式を斉次力学系に変換🧮 漸近的に膨張が消える解や有限時間特異点を分類📉"
+    }
+  ]
+}
