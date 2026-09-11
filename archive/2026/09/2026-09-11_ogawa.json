@@ -1,0 +1,80 @@
+{
+  "total_fetched": 199,
+  "scored_papers": [
+    {
+      "arxiv_id": "2609.10510",
+      "title": "Phase transitions in first-detection statistics of monitored long-range quantum walks",
+      "authors": [
+        "Sayan Roy",
+        "Shamik Gupta",
+        "Giovanna Morigi",
+        "Gabriele Perfetto"
+      ],
+      "categories": [
+        "quant-ph",
+        "cond-mat.other",
+        "cond-mat.stat-mech"
+      ],
+      "url": "https://arxiv.org/abs/2609.10510",
+      "abstract": "In a quantum walk, the first-detection return probability (FDRP) characterizes salient features, determining whether the quantum walk is transient or recurrent. We study the FDRP of quantum walks on a chain where the initial site is stroboscopically monitored by a detector and the walker performs long-range hopping between sites. We assume that the hopping strength decays with the distance $d$ as $d^{-\\alpha}$ and $\\alpha\\geq 0$ and show that the power-law exponent $\\alpha$ critically determines the behavior of the FDRP. The value $\\alpha=1$ separates recurrent ($\\alpha1$) quantum walks through a continuous phase transition in the total detection probability. For $\\alpha1$ the long-range walk is transient and the return probability decays algebraically as a function of time as $t^{-\\beta}$. The associated decay exponent $\\beta$ features nonanalytic points as a function of $\\alpha$. Such singularities are not exclusively determined by the low-energy spectrum, but are caused by the interference between infrared and ultraviolet energy modes induced by projective measurements, signalling the emergence of critical behavior intrinsic to the non-unitary dynamics. These dynamics are solely controlled by tuning the long-range exponent $\\alpha$ and can thus be experimentally probed in atomic and molecular systems.",
+      "score": 88,
+      "reason": "⏱ 初到達検出（first detection）の統計に相転移が！長距離ホッピングの指数 α=1 が再帰/非再帰を分ける🎯 到達時間問題ど真ん中です✨",
+      "summary": "📉 α>1 では復帰確率が t^-β で減衰し、β は α の非解析点を持つ。射影測定が赤外と紫外モードを干渉させることが原因🔬"
+    },
+    {
+      "arxiv_id": "2609.10157",
+      "title": "Quantum Barankin bounds beyond local unbiasedness: Analytic results for Gaussian states via a right-division framework",
+      "authors": [
+        "Maximilian Reichert",
+        "Javier Navarro",
+        "Gerardo Adesso",
+        "Manuel Gessner",
+        "Mikel Sanz"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.10157",
+      "abstract": "We propose a quantum version of the Barankin bound as an alternative to the quantum Cram\\'er-Rao bound for quantum parameter estimation. The quantum Barankin bound provides a lower bound on the mean squared error of estimators satisfying arbitrarily chosen bias constraints at arbitrarily chosen parameter points. In particular, unbiasedness over the entire parameter space can be imposed, yielding precision limits for globally unbiased quantum parameter estimation. In contrast to the recently derived quantum Barankin bound, which is based on a symmetric division superoperator, our bound is based on a nonsymmetric right-division superoperator. This formulation enables us to find analytic expressions for the Barankin matrix for Gaussian states, which allows for an efficient calculation of the bound. We demonstrate the usefulness of our results by applying them to various examples that exhibit the threshold effect in the few-shot regime, which is invisible to the standard quantum Cram\\'er-Rao bound approach.",
+      "score": 86,
+      "reason": "🎯 量子 Cramér-Rao の代わりに Barankin 束縛を、しかも Gaussian 状態で解析的に。大域的不偏性まで課せるのが効きます✨🔍",
+      "summary": "📐 非対称な右除算超作用素で Barankin 行列を閉形式に。few-shot 域の threshold effect（CRB では見えない）を捕まえる⚡"
+    },
+    {
+      "arxiv_id": "2609.10078",
+      "title": "Why three? A two-level system with four mutually unbiased questions",
+      "authors": [
+        "Jonte R. Hance"
+      ],
+      "categories": [
+        "quant-ph",
+        "math-ph",
+        "math.MP"
+      ],
+      "url": "https://arxiv.org/abs/2609.10078",
+      "abstract": "Two sharp yes/no questions are mutually unbiased if and only if their involutions anticommute. A set of unbiased questions is therefore a Clifford algebra, whose maximal size is odd, meaning four anticommuting questions typically imply a fifth: the two-level systems of real, complex and quaternionic quantum theory allow two, three and five questions, while four is skipped. Without this operator product restriction, a two-level system with four unbiased questions exists as the four-dimensional Bloch ball, the hyperbit. The single-system postulates that pick out the Jordan state spaces allow such a model, and only energy observability rules it out. We show what it lacks, and realise it inside two qubits: its Kirkwood-Dirac imaginary parts are hidden $\\mathfrak{so}(4)$ generators, its composites allow entanglement but no interaction, and its 24-cell of states stays Spekkens preparation contextual down to depolarising strength $2/3$. In fermionic terms, the four questions are the Majorana operators of two modes while the fifth is parity: the four-question system is therefore the sector removed by parity superselection.",
+      "score": 85,
+      "reason": "🤔 相互不偏な yes/no 問いは 2・3・5 個は許されて 4 個は飛ばされる、その「なぜ」を Clifford 代数で。相補性の根っこの話です✨🎲",
+      "summary": "🧩 4 問系＝4 次元 Bloch 球（hyperbit）はエネルギー可観測性だけが排除。2 qubit 内に実現すると Kirkwood-Dirac 虚部が so(4) 生成子に🔬"
+    },
+    {
+      "arxiv_id": "2609.10535",
+      "title": "For Whom Does Bell Hold?",
+      "authors": [
+        "Daniel Green",
+        "Kshitij Gupta",
+        "Qiya Zhang"
+      ],
+      "categories": [
+        "hep-th",
+        "astro-ph.CO",
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.10535",
+      "abstract": "Violations of Bell's inequalities offer a definitive signal of non-classical (quantum) behavior in local deterministic systems. Yet, in many physical settings where quantum mechanics is expected to play an important role, one cannot construct a Bell-type test using the available observables. Cosmology offers one concrete example, where cosmic structure may have originated from quantum vacuum fluctuations yet all observations are effectively classical. Nevertheless, recent work suggests that quantum and classical time evolution may still be differentiated by the pattern of statistical correlations of these observables. In this paper, we explore and generalize the use of correlations as Bell-type test of the nature of time evolution. We show that quantum vacuum fluctuations of closed systems undergoing Hamiltonian evolution produce unique correlations that are not mimicked by classical Hamiltonian systems. Correlations in the quantum vacuum are generally time-independent and are controlled by the energy gap between the ground and exited states. Classical systems exhibit apparent poles at physical frequencies that do not arise in the quantum vacuum. As one approaches the poles, the evolution becomes dominated by a resonant Hamiltonian giving rise to time dependent correlations that eventually decay through dephasing. Finally, we show that this behavior is distinct from other signals of quantum evolution, including applications to quantum optics, quantum walks, and quantum search.",
+      "score": 85,
+      "reason": "🔔 Bell 検定が組めない系で、時間発展が量子か古典かを相関パターンだけで見分ける枠組み。観測量–時間の見方と相性が良さそう✨🌌",
+      "summary": "📊 量子真空の相関は時間非依存でエネルギーギャップが支配。古典 Hamiltonian 系は物理周波数に極を持ち、共鳴後に位相拡散で減衰⚡"
+    }
+  ]
+}

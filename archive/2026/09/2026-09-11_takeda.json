@@ -1,0 +1,66 @@
+{
+  "total_fetched": 199,
+  "scored_papers": [
+    {
+      "arxiv_id": "2609.09294",
+      "title": "Bell tests for collider decay processes",
+      "authors": [
+        "Danilo M. Fucci",
+        "Alexandre C. Orthey Jr.",
+        "Alan J. Barr",
+        "Christopher G. Timpson"
+      ],
+      "categories": [
+        "quant-ph",
+        "hep-ex",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.09294",
+      "abstract": "We propose Bell tests for collider decays using independently sampled analysis axes as settings and detector regions to assign binary or null outcomes. We show that a Bell violation requires postselection, opening a loophole. However, under measurement independence and operational equivalence of acceptance events across settings, any local model exploiting the loophole must be nonclassical in the sense of measurement contextuality. We derive a Bell inequality violated by singlet correlations when the effective spin-analyzing powers are sufficiently high. Its violation then witnesses Bell nonlocality or measurement contextuality.",
+      "score": 88,
+      "reason": "🎯 コライダー崩壊で Bell 検定を組む具体案。独立サンプリングした解析軸を設定に、検出器領域で二値/null を割り当てます✨🔔",
+      "summary": "⚠️ Bell 破れには post-selection が要り抜け穴が開くが、測定独立性と acceptance の作用等価性の下では、抜け穴を突く局所模型は必ず文脈依存になる🧩"
+    },
+    {
+      "arxiv_id": "2609.09805",
+      "title": "Electrically tunable, two-photon interference from remote silicon-vacancy centers in industrial silicon carbide",
+      "authors": [
+        "Fedor Dzmitryevich Hrunski",
+        "Daniel Scheller",
+        "Maximilian Hollendonner",
+        "Kim Ullerich",
+        "Shravan Kumar Parthasarathy",
+        "Chiun Fu",
+        "Andre Pointner",
+        "Wolfgang Knolle",
+        "Florian Kaiser",
+        "Durga Bhaktavatsala Rao Dasari",
+        "Roland Nagy"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.09805",
+      "abstract": "Distributed quantum networks rely on spatially separated, independently operated quantum systems as network nodes, whose emitted photons must be interfered with high visibility to establish end-to-end entanglement. Crucially, for network-relevant applications, high visibilities must be achieved over prolonged timescales to reduce overheads for error correction, and to increase network rates. Here, we demonstrate experimentally that silicon vacancy $\\mathrm{V_{Si}}$ color centers in silicon carbide (SiC) achieve these requirements, notably in a mass-deployable fashion. We integrate $\\mathrm{V_{Si}}$ centers in different industrial-grade SiC p-i-n diodes, which are controlled via voltage biassing. This way, we demonstrate both, spectral overlapping of 19 randomly selected $\\mathrm{V_{Si}}$ centers in different diodes, as well as spectral narrowing close to the lifetime limit, i.e., typically below 60 MHz. Notably, these performance parameters are long-term stable, e.g., readjusting the p-i-n diode bias is required only every 8.4 hours, which reduces significantly the overall experimental overhead. We then use these assets to demonstrate high-quality two-photon interference between $\\mathrm{V_{Si}}$ centers located in two different cryostat setups, which are spatially separated by two meters. Notably, we perform a 26-days long measurement campaign, demonstrating two-photon interference with state-of-the-art raw interference visibilities of 82%, which aligns with the current state-of-the-art. These results establish $\\mathrm{V_{Si}}$ centers in industry-grade SiC devices as a scalable, spectrally stable building block for distributed quantum networks.",
+      "score": 85,
+      "reason": "✨ 別々のクライオスタットにある 2 つの V_Si 中心で二光子干渉を、しかも 26 日連続で。独立源の識別不能性を保つ実務が詰まってます🔬🎯",
+      "summary": "📡 産業グレード SiC の p-i-n ダイオードで 19 中心をスペクトル重畳、線幅は寿命限界近い 60 MHz 以下。バイアス再調整は 8.4 時間に 1 回で済む⚡"
+    },
+    {
+      "arxiv_id": "2609.10312",
+      "title": "Programmable photonic state fusion via heralded storage of asynchronously generated resources",
+      "authors": [
+        "Mustafa G\"undogan",
+        "Dennis R\"atzel"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.10312",
+      "abstract": "Probabilistic photonic sources generate elementary states in different trials, whereas multiphoton protocols require them to interfere in common temporal modes. We propose a fusion protocol that overcomes this mismatch by successively loading independently heralded photonic states into active storage loops. Conditioning on vacuum in monitored dump modes selects events in which each newly generated state is transferred into the same circulating modes as the photons already stored, thereby removing its generation time label. Provided the two alternatives of each elementary state undergo the same loading transformation, the accumulated state is described by a product of programmable linear factors, allowing a target superposition to be constructed by polynomial factorization. Adjusting the storage loop coupling as the state grows substantially improves the loading efficiency, changing the faster-than-exponential penalty of fixed balanced couplers to exponential scaling. We apply the protocol to two-photon path--frequency states for photonic clock interferometry and estimate the detected rate including source waiting time and round-trip loss.",
+      "score": 85,
+      "reason": "🎯 バラバラの時刻に生成された光子を同じ周回モードに載せ、「生成時刻ラベル」を消す融合プロトコル。時間モード整合の話として面白い✨🔁",
+      "summary": "📐 dump モードの真空条件で選別し、蓄積状態はプログラム可能な線形因子の積に。ループ結合を可変にすると超指数→指数までペナルティが改善⚡"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "total_fetched": 199,
+  "scored_papers": [
+    {
+      "arxiv_id": "2609.09200",
+      "title": "Initial conditions for inflation",
+      "authors": [
+        "Gerasimos Kouniatalis"
+      ],
+      "categories": [
+        "gr-qc",
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2609.09200",
+      "abstract": "We propose a single-field mechanism that dynamically prepares the initial conditions required for exponential plateau inflation. The inflaton is decomposed into a coarse-grained mode and a high-occupancy, approximately Gaussian band of relativistic nonzero modes. Gaussian--Hartree averaging of the potential produces an exact variance-dependent minimum, which places the coarse-grained field high on the plateau when the excitation variance is large. Under a translation-invariant microcanonical measure, the available phase-space volume is exponentially concentrated near this minimum, while an order-one homogeneous kinetic-energy fraction is exponentially atypical. During expansion, the preparation modes redshift as radiation, $\\sigma^2\\propto a^{-2}$ and $\\rho_\\chi\\propto a^{-4}$. Although the induced minimum rapidly moves toward the vacuum, the force acting on the coarse-grained mode is bounded by an exponentially small factor, yielding analytic upper limits on its velocity, displacement, and kinetic fraction. We derive a sufficient condition for the subsequent number of slow-roll e-folds and exhibit a benchmark with more than 60 e-folds. The mechanism also motivates correlated finite-onset signatures: large-scale power suppression with decaying oscillations and a variance-convolution bispectrum.",
+      "score": 85,
+      "reason": "🌅 プラトー型インフレの「初期条件そのもの」を単一場で動的に用意する機構。60 e-folds 超のベンチマーク付きです✨🎯",
+      "summary": "📉 予言は大スケールのパワー抑制＋減衰振動と variance-convolution 型バイスペクトル。CMB 低 ℓ 側の観測フックが立つ🔭"
+    },
+    {
+      "arxiv_id": "2609.10475",
+      "title": "Beyond the BLUE I: the advantage ceiling - how much can any estimator beat the matched filter in mm/submm survey data?",
+      "authors": [
+        "Kaustuv Basu"
+      ],
+      "categories": [
+        "astro-ph.IM",
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2609.10475",
+      "abstract": "Convolutional neural networks are increasingly used to measure source amplitudes in survey maps, often with claims of outperforming the matched filter. That filter is the best linear unbiased estimator (BLUE) for any noise of a given covariance, and minimum-variance unbiased outright when that noise is Gaussian and known, so an advantage requires a covariance that varies from image to image, or noise that is non-Gaussian. We introduce a single number, the advantage ceiling eta >= 1, that quantifies both: the Fisher information for the amplitude in units of the matched filter's, computable from noise-only simulations before any network is trained, and a bound on any marginally unbiased estimator's variance. We compute eta for a taxonomy of millimeter/submillimeter survey noise with a variational score-matching ladder whose rungs are estimator classes of increasing statistical order. With an instrumental white-noise floor, Gaussian noise gives eta = 1 to within +- 0.04; covariance mixtures give exact ceilings of 10.2 (spectral tilt, extended source), 2.1 (leaked components) and 1.1-1.8 otherwise, of which a 2000-parameter mixture matched filter attains 70-81%. Source confusion, whose non-Gaussian component is the noise itself, gives the largest advantage, eta >= 3.8 (extended) and >= 2.4 (compact), reachable only above the bispectrum rung and calibrated at ~ 0.9 against a known answer. Read as observing time, eta multiplies a survey's integration time wherever the noise integrates down, excluding confusion. Unmodelled numerical channels can manufacture spurious advantages of up to two orders of magnitude. A ResNet regressor is 6-15% less efficient than the matched filter on Gaussian noise once prior shrinkage is divided out, and realizes 1.8 of the 10.2 available on the spectral tilt; a companion paper tests such regressors against these ceilings.",
+      "score": 85,
+      "reason": "📐 「CNN はマッチトフィルタに勝てる」の主張に上限値 η を与える一本。学習前にノイズシミュだけで計算できるのが効きます✨🎯",
+      "summary": "📊 ガウス雑音なら η=1±0.04。共分散混合で 1.1〜10.2、source confusion では η≥3.8 と最大の伸びしろ。mm/submm 解析の設計指針に🔬"
+    },
+    {
+      "arxiv_id": "2609.10326",
+      "title": "Primordial turbulence from inflation: a new inflaton-driven turbulent regime",
+      "authors": [
+        "Oksana Iarygina",
+        "Axel Brandenburg"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2609.10326",
+      "abstract": "For the first time, we establish a direct connection between inflationary dynamics and the subsequent magnetohydrodynamic evolution. Starting from vacuum fluctuations, we self-consistently evolve the coupled inflaton-plasma system through inflation, reheating, and into the radiation-dominated era. We find an inflaton-driven inverse cascade followed by freely decaying turbulence, with kinetic energy dominating over magnetic energy and driving dynamo amplification. The inflaton-driven turbulence causes steeper magnetic energy decay than helical turbulence and should therefore be accounted for subsequent evolution of primordial fields and their present-day observables.",
+      "score": 85,
+      "reason": "🌀 インフレ→再加熱→輻射期を自己無撞着に繋いだ初の計算。reheating が CMB スケールに残す痕跡を考える側には効く一本✨🚀",
+      "summary": "🧲 インフラトン駆動の逆カスケード→自由減衰乱流。運動エネルギー優勢でダイナモが効き、磁気エネルギーの減衰はヘリカル乱流より急🔭"
+    }
+  ]
+}
