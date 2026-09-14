@@ -1,0 +1,151 @@
+{
+  "total_fetched": 206,
+  "scored_papers": [
+    {
+      "arxiv_id": "2609.11010",
+      "title": "Axionic Wormholes in Metric-Affine Gravity",
+      "authors": [
+        "Shonosuke Takeshita",
+        "Naoki Yoshioka"
+      ],
+      "categories": [
+        "hep-ph",
+        "gr-qc",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2609.11010",
+      "abstract": "The axion is a promising candidate for solving the strong CP problem. To solve this problem, the global U(1) symmetry must be preserved to a high degree of accuracy. However, it is well known that global symmetries are explicitly violated by quantum gravity effects, giving rise to what is referred to as the axion quality problem. In this paper, we investigate axionic wormholes as a source of explicit U(1) violation in Metric-Affine Gravity. This framework allows for spacetime torsion and non-metricity, which accommodate additional curvature-like and topological terms, such as the Holst and Nieh--Yan terms, that are absent from the metric and Palatini formalisms. We show that non-minimal couplings to these terms modify the wormhole dynamics and enhance the Euclidean wormhole action, thereby alleviating the axion quality problem. We also find that the viable parameter space is enlarged when two of these couplings are simultaneously present. We further identify representative parameter regions where the alleviation of the axion quality problem is compatible with inflationary constraints.",
+      "score": 91,
+      "reason": "🌀✨ 捩率も非計量性もアリの Metric-Affine で axion wormhole！Holst・Nieh–Yan が効く話、Einstein–Cartan 好きには刺さる🔥🧲",
+      "summary": "非最小結合でワームホール解を構成し、global U(1) の破れ＝axion quality 問題への寄与を評価⚙️📐"
+    },
+    {
+      "arxiv_id": "2609.10668",
+      "title": "The Dark Dimension and Majorana Neutrinos",
+      "authors": [
+        "Arturo de Giorgi",
+        "Dhruv Pasari"
+      ],
+      "categories": [
+        "hep-ph",
+        "hep-ex",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2609.10668",
+      "abstract": "Recent developments in the Swampland program motivate the existence of a mesoscopic Dark Dimension of size $0.1-10~\\mu$m with bulk Majorana fermions in the $1-10$ keV range. Motivated by this, we derive terrestrial constraints on Majorana bulk neutrinos as a function of the compactification radius. After determining the mass spectrum and mixing structure, we confront the model with Daya Bay neutrino-oscillation data, the KATRIN beta-decay bound, and the KamLAND-Zen neutrinoless double beta decay limit. For the latter, we obtain a closed-form expression for the effective Majorana mass and show that the Kaluza-Klein tower efficiently screens neutrinoless double beta decay when the nuclear momentum exceeds the compactification and Majorana scales. In the Dark-Dimension window, beta decay provides the strongest constraint, pushing the allowed Yukawa couplings down to $\\mathcal{O}(10^{-3})$. Oscillation and neutrinoless double beta decay searches remain complementary, probing smaller and larger Majorana masses, respectively. For completeness, outside the Dark-Dimension assumptions, we investigate how hierarchical Majorana masses can weaken the constraints.",
+      "score": 89,
+      "reason": "🌌🔭 μm サイズの Dark Dimension に bulk Majorana ニュートリノ！余剰次元×ニュートリノ質量の直球で楽しい⚡️🧪✨",
+      "summary": "KK タワーの質量・混合を出し Daya Bay／KATRIN／KamLAND-Zen で制限。0νββ が KK 遮蔽で抑制される🔬📉"
+    },
+    {
+      "arxiv_id": "2609.10619",
+      "title": "Emergence of Gravity's Dynamical and Topological Sectors from Pre-geometry",
+      "authors": [
+        "Andrea Addazi",
+        "Giuseppe Meluccio"
+      ],
+      "categories": [
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2609.10619",
+      "abstract": "We identify the complete set of fundamental building blocks for a 4D pre-geometric theory of gravity. Based on a gauge theory of $SO(1,4)$ or $SO(2,3)$ coupled to a Higgs-like field under the rigid constraint of general covariance in the unbroken phase, these building blocks - $\\mathcal{L}_\\text{MM}$, $\\mathcal{L}_\\text{W}$, $\\mathcal{L}_{J}$, $\\mathcal{L}_\\theta$ and $\\mathcal{L}_\\vartheta$ - constitute the minimal generating set of independent field monomials from which any pre-geometric action, including arbitrary functionals thereof, can be constructed. While the most general pre-geometric theory can extend beyond linear combinations, these five irreducible invariants serve as the 'atomic' constituents of all possible pre-geometric dynamics. Upon spontaneous symmetry breaking, they collectively generate an emergent gravitational theory consisting of the Einstein-Hilbert action, the cosmological constant term and all 4D topological invariants: the Gauss-Bonnet, Pontryagin, Holst and Nieh-Yan terms. The unification of gravity's dynamical and topological sectors from a common pre-geometric source represents the central result of this work. We also uncover a see-saw mechanism linking the Planck mass and the cosmological constant, as well as several novel relations for the coupling constants of the topological sector, inclusive of the Barbero-Immirzi parameter. This framework establishes the pre-geometric foundations from which all aspects of gravitation can dynamically emerge, providing a unified starting point for quantum gravity, dark energy phenomenology and the study of topological phases in gravitational theories.",
+      "score": 88,
+      "reason": "🧩🌟 SO(1,4)/SO(2,3) ゲージ＋Higgs 的場から重力が出る pre-geometry の「原子」5 個を同定✨🔩🎯",
+      "summary": "一般共変性を課した未破れ相で独立不変量を数え上げ、任意の pre-geometric 作用の生成集合を決定🧱📎"
+    },
+    {
+      "arxiv_id": "2609.10734",
+      "title": "Batalin-Vilkovisky description of Yang-Mills theories with universal extra dimensions",
+      "authors": [
+        "J. A. Ahuatzi-Avendaño",
+        "A. J. Correa-León",
+        "M. Huerta-Leal",
+        "H. Novales-Sánchez",
+        "A. Sierra-Martínez",
+        "J. J. Toscano"
+      ],
+      "categories": [
+        "hep-th",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.10734",
+      "abstract": "The Batalin-Vilkovisky (BV) framework is a powerful technique for quantizing a wide range of gauge systems. This formalism employs fields and antifields--introducing a symplectic structure through the antibracket--to implement BRST symmetry, which captures the essence of gauge invariance. Within this context, we study the symmetry structure of a pure Yang-Mills theory with universal extra dimensions. We construct a BRST-invariant extended action for the $(4+n)$-dimensional theory depending on fields and antifields, which constitutes a proper solution to the master equation. The higher-dimensional spacetime and gauge symmetries are then hidden within their four-dimensional counterparts via canonical transformations. Gauge invariances are fixed by combining gauge-fixing procedures for both the standard and Kaluza-Klein (KK) fields. This procedure is implemented covariantly in the adjoint representation of the gauge group. While the standard gauge fields are fixed using the Background Field Method (BFM), the KK gauge excitations are fixed covariantly, as they transform as matter fields. Finally, the manifest $SU(N)$ gauge symmetry of the quantized theory is emphasized.",
+      "score": 87,
+      "reason": "📦🔧 UED 入り Yang–Mills を Batalin–Vilkovisky で丸ごと量子化✨ KK 分解後も master equation が閉じる話⚙️🌀",
+      "summary": "(4+n) 次元の BRST 不変な拡張作用を構成し、高次元の時空・ゲージ対称性が 4 次元側にどう隠れるかを追跡🔍🧮"
+    },
+    {
+      "arxiv_id": "2609.11750",
+      "title": "Might the radiation era extend back to the Big Bang? On dark matter production and the relic graviton background in quadratic gravity",
+      "authors": [
+        "Latham Boyle",
+        "Neil Turok",
+        "Vatsalya Vaibhav"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO",
+        "gr-qc",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2609.11750",
+      "abstract": "Naive estimates based on Einstein gravity with Lagrangian $\\frac{1}{2}M_{pl}^{2}(R-2\\Lambda)$ suggest that, if the radiation era extended back to the Big Bang (i.e., as far back as the classical spacetime background makes sense), this would result in an over-production of dark matter and a relic cosmic background of thermal gravitons. Here we revisit these conclusions in quadratic gravity, the minimal renormalizable completion of Einstein gravity, whose Lagrangian also includes the terms $\\frac{1}{6}f_0^{-2}R^2-\\frac{1}{2}f_{2}^{-2}C^{2}$. Assuming the radiation era does extend back to the bang, we find a novel relation between the coefficient $f_{2}$ and the dark matter mass $m_{dm}$, needed to obtain the correct dark matter abundance. This yields a new gravitational production mechanism for dark matter (e.g., stable right-handed neutrinos). Moreover, the presence or absence of the relic graviton background (detectable by forthcoming CMB experiments via its small imprint on $N_{\\rm eff}$) will place new constraints on $f_{0}, f_{2}$.",
+      "score": 87,
+      "reason": "💥🌠 Boyle–Turok–Vaibhav！二次重力なら輻射期をビッグバンまで遡らせても DM もグラビトンも過剰生成しない⁉️🤯✨",
+      "summary": "C² 項の係数 f₂ と暗黒物質質量 m_dm の間に新しい関係を導出し、relic graviton 背景の量を評価🌡️📊"
+    },
+    {
+      "arxiv_id": "2609.10991",
+      "title": "Two-parameter continuous deformation of Starobinsky inflation as a bridge between Planck and ACT DESI data with $N_\\star\\in(50,60)$",
+      "authors": [
+        "G. German"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2609.10991",
+      "abstract": "We present a family of plateau-type inflationary potentials, eq.~\\eqref{Vgeneral}, and analyze a two-parameter $\\alpha\\beta$-Starobinsky specialization that interpolates continuously between a \\emph{maximal} plateau ($V\\!\\to\\!V_0$) and a \\emph{submaximal} plateau ($V\\!\\to\\!V_\\infty0$ with $x_\\star\\gg 1/\\beta$ the slow-roll scaling laws change to $n_s\\simeq 1-\\frac{4}{3N_\\star},\\, r\\simeq\\mathcal{C}(\\alpha,\\beta)\\,N_\\star^{-4/3},$ with an explicit coefficient $\\mathcal{C}(\\alpha,\\beta)$ set by the plateau truncation. This deformation lifts $n_s$ at fixed $N_\\star$ while further suppressing $r$, reconciling the Planck~2018 constraint $n_s=0.9649\\pm0.0042$ (68\\% CL) and BICEP/Keck18 data $r_{0.05}<0.036$ (95\\% CL), with the higher central values $n_s\\sim0.97$--$0.98$ preferred by ACT+DESI~DR2 (BAO), within the theoretically motivated interval $N_\\star\\in(50,60)$ and without exotic reheating. We provide an exact identity for $V/V'$ enabling analytic control of $N_\\star$, a practical crossover criterion $\\beta\\,x_\\star\\ll1$ vs.\\ $\\gg1$, and a transparent mapping between $(\\alpha,\\beta)$ and the observables $(n_s,r,N_\\star)$. These yield sharp, testable signatures, particularly the softened $N_\\star$-scaling of $r$, that distinguish a maximal from a submaximal plateau with upcoming CMB and LSS data.",
+      "score": 86,
+      "reason": "🪜✨ Starobinsky を 2 パラメータで連続変形して Planck と ACT+DESI の n_s を橋渡し🌉 r はさらに抑制📉🔥",
+      "summary": "プラトーの切り方で n_s≃1−4/(3N)、r∝N^(−4/3) とスケール則が変わる plateau 型ポテンシャル族🧗📐"
+    },
+    {
+      "arxiv_id": "2609.11738",
+      "title": "Fermion quantum field theory on curved and non-inertial backgrounds in standard-Minkowski form",
+      "authors": [
+        "Fabio Di Pumpo",
+        "Tobias Asano",
+        "Alexander Friedrich",
+        "Gil Paz",
+        "Enno Giese"
+      ],
+      "categories": [
+        "hep-th",
+        "gr-qc",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.11738",
+      "abstract": "Quantum field theory on curved and non-inertial backgrounds contains background- and foliation-dependent quantities in the canonical Lagrangian, the hypersurface inner product and bilinear form, as well as in the equal-time anti-commutation relations. In this work, we determine a local fermion-field redefinition that brings these canonical structures into their standard-Minkowski forms, i. e., the forms they assume in Cartesian inertial coordinates on Minkowski spacetime, where the zeroth world coordinate is identified as the coordinate of time. Starting from the generally covariant Dirac action minimally coupled to a spin-1 gauge field, we derive the corresponding Lagrangian, fermionic inner product, and quantization rule in an Arnowitt-Deser-Misner decomposition, formulated in arbitrary world coordinates. We identify the generalized temporal gamma matrix as the common geometric factor governing the canonical temporal structure of all three quantities. Using a field redefinition, we transform this generalized temporal gamma matrix to its standard-Minkowski form, thereby mapping the fermionic inner product and the equal-time anti-commutation relation to their standard-Minkowski expressions, while transferring the explicit background and foliation dependence to the transformed Lagrangian and fermion-field operators. We show that such a field redefinition necessarily consists of a local rescaling and a fixing of the local Lorentz frame. This procedure restores the conventional canonical normalization from standard-Minkowski spacetime used for fermionic mode quantization and occupation-number operators. The transformed Lagrangian consequently assumes a generalized first-order Schrödinger form, leading to the familiar rest-energy term and spacetime-magnetic couplings, as well as to the leading non-relativistic limit, in which temporal derivatives are separated from spatial ones.",
+      "score": 86,
+      "reason": "🧭✨ 曲がった背景の Dirac 場を場の再定義で「標準 Minkowski 形」に揃える🔧 脚が全部見えるのが気持ちいい🦵📏",
+      "summary": "作用・超曲面内積・等時反交換関係を同時に標準形へ写す局所的な再定義を構成し、背景／葉層依存性を整理📎🧮"
+    },
+    {
+      "arxiv_id": "2609.11683",
+      "title": "Bayesian Superiority in On/Off analysis",
+      "authors": [
+        "Gleb Babenov",
+        "Petr Satunin"
+      ],
+      "categories": [
+        "astro-ph.IM",
+        "hep-ex"
+      ],
+      "url": "https://arxiv.org/abs/2609.11683",
+      "abstract": "We present a detailed comparison of Bayesian criteria with three non-informative priors - flat, Jeffreys, and scale-invariant - for testing a signal against an unknown background and compare them with the classical frequentist Li-Ma approach in the On/Off problem. We perform Monte Carlo simulations for various background levels and evaluate the Li-Ma and Bayesian criteria by their Type I error rates. We then simulate a nonzero signal and compare the criteria in terms of Type II error rates. We find that the Bayesian criterion with the Jeffreys prior yields lower Type I and Type II error rates than the Li-Ma criterion. In addition, we show that the Bayesian criteria are more robust than the Li-Ma criterion when the background distribution is overdispersed relative to the Poisson distribution.",
+      "score": 85,
+      "reason": "📊🎲 On/Off 問題で Li–Ma vs ベイズ（flat・Jeffreys・scale-invariant）の真っ向勝負✨ Jeffreys 強い💪🔬",
+      "summary": "Monte Carlo で第一種・第二種の誤り率を比較し、ベイズ判定の方が頑健と結論。事前分布依存も検証📉🧪"
+    }
+  ]
+}

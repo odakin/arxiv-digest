@@ -1,0 +1,86 @@
+{
+  "total_fetched": 206,
+  "scored_papers": [
+    {
+      "arxiv_id": "2609.11907",
+      "title": "A Multi-Axion Ladder Across Cosmic History: From Inflation, BBN, and Early Dark Energy to Late-Time Accelerated Expansion",
+      "authors": [
+        "Amartya Sengupta",
+        "Dejan Stojkovic",
+        "Adam G. Riess"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.11907",
+      "abstract": "What if dark energy is recurrent throughout cosmic history? In this picture, episodes of scalar-field dark energy become less surprising and more natural features of cosmic evolution. We construct a homogeneous multi-axion cosmology with a transient contribution during Big Bang nucleosynthesis, two early dark energy components before recombination, and a thawing field that supplies the present dark-energy density. As Hubble friction weakens, the fields begin to roll at successive epochs set by their potential-curvature scales. Their initial displacements affect the rolling delays and peak energy fractions. The transient fields have third-power cosine potentials, whose sextic minima allow faster-than-radiation dilution during rapid, small-amplitude oscillations. All four fields are evolved in a common Friedmann background, with their first roll and subsequent dynamics resolved numerically. With reference matter and radiation densities taken from Planck 2018, the benchmark has a nucleosynthesis-era peak fraction of approximately $0.99\\%$ near $z=10^9$. The two early dark energy fields peak near $z=7.9\\times10^3$ and $2.4\\times10^3$, with individual fractions of $8.6\\%$ and $7.8\\%$; their combined fraction reaches $9.7\\%$. The late-time field is normalized to supply a present fraction of approximately $0.685$, while the three transients leave a combined fraction of approximately $6.0\\times10^{-7}$. An aligned two-axion example illustrates the enhanced field range available for an inflationary extension. We also outline how searches for transient contributions to the expansion rate at other epochs could constrain additional axion scales.",
+      "score": 88,
+      "reason": "🪜 ダークエネルギーは宇宙史で何度も現れる？BBN・EDE・現在の加速を多軸 axion の梯子で繋ぐ野心作✨ Riess 参加🔭",
+      "summary": "Hubble 摩擦が緩む順に場が転がり出す設定で H₀ 緊張を緩和し、各エポックのエネルギー分率を追跡📈"
+    },
+    {
+      "arxiv_id": "2609.10991",
+      "title": "Two-parameter continuous deformation of Starobinsky inflation as a bridge between Planck and ACT DESI data with $N_\\star\\in(50,60)$",
+      "authors": [
+        "G. German"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2609.10991",
+      "abstract": "We present a family of plateau-type inflationary potentials, eq.~\\eqref{Vgeneral}, and analyze a two-parameter $\\alpha\\beta$-Starobinsky specialization that interpolates continuously between a \\emph{maximal} plateau ($V\\!\\to\\!V_0$) and a \\emph{submaximal} plateau ($V\\!\\to\\!V_\\infty0$ with $x_\\star\\gg 1/\\beta$ the slow-roll scaling laws change to $n_s\\simeq 1-\\frac{4}{3N_\\star},\\, r\\simeq\\mathcal{C}(\\alpha,\\beta)\\,N_\\star^{-4/3},$ with an explicit coefficient $\\mathcal{C}(\\alpha,\\beta)$ set by the plateau truncation. This deformation lifts $n_s$ at fixed $N_\\star$ while further suppressing $r$, reconciling the Planck~2018 constraint $n_s=0.9649\\pm0.0042$ (68\\% CL) and BICEP/Keck18 data $r_{0.05}<0.036$ (95\\% CL), with the higher central values $n_s\\sim0.97$--$0.98$ preferred by ACT+DESI~DR2 (BAO), within the theoretically motivated interval $N_\\star\\in(50,60)$ and without exotic reheating. We provide an exact identity for $V/V'$ enabling analytic control of $N_\\star$, a practical crossover criterion $\\beta\\,x_\\star\\ll1$ vs.\\ $\\gg1$, and a transparent mapping between $(\\alpha,\\beta)$ and the observables $(n_s,r,N_\\star)$. These yield sharp, testable signatures, particularly the softened $N_\\star$-scaling of $r$, that distinguish a maximal from a submaximal plateau with upcoming CMB and LSS data.",
+      "score": 87,
+      "reason": "🌉 Starobinsky を 2 パラメータ変形して Planck と ACT+DESI の n_s を橋渡し、r はさらに小さく✨ N_*∈(50,60) 💫",
+      "summary": "plateau の切り方で n_s≃1−4/(3N)、r∝N^(−4/3) に。BICEP/Keck18 の r 上限とも整合する族📉"
+    },
+    {
+      "arxiv_id": "2609.10672",
+      "title": "The relevance of the cosmic microwave background for cosmology",
+      "authors": [
+        "Pavel Kroupa",
+        "Eda Gjergo",
+        "Nikolaos Samaras"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2609.10672",
+      "abstract": "Within the Hot Big Bang picture, as usually interpreted in the standard LCDM framework and its hierarchical scenario for elliptical galaxy assembly, the cosmic microwave background (CMB) is associated with photon decoupling near z = 1100, and the Planck angular power spectra are taken to constrain primordial 10^{-5}-level fluctuations that seeded later structure formation. We show that, in addition to the LCDM model, two cosmological models based on Milgromian gravitation are also consistent with the Planck CMB power spectra, such that the spectra do not uniquely favor dark matter. We then argue that the published CMB spectra are not direct observables, but reconstructed quantities obtained after foreground subtraction and corrections for weak lensing, photon-electron scattering, and gravitational energy redshifts along the line of sight. Because these steps depend on the assumed growth history of structure, the resulting spectra depend on the cosmological model adopted in the data reduction. We also note that the reported correlation between the hemispherical CMB asymmetry and the excess on-sky distribution of elliptical galaxies may point to matter inhomogeneities spanning large portions of the observable universe. Motivated by observational tensions in the hierarchical assembly of elliptical galaxies, we review the consequences of elliptical-galaxy formation on a downsizing timescale, which implies a significant extragalactic foreground released at 15< z < 20. Under conservative assumptions, this foreground contributes at least 1.4 percent of the observed CMB energy density and has not been included in CMB analyses. It follows that the reported 10^{-5}-level fluctuations is introduced by overly aggressive foreground cleaning.",
+      "score": 85,
+      "reason": "🔥 Planck の CMB スペクトルは暗黒物質を一意に支持しない、と Milgrom 系 2 模型で主張する挑発的な一本✨🧐",
+      "summary": "公開スペクトルは直接観測量でなく前景分離込みの再構成量である点を強調し、解釈の依存性を議論🛰"
+    },
+    {
+      "arxiv_id": "2609.10845",
+      "title": "XRISM observations of the Perseus cluster along two arms: Chaotic ICM motions probed by resonant scattering",
+      "authors": [
+        "Annie Heinrich",
+        "Irina Zhuravleva",
+        "Congyao Zhang",
+        "Anna Ogorzalek",
+        "Ayşegül Tümer",
+        "François Mernier",
+        "Phillip C. Stancil",
+        "Elena Bellomi",
+        "Lior Shefler",
+        "John ZuHone",
+        "Yutaka Fujita",
+        "Julie Hlavacek-Larrondo",
+        "Yuto Ichinohe",
+        "Kyoko Matsushita",
+        "Nhut Truong",
+        "Shutaro Ueda"
+      ],
+      "categories": [
+        "astro-ph.HE",
+        "astro-ph.GA"
+      ],
+      "url": "https://arxiv.org/abs/2609.10845",
+      "abstract": "XRISM has mapped gas velocities across the core of the Perseus cluster, separating the kinematic effects of mergers and AGN feedback. The physical properties of these motions remain unclear: are they a superposition of bulk flows, predominantly random/turbulent motions, or a mixture of both? Without resolving this question, constraints on the nonthermal pressure fraction and heating rate remain uncertain, as both assume predominantly random motions. Unlike emission line broadening, resonant scattering is most sensitive to small-scale, random motions rather than coherent bulk flows. Taking advantage of the extensive XRISM coverage of the Perseus cluster, we detect the full effects of resonant scattering on the He{\\alpha} w line for the first time. This includes flux suppression in the cluster center, enhancement in the outer regions, and non-Gaussianity in the emission line. We employ radiative transfer simulations to constrain the amplitude of small-scale ICM velocities in the inner 60 kpc of Perseus, finding them to be consistent with the line broadening measurements within the uncertainties. This indicates the observed velocity dispersion is primarily due to small-scale random motions in the central Perseus regions rather than coherent bulk flows. We further explore potential anisotropy of these motions, showing that they are consistent with isotropic or radial motions rather than tangential ones. Longer XRISM observations are required to improve these anisotropy constraints. Finally, we explore azimuthal variations between the two complete radial arms observed by XRISM.",
+      "score": 85,
+      "reason": "🛰 XRISM がペルセウス座銀河団を 2 本の腕に沿って観測✨ 共鳴散乱で「乱流か bulk か」を切り分ける話🌀",
+      "summary": "輝線幅と違い小スケールのランダム運動に敏感な共鳴散乱を検出し、非熱的圧力・加熱率の見積りを更新🔬"
+    }
+  ]
+}

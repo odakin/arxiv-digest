@@ -1,0 +1,107 @@
+{
+  "total_fetched": 206,
+  "scored_papers": [
+    {
+      "arxiv_id": "2609.11618",
+      "title": "Quantum models of interaction Hamiltonian and their paradoxes",
+      "authors": [
+        "Nicolas Gisin",
+        "Serge Massar",
+        "Jef Pauwels",
+        "Pavel Sekatski"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.11618",
+      "abstract": "In quantum physics it is commonplace to model the interaction of remote systems with a many-body Hamiltonian. Taking such an action-at-a-distance description {\\it à la lettre} leads to various paradoxes related to faster-than-light communication and apparent inconsistencies in local energy accounting. It also neglects residual effects, such as entanglement between the remote systems and the mediator that implements the interaction, or the decoherence that arises when the remote systems undergo local evolution. We study simple microscopic quantum models that respect the light cone by design and reproduce two-body Hamiltonians. For these models we quantitatively analyze the residual effects of the microscopic mediator on the remote systems, including dressing of stationary states, and decoherence in the presence of fast local control. We show how the models resolve the paradoxes.",
+      "score": 89,
+      "reason": "⚡️ 遠隔系を多体ハミルトニアンで書く「当たり前」が超光速通信やエネルギー収支の矛盾を生む、という直球の基礎論🧭✨",
+      "summary": "光円錐を尊重する微視的模型で二体ハミルトニアンを再現し、媒介子との残留もつれとデコヒーレンスを定量化🔬"
+    },
+    {
+      "arxiv_id": "2609.11416",
+      "title": "The Quantum Plumber's Problem",
+      "authors": [
+        "Nicolas G. Underwood",
+        "Holger F. Hofmann",
+        "Jonte R. Hance"
+      ],
+      "categories": [
+        "quant-ph",
+        "cs.IT"
+      ],
+      "url": "https://arxiv.org/abs/2609.11416",
+      "abstract": "Recent work quantified the notion of quantum counterfactual gain for an extended Elitzur-Vaidman bomb test style scenario, through a connection to the negativity of the Kirkwood-Dirac quasiprobability distribution. We here extend this work to identifying quantum advantage in a new scenario, which we term the ``Quantum Plumber's Problem''. In this scenario, we imagine a ``quantum plumber'', who knows that one path of an interferometer is blocked, and wants to find the optimal strategy for identifying with certainty which path this is. We discuss various strategies for a generalised path-encoded interferometer, as well as for the specific case of Hofmann's three-path interferometer, introduced in a recent analysis of the relationship between states in five measurement contexts of a three level system. We support our arguments on the relative merit of competing strategies with data collected over many simulated attempts at locating blockages. We also present results for a variant of the game in which the blockage is replaced by a non-demolition detector.",
+      "score": 87,
+      "reason": "🔧 干渉計のどの経路が塞がれているかを確実に当てる最適戦略＝「量子配管工問題」✨ 反事実性と KD 負値が効く🧪",
+      "summary": "Elitzur–Vaidman 型の counterfactual gain を一般化した経路符号化干渉計で戦略を比較、3 経路の具体例も📐"
+    },
+    {
+      "arxiv_id": "2609.10640",
+      "title": "A nonrecursive method for computing the off-diagonal small-time heat kernel expansion",
+      "authors": [
+        "Vyacheslav O. Guba",
+        "Alexey V. Reznichenko"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.10640",
+      "abstract": "We present a nonrecursive method to compute the small-time heat kernel asymptotic expansion. The Klein-Gordon operator in flat space-time coupled to electromagnetic fields is considered. We obtain closed-form expressions for the expansion coefficients up to the second order in time. Our approach can be regarded as an extension of the method described in [R.I. Nepomechie, Phys. Rev. D 31, 3291 (1985)], but unlike that work, our approach is valid for arbitrary space-time dependence of the heat kernel, i.e. for off-diagonal values. We verify that our results correctly reproduce small-time asymptotics of the heat kernel for a plane wave field and for constant electromagnetic fields.",
+      "score": 86,
+      "reason": "🎛 量子ビットの状態で向きが決まる条件付きスクイーズゲート✨ squeezed coherent 状態を道具として使い倒す実装案🔩",
+      "summary": "SQUID 終端共振器で refocusing により余分な時間依存項を抑え、1・2 モードスクイーズ状態の重ね合わせに符号化🧊"
+    },
+    {
+      "arxiv_id": "2609.11402",
+      "title": "The Quantum Composition Paradox",
+      "authors": [
+        "Jacob Biamonte"
+      ],
+      "categories": [
+        "quant-ph",
+        "math-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.11402",
+      "abstract": "Quantum theory does not generally permit the probability laws obtained from individual unitary steps by the Born rule to be sewn into a consistent genealogy; we classify the exceptions and show that faithful composition can hold from an initial boundary yet fail after an internal restart. For finite-dimensional, composition-closed unitary families, universal composition holds exactly for unitary monomials, the phase-dressed permutations whose Born kernels realize reversible deterministic state machines. Prescribed sequences evade this obstruction. We classify all pairs of qubit unitary steps, give a necessary-and-sufficient criterion for pairs of qutrit unitary steps, and prove that a boundary-stable unitary sequence on a $d$-dimensional Hilbert space contains at most $d$ fully mixing steps, with equality in every prime dimension. We also construct arbitrarily long genuinely mixing sequences that compose from their initial boundary but fail after an internal restart, and a qutrit-controlled two-qubit realization with active interference. We define a Born--Chapman--Kolmogorov current that vanishes exactly when coherent and stepwise-checked endpoint laws agree, together with an associated measure of how many bits the endpoint reveals about the intermediate checking schedule. This state-machine connection provides a foundation for a quantum theory of music, in which unitary operations are notes and temporal boundaries are cues. Musical-transition prediction is proved PromiseBQP-complete, and the stepwise patterns that preserve a genealogy specify rules for rhythm, whereas the exceptional failure of that genealogy from an internal cue is the quantum music paradox.",
+      "score": 85,
+      "reason": "🧩 各ユニタリ段の Born 確率を素直に「系譜」として繋げられるのはいつか？例外を完全分類した基礎論✨🔍",
+      "summary": "有限次元の合成閉ユニタリ族では unitary monomial（位相付き置換）のみが普遍的合成を許すと証明📏"
+    },
+    {
+      "arxiv_id": "2609.11536",
+      "title": "Impossible to conjugate an unknown quantum state via a unitary evolution",
+      "authors": [
+        "Dafa Li"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.11536",
+      "abstract": "The no-cloning theorem, the no-deleting theorem, the no-hiding theorem, the no-flip theorem, and the no-broadcasting play a crucial role in quantum mechanics and quantum information. In this paper, we propose the no-conjugating theorem which states that it is impossible to conjugate an unknown arbitrary quantum state via a universal physical device or linear/unitary operation.",
+      "score": 85,
+      "reason": "🚫 no-cloning 一族に新メンバー：未知状態の複素共役は普遍的な装置では作れない、という no-conjugating 定理✨🪞",
+      "summary": "線形／ユニタリ操作で任意の未知状態を共役化することが不可能であることを示す短い証明📝"
+    },
+    {
+      "arxiv_id": "2609.11350",
+      "title": "From Analytic Structure to Quantum Complexity: Walsh-Pauli Representations of Continuum Operators",
+      "authors": [
+        "Raphael De Sousa",
+        "Partha Nandi",
+        "Francesco Petruccione"
+      ],
+      "categories": [
+        "quant-ph",
+        "hep-th",
+        "math-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.11350",
+      "abstract": "How does continuum operator structure appear in a finite qubit register? We address this question for analytic functions of diagonal operators represented in a binary basis, focusing on the Jordan--Lee--Preskill (JLP) momentum operator, by developing an operator-level generating-function framework for their Walsh-Pauli spectra. The construction determines the spectrum analytically and reveals exact support and parity selection rules, together with a nontrivial intra-shell hierarchy induced by the binary encoding. This provides a systematic characterization of Walsh compressibility and its relation to Pauli locality. As a controlled application, we consider generalized uncertainty-principle (GUP) kinematics as a tunable nonlinear odd deformation of momentum, showing how higher-order momentum terms redistribute spectral weight into progressively higher Pauli-weight sectors",
+      "score": 85,
+      "reason": "🧮 連続演算子（JLP 運動量）を有限量子ビットに載せた時の構造を Walsh–Pauli スペクトルで解析✨ GUP 応用も⚖️",
+      "summary": "生成関数の枠組みで台とパリティの選択則を導き、Walsh 圧縮性と Pauli 局所性の関係を特徴づけ🔍"
+    }
+  ]
+}

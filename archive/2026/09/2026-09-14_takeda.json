@@ -1,0 +1,80 @@
+{
+  "total_fetched": 206,
+  "scored_papers": [
+    {
+      "arxiv_id": "2609.10907",
+      "title": "Quantum eraser enables single-shot quantum holography with undetected photons",
+      "authors": [
+        "Naru Yoneda",
+        "Nao Sakiyama",
+        "Luis Ordonez",
+        "Vishal Prajapati",
+        "Kanako Yoshimura",
+        "Osamu Matoba"
+      ],
+      "categories": [],
+      "url": "https://arxiv.org/abs/2609.10907",
+      "abstract": "Quantum holography with undetected photons (QHUP) enables the complex amplitude of infrared to be acquired beyond the sensitivity range of silicon based sensors, through induced coherence withoud induced emission. QHUP generally requires multiple phase-shifted holograms to retrieve the complex-amplitude distribution of an object, which limits measurement stability and temporal resolution. Although classical parallel phase-shifting holography provides a favorable balance between temporal and spatial resolution, it has not previously been implemented in QHUP because of the constraints imposed by photon distinguishability. In this study, we propose a quantum eraser-based geometric phase-shifting QHUP. By accurately erasing not only polarization distinguishability but also temporal distinguishability arising from differences in the optical paths, the complex-amplitude distribution of an object can be retrieved in a single shot using a silicon-based image sensor equipped with a polarization-filter array. This single-shot acquisition, combined with real-time processing, enables the observation of dynamic objects in the near-infrared spectral region. To the best of our knowledge, these experimental results constitute the first real-time acquisition of the complex-amplitude distribution of a near-infrared object using QHUP with a silicon-based image sensor equipped with a polarization-filter array. Furthermore, to enhance the reproducibility and applicability of this study, the experimental optical setup, bill of materials, and source code for real-time imaging have been made openly available. The ability to retrieve the complex-amplitude information carried by undetected photons in real time is expected to extend the applicability of QHUP to a wide range of fields, including spectroscopic imaging and semiconductor inspection.",
+      "score": 93,
+      "reason": "✨ 量子消しゴムで「検出しない光子によるホログラフィ」を単発化！SPDC・識別可能性・幾何位相が全部つながる🎯",
+      "summary": "並列位相シフトを幾何位相で実装し、induced coherence による赤外の複素振幅を 1 ショットで取得🔬📸"
+    },
+    {
+      "arxiv_id": "2609.11151",
+      "title": "Qubit-Qutrit Quantum Tomography of hadronic $Λϕ$ and $ΛK^{\\ast 0}$ systems",
+      "authors": [
+        "Veronica Kanachova",
+        "Feng Liu",
+        "Zhoudunming Tu"
+      ],
+      "categories": [
+        "hep-ph",
+        "hep-ex",
+        "nucl-ex",
+        "nucl-th",
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.11151",
+      "abstract": "Quantum-information observables have emerged in recent years as new tools in nuclear and particle physics, from entanglement in top-quark pairs to spin correlations in $\\Lambda\\bar{\\Lambda}$ production. Extending these studies to unequal-spin hadronic final states poses a fundamental challenge: the $6\\times6$ density matrix of a qubit-qutrit system contains 35 independent spin parameters, but the decays of $\\Lambda V$ pairs, with $V=\\phi$ or $K^{*0}$, provide access to only 23 due to the hidden vector polarization from the strong decay. In this Letter, we formulate a qubit-qutrit quantum tomography (QQQT) technique for these spin-$\\tfrac{1}{2}\\otimes1$ systems and establish exact criteria for entanglement certification from the \\textit{incomplete} density matrix. Compared with the $\\Lambda\\bar{\\Lambda}$ system, QQQT of $\\Lambda\\phi$ and $\\Lambda K^{*0}$ provides a new probe of nonperturbative QCD hadronization, enabling a direct comparison of the spin evolution of entangled quark pairs produced from the vacuum as they hadronize into a baryon or a vector meson.",
+      "score": 87,
+      "reason": "🎲 Λφ・ΛK*0 のスピン 1/2⊗1 系を量子トモグラフィ✨ 崩壊で 23 個しか読めない 35 パラメータ問題に正面から⚛️",
+      "summary": "隠れたベクトル偏極の効果を定式化し、qubit-qutrit のもつれ判定が可能になる厳密条件を提示📐"
+    },
+    {
+      "arxiv_id": "2609.11577",
+      "title": "Temporal Localisation of Waves from Imaginary Line-Gap Topology",
+      "authors": [
+        "Carlos Camacho",
+        "Tom Sheppard",
+        "Joshua Feis",
+        "Oliver Ashfield",
+        "Alexander Szameit",
+        "Frank Schindler",
+        "Hannah M. Price"
+      ],
+      "categories": [],
+      "url": "https://arxiv.org/abs/2609.11577",
+      "abstract": "For non-Hermitian Hamiltonians, gain, loss, and non-reciprocity produce complex eigenvalues which, in turn, facilitate different kinds of topological phases. One example is the imaginary line-gap phase, where eigenvalues cannot lie on the real line. This notion was recently shown to explain the robust temporal localisation of waves in photonic quantum walks and time-varying metamaterials. In these systems, waves localise around a time interface between topologically inequivalent mediums. At the core of this phenomenon is a $\\mathcal{PT}$-symmetric two-mode model, where the non-trivial topology arises due to the $\\mathbb{Z}_2$ classification of the AI symmetry class. In this work, we study two-mode models in all non-Hermitian symmetry classes. We find that robust temporal localisation generically follows as a physical consequence of imaginary line-gap topology according to a simple diagnostic: at least one of time-reversal symmetry ($\\mathcal{T}^{\\hspace{0.05em}2} = 1$) and particle-hole symmetry ($\\mathcal{C}^2 = 1$) must be present. Our results provide a comprehensive symmetry-based guide to the observation of the topologically protected temporal localisation of waves.",
+      "score": 85,
+      "reason": "⏳ 時間界面で波が局在する「虚 line-gap 位相」✨ 非エルミート＋PT 対称の 2 モード模型が核心、時間回折好きに🌊",
+      "summary": "AI クラスの Z₂ 分類に由来する位相を整理し、フォトニック量子ウォークや時間変調メタ材料での局在を説明🔍"
+    },
+    {
+      "arxiv_id": "2609.10814",
+      "title": "Spectral Suppression of Asymptotic States in Supersymmetric QFT on de Sitter Backgrounds",
+      "authors": [
+        "Stefano Bellucci",
+        "Stefania De Matteo"
+      ],
+      "categories": [
+        "hep-th",
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2609.10814",
+      "abstract": "We investigate the fate of asymptotic particle states in supersymmetric quantum field theories on de Sitter backgrounds, distinguishing algebraic field content from localized LSZ-like excitations. We study how long-wavelength gravitational fluctuations may suppress pole residues and redistribute spectral weight from isolated contributions toward continuum sectors. The analysis is formulated within a Kallen-Lehmann spectral framework and is intended as a structural infrared mechanism rather than a non-perturbative proof of de Sitter quantum gravity.\nThe paper develops three connected levels. First, we analyze residue suppression in a quasi-de Sitter setting and its possible transmission through Yukawa and gravitational interactions. Second, we formulate the spectral decomposition as a map between the full field-theoretic spectrum and the observable particle sector. Third, we examine a conditional cosmological realization of redistributed spectral weight, including possible effects on expansion, structure growth, and lensing. This cosmological layer is a downstream phenomenological test and is not used as evidence that pole loss has occurred.\nIn the current MCMC analysis we find S8 approximately 0.803 and, when the smooth fraction is varied, fS8 = 0.0025 +/- 0.0017, consistent with the benchmark value 0.00262. These results test the internal consistency of the proposed realization but do not establish the dark-sector assignment or the underlying infrared mechanism.",
+      "score": 85,
+      "reason": "📉 de Sitter 上で LSZ 的な漸近粒子状態が「消える」機構✨ 極の残差が抑えられ連続スペクトルへ重みが移る話🌌",
+      "summary": "Källén–Lehmann の枠組みで準 de Sitter の残差抑制を解析し、赤外起源の構造的機構として定式化🔬"
+    }
+  ]
+}
