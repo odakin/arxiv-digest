@@ -294,3 +294,27 @@ maintainer 自身の 4 profile (`odakin` / `takeda` / `ogawa` / `onda`) の実�
 symlink target は `../../odakin-prefs/arxiv-digest-profiles/<name>` の **相対 path** で、 `~/Claude/{arxiv-digest, odakin-prefs}/` という layout 前提に乗っかる。 layer 3 (odakin-prefs) は本 repo を持つ maintainer の全マシンで同じ layout なので invariant、 cross-machine で symlink がそのまま resolve する。 ペア commit: [`odakin-prefs@9e818d2`](https://github.com/odakin/odakin-prefs) で 4 profile dirs + 配置理由 README。
 
 detail context (= 何が壊れていたか / 修復手順 / verification) は `SESSION.md` 「2026-05-28 (`90ebd13`) maintainer の personal profile」 entry 参照。
+
+## 推薦文に人名を書かない (2026-09-15)
+
+### What
+
+`reason` / `summary` に人名 (購読者・共同研究者・著者) を書かない。 生成の指示 (Mode B = `skill/SKILL.md`、 Mode A = `src/scorer.py`) に明記。 著者名は `authors` 欄に arXiv の書誌として残す。
+
+### Why
+
+- `archive/` は公開 repo に commit される。 profile は「identity は非公開の registry に置く」 設計なのに、 生成文が名前と関係 (「共同研究者の X さん」「X さんの研究のど真ん中」) を書いていた = profile を伏せた意味が archive で失われる
+- 生成する AI は session の文脈から名前を知っているので、 指示しないと書く
+- 公開 repo の pre-commit gate は実名を止める。 名前を書いた日の archive commit は止まり、 `commit_archives_to_git()` は warning だけ出して続行する設計なので、 cross-machine transport が黙って壊れる
+
+### 却下した案
+
+| 案 | 却下理由 |
+|---|---|
+| archive commit を `--no-verify` にする | 実名が公開 repo に入るのを止める網を自分で外す |
+| archive 側で名前を機械的に伏せる | 書誌 (著者欄) と生成文の区別を archive writer が持つことになり、 生成文の言い換え (姓だけ・愛称) は伏せきれない。 源で書かせない方が確実 |
+
+### 関連
+
+- 著者・題名・要旨は gate の対象外 (書誌は構造で外す) = claude-config `conventions/confidential-repo-boundary.md#published-metadata-is-public`
+- gate を締めたときに過去の archive commit を通し直す = 同 `#gate-change-replays-unattended-writers`

@@ -3,6 +3,15 @@
 ## 現在の状態
 **安定運用中**: Mode B（ローカル scheduled task）で平日朝に自動配信
 
+## 2026-09-15 — 推薦文に人名を書かない + archive commit と公開 gate
+
+- archive は公開 repo に commit される。 推薦文 (reason / summary) に購読者・共同研究者の名前が入っていたので除去し、
+  生成の指示 (`skill/SKILL.md` / `src/scorer.py`) に「人名を書かない」 を追加。 判断 = `DESIGN.md` 同日節
+- 公開 gate は arXiv の書誌 (著者・題名・要旨) を構造で対象外にした (claude-config
+  `conventions/confidential-repo-boundary.md#published-metadata-is-public`)。 以前は共著者の論文や自分の論文が載った日に
+  archive の自動 commit が必ず止まる状態だった
+- 手元の定期検査が直近 14 日の archive commit を今の gate に通す (claude-config `scripts/replay-public-gate.sh`)
+
 ## 2026-09-09 — Mode A (GitHub Actions) を repo レベルで disable
 
 Mode A の cron (`30 1 * * 1-5` UTC = **JST 10:30**) が Mode B のローカル routine と**同時刻**に
