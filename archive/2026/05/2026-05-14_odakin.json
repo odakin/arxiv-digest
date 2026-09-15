@@ -15,7 +15,7 @@
       "url": "https://arxiv.org/abs/2605.11062",
       "abstract": "We develop the Bogolyubov coefficient formalism for gravitational production of fermions with time-dependent mixing, which allows us to study a prototype neutrino system. The neutrino masses and mixings depend on the scalar field values, i.e. the Higgs or singlet scalar expectation values. These are time-dependent in the Early Universe and, due to de Sitter fluctuations, can reach very large values during inflation. As a result, gravitational production of all types of neutrinos can be much enhanced. We obtain an upper bound on the abundance of active and sterile neutrinos produced by classical gravity, $Y \\lesssim 10^{-11}$.",
       "score": 95,
-      "reason": "🎯Lebedev論文！重力生成+ニュートリノ+インフレ+Higgs/singletスカラーVEV依存の全部入り✨尾田の興味ど真ん中🌌💎",
+      "reason": "🎯Lebedev論文！重力生成+ニュートリノ+インフレ+Higgs/singletスカラーVEV依存の全部入り✨興味ど真ん中🌌💎",
       "summary": "時間依存質量混合のBogolyubov係数で重力生成ニュートリノを計算。de Sitter揺らぎで生成増幅、Y≲10⁻¹¹を導出🌟⚡"
     },
     {
@@ -160,7 +160,7 @@
       "url": "https://arxiv.org/abs/2605.11890",
       "abstract": "We construct an effective-field-theory bridge from late-time scalar-tensor cosmology to black-hole ringdown observables. Starting from a cosmology-conditioned EFT posterior, we lift Jordan-frame FLRW data through a finite covariant jet, transport the result to the arbitrary-background EFT for black-hole perturbations with a timelike scalar, and project it onto parity-resolved quasinormal-mode response kernels. The cosmological layer is a deterministic compressed likelihood built from BAO-like distances, growth summaries, low-redshift tensor-speed information, stability filters, and posterior samples for the ringdown pushforward. The detector layer uses Bayesian time-domain injections, one-, two-, and three-mode recovery models, analytic marginalization over linear sine/cosine amplitudes, remnant-calibration covariance products, and start-time variations. The transported posterior shows that FLRW tensor-speed deformations inherited from cosmology are driven far below ringdown detectability, whereas operators that vanish on homogeneous FLRW backgrounds can remain active in the anisotropic near zone of a black hole. For a literature-calibrated Hayward branch, we specify the prior measure, separate directly admissible points from a proxy continuation, and propagate both to detector-whitened consistency modes. The resulting framework turns cosmological viability into black-hole spectroscopy priors while keeping the strong-field completion explicit rather than assumed.",
       "score": 86,
-      "reason": "scalar-tensor cosmologyからBH ringdownへのEFT橋渡し🌌晩期宇宙論×強重力場spectroscopyの繋ぎは尾田好み✨🎯",
+      "reason": "scalar-tensor cosmologyからBH ringdownへのEFT橋渡し🌌晩期宇宙論×強重力場spectroscopyの繋ぎは好み✨🎯",
       "summary": "BAO/growth/tensor速度のEFT posteriorを準正規mode応答カーネルに転送💎FLRWで自明化する演算子もBH近接域では活性化⚡"
     },
     {

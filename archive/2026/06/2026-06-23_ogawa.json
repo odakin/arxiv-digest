@@ -34,7 +34,7 @@
       "url": "https://arxiv.org/abs/2606.19548",
       "abstract": "We revisit flavor oscillations in vacuum in terms of the propagation time of intermediate states. In the limit of a long propagation time (or distance), degenerate intermediate states exhibit oscillatory behavior, as described by the Jacob--Sachs (or Grimus--Stockinger) theorem within wave-packet quantum field theory. By explicitly evaluating the relevant integrals using the saddle-point method, we derive an extended expression for the flavor-changing amplitude that remains valid even for shorter propagation times. We show that oscillations occur only when the propagation time exceeds a threshold set by the energy uncertainty of the external wave packets and by the decay width of the propagating particle. For shorter propagation, the intermediate particle behaves as a purely virtual state, in the sense that it cannot propagate over a macroscopic distance. Although a direct experimental test of the transition from virtual to real propagation is challenging, since it typically occurs at microscopic scales, our result implies that the Jacob--Sachs theorem holds to higher accuracy than previously expected, even at short propagation times. Our formalism applies not only to neutrinos but also to other propagating particles, and future improvements in energy resolution may make this threshold observable.",
       "score": 88,
-      "reason": "🌊 共同研究グループ(尾田ら)の新作!波束QFTで振動を伝播時間から再考、波束形式と時間の話に直結✨",
+      "reason": "🌊 共同研究グループの新作!波束QFTで振動を伝播時間から再考、波束形式と時間の話に直結✨",
       "summary": "⏱️ 鞍点法でflavor変化振幅を評価、伝播時間がしきい値超で振動。短時間でも有効な拡張式を導出"
     }
   ]

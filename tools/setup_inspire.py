@@ -7,7 +7,7 @@ so hand-curated priorities are never overwritten.
 
 Usage:
     python3 -m tools.setup_inspire K.Y.Oda.1
-    python3 -m tools.setup_inspire K.Y.Oda.1 --name "Kin-ya Oda" --affiliation "TWCU"
+    python3 -m tools.setup_inspire K.Y.Oda.1 --name "Kin-ya Oda" --affiliation "Your Institute"
     python3 -m tools.setup_inspire <BAI> --profile <profile_name>
     python3 -m tools.setup_inspire --search "Kin-ya Oda"
 """

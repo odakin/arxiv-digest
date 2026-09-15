@@ -46,7 +46,7 @@
       "url": "https://arxiv.org/abs/2608.16107",
       "abstract": "We present a novel method to analyze coherent elastic neutrino--nucleus scattering (CE$\\nu$NS) data to extract the reactor antineutrino spectrum below the inverse beta decay threshold of 1.8 MeV, where it remains unmeasured. Adapting halo-independent analysis techniques developed for direct dark matter detection, we show how to obtain a best-fit and a pointwise confidence band for the integrated neutrino flux, without assuming a parametric form or smoothness prior for the spectrum. In our approach, which follows from convex geometry arguments, the differential neutrino rate is written as a linear combination of Dirac delta functions -- a finite Dirac sum (FDS) -- with a maximum number of terms determined by the number of data points. We apply our ``FDS method'' to mock CE$\\nu$NS data for a low-threshold Ge detector and compare it with Tikhonov-regularized unfolding.",
       "score": 86,
-      "reason": "共同研究者の安田さん(UCLA)の新作論文発見🎉 テーマはニュートリノ物理で普段とは違うみたい👀",
+      "reason": "共同研究者の新作論文発見🎉 テーマはニュートリノ物理で普段とは違うみたい👀",
       "summary": "CEvNSデータから未測定の低エネルギー原子炉ニュートリノスペクトルを、有限Diracサムで無仮定に抽出する新手法。"
     }
   ]

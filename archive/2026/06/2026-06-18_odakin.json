@@ -15,7 +15,7 @@
       "url": "https://arxiv.org/abs/2606.17580",
       "abstract": "The so-called Geometric Trinity of Gravity is based on three distinct geometric features of spacetime, i.e.\\ curvature, torsion and non-metricity, which give rise to equivalent dynamics for General Relativity (GR), Teleparallel Equivalent of General Relativity (TEGR) and Symmetric Teleparallel Equivalent of General Relativity (STEGR). Pre-geometric gravity, on the other hand, offers a unifying framework from which all metric-affine theories can emerge. Starting from a gauge formulation \\textit{\\`a la} Yang--Mills with a Higgs-like field, a mechanism of spontaneous symmetry breaking can give rise to an effective metric as well as to the classical dynamics of the gravitational field. In particular, the emergence of gravity in the spontaneously broken phase is shown to be consistent with all the different formulations of the Geometric Trinity of Gravity, in terms both of actions and of gauge choices for the affine connection. This general result is achieved by deriving and analysing suitable expressions in the unbroken phase for pre-geometric actions and for pre-geometric gauge-fixing conditions respectively.",
       "score": 89,
-      "reason": "テレパラ・捻率・非計量の幾何学トリニティを、Higgs型場のSSBで創発計量を生む前幾何学から統一。尾田の創発重力・スケール不変重力ど真ん中だよ🎯🌌",
+      "reason": "テレパラ・捻率・非計量の幾何学トリニティを、Higgs型場のSSBで創発計量を生む前幾何学から統一。創発重力・スケール不変重力ど真ん中だよ🎯🌌",
       "summary": "Yang-Mills型ゲージ理論＋Higgs的場の自発的対称性の破れから実効計量とGRの古典力学がemergeする枠組み。メトリック・アフィン理論を包括的に統一✨"
     },
     {
@@ -48,7 +48,7 @@
       "url": "https://arxiv.org/abs/2606.18184",
       "abstract": "We present a paraxial wavepacket model for collimated gravitational-wave bursts and derive the coherent response of detector networks to these structured signals. For current LIGO-Virgo baselines, analytic mismatch estimates and overlaps show that PWM waveforms are effectively indistinguishable from standard sine-Gaussian bursts, validating the plane-wave approximation. We then identify a regime relevant to third-generation networks in which finite transverse structure produces non-negligible geometric phase shifts. A toy event-level Monte Carlo compares a standard burst-search ranking with a paraxial wavepacket model-constrained statistic that penalizes geometric inconsistencies across detectors; in this controlled setup, the PWM prior yields a factor of $\\sim3$-$4$ gain in detection efficiency at a fixed false-alarm rate, while maintaining performance on plane-wave-like signals.",
       "score": 85,
-      "reason": "「平面波を超えて」波束で重力波バーストを記述。尾田の波束形式（plane-wave超え）と直結のテーマだね🌊📡",
+      "reason": "「平面波を超えて」波束で重力波バーストを記述。波束形式（plane-wave超え）と直結のテーマだね🌊📡",
       "summary": "paraxial波束モデルで検出器網応答を導出。現行LIGO-Virgoでは平面波近似で十分、3G網では有限横構造の幾何位相効果が効くと指摘⚡"
     }
   ]

@@ -82,6 +82,8 @@ For each paper scoring {threshold} or above, output in {lang_name}:
 - score: 0-100
 - reason: recommendation text, max 120 chars (why this paper is interesting, {tone_desc}). Emoji: {emoji_desc}
 - summary: technical summary, max 120 chars (concise explanation). Emoji: {emoji_desc}
+- Do not put personal names in reason or summary (not the subscriber, not a collaborator, not an author). \
+Author names are already in the delivered item; say "a collaborator's paper" instead of naming or placing anyone.
 
 {f"## Additional Instructions{chr(10)}{extra_instructions}" if extra_instructions else ""}
 

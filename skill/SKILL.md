@@ -35,6 +35,7 @@ arXiv 日刊ダイジェストを全プロファイル分まとめて実行す�
    - 要約（summary）: 技術的内容の簡潔な説明（**最大120文字**）
    - 絵文字の量は style.emoji_level に従う（none/light/moderate/heavy）
    - reason + summary は合計240文字以内を厳守
+   - **reason・summary に人名を書かない** (購読者本人・共同研究者・著者の誰も)。 購読者は名前で呼ばず (「ど真ん中」「好みのテーマ」 で足りる)、 共同研究者の論文は「共同研究者の論文」 とだけ書く。 著者名は `authors` に既にあり、 **archive は公開 repo に commit される** ので、 名前と関係を書くと公開の gate に止められて archive の commit が失敗する
 5. スコア結果を `state/scored_papers_{profile}.json` に JSON で書き出す:
    ```json
    {
