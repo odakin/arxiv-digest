@@ -1,0 +1,63 @@
+{
+  "total_fetched": 155,
+  "scored_papers": [
+    {
+      "arxiv_id": "2609.13140",
+      "title": "Big Bang For Your Helium Buck",
+      "authors": [
+        "Marilena Loverde",
+        "Murali M. Saravanan",
+        "Zachary J. Weiner"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2609.13140",
+      "abstract": "We study the implications of a recent measurement of the primordial helium fraction from the Large Binocular Telescope for cosmological inference from the cosmic microwave background. We show that LBT establishes the robustness of cosmological parameters to theoretical assumptions about big bang nucleosynthesis: its empirical calibration of the helium fraction enables constraints on cosmology and inflation that are agnostic to BBN but as precise as those that instead enforce standard BBN predictions. Future CMB surveys require at most a marginal improvement in precision over LBT to maximize their BBN-agnostic constraining power when the radiation density is free (and no more than a factor of two improvement across all cases we consider). We then apply the LBT measurement to a number of scenarios that feature new physics in BBN and the CMB. First, we constrain nonstandard radiation sectors (interacting and free-streaming) and search for evolution of the radiation abundance between nucleosynthesis and recombination. We then test models that alleviate the Hubble tension and the tension between CMB and baryon acoustic oscillation data, including self-interacting light relics and varying fundamental constants; LBT precludes most but not all of the models we consider via their effect on BBN. Finally, we use the LBT measurement as an indirect but independent test of the neutron lifetime anomaly, inferring values that are consistent with \"bottle\" experiments and $2.4 \\sigma$ below \"beam\" experiments.",
+      "score": 88,
+      "reason": "🎯LBT の He 測定で『BBN を仮定しない CMB 制限』が現実に。📉EDE 系や定数変動など H0 緊張の解の多くをふるい落とす、緊張論争の新しい物差し",
+      "summary": "🔬He 存在量の経験的較正で BBN 非依存でも同等精度を達成。⚡相互作用する light relic・輻射進化・中性子寿命アノマリーまで横断的に検証"
+    },
+    {
+      "arxiv_id": "2609.12065",
+      "title": "The Role of Big Bang Nucleosynthesis in Joint Cosmological Analyses",
+      "authors": [
+        "Mehmet Akharman",
+        "Nicholas DePorzio",
+        "Cara Giovanetti",
+        "Hongwan Liu"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.12065",
+      "abstract": "We perform joint Baryon Acoustic Oscillation (BAO) + Big Bang Nucleosynthesis (BBN) and BAO+BBN+Cosmic Microwave Background (CMB) analyses with Planck CMB and DESI DR2 BAO data, explicitly marginalizing over BBN nuisance parameters for the first time with these data combinations and paying particular attention to the impact of BBN on these results. We find in our fiducial analyses $h=0.6833^{+0.0048}_{-0.0053}$ ($\\Lambda$CDM, BAO+BBN), $h=0.6823^{+0.0027}_{-0.0026}$ ($\\Lambda$CDM, BAO+BBN+CMB), as well as $h=0.6791^{+0.0069}_{-0.0075},N_{\\rm{eff}}=2.974^{+0.098}_{-0.099}$ ($\\Lambda$CDM+$N_{\\rm{eff}}$, BAO+BBN), and $h=0.6838^{+0.0052}_{-0.0054},N_{\\rm{eff}}=3.065^{+0.078}_{-0.076}$ ($\\Lambda$CDM+$N_{\\rm{eff}}$, BAO+BBN+CMB). We demonstrate how investigator choices can impact results of joint analyses involving BBN. We provide recommendations for the treatment of BBN in light of recent work, and demonstrate a pipeline that accurately accounts for prediction uncertainties in BBN.",
+      "score": 87,
+      "reason": "📊BAO+BBN(+CMB) で h と N_eff を出す時、BBN の扱いが結果をどれだけ動かすかを初めて明示的に周辺化🔎緊張の議論の足場を点検する一本",
+      "summary": "🧮Planck + DESI DR2 で BBN nuisance を周辺化し h=0.6823±0.0027 等を提示。⚠️解析者の選択が効く点を示し推奨手順まで整理"
+    },
+    {
+      "arxiv_id": "2609.12867",
+      "title": "Probing Inflationary Origins of Primordial Black Holes with LIGO--Virgo--KAGRA O1--O4a data",
+      "authors": [
+        "Haipeng An",
+        "Huai-Ke Guo",
+        "Mai Qiao",
+        "Lian-Tao Wang",
+        "Chen Yang",
+        "Yue Zhao"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.12867",
+      "abstract": "Large primordial curvature perturbations not only produce primordial black holes (PBHs) but also inevitably source a scalar-induced stochastic gravitational-wave background upon horizon reentry. We analyze the combined LIGO--Virgo--KAGRA O1--O4a data to constrain two representative inflationary mechanisms for generating such perturbations: ultra-slow-roll inflation and an inflationary phase transition. Detecting no evidence for either scenario, we place 95% credible upper limits on the curvature-spectrum amplitude across the frequency range accessible to ground-based interferometers. Translated into the PBH context, these limits already exceed conventional constraints, probing abundance fractions far below unity. Our results remain robust even when the PBHs themselves are too rare to be directly detected or have evaporated. This work demonstrates that stochastic gravitational-wave observations offer a powerful and complementary probe of small-scale inflationary physics and PBH formation, with upcoming interferometers promising to extend sensitivity to a wider range of inflationary epochs and PBH masses.",
+      "score": 85,
+      "reason": "🌌ultra-slow-roll と inflationary phase transition を LVK O1–O4a で直接制限📡PBH が軽くて見えない場合でも効く、小スケール inflation の探り方",
+      "summary": "📈曲率揺らぎ由来の scalar-induced GW background を地上干渉計帯域で探索。🔭95% 上限は従来の PBH 制限を超える存在量領域に到達"
+    }
+  ]
+}

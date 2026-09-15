@@ -1,0 +1,21 @@
+{
+  "total_fetched": 155,
+  "scored_papers": [
+    {
+      "arxiv_id": "2609.12786",
+      "title": "Spatial symmetry in few-photon interference and quantum metrology",
+      "authors": [
+        "'Eloi Descamps",
+        "P'erola Milman"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.12786",
+      "abstract": "In previous work [Physical Review Letters, 136(6):060807, 2026], we developed a symmetry-based framework for generalized Hong-Ou-Mandel interference and its applications to quantum metrology. Here, we apply this framework to experimentally accessible configurations involving a few photons and explore how it sheds new light on a variety of existing results while suggesting new experimental perspectives. We first reinterpret a two-photon Mach-Zehnder interferometer as a generalized Hong-Ou-Mandel experiment and show how its photon-counting statistics and metrological performance follow from the spatial symmetry of an effective probe state. We then study two coherently pumped parametric photon-pair sources, derive their complete output distribution, and connect source indistinguishability with spatial symmetry. Finally, we extend the discussion to a three-mode interferometer and show that the same symmetry principles provide a natural description of three-photon interference in tritter configurations.",
+      "score": 93,
+      "reason": "🎯ど真ん中の一本。2 光子干渉を空間対称性で整理する枠組みを、MZ・pair source・tritter という実験しやすい配置に落とし込んでいる🔬✨",
+      "summary": "📐一般化 HOM の対称性枠組みを少数光子系へ適用。2 光子 MZ を実効プローブ状態の対称性で読み替え、pair source の出力分布・識別不能性、3 モード干渉まで導出🪞"
+    }
+  ]
+}

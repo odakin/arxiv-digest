@@ -1,0 +1,75 @@
+{
+  "total_fetched": 155,
+  "scored_papers": [
+    {
+      "arxiv_id": "2609.12657",
+      "title": "How Far Can Vierbeins Simplify Gravity?",
+      "authors": [
+        "Boris Latosh"
+      ],
+      "categories": [
+        "hep-th",
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2609.12657",
+      "abstract": "We construct a classical formulation of gravity in terms of the vierbein that makes the Hilbert action polynomial in gravitational perturbations and identify some matter models that admit a polynomial coupling to such perturbations as well. We introduce the density vierbein variables that factorize the inverse metric density while retaining an explicit local Lorentz frame. With the introduction of a new auxiliary field, one can construct an action that is polynomial in such variables and their perturbations. Constructed the BRST complex for the model and derived propagators and interaction rules. In four dimensions, a scalar field with the canonical kinetic term and a potential admits a finite number of coupling terms with the density vierbein perturbations. Among all Horndeski gravity models, only a narrow subclass admits a polynomial coupling to the density vierbein perturbations. For instance, the Einstein--scalar--Gauss--Bonnet model always has an infinite tower of interactions with the density vierbein perturbation. Similarly, the standard kinetic term for the Dirac fermions and the standard kinetic term for a vector field both admit an infinite tower of interactions. Consequently, the density vierbein variables provide a great simplification for scalar-gravitational couplings, but the simplification is not strong enough to produce a realistic model with a finite number of matter-gravity terms.",
+      "score": 93,
+      "reason": "🔥ど真ん中！🪢 vierbein で重力をどこまで多項式化できるか、という問いに正面から答える一本。✨local Lorentz frame を保ったまま📐、結論も潔い👀",
+      "summary": "📐密度 vierbein 変数で逆計量密度を分解し Hilbert 作用を摂動の多項式化。🔬スカラーは有限項で済むが、Dirac・ベクトル・EsGB は無限塔が残る⚠️"
+    },
+    {
+      "arxiv_id": "2609.13140",
+      "title": "Big Bang For Your Helium Buck",
+      "authors": [
+        "Marilena Loverde",
+        "Murali M. Saravanan",
+        "Zachary J. Weiner"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2609.13140",
+      "abstract": "We study the implications of a recent measurement of the primordial helium fraction from the Large Binocular Telescope for cosmological inference from the cosmic microwave background. We show that LBT establishes the robustness of cosmological parameters to theoretical assumptions about big bang nucleosynthesis: its empirical calibration of the helium fraction enables constraints on cosmology and inflation that are agnostic to BBN but as precise as those that instead enforce standard BBN predictions. Future CMB surveys require at most a marginal improvement in precision over LBT to maximize their BBN-agnostic constraining power when the radiation density is free (and no more than a factor of two improvement across all cases we consider). We then apply the LBT measurement to a number of scenarios that feature new physics in BBN and the CMB. First, we constrain nonstandard radiation sectors (interacting and free-streaming) and search for evolution of the radiation abundance between nucleosynthesis and recombination. We then test models that alleviate the Hubble tension and the tension between CMB and baryon acoustic oscillation data, including self-interacting light relics and varying fundamental constants; LBT precludes most but not all of the models we consider via their effect on BBN. Finally, we use the LBT measurement as an indirect but independent test of the neutron lifetime anomaly, inferring values that are consistent with \"bottle\" experiments and $2.4 \\sigma$ below \"beam\" experiments.",
+      "score": 88,
+      "reason": "🎯中性子寿命アノマリーを He 存在量から独立に叩く話！🍀 bottle 側と整合・beam とは 2.4σ ずれ⚡誤差の上の誤差を扱ってきた身には刺さる📈🔭",
+      "summary": "🔬LBT の初期 He 測定で BBN 非依存の CMB 制限を構築。📊N_eff・自己相互作用 light relic・定数変動など H0 緊張の解も大半を排除⚡"
+    },
+    {
+      "arxiv_id": "2609.12786",
+      "title": "Spatial symmetry in few-photon interference and quantum metrology",
+      "authors": [
+        "'Eloi Descamps",
+        "P'erola Milman"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.12786",
+      "abstract": "In previous work [Physical Review Letters, 136(6):060807, 2026], we developed a symmetry-based framework for generalized Hong-Ou-Mandel interference and its applications to quantum metrology. Here, we apply this framework to experimentally accessible configurations involving a few photons and explore how it sheds new light on a variety of existing results while suggesting new experimental perspectives. We first reinterpret a two-photon Mach-Zehnder interferometer as a generalized Hong-Ou-Mandel experiment and show how its photon-counting statistics and metrological performance follow from the spatial symmetry of an effective probe state. We then study two coherently pumped parametric photon-pair sources, derive their complete output distribution, and connect source indistinguishability with spatial symmetry. Finally, we extend the discussion to a three-mode interferometer and show that the same symmetry principles provide a natural description of three-photon interference in tritter configurations.",
+      "score": 86,
+      "reason": "✨2 光子干渉を『空間対称性』で統一的に読む枠組み🪞 HOM の一般化として MZ・pair source・tritter まで一気通貫🎯波束形式の隣で要チェック👀🔍",
+      "summary": "📐実効プローブ状態の空間対称性から計数統計と計量性能が決まると示す。🔬2 つのコヒーレント励起 pair source の出力分布も導出、3 モードまで拡張✨"
+    },
+    {
+      "arxiv_id": "2609.12052",
+      "title": "Constraining Ultralight Scalars with Black Hole Binary Mergers in Galactic Nuclei",
+      "authors": [
+        "Majed Khalaf",
+        "Eric Kuflik",
+        "Alessandro Lenoci",
+        "Nicholas Chamberlain Stone",
+        "Ofri Telem"
+      ],
+      "categories": [
+        "gr-qc",
+        "astro-ph.HE",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.12052",
+      "abstract": "Ultralight scalars can form long-lived, macroscopic bound states around spinning black holes, known as superradiance clouds. These clouds provide an additional channel for energy dissipation during close encounters, enhancing the black hole binary formation and merger rates in dense environments such as galactic nuclei. We show that the rate of mergers with mass ratio below $3/10$ in the LIGO-Virgo-KAGRA GWTC-5 catalog can probe ultralight scalars in the mass range $[4\\times 10^{-14},10^{-13}]$ eV, complementing existing strategies based on black hole spin measurements.",
+      "score": 85,
+      "reason": "🌀超放射クラウドが連星形成を加速する、という新しい効き口⚡GWTC-5 の質量比 <3/10 のレートから軽いスカラーを制限🎯スピン測定とは独立の経路🔭✨",
+      "summary": "🕳近接遭遇でクラウドがエネルギーを散逸させ合体率を上げると指摘。📈4×10⁻¹⁴–10⁻¹³ eV の質量域を LVK カタログのレートで探れると示す🔬"
+    }
+  ]
+}
