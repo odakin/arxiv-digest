@@ -1,0 +1,74 @@
+{
+  "total_fetched": 336,
+  "scored_papers": [
+    {
+      "arxiv_id": "2609.13870",
+      "title": "Hiai--Petz Skew Informations and Sharp Uncertainty Relations for a Single Observable",
+      "authors": [
+        "Gen Kimura"
+      ],
+      "categories": [
+        "quant-ph",
+        "math-ph",
+        "math.MP"
+      ],
+      "url": "https://arxiv.org/abs/2609.13870",
+      "abstract": "We study intrinsic quantum uncertainty associated with a single observable from the viewpoint of skew information. By relaxing ordinary additivity while retaining the other fundamental uncertainty requirements, we introduce a class of Hiai--Petz nonadditive skew informations that contains Hansen's metric-adjusted skew informations as the boundary case $\\theta=1$. Our main quantitative result is a sharp single-observable uncertainty relation for the full Hiai--Petz class. For a fixed state, the optimal coefficient depends only on its largest and smallest eigenvalues and remains sharp even after the maximal classical contribution to the variance is retained. The general theorem yields, as special cases, sharp bounds for metric-adjusted skew informations, the SLD quantum Fisher information, and the power-commutator family. We further show that $K_s(\\rho,A)=\\frac12\\|[\\rho^s,A]\\|_{\\mathrm{HS}}^2$, $1/2\\le s<1$, is realized within the Hiai--Petz framework through Stolarsky operator means, thereby establishing its convexity for $1/2<s<1$. More generally, for each fixed operator monotone function $f$, the Hiai--Petz spectral kernel interpolates geometrically between the metric-adjusted skew information $I^f$ and the common endpoint $K_1$. The resulting family obeys an exact power-trace-weighted composition law, replacing ordinary additivity in the interior $0<\\theta<1$.",
+      "score": 91,
+      "reason": "🎯 単一オブザーバブルの本質的な量子ゆらぎに対するシャープな不確定性関係✨ 不確定性関係まわりの好みのテーマど真ん中です📐",
+      "summary": "🔍 加法性を緩めた Hiai-Petz 型の非加法的スキュー情報を導入し、状態の最大・最小固有値だけで決まる最適係数を証明。SLD 量子 Fisher 情報も特殊例✨"
+    },
+    {
+      "arxiv_id": "2609.14627",
+      "title": "Emergent Einstein-Cartan gravity from a spinor loop",
+      "authors": [
+        "Yadikaer Maitiniyazi",
+        "Shinya Matsuzaki",
+        "Kin-ya Oda",
+        "Yoshiki Uchida",
+        "Masatoshi Yamada"
+      ],
+      "categories": [
+        "hep-th",
+        "gr-qc",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.14627",
+      "abstract": "In Einstein-Cartan spinor gravity under the irreversible vierbein postulate, only the spinor among the first-order variables has a kinetic term of its own at tree level. Any nonzero background vierbein breaks the local-Lorentz (LL) symmetry spontaneously. Our previous work showed that the spinor loop generates the kinetic and mass terms of the LL gauge field, manifesting LL as a hidden local symmetry. Here we show that the spinor loop also generates the vierbein two-point function, while respecting the background gauge invariance and satisfying the Ward-Takahashi identities of the true gauge invariance, for both the general-coordinate and LL symmetries. The scheme-independent logarithmic divergence assembles the familiar induced-gravity ingredients: a cosmological constant, an Einstein-Hilbert and a Weyl-squared term for the metric sector, and a mass and a higher-derivative kinetic term for the totally antisymmetric torsion. In the vierbein sector, this torsion is carried by the derivative of the antisymmetric part of the linear vierbein fluctuation. This part is the would-be Nambu-Goldstone boson of the spontaneously broken LL symmetry, and its couplings in the minimally coupled action are all fixed by general-coordinate and LL gauge invariance. The five induced terms form a single effective action, manifestly invariant under both symmetries, completing the vierbein sector of the hidden-local-Lorentz emergent-gravity scenario.",
+      "score": 88,
+      "reason": "🤝 共同研究者の論文です✨ Einstein-Cartan 重力で、スピノルの1ループが重力の運動項を生成するという結果📐",
+      "summary": "🌀 スピノルループが vierbein の2点関数を生み、宇宙定数・Einstein-Hilbert・Weyl²項と捩率の質量項が誘導される。Ward-Takahashi 恒等式も満たす🔬"
+    },
+    {
+      "arxiv_id": "2609.14480",
+      "title": "Exact computation of quantum wave functions for nonlinear potentials",
+      "authors": [
+        "Winfried Loghmiller",
+        "Jean-Jacques Slotine"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.14480",
+      "abstract": "Recent work shows that the Schroedinger equation can be solved exactly based only on classical least action rspa.2025.0413. The computation is based on first solving a Hamilton-Jacobi equation for the action, computing the classical propagated density along all stationary action paths, and finally constructing the exact kernel and wave function based on these classical quantities alone. The method requires that the propagated classical square root density along each stationary action path is harmonic (where a sufficient condition is that the Laplacian of the propagated action is purely time-varying), as is the case for basic examples such as the double-slit, quantum tunneling, the Einstein-Podolsky-Rosen experiment, or also as discussed here the relativistic propagator of a Higgs boson. This density is fundamentally different from using the Madelung density, which is the norm of an existing overall quantum wave.\n  In the case of arbitrary nonlinear potentials, this condition can still be verified without loss of generality, by using a harmonic coordinate transformation and an associated time scaling for the propagated classical density and quantum wave, as this paper details. The resulting quantum wave of the time-scaled Schroedinger equation is equivalent to the quantum wave of the original Schroedinger equation, extending a standard result of Duru and Kleinert. Hence, in principle it can replace the approximations of quantum perturbation theory.\n  For 1 to 3-dimensional systems, this harmonic coordinate change transforms a nonlinear potential into the quadratic potential of a linear oscillator, for which an exact analytic action and wave solution are already known. This makes the construction of the quantum wave beyond the hydrogen wave straightforward for basic cases where no exact solution has been derived, such as the quartic potential or the nonlinear pendulum.",
+      "score": 87,
+      "reason": "✨ 古典最小作用だけから波動関数を厳密に構成する話🌀 波束や伝播核まわりの関心と相性が良さそうです🎯",
+      "summary": "📐 停留作用経路上の古典密度が調和的なら厳密な核が書ける。非線形ポテンシャルも調和座標変換で扱えると主張し、二重スリットや EPR を例示🔍"
+    },
+    {
+      "arxiv_id": "2609.13312",
+      "title": "Physical Counterexamples to the Wigner Shannon Entropy Conjecture",
+      "authors": [
+        "Zixuan He"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.13312",
+      "abstract": "We construct physical quantum states with everywhere positive Wigner functions whose Shannon entropy lies below the vacuum value $1+\\ln\\pi$. Besides an explicit finite-energy counterexample, we obtain rank-two finite-Fock-support families with analytic positivity and entropy bounds. For fixed Fock level $n$ and coherence fraction $0\\le\\lambda<1$, the entropy difference satisfies $h(W)-(1+\\ln\\pi)=(2n-2^n\\lambda^2)t^2+O_{n,\\lambda}(t^4)$, yielding finite-support counterexamples for every $n\\ge3$ above an explicit coherence threshold. We also show that the absence of a negative quadratic term does not preclude entropy descent: a fully coherent vacuum--one-photon core with a vanishing positive thermal repair gives $h(W)-(1+\\ln\\pi)=-4t^6/3+o(t^6)$. For the vacuum--three-photon construction, we determine the logarithmic asymptotic of the minimum fixed-thermal mixing weight required for Wigner nonnegativity. Finally, optimizing over all one-mode Wigner-nonnegative states with mean photon number at most $E$, we prove that the maximal entropy deficit has the sharp scale $E^\\gamma/[\\ln(1/E)]^\\beta$, where $\\gamma\\simeq0.7412033679$ and $\\beta\\simeq0.5861054961$. Thus the vacuum entropy is recovered as $E\\to0$, but the optimal deficit decays much more slowly than any universal linear correction in the mean energy.",
+      "score": 86,
+      "reason": "🎯 Wigner 関数が至る所正なのに Shannon エントロピーが真空値を下回る状態を構成✨ エントロピー的不確定性の常識を揺さぶる一本🔍",
+      "summary": "📐 有限エネルギーの反例に加え、有限 Fock 台のランク2族を解析的に構成。平均光子数を制限したときの最大エントロピー欠損のスケールも導出✨"
+    }
+  ]
+}

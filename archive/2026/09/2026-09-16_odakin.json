@@ -1,0 +1,61 @@
+{
+  "total_fetched": 336,
+  "scored_papers": [
+    {
+      "arxiv_id": "2609.14627",
+      "title": "Emergent Einstein-Cartan gravity from a spinor loop",
+      "authors": [
+        "Yadikaer Maitiniyazi",
+        "Shinya Matsuzaki",
+        "Kin-ya Oda",
+        "Yoshiki Uchida",
+        "Masatoshi Yamada"
+      ],
+      "categories": [
+        "hep-th",
+        "gr-qc",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.14627",
+      "abstract": "In Einstein-Cartan spinor gravity under the irreversible vierbein postulate, only the spinor among the first-order variables has a kinetic term of its own at tree level. Any nonzero background vierbein breaks the local-Lorentz (LL) symmetry spontaneously. Our previous work showed that the spinor loop generates the kinetic and mass terms of the LL gauge field, manifesting LL as a hidden local symmetry. Here we show that the spinor loop also generates the vierbein two-point function, while respecting the background gauge invariance and satisfying the Ward-Takahashi identities of the true gauge invariance, for both the general-coordinate and LL symmetries. The scheme-independent logarithmic divergence assembles the familiar induced-gravity ingredients: a cosmological constant, an Einstein-Hilbert and a Weyl-squared term for the metric sector, and a mass and a higher-derivative kinetic term for the totally antisymmetric torsion. In the vierbein sector, this torsion is carried by the derivative of the antisymmetric part of the linear vierbein fluctuation. This part is the would-be Nambu-Goldstone boson of the spontaneously broken LL symmetry, and its couplings in the minimally coupled action are all fixed by general-coordinate and LL gauge invariance. The five induced terms form a single effective action, manifestly invariant under both symmetries, completing the vierbein sector of the hidden-local-Lorentz emergent-gravity scenario.",
+      "score": 98,
+      "reason": "🎯🔥 Einstein-Cartan × 隠れた局所ローレンツ対称性、まさにど真ん中のテーマ✨ スピノルのループから重力が生まれる話は要チェック👀🚀",
+      "summary": "🌀 スピノル1ループが vierbein の2点関数を生成し、宇宙定数・Einstein-Hilbert・Weyl²項と捩率の質量項が誘導されると示した📐⚡"
+    },
+    {
+      "arxiv_id": "2609.14318",
+      "title": "From CMB to LHC: A hybrid inflation model with gauged scale symmetry",
+      "authors": [
+        "Jinger Wu",
+        "Mei Huang",
+        "Qi-Shu Yan",
+        "He-Xu Zhang"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2609.14318",
+      "abstract": "We propose a hybrid inflation model based on gauged scale symmetry, in which an axion-like field drives inflation while the Standard Model Higgs serves as the waterfall field. During slow-roll inflation, the Higgs is trapped in the electroweak-symmetric vacuum. When the inflaton reaches a critical value, the Higgs acquires a nonzero vacuum expectation value and and triggers electroweak symmetry breaking (EWSB) through the waterfall dynamics. We identify viable parameter regions that simultaneously accommodate current cosmic microwave background observations and Higgs data from the Large Hadron Collider. The relaxation mechanism connects the inflationary and electroweak scales by reducing the large vacuum-energy contribution required during inflation. Our framework thus provides a dynamical connection between inflation and EWSB.",
+      "score": 89,
+      "reason": "✨🎈 ゲージ化されたスケール対称性でインフレーション、しかも Higgs がウォーターフォール役🔥 CMB と LHC を繋ぐ野心作👏🌌",
+      "summary": "🪄 axion 的な場がインフレーションを駆動し、臨界値で Higgs が vev を得て電弱対称性が破れる。CMB と LHC 両方に整合する領域を特定⚡🔭"
+    },
+    {
+      "arxiv_id": "2609.14480",
+      "title": "Exact computation of quantum wave functions for nonlinear potentials",
+      "authors": [
+        "Winfried Loghmiller",
+        "Jean-Jacques Slotine"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.14480",
+      "abstract": "Recent work shows that the Schroedinger equation can be solved exactly based only on classical least action rspa.2025.0413. The computation is based on first solving a Hamilton-Jacobi equation for the action, computing the classical propagated density along all stationary action paths, and finally constructing the exact kernel and wave function based on these classical quantities alone. The method requires that the propagated classical square root density along each stationary action path is harmonic (where a sufficient condition is that the Laplacian of the propagated action is purely time-varying), as is the case for basic examples such as the double-slit, quantum tunneling, the Einstein-Podolsky-Rosen experiment, or also as discussed here the relativistic propagator of a Higgs boson. This density is fundamentally different from using the Madelung density, which is the norm of an existing overall quantum wave.\n  In the case of arbitrary nonlinear potentials, this condition can still be verified without loss of generality, by using a harmonic coordinate transformation and an associated time scaling for the propagated classical density and quantum wave, as this paper details. The resulting quantum wave of the time-scaled Schroedinger equation is equivalent to the quantum wave of the original Schroedinger equation, extending a standard result of Duru and Kleinert. Hence, in principle it can replace the approximations of quantum perturbation theory.\n  For 1 to 3-dimensional systems, this harmonic coordinate change transforms a nonlinear potential into the quadratic potential of a linear oscillator, for which an exact analytic action and wave solution are already known. This makes the construction of the quantum wave beyond the hydrogen wave straightforward for basic cases where no exact solution has been derived, such as the quartic potential or the nonlinear pendulum.",
+      "score": 86,
+      "reason": "🤯✨ 古典最小作用だけから Schrödinger 方程式を厳密に解く話🌀 二重スリットもトンネルも EPR も同じ枠組みで出てくるの面白い🎯🚀",
+      "summary": "📐 停留作用経路に沿った古典密度が調和的なら厳密な核が作れる。非線形ポテンシャルでも調和座標変換で条件を満たせると主張🔍✨"
+    }
+  ]
+}

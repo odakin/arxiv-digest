@@ -1,0 +1,116 @@
+{
+  "total_fetched": 336,
+  "scored_papers": [
+    {
+      "arxiv_id": "2609.14937",
+      "title": "Entanglement free Metrology Exploiting Multimode Hong Ou Mandel Sensor Advantage",
+      "authors": [
+        "Qian Li",
+        "Jianning Han"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.14937",
+      "abstract": "The Hong-Ou-Mandel (HOM) interference in the multimode frequency domain has been widely used in precision metrology, benefiting from robustness against dispersion and phase noise, as well as a large dynamic range and compatibility with fragile samples. Conventional multimode HOM metrology exploits frequency-entangled states, which naturally satisfy bosonic exchange symmetry under any centered symmetric joint spectral distribution, to provide these advantages. However, these entangled states are typically generated via spontaneous parametric down-conversion (SPDC), requiring strong pump lasers that hinder practical implementation. In this paper, we employ frequency product states, which do not possess entanglement or path-mode exchange symmetry, as the probe state and post-select measurement outcomes exhibiting frequency anti-correlation. Our results demonstrate that these metrological advantages arise neither from entanglement nor from bosonic exchange symmetry, but rather from spectral anti-correlation",
+      "score": 92,
+      "reason": "🎯 多モード HOM 干渉計測の利点が、実はもつれでも交換対称性でもないと主張する論文✨ 二光子干渉のど真ん中です🔬",
+      "summary": "🔍 SPDC のもつれ状態の代わりに周波数積状態を使い、周波数反相関のイベントを後選択するだけで分散耐性や広ダイナミックレンジが得られると実証✨"
+    },
+    {
+      "arxiv_id": "2609.14700",
+      "title": "Spin-spin entanglement at high energy",
+      "authors": [
+        "Michael Fucilla",
+        "Yoshitaka Hatta",
+        "Bo-Wen Xiao"
+      ],
+      "categories": [
+        "hep-ph",
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.14700",
+      "abstract": "Spin correlations offer a quantum-information perspective on the partonic final states produced in high-energy scattering. We discuss the spin-density matrix of a heavy quark-antiquark pair in two complementary small-$x$ processes. In coherent diffractive production, color-singlet exchange enforces an unusually strong relation between entanglement and Bell nonlocality: a longitudinal photon creates a maximally entangled pair, whereas for a transverse photon the pair is generically both entangled and Bell nonlocal, with a model-independent point of maximal entanglement. In inclusive back-to-back production, the density matrix factorizes into a hard spin tensor and the unpolarized and linearly polarized Weizs\\\"acker--Williams gluon distributions. The latter generates an azimuthal modulation and can increase the concurrence when the dijet relative momentum and imbalance are approximately orthogonal. Strikingly, in the saturation model considered, nonlinear effects wash out this modulation for $q_\\perp\\lesssim 3Q_s$, whereas the dilute BFKL limit, in which $G_2/G_0\\to1$, yields a maximal modulation independent of the imbalance magnitude. These results connect quantum-information observables with the Pomeron and saturation physics.",
+      "score": 89,
+      "reason": "⚛️ 高エネルギー散乱の終状態スピン相関を、もつれと Bell 非局所性の言葉で読む話✨ 素粒子側のもつれの関心と直結🎯",
+      "summary": "🔬 コヒーレント回折生成では縦光子が最大もつれ対を作り、横光子なら Bell 非局所にもなる。包括的背面生成では線形偏極グルーオン分布が方位角変調を生む📐"
+    },
+    {
+      "arxiv_id": "2609.15843",
+      "title": "Limits on the atomic description of four-wave mixing",
+      "authors": [
+        "Irvin F. 'Angeles-Aguill'on",
+        "Nieves Arias-T'ellez",
+        "Pablo Yanes-Thomas",
+        "Alejandro Kunold",
+        "Daniel Sahag'un-S'anchez"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.15843",
+      "abstract": "The limits of the well-established single-atom model for describing photon-pair generation via four-wave mixing in a diamond configuration in atomic ensembles are experimentally tested. Using a cold-atom source, biphotons are generated and detected through polarization analyzers that resolve the emitted light into horizontal and vertical components in the laboratory frame. The pump lasers driving the first and second excitation transitions are horizontally and vertically polarized, respectively. To predict single-photon counts and coincidence rates in all polarization channels, the first- and second-order correlation functions are calculated directly using a comprehensive model that accounts for all Zeeman sublevels of the relevant hyperfine states. Furthermore, the population dynamics with and without the re-pump laser of the magneto-optical trap are compared, revealing substantial differences in the populations of the Zeeman sublevels. This motivates the inclusion of two additional hyperfine levels and their corresponding Zeeman sublevels in the final model. The resulting density matrix is used to calculate expectation values of the far-field electric-field operators and compare them with experimental measurements over a range of pump-laser powers. Excellent agreement with the measured photon counts is obtained over most of this range. For the coincidence measurements, good agreement is found when the polarization of the photon generated by the first (second) decay is parallel to that of the first (second) pump beam. In contrast, the model consistently underestimates the experimental coincidence rates for the opposite polarization configuration. These findings indicate that effects beyond the internal level dynamics of individual atoms, most notably collective phenomena, are required to fully account for photon coincidences generated by four-wave mixing in atomic ensembles.",
+      "score": 88,
+      "reason": "🔬 4光波混合による二光子生成を単一原子モデルでどこまで書けるか、実験で限界を測った論文✨ 二光子相関の扱いが参考になりそう🎯",
+      "summary": "📐 冷却原子でバイフォトンを生成し偏光分解で単一計数と同時計数を測定。関連超微細準位の Zeeman 副準位を全部入れた模型で1次・2次相関関数を計算🔍"
+    },
+    {
+      "arxiv_id": "2609.15575",
+      "title": "Bell-inequality violation in light transmitted through disordered emitter ensembles",
+      "authors": [
+        "Ruolin Guan",
+        "Vineesha Srivastava",
+        "Kasper J. Kusmierek",
+        "Ivan Vybornyi",
+        "Klemens Hammerer"
+      ],
+      "categories": [
+        "quant-ph",
+        "physics.optics"
+      ],
+      "url": "https://arxiv.org/abs/2609.15575",
+      "abstract": "We show that light transmitted through a disordered ensemble of weakly coupled two-level emitters can violate a Bell inequality in a continuous-wave Franson-type measurement. The Bell signal is determined by two steady-state output-field correlations, the equal-time intensity correlation $g^{(2)}(0)$ and the phase-sensitive two-photon coherence $R$. We compute these quantities for bidirectional propagation through disordered emitter ensembles using a fourth-order cumulant expansion of the many-body master equation. The resulting Bell inequality violation appears in two distinct regimes, an antibunched regime where equal-time coincidences are suppressed and a bunched regime where photon pairs remain phase coherent. Extrapolating the numerics to a representative weak single-emitter coupling $\\beta=0.01$ predicts violation in the antibunched regime for atom numbers $N\\simeq75$-$220$, and in the bunched regime for $N\\gtrsim250$.",
+      "score": 87,
+      "reason": "✨ 無秩序な原子集団を透過した光が Franson 型測定で Bell 不等式を破るという予言🎯 二光子コヒーレンスの扱いが面白い🔬",
+      "summary": "🔍 定常出力の g⁽²⁾(0) と位相敏感な二光子コヒーレンス R だけで Bell 信号が決まる。反バンチング領域とバンチング領域の2つで破れが出ると予測📐"
+    },
+    {
+      "arxiv_id": "2609.14428",
+      "title": "Indistinguishability Theory for Identical Particles with Invariant Degrees of Freedom",
+      "authors": [
+        "Valery Shchesnovich"
+      ],
+      "categories": [
+        "quant-ph",
+        "math-ph",
+        "math.MP"
+      ],
+      "url": "https://arxiv.org/abs/2609.14428",
+      "abstract": "Identical particles have dynamically invariant labels in all setups where their degrees of freedom can be partitioned into two parts, which we call internal and visible, with the visible part subject to unitary evolution, while the dynamically invariant internal part accounts for the partial distinguishability of particles. We give the explicit form of the visible state in terms of the indistinguishability function, generalizing the standard symmetrization/antisymmetrization postulate for bosons/fermions with internal modes. The indistinguishability function on the symmetric group accounts for the permutation symmetry of the dynamically invariant label state and gives a self-contained description of the symmetry spectrum of the visible state. It is shown that the indistinguishability of single particles emitted independently from a stable source is completely characterized by the projective measures on the symmetry spectrum. We reveal a hierarchy of successive upper bounds on the projective measure of indistinguishability in terms of marginal projective measures. We point out an experimentally feasible way to get the upper bounds on the indistinguishability of an arbitrarily large number of single photons by direct experimental readout of their marginal projective measures. We also analyze the indistinguishability of coherent superpositions and convex mixtures and resolve a recently posed problem.",
+      "score": 86,
+      "reason": "🎯 同種粒子の部分的識別可能性を、不変な内部自由度の言葉で一般化する理論✨ HOM 型の二光子干渉の土台に効きそう🔬",
+      "summary": "📐 可視自由度と力学的に不変な内部自由度に分け、置換群上の識別可能性関数で対称化公準を一般化。独立光源からの粒子の識別可能性も特徴づけ🔍"
+    },
+    {
+      "arxiv_id": "2609.14627",
+      "title": "Emergent Einstein-Cartan gravity from a spinor loop",
+      "authors": [
+        "Yadikaer Maitiniyazi",
+        "Shinya Matsuzaki",
+        "Kin-ya Oda",
+        "Yoshiki Uchida",
+        "Masatoshi Yamada"
+      ],
+      "categories": [
+        "hep-th",
+        "gr-qc",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.14627",
+      "abstract": "In Einstein-Cartan spinor gravity under the irreversible vierbein postulate, only the spinor among the first-order variables has a kinetic term of its own at tree level. Any nonzero background vierbein breaks the local-Lorentz (LL) symmetry spontaneously. Our previous work showed that the spinor loop generates the kinetic and mass terms of the LL gauge field, manifesting LL as a hidden local symmetry. Here we show that the spinor loop also generates the vierbein two-point function, while respecting the background gauge invariance and satisfying the Ward-Takahashi identities of the true gauge invariance, for both the general-coordinate and LL symmetries. The scheme-independent logarithmic divergence assembles the familiar induced-gravity ingredients: a cosmological constant, an Einstein-Hilbert and a Weyl-squared term for the metric sector, and a mass and a higher-derivative kinetic term for the totally antisymmetric torsion. In the vierbein sector, this torsion is carried by the derivative of the antisymmetric part of the linear vierbein fluctuation. This part is the would-be Nambu-Goldstone boson of the spontaneously broken LL symmetry, and its couplings in the minimally coupled action are all fixed by general-coordinate and LL gauge invariance. The five induced terms form a single effective action, manifestly invariant under both symmetries, completing the vierbein sector of the hidden-local-Lorentz emergent-gravity scenario.",
+      "score": 86,
+      "reason": "🤝 共同研究者の論文です✨ Einstein-Cartan 重力で、スピノルの1ループが重力の運動項を生成するという結果📐",
+      "summary": "🌀 スピノルループが vierbein の2点関数を生み、宇宙定数・Einstein-Hilbert・Weyl²項と捩率の質量項が誘導される。Ward-Takahashi 恒等式も満たす🔬"
+    }
+  ]
+}
