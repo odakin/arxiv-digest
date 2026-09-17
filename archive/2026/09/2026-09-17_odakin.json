@@ -1,0 +1,100 @@
+{
+  "total_fetched": 229,
+  "scored_papers": [
+    {
+      "arxiv_id": "2609.16139",
+      "title": "Multiple-Mediator-Affected Ultra-High-Energy Neutrino Attenuation: Hints for 5D ${U(1)}_{L_\\mu - L_\\tau}$ in IceCube",
+      "authors": [
+        "Atri Bhattacharya",
+        "Ayushi Kaushik",
+        "Kenji Nishiwaki"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.HE"
+      ],
+      "url": "https://arxiv.org/abs/2609.16139",
+      "abstract": "Recent IceCube observations point to the ultra-high energy neutrino flux exhibiting a very soft spectral nature beyond tens of TeV, which is unexpected from the standard cosmic-ray neutrino connection. As a potential explanation for this behaviour, we investigate neutrino self-interactions in an extra-dimensional $ {U(1)}_{L_{\\mu}-L_\\tau} $ gauge theory, where symmetry breaking leads to a tower of Kaluza-Klein gauge bosons in compactified four dimensions. These multiple gauge bosons may enhance the attenuation of astrophysical neutrinos as they propagate in the C$\\nu$B medium. Unlike single-mediator scenarios, for example, which arise from broken $ {U(1)}_{L_\\mu - L_\\tau} $ gauge symmetries in four dimensions, the presence of a Kaluza-Klein tower of mediators produces multiple closely spaced resonances whose interference gives rise to a rich energy-dependent behaviour of the scattering cross-section over a vast range of incident neutrino energies. Alongside $s$-channel resonances, off-resonant $t$- and $u$-channel contributions also become important. We explore the possibility that repeated resonant scattering between astrophysical neutrinos and those in the C$\\nu$B, mediated by these new multiple gauge bosons may increasingly attenuate the former at higher energies, thereby addressing the possibility of softening its spectral nature within the consideration of a single power law.",
+      "score": 90,
+      "reason": "🚀 余剰次元×ニュートリノの合わせ技！KK タワーが超高エネルギーν を減衰させるという筋、ど真ん中すぎる🎯🔥✨",
+      "summary": "5D U(1)_{Lμ-Lτ} の KK ゲージ場タワーが CνB との多重共鳴散乱を生み、IceCube の軟らかいν スペクトルを説明🌌⚡"
+    },
+    {
+      "arxiv_id": "2609.17530",
+      "title": "Vanilla Scotogenic Model at the future Muon Collider",
+      "authors": [
+        "Niloy Mondal",
+        "Dipankar Pradhan",
+        "Abhik Sarkar",
+        "Biplob Bhattacherjee",
+        "Subhaditya Bhattacharya"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO",
+        "hep-ex"
+      ],
+      "url": "https://arxiv.org/abs/2609.17530",
+      "abstract": "The vanilla scotogenic model (VSM) featuring three right-handed neutrinos and an inert scalar doublet, offers a unified explanation of neutrino masses, dark matter (DM), and the baryon asymmetry of the Universe through leptogenesis. The typical mass scale of such a scenario lies in the vicinity of $\\sim$ 10 TeV and above, whereas enhanced second-generation Yukawa couplings lower the leptogenesis scale to $\\sim 1$ \\TeV, allowing the model to be probed at the future muon colliders. Adhering to DM, neutrino mass, Leptogenesis, and flavour dependent constraints, the charged scalar is likely to be a long-lived particle (LLP). We analyse both the prompt and displaced vertex signatures of the model to find that, prompt mono-photon signals remain challenging, but LLP searches offer a promising avenue to probe such a framework, subject to the timing resolutions, and displaced-vertex reconstruction efficiency.",
+      "score": 88,
+      "reason": "💫 ニュートリノ質量＋暗黒物質＋レプトジェネシスを一気に片付ける模型、しかも μ コライダーで狙える⚡🎯🔬✨",
+      "summary": "Scotogenic 模型の第二世代湯川を上げて 1 TeV 級へ下げ、長寿命荷電スカラーの変位頂点で探索可能と示す🧲🚀"
+    },
+    {
+      "arxiv_id": "2609.16154",
+      "title": "Making the Great Desert Bloom",
+      "authors": [
+        "Jacques Distler",
+        "Andreas Karch"
+      ],
+      "categories": [
+        "hep-th",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.16154",
+      "abstract": "The absence of new physics beyond neutrino masses between the weak scale and the Planck scale is referred to as the great desert. It is often seen as a nightmare scenario for particle physics. Here we argue, by contrast, that the great desert assumption in fact has dramatic implications: it predicts that the Standard Model has a semi-classical AdS$_4$ vacuum with CFT$_3$ dual and, under reasonable assumptions, must be accompanied by at least one extra dimension significantly larger than Planck length. We also present one plausible candidate CFT$_3$ to be ``the\" dual to the Standard Model.",
+      "score": 86,
+      "reason": "🏜️ 「大砂漠」を仮定すると SM に AdS₄ 真空＋プランク長より大きい余剰次元が要る、という逆転の発想が痛快😳🔥✨",
+      "summary": "電弱〜プランク間に新物理が無いなら SM は半古典 AdS₄ 真空を持ち CFT₃ 双対が存在、候補まで提示🌀🎲"
+    },
+    {
+      "arxiv_id": "2609.17013",
+      "title": "Strictly Localized Mixed States",
+      "authors": [
+        "Sigurd Sorlie Rustad",
+        "Jan Gulla",
+        "Johannes Skaar"
+      ],
+      "categories": [
+        "quant-ph",
+        "hep-th",
+        "math-ph",
+        "math.MP"
+      ],
+      "url": "https://arxiv.org/abs/2609.17013",
+      "abstract": "We study strictly localized mixed states in quantum field theory: states that are indistinguishable from vacuum outside some spacetime region. Such states are generated from the vacuum by so-called Licht maps. While the states associated with individual outcomes of local, projective measurements on the vacuum are not strictly localized, the corresponding non-selective states are strictly localized and even admit decompositions into strictly localized pure states. Remarkably, however, there are strictly localized mixed states that cannot be written as mixtures of pure states strictly localized to the same region. Such states can arise from unsharp local measurements. Finally, we extend Knight's theorem to mixed states, showing that strictly localized bosonic mixed states contain terms with arbitrarily high particle numbers.",
+      "score": 86,
+      "reason": "📦 場の理論で「厳密に局在した」混合状態の構造を掘る話。波束と局在性の基礎に効きそう🔍✨🧩🌟",
+      "summary": "Licht 写像による厳密局在状態を混合状態へ拡張し、純粋局在状態の混合に分解できない例と Knight 定理の一般化を示す🎭⚙️"
+    },
+    {
+      "arxiv_id": "2609.16110",
+      "title": "Reconciling axion quality with post-inflation cosmology",
+      "authors": [
+        "Luca Di Luzio",
+        "Samuele Di Valeriano",
+        "Marco Nardecchia",
+        "Enrico Nardi"
+      ],
+      "categories": [
+        "hep-ph",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2609.16110",
+      "abstract": "We address the axion quality/cosmology tension that often plagues QCD axion models in post-inflationary Peccei-Quinn (PQ) breaking scenarios. In the proposed framework, the PQ symmetry emerges accidentally from an ${\\rm SU}(\\mathcal{N})_L\\times{\\rm SU}(\\mathcal{N})_R$ gauge symmetry spontaneously broken to ${\\rm SU}(\\mathcal{N})_{L+R}$, and its quality is protected because PQ breaking first appears at operator dimension $\\mathcal{N}$. Moreover, the construction avoids the domain-wall problem, ensures that no stable fractionally charged relic survives ${\\rm SU} (\\mathcal{N})_{L+R}$ confinement, and remains free of Landau poles below the scale of PQ-breaking operators. The exotic quarks required to generate the PQ anomaly hadronize into unstable mesons and cosmologically stable neutral baryons. However, plausible arguments indicating a strong suppression of baryon formation in ${\\rm SU}(\\mathcal{N})$ gauge theories at large $\\mathcal{N}$, suggest that their contribution to the dark matter energy density remains subdominant. Combining cosmological constraints with PQ quality and perturbativity requirements yields a viable parameter space in which the axion makes up most of the dark matter and its mass remains predictable.",
+      "score": 85,
+      "reason": "🪙 アクシオン品質問題とインフレ後 PQ 破れの両立、しかもドメインウォール問題も分数電荷レリックも回避🎯🔥✨",
+      "summary": "SU(N)_L×SU(N)_R の偶発的 PQ 対称性で品質を次元 N まで守り、アクシオンが DM の大半を占める領域を導出🌌🧮"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "total_fetched": 229,
+  "scored_papers": [
+    {
+      "arxiv_id": "2609.16121",
+      "title": "The Transient Counting Statistics of Autonomous Quantum Clocks",
+      "authors": [
+        "Oscar Arandes",
+        "Sreenath K. Manikandan"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.16121",
+      "abstract": "At the heart of every atomic clock is a quantum coherent emitter, the laser, that could in principle be treated autonomously. While their frequency or phase stability is typically studied in the semiclassical regime of a large number of emitted quanta, recent works on autonomous quantum clocks suggest that the few-quanta regime can offer statistical information in the temporal domain. This provides complementary means to probe the fundamental limits to precise timekeeping in the quantum regime. Motivated by these works, we consider simple models for two- and three-level quantum emitters subject to an athermal fueling through dephasing, which generically results in coherences in the steady state. A large deviation principle with finite-time contributions is used to identify the transient counting statistics and their dependence on the initial conditions. We conclude by discussing the implications for precise timekeeping and quantum sensing using autonomous quantum emitters as clocks in their transient regime.",
+      "score": 89,
+      "reason": "⏱️ 自律量子時計の「数光子」領域の計数統計。時間精度の量子限界にど真ん中のテーマ✨🔬",
+      "summary": "脱位相で駆動される 2/3 準位放出体の過渡計数統計を大偏差原理で解析し、初期条件依存性と計時精度への含意を議論⚙️"
+    },
+    {
+      "arxiv_id": "2609.16435",
+      "title": "Exact Work Characteristic Functions for Time-Dependent Bosonic Quadratic Hamiltonians",
+      "authors": [
+        "F. Nicacio",
+        "R. N. P. Maia"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.16435",
+      "abstract": "We derive an exact analytical expression for the characteristic function of work in closed many-body bosonic systems governed by general time-dependent quadratic Hamiltonians. This is made possible by adopting a unified prescription in which all operators appearing in the characteristic function are treated as elements of the inhomogeneous Metaplectic group. The esulting expression involves a single symplectic matrix, a single phase-space displacement, and a single accumulated phase. It holds for any number of degrees of freedom, arbitrary time dependence of the quadratic Hamiltonian, and any initial thermal equilibrium state of the system. The formalism trades the explicit time-ordering problem associated with the unitary evolution for the determination of a symplectic path in phase space, from which the corresponding driving Hamiltonian can be reconstructed. We also discuss the generalization to arbitrary nonequilibrium initial states within the two-projective-measurement scheme for quantum work. The same construction yields Loschmidt echoes and mixed-state total phases. Using the derived characteristic function, we obtain formulas for the Helmholtz free energy, the Jarzynski equality, the mean work, the work variance, and the nonequilibrium lag. Undisplaced Hamiltonians, sudden quenches, constant-Hessian protocols, and the adiabatic limit follow as special cases of the general result. As an illustration, we analyze a one-dimensional system constructed from an unconventional symplectic path and exhibiting physically relevant limiting cases. We then show how affine and purely symplectic contributions affect work statistics and irreversibility.",
+      "score": 85,
+      "reason": "🌀 時間依存の二次ボソン Hamiltonian を厳密に解く仕事。ガウス波束・スクイーズド形式の道具箱が増える📦✨",
+      "summary": "非斉次メタプレクティック群で仕事の特性関数を厳密表示。シンプレクティック行列＋変位＋位相の 3 つだけで書ける🧮⏳"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "total_fetched": 229,
+  "scored_papers": [
+    {
+      "arxiv_id": "2609.17009",
+      "title": "Indistinguishability of single Raman photons from single atoms",
+      "authors": [
+        "Pascal Baumgart",
+        "Max Bergerhoff",
+        "J\"urgen Eschner"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.17009",
+      "abstract": "We theoretically investigate the indistinguishability of single photons generated from single trapped $^{40}$Ca$^+$ ions in a Raman scattering process driven by few-nanosecond excitation pulses. Of particular interest is how spontaneous decay back to the initial state affects Hong-Ou-Mandel (HOM) photon interference. Numerical simulations identify the mean number of back-decays as a measurable quantity that correlates with achievable HOM visibility. Optimization of the excitation pulse with respect to a trade-off between photon yield and indistinguishability is analyzed. Finally, we compare the performance of different trapped-ion species for long-range dual-rail entanglement swapping via HOM photon interference.",
+      "score": 88,
+      "reason": "📸 単一イオンからの Raman 光子の識別不能性と HOM 可視度。二光子干渉のど真ん中✨🔬",
+      "summary": "初期状態への自然放出の戻り回数が HOM 可視度と相関する測定量だと数値的に同定し、励起パルスの最適化を議論⚙️"
+    },
+    {
+      "arxiv_id": "2609.16896",
+      "title": "Unitarity and the Forward Direction in Theories with Long-Range Forces",
+      "authors": [
+        "Luke Lippstreu"
+      ],
+      "categories": [
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2609.16896",
+      "abstract": "Integrating scattering amplitudes over the forward direction, and consequently the unitarity constraints one extracts from such integrals, can appear ambiguous in theories with long-range forces. Standard techniques for bounding EFT couplings then typically produce bounds that depend on an arbitrary infrared scale. We study a non-relativistic model in which the standard techniques produce such an ambiguous bound, but which is simple enough that the exact bound can also be derived non-perturbatively and shown to involve no infrared scale. We then show how to derive bounds perturbatively, with no infrared scale entering at any stage. This requires two ingredients: accounting for the modified distributional structure of long-range amplitudes, and using distorted-wave perturbation theory (DWPT), which treats the Coulomb dynamics exactly. Together they give amplitudes with well-defined partial-wave projections and no spurious infrared divergences. Interpreting the model as an EFT with an ultraviolet cutoff $\\Lambda_{\\rm EFT}$, we derive cutoff-dependent bounds valid for arbitrary UV completions. Taking $\\Lambda_{\\rm EFT}\\to\\infty$ at each order yields bounds that rapidly converge to the exact bound, reaching $0.002\\%$ accuracy at fourth order in the expansion. Finally, we demonstrate that every order of the DWPT expansion resums infinitely many Feynman diagrams of short-range perturbation theory, which individually evaluate to multiple polylogarithms and complete elliptic integrals, into a compact expression. At the orders we compute, no integration is even required, suggesting that DWPT may offer a simpler representation of scattering amplitudes than standard perturbation theory.",
+      "score": 86,
+      "reason": "🎯 長距離力があるときの前方方向とユニタリティの扱い。光学定理・吸収模型まわりに効きそう✨📐",
+      "summary": "歪曲波摂動論で Coulomb を厳密に扱い、赤外スケールを含まない厳密境界を再現。4 次で 0.002% 精度🧮"
+    },
+    {
+      "arxiv_id": "2609.17013",
+      "title": "Strictly Localized Mixed States",
+      "authors": [
+        "Sigurd Sorlie Rustad",
+        "Jan Gulla",
+        "Johannes Skaar"
+      ],
+      "categories": [
+        "quant-ph",
+        "hep-th",
+        "math-ph",
+        "math.MP"
+      ],
+      "url": "https://arxiv.org/abs/2609.17013",
+      "abstract": "We study strictly localized mixed states in quantum field theory: states that are indistinguishable from vacuum outside some spacetime region. Such states are generated from the vacuum by so-called Licht maps. While the states associated with individual outcomes of local, projective measurements on the vacuum are not strictly localized, the corresponding non-selective states are strictly localized and even admit decompositions into strictly localized pure states. Remarkably, however, there are strictly localized mixed states that cannot be written as mixtures of pure states strictly localized to the same region. Such states can arise from unsharp local measurements. Finally, we extend Knight's theorem to mixed states, showing that strictly localized bosonic mixed states contain terms with arbitrarily high particle numbers.",
+      "score": 85,
+      "reason": "📦 場の理論で厳密に局在した混合状態を分類。局在性と粒子数の関係は波束形式の基礎に直結✨🧩",
+      "summary": "純粋な局在状態の混合に分解できない局在混合状態の存在を示し、Knight 定理を混合状態へ拡張🎭"
+    },
+    {
+      "arxiv_id": "2609.17256",
+      "title": "Geometric quantifier of the incompatibility of single-particle property attribution in indistinguishable boson systems",
+      "authors": [
+        "P. C'espedes",
+        "A. Vald'es-Hern'andez",
+        "F. H. Holik",
+        "A. P. Majtey"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.17256",
+      "abstract": "Entanglement in indistinguishable particle systems can be characterized by the impossibility of unambiguously attributing a complete set of physical properties to the individual constituent particles. In this work, we introduce a geometric quantifier of the incompatibility of such simultaneous property attribution for pure states of $N$ indistinguishable bosons. Using the Majorana stellar representation, any symmetric multi-qubit state can be expressed as the symmetrization of constituent single-particle states, allowing the associated single-particle properties to be directly linked with the corresponding Majorana stars. This establishes a direct connection between the geometry of the Majorana representation on the Bloch sphere and the entanglement criterion based on the attribution of single-particle properties in systems of identical two-level bosons. We then generalize this geometric approach to higher-dimensional bosons, extending the quantifier from qubits to qudits, while retaining a geometric interpretation of property-attribution incompatibility in terms of Fubini-Study angles.",
+      "score": 85,
+      "reason": "🔗 識別不能ボソン系で「個々の粒子に性質を割り当てられるか」を幾何的に測る。二光子系の見方が増える✨🌐",
+      "summary": "Majorana 星表示で対称多量子ビット状態の性質割当の非両立性を Bloch 球の幾何で定量、qudit へも拡張📐"
+    }
+  ]
+}
