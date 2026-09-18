@@ -1,0 +1,127 @@
+{
+  "total_fetched": 210,
+  "scored_papers": [
+    {
+      "arxiv_id": "2609.19065",
+      "title": "Fermionic Signatures of Antispacetime-spacetime Domain Walls",
+      "authors": [
+        "Justine Charles A. Elve~na",
+        "Kristian Hauser Villegas"
+      ],
+      "categories": [
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2609.19065",
+      "abstract": "Antispacetime arises naturally in the vielbein formulation of general relativity yet remains invisible to probes coupling only to the metric. We show that domain walls separating spacetime from antispacetime constitute physically distinct and observable structures. Fermions interacting with such walls exhibit striking signatures: scattering induces particle-hole conversion, reflecting tetrad orientation reversal, while the wall hosts localized zero-energy Majorana and chiral modes. In 1+1 dimensions, these modes acquire a pseudoscalar mass term tied to topology and quantum anomalies, providing a direct link to the observability of $\\theta$ vacua. These results identify fermionic response as a definitive probe of antispacetime and establish its domain walls as physically detectable.",
+      "score": 93,
+      "reason": "🎯 フィールバイン定式化でしか見えない「反時空」の壁！計量だけの探針には映らないのにフェルミオンには見える、ど真ん中🔥✨🌌⚡",
+      "summary": "反時空と時空を隔てるドメインウォールが物理的に区別可能で観測可能な構造だと示し、フェルミオンに現れる signature を解析🧲✨"
+    },
+    {
+      "arxiv_id": "2609.19027",
+      "title": "Time of arrival in the semiclassical regime for Gaussian wave packets",
+      "authors": [
+        "Mathieu Beau",
+        "Maximilien Barbier",
+        "Vincent Bucourt"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.19027",
+      "abstract": "We study the time-of-arrival (TOA) distribution of a Gaussian wave packet in the semiclassical regime for a general one-dimensional quadratic Hamiltonian, namely a forced harmonic oscillator with time-dependent frequency. Expanding the Gaussian probability density as a series in derivatives of the Dirac delta and using the standard rules for the composition of distributions with the classical trajectory, we obtain compact closed-form expressions for the leading semiclassical mean arrival time and its standard deviation. The mean acquires a quantum shift of order $\\sigma^2$ set by the classical velocity and acceleration and by the time derivative of the Ermakov width, while the spread reduces to the simple form $\\Delta\\mathcal{T}_x\\simeq\\sigma(t_x)/v_x$. The latter implies a time--position uncertainty relation that depends only on the fundamental solutions of the classical equation of motion. We apply the framework to free fall and to two models of a time-dependent opening trap under gravity, and we validate every expression against exact numerical integration of the TOA distribution. These results extend earlier free-fall predictions to realistic settings in which the trapping potential cannot be neglected.",
+      "score": 90,
+      "reason": "⏱️ ガウス波束の到達時刻分布を半古典極限で解く。波束形式の道具箱にそのまま入る一本🎯✨🔬🌟",
+      "summary": "時間依存振動数の強制調和振動子という一般の二次ハミルトニアンで、ガウス確率密度を展開し TOA 分布を導出🧮⏳"
+    },
+    {
+      "arxiv_id": "2609.18202",
+      "title": "Gravitational lensing of neutrinos through the lens of decoherence",
+      "authors": [
+        "Bikash Kumar Acharya",
+        "Ujjal Kumar Dey"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.HE"
+      ],
+      "url": "https://arxiv.org/abs/2609.18202",
+      "abstract": "We propose a new source of neutrino decoherence arising from stochastic gravitational lensing by unresolved mass substructure. Unlike traditional models that treat the lensing potential as smooth and deterministic, we decompose the lensing potential into a smooth component and a stochastic population of compact clumps. The substructure induced fluctuations of the lensing potential generate stochastic corrections to the neutrino time delay, thereby producing random relative phases between different neutrino mass eigenstates. Averaging over the clump ensemble converts these phase fluctuations into an effective dampening of flavour coherence. This framework connects stochastic gravitational lensing with neutrino phenomenology and offers a novel route to probe dark matter substructure through astrophysical neutrino flavour transitions.",
+      "score": 89,
+      "reason": "🌌 未分解の質量構造による確率的レンズ効果が新しいν デコヒーレンス源になるという筋。伝播とコヒーレンスにど真ん中🎯✨⚡",
+      "summary": "レンズポテンシャルを滑らかな部分と揺らぎに分解し、確率的成分がフレーバー遷移のコヒーレンスを削る効果を定式化🧲🌀"
+    },
+    {
+      "arxiv_id": "2609.17681",
+      "title": "Quantum Seesaw Cosmology: A Heating Phase from Pauli Blocking",
+      "authors": [
+        "Nicol'as Bernal",
+        "Chee Sheng Fong"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.17681",
+      "abstract": "In Seesaw Cosmology, a scalar field reheats the Standard Model (SM) through right-handed neutrinos (RHNs), which generate tiny neutrino masses through the seesaw mechanism. When RHNs rapidly fill a restricted momentum-space region, expansion continually opens new fermionic states that are refilled by subsequent scalar decays, maintaining an approximately constant physical RHN density. This gives rise to a novel heating regime in which the SM temperature increases with the scale factor as $T \\propto a^{+3/8}$, in sharp contrast to the conventional $T \\propto a^{-3/8}$ scaling during matter-dominated reheating.",
+      "score": 88,
+      "reason": "🔥 右巻きν によるリヒーティングにパウリ排他が効く！シーソー質量と再加熱がつながる展開が面白い🎯✨⚡🌡️",
+      "summary": "RHN が運動量空間の狭い領域を急速に埋め、膨張が開ける隙間を通じて加熱が進む新しい相を指摘🚀🧮"
+    },
+    {
+      "arxiv_id": "2609.18211",
+      "title": "Proof of Heisenberg's Error-Disturbance Relation for Individual Measurements",
+      "authors": [
+        "Seiji Kosugi"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.18211",
+      "abstract": "Heisenberg originally envisioned the error-disturbance relation under the premise that the state after measurement must remain consistent with the Kennard-Robertson uncertainty relation. This implies that the measurement error must be formulated via a posterior observable $\\hat{x}_t$, rather than a prior observable $\\hat{x}_0$, because the posterior measurement error determines the post-measurement uncertainty of the electron. Building upon the preliminary conceptual foundation reported in arXiv:1504.03779, this paper presents a rigorous derivation of the error-disturbance principle formulated from the unitary transformation equations of observables. Each readout $X$ of a posterior probe observable $\\hat{X}_t$ completes a single measurement event, producing a specific conditional object state. The Kennard-Robertson uncertainty relation must hold for these states. Specifically, we show that the uncertainty relation between the error $\\epsilon_{X}(\\hat{x}_t)$ and the disturbance $\\eta_{X}(\\hat{p}_0)$ holds strictly at the level of individual measurements, characterized by the specific readout $X$. We also verify that conventional error-disturbance relations, where the errors are evaluated by averaging over the unconditioned state, hold true. Our results provide a refined theoretical basis for understanding the fundamental trade-off in individual measurement outcomes.",
+      "score": 87,
+      "reason": "📐 誤差・擾乱関係をハイゼンベルクの原意（測定後状態が K-R 関係と整合）に沿って個別測定で証明🎯✨🔬🌟",
+      "summary": "測定誤差を事後的に定式化し直すことで、個々の測定に対して誤差擾乱不等式が成り立つことを示す🧩⚙️"
+    },
+    {
+      "arxiv_id": "2609.18277",
+      "title": "Reduction of the six-dimensional $q$-form fields to the four-dimensional fields by coupling with gravity",
+      "authors": [
+        "Yong-Tao Lu",
+        "Heng Guo",
+        "Qun Wei",
+        "Bing Wei"
+      ],
+      "categories": [
+        "hep-th",
+        "gr-qc",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.18277",
+      "abstract": "In this paper, we investigate the localization of various $q$-form fields on a codimension-two brane. In particular, the $0$-form scalar field, the $1$-form $U(1)$ gauge vector field, and the $2$-form Kalb-Ramond field are considered with gravitational coupling, where a coupling function $F(R)$ is introduced into the six-dimensional actions of these fields. The function $F(R)$ depends on the scalar curvature of the bulk. Within this framework, we find that the massless modes of different $q$-form fields can be localized on the thick brane for positive values of the coupling parameters $t_1$ and $t_2$. For the massive modes, the different $q$-form fields exhibit similar localization properties determined by the coupling parameter $t_2$. When $0v^2/24$, the effective potentials associated with the Kaluza-Klein modes of these $q$-form fields form infinitely deep potential wells, so that all massive modes can be localized on the brane. Moreover, the tachyonic massive modes can always be excluded for different $q$-form fields.",
+      "score": 86,
+      "reason": "📦 余剰次元 2 のブレーン上に 0/1/2 形式場をどう局在させるか。重力結合で効かせる筋が余剰次元屋にはおいしい🎯✨⚡🌐",
+      "summary": "6 次元の q 形式場を重力との結合つきで codimension-2 ブレーンに局在させ、4 次元有効場のゼロモードを取り出す🧮🔧"
+    },
+    {
+      "arxiv_id": "2609.18168",
+      "title": "Constraints of Big Bang Nucleosynthesis and Cosmological Observations on varying Higgs VEV",
+      "authors": [
+        "Hongrui Feng",
+        "Yudong Luo",
+        "Toshitaka Kajino",
+        "Bao-Hua Sun",
+        "Tatsushi Shima"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "hep-ph",
+        "nucl-th"
+      ],
+      "url": "https://arxiv.org/abs/2609.18168",
+      "abstract": "The Higgs vacuum expectation value (VEV) alters both the electroweak and strong interaction rates. We study both effects on Big Bang Nucleosynthesis (BBN) and seek concordance between observed primordial abundances of light elements and cosmological constraints from cosmic microwave background (CMB) fluctuations and anisotropies. We find a strong negative correlation between primordial 4He abundance and the Higgs VEV. Consequently, using a 1.58% uplift of the Higgs VEV during BBN from the current value, an agreement can be achieved among the new primordial 4He abundance, observed by the EMPRESS group, Deuterium abundance determined from absorption lines in the Lyman-alpha forest along the line-of-sight of high-redshift quasars, and the lithium abundance on the Spite plateau. This agreement requires a baryon-to-photon ratio different from the CMB determination, indicating the need for non-standard cosmological evolution between BBN and recombination epochs.We also demonstrate that a 0.2% uplift in the Higgs VEV can partially alleviate the \"cosmic Li problem\", keeping consistency with the CMB with remaining discrepancy potentially accounted for by stellar depletion mechanisms.",
+      "score": 86,
+      "reason": "🎯 ヒッグス VEV が動くと電弱も強い相互作用も動く。BBN と宇宙論観測で同時に締め上げるのが楽しい🔥✨⚡🌌",
+      "summary": "変動 VEV が軽元素合成率に与える二重の効果を評価し、原始存在比と宇宙論制限が整合する領域を導出🧪📈"
+    }
+  ]
+}
