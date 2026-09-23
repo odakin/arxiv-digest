@@ -1,0 +1,122 @@
+{
+  "total_fetched": 314,
+  "scored_papers": [
+    {
+      "arxiv_id": "2609.24989",
+      "title": "Tangled $\\tau$: Planck CMB Constraints on Flash Reionization",
+      "authors": [
+        "Param Upadhyay",
+        "Elisa G. M. Ferreira",
+        "Evan McDonough"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2609.24989",
+      "abstract": "Recent cosmological tensions have renewed interest in the role of reionization in parameter inference, and flash reionization has been proposed as a transient high-redshift ionization episode that can increase the Thomson optical depth while remaining compatible with CMB polarization data. In this work, we present the first Markov Chain Monte Carlo analysis of the flash reionization model fit to Planck cosmic microwave background temperature, polarization, and lensing data. We perform this analysis using Planck PR4 data in $\\Lambda$CDM with flash reionization. We find that CMB data allow a wide range for the redshift of the flash, $z_{\\rm flash}$, but with constraints that are tightly correlated with the peak ionization fraction $x_{\\rm flash}$. We find constraints $x_{\\rm flash}=0.24 ^{+0.13} _{-0.07}$ and $x_{\\rm flash}= 0.15 ^{+0.07} _{ - 0.05}$ for the benchmark flash reionization scenarios with fixed $z_{\\rm flash}=20$ and $25$ respectively. The standard $\\Lambda$CDM parameters do not exhibit any significant shifts, and in particular, the total optical depth to reionization is not appreciably changed, with $\\tau=0.061 \\pm 0.007$ in flash reionization as compared to $\\tau=0.059\\pm 0.006$ in the standard tanh parametrization. We repeat this analysis for Planck PR3 data in place of PR4, and find that the mild preference for a flash is replaced by 95% CL upper bounds, given by $x_{\\rm flash}<0.28$ and $x_{\\rm flash}<0.18$ for $z_{\\rm flash}=20$ and $25$, respectively, from Planck PR3 data.",
+      "score": 89,
+      "reason": "🔭τ と再電離史の縛りを Planck で MCMC 解析✨B モード科学の土台になる光学的厚みの議論で刺さる🎯",
+      "summary": "📊flash 再電離モデルを Planck PR4 の温度・偏光・レンズにフィットし、x_flash と z_flash の強い相関を示す🧮"
+    },
+    {
+      "arxiv_id": "2609.24085",
+      "title": "Constraints on Axion-like Dark Matter from Cosmic Birefringence with a Polarization Array of Repeating Fast Radio Bursts",
+      "authors": [
+        "Xiaohui Liu",
+        "Zi-Yan Yuwen",
+        "Yun-Long Zhang",
+        "Zerui Liu",
+        "Shiqian Zhao",
+        "Shuai Feng",
+        "Wei-Yang Wang",
+        "Xuelei Chen"
+      ],
+      "categories": [
+        "astro-ph.HE",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.24085",
+      "abstract": "Axion-like dark matter (ALDM) is a well-motivated dark matter candidate whose Chern-Simons coupling to photons can induce cosmic birefringence, producing temporal oscillations and spatial correlation in polarization angle (PA) signals from different sources. Hyperactive repeating fast radio bursts (FRBs) with high linear polarization are a particularly promising probe of such signatures. We develop a Bayesian framework to search for PA oscillations caused by ALDM in individual repeating FRBs, and combine multiple sources in an FRB polarization array (FRBPA) by exploiting correlations arising from the common Earth term. We apply this framework to PA datasets from three well-studied hyperactive repeating FRBs, and constrain the Chern-Simons coupling over a broad range of ALDM masses. For each FRB, we estimate the dark matter density at its host location using a simulation-calibrated halo profile. The inferred dark matter densities are comparable to the fiducial local density $\\rho_0 = 0.4~\\mathrm{GeV/cm^3}$. The comparable source and Earth dark matter densities, together with the redshift-induced difference between the frequencies of the source and Earth terms, motivate our adoption of the full two-component birefringence model. We find no compelling evidence for ALDM-induced PA oscillations in either the individual source analyses or the joint FRBPA analysis. We place 95\\% credible upper limits on the Chern-Simons coupling strength as a function of ALDM mass. Across the axion mass from $10^{-23}$ to $10^{-18}~\\mathrm{eV}$, the resulting upper limits of the coupling strength of FRBPA lie between $10^{-12.6}$ and $10^{-7.9}~\\mathrm{GeV}^{-1}$. Our results establish long-term polarimetric monitoring of hyperactive repeating FRBs as a promising and independent probe of ALDM, with sensitivity expected to improve with longer observational baselines and larger source samples.",
+      "score": 86,
+      "reason": "🌌アクシオン的暗黒物質による宇宙複屈折を FRB の偏波で制限✨複屈折探索の別ルートとして面白い🎯",
+      "summary": "📡繰り返し FRB 3 天体の偏波角振動をベイズ探索し、共通の地球項の相関を使って Chern-Simons 結合を制限🧮"
+    },
+    {
+      "arxiv_id": "2609.23748",
+      "title": "Spectral Analysis of the Egress and Ingress Phases of Cen X-3 with XRISM/Resolve",
+      "authors": [
+        "J. Planelles-Villalva",
+        "L. Gu",
+        "J. J. Rodes-Roca",
+        "G. Sanjurjo-Ferr'in",
+        "J. de Plaa",
+        "J. M. Torrej'on",
+        "F. S. Porter",
+        "Y. Mochizuki",
+        "M. Loewenstein",
+        "E. Costantini"
+      ],
+      "categories": [
+        "astro-ph.HE"
+      ],
+      "url": "https://arxiv.org/abs/2609.23748",
+      "abstract": "We investigate the phase-resolved X-ray spectral evolution of the high-mass X-ray binary Cen X-3 across eclipse ingress and egress, using two out-of-eclipse intervals as references, to constrain the absorbing material and Fe K emitting regions with high-resolution XRISM/Resolve spectroscopy. We model the spectra with SPEX, including interstellar and local wind absorption, a power-law and blackbody continuum, disk reflection, and Gaussian components for Fe XXV and Fe XXVI. We compare the orbital variation of the absorbing column with a smooth CAK wind model and investigate the variability of the Fe K alpha line width.\n  The local absorbing column varies by nearly two orders of magnitude, from N_H^local = 4.25 x 10^22 cm^-2 during pre-ingress to 5.9 x 10^23 cm^-2 at ingress. The excess ingress absorption cannot be reproduced by a smooth wind model alone, suggesting a localized overdense structure along the line of sight. The Fe K alpha width varies from approximately 510 km s^-1 during pre-ingress to 1400 km s^-1 during egress, with intermediate, statistically indistinguishable values of approximately 900 km s^-1 during ingress and post-egress. Highly ionized Fe XXV and Fe XXVI emission is detected throughout the orbit, although fewer components are resolved during ingress. These diagnostics reveal a complex circumstellar environment with localized dense material and multiple reprocessing regions. The results demonstrate the capability of XRISM/Resolve to probe the geometry and kinematics of accretion environments in eclipsing high-mass X-ray binaries.",
+      "score": 86,
+      "reason": "🛰️XRISM/Resolve の高分解能分光で Cen X-3 の食入り・食明けを追う✨並行テーマの X 線側でど真ん中🎯",
+      "summary": "📊局所吸収柱密度が 4×10²² → 5.9×10²³ cm⁻² と 2 桁変化し、滑らかな CAK 風モデルでは再現できないと示す🔍"
+    },
+    {
+      "arxiv_id": "2609.24912",
+      "title": "Gauss--Bonnet running and the de Sitter saddle of quadratic gravity inflation",
+      "authors": [
+        "Ruolin Liu",
+        "Niayesh Afshordi"
+      ],
+      "categories": [
+        "hep-th",
+        "astro-ph.CO",
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2609.24912",
+      "abstract": "Inflation driven purely by the quantum running of the curvature-squared couplings of quadratic gravity was shown to accommodate the high scalar tilt favored by recent cosmic microwave background observations, starting from a Euclidean four-sphere at a maximum of the running $R^2$ coupling. That maximum exists only in one renormalization scheme, and is not stationary once the Euler trace anomaly is included. We show that the standard one-loop running, with the usually neglected Gauss--Bonnet coefficient retained, recovers the missing de Sitter state: the Euler running balances the scale dependence of the $R^2$ term at a unique coupling ratio, giving a de Sitter solution that is stationary for the gravitational constraint and for the compact Euclidean action alike, and whose scalaron potential is an extremely flat hilltop ($m^2/H^2\\simeq-5\\times10^{-10}$) joined to an inverse-linear inflationary plateau. The last $N_*\\simeq50$--$60$ $e$-folds are scheme independent, with scalar tilt $n_s\\simeq1-4/(3N_*)$, while the tensor-to-scalar ratio, $r$, is set by the number of matter fields that enhance the running. The current tensor bound excludes pure gravity and sets a minimum matter content, some $4\\times10^6$ conformally coupled scalars or $3\\times10^5$ vectors---$2.6$ times fewer than the momentum-induced scheme requires---while one-loop control to the end of inflation sets a maximum about ten times higher. Across that window the model predicts $r\\gtrsim0.008$ with $0.973\\lesssim n_s\\lesssim0.978$, within reach of upcoming CMB polarization surveys.",
+      "score": 85,
+      "reason": "🌌ACT が好むスカラー傾きを二次重力の走行だけで出す✨インフレーション模型の観測的当てはめとして面白い🎯",
+      "summary": "🧮Gauss-Bonnet 係数を残した 1-loop 走行で定常な de Sitter 解が復活し、非常に平坦な hilltop 型の電位になる📈"
+    },
+    {
+      "arxiv_id": "2609.24851",
+      "title": "The Sun can flip the shielding effect of added spacecraft mass",
+      "authors": [
+        "Yasser Maghrbi",
+        "Nelson Christensen"
+      ],
+      "categories": [
+        "astro-ph.IM"
+      ],
+      "url": "https://arxiv.org/abs/2609.24851",
+      "abstract": "Spacecraft structure is usually treated as shielding against energetic particles. We find that the Sun can reverse the effect of adding that structure. Free-falling test masses are the inertial references of gravitational-wave observatories and equivalence-principle experiments; charge accumulated on them couples to stray electric fields and produces acceleration noise that limits sensitivity. In a LISA-like system, increasing the surrounding aluminium from 16 to 24 g cm -2 reduces the stopping-proton population by (2.3 $\\pm$ 0.5)% at solar minimum but increases it by (17.0 $\\pm$ 1.0)% at solar maximum, the crossover lying in the deep-solar-minimum regime. Complete 2-24 g cm -2 mass curves show a broad maximum at solar minimum but a monotonic rise at maximum. The reversal arises because added material both attenuates incident protons and feeds a nuclear-processed population into the stopping-energy window. A first-order projection onto published charging rates gives changes of about -2% and +11% in the net charging rate, affecting charge accumulation, discharge requirements and the associated noise budget. The sign of a structural trade is therefore not fixed by the structure alone.",
+      "score": 85,
+      "reason": "🛰️遮蔽質量を増やすと逆効果になりうるという宇宙機設計の話✨宇宙線の影響評価の勘所として効く🎯",
+      "summary": "📊LISA 的な系でアルミ 16→24 g/cm² は太陽活動極小で陽子を 2.3% 減、極大では 17% 増と符号が反転する🔍"
+    },
+    {
+      "arxiv_id": "2609.22581",
+      "title": "Hunting Thermal Relics in the DESI DR1 Ly$\\alpha$ Forest",
+      "authors": [
+        "Emanuelly Silva",
+        "Artur Ladeira",
+        "Rafael C. Nunes",
+        "Eleonora Di Valentino"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.22581",
+      "abstract": "We investigate constraints on additional relativistic species and thermal sterile neutrinos using the DESI DR1 one-dimensional Lyman-$\\alpha$ forest power spectrum, combined with Planck 2018 CMB and DESI DR2 BAO measurements. We consider both the $\\Lambda$CDM+$N_{\\rm eff}$ extension and a thermal with a different-temperature sterile-neutrino (DTS) scenario, in which the sterile relic can be colder than the standard neutrino background. We first validate the DESI two-parameter $P_{\\rm 1D}$ compression for the DTS model, finding that the residual cosmological dependence not captured by the compressed parameters remains below 0.15%. No significant evidence for additional radiation or a sterile component is found. For $\\Lambda$CDM+$N_{\\rm eff}$, we obtain $N_{\\rm eff}<3.41$ at 95% credibility from CMB+DESI-BAO+DESI-$P_{\\rm 1D}$. In the DTS scenario, the full CMB+DESI-BAO+DESI-$P_{\\rm 1D}$ combination yields the stringent bound $m_s^{\\rm eff}<0.061\\,{\\rm eV}$, highlighting the complementarity of BAO and Lyman-$\\alpha$ information in constraining the massive sterile abundance. We further interpret the allowed $\\Delta N_{\\rm eff}$ in terms of thermal light relics, deriving lower limits on their decoupling temperatures that reach the QCD epoch.",
+      "score": 85,
+      "reason": "📊DESI Lyα と Planck で N_eff と熱的ステライルを制限✨宇宙論的緊張の相対論的粒子側の最新境界🎯",
+      "summary": "🧮ΛCDM+N_eff で N_eff < 3.41 (95%)、温度の異なるステライル模型でも有意な証拠は出ないと報告🔭"
+    }
+  ]
+}

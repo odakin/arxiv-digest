@@ -1,0 +1,73 @@
+{
+  "total_fetched": 314,
+  "scored_papers": [
+    {
+      "arxiv_id": "2609.24680",
+      "title": "Unified spatiotemporal quantum states and spatiotemporal entanglement from Kirkwood-Dirac phase space",
+      "authors": [
+        "Zhian Jia",
+        "Mei-Hui Xiao"
+      ],
+      "categories": [
+        "quant-ph",
+        "gr-qc",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2609.24680",
+      "abstract": "The notion of a spatiotemporal quantum state extends the conventional concept of a spatial quantum state to the spatiotemporal domain. Such states are represented by unit-trace operators that encode correlations among quantum events distributed across space and time. In this work, we use the spatiotemporal Kirkwood-Dirac phase space to provide a unified characterization of spatiotemporal quantum states. Spatiotemporal states obtained from Kirkwood-Dirac distributions are generally non-Hermitian and nonnormal; whereas those constructed from Margenau-Hill distributions are Hermitian. We provide a unification via (quasi)probabilistic mixture of Kirkwwod-Dirac spatiotemporal states which encompasses almost all existing formulations of spatiotemporal quantum states. We derive recursive expressions for spatiotemporal states and elucidate the relation between Kirkwood-Dirac nonclassicality and the temporality of spatiotemporal states. We further extend the construction to many-fold correlation functions and establish its connection with out-of-time-ordered correlators (OTOCs). We also develop a more general unifying framework based on (quasi)probabilistic mixture of $s$-parametrized spatiotemporal states and establish their Petz time reversal and application in studying Kubo-Martin-Schwinger (KMS) condition in two-time setting. Finally, we apply this framework to characterize quantum entanglement in spacetime and analyze spatiotemporal entanglement using several complementary entropy measures.",
+      "score": 88,
+      "reason": "⏱️時空をまたぐ量子状態を Kirkwood-Dirac 位相空間で統一記述✨時間を状態に組み込む定式化として面白い🎯",
+      "summary": "🧮KD 分布由来の時空的状態は非エルミート、Margenau-Hill 由来はエルミート。準確率混合で既存定式化をほぼ包含🌀"
+    },
+    {
+      "arxiv_id": "2609.22890",
+      "title": "Time and causality in quantum gravity",
+      "authors": [
+        "Charis Anastopoulos"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-th",
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.22890",
+      "abstract": "The problem of time in quantum gravity is often presented as a consequence of applying quantum theory to general relativity. These notes adopt a broader perspective. We first examine how time enters classical mechanics, relativity, quantum theory, and quantum field theory, distinguishing three principal aspects: causal order, temporal duration, and the present. This analysis shows that the conceptual difficulties associated with time do not arise only when gravity is quantised. Tensions between causal structure, clocks, observables, and measurement are already present in the theories from which quantum gravity is constructed. We then survey responses to the problem of time across the principal approaches to quantum gravity. These include canonical and Wheeler-DeWitt quantisation, path-integral and histories formulations, perturbative and background-dependent approaches, causal sets, and twistor theory. The programmes are compared according to whether they retain an external time, render time problematic through quantisation, or incorporate causal or temporal structure into their foundations. Particular emphasis is placed on questions arising from quantum foundations and relativistic quantum information. We conclude by examining linearised gravity and weak-gravity quantum systems. This regime shows that the problem of time is not confined to Planck-scale physics, but arises already in attempts to provide a predictive and operationally meaningful quantum description of spacetime near flat geometry.",
+      "score": 87,
+      "reason": "⏳量子重力の「時間の問題」を因果順序・持続・現在の 3 側面に分けて整理✨時間演算子まわりの見通しが良い📘",
+      "summary": "🧭古典力学から場の理論まで時間の入り方を比較し、正準量子化・経路積分・因果集合など各アプローチの応答を概観🔍"
+    },
+    {
+      "arxiv_id": "2609.23277",
+      "title": "Radial Coarse Graining Restores Vacuum Majorization in Wigner Phase Space",
+      "authors": [
+        "Ao-Xiang Liu",
+        "Cong-Feng Qiao"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.23277",
+      "abstract": "Quantum uncertainty limits how strongly Wigner functions can concentrate in phase space. It is commonly conjectured that the vacuum Wigner function continuously majorizes that of any Wigner-positive state. However, by constructing Wigner-positive states whose localized quantum coherence lowers their Wigner entropy below the vacuum value, we show that this conjecture is incorrect. We restore vacuum majorization at finite resolution by integrating single-mode Wigner functions over concentric radial energy shells, obtaining probability vectors majorized by that of the vacuum for all Wigner-positive states and for Wigner-negative states with non-negative shell weights. Anchoring these shells to a fixed oscillator frame breaks affine symplectic invariance, rendering this relation strict for every non-vacuum Gaussian pure state. For Wigner-negative states, the persistence of negative shell weights defines a radial negativity scale with Airy-edge semiclassical asymptotics for highly excited Fock states. Operationally, we combine the majorization relation with partial transposition to obtain a two-mode entanglement criterion directly evaluable from radially binned joint homodyne outcomes without state reconstruction.",
+      "score": 86,
+      "reason": "📐真空 Wigner 関数の優越性は実は破れる✨不確定性と位相空間の局在の関係に踏み込む結果で好みのテーマ🎯",
+      "summary": "🌀Wigner 正値でも真空より低い Wigner エントロピーの状態を構成し、動径方向の粗視化で優越関係を回復させる🧮"
+    },
+    {
+      "arxiv_id": "2609.24805",
+      "title": "Stabilizing temporal quantum-enhanced sensitivity via sub-optimal measurements",
+      "authors": [
+        "Wangsheng Zheng",
+        "Yaoling Yang",
+        "Abolfazl Bayat"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.24805",
+      "abstract": "In non-equilibrium probes, quantum-enhanced sensitivity is quantified through super-linear scaling of precision with respect to time, as a central metrology resource. However, this requires optimal measurements, which are often complex and time-dependent, making it challenging in practice. Sub-optimal measurements typically fail to retain robust super-linear scaling and show oscillations. Here, we begin by establishing a universal temporal scaling law in a general multi-parameter non-equilibrium quantum sensing framework. Within this setting, we identify the universal behavior of the sensing precision with sub-optimal measurements which shows quadratic scaling modulated by an additional bounded oscillatory function. To remove the oscillatory part, we propose a protocol in which measurements are partitioned into different groups, each performed at different times. The collective precision obtained from this protocol stabilizes a robust quadratic scaling even for sub-optimal measurements in the multi-parameter regime. We validate our protocol through three distinct examples as well as Bayesian estimation. Our protocol is applicable to every informative measurement and takes a key step towards practical realization of quantum-enhanced sensitivity.",
+      "score": 85,
+      "reason": "⏱️最適測定でなくても時間に対する超線形スケーリングを保てるという話✨量子速度限界の隣で面白い🎯",
+      "summary": "🧮非平衡センシングの普遍的な時間スケーリング則を導き、振動項を測定のグループ分割で消す手続きを提案📈"
+    }
+  ]
+}
