@@ -1,0 +1,80 @@
+{
+  "total_fetched": 220,
+  "scored_papers": [
+    {
+      "arxiv_id": "2609.25382",
+      "title": "Complementarity Test with Unmeasured, Permanently Inaccessible Path Markers",
+      "authors": [
+        "Paul Gauthier",
+        "Sahil Patel",
+        "Sean Doan",
+        "Galan Moody"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.25382",
+      "abstract": "In prior complementarity tests, path markers were measured and remained causally accessible, leaving the collapse-locality loophole open. We address this loophole using a quantum eraser that isolates the encoding of path information in the joint quantum state from its later measurement and causal accessibility. We launch idler photons -- the sole path markers for entangled signal photons in an interferometer -- on outgoing null trajectories while the joint state remains in a coherent superposition of both interferometer path alternatives. Our flat $\\Lambda$CDM transmission model predicts that 73-82% of launched idlers will propagate forever without absorption, scattering, or environmental path-record formation. For these modeled survivors, each path marker remains perpetually unmeasured, and propagation along its outgoing trajectory precludes later causal contact with its interferometric record. Unconditioned signal detections show no statistically significant launch-induced change in interference, as standard quantum theory predicts. Normalized to the modeled survivors, the 95% confidence upper bound on any launch-induced fringe is 0.16 of full restoration.",
+      "score": 92,
+      "reason": "量子消しゴム × 相補性のど真ん中🎯 経路マーカーを二度と測れない外向きヌル軌道へ打ち出して collapse-locality の抜け穴を塞ぐ✨",
+      "summary": "もつれた signal の唯一の経路標識である idler だけを射出。73-82% は永久に吸収されないと見積もり、無条件検出では干渉に有意変化なし🔭"
+    },
+    {
+      "arxiv_id": "2609.25214",
+      "title": "Nonlocal advantage of quantum coherence in tau-lepton pairs from electron--positron collisions",
+      "authors": [
+        "Yoav Afik",
+        "Juan Ram'on Mu~noz de Nova",
+        "Sarthak Sharma",
+        "Surya Sundar Raman"
+      ],
+      "categories": [
+        "quant-ph",
+        "hep-ex",
+        "hep-ph",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2609.25214",
+      "abstract": "Quantum correlations have recently attracted significant attention in collider physics, with Nonlocal Advantage of Quantum Coherence (NAQC) representing the strongest form of quantum correlation studied so far. Owing to its strength, NAQC is considerably more challenging to observe than Bell nonlocality since it is only present in narrower regions of phase space. Unlike other systems, tau-lepton pair ($\\tau^+\\tau^-$) production in electron--positron ($e^+e^-$) collisions provides an ideal testing ground, as it exhibits strong quantum correlations and, in particular, NAQC over a large region of phase space. In this paper, we investigate NAQC in $e^+e^- \\to \\tau^+\\tau^-$ production at center-of-mass energies of 10.58 and 91.19~GeV, corresponding to the ongoing Belle~II and future FCC-$ee$ experiments, respectively. Remarkably, for our experimental proposal, we develop a dedicated NAQC witness, which allows to certify NAQC presence by measuring one single magnitude. We estimate the experimental sensitivities needed to establish the presence of NAQC, finding that a large fraction of the number of events (specifically, 0.18 for Belle~II and 0.31 for FCC-$ee$) contribute to the NAQC signal. A 5$\\sigma$ observation of NAQC requires a precision of approximately 1\\% at Belle~II, while a precision of a few percent is sufficient at FCC-$ee$. The resulting observation would constitute the strongest form of quantum correlation measured in a collider to date. In addition, we design an experimental scheme to implement the steering game leading to the NAQC definition, representing the first implementation of a steering game in a high-energy collider. Our results are easily extendable to other electron--positron colliders with different center-of-mass energies.",
+      "score": 89,
+      "reason": "衝突実験でのもつれ・量子相関という関心のど真ん中🎯 Bell 非局所性より強い NAQC を τ 対で狙う提案✨",
+      "summary": "Belle II と FCC-ee 向けに単一量の測定で判定できる witness を構築。5σ には 1% 程度の精度が必要と見積もり、collider 初の steering game も設計⚡️"
+    },
+    {
+      "arxiv_id": "2609.26429",
+      "title": "Photonic CZ gates based on few-photon scattering from emitter-cavity systems",
+      "authors": [
+        "Mateusz Duda",
+        "Pieter Kok"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.26429",
+      "abstract": "In this paper we analyze the performance of photonic CZ gates based on N waveguide-coupled cavities containing two-level emitters. We derive single- and two-photon scattering matrices for one cavity using the input-output formalism of quantum optics and for N>1 cavities using the SLH formalism, allowing us to compute the CZ gate fidelity. We consider two input Gaussian wave packets that are centered on a two-photon transition of the emitter-cavity system, and find a trade-off between optimizing the single-photon and two-photon wave packet shape. While the single-photon wave packet is preserved for large emitter-cavity coupling rates, where there is little overlap with the single-photon transitions, the two-photon wave packet acquires the necessary $\\pi$ phase shift for smaller coupling rates, comparable to the cavity decay rate multiplied by the number of cavities. We find that this trade-off limits the CZ gate fidelity to approximately 60% when averaging over all input states.",
+      "score": 87,
+      "reason": "Gaussian 波束を入力にした 1・2 光子散乱行列そのもの🎯 波束形式と S 行列の関心に直結する設計解析✨",
+      "summary": "入出力形式と SLH 形式で N 個の空洞の CZ ゲート忠実度を計算。単一光子の波束保存と 2 光子の π 位相が要求する結合率が逆向きで、平均忠実度は約 60% 止まり📉"
+    },
+    {
+      "arxiv_id": "2609.25227",
+      "title": "Localized Decoherence as a Constructive Tool: An Optical Simulation of Matter-Wave Interference",
+      "authors": [
+        "Hadis Torbatiyan",
+        "Bedir Halci",
+        "Adrian Udovici'c",
+        "Lara Ulcakar",
+        "Rainer Kaltenbaek"
+      ],
+      "categories": [
+        "quant-ph",
+        "physics.optics"
+      ],
+      "url": "https://arxiv.org/abs/2609.25227",
+      "abstract": "Decoherence is conventionally regarded as a detrimental process that suppresses quantum coherence and limits the performance of quantum technologies. Contrary to this view, we show that spatially localized decoherence can instead be exploited as an interferometric tool. Beyond its conceptual implications, localized decoherence provides a novel approach to prepare arbitrary macroscopic spatial superpositions for testing quantum physics with massive particles. We demonstrate the proof of principle by making use of the correspondence between optics and matter-waves through the equivalence of the respective propagation functions. By employing stochastic phase fields to the optical counterpart to model the decoherence, our experiments confirm the expected interference. The results establish localized decoherence as a resource for quantum state engineering.",
+      "score": 86,
+      "reason": "光と物質波の伝搬関数の等価性を使った干渉実験🎯 デコヒーレンスを妨害物でなく干渉計の道具に反転させる視点が面白い✨",
+      "summary": "空間的に局在したデコヒーレンスを確率的位相場で光学系に実装し、期待される干渉を確認。任意の巨視的空間重ね合わせを作る新経路になる🔬"
+    }
+  ]
+}
