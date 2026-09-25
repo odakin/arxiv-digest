@@ -1,0 +1,21 @@
+{
+  "total_fetched": 217,
+  "scored_papers": [
+    {
+      "arxiv_id": "2609.28136",
+      "title": "Unbounded Operators, Physicality, and Modality in Quantum Theories",
+      "authors": [
+        "Zhonghao Lu"
+      ],
+      "categories": [
+        "quant-ph",
+        "physics.hist-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.28136",
+      "abstract": "In this paper, I address the problem regarding the physicality of Hilbert space in quantum mechanics, a topic brought into focus by Carcassi et al.'s paper \"The unphysicality of Hilbert spaces\" recently. I argue for the physicality of the Hilbert space in quantum mechanics, and demonstrate that there are inevitable ambiguity and arbitrariness if we want to identify the set of physical states with a proper subset of it. Moreover, I distinguish the ontological and modal reading of physicality from the pragmatic and operational reading of physicality, and then develop what I call the hierarchical view of physicality. According to this view, physicality is not a monolithic concept, but a layered one that admits degrees. I show the connection between the concept of physicality and modal metaphysics, and finally explain how it can be used to address the interpretational problem of quantum field theory brought by the existence of inequivalent representations.",
+      "score": 86,
+      "reason": "Hilbert 空間の「非物理性」論争への反論 🤔 非有界演算子をどこまで物理と認めるかは、時間演算子が置けるかどうかに直結する ⏳✨",
+      "summary": "物理状態を Hilbert 空間の真部分集合に同定しようとすると曖昧さと恣意性が不可避だと論じ、存在論的／操作的な physicality を分離した階層的な見方を提案 📐⚛️"
+    }
+  ]
+}

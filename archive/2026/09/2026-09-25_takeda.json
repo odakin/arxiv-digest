@@ -1,0 +1,41 @@
+{
+  "total_fetched": 217,
+  "scored_papers": [
+    {
+      "arxiv_id": "2609.28133",
+      "title": "Optimal local oscillators for the homodyne detection of multiphoton states",
+      "authors": [
+        "Gisell Lorena Osorio",
+        "Paul Virally",
+        "Sean Molesky",
+        "Nicol'as Quesada"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.28133",
+      "abstract": "We propose a framework for optimizing pulsed local oscillators (LO) for homodyne detection of multiphoton-number states by exploiting the tensor structure of their joint-spectral amplitude (JSA). We show that finding the optimal LO is equivalent to computing the JSA tensor's leading unitary eigenpair and that the factor matrices of the JSA's Tucker higher-order singular value decomposition (HOSVD) coincide with the Schmidt modes of the photon number state's single-particle reduced density matrix. We use the HOSVD to bound the optimal homodyne visibility and to initialize gradient based optimization. In simulated JSAs, weakly correlated, few-mode states reach near-unity visibility, with the leading HOSVD mode being the optimal LO, while strongly correlated, multimode states require full optimization and saturate below unit visibility even at the true optimum. These results offer a practical route to design LOs for homodyne detection experiments with realistic sources of photon-number states, which contributes to the practical implementation of sources of non-Gaussian quantum states.",
+      "score": 86,
+      "reason": "JSA のテンソル構造から最適な局所発振器を決める話 ✨ SPDC biphoton を Schmidt モードで刻む手つきがそのまま効く 🔬🎯",
+      "summary": "多光子数状態のホモダイン検出で、最適 LO が JSA テンソルの主ユニタリ固有対に一致すると示す 📐 Tucker HOSVD の因子行列が1粒子縮約密度行列の Schmidt モードと一致 ⚛️"
+    },
+    {
+      "arxiv_id": "2609.27697",
+      "title": "Response of Hellinger-distance based coherence to weak decoherence in two-flavor neutrino oscillations",
+      "authors": [
+        "Saurabh Rai",
+        "Nilakshi Das",
+        "Tejhas Kapoor"
+      ],
+      "categories": [
+        "hep-ph",
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.27697",
+      "abstract": "We evaluate the Hellinger-distance coherence of the two-flavor neutrino state subject to Lindblad damping of the mass-eigenstate interference term, and obtain a closed expression in terms of the flavor-basis density-matrix elements. In the two-flavor vacuum treatment with negligible wave-packet separation, the undamped state is pure, and the smallest eigenvalue of the damped state grows linearly with $\\epsilon=1-\\kappa$, where $\\kappa=e^{-\\Gamma L}$. An expansion about the pure state then yields a nonanalytic $\\sqrt{\\epsilon}$ correction to the Hellinger coherence, with coefficient $K=2\\sqrt{2}\\,u\\sin2\\theta/\\sqrt{1-2u}$, whereas the flavor-transition probability, the $l_1$ coherence, the concurrence, the entanglement of formation and the local quantum Fisher information all respond linearly in $\\epsilon$. Using representative Daya Bay, KamLAND and MINOS working points together with a current $90\\%$ C.L. bound on energy-independent damping, we find fractional changes in the Hellinger coherence of $0.18\\%$, $9.40\\%$ and $21.51\\%$, against $0.0009\\%$, $0.43\\%$ and $1.81\\%$ for the concurrence. The comparison concerns the response of the quantifiers to the damping parameter and carries no implication about experimental resolution. The same mechanism operates, with a different coefficient, for a correlated dephasing channel acting on the flavor coherence, where the non-Markovian regime produces damped revivals.",
+      "score": 85,
+      "reason": "ニュートリノ振動を量子干渉としてコヒーレンス測度で測る話 ⚛️ 波束分離とコヒーレンス長の扱いが干渉の定式化に近い 🌊✨",
+      "summary": "2フレーバー振動に Lindblad 減衰を入れ Hellinger 距離コヒーレンスを閉形式で導出 📐 純粋状態近傍で √ε の非解析補正が出る一方、l₁ コヒーレンスや concurrence は線形 ⚛️"
+    }
+  ]
+}
