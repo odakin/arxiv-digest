@@ -267,7 +267,7 @@ Credential cascade は **config.yaml > env > default**、 `EMAIL_PASSWORD` の�
 | (C) `bcc` も同列 expose | `EMAIL_BCC` env var を追加 | 大半の use case (= 自分の複数アドレス、 小チーム) では `to` で足りる、 BCC が要る時点で MLM 領域で本 tool の scope 外、 後付けで追加可能 |
 | **(D, 採用) RFC 2047 Subject + multi-recipient `to` + env-only password** | 上記 minor 3 点を polish commit で適用 | universally compatible / 拡張性あり / sensitive value の config leak surface ゼロ |
 
-詳細 PR review + verification は `SESSION.md` 「2026-05-28 (`3bae379`) email delivery channel」 entry 参照。
+詳細 PR review + verification は [`SESSION-archive.md`](SESSION-archive.md#完了-詳細は-designmd--git-log) 「2026-05-28 (`3bae379`) email delivery channel」 entry 参照 (旧 SESSION.md から MOVE 済)。
 
 
 ## Personal profiles outside the public template (2026-05-28)
@@ -293,7 +293,7 @@ maintainer 自身の 4 profile (`odakin` / `takeda` / `ogawa` / `onda`) の実�
 
 symlink target は `../../odakin-prefs/arxiv-digest-profiles/<name>` の **相対 path** で、 `~/Claude/{arxiv-digest, odakin-prefs}/` という layout 前提に乗っかる。 layer 3 (odakin-prefs) は本 repo を持つ maintainer の全マシンで同じ layout なので invariant、 cross-machine で symlink がそのまま resolve する。 ペア commit: [`odakin-prefs@9e818d2`](https://github.com/odakin/odakin-prefs) で 4 profile dirs + 配置理由 README。
 
-detail context (= 何が壊れていたか / 修復手順 / verification) は `SESSION.md` 「2026-05-28 (`90ebd13`) maintainer の personal profile」 entry 参照。
+detail context (= 何が壊れていたか / 修復手順 / verification) は [`SESSION-archive.md`](SESSION-archive.md#完了-詳細は-designmd--git-log) 「2026-05-28 (`90ebd13`) maintainer の personal profile」 entry 参照 (旧 SESSION.md から MOVE 済)。
 
 ## 推薦文に人名を書かない (2026-09-15)
 
