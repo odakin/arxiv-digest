@@ -11,26 +11,11 @@
 
 ## 残タスク
 
-### 2026-04-14 の onda 追加に付随
-
-- [ ] **他マシン (学校 Mac 等) で `.env` 生成**: `research-collab` を clone + `git-crypt unlock` 後、`python3 -m tools.sync_mentions` 一発で `DISCORD_MENTION_*` が生成される (helper は 2026-04-14 で実装)。scheduled task がそこで走っている場合、env 未設定だと mention は無言スキップ (fail soft) になるので即時の不具合は出ないが、メンションが消える
-- [ ] **新 subscriber への事前告知**: 明日 (2026-04-15) 朝 10:31 ごろから Discord `#arxiv-digest` で mention 付き配信が始まる。一言入れておくべき
-- [x] **ogawa エントリの PII 補完** (2026-04-14 完了: name_en / name_ja / affiliation を collaborators.yaml に追加)
-- [x] **arxiv-digest/CLAUDE.md の profile 表を更新** (2026-04-14 完了: onda 行追加、stale 表記修正、設計参照を明記)
-- [x] **subscriber profile の PII redact (全 3 名)** (2026-04-14 完了: option iii 採用 → takeda/ogawa/onda の interest_profile.txt / SESSION.md / DESIGN.md から実名・所属・named collaborators を削除、詳細は research-collab に集約)
-- [ ] **README.md / SKILL.md に `.env` の `DISCORD_MENTION_*` 項目を明示**: 新しいマシンでの setup 時に webhook と並んで用意すべき env var であることを記載
-
 ### 継続タスク
 
 - [ ] Bluesky / Slack チャンネル追加
 - [ ] ogawa の正しい INSPIRE BAI を確認・登録 (2026-04-14 に homonym 由来の誤 BAI を除去。実 subscriber に BAI があれば `tools/setup_inspire.py` を再実行、無ければ `inspire_id: null` のまま継続)
   - ⚠️ **2026-07-01 追記 (inspire-monthly 実行時の landmine)**: `skill/inspire-monthly/SKILL.md` Step 2 が ogawa に `N.Ogawa.4` を指定するが、これは複数の同名著者が混在した INSPIRE クラスタで、大半が subscriber の登録興味 (config.yaml: quant-ph/hep-th/gr-qc) と無関係な実験系分野の論文。`setup_inspire N.Ogawa.4 --profile ogawa` を走らせると `inspire_arxiv_categories` が実験系で汚染され digest の scoring を歪める。**当月次実行 (2026-07-01) では ogawa をスキップ**、BAI は 2026-04-14 以降の cleared 状態を維持 (ogawa は現在 inspire_profile.txt を持たず interest_profile.txt + config のみで正常運用)。**要対応: SKILL.md Step 2 の ogawa 行を削除するか、clean な BAI を確定するまで無効化する** (SKILL.md 編集後は `update_scheduled_task` で prompt 同期が必要)。
-
-### 派生 (2026-04-14 redact の副作用)
-
-- [ ] **odakin の主な共同研究者 5 名を `research-collab/collaborators.yaml` に stub 登録**。現状 public profile の「see private registry」が実体を指していない。名前の具体は local backup branch (下記) にのみ残存する pre-redact 版を参照。1 名について漢字表記ゆれが既存 `ogawa` エントリと類似しており別人/同一人物か要確認
-- [ ] **orphan 監視**: 2026-04-14 に public repo の history を force-push で rewrite した。残る orphan 状態のノード (詳細 SHA はここに書かない) を GitHub が自然 GC するまでは SHA 直アクセスで旧内容取得可能。1 ヶ月後に origin での 404 化を確認。監視対象 SHA は local backup branch (下記) の `rev-parse HEAD~n` で復元可能
-- [ ] **local backup branch 削除**: pre-rewrite history を保持するローカルブランチがある (push 済みでない)。上記 orphan 監視完了後に削除
 
 ### 完了 (詳細は DESIGN.md / git log)
 
