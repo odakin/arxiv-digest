@@ -1,0 +1,54 @@
+{
+  "total_fetched": 213,
+  "scored_papers": [
+    {
+      "arxiv_id": "2609.28686",
+      "title": "Quantum field-theoretical description of solar neutrino oscillations",
+      "authors": [
+        "Vadim Egorov",
+        "Igor Volobuev"
+      ],
+      "categories": [
+        "hep-ph",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2609.28686",
+      "abstract": "A quantum field-theoretical description of neutrino oscillations in matter in adiabatic approximation is developed. Estimates of the oscillation coherence lengths have been made for several solar neutrino production and detection processes. It has been shown that, within the framework of the developed approach, the results of solar neutrino detection experiments can be correctly described in terms of neutrino mass eigenstates without taking oscillations into account.",
+      "score": 88,
+      "reason": "ニュートリノ振動を量子干渉として場の理論で扱う一本 ⚛️ コヒーレンス長の見積もりが波束の定式化に効く 🌊✨",
+      "summary": "物質中の断熱近似で振動を場の理論的に記述し、複数の生成・検出過程について振動コヒーレンス長を評価 ⚛️📐"
+    },
+    {
+      "arxiv_id": "2609.29767",
+      "title": "Non-Hermitian multimode interferometry",
+      "authors": [
+        "Subhajyoti Bid",
+        "Henning Schomerus"
+      ],
+      "categories": [],
+      "url": "https://arxiv.org/abs/2609.29767",
+      "abstract": "Interferometers form a cornerstone of precision measurement, leveraging wave superposition and phase coherence to convert minute physical perturbations into measurable intensity variations. Here, we establish how paradigmatic interferometric architectures, the canonical Michelson and Mach-Zehnder interferometers, can be endowed with entirely new operating principles by replacing conventional beam splitters with judiciously designed non-Hermitian resonators. To uncover how non-Hermitian physics can assist in interferometry, we subject these canonical interferometers to a modern non-Hermitian symmetry analysis. A fundamentally transformed interference landscape then arises when the resonators and interference pathways collectively induce partially deficient spectral degeneracies, mathematically characterized as multimode versions of exceptional points. Key characteristics of these exceptional interferometers are nonanalytic destructive interference conditions, resulting in distinct bright-fringe and dark-fringe operating regimes organized by non-Hermitian winding and braiding topology. By revealing how exceptional-point-assisted interference reshapes the canonical geometries, our findings transfer central paradigms of non-Hermitian spectroscopy into the interferometric setting, and establish exceptional-point interferometry as a new platform-independent paradigm for general-purpose precision sensing, applicable from on-chip photonics to macroscopic observatories.",
+      "score": 86,
+      "reason": "標準的な二経路干渉計を非エルミート多モードへ拡張 🔬 吸収を含む検出模型の扱いと地続きの話 ✨⚛️",
+      "summary": "干渉計の代表的構成を非エルミート多モード系へ一般化し、利得・損失がある場合に微小な位相摂動が強度変化へどう変換されるかを定式化 📐🔬"
+    },
+    {
+      "arxiv_id": "2609.29293",
+      "title": "Zero-forward Kerker scattering via synthesized complex-frequency excitation",
+      "authors": [
+        "Jianfei Liu†",
+        "Zheng Gong†",
+        "Ao Li",
+        "Hongsheng Chen",
+        "Stefan Rotter",
+        "Xiao Lin"
+      ],
+      "categories": [],
+      "url": "https://arxiv.org/abs/2609.29293",
+      "abstract": "All objects illuminated with light inevitably cast a shadow -- a universal phenomenon encapsulated in the fundamental property that all passive systems with plane-wave illumination feature a non-zero forward scattering amplitude. Since Kerker's landmark 1983 paper, considerable effort has been devoted to overcoming this limitation and achieving the elimination of forward scattering -- an objective now widely known as the zero-forward Kerker scattering. However, this objective is fundamentally restricted to active systems, requiring either physical gain in materials or virtual gain in the excitation source. Despite advances in active materials science and non-Hermitian photonics, the experimental realization of zero-forward Kerker scattering still remains an open challenge. Here, we show, both theoretically and experimentally, how zero-forward Kerker scattering can be effectively synthesized by a weighted superposition of readily accessible real-frequency responses. Our synthetic recipe builds on creating an artificial pole at a complex frequency that prevails over inherent scattering poles. These findings not only unlock a realistic experimental framework for non-Hermitian light-matter interactions, but also hold technological relevance for non-invasive sensing and imaging.",
+      "score": 86,
+      "reason": "前方散乱をゼロにできる、という光学定理すれすれの話 ✨🔬 吸収・検出模型とユニタリ性を考える材料 ⚛️",
+      "summary": "受動系は平面波照射で前方散乱振幅が消えないという一般則に対し、合成した複素周波数励起で前方散乱の消失条件を実現する経路を示す 📐✨"
+    }
+  ]
+}

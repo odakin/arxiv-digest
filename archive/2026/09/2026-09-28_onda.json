@@ -1,0 +1,42 @@
+{
+  "total_fetched": 213,
+  "scored_papers": [
+    {
+      "arxiv_id": "2609.29996",
+      "title": "Two-rung ladder: $H_0$ from Tip of the Red Giant Branch and geometric anchors alone",
+      "authors": [
+        "Richard Stiskalek",
+        "Harry Desmond",
+        "Guilhem Lavaux"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "astro-ph.GA"
+      ],
+      "url": "https://arxiv.org/abs/2609.29996",
+      "abstract": "We infer the Hubble constant $H_0$ from the ~400 Extragalactic Distance Database hosts with a tip of the red giant branch (TRGB) distance, calibrated on the geometric anchors of the Large Magellanic Cloud and NGC 4258. We forward-model the tip magnitudes and host redshifts including magnitude-limited selection, sky exposure, and density-dependent galaxy bias, conditioning on each of the 80 Manticore-Local realisations of the local density and peculiar-velocity fields in turn. As most hosts lie at $cz_{\\rm CMB} \\lesssim 1000$ km/s, where peculiar velocities are important, the inference is limited by the variance of these fields rather than by the TRGB calibration. For a fixed realisation, the redshift likelihood and density smoothing each move $H_0$ by less than 1 km/s/Mpc and a velocity monopole by $5.4 \\pm 3.4$ km/s/Mpc, whereas the field-to-field scatter in $H_0$ is 5.2 km/s/Mpc. Weighting the posteriors from each realisation equally gives $H_0 = 68.4 \\pm 5.9$ km/s/Mpc, while weighting each by its Bayesian evidence gives $72.3 \\pm 2.6$ km/s/Mpc. The latter value is set by a single particularly high-evidence realisation, making it sensitive to the finite sampling of the reconstruction posterior. This ladder therefore cannot yet arbitrate the Hubble tension. Extending the TRGB data beyond the present ~1000 km/s, together with improved reconstructions of the local Universe, would reduce the field-to-field scatter well below the 5.2 km/s/Mpc we find here.",
+      "score": 86,
+      "reason": "赤色巨星分枝の先端と幾何アンカーだけで H₀ を出す 2 段ばしご 🔭 H₀ 緊張の系統を切り分ける材料になる ✨📏",
+      "summary": "約400ホストの先端等級距離を大マゼラン雲と NGC 4258 で較正し、等級制限を前向きモデル化して H₀ を推定。超新星を挟まない構成 📡📏"
+    },
+    {
+      "arxiv_id": "2609.28828",
+      "title": "Unpolarized Low-Frequency Tail of Causal Chiral Gravitational Waves",
+      "authors": [
+        "Tikinas Chabour",
+        "Guillem Domènech",
+        "Alexander Ganz",
+        "Jan Tränkle"
+      ],
+      "categories": [
+        "gr-qc",
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2609.28828",
+      "abstract": "Parity violation in the early Universe may lead to a chiral gravitational wave background. We show that, for finite-time parity-violating sources, the low-frequency tail of the generated chiral gravitational wave background is universally unpolarized, and that the chirality fraction decreases linearly with frequency. Our result generally applies to any parity-violating gravitational-wave source that appears quadratically in the wave equation. We consider both Gaussian sources and explicit trispectrum templates. We attribute the lack of chirality of the low-frequency tail to the fact that, on large scales, gravitational wave generation is almost equally inefficient for both helicities.",
+      "score": 85,
+      "reason": "パリティ破れ由来のカイラル重力波は低周波で必ず無偏極、という一般則 🌀 B モード側の期待値を締める ✨🔭",
+      "summary": "有限時間のパリティ破れ源では生成されるカイラル重力波背景の低周波テールが普遍的に無偏極になり、カイラリティ比が線形に減ることを示す 🌊📐"
+    }
+  ]
+}

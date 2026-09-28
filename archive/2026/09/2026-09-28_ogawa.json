@@ -1,0 +1,20 @@
+{
+  "total_fetched": 213,
+  "scored_papers": [
+    {
+      "arxiv_id": "2609.29248",
+      "title": "The Uncertainty Principle, Uncertainty Relations, and Underlying Trajectories: Feynman, Nelson, Bohm, and Persistent Kac-Dirac Dynamics",
+      "authors": [
+        "Partha Ghose"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.29248",
+      "abstract": "A distinction should be made between quantum uncertainty relations and the broader uncertainty principle. The former are precise statistical consequences of quantum mechanics; the latter, when interpreted as excluding simultaneously definite conjugate variables and particle trajectories, is an additional ontological claim not implied by the uncertainty relations themselves.\nWe examine this distinction using Feynman paths, Nelson's stochastic mechanics, Bohmian mechanics, and finite-speed persistent Kac dynamics. Feynman paths exhibit Brownian-like short-time scaling, while Nelson derives Schrödinger dynamics from Wiener diffusion supplemented by dynamical assumptions. Bohmian mechanics, by contrast, reproduces quantum predictions while retaining definite particle trajectories. Kac dynamics provides continuous, piecewise differentiable finite-speed trajectories whose diffusive limit approaches Wiener kinematics. Moreover, after an appropriate Wick rotation, its coupled two-sector transport equations can be mapped to the Dirac equation.\nThese examples demonstrate that the experimentally established uncertainty relations are compatible with markedly different underlying path structures. They therefore do not, by themselves, rule out a microscopic trajectory description of quantum dynamics.",
+      "score": 91,
+      "reason": "不確定性「関係」と「原理」を分けて読む話 ⏳⚛️ 時間演算子や軌道をどこまで認めるかの土俵づくりに直結 ✨",
+      "summary": "統計的帰結としての不確定性関係と、共役量の同時確定・軌道を排除する解釈的主張を区別し、複数の軌道力学の描像を並べて比較 📐⚛️"
+    }
+  ]
+}

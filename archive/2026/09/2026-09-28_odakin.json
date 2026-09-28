@@ -1,0 +1,119 @@
+{
+  "total_fetched": 213,
+  "scored_papers": [
+    {
+      "arxiv_id": "2609.28686",
+      "title": "Quantum field-theoretical description of solar neutrino oscillations",
+      "authors": [
+        "Vadim Egorov",
+        "Igor Volobuev"
+      ],
+      "categories": [
+        "hep-ph",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2609.28686",
+      "abstract": "A quantum field-theoretical description of neutrino oscillations in matter in adiabatic approximation is developed. Estimates of the oscillation coherence lengths have been made for several solar neutrino production and detection processes. It has been shown that, within the framework of the developed approach, the results of solar neutrino detection experiments can be correctly described in terms of neutrino mass eigenstates without taking oscillations into account.",
+      "score": 92,
+      "reason": "波束とニュートリノ振動の交差点ど真ん中 🎯⚛️🌊 物質中の断熱近似でコヒーレンス長まで踏み込んでるのが効く 🔥✨",
+      "summary": "物質中の振動を場の理論で断熱的に記述し、太陽ニュートリノの複数の生成・検出過程について振動コヒーレンス長を評価 ⚛️🌊"
+    },
+    {
+      "arxiv_id": "2609.30093",
+      "title": "A Cartan-geometrical perspective on torsion and non-metricity",
+      "authors": [
+        "Damianos Iosifidis",
+        "Tomi Koivisto",
+        "Wit Krośnicki",
+        "Tom Zlosnik"
+      ],
+      "categories": [
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2609.30093",
+      "abstract": "Élie Cartan established that the metric and intrinsic curvature of a $D$ dimensional embedded manifold $M$ could be determined by tracing the response of another surface $N$ of the same dimensionality, as it is rolled without slipping and twisting on $M$. In the context of spacetime geometry, this construction underpins the MacDowell-Mansouri formulation of General Relativity. We consider extensions of this framework that correspond to rolling of a shape with twisting and with shape evolution; it is shown that these naturally describe torsion and non-metricity respectively. Cartan-geometric formulations of teleparallel gravity and symmetric teleparallelism are discussed in addition to further manifestations of non-metricity in first-order formulations of gravity.",
+      "score": 89,
+      "reason": "捩率と非計量性を Cartan 幾何の「転がし」描像で読み直す一本 🌀⚛️ 好みの幾何学的直観にそのまま刺さる 🎯🔥✨",
+      "summary": "D 次元多様体上を同次元の面が滑らず捻らず転がる構成を時空幾何へ適用し、捩率と非計量性が転がしのどの自由度に対応するかを整理 🌀📐"
+    },
+    {
+      "arxiv_id": "2609.29590",
+      "title": "Unification of Einstein Gravity with Internal Interactions",
+      "authors": [
+        "S. Stefas",
+        "G. Zoupanos"
+      ],
+      "categories": [
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2609.29590",
+      "abstract": "The gauge-theoretic formulation of gravity, enriched with the observation that the tangent group of a curved manifold need not have the same dimension as the manifold itself, provides a natural framework for unifying gravity with internal interactions. In the present work we study the unification of Einstein gravity with the $SO(10)$ grand unified theory within an $SO(1,17)$ gauge theory. As a central result, we derive Einstein gravity with a cosmological constant from the spontaneous symmetry breaking (SSB) of an $SO(1,5)$ gauge theory to the Lorentz group via two independent routes: one using two scalar fields in the fundamental representation $\\mathbf{6}$ of $SO(6)$, and one using a single scalar in the adjoint $\\mathbf{15}$. Both yield a Gauss-Bonnet + Einstein-Hilbert + cosmological constant action. Embedding the $SO(1,5)$ gravitational sector in $SO(1,17)$ and breaking the full gauge group yields Einstein gravity coupled to $SO(10)$. The Weyl-Majorana condition reduces the fermion family degeneracy to two, in contrast to the four families obtained in the $SO(2,16)$ conformal gravity unification.",
+      "score": 88,
+      "reason": "接群の次元が時空次元と違ってよい、を使った重力と内部相互作用の統一 🌌⚛️ ゲージ理論的重力の筋ど真ん中 🎯🔥✨",
+      "summary": "曲がった多様体の接群は多様体と同次元である必要がないという観察を出発点に、重力のゲージ理論的定式化の中で内部ゲージ群との統一を構成 🌀📐"
+    },
+    {
+      "arxiv_id": "2609.29135",
+      "title": "Anomaly in baryon number",
+      "authors": [
+        "Yutaka Hosotani"
+      ],
+      "categories": [
+        "hep-ph",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2609.29135",
+      "abstract": "Chiral anomalies in baryon and lepton number currents in the GUT-inspired $SO(5) \\times U(1) \\times SU(3)$ gauge-Higgs unification model in the Randall-Sundrum (RS) warped space are examined. Total anomalies including contributions of all Kaluza-Klein (KK) excited modes of fermions running along internal triangular loops are expressed in terms of the values of wave functions of gauge-boson KK towers at the ultraviolet (UV) and infrared (IR) branes in the RS space. The covariant divergence of 5D baryon number current picks up an anomaly term proportional to ${\\rm Tr} \\,F_{\\mu\\nu} \\tilde F^{\\mu\\nu} |_{SU(2)_L} - {\\rm Tr} \\, F_{\\mu\\nu} \\tilde F^{\\mu\\nu} |_{SU(2)_R}$ at the UV and IR branes where $SU(2)_L \\times SU(2)_R$ is a subgroup of $SO(5)$.",
+      "score": 87,
+      "reason": "ワープした余剰次元のゲージ・ヒッグス統一で、KK 全モード込みのバリオン数アノマリー勘定 🌌⚛️ 好きな筋 🎯🔥✨",
+      "summary": "SO(5)×U(1)×SU(3) 模型で内部空間を走るフェルミオンの KK 励起すべてを含め、バリオン数・レプトン数カレントのカイラルアノマリーを評価 ⚛️🌀"
+    },
+    {
+      "arxiv_id": "2609.28542",
+      "title": "Canonical Quantization and Constraint Algebra of Weyl-Invariant Gravity in a Conformal Gauge: Emergence of a Geometric Cosmological Term",
+      "authors": [
+        "Jorge Meza-Domínguez",
+        "Tonatiuh Matos"
+      ],
+      "categories": [
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2609.28542",
+      "abstract": "We present the canonical quantization of Weyl-invariant gravity in a specific conformal gauge. Fixing the scale factor as $a(\\eta) = 1/(H_0\\eta)$ yields an effective geometric cosmological term $\\mathcal{M}(\\eta) = \\alpha/\\eta^2$ on the left-hand side of the Einstein equations, guaranteeing an equation of state $w = -1$ by construction. The Bianchi identity requires a compensator scalar field; we show that this compensator is the conformal mode of the metric, a gauge artifact that does not propagate ghost instabilities in the full quantum theory. We develop the complete ADM Hamiltonian formulation and prove that the constraint algebra closes in standard first-class form. Canonical quantization yields a well-defined Wheeler-DeWitt equation where the $\\mathcal{M}(\\eta)$ term acts as a potential barrier dynamically suppressing the quantum creation of small-scale universes. The physical reduced Hamiltonian is demonstrated to be bounded from below, time evolution is strictly unitary in the physical Hilbert space, and microcausality is preserved. In the pure vacuum regime, the model admits an exact analytical solution with $\\Omega_{\\text{DE}} = 1$, resolving the cosmic coincidence problem without fine-tuned parameters. In the matter-dominated era, the comoving horizon scales as $R_H \\propto \\eta$, so our result $\\mathcal{M} \\propto \\eta^{-2} \\propto R_H^{-2}$ reproduces the central Compton Mass Dark Energy (CMaDE) hypothesis from first principles and establishes $n = -2$ as the theoretical benchmark for the Conformal Holographic Dark Energy (CHDE) parametrization $\\mathcal{M} \\propto \\eta^n$. From a pure conformal symmetry principle, the model delivers an effective geometric cosmological term that drives the accelerated expansion with $w = -1$, providing the missing action principle for CMaDE.",
+      "score": 86,
+      "reason": "Weyl 不変重力を共形ゲージで正準量子化したら宇宙項が幾何から湧く 🌌⚛️ スケール不変重力の筋と相性よし 🎯🔥✨",
+      "summary": "スケール因子を固定すると α/η² の幾何学的宇宙項が Einstein 方程式の左辺に現れ、状態方程式が保証される構造を拘束代数込みで議論 📐🌀"
+    },
+    {
+      "arxiv_id": "2609.28740",
+      "title": "Heavy Higgsino Dark Matter at the Scale of the Vanishing Higgs Quartic",
+      "authors": [
+        "James Unwin"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2609.28740",
+      "abstract": "The Standard Model Higgs quartic coupling runs to zero around $10^9-10^{12}$ GeV at $2\\sigma$, suggestive of an ultraviolet boundary condition $\\lambda\\simeq0$ at this scale. In a well-motivated class of high-scale supersymmetric (SUSY) models, the quartic is automatically set to zero at tree level at the superpartner scale. The Higgsino can naturally emerge as the lightest SUSY particle, with its two neutral Weyl components sufficiently degenerate to form an effectively Dirac fermion with an unsuppressed vector coupling to the $Z$. For such Higgsino dark matter, direct detection requires a mass above $\\sim10^{11}$ GeV, leading to a coincidence with the scale independently selected by the vanishing quartic. Such a heavy Higgsino cannot freeze out with the observed relic density. However, if its mass exceeds the reheating temperature, the observed dark matter abundance can be reproduced through Boltzmann suppressed freeze-in. This scenario connects the dark matter mass to the measured Higgs mass, with a parameter space already constrained by LUX-ZEPLIN (LZ) and which will be decisively tested at DARWIN/XLZD. Finally, we consider PeV Higgsinos with Majorana gauginos of order $10^7$ GeV, permitting an inelastic Higgsino interpretation of the tentative LZ event while retaining the connection between the scalar superpartner scale and the vanishing Higgs quartic scale.",
+      "score": 86,
+      "reason": "ヒッグス四点結合がゼロになるスケールを境界条件に据える発想 🎯⚛️ 臨界性と暗黒物質を 1 枚に畳んでる 🔥🌌✨",
+      "summary": "10⁹–10¹² GeV で λ≃0 となる高スケール SUSY の類では四点結合がツリーで消え、重い higgsino 暗黒物質の質量域が絞られる ⚛️🌌"
+    },
+    {
+      "arxiv_id": "2609.29248",
+      "title": "The Uncertainty Principle, Uncertainty Relations, and Underlying Trajectories: Feynman, Nelson, Bohm, and Persistent Kac-Dirac Dynamics",
+      "authors": [
+        "Partha Ghose"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.29248",
+      "abstract": "A distinction should be made between quantum uncertainty relations and the broader uncertainty principle. The former are precise statistical consequences of quantum mechanics; the latter, when interpreted as excluding simultaneously definite conjugate variables and particle trajectories, is an additional ontological claim not implied by the uncertainty relations themselves.\nWe examine this distinction using Feynman paths, Nelson's stochastic mechanics, Bohmian mechanics, and finite-speed persistent Kac dynamics. Feynman paths exhibit Brownian-like short-time scaling, while Nelson derives Schrödinger dynamics from Wiener diffusion supplemented by dynamical assumptions. Bohmian mechanics, by contrast, reproduces quantum predictions while retaining definite particle trajectories. Kac dynamics provides continuous, piecewise differentiable finite-speed trajectories whose diffusive limit approaches Wiener kinematics. Moreover, after an appropriate Wick rotation, its coupled two-sector transport equations can be mapped to the Dirac equation.\nThese examples demonstrate that the experimentally established uncertainty relations are compatible with markedly different underlying path structures. They therefore do not, by themselves, rule out a microscopic trajectory description of quantum dynamics.",
+      "score": 85,
+      "reason": "不確定性「関係」と不確定性「原理」を切り分ける話 ⚛️🤔 量子基礎論の好みのテーマで軌道描像まで踏み込む 🌊🎯✨",
+      "summary": "統計的帰結としての不確定性関係と、共役量の同時確定や軌道を排除する解釈上の主張を区別し、複数の軌道描像を並べて比較 📐⚛️"
+    }
+  ]
+}
