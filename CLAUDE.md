@@ -108,8 +108,8 @@ arxiv_categories:
 
 ## 自動更新ルール（必須）
 
-- タスク完了時 → SESSION.md を更新
-- 重要な判断・ファイル作成/大幅変更時 → SESSION.md に記録 + `DESIGN.md` に判断根拠を残す
+- タスク完了時 → SESSION.md のその案件の現在地の行を置き換える (経緯は書かない = CONVENTIONS.md#session-no-durable-record)
+- 重要な判断・ファイル作成/大幅変更時 → `DESIGN.md` に判断と理由、 CLAUDE.md に構造。 SESSION.md は現在地の行を置き換えるだけ
 - push 前 → SESSION.md / CLAUDE.md / DESIGN.md が実態と一致しているか確認（詳細は CONVENTIONS.md §3）
 - **`skill/SKILL.md` を変更した場合**: 無人の日次実行は launchd routine (`odakin-prefs/scripts/install-claude-cron-routines.sh` の skill 型) が **毎回この file を直接読む**ので、 push して運用 Mac が pull すれば効く (prompt の同期作業は無い)。 ⚠️ scheduled task として再登録しない (= 二重実行)。 詳細は `~/Claude/claude-config/conventions/scheduled-tasks.md` 参照
 - **推薦文 (reason / summary) に人名を書かせない**: archive は公開 repo に commit され、 名前と関係を書くと公開 repo の gate に止められて archive の自動 commit が失敗する。 著者欄は arXiv の書誌として gate の対象外 (`claude-config/conventions/confidential-repo-boundary.md#published-metadata-is-public`)
