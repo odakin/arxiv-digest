@@ -31,7 +31,7 @@ def main():
             "⚠️ Today's archive is already on origin/main — another machine "
             "has posted. Aborting to prevent duplicate distribution."
         )
-        print("   (See SESSION.md double-execution incident, 2026-06-29.)")
+        print("   (See SESSION-archive.md#double-execution-incident, 2026-06-29; open items in TODO.md.)")
         return
 
     profiles = list_active_profiles()

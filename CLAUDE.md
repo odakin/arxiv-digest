@@ -109,6 +109,7 @@ arxiv_categories:
 ## 自動更新ルール（必須）
 
 - タスク完了時 → SESSION.md のその案件の現在地の行を置き換える (経緯は書かない = CONVENTIONS.md#session-no-durable-record)
+- **未完了の作業は `TODO.md` に置く** (SESSION.md の節に置かない)。 定期実行のステップ0 (`skill/SKILL.md`) は `TODO.md` の「要対応」 の節だけを読むので、 配信の前に確かめる項目だけをそこに置き、 残りの項目は「継続タスク」 の節へ。 節の名前を変えるなら同じ commit でステップ0 も直す
 - 重要な判断・ファイル作成/大幅変更時 → `DESIGN.md` に判断と理由、 CLAUDE.md に構造。 SESSION.md は現在地の行を置き換えるだけ
 - push 前 → SESSION.md / CLAUDE.md / DESIGN.md が実態と一致しているか確認（詳細は CONVENTIONS.md §3）
 - **`skill/SKILL.md` を変更した場合**: 無人の日次実行は launchd routine (`odakin-prefs/scripts/install-claude-cron-routines.sh` の skill 型) が **毎回この file を直接読む**ので、 push して運用 Mac が pull すれば効く (prompt の同期作業は無い)。 ⚠️ scheduled task として再登録しない (= 二重実行)。 詳細は `~/Claude/claude-config/conventions/scheduled-tasks.md` 参照

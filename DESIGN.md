@@ -3,7 +3,7 @@
 主要な設計判断とその理由を時系列で記録する。コードコメント・commit message
 には書ききれない「なぜこの形なのか」「他の案を何故却下したか」を残す。
 
-ライブな状態 (現状・残タスク) は SESSION.md、ユーザー向けの仕様は CLAUDE.md
+ライブな状態 (現状) は SESSION.md、未完了の作業は TODO.md、ユーザー向けの仕様は CLAUDE.md
 を見ること。本ファイルは「過去の判断の参照先」。
 
 ---
@@ -318,3 +318,21 @@ detail context (= 何が壊れていたか / 修復手順 / verification) は [`
 
 - 著者・題名・要旨は gate の対象外 (書誌は構造で外す) = claude-config `conventions/confidential-repo-boundary.md#published-metadata-is-public`
 - gate を締めたときに過去の archive commit を通し直す = 同 `#gate-change-replays-unattended-writers`
+
+## 未完了の作業は TODO.md に置き、 定期実行は SESSION.md を読まない
+
+### What
+
+未完了の作業はリポルートの `TODO.md` に置く。 `skill/SKILL.md` のステップ0 は `TODO.md` の「要対応」 の節を読む。 SESSION.md は現在地と `TODO.md` への link だけを持つ。
+
+### Why
+
+- ステップ0 は SESSION.md の「要対応」 の節を探していた。 SESSION.md は現在地だけを持って節を置き換える file (claude-config `CONVENTIONS.md#session-no-durable-record`) なので、 節を archive へ移すと定期実行は何も言わずに未完了の項目を見なくなる。 無人実行の入力を、 形が変わる file の見出しに結びつけない
+- 「要対応」 と「継続タスク」 を分けるのは、 定期実行が読む範囲を配信の前に確かめる項目に限るため (実装の課題を無人実行が拾わない)
+
+### 却下した案
+
+| 案 | 却下理由 |
+|---|---|
+| SESSION.md に「要対応」 の節を戻す | SESSION.md の規則と衝突し、 次の整理で同じことが起きる |
+| ステップ0 を消す | 配信の前に確かめたい項目 (二重配信の対策の確認など) の置き場が無くなる |

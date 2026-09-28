@@ -75,7 +75,7 @@ API のクレジット切れ、 09-04/07/08 と 3 連続 failure)、 **偶然に
   旧 token 失効確認まで自動でやる (値は端末にも AI の context にも出さない)。
 
 
-## ⚠️ 要対応 (2026-06-29 二重実行インシデント)
+## <a id="double-execution-incident"></a>⚠️ 要対応 (2026-06-29 二重実行インシデント)
 
 2026-06-29、本番ホストが朝 10:31 にダイジェストを配信・commit（`24c4a1e`）した後、**別マシンの arxiv-digest routine が failover gate 無しのまま再実行**し、同日のダイジェストを**チャンネルへ二重配信**した（odakin Mastodon 3 toots / onda Discord 5 msgs / takeda Discord 2 msgs を重複、ogawa は両 run とも 0 件）。再実行側はローカルの重複 6/29 archive を破棄し canonical（`24c4a1e`）へ ff-pull 同期して git 状態は復旧済み。
 
