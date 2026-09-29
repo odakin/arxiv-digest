@@ -1,0 +1,40 @@
+{
+  "total_fetched": 151,
+  "scored_papers": [
+    {
+      "arxiv_id": "2609.30545",
+      "title": "Rotating Weyssenhoff fluids in linearized Einstein-Cartan theory",
+      "authors": [
+        "Emmanuele Battista",
+        "Salvatore Capozziello",
+        "Francesco Giovinetti"
+      ],
+      "categories": [
+        "gr-qc",
+        "astro-ph.HE",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2609.30545",
+      "abstract": "The Weyssenhoff fluid expands the ordinary perfect-fluid description of general relativity by taking into account the intrinsic spin of its constituent particles. Within the linearized regime of Einstein-Cartan theory, we investigate the exterior geometry produced by isolated slowly rotating Weyssenhoff fluids, i.e., sources endowed with both macroscopic and microscopic angular momenta. Our work represents an extension of the foundational analysis of Arkuszewski, Kopczy{\\'n}ski and Ponomariev, which was restricted to the static fluid configuration. Under the assumptions of stationarity and axial symmetry, we derive the explicit expression for the linearized stress-energy tensor of the source and obtain the corresponding metric through a multipole expansion. The ensuing solution exhibits a generalized Lense-Thirring structure, with both the gravitoelectric and gravitomagnetic sectors affected by the quantum spin and macroscopic rotation. We also discuss some phenomenological implications of the model, including the gyroscope precession and the Sagnac effect, along with potential experimental probes of the predicted corrections.",
+      "score": 90,
+      "reason": "🌀✨EC理論ど真ん中キター！🔥 スピン流体（Weyssenhoff）の回転解で、量子スピンとマクロ回転が重力磁気にどう効くか🧲🌍 ジャイロ歳差やSagnac効果まで見てるの熱い😍🚀",
+      "summary": "線形化EC理論で緩やかに回転するWeyssenhoff流体の外部計量を多重極展開で導出🧮 一般化Lense-Thirring構造を得て、ジャイロ歳差・Sagnac効果への補正を議論🛰️"
+    },
+    {
+      "arxiv_id": "2609.31444",
+      "title": "Teleparallel Regularization of Gravitational Action",
+      "authors": [
+        "Martin Krss'ak",
+        "Michal Stano"
+      ],
+      "categories": [
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2609.31444",
+      "abstract": "We study the gravitational action in the teleparallel equivalent of general relativity, where the spin connection contributes to the action through a surface term and, when chosen appropriately, regularizes the action by effectively playing the role of a counterterm. We resolve several apparent ambiguities in this procedure using the Schwarzschild spacetime as an example. We show that the apparent discrepancy between bulk and quasilocal actions originates from contributions associated with spacetime singularities, and that the quasilocal action agrees with the standard results obtained in general relativity. We further clarify the role of the tetrad choice in determining the corresponding spin connection, showing that the proper diagonal and canonical frames give the same Euclidean action, while only the proper diagonal frame reproduces the expected Lorentzian action on the Wheeler--DeWitt patch. Finally, we establish the uniqueness of the regularization scheme and show that imposing an appropriate fall-off behavior of the torsion tensor removes the remaining ambiguity and fixes the Euclidean action uniquely.",
+      "score": 87,
+      "reason": "🧭✨テレパラ好きに刺さるやつ！🔥 スピン接続の表面項がカウンター項として作用を正則化🎯 テトラッドの選び方でスピン接続が決まる話もあって、局所ローレンツ対称性まわりが美味しい😋🚀",
+      "summary": "TEGRの重力作用でスピン接続の表面項が正則化を担う仕組みをSchwarzschildで検証🕳️ WdWパッチでの作用、テトラッド依存性、ねじれの減衰条件による一意性を示す📐"
+    }
+  ]
+}

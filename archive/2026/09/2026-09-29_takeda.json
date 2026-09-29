@@ -1,0 +1,23 @@
+{
+  "total_fetched": 151,
+  "scored_papers": [
+    {
+      "arxiv_id": "2609.31049",
+      "title": "Computational aberration-retrieval with entangled photons",
+      "authors": [
+        "Baptiste Courme",
+        "YoonSeok Baek",
+        "Hugo Defienne"
+      ],
+      "categories": [
+        "quant-ph",
+        "physics.optics"
+      ],
+      "url": "https://arxiv.org/abs/2609.31049",
+      "abstract": "Adaptive optics (AO) is central to high-resolution microscopy, yet conventional implementations often require repeated correction-and-measurement cycles whose number increases with aberration complexity. This measurement burden can become prohibitive when the available temporal window for correction is short or when photon budgets are constrained. Here, we demonstrate an AO strategy that exploits the spatial correlations of entangled photon pairs to retrieve aberrations directly. By using the second-order correlation function as an aberration-sensitive metric, the required correction can be determined with only a few measurements, without relying on image-based feedback or iterative optimization. This correlation-based approach establishes an efficient framework for AO leveraging quantum light, offering a new route toward quantum-enhanced microscopy in regimes where conventional correction strategies become challenging.",
+      "score": 86,
+      "reason": "📸 もつれ光子対の空間相関（二次相関関数）で収差を直接読み取る実験✨ SPDC対の横方向相関がそのまま道具になっていて面白い🔬",
+      "summary": "もつれ光子対の空間相関を収差に敏感な指標として使う適応光学法。少数回の測定で補正量を決められ、画像フィードバックや反復最適化が不要"
+    }
+  ]
+}
