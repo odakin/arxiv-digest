@@ -102,6 +102,15 @@ claude-config 5ddd43f で git-state-nudge.sh に追加された STALE_DIRT signa
 
 ## SKILL.md / scheduled task の二重構造 (2026-04 経緯メモ)
 
+`skill/SKILL.md` を実行する経路は 2 つあり、 SKILL.md を変えたときに要る作業が逆になる:
+
+| 経路 | 使う人 | 実行時に読むもの | SKILL.md を変えたら |
+|---|---|---|---|
+| Claude Code の scheduled task | template 利用者 (`docs/setup-guide.md` Step 6 の方式) | バックエンドに保存された prompt (下の What) | 直後に `update_scheduled_task` で prompt を同期する |
+| launchd routine | owner の運用 (CLAUDE.md「自動更新ルール」) | 実行のたびに `skill/SKILL.md` を直接読む | push して運用機が pull すれば効く。 scheduled task として再登録しない (= 二重実行) |
+
+以下の What / Why / 制約は scheduled task の経路 (template 利用者) の話。 owner の launchd 運用は prompt を保存しないので、 drift も同期作業も起きない。
+
 ### What
 
 scheduled task の prompt は次の 3 箇所に存在する:
@@ -118,13 +127,15 @@ scheduled task の prompt は次の 3 箇所に存在する:
 - **バックエンドが SKILL.md を読まない理由**: Claude Code の scheduled task 仕様。`create_scheduled_task` 呼び出し時にバックエンドに prompt が保存され、以後ローカルファイルは参照されない
 - **symlink (2)**: ローカルで `~/.claude/scheduled-tasks/` を見たときに内容を確認するための便宜 (実行には影響しない)
 
-### 制約と運用ルール
+### 制約と運用ルール (scheduled task の経路)
 
-SKILL.md を **single source of truth にできない** という不都合は受容している。SKILL.md とバックエンド prompt が乖離する drift リスクが常にある。これを抑えるため:
+scheduled task の経路では SKILL.md を **single source of truth にできない** という不都合は受容している。SKILL.md とバックエンド prompt が乖離する drift リスクが常にある。これを抑えるため:
 
-1. SKILL.md を編集したら、**直後に** `update_scheduled_task` を呼ぶ (CLAUDE.md「自動更新ルール」に明記)
-2. CLAUDE.md / SESSION.md にも sync 必須を明記してリマインダーを残す
+1. SKILL.md を編集したら、**直後に** `update_scheduled_task` を呼ぶ
+2. 自分の運用の手順書 (CLAUDE.md 等) にも sync 必須を明記してリマインダーを残す
 3. 新しいマシンで pull した後は、そのマシンで使う scheduled task は `update_scheduled_task` で prompt を sync する (バックエンドがマシン独立なため)
+
+owner の launchd routine はこの 3 つのどれも要らない (上の表)。
 
 ### 2026-04-08 commit_archives_to_git で SKILL.md を **触らなかった**理由
 
