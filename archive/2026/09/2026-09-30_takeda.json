@@ -1,0 +1,40 @@
+{
+  "total_fetched": 333,
+  "scored_papers": [
+    {
+      "arxiv_id": "2609.33862",
+      "title": "Nonlinear engineering of Hong-Ou-Mandel interference with structured light",
+      "authors": [
+        "Simon Darveau",
+        "Bienvenu Ndagano"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.33862",
+      "abstract": "A pair of photons entering a Hong-Ou-Mandel interferometer will bunch or anti-bunch depending on the symmetry of their state in the measured degree of freedom, resulting in constructive or destructive interference. For photon pairs generated through spontaneous parametric down-conversion, this symmetry can be engineered through linear transformations and projections applied to the photon pairs, or by tailoring the pump field. Here, we adopt the latter approach to demonstrate that the pump's parity affects the shape and frequency of the transition from constructive to destructive interference. We demonstrate this concept theoretically and experimentally using a rotating structured pump mode encoded in the Hermite-Gaussian and Laguerre-Gaussian bases. In the former case, we show that the transition exhibits a rich structure unique to the mode family, resulting in enhanced sensitivity as the mode order increases. In the latter case, we demonstrate, as with NOON states, an integer enhancement in angular resolution by a factor proportional to the orbital angular momentum content, thereby opening the possibility of Hong-Ou-Mandel-enhanced rotation sensing.",
+      "score": 92,
+      "reason": "💫 SPDC のポンプを構造化して HOM 干渉のバンチング↔アンチバンチング遷移を制御！二光子干渉とポンプの空間モードの関係がど真ん中🎯✨",
+      "summary": "回転するエルミート・ガウス/ラゲール・ガウスのポンプで、そのパリティが遷移の形と周波数を変えることを理論と実験で示す。OAM に比例した角度分解能の向上も"
+    },
+    {
+      "arxiv_id": "2609.35523",
+      "title": "Induced Coherence in Quantum and Classical Interferometry: Origin and Control",
+      "authors": [
+        "Balakrishnan Viswanathan",
+        "Ravi Kamal Pandey",
+        "Devendra Kumar Mishra",
+        "Sibasish Ghosh",
+        "Prasanta K. Panigrahi"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.35523",
+      "abstract": "The wave-particle duality that manifests in the Young's double-slit interferometry satisfying the well known Englert-Greenberger-Yasin inequality has recently been shown to obey a universal triality relation involving coherence, predictability and rather surprisingly entanglement. In the present work, we explicitly demonstrate the persistence of the triality relation in the quantum induced coherence interferometer and the classical configuration recovers the well known duality inequality. Furthermore, we explore the origin of coherence and entanglement, in the induced coherence interferometer, and means to control them. We show that path indistinguishability (or intrinsic indistinguishability of the sources) in our setup plays a complementary role in influencing both interference and entanglement. We bring out manifestly the nature of coherence in both classical and quantum versions of induced coherence interferometers.",
+      "score": 88,
+      "reason": "🔀 誘導コヒーレンス干渉計で「コヒーレンス・予測可能性・エンタングルメント」の三者関係を検証！which-path と相補性の話が好みに刺さる💡🎯",
+      "summary": "量子版で三者関係が保たれ、古典版では従来の双対性不等式に戻ることを示す。経路(光源)の区別不能性が干渉とエンタングルメントを相補的に左右"
+    }
+  ]
+}

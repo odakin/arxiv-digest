@@ -1,0 +1,56 @@
+{
+  "total_fetched": 333,
+  "scored_papers": [
+    {
+      "arxiv_id": "2609.32037",
+      "title": "CMB Data Analysis in the example of the POLARBEAR experiment and the LiteBIRD experiment",
+      "authors": [
+        "Kolen Cheung"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "astro-ph.IM"
+      ],
+      "url": "https://arxiv.org/abs/2609.32037",
+      "abstract": "In this dissertation, I briefly go through my subject areas -- from Astrophysics, Cosmology, to Cosmic Microwave Background (CMB) radiation; and Data Science & High-Performance Computing. I go through the beginning of the Universe briefly in Part I and introduce the Physics of the CMB in Part II. Then I move on to how it can be observed experimentally, mathematically, and computationally in Part III. In Parts IV, V and VI, I write about 2 specific CMB experiments -- POLARBEAR & LiteBIRD, together with my research involved in them.\n  In Part V, an original research on a measurement of the CMB $B$-mode at sub-degree scales is presented using the 3rd-5th seasons of POLARBEAR observations. This demonstrates the capability of a single medium aperture telescope with a Continuously Rotating Half-Wave Plate (CRHWP) to target both the low-$\\ell$ and high-$\\ell$ $B$-mode science at $50 \\leq \\ell \\leq 3000$.\n  In Part VI, the effect of detector crosstalk systematics on the CMB power-spectra is studied in detail in the example of the LiteBIRD experiment. An analytical, map-domain solution is developed, a computational simulation method is implemented, and the two predictions are compared using the LiteBIRD experiment design specification. The general agreement of the two shows that the analytical model well describes the LiteBIRD experiment, and can be used to calculate the systematic effects without performing time-consuming time-domain simulations with high degree of accuracy. This can be used to forecast the amount of crosstalk systematics and to develop mitigation strategies. A mitigation strategy is presented, which is a hardware-based mitigation method that minimizes the crosstalk systematic effects in the 2pt power-spectra.\n  Parts I-IV are introductory material summarizing well-known knowledge in the field; Parts V and VI are original research.",
+      "score": 95,
+      "reason": "🛰️ LiteBIRD の検出器クロストーク系統誤差を解析モデルとシミュレーションで詳細評価！ハードウェア側の軽減策まであって LiteBIRD 系統誤差ど真ん中🎯✨",
+      "summary": "博士論文。POLARBEAR 3〜5 季で連続回転 HWP による 50≤ℓ≤3000 の B モード測定と、LiteBIRD のクロストークのマップ領域解析解をシミュレーションと比較"
+    },
+    {
+      "arxiv_id": "2609.32171",
+      "title": "Cross-correlation between CMB B-modes and Faraday Rotation as a Novel Probe of Primordial Magnetic Fields",
+      "authors": [
+        "Toshiya Namikawa",
+        "Guanming Liang"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2609.32171",
+      "abstract": "We investigate the cross-bispectrum between the cosmic microwave background (CMB) $B$-mode polarization and two Faraday rotation (FR) angles as a new probe of primordial magnetic fields (PMFs). Assuming Gaussian PMFs with both non-helical and helical components, we derive the $B\\alpha\\alpha$ bispectrum and decompose it into parity-even and parity-odd contributions. The mixed non-helical--helical contribution appears in the parity-even sector, whereas the purely non-helical and purely helical contributions contribute to the parity-odd sector. This parity dependence provides sensitivity to PMF helicity that is absent in the FR power spectrum alone. We then forecast the detectability of the cross-bispectrum for SO-like and LiteBIRD-like CMB experiments, and find that future observations can probe PMFs with amplitudes at the sub-nG level. The $B\\alpha\\alpha$ bispectrum is dominated by the helicity-sensitive parity-even sector and provides a promising avenue for constraining both the amplitude and helicity of PMFs.",
+      "score": 88,
+      "reason": "🧲 CMB B モードとファラデー回転の相互バイスペクトルで原始磁場のヘリシティに迫る！LiteBIRD 級の予測つきでパリティの話も好み🌀✨",
+      "summary": "Bαα バイスペクトルをパリティ偶・奇に分解し、ヘリシティへの感度を導出。SO 級・LiteBIRD 級の実験でサブ nG の原始磁場を探れると予測"
+    },
+    {
+      "arxiv_id": "2609.32571",
+      "title": "Exact Solutions for Chiral Gravitational Waves from Spin-2 Mixing",
+      "authors": [
+        "Mohammad Ali Gorji",
+        "Yuhang Zhu"
+      ],
+      "categories": [
+        "gr-qc",
+        "astro-ph.CO",
+        "hep-ph",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2609.32571",
+      "abstract": "A spectator spin-2 field can mix linearly with the metric tensor perturbations. We study the coupled tensor system in an inflationary background, including a parity violating effect parametrised by $\\theta$. Without expanding in the linear mixing between the two fields, we solve the system exactly for arbitrary mass while treating the mixing strength nonperturbatively. The mode functions of both helicities are constructed by acting with an operator-valued Gauss hypergeometric function ${}_2F_1$ on Whittaker modes, and the late-time power spectrum of each graviton helicity is expressed in closed form in terms of the generalised hypergeometric function ${}_3F_2$. We find that one helicity is exponentially enhanced, showing that strong mixing with a spectator spin-2 field can generate a large and highly chiral primordial gravitational wave spectrum. The degree of circular polarisation is bounded by $\\tanh(\\pi\\theta)$, independently of the spin-2 mass and the mixing strength. The same solution also gives the late-time power spectrum of the spectator field and its cross spectrum with the graviton. In the weak mixing limit, our exact result reproduces the perturbative Schwinger-Keldysh result. These solutions provide a nonperturbative framework for studying primordial gravitational waves sourced by additional tensor modes.",
+      "score": 86,
+      "reason": "🌊 スペクテーターのスピン2場との混合で強くカイラルな原始重力波を厳密解で！パリティを破るテンソルスペクトルは B モード観測の標的として面白い🎯",
+      "summary": "結合テンソル系を混合強度について非摂動的に厳密に解き、片方のヘリシティが指数的に増大。円偏光度の上限は tanh(πθ)、弱混合で摂動論と一致"
+    }
+  ]
+}

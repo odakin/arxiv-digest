@@ -1,0 +1,59 @@
+{
+  "total_fetched": 333,
+  "scored_papers": [
+    {
+      "arxiv_id": "2609.31837",
+      "title": "Measuring Clock Precision Without an Ideal Time Reference",
+      "authors": [
+        "Pablo 'A. Dom'inguez",
+        "Christopher Chubb",
+        "Mischa P. Woods"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.31837",
+      "abstract": "Characterising physical devices typically requires comparison with more precise reference standards. For clocks, however, this approach is problematic because no physically perfect time reference exists; real clocks have finite, model-dependent uncertainty. We address whether multiple imperfect clocks can collectively determine their precision without an absolute reference. This paper provides analytic bounds and protocols for quantifying clock precision using only multiple copies of the same clock, which need not be synchronised and may have manufacturing variations or environmental coupling. Beyond clock characterisation, these methods enable precise measurements f sub-period intervals and relativistic effects such as time dilation and Doppler shifts, providing tools for quantum metrology and fundamental physics.",
+      "score": 88,
+      "reason": "⏱️ 理想的な時間基準なしで時計の精度を決める！同じ時計の複数コピーだけで精度を評価する枠組みで、量子時計のテーマにど真ん中🕰️✨",
+      "summary": "非同期・個体差ありの複数の時計から精度を推定する解析的な限界とプロトコル。周期以下の時間間隔や時間の遅れ・ドップラー効果の精密測定にも応用"
+    },
+    {
+      "arxiv_id": "2609.31853",
+      "title": "Quantum Fisher Information as the Speed Limit for Multipartite Entanglement",
+      "authors": [
+        "Zain H. Saleem",
+        "Da-Wei Luo",
+        "Anjala M. Babu",
+        "Ting Yu",
+        "Stephen K. Gray",
+        "Anil Shaji"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.31853",
+      "abstract": "We derive a universal upper bound on the speed of multipartite entanglement generation. For arbitrary differentiable pure multipartite states undergoing parameter-dependent evolution, we prove that the rate of change of generalized concurrence is bounded by the square root of the quantum Fisher information (QFI). The proof follows directly from the symmetric logarithmic derivative formalism, revealing the bound as a consequence of quantum estimation theory, while a complementary Schmidt-spectrum analysis identifies the conditions for saturation and yields a tighter bound for rank-two bipartitions. We illustrate these results in interacting many-body spin models and investigate their behavior across the quantum phase transition of the transverse-field Ising model. At the critical point, we find that the QFI can be strongly enhanced while the generalized concurrence is nearly stationary and its sensitivity to the coupling is suppressed. This demonstrates that the enhanced parameter sensitivity associated with quantum criticality need not arise from rapid changes in the magnitude of multipartite entanglement.",
+      "score": 87,
+      "reason": "🚀 多体エンタングルメント生成の速さに量子フィッシャー情報で上限！量子速度限界を推定理論から導く流れが好みのテーマに直結💡🎯",
+      "summary": "一般化コンカレンスの変化率は QFI の平方根で抑えられることを SLD 形式で証明。横磁場イジングの臨界点では QFI が増えてもエンタングルメントはほぼ停留"
+    },
+    {
+      "arxiv_id": "2609.31832",
+      "title": "Characterising the precision of a clock without any external time reference",
+      "authors": [
+        "Pablo 'A. Dom'inguez",
+        "Christopher Chubb",
+        "Mischa P. Woods"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.31832",
+      "abstract": "Determining a clock's precision usually requires comparison with a better time reference, yet no ideal reference is physically attainable. We show how a single clock can characterise its own precision using only a signal splitter and delayed trigger, whose uncertainty is explicitly accounted for. The resulting estimator depends only on tick-count statistics. A purpose-built electronic circuit validates the method without an external timekeeper or a second clock.",
+      "score": 86,
+      "reason": "🕰️ 単一の時計が外部の基準なしで自分の精度を測る！信号分岐器と遅延トリガーだけで済むのが面白い⏱️ 同じグループの姉妹論文とセットでどうぞ✨",
+      "summary": "推定量はティック数の統計だけで決まり、遅延トリガーの不確かさも明示的に扱う。専用の電子回路で外部時計も第二の時計も使わずに実証"
+    }
+  ]
+}

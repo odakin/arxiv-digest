@@ -1,0 +1,72 @@
+{
+  "total_fetched": 333,
+  "scored_papers": [
+    {
+      "arxiv_id": "2609.32202",
+      "title": "Universality classes of sharp gravitational production of light particles",
+      "authors": [
+        "Kanta Ito",
+        "Yusuke Mikura",
+        "Shuichiro Yokoyama"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.32202",
+      "abstract": "We establish a classification of the gravitational production of light particles across sharp transitions connecting different asymptotic forms of the scale factor. A family of smooth scale factors with a transition duration $\\Delta\\eta$ is characterized by its regularity in the sharp-transition limit $\\Delta\\eta\\to 0$, leading to three qualitatively different universality classes: $C^0$, $C^1$, and $C^2$-or-smoother. We find that the $C^0$ class exhibits a quadratic enhancement in the energy density of produced particles, $\\rho\\propto\\Delta\\eta^{-2}$, while the $C^1$ class shows a logarithmic enhancement, $\\rho\\propto\\ln(1/\\Delta\\eta)$. No sharp-transition enhancement occurs for the $C^2$-or-smoother class. Using a specific $C^\\infty$ model of the scale factor, we derive the energy density analytically and confirm both the predicted quadratic scaling and its coefficient by numerically solving the mode equation. These results identify the regularity of the scale factor in the sharp limit as the key property controlling the sharp-transition enhancement.",
+      "score": 88,
+      "reason": "🌌✨ 重力的粒子生成ど真ん中！🚀 スケール因子の急な遷移で軽い粒子がどれだけ作られるかを滑らかさ(C⁰/C¹/C²)で分類🔥 超放射や再加熱の議論にも効きそう💡🎯",
+      "summary": "遷移幅Δη→0でC⁰級はρ∝Δη⁻²、C¹級は対数増大、C²以上は増大なし📈 解析解とモード方程式の数値解で係数まで確認🧮"
+    },
+    {
+      "arxiv_id": "2609.32047",
+      "title": "Relational Frame Equivalence and Exact Cosmology in Brans--Dicke Theory",
+      "authors": [
+        "Yaser Tavakoli"
+      ],
+      "categories": [
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2609.32047",
+      "abstract": "We apply the canonical clock-sector framework developed in Ref.~\\cite{Tavakoli:2026coc} to spatially flat FLRW cosmology in Brans--Dicke theory. The aim is to obtain an explicit cosmological realization of the frame-adapted relational dynamics and to determine the corresponding cosmological observables in closed form. Starting from the previously developed full ADM theory and restricting it to the homogeneous sector, we obtain the canonical clock momentum as $P_{\\Phi}=p_{\\phi}-ap_a/2\\phi$. This identification allows the Jordan and Einstein-frame reduced systems to be represented on a common canonical phase space. We then consider a quadratic Jordan-frame potential for which the Einstein-frame potential is constant. The resulting relational FLRW system is exactly integrable. The complete trajectory can be expressed in terms of a single parameter $u$, yielding closed-form expressions for the scale factor, the cosmic-time Hubble rate, the Hubble slow-roll parameter, the number of e-folds, and the scalar equation-of-state parameter. In particular, the exact solution provides an explicit inflationary regime that begins at $u=\\operatorname{arctanh}(1/\\sqrt{3})$ and transitions toward an asymptotic de Sitter regime. We finally compare the exact solution with direct numerical integration in the adapted Jordan and Einstein descriptions, and with the naively reduced Jordan system based on the unshifted scalar momentum. The numerical results reproduce the exact trajectory and illustrate how the different reduced canonical representations are related by the clock-dependent transformation implied by the canonical clock-sector construction. The analysis provides an exactly solvable laboratory for relational frame equivalence in scalar--tensor cosmology and gives explicit cosmological observables that can be used in extensions to more general potentials and scalar--tensor models.",
+      "score": 86,
+      "reason": "⚖️🌀 Brans-Dicke のジョルダン枠/アインシュタイン枠の同等性を正準クロックで厳密に扱う！🕰️✨ スカラー・テンソル重力好きにはたまらない可解模型🎯🔥",
+      "summary": "平坦FLRWで二次ポテンシャル(アインシュタイン枠で定数)を厳密に解き、インフレ→ド・ジッターの全軌道を閉形式で📐 数値積分とも一致🧮"
+    },
+    {
+      "arxiv_id": "2609.34788",
+      "title": "The separate universe approach with non minimal coupling to gravity",
+      "authors": [
+        "Hugo Holland",
+        "Julien Grain"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2609.34788",
+      "abstract": "In this paper we extend a study of the validity conditions of the separate universe approach of cosmological perturbations to models of inflation with multiple fields that are non minimally coupled to gravity. The separate universe approach effectively describes the universe as a collection of homogeneous and isotropic patches, leading to an effective description of cosmological perturbations at large scales. This approximation is a necessary step in stochastic inflation and in the $\\delta \\N$ formalism. We study and compare the dynamics of cosmological perturbation theory at large scales to the dynamics derived in the separate universe picture for non linear sigma models where we have allowed a non minimal coupling between the fields and gravity. We found that the separate universe approach adequately reproduces the dynamics of the large scale perturbations, provided the wavelength of the modes considered is greater than a list of lower bounds derived from the background evolution of the model we consider. These lower bounds are then compared to those derived in the classically equivalent Einstein frame description of the Jordan frame model at hand. In particular these conditions are derived and compared for a Higgs-like toy model of inflation in the large field limit.",
+      "score": 86,
+      "reason": "🏔️🌌 非最小結合の多場インフレでセパレート・ユニバース近似が効く条件を導出！✨ ヒッグス様トイモデルでジョルダン枠とアインシュタイン枠を比較🔥🎯💡",
+      "summary": "非最小結合つき非線形シグマ模型で大スケール摂動と分離宇宙描像を比較📊 背景進化から波長の下限を導き両枠で比べる🔍"
+    },
+    {
+      "arxiv_id": "2609.32101",
+      "title": "Particles, Localization and \"Collapse\"",
+      "authors": [
+        "Anthony Rizzi"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.32101",
+      "abstract": "Hegerfeldt's theorem shows that the localization of a particle (or field) is not possible under very general assumptions of quantum mechanics and special relativity. This theorem, and further developments and associated theorems force penetrating questions on the proper understanding of the theory and its use. In particular, the use of the collapse postulate is called into question. The existence of particles and even localized fields are called into question. And, this in turn challenges local measurements. It generally forces one to consider the profound problems and even wrong results that arise from the collapse postulate. We give a qualitatively new example of such a wrong result. Researchers and students alike are bothered by these fundamental issues. Students' ability to learn the material, and even their interest in physics, can be compromised by such disturbing conundra that seem to make physics, or at least QFT and its QM limit, seem incomprehensible and even inconsistent. This article resolves these issues in a way accessible to undergraduates, by applying the natural (minimal) interpretation of quantum mechanics (QM) (the ensemble interpretation) and explicating and clarifying the basic principles and premises used in QM and the Hegerfeldt theorem and its application to measurements.",
+      "score": 85,
+      "reason": "📍🌊 相対論的量子論では粒子を局在させられない(Hegerfeldt 定理)問題に正面から！🤔✨ 波束・局在・収縮の基礎論が好みにドンピシャ🎯🔥",
+      "summary": "収縮公準が誤った結果を生む新しい例を示し、アンサンブル解釈で定理と測定の前提を学部生にも分かる形で整理📚🧐"
+    }
+  ]
+}
