@@ -1,0 +1,58 @@
+{
+  "total_fetched": 217,
+  "scored_papers": [
+    {
+      "arxiv_id": "2610.03661",
+      "title": "Lie Algebraic Uncertainty Relations",
+      "authors": [
+        "Xiaoli Hu",
+        "Naihuan Jing",
+        "Jian Zhang",
+        "Yunlong Xiao"
+      ],
+      "categories": [
+        "quant-ph",
+        "math.RT"
+      ],
+      "url": "https://arxiv.org/abs/2610.03661",
+      "abstract": "Uncertainty relations express the fundamental incompatibility of quantum observables, yet optimal state-independent bounds are known analytically in only a few cases. Here we introduce a covariance-based formulation of quantum uncertainty that yields an infinite family of relations for both Hermitian observables and non-Hermitian operators. For operators forming a basis of a Lie algebra, we derive the optimal bound in closed form from the algebra and its representation, replacing optimization over quantum states with a direct algebraic calculation. Within each weight space, uncertainty takes a fixed value, turning the inequality into a conservation law. These results show how commutation relations and their realization on a quantum state jointly determine the minimum quantum uncertainty associated with incompatible operators. By connecting uncertainty to symmetry and representation theory, the framework offers a route to uncovering intrinsic limits on quantum information processing through its underlying Lie algebra.",
+      "score": 87,
+      "reason": "⚖️🌀 不確定性関係の最適な状態非依存下限をリー代数から閉形式で！🧮✨ 波束やスクイーズド状態を代数で眺める視点が好みのテーマにど真ん中🎯🔥",
+      "summary": "共分散に基づく定式化で非エルミート演算子も含む無限系列の関係を導出📐 リー代数の基底では表現論から最適下限が決まり、ウェイト空間内では不確定性が保存量に🔁"
+    },
+    {
+      "arxiv_id": "2610.03501",
+      "title": "Born rule in Schroedinger-Newton scenarios of semiclassical gravity",
+      "authors": [
+        "Tanguy Fontana",
+        "Axelle Coulon",
+        "Giovanni Manfredi"
+      ],
+      "categories": [
+        "gr-qc",
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.03501",
+      "abstract": "We investigate dynamical relaxation to the Born rule in a semiclassical gravity model described by the Schr\\\"odinger-Newton equations. Using a Gaussian variational solution for the self-gravitating wave packet, combined with Nelson's stochastic representation of quantum dynamics, we track the evolution of particle ensembles whose initial probability distribution differs from $|\\Psi|^2$. Relaxation to the Born rule (\"quantum equilibrium\") occurs when the wave packet remains bounded, or grows sufficiently slowly in time; in contrast, for rapidly expanding solutions of the Schr\\\"odinger-Newton equations, deviations from the Born rule can persist indefinitely. Numerical simulations confirm this analytical picture. These results show that semiclassical self-gravity can either enable or inhibit relaxation towards the Born rule, providing a minimal model relevant to proposals of primordial quantum non-equilibrium, as suggested by Underwood and Valentini [Phys. Rev. D 92, 063531 (2015)].",
+      "score": 87,
+      "reason": "🌌🍎 自己重力するガウス波束でボルン則への緩和を追う！🌊✨ 半古典重力×量子基礎×ガウス波束の三拍子で好み直撃🎯🔥",
+      "summary": "シュレーディンガー・ニュートン方程式のガウス変分解と確率力学的表現で、|Ψ|²からずれた分布の緩和を追跡📈 波束が有界なら緩和、急膨張なら非平衡が残る🧮"
+    },
+    {
+      "arxiv_id": "2610.03177",
+      "title": "Semiclassical multi-mode squeezed states in harmonic cosmology",
+      "authors": [
+        "Bekir Baytas"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2610.03177",
+      "abstract": "Harmonic cosmology is an algebraic framework based on the $\\mathfrak{su}(1,1)$ Lie algebra that underlies the effective dynamics of loop quantum cosmology and group field theory. Focusing on the multimode bosonic realization of $\\mathfrak{su}(1,1)$, we construct multimode squeezed states in harmonic cosmology and analyze their semiclassical properties by computing the relative uncertainties of the volume operator at the kinematical level. In contrast to single-mode squeezed vacua, which invariably exhibit large quantum fluctuations, we find that the relative uncertainty of the volume can be made arbitrarily small when the number of modes is large, even without displacement. Our results demonstrate that a kinematical squeezed vacuum state with a large number of independent modes can behave semiclassically providing insights into the quantum nature of bouncing cosmologies and the emergence of a classical universe.",
+      "score": 85,
+      "reason": "🌀🌌 多モードのスクイーズド状態で宇宙の体積の揺らぎを抑える！📉✨ スクイーズド状態と不確定性がバウンス宇宙論に出てくる好みの組み合わせ🎯🔥",
+      "summary": "su(1,1) 代数に基づく調和宇宙論で多モード・スクイーズド真空を構成🧮 単一モードでは揺らぎが大きいが、モード数が多いと変位なしでも体積の相対不確定性が任意に小さく📐"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "total_fetched": 217,
+  "scored_papers": [
+    {
+      "arxiv_id": "2610.03241",
+      "title": "Stimulated Parametric Down-Conversion: From Foundational Coherence to Structured Light Applications",
+      "authors": [
+        "M. F. Z. Arruda",
+        "M. G. Damaceno",
+        "G. H. dos Santos",
+        "R. Medeiros de Ara'ujo",
+        "N. Rubiano da Silva",
+        "S. P. Walborn",
+        "P. H. Souto Ribeiro"
+      ],
+      "categories": [
+        "quant-ph",
+        "physics.optics"
+      ],
+      "url": "https://arxiv.org/abs/2610.03241",
+      "abstract": "Stimulated parametric down-conversion (StimPDC) is the seeded version of the process that underlies much of photonic quantum information. Replacing the vacuum at one input port with a coherent seed leaves the interaction Hamiltonian, the phase-matching function and the two-photon amplitude unchanged, while raising the output to levels accessible with ordinary classical detectors. This review treats the transverse spatial physics of that process. We show that a single relation, in which the idler amplitude is the pointwise product of the pump field with the complex conjugate of the seed, organizes results usually presented separately: the image and coherence transfer experiments of the 1990s; phase conjugation and its use for wavefront correction; the conservation and conjugation of orbital angular momentum, together with the generation of radial modes and geometric intensity patterns; and the processing of vector vortex beams carrying spatially varying polarization. We then consider StimPDC as an instrument rather than as an object of study, covering stimulated emission tomography, the experimental realization of Klyshko's advanced-wave picture, and the transfer of partial coherence, including the conservation of the twist phase of twisted Gaussian Schell-model beams. We close with the quantum regime, reached when the seed approaches the single-photon level or the idler is used as a herald, and with an assessment of open problems and prospective applications.",
+      "score": 92,
+      "reason": "💫 誘導 SPDC の横方向の空間物理を総まとめしたレビュー！二光子振幅や位相整合はそのまま古典検出器で見える話で、SPDC と空間相関のテーマにど真ん中🎯✨",
+      "summary": "アイドラー振幅＝ポンプ×シードの複素共役という 1 つの関係で、像・コヒーレンス転写、位相共役、OAM の保存、ベクトル渦ビームを統一的に整理。誘導放出トモグラフィーや単一光子領域も"
+    },
+    {
+      "arxiv_id": "2610.03024",
+      "title": "Entanglement-sensitive observables in $e^+e^- \\to \\tau^+\\tau^-$ at STCF: a detector-level feasibility study",
+      "authors": [
+        "Chentao Bao",
+        "Xi Tao",
+        "Hai Chen",
+        "Lailin Xu",
+        "Xiaorong Zhou",
+        "Mingyi Liu"
+      ],
+      "categories": [
+        "hep-ex",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.03024",
+      "abstract": "Quantum entanglement in $\\tau^+\\tau^-$ production provides a direct probe of non-classical spin correlations in a relativistic quantum system, with the $\\tau$ decay products serving as spin analyzers. We investigate the detector-level feasibility of such measurements in $e^+e^-\\to\\tau^+\\tau^-$ at the Super Tau-Charm Facility (STCF) at $\\sqrt{s}=7$ GeV, using the $\\rho\\rho$ and $\\pi\\rho$ decay channels. Signal and dominant background processes are simulated with the full STCF detector and reconstruction framework. Dedicated reconstruction and event-selection procedures yield overall signal efficiencies of approximately $4.5\\%$ and $4.8\\%$, with corresponding purities of about $87.6\\%$ and $93.2\\%$ for the $\\rho\\rho$ and $\\pi\\rho$ channels, respectively. From the reconstructed decay kinematics, the $\\tau^+\\tau^-$ spin-density matrix is inferred and the concurrence $C[\\rho]$ together with the Bell-sensitive quantity $m_{12}[C]$ are evaluated in a selected fiducial region. For the benchmark requirement $|\\cos\\theta|<0.2$ and an integrated luminosity of $1~\\mathrm{ab}^{-1}$, the projected relative precision on $C[\\rho]$ is about $2.2\\%$ in both channels, while that on $m_{12}[C]$ is approximately $1.4\\%$ for $\\rho\\rho$ and $1.5\\%$ for $\\pi\\rho$, including statistical and detector-resolution uncertainties. The reconstructed $m_{12}[C]$ shows a larger separation from its reference threshold in the $\\rho\\rho$ channel, making this topology particularly sensitive to Bell-type spin correlations. These results demonstrate the detector-level feasibility of probing quantum entanglement and non-classical spin correlations in hadronic $\\tau$ decays at STCF.",
+      "score": 87,
+      "reason": "⚛️ τ対生成のエンタングルメントを STCF で測れるか検出器レベルで検証！コライダーでのスピン相関とベル型の量の話で好みのテーマ🎯✨",
+      "summary": "√s=7 GeV の e⁺e⁻→τ⁺τ⁻ を ρρ・πρ チャネルで全検出器シミュレーション。再構成したスピン密度行列から concurrence とベル感度量を評価し、1 ab⁻¹ で精度 1〜2% と予測"
+    },
+    {
+      "arxiv_id": "2610.03113",
+      "title": "Certification of high-dimensional entanglement in continuous-variable systems",
+      "authors": [
+        "Ida Mishra",
+        "Simon Morelli",
+        "Kl'ara Baksov'a",
+        "Phila Rembold",
+        "Nicolai Friis"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.03113",
+      "abstract": "The dimensionality of entanglement in high-dimensional quantum systems is quantified by the Schmidt number, whose large value signals potential advantages for quantum communication and quantum computation. A commonly used approach to practical Schmidt-number detection in finite-dimensional systems is based on the estimation of fidelities to pure states with large entanglement dimensionality or lower bounds to these fidelities. However, for mode-entangled continuous-variable systems, the corresponding measurements are typically difficult to realize. Here, we introduce and assess fidelity bounds for Schmidt-number detection based on practically more accessible measurements of the first and second statistical moments of arbitrary continuous-variable quantum states. We provide analytical formulas that allow evaluating these bounds and test them for families of Gaussian and non-Gaussian states, including two-mode squeezed thermal states and photon-added displaced two-mode squeezed vacuum states. We compare our bounds to other methods for the certification of high-dimensional entanglement based on the same measurements.",
+      "score": 86,
+      "reason": "🔗 連続変数系の高次元エンタングルメントを 1・2 次モーメントだけで認証！二モード・スクイーズド状態など EPR 型の連続変数相関の話が好みに刺さる💡🎯",
+      "summary": "シュミット数の検出に使う忠実度の下限を、測りやすい 1 次・2 次の統計モーメントから与える解析式を導出。二モード・スクイーズド熱状態などガウス・非ガウス状態で検証し他手法と比較"
+    },
+    {
+      "arxiv_id": "2610.02313",
+      "title": "How Quantum Is Bottomonium in the Quark-Gluon Plasma?",
+      "authors": [
+        "Nora Brambilla",
+        "Tom Magorsch"
+      ],
+      "categories": [
+        "hep-ph",
+        "hep-ex",
+        "nucl-ex",
+        "nucl-th",
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.02313",
+      "abstract": "We study how much quantum structure bottomonium retains during its evolution in the quark-gluon plasma. Within the open quantum system framework, we simulate the Lindblad equation obtained from potential nonrelativistic QCD in the quantum Brownian regime. From the resulting real-time evolution of the bottomonium density matrix, we compute the Wigner transform and study its negativity as a measure of nonclassicality and a test of a key condition underlying classical Langevin-type approximations. We find that the medium suppresses the negativity, which nevertheless approaches a finite plateau close to that of the $1\\mathrm{S}$ state. The overlaps with the excited $2\\mathrm{S}$ and $3\\mathrm{S}$ states arise from near-canceling positive and negative phase-space contributions, driven by negative regions in the Wigner transforms of the bound-state projectors, while the $1\\mathrm{S}$ overlap is insensitive to such contributions. We further show that the position-space coherence is similarly suppressed and plateaus close to the 1S value. We trace the finite residual quantum structure to conditional purification: the medium preferentially dissolves weakly bound and unbound modes with large $\\langle r^2\\rangle$, driving the surviving singlet $\\mathrm{S}$-wave ensemble toward the $1\\mathrm{S}$ state. More broadly, these results reveal that classicalization is partial and observable dependent, a feature that is relevant across applications of open quantum system methods in fundamental physics.",
+      "score": 85,
+      "reason": "🔥 QGP の中でボトモニウムがどれだけ量子的かをウィグナー関数の負値で評価！高エネルギー過程でのデコヒーレンスの話で好みのテーマ🎯✨",
+      "summary": "pNRQCD から得た量子ブラウン運動領域のリンドブラッド方程式を数値解。媒質で負値性は抑制されるが 1S 状態付近の有限値で頭打ち。古典化は部分的で観測量に依存すると結論"
+    }
+  ]
+}

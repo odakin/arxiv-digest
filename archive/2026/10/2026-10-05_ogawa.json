@@ -1,0 +1,41 @@
+{
+  "total_fetched": 217,
+  "scored_papers": [
+    {
+      "arxiv_id": "2610.02786",
+      "title": "Quantum Error-Corrected Memories Keep Proper Time",
+      "authors": [
+        "Sebastian P. Kish",
+        "Simon J. Devitt"
+      ],
+      "categories": [
+        "quant-ph",
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2610.02786",
+      "abstract": "What does quantum error correction do to relativistic proper time? We show that when two error-corrected quantum memories follow distinct worldlines and are controlled by local references, their local correction histories factor exactly from the proper-time difference between them. Error correction therefore does not erase time dilation: when the memories are compared, the accumulated difference appears as a relational phase rotation. During locally referenced operation this rotation is invisible to every local error syndrome; at discrete phases admitted by a code, the final relational evolution instead returns exactly as a deterministic logical gate, including an $S$-type Clifford gate at a $\\pi/2$ excursion. These results connect fault-tolerant quantum information with relativistic clocks and establish protected quantum memories as a platform for preserving proper-time information and for long-coherence tests of quantum evolution involving relativistic proper time.",
+      "score": 88,
+      "reason": "⏱️ 誤り訂正した量子メモリでも固有時の差は消えない！相対位相として残る話で、量子時計と時間のテーマにど真ん中🕰️✨",
+      "summary": "別々の世界線をたどる 2 つの誤り訂正メモリで、局所的な訂正履歴は固有時の差と厳密に分離。差は局所シンドロームに見えない相対位相で、特定の位相では論理ゲートとして現れる"
+    },
+    {
+      "arxiv_id": "2610.03661",
+      "title": "Lie Algebraic Uncertainty Relations",
+      "authors": [
+        "Xiaoli Hu",
+        "Naihuan Jing",
+        "Jian Zhang",
+        "Yunlong Xiao"
+      ],
+      "categories": [
+        "quant-ph",
+        "math.RT"
+      ],
+      "url": "https://arxiv.org/abs/2610.03661",
+      "abstract": "Uncertainty relations express the fundamental incompatibility of quantum observables, yet optimal state-independent bounds are known analytically in only a few cases. Here we introduce a covariance-based formulation of quantum uncertainty that yields an infinite family of relations for both Hermitian observables and non-Hermitian operators. For operators forming a basis of a Lie algebra, we derive the optimal bound in closed form from the algebra and its representation, replacing optimization over quantum states with a direct algebraic calculation. Within each weight space, uncertainty takes a fixed value, turning the inequality into a conservation law. These results show how commutation relations and their realization on a quantum state jointly determine the minimum quantum uncertainty associated with incompatible operators. By connecting uncertainty to symmetry and representation theory, the framework offers a route to uncovering intrinsic limits on quantum information processing through its underlying Lie algebra.",
+      "score": 87,
+      "reason": "📐 不確定性関係の最適下限をリー代数と表現論から閉形式で！状態の最適化を代数計算に置き換える発想が、不確定性関係のテーマに直結💡🎯",
+      "summary": "共分散に基づく定式化で、エルミート・非エルミート演算子の無限系列の不確定性関係を導出。リー代数の基底では最適下限が閉形式で決まり、ウェイト空間内では一定値＝保存則に"
+    }
+  ]
+}
