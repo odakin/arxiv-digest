@@ -1,0 +1,52 @@
+{
+  "total_fetched": 419,
+  "scored_papers": [
+    {
+      "arxiv_id": "2610.05851",
+      "title": "Vector Dark Matter from $d\\geq 2$ Extra Dimensions",
+      "authors": [
+        "Arturo de Giorgi",
+        "Stefan Vogl"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.05851",
+      "abstract": "In this work, we propose a new natural dark matter candidate: Kaluza-Klein towers of vectors from $d\\geq 2$ extra-dimensional models. Their naturalness follows from two key features: (i) they arise unavoidably from the Kaluza-Klein decomposition of the higher-dimensional metric, and (ii) if the Standard Model is localised on a brane, they do not couple directly to it and interact only gravitationally through the other components of the higher-dimensional metric. Remarkably, the rich particle content comes with as few as a single extra parameter. We first explain the general idea for $d\\geq 2$, then focus on the $d=2$ case as our benchmark scenario. We derive the field content and interactions among the model particle content, and show how the geometry of the extra dimension unitarises the relevant processes for cosmology. We then compute the multi-component relic abundances of the vectors from freeze-in and discuss the available parameter space.",
+      "score": 90,
+      "reason": "🌌📦 2つ以上の余剰次元の計量から自然に出る KK ベクトルの塔をダークマターに！🧲✨ ブレーンの SM とは重力でしか話さず freeze-in で作られる、余剰次元×重力的生成の好みど真ん中🎯🔥",
+      "summary": "余剰次元 d≥2 の計量の KK 分解で必ず現れるベクトル場の塔を DM 候補に。d=2 を基準に場の内容と相互作用を導き、幾何がユニタリ性を回復する様子と、多成分の freeze-in 残存量・許される領域を示す。"
+    },
+    {
+      "arxiv_id": "2610.04909",
+      "title": "The Phenomenology of the Dark Dimension and Non-Supersymmetric Strings",
+      "authors": [
+        "Cumrun Vafa"
+      ],
+      "categories": [
+        "hep-th",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.04909",
+      "abstract": "Swampland principles, combined with the smallness of dark energy $\\Lambda$, lead to the dark dimension scenario, with one extra dimension of micron size. We review this scenario and its predictions: KK graviton dark matter (or the KK tower of the quintessence field into which the gravitons convert), neutrino masses tied to $\\Lambda^{1/4}$ via a bulk $B-L$ gauge symmetry, QCD axion decay constant $f_a\\sim \\Lambda^{1/12}\\sim 10^9-10^{10}$ GeV at the 5d Planck scale $M_5$, connecting electroweak hierarchy to $\\Lambda^{1/6}$, and a relation between the GUT and weak scales with $M_5$ as the geometric mean. The dark dimension also provides a concrete realization of an evolving dark sector: the evolution of its diameter correlates the variation of dark energy with that of the dark matter mass, fitting the recent DESI DR2 (+CMB+supernovae) data while avoiding the phantom crossing that the $w_0w_a$CDM parametrization would suggest---the apparent phantom behavior instead arises from the evolving dark matter mass. The fits suggest that the dark energy field sits in the interior of moduli space, near an unstable critical point. Motivated by this, we review recent progress on non-supersymmetric string vacua: isolated critical points protected by duality symmetries, in non-geometric flux compactifications and in Scherk--Schwarz compactifications of M-theory, and an emerging duality web for non-supersymmetric strings. This note is based on two talks given by the author at String Phenomenology 2026 (Paris) and Strings 2026 (Shanghai).",
+      "score": 86,
+      "reason": "🔭🌀 ミクロン大の余剰次元1つで DM・ニュートリノ質量・アクシオン・暗黒エネルギーまで繋ぐシナリオの総まとめ！📚✨ DESI の発展する暗黒セクターも説明、余剰次元好きにうれしい一本🎯🔥",
+      "summary": "スワンプランド原理と小さな Λ から出る dark dimension シナリオのレビュー。KK 重力子 DM、バルク B−L によるニュートリノ質量、f_a の予言、DESI DR2 に合う暗黒エネルギーと DM 質量の連動を論じる。"
+    },
+    {
+      "arxiv_id": "2610.05623",
+      "title": "Frame-dependent coherence of Gaussian quantum states",
+      "authors": [
+        "Nicolae Cotfas"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.05623",
+      "abstract": "A Hilbert space is usually described using an orthonormal basis, but a more general description can be defined using a tight frame. In the case of continuous-variable Gaussian states, the coherence is usually described using the Hermite-Gauss basis. We present an alternative description using the tight frame of all canonical coherent states. The description of Gaussian states in terms of coherent states is simpler than in terms of Hermite-Gauss basis, and this allows us to obtain an explicit formula describing the frame-dependent coherence of a mixed Gaussian state as a function of the determinant and the trace of covariance matrix. For each mixed Gaussian state, we construct a sequence of discrete-variable quantum states rapidly convergent to it (as concern the purity and coherence) when the dimension of Hilbert space becomes large enough (15 or more). In the discrete case, the coherence is measured with respect to the tight frame of all discrete coherent states.",
+      "score": 86,
+      "reason": "🌊🎯 ガウス状態のコヒーレンスを、エルミート・ガウス基底でなくコヒーレント状態全体のフレームで測る！🧮✨ 共分散行列の行列式とトレースだけで書ける明示式が出る、ガウス波束好みに刺さる話🔥",
+      "summary": "連続変数ガウス状態のコヒーレンスを、全カノニカルコヒーレント状態がなすタイトフレームで定義。混合ガウス状態について共分散行列の行列式とトレースで表す式を得て、離散系の状態列による近似も構成。"
+    }
+  ]
+}

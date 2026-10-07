@@ -1,0 +1,73 @@
+{
+  "total_fetched": 419,
+  "scored_papers": [
+    {
+      "arxiv_id": "2610.03876",
+      "title": "Anisotropic cosmic birefringence estimates for forthcoming CMB experiments",
+      "authors": [
+        "Matteo Longo Minnolo",
+        "Matteo Billi",
+        "Giuseppe Puglisi"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2610.03876",
+      "abstract": "Cosmic Birefringence (CB) is a unique probe of physics beyond the Standard Model, potentially sourced by an axion-like field coupled to photons via a Chern-Simons interaction. Recent Planck analyses have strengthened evidence for a non-zero isotropic rotation angle, yet its anisotropic component remains undetected, despite being the key to distinguishing a homogeneous quintessence-like field from spatially varying axion-like dark matter. We forecast the sensitivity of forthcoming ground- and space-based CMB experiments to anisotropic CB, applying a patch-based localization technique to simulated CMB-plus-noise maps with white noise levels representative of Simons Observatory SAT- and LiteBIRD-like sensitivities. Local rotation angles are reconstructed on independent sky patches by minimizing the $\\chi^2_{EB}$ statistic built from the $EB$ D-estimator. Under our idealized simulations, the forecast angular power spectrum improves current Planck-based constraints on the CB anisotropy statistical uncertainty by a factor of 26-40 for a satellite-like mission and 11-15 for a realistic ground-based footprint. Translating these into constraints on the scale-invariant amplitude, fitting the reconstructed bandpowers with a scale-invariant amplitude model, we forecast with a 95 \\% C.L. $A_{\\rm CB} < 3.5\\times10^{-4}\\,{\\rm deg}^2$ for the space-like mission and $A_{\\rm CB} < 7.1\\times10^{-4}\\,{\\rm deg}^2$ for the ground-based footprint, improving on the current full-sky Planck constraint by a factor of about 20 and 10, respectively. These values represent upper bounds on the achievable gain, and indicate that forthcoming CMB experiments will be able to further shed light on anisotropic CB.",
+      "score": 95,
+      "reason": "🌀 異方的な宇宙複屈折を SO の SAT 級と LiteBIRD 級の感度でどこまで測れるか予測！一様な場と空間変化するアクシオン的 DM を見分ける鍵で、LiteBIRD の複屈折サイエンスど真ん中🎯✨",
+      "summary": "天球を小領域に分けて各領域の回転角を EB の χ² 最小化で再構成する手法で、異方的複屈折の角度パワースペクトルを予測。現在の Planck 制限に比べ衛星級で26〜40倍、地上で11〜15倍の改善を見込む。"
+    },
+    {
+      "arxiv_id": "2610.03840",
+      "title": "Map-based asymmetric beam treatment: application of real-space beam patterns in CMB data analysis",
+      "authors": [
+        "Artem Basyrov"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "astro-ph.IM"
+      ],
+      "url": "https://arxiv.org/abs/2610.03840",
+      "abstract": "Real telescope beams are asymmetric, breaking the simple $B_{\\ell}$ factorisation in harmonic space and coupling modes across $\\ell$ and $m$. We develop a map-domain treatment in which beam convolution is a local, scan-dependent operation applied directly to the time-ordered data (TOD), accommodating the full beam shape and giving a direct handle on intensity-to-polarisation ($I \\rightarrow P$) leakage. A noiseless validation against spherical-harmonic convolution reproduces the input temperature and $B$-mode power spectra up to $\\ell \\simeq 1000$, well beyond the range of primordial $B$-mode science. We outline how the operation maps onto a sparse linear BeamOperator for modular map-making.",
+      "score": 93,
+      "reason": "🛰️ 非対称ビームを TOD 上で実空間のまま畳み込む地図ベースの手法！I→P の漏れを直接扱えて原始 B モードの範囲を十分カバー、ビーム系統誤差は LiteBIRD 級の解析にそのまま効く話🎯✨",
+      "summary": "実際のビームの非対称性は調和空間での B_ℓ 分解を壊し ℓ, m を混ぜる。走査に依存する局所演算として TOD にビームを畳み込む方法を作り、ℓ≃1000 まで温度と B モードのスペクトルを再現。"
+    },
+    {
+      "arxiv_id": "2610.05147",
+      "title": "Limits on the size of electron density fluctuations in the early universe and implications for the Hubble tension",
+      "authors": [
+        "Gabriel P. Lynch",
+        "Jens Chluba",
+        "Richard Battye",
+        "Geoffrey Vasil"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2610.05147",
+      "abstract": "Little is known about the early universe on scales smaller than those resolved by the cosmic microwave background (CMB), where electron density fluctuations on kiloparsec to megaparsec scales are expected in many extensions of LCDM. These fluctuations nonetheless leave two imprints on the CMB. They accelerate recombination, the effect behind previous constraints and proposals to raise the inferred Hubble constant, $H_0$. Through correlations along the line of sight, they also reduce the effective Thomson scattering rate, enhancing diffusion damping by an amount that grows with their coherence length. We implement both effects in a modified Boltzmann code, classito, and use CMB data from Planck, ACT DR6, and SPT-3G D1 to place the first limits on such fluctuations that include this modified photon transport. We find no evidence for them: the variance of the electron density contrast is below $0.21$ ($95\\%$ CL), falling to $0.033$ for a coherence length of $2\\,{\\rm Mpc}$, and we present these limits in terms of the electron power spectrum at $1\\,{\\rm Mpc}^{-1}\\lesssim k\\lesssim10^2\\,{\\rm Mpc}^{-1}$. We also reassess small-scale electron density fluctuations as a resolution of the Hubble tension. In Planck data the transport effect is partially degenerate with accelerated recombination, widening the range of $H_0$ allowed: combined with a distance-ladder prior, Planck gives $H_0 = 71.1\\pm0.7\\,{\\rm km\\,s^{-1}\\,Mpc^{-1}}$ and an improved fit relative to LCDM. ACT and SPT-3G break this degeneracy, chiefly through the temperature--$E$-mode correlation in the damping tail, and with the same prior they give only $H_0 = 69.3\\pm0.5\\,{\\rm km\\,s^{-1}\\,Mpc^{-1}}$ and no preference over LCDM. With our treatment and publicly available code, models that generate small-scale electron density fluctuations can be directly confronted with CMB data through the variance and coherence length that they predict.",
+      "score": 87,
+      "reason": "🔥 初期宇宙の電子密度ゆらぎが再結合を早めて H0 を上げる案を、拡散減衰の強化まで入れて検証！Planck・ACT・SPT で初の制限、再結合の改変による H0 緊張の解決案に厳しい結果💡",
+      "summary": "小スケールの電子密度ゆらぎは再結合を加速し、視線方向の相関で実効トムソン散乱率も下げる。両効果を Boltzmann コードに入れ CMB データで制限、ゆらぎの分散は 0.21 未満(95%)で兆候なし。"
+    },
+    {
+      "arxiv_id": "2610.05960",
+      "title": "Limited Impact of CMB B-mode Polarization on Constraints on Cosmic Topology",
+      "authors": [
+        "Ryota Himeno",
+        "Atsushi J. Nishizawa",
+        "Kiyotomo Ichiki"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2610.05960",
+      "abstract": "The global spatial structure of the universe is a fundamental question in cosmology. Although the standard model usually assumes a trivial topology, a multiply connected universe can break statistical isotropy and generate off-diagonal covariance between the spherical-harmonic coefficients of cosmic microwave background fluctuations. In this work, we investigate whether CMB B-mode polarization improves constraints on the cubic three-torus, or $E_1$ topology. We construct the full harmonic-space covariance matrices of the temperature, E-mode, and primordial B-mode anisotropies, including correlations between different $(\\ell,m)$ modes, and evaluate Gaussian likelihoods using random realizations generated from a statistically isotropic $\\Lambda$CDM model with trivial topology. To isolate the intrinsic topological information carried by each CMB observable, we consider the ideal cosmic-variance-limited case, neglecting instrumental noise and gravitational lensing. We find that adding primordial B-mode polarization yields only a marginal improvement in the ability to distinguish the $E_1$ topology from the trivial topology, even under these ideal conditions. The different constraining powers of the temperature, E-mode, and B-mode anisotropies can be understood through the combined effects of their transfer-function responses and the topology-induced off-diagonal correlations in harmonic space. }",
+      "score": 86,
+      "reason": "🌐 宇宙のトポロジー(3次元トーラス)の制限に原始 B モードを足すとどこまで効く？答えは「わずか」！統計的等方性の破れと B モード偏光の組み合わせで、LiteBIRD の守備範囲の外側を知れる話📉",
+      "summary": "多重連結な宇宙は CMB の異なる (ℓ,m) 間に相関を作る。T・E・原始 B の完全な共分散行列で E1 トポロジーの判別力を宇宙分散限界で評価し、B モードを加えても改善はわずかと結論。"
+    }
+  ]
+}

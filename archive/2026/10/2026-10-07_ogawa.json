@@ -1,0 +1,37 @@
+{
+  "total_fetched": 419,
+  "scored_papers": [
+    {
+      "arxiv_id": "2610.05623",
+      "title": "Frame-dependent coherence of Gaussian quantum states",
+      "authors": [
+        "Nicolae Cotfas"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.05623",
+      "abstract": "A Hilbert space is usually described using an orthonormal basis, but a more general description can be defined using a tight frame. In the case of continuous-variable Gaussian states, the coherence is usually described using the Hermite-Gauss basis. We present an alternative description using the tight frame of all canonical coherent states. The description of Gaussian states in terms of coherent states is simpler than in terms of Hermite-Gauss basis, and this allows us to obtain an explicit formula describing the frame-dependent coherence of a mixed Gaussian state as a function of the determinant and the trace of covariance matrix. For each mixed Gaussian state, we construct a sequence of discrete-variable quantum states rapidly convergent to it (as concern the purity and coherence) when the dimension of Hilbert space becomes large enough (15 or more). In the discrete case, the coherence is measured with respect to the tight frame of all discrete coherent states.",
+      "score": 85,
+      "reason": "🌊 ガウス状態のコヒーレンスをコヒーレント状態全体のフレームで測る新しい見方！共分散行列の行列式とトレースだけで書ける明示式で、スクイーズド・コヒーレント状態のテーマに近い💡🎯",
+      "summary": "連続変数ガウス状態のコヒーレンスをコヒーレント状態のタイトフレームで定義。混合ガウス状態の値を共分散行列の行列式とトレースで表す式を導き、次元15程度以上の離散系の状態列で近似できることを示す。"
+    },
+    {
+      "arxiv_id": "2610.05083",
+      "title": "The quantum-classical bipartite universe and the logical emergence of $\\hbar$ from classical temporality",
+      "authors": [
+        "Vincenzo Chilla"
+      ],
+      "categories": [
+        "quant-ph",
+        "math-ph",
+        "math.MP"
+      ],
+      "url": "https://arxiv.org/abs/2610.05083",
+      "abstract": "We present a foundational reinterpretation of quantum dynamics based on the standard von Neumann formalism, positing a structural logical bipartition between a classical observational environment and a quantum observed system. Against universalist frameworks, we show that theoretical consistency requires distinct propositional logics: Boolean logic governs the environment, while non-Boolean logic applies to the observed system. Within this framework, an ideal classical clock is represented as an open system whose energy spectrum is uniformly discretized. The dynamics follow from the Gorini-Kossakowski-Sudarshan-Lindblad (GKSL) master equation under the constraint that the Hamiltonian remains observable. Although the clock's temporal evolution is driven by dissipative coupling to the measurement apparatus, it admits a stable, deterministic solution corresponding to information-preserving cyclic dynamics. This deterministic regime emerges as a logical attractor, stabilized by the Boolean structure inherent to the measurement interaction. Ultimately, $\\hbar$ is derived as a fundamental scaling parameter from the classical clock's action-angle commutation relation, revealing that the quantum of action reflects the discrete logical structure underlying classical temporality. Furthermore, this framework establishes an exact mapping with 't Hooft's cellular automaton formalism, offering an alternative ontological interpretation that not require hidden variables and superdeterministic assumptions. The resulting distinction between quantum dynamics (as potential recontextualization) and classical dynamics (as temporal actualization) provides a novel logical approach to the measurement problem.",
+      "score": 85,
+      "reason": "⏱️ 理想的な古典時計を、エネルギー準位が等間隔な開放系として GKSL 方程式で記述！時計の決定論的な周期運動から ħ を導くという大胆な主張で、量子時計と時間の扱いのテーマに直結🕰️✨",
+      "summary": "観測する古典環境(ブール論理)と観測される量子系(非ブール論理)の二分割を基礎に置く再解釈。等間隔準位の時計を開放系として扱い、情報を保つ周期的な定常解が安定に現れ、そこから ħ を導くと主張。"
+    }
+  ]
+}

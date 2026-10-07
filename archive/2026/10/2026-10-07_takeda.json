@@ -1,0 +1,87 @@
+{
+  "total_fetched": 419,
+  "scored_papers": [
+    {
+      "arxiv_id": "2610.06194",
+      "title": "A robust framework for the comprehensive characterisation of parametric down-conversion sources",
+      "authors": [
+        "Denis A. Kopylov",
+        "Michael Stefszky",
+        "Christine Silberhorn"
+      ],
+      "categories": [
+        "quant-ph",
+        "physics.optics"
+      ],
+      "url": "https://arxiv.org/abs/2610.06194",
+      "abstract": "Reliable verification of squeezed-light sources is essential for photonic quantum technologies. High-dimensional quantum optical networks demand single-mode, pure squeezed states which, in principle, can be generated through careful engineering of parametric down-conversion-based (PDC) sources. However, due to the imperfections of optical components, the generated state is never pure and commonly contains internal mode structure. Existing characterisation techniques, based on either joint spectral intensity or normalized second-order correlation functions, work under the assumption that the probed state is pure, and therefore can result in incomplete or misleading assessment of the source quality. Here, we develop a device-agnostic characterisation framework for PDC-based sources with distinguishable signal and idler fields. Treating the source as a black box producing a mixed multimode Gaussian state, we find a lower bound for the state purity, which can be experimentally determined via mode-unresolved measurements. Our approach enables a holistic assessment of realistic squeezed-light source quality without requiring a detailed model of the nonlinear device and its surrounding optical network, providing practical benchmarks for optimizing sources for state-of-the-art quantum applications.",
+      "score": 92,
+      "reason": "💫 PDC 光源を「混合した多モードのガウス状態」として黒箱扱いし、モードを分けない測定から純度の下限を出す枠組み！純粋状態を仮定しない光源評価で、SPDC のテーマにど真ん中🎯✨",
+      "summary": "既存の JSI や規格化 g⁽²⁾ による評価は状態が純粋だと仮定する。シグナルとアイドラーが区別できる PDC 光源について、モード分解しない測定で決まる純度の下限を導き、現実的なスクイーズド光源を総合評価。"
+    },
+    {
+      "arxiv_id": "2610.06736",
+      "title": "Characterizing Photonic Partial Distinguishability Through Gram Matrix Tomography",
+      "authors": [
+        "Marcin Kotowski",
+        "Marco Robbio",
+        "Oliver Reardon-Smith",
+        "Benoit Seron",
+        "Leonardo Novo",
+        "Ernesto F. Galv~ao",
+        "Michal Oszmaniec"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.06736",
+      "abstract": "Partial distinguishability affects multiphoton interference, which is central to large-scale photonic experiments such as Boson Sampling and to applications of multiphoton states across quantum technologies. Characterizing the internal degrees of freedom responsible for this behavior is challenging: in many scenarios they cannot be accessed directly and even their dimension or physical nature may be unknown \\emph{a priori}. Here we introduce Gram-matrix tomography for independently prepared photons with pure or nearly pure internal states. For pure states, the Gram matrix contains all information required to predict the statistics of experiments that are insensitive to the internal degrees of freedom. We reconstruct this matrix, up to physically irrelevant phase choices, from a quadratic number of measurable Bargmann invariants (quantities encoding overlap magnitudes and collective phases). We access these quantities using two complementary approaches: targeted Fourier interferometers and two- and three-body photon-number correlations measured in a single random interferometer. We derive explicit error bounds that control the total-variation distance between predicted and actual outcome distributions for any subsequent experiment that is insensitive to the internal states. These guarantees account for finite sampling and deviations from purity. Crucially, the total sample complexity of the protocol is independent of the internal Hilbert-space dimension and polynomial under mild assumptions on overlaps of internal states. Our protocol uses standard interferometric measurements and turns them into a robust and operationally grounded characterization of partially distinguishable photons.",
+      "score": 88,
+      "reason": "🔬 光子の部分的な区別可能性をグラム行列のトモグラフィーで丸ごと再構成！多光子干渉に効く内部自由度を、2・3光子の相関から読み出す話で、二光子干渉のテーマに直結💡🎯",
+      "summary": "独立に用意した光子の内部状態の重なりをグラム行列として再構成。内部自由度に鈍感な実験の統計はこれで決まる。Bargmann 不変量をフーリエ干渉計とランダム干渉計での光子数相関から測る2つの方法を示す。"
+    },
+    {
+      "arxiv_id": "2610.06791",
+      "title": "Local universality of non-local quantum resources in rotationally invariant scattering",
+      "authors": [
+        "Silas R. Beane",
+        "Roland C. Farrell"
+      ],
+      "categories": [
+        "quant-ph",
+        "hep-ph",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2610.06791",
+      "abstract": "Elastic scattering can generate entanglement and non-local magic between the spins of the two outgoing particles. The amount of entanglement and magic produced is encoded in the S-matrix; a unitary quantum gate that acts on the joint Hilbert space of the two spin-J particles. Previous work derived the entanglement power in terms of the scattering phase shifts for rotationally invariant S-matrices with J=1/2,1,3/2. In this paper, a closed form solution is derived for all J. We further prove that a broad class of non-local quantum resources depend to leading order only on the squared projective Hilbert-Schmidt distance from the nearest non-entangling gate. This holds for the entanglement power and non-local magic power, and the choice of resource simply changes the overall normalization. This universality establishes a common geometric origin for the leading resource-generating capacity of scattering, independent of the details of the interaction.",
+      "score": 88,
+      "reason": "⚛️ 弾性散乱がスピン間に作るエンタングルメントと非局所マジックを S 行列から計算！全スピン J の閉じた式と、資源量が「最も近い非エンタングル化ゲートからの距離」で決まる普遍性が好みのテーマ🎯✨",
+      "summary": "回転不変な S 行列を2粒子スピン空間のユニタリゲートとみなし、エンタングルメント力を位相差で表す閉じた式を全 J で導出。非局所資源の主要項は非エンタングル化ゲートへの射影距離の2乗だけで決まると示す。"
+    },
+    {
+      "arxiv_id": "2610.06335",
+      "title": "Sub 35-ps Single-Photon Stellar Intensity Interferometry of Vega",
+      "authors": [
+        "Verena G. Leopold",
+        "Sebastian Karl",
+        "Stefan Richter",
+        "Jean-Pierre Rivet",
+        "Yury Prokazov",
+        "Evgeny Turbin",
+        "Gennady Sintotskiy",
+        "Iurii Datii",
+        "Jason Aufdenberg",
+        "Joachim von Zanthier"
+      ],
+      "categories": [
+        "astro-ph.IM",
+        "astro-ph.SR"
+      ],
+      "url": "https://arxiv.org/abs/2610.06335",
+      "abstract": "SII enables measurements of stellar photospheres by correlating intensity fluctuations, offering a robust alternative to amplitude-based techniques. With the advent of modern single-photon counting detectors, this method has re-emerged as a powerful technique in stellar interferometry exploiting their ultra-high timing resolution. We determine the stellar diameter of Vega at 405 nm using spatial intensity correlations measured at the C2PU facility, part of the Observatoire de la Cote d'Azur. We employed a setup identical to Leopold et al. (2025). The two campaigns in April and August 2024 used hybrid photodetectors (HPDs; 22.7 ps resolution) and new PhotonPix detectors (34.8 ps resolution). A Photonscore TDC integrated photon arrival times and IRIG-B timestamps for synchronization. Our analysis consisted of calculating auto- and cross-correlation histograms from the recorded data, which were then normalized and corrected for optical path differences. The temporal auto-correlations yield a consistent coherence time of 0.21 ps. This confirms the effectiveness of the PhotonPix detectors despite a slight degradation in timing resolution relative to the HPDs. Combining the data from the two measurement campaigns yields a uniform disk diameter of Vega of 2.97 +/- 0.23 mas. This agrees with the 3.047 mas diameter predicted by the stellar atmosphere model at our observation wavelength, validating our technique and the new PhotonPix detectors for precision SII at sub-35 ps resolution. The integration of advanced single-photon detectors like the PhotonPix into existing IACT SII instruments promises substantial enhancements in signal-to-noise ratio and observational capabilities, particularly with CTA LSTs. Although challenges such as night sky background saturation and precise positioning and guiding remain, SII observations at apparent magnitudes up to 7.8 are within reach.",
+      "score": 85,
+      "reason": "🌟 単一光子検出で星の強度干渉(強度相関)を35ps以下の時間分解能で測ってベガの直径を決定！時間分解した二光子の時間相関を実際に測る話で、時間分解検出のテーマに近い⏱️✨",
+      "summary": "C2PU で波長 405 nm の空間的な強度相関を測り、ベガの視直径を決めた。時間分解能 22.7 ps と 34.8 ps の検出器で自己・相互相関ヒストグラムを作り、光路差を補正。自己相関からコヒーレンス時間 0.21 ps を得た。"
+    }
+  ]
+}
