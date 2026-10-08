@@ -1,0 +1,20 @@
+{
+  "total_fetched": 221,
+  "scored_papers": [
+    {
+      "arxiv_id": "2610.08749",
+      "title": "No-Disturbance-without-Uncertainty generates the Quantum set in the simplest Bell scenario",
+      "authors": [
+        "Ravishankar Ramanathan"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.08749",
+      "abstract": "Characterizing the set of quantum nonlocal correlations through information-theoretic constraints is a central problem in quantum foundations. We show that the convex hull of no-signalling behaviors in a bipartite Bell experiment satisfying a common-overlap no-disturbance-without-uncertainty condition is exactly the finite-dimensional quantum set whenever one party has two binary measurements and the other has an arbitrary finite number of settings, each with an arbitrary finite number of outcomes. In the simplest binary input-output Bell scenario, this characterizes the full eight-dimensional set of quantum behaviors, including the local marginals. The proof constructs a quantum realization directly from the conditional probabilities and no-signalling. The characterization also reduces optimization of any linear Bell expression in these scenarios to maximization over a one-parameter family of second-order cone programs. The results establish a connection between local uncertainty-disturbance constraints and quantum nonlocality, mediated by no-signalling and shared classical randomness.",
+      "score": 85,
+      "reason": "⚖️ 「不確定性なくして擾乱なし」という局所的な条件と無信号性から、最も単純なベル状況の量子相関の集合がちょうど出てくる！不確定性と擾乱の関係が量子非局所性を決める、基礎論の好きな筋💡🎯",
+      "summary": "二者ベル実験で片方が2値測定2つのとき、共通重なりの no-disturbance-without-uncertainty 条件を満たす無信号の振る舞いの凸包が量子集合に一致すると証明。ベル式の最適化も一変数の SOCP 族に帰着。"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "total_fetched": 221,
+  "scored_papers": [
+    {
+      "arxiv_id": "2610.07263",
+      "title": "Chromatic Gravitational-Wave Tests of Dirac-Induced Torsion in Quadratic Einstein--Cartan Gravity: Nanohertz PTA Null Signatures",
+      "authors": [
+        "Zhi-Fu Gao",
+        "Biao-Peng Li",
+        "Na Wang",
+        "Hui Wang",
+        "Guo-Qiang Jin",
+        "Zhoujian Cao",
+        "Luiz C. Garcia de Andrade"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-ex",
+        "nucl-th"
+      ],
+      "url": "https://arxiv.org/abs/2610.07263",
+      "abstract": "We derive a conditional result for leading tensor propagation in Einstein--Cartan--Dirac gravity with the parity-even invariant $\\zeta T_{\\lambda\\mu\\nu} T^{\\lambda\\mu\\nu}$ and algebraic torsion sourced by a coarse-grained fermionic axial current. On a spatially flat, homogeneous, and isotropic background, eliminating the nondynamical Lorentz connection yields the Einstein--Hilbert transverse-traceless (TT) action at leading two-derivative order if the matter state obeys an explicit factorized mean-field closure: the connected contribution to $\\langle J_{5\\mu}J_5^{\\mu}\\rangle$ is set to zero, the factorized scalar $\\bar J_{5\\mu}\\bar J_5^\\mu$ has vanishing first- and second-order TT response, and intrinsic TT anisotropic stress vanishes. Under these conditions, $Q_T= M_{\\rm Pl}^{2}$, the tensor speed is luminal, and the local dispersion relation is $\\omega^2=k_{\\rm phys}^2$, with no leading propagation-induced polarization splitting. The contribution is a model-specific constrained TT-Hessian calculation for this invariant that retains the auxiliary-connection response and states the closure needed for the $\\zeta$-dependent terms to cancel. The connected-current TT response of a general fermionic state is not evaluated; this is therefore a conditional result, not a general Einstein--Cartan no-go theorem. The coupling $\\zeta$ remains in the axial--axial fermion contact interaction. We define null-test observables and a covariance-weighted statistic for future pulsar-timing-array (PTA) likelihood analyses. Published NANOGrav 15-year harmonic posteriors and the public 2026 collaboration preprint serve only as consistency checks: we perform no new time-of-arrival (TOA)-level likelihood or evidence calculation, and these\n  data do not directly constrain $\\zeta$.",
+      "score": 92,
+      "reason": "🌀🧲 Dirac 粒子の軸性カレントが源のねじれを持つ二次の Einstein–Cartan 重力でテンソル波の伝播を計算！🌊✨ 条件付きで光速・偏極分裂なしを示し PTA 用のヌル検定も定義、EC×フェルミオンの好みど真ん中🎯🔥",
+      "summary": "🌀 ねじれの二乗不変量を持つ Einstein–Cartan–Dirac 理論で非動的な接続を消去。平均場の閉包条件の下で TT 作用は Einstein–Hilbert に戻り、テンソル波は光速で偏極分裂なし。PTA は整合性確認のみ📡"
+    },
+    {
+      "arxiv_id": "2610.07331",
+      "title": "Spectator Dark Matter and the Higgs Portal",
+      "authors": [
+        "Stephen E. Henrich",
+        "Yann Mambrini",
+        "Keith A. Olive"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2610.07331",
+      "abstract": "Light scalar spectators generically acquire large stochastic fluctuations during inflation, which can lead to a catastrophic overproduction of dark matter if the resulting primordial condensate survives until late times. We show that this inflationary memory can be sufficiently suppressed by an extremely feeble Higgs portal interaction with sub-freeze-in couplings ($10^{-28} \\lesssim \\lambda_{HS} \\lesssim 10^{-9}$). The Higgs portal induces both a radiative self-interaction for the spectator as well as a thermal mass, both of which can lead to early onset of oscillations and efficient redshifting of the condensate's energy density without thermalizing the spectator or destroying the condensate. The Higgs portal also alters the stochastic equilibrium distribution of the spectator fluctuations, leading to a suppression of the field variance relative to an isolated spectator. We include a detailed treatment of the possibility that inflation may not have lasted sufficiently long for the spectator to reach its equilibrium distribution of fluctuations, finding the major constraint on such a scenario to come from isocurvature, which requires $N \\gtrsim10^{10}$ e-folds. We also consider the addition of a non-minimal gravitational coupling, which extends the parameter space significantly. This model generally favors sub-GeV light dark matter ($0.1 \\text{ eV} \\lesssim m_S \\lesssim 10 \\text{ GeV}$) and in the absence of non-minimal gravity it also favors low reheating temperatures. While this mechanism can supply the entire relic abundance with sub-freeze-in portal couplings, it also naturally provides a suppressed initial condition for standard Higgs portal freeze-in.",
+      "score": 88,
+      "reason": "🌌💫 インフレーション中に溜まる軽いスペクテイター場の揺らぎを、極微小な Higgs ポータルで抑えて DM に！🔥 輻射的な自己相互作用と熱質量で早く振動させる仕組み、非最小重力結合も込みで Higgs ポータル好みに刺さる🎯✨",
+      "summary": "🌀 軽いスカラーの確率的揺らぎによる DM 過剰生成を、λ_HS∼10⁻²⁸–10⁻⁹ の Higgs ポータルが生む自己相互作用と熱質量で抑制。等曲率の制約、非最小重力結合での領域拡大、0.1 eV–10 GeV の軽い DM を示す🧪"
+    },
+    {
+      "arxiv_id": "2610.08428",
+      "title": "Analytic solutions for the gravitational spin Hall equations and black hole shadows",
+      "authors": [
+        "Marius A. Oancea"
+      ],
+      "categories": [
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2610.08428",
+      "abstract": "In general relativity, the geometric optics approximation describes the propagation of high-frequency electromagnetic waves along null geodesics. Beyond this approximation, localized wave packets acquire frequency- and polarization-dependent corrections to null geodesic motion, described by the gravitational spin Hall equations. In this paper, these equations are integrated analytically, to first order in wavelength, in a large class of type D black hole spacetimes, whenever the corresponding null geodesics admit analytic solutions. The same framework yields analytic expressions for the shape of black hole shadows with polarization-dependent corrections.",
+      "score": 86,
+      "reason": "🌊🕳️ 幾何光学を超え、波束が周波数と偏極に依存して測地線からずれる重力スピンホール方程式を解析的に解いた！🌀✨ 回転ブラックホールを含む D 型時空で影の形の偏極補正まで出る、波束×ブラックホールの一本🎯🔥",
+      "summary": "🌊 局在した波束が零測地線から受ける周波数・偏極依存のずれ (重力スピンホール方程式) を、零測地線が解析的に解ける広い D 型時空で波長の1次まで積分。偏極に依存するブラックホールの影の形を解析的に与える🕳️"
+    },
+    {
+      "arxiv_id": "2610.07155",
+      "title": "Coherent versus incoherent amplification: from parametric resonance to the kinetic regime in stimulated axion decay",
+      "authors": [
+        "Clemente Smarra",
+        "Elisa Todarello"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2610.07155",
+      "abstract": "Although the spontaneous decay of axions into two photons is extremely slow on cosmological timescales, it can be strongly enhanced in environments with large bosonic occupation numbers. From a classical field perspective, stimulated axion decay is described by modified Maxwell equations. For a coherent axion background, these equations exhibit a parametric resonance characterized by a photon growth exponent $s\\propto g_{a\\gamma}$. By contrast, a standard kinetic description, for instance based on Boltzmann equations, involves the squared matrix element of the decay process and therefore would naturally predict a characteristic rate scaling as $s\\propto g_{a\\gamma}^2$. In this work, we show that these apparently different behaviors originate from the coherence properties of the axion field. Starting from an axion field with a finite momentum dispersion, we show how dephasing among its momentum modes modifies the photon instability and derive an effective evolution equation in which this effect is encoded in a kernel. For a continuous Maxwell-Boltzmann distribution of axion velocities, we obtain an implicit expression for the photon growth exponent that reproduces the two asymptotic regimes and provides an approximate description of the crossover. When amplification develops on scales shorter than the axion coherence length, the parametric resonance scaling $s\\propto g_{a\\gamma}$ is recovered, whereas in the opposite limit an effectively kinetic behavior with $s\\propto g_{a\\gamma}^2$ emerges. Although the detailed form of the crossover depends on the axion momentum distribution, we expect the asymptotic scaling with $g_{a\\gamma}$ to be largely insensitive to the specific distribution assumed.",
+      "score": 85,
+      "reason": "⚡🌌 アクシオンの誘導崩壊で、パラメトリック共鳴 (g に比例) と運動論 (g² に比例) の食い違いをアクシオン場のコヒーレンスで統一！🔥✨ 運動量分散による位相ずれが両極限をつなぐ、パラメトリック増幅の話が好きなら🎯💫",
+      "summary": "⚡ 有限の運動量分散を持つアクシオン場で、モード間の位相ずれが光子の不安定性を変える核を含む発展方程式を導出。増幅がコヒーレンス長より短い尺度なら s∝g、長ければ s∝g² となり、間の移り変わりも近似的に記述📈"
+    }
+  ]
+}

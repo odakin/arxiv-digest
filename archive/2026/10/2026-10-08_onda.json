@@ -1,0 +1,38 @@
+{
+  "total_fetched": 221,
+  "scored_papers": [
+    {
+      "arxiv_id": "2610.08547",
+      "title": "Stochastic effect on ultralight dark matter searches with astronomical polarized sources",
+      "authors": [
+        "Kyohei Yamada"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2610.08547",
+      "abstract": "Ultralight axion-like particles (ALP) are the well-motivated candidates for the dark matter. In the standard halo model, the ultralight galactic dark matter behaves as a stochastic Gaussian random field, and the polarization angle of the linearly polarized light propagating through the field stochastically oscillates proportional to the field difference between the observer and the source. The statistics of this signal depend on the source size and its distance from the observer relative to the ALP Compton length and coherence length, and therefore on the ALP mass. We present a unified statistical framework for the polarization-oscillation searches with light sources of arbitrary size and distance. We classify the statistics of the stochastic oscillation amplitude into four distinct regimes and provide a seamless description including the transitional regimes between them. Our framework reproduces the signal models in previously known cases including the laboratory-scale searches and searches using pulsars and the cosmic microwave background. We provide a likelihood prescription that incorporates the stochasticity of the signal, and show that uncertainties in source distance must be carefully accounted for, as they can alter the resulting constraints on the ALP-photon coupling by up to a factor of three. Our results provide a consistent basis for interpreting and comparing a broad range of ALP searches with astronomical polarized sources.",
+      "score": 86,
+      "reason": "🌀 銀河の超軽量アクシオン DM による偏光角の確率的な揺れを、光源の大きさと距離によらず扱う統一的な統計の枠組み！CMB やパルサーを使う探索の尤度にそのまま効き、複屈折サイエンスの土台になる話🎯✨",
+      "summary": "ALP 場はガウス確率場として振る舞い、偏光角は観測者と光源の場の差に比例して振動。光源の大きさと距離による4つの統計の区分とその間を一貫して記述し尤度を提示。光源距離の不定性で結合の制限は最大3倍変わる。"
+    },
+    {
+      "arxiv_id": "2610.08728",
+      "title": "When, Why, and How CMB Compression Fails",
+      "authors": [
+        "Davide Pedrotti",
+        "William Giar`e",
+        "Hanyu Cheng",
+        "Eleonora Di Valentino"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2610.08728",
+      "abstract": "We test when compressed CMB likelihoods can be reliably used to constrain new physics beyond $\\Lambda$CDM, formulating concrete criteria for \\textit{when}, \\textit{why}, and \\textit{how} CMB compression fails. We derive our conclusions by exploring a broad set of models that modify different aspects of the cosmological evolution, including late-time dark-energy dynamics, non-standard late-time dark-matter evolution through interactions or decay, and dark-matter models with persistently non-standard redshift evolution. For each case, we compare the results obtained from data combinations based on the full Planck-CMB likelihood with their counterparts based on a compressed CMB likelihood calibrated in $\\Lambda$CDM. We find that the compression remains accurate for late-time dark-energy extensions that preserve the dark-matter background evolution and do not introduce significant additional perturbative effects. By contrast, modifying the dark-matter evolution breaks the mapping between the present-day matter density and the matter density at the epochs relevant to the CMB, causing the compressed constraints to fail even when the modification acts exclusively at late times. In these cases, the compressed likelihood can drastically alter the geometry of the multidimensional posterior distributions, shifting their centers, producing strongly anisotropic deformations, reordering principal modes, and generating genuine mixing and rotation of their eigendirections. These multidimensional distortions propagate into substantially incorrect marginalized constraints on cosmological parameters, with differences between the full and compressed analyses reaching nearly an order of magnitude in some of the cases studied here.",
+      "score": 86,
+      "reason": "📉 圧縮した CMB 尤度で ΛCDM を超える模型を制限するとき、いつ・なぜ・どう失敗するかを整理！暗黒物質の進化を変える模型では晩期だけの変更でも結果が狂う、テンション系の解析を読むときの必携チェック🔍✨",
+      "summary": "Planck の完全な尤度と ΛCDM で較正した圧縮尤度を、動的な暗黒エネルギーや DM の相互作用・崩壊の模型で比較。DM の背景進化を変えると圧縮が破れ、事後分布の中心のずれや回転で制限が最大一桁ほど変わる。"
+    }
+  ]
+}
