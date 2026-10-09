@@ -1,0 +1,56 @@
+{
+  "total_fetched": 177,
+  "scored_papers": [
+    {
+      "arxiv_id": "2610.09545",
+      "title": "Time-Bin Properties of Photon Pairs from a 2GHz Waveguide Resonator",
+      "authors": [
+        "Stefan Kazmaier",
+        "Kaisa Laiho"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.09545",
+      "abstract": "We produce degenerate photon pairs called signal and idler via parametric down-conversion (PDC) in a Fabry-P\\'erot waveguide resonator having close to a 2GHz bandwidth in the telecom C-band. Our PDC source is based on a type-II periodically-poled Lithium Niobate waveguide with high-reflecting end facets forming the resonator. We measure the strength of the photon-pair correlation between signal and idler after selecting a single resonator mode from the multimode PDC emission. Thereafter, we investigate their sub-nanosecond long pulse shapes, in other words the time bins, with standard photon counting. We find that the time-bin durations vary significantly from each other, which can be predicted by the different optical losses of the cross-polarized signal and idler. Further, we simulate the temporal properties of signal and idler via the Fourier transform of their joint spectral characteristics. Our results deliver empiric insight about the time bins of photon pairs and are relevant for driving future quantum networks at the edge to narrow bandwidths but nevertheless in the pulsed regime.",
+      "score": 88,
+      "reason": "📸 PDC光子対の時間ビン（パルス形状）を実測！二光子系の時間相関とjoint spectrumの対応はど真ん中のテーマ✨",
+      "summary": "2GHz帯域の導波路共振器でtype-II PPLNからtelecom帯の縮退光子対を生成。signal/idlerの時間ビン長の違いを損失差で説明し、joint spectrumのFourier変換で再現⏱️"
+    },
+    {
+      "arxiv_id": "2610.09182",
+      "title": "Shadow-Free Scattering with Complex Frequency Excitations",
+      "authors": [
+        "Vitali Kozlov",
+        "Wei Wang",
+        "Seunghwi Kim",
+        "Arno Thielens",
+        "Andrea Alu"
+      ],
+      "categories": [
+        "physics.optics"
+      ],
+      "url": "https://arxiv.org/abs/2610.09182",
+      "abstract": "The optical theorem dictates that the wave scattering of an object in the forward direction is proportional to the total power extinguished from the excitation. For passive objects, this relationship is a by-product of the intuitive notion that scattering and absorption necessarily create shadows, and that zero forward scattering, i.e., no shadow, can only be obtained if the object is fully transparent, i.e., it neither scatters nor absorbs. Materials with gain can be in principle leveraged to suppress forward scattering while preserving a large scattering signature in other directions. However, sufficient optical gain is challenging to realize, and it inherently leads to instabilities and nonlinearities. Here, we experimentally demonstrate shadow-free \\ scattering from a passive high-index dielectric sphere by exciting it with a complex frequency signal tailored to mimic the presence of material gain. We achieve as much as 26dB suppression of the forward scattering when compared with optimal monochromatic excitations, while preserving strong scattering in other directions. More broadly, our results demonstrate how complex frequencies offer a natural pathway to enhance control over the scattering signature of passive objects, with implications for a range of photonic applications.",
+      "score": 85,
+      "reason": "🔦 光学定理と吸収の関係を逆手に取る実験！forward散乱を消して「影のない散乱」を実現、吸収・検出モデルの視点で面白い💡",
+      "summary": "受動的な高屈折率誘電体球に複素周波数の励起を当てて利得を模倣し、forward散乱を最適な単色励起比で26dB抑制、他方向の散乱は維持🎯"
+    },
+    {
+      "arxiv_id": "2610.09751",
+      "title": "SMEFT Constraints via Quantum Entanglement in Portal-Mediated Scattering",
+      "authors": [
+        "Shilpa Jangid",
+        "Hiroshi Okada"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.09751",
+      "abstract": "We study Standard Model Effective Field Theory (SMEFT) extensions in portal-mediated scattering processes from the perspective of quantum entanglement. Quantum information metrics maintain phase-sensitive spin and momentum correlations, whereas conventional collider and direct detection observables mainly depend on unpolarized cross-sections and event rates, which often suppress dimension-six interference terms or average over internal degrees of freedom. We assess linear and Von Neumann entropy fluctuations induced by higher-dimensional operator insertions by building final-state density matrices using helicity amplitudes. By avoiding conventional kinematic degeneracies, our formulation shows that entanglement measures capture interference contributions linearly in $1/\\Lambda^2$, offering improved sensitivity to new physics scales. A theoretical framework for SMEFT Wilson coefficients is established by this information-theoretic method, creating new opportunities for accurate tests of fundamental interactions in high-energy and astroparticle physics.",
+      "score": 85,
+      "reason": "⚛️ 散乱の終状態のエンタングルメントでSMEFTを探る！素粒子過程の量子もつれは好みのテーマ✨",
+      "summary": "portal媒介散乱の終状態密度行列をhelicity振幅から構成し、linear/von Neumann entropyの揺らぎを評価。次元6演算子の干渉項に1/Λ²で線形に感度🔍"
+    }
+  ]
+}

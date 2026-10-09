@@ -1,0 +1,22 @@
+{
+  "total_fetched": 177,
+  "scored_papers": [
+    {
+      "arxiv_id": "2610.09748",
+      "title": "Cosmic Birefringence from Large Lepton Asymmetry",
+      "authors": [
+        "Kentaro Kasai",
+        "Ippei Obata"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.09748",
+      "abstract": "Cosmic birefringence, the rotation of the polarization plane of CMB photons, provides an intriguing probe of physics beyond the Standard Model. In this paper, we investigate a vector Chern-Simons coupling between the neutrino current and photons as a possible origin of isotropic cosmic birefringence. Firstly, we perform the first analysis of anisotropic cosmic birefringence induced by the neutrino current. We find that the anisotropic signal sourced by lepton-number isocurvature fluctuations can be important on large scales, whereas on small scales, the anisotropic signal induced by gravitational effects becomes dominant comparing with the axion-like particle (ALP) scenario. Secondly, we show that a large lepton asymmetry generated through the Affleck-Dine mechanism can successfully account for the observed isotropic birefringence, and discuss its possible connection to the recently reported low helium-4 abundances in Subaru EMPRESS and Atacama Cosmology Telescope (ACT).",
+      "score": 95,
+      "reason": "🌈🔥 宇宙複屈折のど真ん中！ニュートリノ流と光子のChern-Simons結合で等方・非等方の両方を議論、ALPシナリオとの見分け方が見える✨",
+      "summary": "ニュートリノ流起源の非等方複屈折を初解析。大スケールはレプトン数等曲率揺らぎ、小スケールは重力効果が支配。Affleck-Dine機構の大きなレプトン非対称で等方成分を説明📡"
+    }
+  ]
+}

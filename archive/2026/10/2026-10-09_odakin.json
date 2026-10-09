@@ -1,0 +1,54 @@
+{
+  "total_fetched": 177,
+  "scored_papers": [
+    {
+      "arxiv_id": "2610.09516",
+      "title": "Exothermic nuclear recoils from thermal quasi-pNGB dark matter",
+      "authors": [
+        "Riasat Sheikh",
+        "Takashi Toma",
+        "Koji Tsumura"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.09516",
+      "abstract": "We study a two-component dark matter scenario comprising a stable pseudo-Nambu-Goldstone boson (pNGB) and its nearly degenerate long-lived quasi-pNGB partner. An approximate scalar symmetry relates their masses and suppresses the tree-level Higgs-mediated elastic scattering of the excited state through the small mass splitting. Their coupled thermal evolution yields comparable relic populations, while requiring the observed total abundance fixes the dark scalar symmetry-breaking scale and hence the dark gauge coupling. At the studied benchmark, an excited fraction of approximately one half survives under the adopted evolution assumptions. The quasi-pNGB excited state can therefore produce exothermic nuclear recoils despite a suppressed tree-level elastic signal. As an application, we examine the high-energy LUX-ZEPLIN event. For relic compatible parameters, the recoil normalization fixes the kinetic mixing, allowing this interpretation to be tested by independent mediator searches.",
+      "score": 92,
+      "reason": "🎯🔥 共同研究者の論文！pNGB暗黒物質に準縮退パートナーを足した2成分シナリオで、Higgs portal系DMのど真ん中✨ LZの高エネルギー事象への応用まで👀",
+      "summary": "安定pNGBと長寿命の準pNGB励起状態が同程度に残存🧪 tree-level弾性散乱は抑制されつつ発熱的な原子核反跳を生む。LZ事象を説明するとkinetic mixingが決まり独立検証可能📡"
+    },
+    {
+      "arxiv_id": "2610.09445",
+      "title": "Electromagnetic Field of an Oscillating Point Charge Measured by a Transversely Comoving Observer",
+      "authors": [
+        "Ruben Canora",
+        "Shengwang Du"
+      ],
+      "categories": [
+        "physics.optics"
+      ],
+      "url": "https://arxiv.org/abs/2610.09445",
+      "abstract": "We investigate the electromagnetic field produced by a harmonically oscillating point charge and measured by a spatially separated observer undergoing the same motion. We evaluate the exact retarded field on the observer's worldline and project the electromagnetic field tensor onto the observer's local orthonormal tetrad. This construction yields the electric and magnetic fields, electromagnetic energy density, and Poynting vector measured as functions of the observer's proper time. Our formulation separates unambiguous local observables from the observer-dependent classification of a field as radiation and provides a concrete setting in which to examine how a charge that is spatially static in a non-inertial coordinate system can nevertheless produce time-dependent locally measured fields.",
+      "score": 87,
+      "reason": "⚡👀 振動する点電荷の場を、同じ運動をする観測者のtetradに射影！光円錐で電磁場を見る仕事と直結する好みのテーマ🌈 放射の観測者依存性がくっきり✨",
+      "summary": "調和振動する電荷の厳密な遅延場を、横に離れて共動する観測者の固有時の関数で計算📐 E・B・エネルギー密度・Poynting vectorを局所観測量として分離し、放射の分類の観測者依存性を議論🔍"
+    },
+    {
+      "arxiv_id": "2610.10348",
+      "title": "Maximally symmetric black holes with torsion in Lovelock gravity",
+      "authors": [
+        "B. Cvetkovi'c",
+        "D. Simi'c"
+      ],
+      "categories": [
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2610.10348",
+      "abstract": "We analyze the existence of static black hole solutions with maximally symmetric horizons and nontrivial torsion in five-dimensional Lovelock gravity. For each symmetry class, we obtain a black hole solution characterized by two independent constants. We also determine the conserved charges associated with these solutions.",
+      "score": 85,
+      "reason": "🌀🕳️ 捩れ(torsion)入りのブラックホール解！Einstein-Cartan系の重力を追う身には見逃せない、5次元Lovelock重力での厳密解✨🔥",
+      "summary": "5次元Lovelock重力で、最大対称なホライズンと非自明なtorsionを持つ静的BH解を対称性クラスごとに構成🧮 各解は2つの独立定数で特徴づけられ、保存電荷も決定📏"
+    }
+  ]
+}
