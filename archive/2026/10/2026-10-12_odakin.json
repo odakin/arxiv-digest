@@ -1,0 +1,75 @@
+{
+  "total_fetched": 241,
+  "scored_papers": [
+    {
+      "arxiv_id": "2610.11844",
+      "title": "Einstein-Cartan and Palatini-Cartan Gravity from Graded Poisson Geometry",
+      "authors": [
+        "Johannes Moerland",
+        "Peter Schupp"
+      ],
+      "categories": [
+        "hep-th",
+        "math-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.11844",
+      "abstract": "Using notions from graded Poisson geometry, we develop a framework that allows for concise formulations of field theories such as Einstein-Cartan and Palatini-Cartan gravity. We show that Einstein-Cartan gravity is equivalent to a variant of Palatini-Cartan gravity in which the vielbein fields are constrained to satisfy appropriate symmetry relations, which we refer to as constrained vielbein gravity. To that end, we relate these theories via a diffeomorphism of graded manifolds. We then show how to obtain the full Palatini-Cartan theory by removing the symmetry constraint. Finally, we show how our graded geometric framework allows for a direct incorporation of the minimal BV extension of the graded constrained vielbein and Palatini-Cartan theories.",
+      "score": 90,
+      "reason": "🌀🧮 Einstein–Cartan 重力を次数付き Poisson 幾何で簡潔に定式化！🔥 vielbein に対称性の拘束を課した Palatini–Cartan と同値と示した、EC×vielbein 好みのど真ん中🎯✨",
+      "summary": "📐 次数付き多様体の微分同相で Einstein–Cartan 重力と「拘束つき vielbein 重力」を対応づけ、拘束を外して Palatini–Cartan 全体を得る。極小 BV 拡張も直接組み込める🧩"
+    },
+    {
+      "arxiv_id": "2610.11192",
+      "title": "Implications of tachyonic phase transition in classically scale invariant general $U(1)_{X}$ models",
+      "authors": [
+        "Arindam Das",
+        "Katsuya Hashino",
+        "Yuta Orikasa",
+        "Masanori Tanaka"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2610.11192",
+      "abstract": "We investigate the complementarity between collider searches and gravitational-wave (GW) observations in the classically scale-invariant general $U(1)_X$ extension of the Standard Model. The $U(1)_X$ scale is generated radiatively through the Coleman-Weinberg mechanism, while the electroweak scale is induced through the Higgs portal, without explicit mass terms in the scalar potential. Three right-handed neutrinos are introduced to ensure anomaly cancellation and acquire Majorana masses upon $U(1)_X$ symmetry breaking, which also generates the mass of the neutral gauge boson $Z'$. In the strongly supercooled regime, a tachyonic $U(1)_X$ phase transition can produce a stochastic GW background. Assuming three heavy Majorana neutrinos, we study their effects on the phase-transition dynamics and reheating, and estimate the resulting GW signals. We identify the regions of the $U(1)_X$ gauge coupling and $Z'$ mass accessible to future GW observatories, including LISA and DECIGO, and compare them with existing LEP and LHC constraints. We find that GWs from tachyonic phase transitions can probe regions with small gauge couplings and heavy $Z'$ bosons that are difficult to access through collider searches, demonstrating the complementarity of these probes.",
+      "score": 87,
+      "reason": "⚖️🌌 古典的スケール不変な一般 U(1)_X 拡張で、Coleman–Weinberg と Higgs ポータルから電弱スケールを作る王道の構成！🔥 右巻きニュートリノ込みで、強い過冷却下のタキオン的相転移が出す GW を評価🎯✨",
+      "summary": "🌊 右巻きニュートリノ3つの Majorana 質量が相転移と再加熱に与える効果を調べ、LISA・DECIGO で探れる U(1)_X 結合と Z′ 質量の領域を LEP・LHC と比較。小さい結合・重い Z′ は GW が有利📡"
+    },
+    {
+      "arxiv_id": "2610.11357",
+      "title": "Pre-geometric Black Holes with Spherical Symmetry",
+      "authors": [
+        "Giuseppe Meluccio",
+        "Egor Pluzhnikov"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2610.11357",
+      "abstract": "Pre-geometric Gravity investigates the non-metric features of spacetime near the Planck scale, from which the gravitational interaction arises as a low-energy effective theory via a mechanism of spontaneous symmetry breaking. With a view of amending the classical singularities found in black hole geometries, in this work we study pre-geometric black hole configurations with spherical symmetry, and present exact solutions for different pre-geometric theories in vacuum via the correspondence principle. These solutions are the pre-geometric analogue of the (anti-)de Sitter-Schwarzschild metric, from which such type of black hole geometry is thus expected to emerge. In one case, the pre-geometric solution also exhibits an (anti-)de Sitter core of Planckian size. The main result is supplemented with an analysis of the pre-geometric version of Birkhoff's theorem.",
+      "score": 86,
+      "reason": "🕳️🌀 重力が Planck スケールの対称性の自発的破れから低エネルギー有効理論として出てくる前幾何的重力で、球対称ブラックホールの厳密解！✨ 創発重力好みに刺さる、(A)dS–Schwarzschild の前幾何版🎯🔥",
+      "summary": "🧩 真空での前幾何的理論の球対称解を対応原理で構成。(A)dS–Schwarzschild 計量がそこから出てくると期待され、一例では Planck サイズの (A)dS 芯を持つ。Birkhoff の定理の前幾何版も解析📐"
+    },
+    {
+      "arxiv_id": "2610.10677",
+      "title": "Primordial black holes as a natural consequence of scale-invariance",
+      "authors": [
+        "TaeHun Kim",
+        "Wan-Il Park"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.10677",
+      "abstract": "We show that a scale-invariant $U(1)$ gauge theory can naturally realize large curvature perturbations around the end of thermal inflation, seeding the formation of primordial black holes (PBHs). The allowed nonminimal gravitational interaction $\\xi$ of the Higgs field induces a Hubble-scale negative mass-squared term for positive $\\xi \\sim \\mathcal{O}(1)$, and triggers a second order phase transition that ends thermal inflation while keeping the extra $e$-folds small. This sharp contrast to the minimally coupled case allows the gauge coupling to be much smaller than unity. It turns out that field fluctuations are dominated by thermal fluctuations around the onset of the phase transition, and sufficiently amplified to produce an appreciable amount of PBHs with a wide range of possible masses. The associated scalar-induced gravitational waves (GWs) are accompanied by cosmic-string induced GWs coming from the breaking of the $U(1)$ symmetry. As a result, the generated PBH population can have a correlated GW signature relevant to pulsar timing arrays, space-based interferometers, or ground-based detectors.",
+      "score": 85,
+      "reason": "⚖️🕳️ スケール不変な U(1) ゲージ理論で、熱的インフレーションの終わりに原始ブラックホールが自然にできる！🔥 Higgs 場の非最小結合 ξ∼O(1) が負の質量項を誘導して相転移を起こすのが鍵、非最小結合好みに🎯✨",
+      "summary": "🌊 相転移の開始時は熱揺らぎが場の揺らぎを支配して増幅され、幅広い質量の PBH ができる。スカラー誘起 GW に U(1) の破れ由来の宇宙ひも GW が伴い、PTA や干渉計で相関した信号に📡"
+    }
+  ]
+}

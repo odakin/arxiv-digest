@@ -1,0 +1,21 @@
+{
+  "total_fetched": 241,
+  "scored_papers": [
+    {
+      "arxiv_id": "2610.11865",
+      "title": "Extended Results on Absorbing Boundary Conditions as Limits of Complex Potentials",
+      "authors": [
+        "Rashi Kaimal",
+        "Roderich Tumulka"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.11865",
+      "abstract": "In quantum mechanics, among the proposals for how to compute the probability distribution of detection time and place along a given spatial surface or in a given volume, two leading candidates involve absorbing boundary conditions (ABCs) and complex absorbing potentials (CAPs) for the Schrödinger equation. Here, we extend earlier results on how the two are related. It was previously shown that ABCs arise as a limiting case of CAPs, but for that a (reflecting) Neumann boundary condition was assumed at the end of the region with the CAP. Here, we obtain ABCs in a different limit using a Dirichlet boundary condition at the end of the CAP region, which seems more practically relevant and realizable.",
+      "score": 90,
+      "reason": "⏱️ 検出時刻と検出位置の確率分布をどう計算するかの二大候補、吸収境界条件と複素吸収ポテンシャルの関係を拡張！到着時間問題のど真ん中の一本🎯✨",
+      "summary": "吸収境界条件が複素吸収ポテンシャルの極限として出ることを、従来の反射的な Neumann 条件ではなく、より実現しやすい Dirichlet 条件を吸収領域の端に置いた別の極限でも示した。"
+    }
+  ]
+}
