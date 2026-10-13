@@ -1,0 +1,66 @@
+{
+  "total_fetched": 165,
+  "scored_papers": [
+    {
+      "arxiv_id": "2610.12552",
+      "title": "A Burst of Reionization in the Dark Ages",
+      "authors": [
+        "Neal Weiner",
+        "Soubhik Kumar",
+        "Wenzer Qin",
+        "Zilu Zhou",
+        "Yacine Ali-Ha\"imoud",
+        "Hector Afonso G. Cruz"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2610.12552",
+      "abstract": "Primordial overdensities at small scales can be significantly larger than those observed at large scales. As a result, they can collapse much earlier, at redshifts $z \\sim 100$. In these collapsed halos, stars and black holes can form, where they can then contribute to an early reionization of the universe. If this epoch is temporary, the free electrons will recombine yielding a low level of ionization leading into cosmic dawn. This contributes to the optical depth of the universe, and adds more weakly to low-$\\ell$ polarization signals of ionization compared to later sources. We study the effects of a redshift-localized source of reionization $\\Delta \\tau_{burst}$ in the context of a broad suite of cosmological data to constrain this scenario, finding a preference of approximately $\\sim 2-2.5\\sigma$ for a new contribution. Regardless of Planck reprocessing used (PR3 - SRoll2+plik or PR4 - LoLLiPoP+CamSpec/HiLLiPoP), the results are consistent, favoring a new contribution $\\Delta \\tau_{burst} \\sim 0.012$ ($0.001 < \\Delta \\tau_{burst} < 0.022$ at 95\\%) and a similar total optical depth $\\tau \\sim 0.073$. The precise era of reionization is somewhat discrepant depending on the higher-$\\ell$ reprocessing used, with HiLLiPoP favoring $z\\sim 45$, CamSpec $z\\sim 100$ and plik $z\\sim 165$. If such a source is present at $40\\lesssim z\\lesssim150$, LiteBIRD should be able to detect it, while Simons Observatory should also constrain it.",
+      "score": 88,
+      "reason": "📡🌑 z~100 の暗黒時代に一時的な再電離が起きたら？光学的厚み τ と低ℓ偏光に効き、LiteBIRD なら検出できるという予測が出ている🎯 再電離バンプ好きには必読！",
+      "summary": "📊 赤方偏移に局在した再電離源 Δτ_burst を Planck PR3/PR4 などで制約し、約 2–2.5σ で Δτ~0.012 を好む結果。時期は高ℓの尤度によって z~45–165 と揺れる🔭"
+    },
+    {
+      "arxiv_id": "2610.12947",
+      "title": "Global analysis of tensor mode helicity",
+      "authors": [
+        "Anna C. Tsai",
+        "Dylan L. Jow",
+        "Ue-Li Pen"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2610.12947",
+      "abstract": "A detection of helicity in a primordial gravitational-wave background (GWB) would provide compelling evidence for parity violation in the early universe and point toward physics beyond the standard picture of inflation. Since big bang cosmology is not time translation invariant, we identify that the so-called ``regular'' and often-neglected ``irregular'' solutions are independent degrees of freedom that can in principle carry different, even opposite, helicities. We note that this possibility complicates the interpretation of a measured net helicity. To determine the sensitivity of various GW detector configurations to helicity, we introduce a universal helicity efficiency coefficient that provides a unified geometric description of helicity sensitivity across gravitational-wave detectors which generalizes and improves previous estimators. We apply this helicity efficiency coefficient to estimate the sensitivity of a range of future GW experiments to helicity across twenty orders of magnitude in frequency assuming a fully helical background with an amplitude just below the current constraints.",
+      "score": 86,
+      "reason": "🌀🌊 原始重力波のヘリシティ(パリティ破れ)を、各種の検出器で統一的に評価する指標を提案！✨ 通常無視される「irregular」解が逆向きのヘリシティを運びうるという指摘も面白い🤔",
+      "summary": "📐 検出器ごとのヘリシティ感度を幾何学的にまとめる効率係数を導入し、周波数20桁にわたる将来の重力波実験の感度を、現在の上限すれすれの完全ヘリカルな背景で見積もる📈"
+    },
+    {
+      "arxiv_id": "2610.12595",
+      "title": "Nailing down the Hubble constant value through time delay cosmography: A 3% measurement from SN Refsdal",
+      "authors": [
+        "S. Schuldt",
+        "C. Grillo",
+        "S. H. Suyu",
+        "A. Acebron",
+        "L. Bazzanini",
+        "P. Bergamini",
+        "G. Di Rosa",
+        "A. Halkola",
+        "A. Mercurio",
+        "P. Rosati"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2610.12595",
+      "abstract": "We present the first inference of the Hubble constant and matter density parameter from a strongly lensed supernova (SN) by exploiting the mass model of a galaxy cluster enhanced by an extended surface brightness reconstruction. This has resulted in the most precise H0 measurement from a single strong lens so far, outperforming the 3.9% result from the lensed quasar DES J048-5354. Building upon the mass model of MACS J1149.5+2223 relying on image positions only, we incorporate the surface brightness distribution of the SN Refsdal host, to infer some cosmological parameter values within a flat LCDM framework. We consider two cosmological parameterizations, with either H0 and $\\Omega_m$ or H0 alone treated as free parameters. We explore four different mass-model realizations to assess some of the systematic uncertainties associated with the constraint weighting and source reconstruction. Although known as one of the main systematic effects, we deliberately keep the cluster total mass parametrization fixed to that of the previously published point-like mass model to enable a fair comparison. This reveals that incorporating 77,000 HST pixels reduces the uncertainty on the inferred value of H0 by a factor of 2.0. Our final measurements are $H_0=65.0^{+2.0}_{-1.8}$ km/s/Mpc and $\\Omega_m=0.30^{+0.08}_{-0.09}$, in agreement with previous results from lensed SNe. This corresponds to a substantially improved precision, reaching a remarkable 3.0% uncertainty on the value of H0. The contributions of the uncertainties on the lens total mass and on the measured time delays to the final H0 error are now comparable, indicating that future improvements will depend on more precise time-delay measurements and continued control of systematic effects. With sub-percent time-delay values reachable at cluster-scale, this mass model approach has the power to lead to unprecedentedly precise H0 measurements.",
+      "score": 85,
+      "reason": "🔭💥 強重力レンズ超新星 SN Refsdal の時間遅延から H0 を 3% 精度で決定！単一のレンズとして最高精度で、H0 テンションの後期宇宙側の重要データ📊🔥",
+      "summary": "🧮 銀河団 MACS J1149 の質量モデルに母銀河の表面輝度を加え、不確かさを半減。H0=65.0(+2.0/−1.8) km/s/Mpc、Ωm≈0.30。今後は時間遅延の精度が鍵💡"
+    }
+  ]
+}
