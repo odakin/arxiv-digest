@@ -1,0 +1,23 @@
+{
+  "total_fetched": 475,
+  "scored_papers": [
+    {
+      "arxiv_id": "2610.13963",
+      "title": "Detector-Frame Quantum Limits for Heterodyne Timing in Relativistic Optical Links",
+      "authors": [
+        "Salman Sajad Wani",
+        "Aatif Kaisar Khan",
+        "Saif Al-Kuwari",
+        "Mir Faizal"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.13963",
+      "abstract": "Long-baseline optical links for space interferometry and satellite quantum networks rely on heterodyne phase tracking under Doppler motion and gravitational frequency shifts. These relativistic shifts can generate large detector-frame beat-frequency offsets over finite readout windows and thereby constrain the temporal precision of front-end phase readout. We develop a detector-frame framework for this problem using an effective two-mode signal--local-oscillator model in which relativistic motion rescales the local-oscillator frequency. Within this setting we derive closed-form Mandelstam--Tamm and Margolus--Levitin bounds for representative Gaussian resources and connect global state distinguishability with the operational precision of heterodyne phase tracking. In the bright-local-oscillator regime we identify a geometric--operational mismatch: the joint optical state can evolve on arbitrarily short global timescales while the relevant information rate is set by the measured detector record. Combining this result with an open-loop transient-acquisition analysis, we show that white phase noise and relativistic beat-frequency drift that is approximately constant over the acquisition window generate a cube-root scaling benchmark for the optimal pre-lock open-loop integration window and the minimum residual phase error. These results establish detector-frame benchmarks for quantum-limited heterodyne timing in relativistic optical links and clarify how global dynamical bounds enter task-restricted continuous optical measurements.",
+      "score": 88,
+      "reason": "⏱️✨ 相対論的な光リンクのヘテロダイン計時で、MT 型・ML 型の時間限界を閉じた形で導出！大域的な状態の速さと、検出記録から読める情報の速さが食い違う点の指摘が面白い🤔",
+      "summary": "📐 局部発振器の周波数が相対論的にずれる2モード模型で、Gaussian 資源の量子速度限界を出し位相追跡精度と結ぶ。白色位相雑音とドリフトから最適積分時間と残留誤差の 1/3 乗則を得る📈"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "total_fetched": 475,
+  "scored_papers": [
+    {
+      "arxiv_id": "2610.17211",
+      "title": "Revisiting Critical Higgs Inflation: Electroweak Couplings, CMB Observables, and Perturbative Unitarity",
+      "authors": [
+        "Sarah R. Geller",
+        "Sol Gutierrez-Lara",
+        "David I. Kaiser",
+        "Thomas Steingasser"
+      ],
+      "categories": [
+        "hep-ph",
+        "gr-qc",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2610.17211",
+      "abstract": "We revisit the scenario of critical Higgs inflation, in which inflation is driven by the Standard Model Higgs boson with parameters chosen close to a critical point, giving rise to an inflection point in its potential. After reviewing this model, we perform a systematic study of its viability centered around three criteria: (1) consistency with electroweak-scale measurements, (2) ability to reproduce the cosmic microwave background (CMB) observables, and (3) sensitivity of the model predictions to unknown UV physics, based on a breakdown of perturbative unitarity. We first show that compliance with electroweak-scale measurements is controlled by the parameters in the Higgs potential at inflationary scales, also updating the literature values. We then demonstrate how for any choice of potential parameters, agreement with the CMB observables can be achieved through the choice of the nonminimal coupling, in both metric and Palatini formulations of gravity. However, we also find that there exist no regions of parameter space, in either the metric or Palatini formulations, in which compliance with all three physical criteria is possible. While this does not exclude the possibility of the Higgs field driving inflation, it means that predictions for any observable are in principle sensitive to the details of the model's UV completion.",
+      "score": 92,
+      "reason": "🎯🔥 臨界点近傍の Higgs インフレを、電弱スケールの測定・CMB 観測量・摂動的ユニタリ性の3軸で総点検！metric と Palatini の両方を扱っていて、多重臨界点まわりの好みど真ん中😆✨",
+      "summary": "📐 インフレ・スケールの Higgs ポテンシャルが電弱スケールとの整合を決め、非最小結合を選べば CMB は合う。ただし両形式とも3条件を同時に満たす領域は無く、予言は UV 完成に敏感と結論🧮"
+    },
+    {
+      "arxiv_id": "2610.16954",
+      "title": "Where is the conformal coupling in Palatini gravity?",
+      "authors": [
+        "Alexandros Karam",
+        "Sotirios Karamitsos"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2610.16954",
+      "abstract": "We study the conformal coupling in the torsion-free Palatini formulation with an ordinary scalar kinetic term. Tuning the curvature coupling cannot restore Weyl invariance in a Palatini theory with an ordinary scalar kinetic term because, for an independent and inert connection, the scalar-curvature term is separately Weyl-invariant, and no finite curvature coupling cancels the Weyl variation of the kinetic term. This can be demonstrated by evaluating the energy-momentum trace on the scalar equation of motion and noting that it is explicitly independent of the Palatini coupling. Eliminating the connection, we construct a map between the curvature coupling and the effective coupling for the equivalent metric theory, and demonstrate that the scalar continues to propagate even if the reduced kinetic coefficient vanishes. We also show that it becomes a Weyl compensator with a scale-invariant potential only in the rescaled infinite-coupling limit, which in four dimensions is directly related to Palatini ${\\cal R}^2$ gravity. We calculate the running of the couplings at one loop, and we find that the conformal shift in the metric-curvature coupling's beta function generates a metric-curvature coupling on a fixed metric-affine background, whereas the independent-curvature coupling runs homogeneously. Furthermore, we follow an alternate prescription in which the connection is allowed to respond to the scalar fluctuations, which results in a different scalar Hessian and therefore different beta functions. Nonetheless, we find that both prescriptions admit the formal infrared limit $(\\xi_{eff},\\lambda_{eff})\\to(1/6,0)$ through different limits of the original couplings in the case of positive perturbative quartics. Finally, we note that trajectories starting on the positive gravitational branch encounter a vanishing gravitational coefficient at a finite scale before this endpoint.",
+      "score": 88,
+      "reason": "🌀✨ Palatini 形式で「共形結合」はどこにあるのか？を正面から問う一本！曲率結合を調整しても Weyl 不変性は戻らないという指摘は、Palatini Higgs インフレやスケール不変重力に直結🔥😆",
+      "summary": "🧮 接続を消去して計量理論の有効結合への写像を作り、無限結合の極限で Palatini R² と結びつくことを示す。1ループの running では赤外で (ξ_eff, λ_eff)→(1/6, 0) に向かう📈"
+    },
+    {
+      "arxiv_id": "2610.15209",
+      "title": "Cosmology & Astrophysics of the Dark Dimension with Bulk Majorana Neutrinos",
+      "authors": [
+        "Luis A. Anchordoqui",
+        "Cumrun Vafa"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2610.15209",
+      "abstract": "Recently, the possibility of having sterile Majorana neutrinos charged under $B-L$ gauge symmetry in the bulk of the dark dimension has been explored. We point out a cosmological restriction on the Majorana mass of bulk neutrinos leading to mass $\\gtrsim 100~{\\rm GeV}$. This avoids the over-production of Kaluza-Klein neutrino towers in the early universe thus resolving the cosmological neutrino catastrophe of extra dimension scenarios. If the mass of the bulk neutrino is at the lower end of this bound, it can potentially also explain the recently observed Fermi halo excess on gamma rays through the evaporation of long-lived 5d (i.e. dark) black holes through Hawking radiation to bulk neutrinos, which promptly decay into standard model particles.",
+      "score": 86,
+      "reason": "🌌🕳️ 余剰次元の bulk に B−L 荷電の Majorana ニュートリノを置く dark dimension 模型の宇宙論！KK タワー・ニュートリノ質量・5次元 BH の Hawking 蒸発がまとめて出てくる欲張りセット😆🔥",
+      "summary": "📏 KK ニュートリノの過剰生成を避けるには bulk の Majorana 質量 ≳100 GeV が必要と指摘。下限近くなら、長寿命の5次元 BH が bulk ニュートリノに蒸発して Fermi のハロー γ線超過も説明しうる✨"
+    },
+    {
+      "arxiv_id": "2610.17683",
+      "title": "GWPTools: An extensible Wolfram Language framework for time-dependent Gaussian wave packet dynamics",
+      "authors": [
+        "Jeremy B. Maddox",
+        "Ismail Giliani",
+        "Carter M. Heck",
+        "Connor S. Mattingly"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.17683",
+      "abstract": "Gaussian wave packets provide an exact analytical foundation for modeling time-dependent quantum phenomena, effectively bridging the gap between classical trajectories and full quantum mechanics. We introduce GWPTools, a highly extensible Wolfram Language framework designed to compute exact time-dependent Gaussian wave packet dynamics using a unified symbolic-numeric architecture. Built upon a robust ``parameter bus'' and polymorphic dispatch, the software serves as an interactive pedagogical tool for exploring quantum theory and an exact algebraic engine for rigorously benchmarking numerical grid-based and trajectory methodologies. Version 1.0.0 focuses on exact time evolution in driven one-dimensional quadratic potentials. Native extensions into quantum hydrodynamics and phase space representations enable exact energy decompositions, analytical Bohmian trajectories, and symbolic derivations of quasi-probability distributions and information metrics. We demonstrate the framework's modular scalability by prototyping interference in superpositions, open-system decoherence, and coupled two-dimensional oscillators. Ultimately, these capabilities establish a versatile foundation for maximizing the reach of exact analytical modeling toward increasingly complex driven quantum systems.",
+      "score": 86,
+      "reason": "🌊📦 時間発展する Gaussian 波束を厳密に計算する Wolfram Language の道具箱が登場！記号計算と数値を一体で扱えて、波束形式の計算・教材づくりにすぐ使えそう😆✨",
+      "summary": "🧰 駆動された1次元二次ポテンシャル中の厳密な時間発展が v1.0 の中心。量子流体力学・位相空間表示・Bohm 軌道・擬確率分布まで記号的に出し、重ね合わせの干渉や開放系のデコヒーレンスも試作📈"
+    },
+    {
+      "arxiv_id": "2610.16799",
+      "title": "Hamiltonian surface charges in General Parallel Relativity",
+      "authors": [
+        "Tomi Koivisto"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2610.16799",
+      "abstract": "General Parallel Relativity is a dynamically equivalent formulation of Einstein gravity in which the parallel frame supplies explicit boundary reference data. In this formulation, finite-region energy-momentum and horizon entropy arise as distinct Hamiltonian surface charges. Diffeomorphisms along canonical frame directions define a quasi-local energy-momentum including a matter surface term, while normal-plane boosts at a smooth horizon give entropy. These covariant formulas are applied to the Reissner-Nordstr\\\"om black hole and to a dilatonic charged black hole. In both examples, the matter contribution and its Legendre transform complete the Misner-Sharp mass into the Hamiltonian energy appropriate to the chosen electromagnetic boundary datum. The resulting horizon charges satisfy the thermodynamic relation obtained independently from the Euclidean boundary action.",
+      "score": 85,
+      "reason": "🧭🔥 平行フレームを境界の参照データとして持つ、一般相対論と力学的に等価な定式化で、準局所エネルギーと地平線エントロピーを Hamiltonian 表面電荷として出す！テレパラレル・vierbein 好みに刺さる🎯",
+      "summary": "📐 正準フレーム方向の微分同相で物質の表面項込みのエネルギー運動量を、地平線での法平面ブーストでエントロピーを定義。RN と荷電ディラトン BH で Misner–Sharp 質量の完成と熱力学関係を確認🧮"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "total_fetched": 475,
+  "scored_papers": [
+    {
+      "arxiv_id": "2610.17228",
+      "title": "Observation of Photon Bunching in Broadband Multimode Thermal Light Enabled by Temporal Imaging",
+      "authors": [
+        "Filip So'snicki",
+        "Michal Mikolajczyk",
+        "Sanjay Kapoor",
+        "Dmitri B. Horoshko",
+        "Mikhail I. Kolobov",
+        "Michal Karpi'nski"
+      ],
+      "categories": [
+        "physics.optics",
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.17228",
+      "abstract": "Photons emitted by incoherent sources exhibit temporal bunching, a fundamental manifestation of Bose-Einstein statistics first observed by Hanbury Brown and Twiss (HBT). While intensity correlation measurements originated in astronomy and are now central across quantum technologies, biophysics, and spectroscopy, observing temporal bunching in broadband thermal light remains limited by detector temporal resolution. Conventional approaches - such as streak cameras or optical upconversion - introduce severe trade-offs in efficiency, bandwidth, or setup versatility. Here, we propose and demonstrate a third route: pre-detection temporal magnification of the optical field prior to measuring its intensity autocorrelation function in a conventional HBT setup. Using an electro-optic time lens with a temporal magnification of 660, we resolve the temporal intensity autocorrelation of broadband thermal light generated via non-degenerate spontaneous parametric down-conversion with a bandwidth of 250 GHz. This enables direct observation of thermal photon bunching on sub-3.5 picosecond timescales without narrow spectral filtering, establishing pre-detection temporal imaging as a general platform for broadband statistical optics, with applications spanning ultrafast quantum optics, biophysical imaging, and potentially stellar intensity interferometry.",
+      "score": 88,
+      "reason": "📸⚡ 時間レンズで光の場を 660 倍に時間拡大してから HBT 測定！検出器の時間分解能の壁を越えて、広帯域 SPDC 光の光子バンチングを直接見た実験で、時間相関の測り方として刺さりそう😆",
+      "summary": "🔬 非縮退 SPDC で作った帯域 250 GHz の熱的な光の強度自己相関を、電気光学時間レンズで検出前に拡大して分解。狭帯域フィルタ無しで 3.5 ps 以下のバンチングを観測した🎯"
+    },
+    {
+      "arxiv_id": "2610.16198",
+      "title": "Time-Frequency Continuous-Variable Quantum Teleportation with Single Photons",
+      "authors": [
+        "Mohamed Meguebel",
+        "Nadia Belabas",
+        "Nicolas Fabre"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.16198",
+      "abstract": "Quantum teleportation, a key building block for quantum technologies, enables distant parties, Alice and Bob, to transfer an unknown quantum state using entanglement, local operations, and classical communication. In this work, we propose a quantum teleportation protocol for single-photon time-frequency continuous variables, where time is the time of arrival at a detector. We detail the operational requirements of the protocol, notably the nonlinear interactions needed for the photon-photon time-frequency entangling gate. By explicitly treating the detector position as the reference frame for time of arrival, we show that, even with ideal classical and quantum channels, the input-output fidelity is not unity unless the receiving party can correct the detector-position mismatch. This results in a trade-off between teleportation fidelity and the temporal bandwidth of the input photon wavepacket. The protocol itself can be used for remote detector synchronization. In particular, we show that time-frequency cat and Gottesman-Kitaev-Preskill states provide an internal temporal ruler through fidelity revivals. We further derive the classical and best-copy fidelity thresholds for single-photon Gaussian wavepackets, finding that the relevant vacuum-equivalent shot noise is input-dependent, in contrast with quadrature-based continuous-variable quantum teleportation. Our proposal derives from a quantum theory of space-time events, whereafter we establish space as a reference for the time degree of freedom, thereby grounding our work in ongoing research on reference frames and superselection rules in quantum optics and quantum information. Beyond protocols harnessing time-frequency continuous variables of single photons, this work points toward remote synchronization in quantum communication architectures.",
+      "score": 86,
+      "reason": "🕰️🌊 単一光子の「到着時刻」を連続変数として量子テレポーテーションする提案！検出器の位置を時間の参照系として扱うので、波束の時間幅と忠実度がトレードオフになるのが面白い✨",
+      "summary": "📐 光子-光子の時間周波数もつれゲートに要る非線形相互作用を整理し、単一光子 Gaussian 波束の古典・best-copy 閾値を導出。時間周波数の cat 状態や GKP 状態は忠実度の復活で内部の時間ものさしになる📏"
+    },
+    {
+      "arxiv_id": "2610.18267",
+      "title": "A complete quantum process model for physically realistic photo-detection in the joint photon-number and spectral degrees of freedom",
+      "authors": [
+        "Sadia Rafi",
+        "Aeysha Khalique"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.18267",
+      "abstract": "Photo-detection is a fundamental component of experimental photonics, yet theoretical models often treat detectors solely in the photon-number basis, neglecting other relevant degrees of freedom such as spectral characteristics. We present a complete quantum process model for physically realistic photodetection that incorporates both photon-number effects and frequency-dependent detector response, described through explicitly derived Kraus operators in the operator-sum representation. This formalism accommodates realistic inefficiencies, models detection within finite spectral windows, and can be directly substituted for idealized models in quantum optical analyses. The model leads to identifying the suitable detection window of the detectors relative to the spectral distribution of incident photons and conversely, in order to maximize the observability of quantum effects.",
+      "score": 85,
+      "reason": "🔍💡 光検出を光子数だけでなくスペクトルの自由度まで含めて量子過程として書き下す！検出窓の取り方で量子効果の見え方が決まるという話は、検出過程のモデル化に効きそう😊",
+      "summary": "🧮 周波数に依存する検出応答と非効率を含む Kraus 演算子を明示的に導出し、理想的な検出モデルの代わりにそのまま使える形にした。入射光子のスペクトルに対する最適な検出窓も議論📈"
+    }
+  ]
+}
