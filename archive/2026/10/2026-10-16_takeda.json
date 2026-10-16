@@ -1,0 +1,57 @@
+{
+  "total_fetched": 202,
+  "scored_papers": [
+    {
+      "arxiv_id": "2610.20005",
+      "title": "Hyperentanglement in intermediate phase-space planes: benchmarking a photon-pair source for quantum key distribution",
+      "authors": [
+        "Murilo H. Magiotto",
+        "Millena B. Novaes",
+        "Wesley B. Cardoso",
+        "Ardiley T. Avelar",
+        "1 Paulo H. Souto Ribeiro",
+        "Stephen P. Walborn",
+        "Guilherme L. Zanin",
+        "Rafael M. Gomes"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.20005",
+      "abstract": "We characterize a source of photon pairs simultaneously entangled in polarization and in the transverse spatial degree of freedom, with the spatial measurements performed in intermediate planes of the fractional Fourier transform. The source consists of two crossed type-I crystals in a non-collinear geometry, such that the transverse variables carry information about the crystal of origin. Detection in the crystal plane reveals this information completely and destroys the polarization entanglement, so that a scheme using the near and far fields as conjugate spatial bases cannot support a parallel polarization channel. In intermediate planes both spatial bases combine position and momentum, such that the which-crystal information is partially erased, and the polarization entanglement survives in all four combinations of spatial bases. Applying Bell and Einstein-Podolsky-Rosen criteria to the same photon pairs certifies both degrees of freedom simultaneously. We evaluate quantum bit error rates and asymptotic secret key rates in each degree of freedom, and find that the source delivers two simultaneously usable channels per photon pair.",
+      "score": 90,
+      "reason": "🎯✨ SPDC 光子対の偏光と横方向空間の超エンタングルメント！近視野と遠視野の中間面で測ると「どちらの結晶か」の情報が部分的に消え、偏光の絡みが生き残る話は相補性そのもの🔥",
+      "summary": "📐 交差した2枚の type-I 結晶の非共線配置で、分数フーリエ変換の中間面で空間測定。Bell と EPR の判定条件で両自由度の絡みを同じ光子対で同時に確認し、QKD 用の誤り率を評価📊"
+    },
+    {
+      "arxiv_id": "2610.20202",
+      "title": "A hybrid quantum interferometer bridging Hong-Ou-Mandel and N00N-state interference",
+      "authors": [
+        "Zi-Qi Zeng",
+        "Samuel Corona-Aquino",
+        "Tao Xie",
+        "Bin Yin",
+        "Yan Guo",
+        "Yukun Song",
+        "Yun Meng",
+        "Kai Zou",
+        "Song Li",
+        "Xiaolong Hu",
+        "Alfred B. U'Ren",
+        "Roberto de J. Le'on-Montiel",
+        "Chenglong You",
+        "Baihong Li",
+        "Dongzhou Wang",
+        "Rui-Bo Jin"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.20202",
+      "abstract": "Hong-Ou-Mandel (HOM) interference offers robustness in high-noise environments due to its phase-insensitive nature, while N00N-state interference provides enhanced phase sensitivity for precision measurements in low-noise settings. However, their realizations have typically required separate experimental platforms. Here, we report a single hybrid quantum interferometer that can dynamically transition between HOM and N00N-state interference by adjusting two time delays, $\\tau_1$ and $\\tau_2$. This tunability enables operation in phase-insensitive, phase-sensitive, or hybrid modes within a unified setup, as confirmed by theoretical analysis and experimental demonstration. Our system offers a versatile platform with potential for quantum sensing applications, paving the way for integrated quantum technologies capable of adapting to diverse noise conditions.",
+      "score": 86,
+      "reason": "🔀✨ HOM 干渉と N00N 状態の干渉を1台の干渉計で切り替えられる！2つの時間遅延を動かすだけで位相に鈍い・敏感・混合のモードを行き来できる構成は、二光子干渉の理解に効く🎯",
+      "summary": "🧪 2つの遅延 τ₁, τ₂ の調整で HOM（位相に鈍感）と N00N（位相に敏感）の干渉を連続的に移り変わる干渉計を理論と実験で示す。雑音の大小に合わせて使い分けるセンシングを提案📈"
+    }
+  ]
+}

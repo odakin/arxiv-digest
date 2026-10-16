@@ -1,0 +1,39 @@
+{
+  "total_fetched": 202,
+  "scored_papers": [
+    {
+      "arxiv_id": "2610.19711",
+      "title": "Decoherence as a Detector-Resolution Flow",
+      "authors": [
+        "Yao Ji",
+        "Yuqi Wang"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.19711",
+      "abstract": "We consider the QED final-state radiation modeled by $\\gamma\\gamma^\\ast\\to\\pi^+\\pi^-+X$, including its finite-temperature generalization, as an open quantum system, and study the evolution of the pion-pair momentum density matrix as the detector resolution scale is varied. We derive an explicit relation between the Lindblad jump operator and the Wilson line associated with soft photon radiation. We find that real emission and virtual correction serve as two separate contributions to momentum decoherence, and together they give rise to the real--virtual cancellation at the density-matrix level. The external finite-temperature photon bath modifies the decoherence rate by a Bose factor consistent with the Feynman--Vernon influence-functional approach. We emphasize that our conclusions also apply to hard fermion production thanks to the universality of the soft radiation.",
+      "score": 88,
+      "reason": "🌊🔥 ソフト光子放出を開放量子系として扱い、検出器の分解能を流すと運動量の密度行列がデコヒーレンスする話！実放射と仮想補正の相殺を密度行列で見る視点が、実と仮想の伝播の仕事に直結😆✨🎯",
+      "summary": "🧮 γγ*→π⁺π⁻+X の終状態放射で、Lindblad のジャンプ演算子とソフト光子の Wilson 線を対応させる。実放出と仮想補正が別々にデコヒーレンスに効き、有限温度では Bose 因子が掛かる📈🔬"
+    },
+    {
+      "arxiv_id": "2610.19078",
+      "title": "Coherent states of neutrinos in rotating matter",
+      "authors": [
+        "Alexander Breev",
+        "Maxim Dvornikov"
+      ],
+      "categories": [
+        "hep-th",
+        "astro-ph.HE",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.19078",
+      "abstract": "We study coherent states of neutrinos electroweakly interacting with rotating matter. We start with the Dirac equation for a massive neutrino propagating in background matter with a coordinate dependent effective potential. Then, we consider the limit of massless particles and the specific matter velocity profile. It allows us to reduce the neutrino Hamiltonian to the harmonic oscillator form. We find the exact solutions of the Dirac equation and construct the creation and annihilation operators. Using these results, we build the generalized coherent states of neutrinos. We provide the interpretation of these coherent states in terms of the classical physics. In particular, we demonstrate that the coherent states constructed approach plane waves in the limit of slow matter rotation. We also define the effective neutrino mass owing to the interaction of a massless neutrino with rotating matter. Then, we consider a special case of the generalized coherent states which are called the neutrino coherent states. The situation of the degenerate parameters of the system is also studied. Finally, we apply our results for astrophysical neutrinos propagating in dense matter of a rapidly rotating neutron star (NS). We calculate the effective neutrino masses for different neutrino energies for realistic parameters of NS.",
+      "score": 86,
+      "reason": "🌀✨ 回転する物質中のニュートリノのコヒーレント状態を厳密に構成！ハミルトニアンが調和振動子型になり、遅い回転の極限で平面波に戻るという構造は、波束形式の好みのテーマに刺さる😆🔥🎯",
+      "summary": "📐 座標依存の有効ポテンシャル下の Dirac 方程式を質量ゼロ極限で厳密に解き、生成消滅演算子から一般化コヒーレント状態を作る。回転由来の有効質量も定義し、古典的な解釈を与える🧮💫"
+    }
+  ]
+}

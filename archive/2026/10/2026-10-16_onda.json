@@ -1,0 +1,81 @@
+{
+  "total_fetched": 202,
+  "scored_papers": [
+    {
+      "arxiv_id": "2610.19049",
+      "title": "The Atacama Cosmology Telescope: DR6 Constraints on Isotropic Time-Dependent Cosmic Birefringence from Axion-like Particles",
+      "authors": [
+        "Zachary B. Huber",
+        "Huajian Yang",
+        "Steve K. Choi",
+        "Erminia Calabrese",
+        "Vera Gluscevic",
+        "Sigurd Naess",
+        "Michael D. Niemack",
+        "Lyman A. Page",
+        "Alexander van Engelen",
+        "Edward J. Wollack"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2610.19049",
+      "abstract": "Axion-like particles (ALPs) with sufficiently low masses are dark matter candidates because they could account for much or all of the observed dark matter energy density and help explain observations of galactic substructure. Such pseudoscalar fields could couple to photons, causing a time-dependent rotation of the polarization of the light with an oscillation frequency equal to the ALP mass. We use measurements of the polarization of the cosmic microwave background (CMB) by the Atacama Cosmology Telescope (ACT) between 2017 and 2022 to search for this effect using an EB power spectrum estimator. By probing oscillation periods from days to years, the data constrain the coupling between ALPs and photons for ALP masses between $2.5\\times 10^{-23}$ eV and $4.8\\times 10^{-20}$ eV. We find no evidence for such a signal and set a 95% upper bound on the axion-photon coupling constant, $g_{\\phi\\gamma} < 1.1\\times10^{-11}\\left({m_\\phi}/{10^{-21}\\,\\mathrm{eV}}\\right)\\,\\mathrm{GeV}^{-1} .$ This limit assumes that ALPs make up all of the dark matter and that the ALP field amplitude is stochastically distributed, which leads to more conservative bounds than the deterministic-field assumption used in some previous CMB polarization analyses. Among searches for ALP-photon coupling using CMB polarization, we set the strongest bounds to date under the stochastic-field assumption. This work develops a methodology to analyze over 10,000 time-sliced \"depth-1\" polarization maps from ACT, a data product that will be standard for time-domain astrophysics with the Simons Observatory, enabling searches with a higher sensitivity and observing span.",
+      "score": 90,
+      "reason": "🌈🎯 ACT DR6 の偏光データで、アクシオン様粒子による時間変化する宇宙複屈折を探索！EB パワースペクトルで日〜年の振動周期を見ていて、複屈折と ALP の結合の最新制約として必読✨",
+      "summary": "📊 2017–2022 年の CMB 偏光の EB 推定量で、ALP 質量 2.5×10⁻²³–4.8×10⁻²⁰ eV の振動回転を探索。信号は無く、光子結合に g<1.1×10⁻¹¹(m/10⁻²¹eV) GeV⁻¹ の95%上限🔭"
+    },
+    {
+      "arxiv_id": "2610.20231",
+      "title": "Exact map-space beam convolution via spin-mapmaking",
+      "authors": [
+        "Camille Demay",
+        "Magdy Morshed",
+        "Martina Gerbino",
+        "Luca Pagano"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2610.20231",
+      "abstract": "Forthcoming cosmic microwave background (CMB) experiments are targeting ambitious science goals, including the exploration of the particle content of the Universe across cosmic times and the search for the faint signal from primordial gravitational waves. To pursue these goals, CMB experiments will house an unprecedented high number of detectors that will dramatically enhance their sensitivity. This will in turn require a tight control of instrumental systematics, demanding efficient and precise simulation of systematic effects. Leveraging spin-mapmaking, we present a map-based method to propagate beam convolution systematics to the map-level, especially well-suited for main-beam studies. From the scanning strategy information compressed into precomputed h-maps and the beam and sky harmonic coefficients, our method directly outputs beam convolved maps. We validate against pixel-centered TOD-level 4{\\pi} convolution for circular, elliptical, and Planck HFI scanning beams, demonstrating that our method retains agreement to numerical precision, while operating in map space. This formalism enables efficient simulation of beam convolution systematics across the full focal plane of upcoming experiments. As a first practical application, we demonstrate the ability to efficiently produce beam-convolved simulated Planck maps, showing excellent agreement with the QuickPol pipeline at the power-spectrum level. We release a public code, Smarties4Planck, to easily generate such maps for broader use.",
+      "score": 90,
+      "reason": "🛰️🔥 将来の CMB 実験のビーム系統誤差を、spin-mapmaking でマップ上で厳密に畳み込む手法！走査戦略を h-map に圧縮して時系列を経ずにシミュできるので、B モードの系統誤差評価に直結🎯",
+      "summary": "📐 事前計算した h-map とビーム・天球の調和係数から、ビーム畳み込み後のマップを直接出力。円形・楕円・Planck HFI の走査ビームで時系列レベルの 4π 畳み込みと照合して検証🧮"
+    },
+    {
+      "arxiv_id": "2610.19621",
+      "title": "Development and characterization of a millimeter-wave circular polarization observation method using a quarter-wave plate with Simons Array",
+      "authors": [
+        "Kana Sakaguri",
+        "Darcy R. Barron",
+        "Yuji Chinone",
+        "Matthew Ryan Chu",
+        "Nicole Farias",
+        "Takuro Fujino",
+        "Masaya Hasegawa",
+        "Masashi Hazumi",
+        "Haruaki Hirose",
+        "Jennifer Ito",
+        "Oliver Jeong",
+        "Daisuke Kaneko",
+        "Brian Keating",
+        "Akito Kusaka",
+        "Adrian T. Lee",
+        "Lindsay Ng Lowry",
+        "Richard Plambeck",
+        "Shahed Shayan Arani",
+        "Praween Siritanasak",
+        "Satoru Takakura"
+      ],
+      "categories": [
+        "astro-ph.IM"
+      ],
+      "url": "https://arxiv.org/abs/2610.19621",
+      "abstract": "We have developed and demonstrated a method for measuring circular polarization at 90 GHz by combining a quarter-wave plate (QWP) and a continuously rotating half-wave plate (HWP). While many bolometric experiments at millimeter wavelengths focus on measuring linear polarization, observations of circular polarization in millimeter waves may open a new window into astrophysics and cosmology. We present a novel approach to circular-polarization search using linear-polarization-sensitive detectors by incorporating a QWP in the optics. The Simons Array was originally designed for precise linear polarization measurements, and we subsequently installed a QWP in front of the receiver targeting 90 GHz. The QWP converts incident circular polarization to linear polarization, allowing detection with our detectors. Laboratory measurements demonstrate a QWP conversion efficiency of 99.0%. We apply our method to observations of unpolarized and linearly polarized bright sources, Jupiter and Tau A. Using these observations, we establish the calibration and characterize the instrumental leakages relevant to circular polarization measurements. The measured polarization efficiency adopted for Stokes $V$ is $46\\pm2$%, and the measured U-to-V leakage is $-11.7\\pm5.1$%. We measure a circular polarization fraction of $V/I=0.78\\pm0.42$% for Tau A, showing no significant detection and providing a consistency check of the calibration and systematic-uncertainty treatment. These results establish the instrument response model and calibration parameters used for the companion circular-polarization source search.",
+      "score": 87,
+      "reason": "🔄✨ Simons Array に1/4波長板を入れ、回転 HWP と組み合わせて 90 GHz の円偏光を測る方法を開発！線偏光用の検出器で円偏光を拾う工夫で、波長板の較正や偏光系統誤差の勉強にも◎📡",
+      "summary": "🧪 QWP で円偏光を線偏光に変換し、連続回転 HWP と合わせて検出。実験室での変換効率は 99.0%。木星と Tau A（かに星雲）の観測に適用し、手法の特性を評価🔭"
+    }
+  ]
+}
