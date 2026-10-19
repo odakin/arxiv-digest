@@ -1,0 +1,45 @@
+{
+  "total_fetched": 227,
+  "scored_papers": [
+    {
+      "arxiv_id": "2610.22097",
+      "title": "Operational Limits of Gravity-Mediated Entanglement",
+      "authors": [
+        "Atta ur Rahman",
+        "Muhammad Noman",
+        "Ying-Jian Zhu",
+        "Jia-Xin Peng",
+        "Saeed Haddadi"
+      ],
+      "categories": [
+        "quant-ph",
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2610.22097",
+      "abstract": "Tests of gravity-mediated entanglement aim to determine whether two massive objects in spatial superposition can become entangled through their mutual gravitational interaction. In an ideal model, the two objects are often treated as pointlike branches, but real wave packets have a finite width and are also exposed to dephasing and residual non-gravitational forces. We study these effects in a two-branch gravitational cat-state model with Gaussian wave packets. The Newtonian interaction is averaged over the finite wave-packet width, and spatially correlated dephasing is included phenomenologically. We then ask a practical question: when does the generated state remain useful rather than merely entangled? To answer this, we examine Bell violation, teleportation fidelity, coherent information, Fisher information, and state distinguishability. We find finite parameter windows where the same state is Bell-nonlocal and teleportation-useful, but these windows shrink as the wave packets become broader or the dephasing becomes stronger. We also show that a residual electrostatic branch interaction can coherently cancel the gravitational nonlocal phase and strongly suppress the operational signal. The results identify finite-width and electrostatic tolerance boundaries that should be considered in future tests of gravity-mediated entanglement.",
+      "score": 86,
+      "reason": "🌊🪐 重力が媒介するエンタングルメントの検証を、点でなく有限幅のガウス波束で真面目に評価！幅が広がるとベル非局所性やテレポ有用性の窓が縮む話は、波束形式の好みのテーマど真ん中😆🔥🎯✨",
+      "summary": "🧮 二枝の重力猫状態で、ニュートン相互作用を波束の幅で平均し、空間相関した位相緩和も入れる。残留する静電相互作用が重力の位相を打ち消しうることも示す📉🔬"
+    },
+    {
+      "arxiv_id": "2610.22128",
+      "title": "The gravitational constant and the cosmic microwave background",
+      "authors": [
+        "Brahim Lamine",
+        "Sébastien Beauchamp",
+        "Alain Blanchard",
+        "Jehanne Delhomelle",
+        "Raphaël Kou",
+        "James Rich"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2610.22128",
+      "abstract": "The CMB constrains the gravitational constant $G$ at recombination to a few percent of its laboratory value, but the effect of $G$ on recombination itself is usually absorbed into a global fit rather than made explicit. We return to the semi-analytic description of the acoustic spectrum to ask how the acoustic scale $\\ell_A$, the equality scale $\\ell_{\\rm eq}$ and the damping scale $\\ell_{\\rm damp}$ respond to a variation of $G$ during recombination, and where $G$ enters the residual ionization of the dark ages. We use a modified version of CLASS in which $G$ is varied through $\\lambda_G \\equiv \\sqrt{G/G_{\\rm N}}$, scanning $\\lambda_G \\in [0.25,2]$ at fixed physical densities and CMB temperature, with helium recomputed for each model. Analytic rate arguments are confronted with the numerical ionization histories, the visibility function, the Hu & White damping integral and the TT spectra. While $\\ell_{\\rm eq}$ and $\\ell_A$ are nearly independent of $G$, non-equilibrium recombination gives $\\ell_{\\rm damp} \\propto \\lambda_G^{-0.304}$. The dependence exists only above a critical value of $G$, set by fundamental and cosmological parameters, a factor of 49 below $G_{\\rm N}$. The dark-ages optical depth varies by only 16% for $G$ multiplied by 64, a negligible channel. Because $G$ enters only through the expansion rate, the imprint comes entirely from out-of-equilibrium recombination, and the competition between the atomic rates and the expansion is governed by one dimensionless combination, $\\alpha_G \\equiv G m_e \\mu/\\hbar c$, with $\\mu$ the mean mass of matter per photon. Each scale is the distance to last scattering divided by a length imprinted before it, so a late-time change of gravity rescales all three alike. The ratio $\\ell_{\\rm damp}/\\ell_A$ therefore isolates $G$ at recombination and, up to lensing and screening, compares it directly with the laboratory value.",
+      "score": 85,
+      "reason": "🌌⚖️ CMB で再結合期の重力定数 G を測る仕組みを半解析的に分解！減衰スケールと音響スケールの比が再結合時の G だけを拾う整理は、スカラー・テンソル重力の観測検証に効く😆🔥📡✨",
+      "summary": "📐 改造 CLASS で G を 0.25–2 倍に振り、ℓ_damp ∝ λ_G^−0.304 を得る。G は膨張率を通じ非平衡再結合にだけ効き、無次元量 α_G = G m_e μ/ħc が支配する🧮🔭"
+    }
+  ]
+}

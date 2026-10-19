@@ -1,0 +1,43 @@
+{
+  "total_fetched": 227,
+  "scored_papers": [
+    {
+      "arxiv_id": "2610.21909",
+      "title": "Looking Beyond Visibility: Resolving the Temporal Structure of Continuous-Wave Four-Photon Hong-Ou-Mandel Interference",
+      "authors": [
+        "Sabine Häussler",
+        "Meritxell Cabrejo-Ponce",
+        "Ana Maria Torres",
+        "Baghdasar Baghdasaryan",
+        "Karen Lozano-Mendéz",
+        "Fabian Steinlechner"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.21909",
+      "abstract": "Hong-Ou-Mandel interference underpins many photonic quantum information protocols and is commonly characterized by a single visibility parameter. This quantity is typically obtained by averaging over a fixed coincidence window, thereby discarding details of the underlying temporal structure that are critical in continuous-wave processes. Four-photon interference with continuous-wave sources furthermore requires photon pairs with long coherence times, which we generate in microring resonators and measure with ultrafast time-resolved detection. Here, we model and resolve their interference and temporal structure by recording all four photon arrival times and mapping their relative delays onto a three-dimensional coincidence histogram relative to a trigger detection. The resulting structure preserves relative arrival-time correlations that are usually discarded and enables post-processed optimization of coincidence windows to trade off visibility against count rate. This method provides a general benchmark for continuous-wave sources in interference-based quantum network protocols.",
+      "score": 90,
+      "reason": "🎯⏱️ 連続波の4光子 HOM 干渉を、可視度1個に潰さず4光子すべての到着時刻で時間構造ごと分解！時間分解検出で時間相関を丸ごと見る発想は、二光子干渉の時間的な扱いに直結🔥✨",
+      "summary": "🧪 マイクロリング共振器で長いコヒーレンス時間の光子対を作り、トリガーに対する相対遅延を3次元の同時計数ヒストグラムに。後処理で同時計数窓を選び、可視度と計数率を調整📊"
+    },
+    {
+      "arxiv_id": "2610.22023",
+      "title": "Loss-independent time-delay estimation via Hong-Ou-Mandel photon bunching detection",
+      "authors": [
+        "Julián Defant",
+        "Agustina G. Magnoni",
+        "Miguel A. Larotonda",
+        "Laura T. Knoll"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.22023",
+      "abstract": "In this work we study the application of two-photon correlated quantum states for high-precision time estimation. To achieve this, photon pairs were fed into a Hong-Ou-Mandel polarization interferometer to generate N00N entangled states with $N = 2$. Two- and four-detector schemes were considered, and the achievable time estimation precision of each was studied, with particular emphasis on the system's Fisher information in each case. Our results reveal that using a four-detector scheme, enabling the measurement of both coincidence and photon-bunching terms, achieves the maximum precision given by the quantum Fisher information, without the need of characterizing system losses. We also show that correlations between repetitions arise due to systematic errors, limiting the precision enhancement that can be obtained by increasing the number of repetitions. Taking these correlations into account, we show that the four-detector scheme outperforms the two-detector scheme in the precision of time-delay estimation. With the experimentally determined calibration uncertainties, the four-detector scheme improves the dispersion by a factor of 2 for the repetitions performed, reaching up to a factor of 4 as both schemes approach their systematic floors.",
+      "score": 86,
+      "reason": "🔀⏱️ HOM 干渉計で作った N=2 の N00N 状態で時間遅延を推定！同時計数とバンチングの両方を測る4検出器方式なら、損失を較正せずに量子フィッシャー情報の限界に届くのがミソ🎯",
+      "summary": "🧪 光子対を偏光 HOM 干渉計に入れ、2検出器と4検出器の方式の精度をフィッシャー情報で比較。繰り返し間の系統誤差の相関も考慮し、4検出器方式で分散が2〜4倍改善📈"
+    }
+  ]
+}

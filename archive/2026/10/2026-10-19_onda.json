@@ -1,0 +1,47 @@
+{
+  "total_fetched": 227,
+  "scored_papers": [
+    {
+      "arxiv_id": "2610.20929",
+      "title": "Optimization of multi-resolution observation strategies for cosmic microwave background experiments",
+      "authors": [
+        "Sara M. Simon",
+        "Jacques Delabrouille",
+        "Julien Carron",
+        "Reijo Keskitalo",
+        "Darcy R. Barron",
+        "Shamik Ghosh",
+        "Katie Dalton"
+      ],
+      "categories": [
+        "astro-ph.IM"
+      ],
+      "url": "https://arxiv.org/abs/2610.20929",
+      "abstract": "Cosmic microwave background (CMB) observations are increasingly performed by using a combination of both small aperture telescopes (SATs) and large aperture telescopes (LATs) to extract information across a wide variety of angular scales. The observation strategy of the telescopes must balance the restrictions of the observing site, instrument constraints, and a variety of science goals. We present a general framework for simulating the performance of different observation strategies. Using this framework, we focus primarily on the inflationary science goal and determine the optimal LAT coverage for delensing SAT measurements and present a novel deep scan strategy for an experiment in Chile that improves observation efficiency in the deepest 3% of the sky by 26%. Finally, we present considerations for future surveys to consider to further increase their observing efficiency.",
+      "score": 92,
+      "reason": "🔭🎯 SAT と LAT を組み合わせた CMB 観測の走査戦略を最適化する枠組み！インフレーション（B モード）狙いの delensing 用 LAT 被覆の最適化は、走査戦略の設計そのものとして必読✨",
+      "summary": "📊 観測戦略の性能を一般的にシミュする枠組みを作り、SAT の delensing に最適な LAT の被覆を決定。チリの実験向けに最深 3% の天域で観測効率を 26% 上げる深い走査を提案🛰️"
+    },
+    {
+      "arxiv_id": "2610.20977",
+      "title": "Disentangling geometry & growth in cosmic neutrino mass constraints: a more physical split and diagnostic",
+      "authors": [
+        "Fei Ge",
+        "Frank J. Qu",
+        "Hanyue Wang",
+        "Emmanuel Schaan",
+        "W. L. Kimmy Wu",
+        "Alexander Friedland"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "hep-ex"
+      ],
+      "url": "https://arxiv.org/abs/2610.20977",
+      "abstract": "Recent cosmological data hint at a neutrino mass sum below the minimum value allowed by the neutrino mass oscillation experiments, with a preference for the opposite of massive neutrinos (\"negative\" neutrino masses). Since massive neutrinos impact the expansion history of the Universe, which in turn modifies the growth of structure, we ask whether such a preference originates from the observed geometry or structure growth, and whether the two agree. In this paper, we introduce a more physical split of $\\sum m_\\nu$ into parameters $\\sum m_\\nu^{geo}$ and $\\sum m_\\nu^{growth}$ based on their physical effects, with extension to negative values. We split the expansion rate at the Boltzmann-code level: $\\sum m_\\nu^{geo}$ sets $H(z)$ for distance computation, and $\\sum m_\\nu^{growth}$ sets $H(z)$ for perturbation evolution. Combining Planck primary CMB, Planck+ACT+SPT CMB lensing and DESI BAO data, we find similar sensitivity and \"negative\" preference from geometry and growth with $\\sum m_\\nu^{geo} = -0.07\\pm0.10$ eV (68% C.L.) and $\\sum m_\\nu^{growth} = -0.13^{+0.10}_{-0.12}$ eV (68% C.L.). The difference of the two is a null test of the $\\Lambda$CDM model, passed by current data at $0.4\\sigma$ level. Forecasts on Advanced SO CMB and DESI DR3 BAO show that $0.058$ eV would be rejected at $3.0\\sigma$ from the geometry channel alone, if the negative mean of $\\sum m_\\nu^{geo} = -0.07$ eV persists. The two channels can also provide a powerful new diagnostic between possible origins of the neutrino mass tension. With future CMB and BAO data, our Fisher forecasts show that an incorrect dark energy model displaces $\\sum m_\\nu^{geo}$ from $0.058$ eV by $3.1$-$4.2\\sigma$ and $\\sum m_\\nu^{growth}$ by $1.1$-$1.3\\sigma$, while an underestimated reionization optical depth reverses the pattern, $2.7$-$3.6\\sigma$ in $\\sum m_\\nu^{growth}$ against at most $0.23\\sigma$ in $\\sum m_\\nu^{geo}$. (Abridged)",
+      "score": 86,
+      "reason": "🧩📡 宇宙論のニュートリノ質量の「負」の傾向が幾何と構造成長のどちらから来るかを分ける新しい分割！再電離の光学的厚み τ の過小評価で成長側だけずれる診断は、τ を測る衛星にも効く🎯",
+      "summary": "📊 Σm_ν を距離用の geo と摂動用の growth に分け、Planck+CMB レンズ+DESI BAO で −0.07 eV と −0.13 eV。差は ΛCDM の帰無検定で 0.4σ。将来の SO+DESI での予測も🔭"
+    }
+  ]
+}
