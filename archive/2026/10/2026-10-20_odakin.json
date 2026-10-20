@@ -1,0 +1,40 @@
+{
+  "total_fetched": 157,
+  "scored_papers": [
+    {
+      "arxiv_id": "2610.23522",
+      "title": "The metric-affine $\\mathring{R}^2$ scalaron: parameter-free inflation",
+      "authors": [
+        "Christian Dioguardi"
+      ],
+      "categories": [
+        "gr-qc",
+        "astro-ph.CO",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.23522",
+      "abstract": "We present a model of slow-roll inflation in metric-affine gravity, where the connection is independent of the metric. We require that the Einstein-Hilbert term is the only operator that breaks three out of four shift-symmetries of the connection, and impose them on the metric-affine Starobinsky term $\\alpha R(\\Gamma)^2$. This replaces it by $\\alpha\\mathring{R}^2$, the square of the invariant part of the scalar curvature. The theory propagates only the graviton and one healthy scalar, the metric-affine $\\mathring{R}^2$ scalaron. Its potential approaches a plateau polynomially, $U\\simeq U_0(1-\\mu^2/\\chi^2)$, with $\\mu=\\sqrt{6}\\,M_P$ fixed by the curvature of the connection. Once $\\alpha\\simeq2\\times10^{8}$ is set by the scalar amplitude, the model has no free parameters. It predicts $n_s\\simeq1-3/(2N_*)$ and $r\\simeq2\\sqrt3\\,N_*^{-3/2}$ at leading order in $N_*$, and $n_s=0.968$--$0.974$ and $r=0.011$-$0.008$ with exact slow-roll for $N_*=50$-$60$ $e$-folds. These values agree with current data, and $r$ is within reach of the next generation of $B$-mode measurements.",
+      "score": 92,
+      "reason": "🔥🌀 metric-affine で R² 項を対称性だけで縛ったら自由パラメータゼロのインフレーション！🎯 Palatini 系 Higgs インフレの文脈ど真ん中、r≈0.01 は次世代 B モードで白黒つく🚀✨",
+      "summary": "接続の4つのシフト対称性のうち3つを破るのはEH項だけと要請→R²が曲率不変部分の二乗に置換🧮 graviton+健全なスカラー1個、n_s≈1−3/(2N)、r≈2√3N^(-3/2)📈"
+    },
+    {
+      "arxiv_id": "2610.23628",
+      "title": "Alleviating cosmological strong coupling with torsion in regularized 4D Einstein-Gauss-Bonnet gravity",
+      "authors": [
+        "Jianhui Qiu",
+        "Ling-Wei Luo",
+        "Chunhui Liu",
+        "Chao-Qiang Geng"
+      ],
+      "categories": [
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2610.23628",
+      "abstract": "The four-dimensional scalar-tensor theory obtained by conformally regularizing the Gauss-Bonnet term has a vanishing kinetic term for the scalar perturbation mode on its late-time de Sitter attractor, signaling strong coupling. We show that, when the regularization is carried out in Riemann-Cartan geometry, the resulting theory admits de Sitter attractors with trace torsion on which this kinetic term remains nonvanishing. On spatially flat FLRW backgrounds with trace torsion, the quadratic actions for perturbations describe one scalar mode and two tensor modes, while the vector perturbations are nondynamical. We identify a nonempty parameter region admitting de Sitter attractors whose scalar and tensor perturbations are free of ghost and gradient instabilities at all momenta.",
+      "score": 87,
+      "reason": "🌀⚡ Riemann-Cartan 幾何で 4D Gauss-Bonnet を正則化すると trace torsion が強結合問題を救う！🔧 トーションが宇宙論で本当に効く具体例、好みのテーマ直撃🎉🌌",
+      "summary": "共形正則化した4D EGBのde Sitter attractorでスカラー運動項が消える問題を、trace torsion入りで回避📐 スカラー1+テンソル2が全運動量でghost・勾配不安定なしの領域を特定✅"
+    }
+  ]
+}

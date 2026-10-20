@@ -1,0 +1,22 @@
+{
+  "total_fetched": 157,
+  "scored_papers": [
+    {
+      "arxiv_id": "2610.23522",
+      "title": "The metric-affine $\\mathring{R}^2$ scalaron: parameter-free inflation",
+      "authors": [
+        "Christian Dioguardi"
+      ],
+      "categories": [
+        "gr-qc",
+        "astro-ph.CO",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.23522",
+      "abstract": "We present a model of slow-roll inflation in metric-affine gravity, where the connection is independent of the metric. We require that the Einstein-Hilbert term is the only operator that breaks three out of four shift-symmetries of the connection, and impose them on the metric-affine Starobinsky term $\\alpha R(\\Gamma)^2$. This replaces it by $\\alpha\\mathring{R}^2$, the square of the invariant part of the scalar curvature. The theory propagates only the graviton and one healthy scalar, the metric-affine $\\mathring{R}^2$ scalaron. Its potential approaches a plateau polynomially, $U\\simeq U_0(1-\\mu^2/\\chi^2)$, with $\\mu=\\sqrt{6}\\,M_P$ fixed by the curvature of the connection. Once $\\alpha\\simeq2\\times10^{8}$ is set by the scalar amplitude, the model has no free parameters. It predicts $n_s\\simeq1-3/(2N_*)$ and $r\\simeq2\\sqrt3\\,N_*^{-3/2}$ at leading order in $N_*$, and $n_s=0.968$--$0.974$ and $r=0.011$-$0.008$ with exact slow-roll for $N_*=50$-$60$ $e$-folds. These values agree with current data, and $r$ is within reach of the next generation of $B$-mode measurements.",
+      "score": 90,
+      "reason": "🎯 パラメータゼロで r≈0.008–0.011 を予言するインフレーション模型！LiteBIRD 級の感度でズバリ白黒つくタイプなので要チェック🛰️✨",
+      "summary": "metric-affine 重力で R² 項を対称性で縛り、健全なスカラー1個だけが伝播📈 n_s=0.968–0.974、r=0.011–0.008（N=50–60）で現行データと整合"
+    }
+  ]
+}

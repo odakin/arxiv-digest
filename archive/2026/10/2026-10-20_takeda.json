@@ -1,0 +1,29 @@
+{
+  "total_fetched": 157,
+  "scored_papers": [
+    {
+      "arxiv_id": "2610.23499",
+      "title": "A Fibre-Integrated SPDC Heralded Single-Photon Source Using Zn-Indiffused PPLN Ridge Waveguides at Telecom Wavelengths",
+      "authors": [
+        "Peter Iveson",
+        "Paolo L. Mennea",
+        "Goronwy Tawy",
+        "Rex H. S. Bannerman",
+        "Noe Palomar-Davidson",
+        "Greg Blanchard-Emmerson",
+        "Patrick M. Ledingham",
+        "Peter G. R. Smith",
+        "James C. Gates",
+        "Corin B. E. Gawith"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.23499",
+      "abstract": "We demonstrate a fully fibre-integrated source of broadband polarisation-entangled photon pairs at telecom wavelengths based on a commercially available Zn-indiffused MgO:PPLN ridge waveguide incorporated within a Sagnac interferometer. Operating across the full degenerate SPDC spectrum using pump-suppression filtering only, the source exhibits a measured bandwidth of approximately 67 nm. Strong non-classical correlations are observed, with an average two-photon interference visibility of 96.9 +/- 0.2 %, a fidelity to the Phi + Bell state of 78.1 %, and a CHSH Bell parameter of S = 2.501 +/- 0.005. We further explore the effect of increasing source brightness on Bell-state performance, revealing the limitations of accidental-corrected metrics in high-flux operating regimes.",
+      "score": 86,
+      "reason": "🔦 SPDC の偏光もつれ光子対源で二光子干渉 visibility 96.9%！高輝度で accidental 補正した指標が破綻する話もあって、実験の見積もりに効きそう🧪✨",
+      "summary": "Zn拡散PPLNリッジ導波路をSagnac干渉計に組んだ完全ファイバ化光源📡 帯域約67 nm、Φ+忠実度78.1%、CHSH S=2.501。輝度とBell性能のトレードオフも測定"
+    }
+  ]
+}
