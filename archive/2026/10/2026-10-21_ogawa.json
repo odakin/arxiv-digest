@@ -1,0 +1,40 @@
+{
+  "total_fetched": 287,
+  "scored_papers": [
+    {
+      "arxiv_id": "2610.24056",
+      "title": "Operational Meaning of the Mandelstam-Tamm Time Scale in a Spin-1/2 Clock",
+      "authors": [
+        "Jakub (James)",
+        "Rog"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.24056",
+      "abstract": "Georgiev's analysis of a freely precessing spin correctly emphasizes that the Mandelstam-Tamm quantity $\\Delta T=\\Delta\\hat A/|d\\langle\\hat A\\rangle/d t|$ is not the variance of a time operator. He concludes, however, that its divergence near the extrema of the clock signal is devoid of physical meaning and that $\\Delta T$ does not disclose how well the system measures the passage of time. For the same projective $\\hat\\sigma_x$ readout, we show that $\\Delta T$ equals the inverse square root of the classical Fisher information in one binary outcome at regular operating points. Its divergence at submaximal-coherence extrema therefore identifies a loss of local sensitivity in the selected readout, not an infinite variance of physical time; a complementary $\\hat\\sigma_y$ measurement remains informative. This interpretation also separates Georgiev's exactly known tick--tock period from the statistical precision with which a tick can be located. It preserves his warning against a time-operator interpretation while qualifying his stronger conclusion that the Mandelstam--Tamm scale lacks physical content.",
+      "score": 95,
+      "reason": "⏱️🎯 Mandelstam-Tamm の時間スケールの物理的意味をスピン時計で正面から議論！時間作用素解釈を退けつつ操作的意味を救う、ど真ん中✨",
+      "summary": "📐 σx 読み出しでの ΔT は1回の2値結果の古典 Fisher 情報の逆平方根と一致。極値での発散は局所感度の喪失で、σy 測定は情報を保つ🧮"
+    },
+    {
+      "arxiv_id": "2610.25727",
+      "title": "Measuring the Quantum Phase of Multiphoton Systems",
+      "authors": [
+        "Ian Baum",
+        "Riley B. Dawkins",
+        "Jannatul Ferdous",
+        "Omar S. Magana-Loaiza"
+      ],
+      "categories": [
+        "quant-ph",
+        "physics.optics"
+      ],
+      "url": "https://arxiv.org/abs/2610.25727",
+      "abstract": "The quantum phase of a multiparticle system has remained a long-standing mystery in quantum physics. The absence of a phase operator that faithfully represents this physical quantity has prevented the formulation of a meaningful uncertainty relation with particle number. Here, we resolve this problem by measuring, for the first time, the quantum phase of multiparticle systems containing up to fifteen particles. We achieve this through a new quantum state tomography scheme that combines homodyne interferometry with photon-number-resolving detection. This approach enables us to reconstruct complementary photon-number and phase representations and establish the corresponding number-phase uncertainty relation. Our measurements further provide access to the mutually unbiased basis of a multiparticle system, a fundamental resource for multiparticle quantum information processing. Furthermore, we report the spatially resolved characterization of the quantum phase. These results provide an operational framework for measuring quantum phase in multiparticle systems, with implications for fundamental quantum physics and scalable multiparticle quantum technologies.",
+      "score": 87,
+      "reason": "🌈📏 位相作用素が無いせいで定式化できなかった数-位相の不確定性関係を、15光子までの多光子系で実測！時間作用素問題と同型で面白い✨",
+      "summary": "🔬 ホモダイン干渉と光子数分解検出を組み合わせた新しいトモグラフィで、光子数と位相の相補的な表現を再構成し不確定性関係を確立🧮"
+    }
+  ]
+}

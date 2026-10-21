@@ -1,0 +1,69 @@
+{
+  "total_fetched": 287,
+  "scored_papers": [
+    {
+      "arxiv_id": "2610.24337",
+      "title": "PRIMA prototype spaceflight KID readout electronics laboratory characterization",
+      "authors": [
+        "Adrian K. Sinclair",
+        "Chris Albert",
+        "C. Matt Bradford",
+        "Patrick Brown",
+        "Sean Bryan",
+        "Jesse Coldsmith",
+        "Jennifer Corekin",
+        "Sumit Dahal",
+        "Thomas K. Devlin",
+        "Thomas Essinger-Hileman",
+        "Logan Foote",
+        "Marc Foote",
+        "Draisy Friedman",
+        "Alessandro Geist",
+        "Jason Glenn",
+        "Christopher Green",
+        "Kyle Helson",
+        "Kevin Horgan",
+        "Tracee Jamison-Hooks",
+        "Elijah Kane",
+        "Jared Lucey",
+        "Philip Mauskopf",
+        "Lynn Miles",
+        "Sanetra Bailey Newman",
+        "Gerard Quilligan",
+        "Cody Roberson",
+        "Salman Sheikh",
+        "Manuel Vega",
+        "Eric Weeks",
+        "Christopher Wilson",
+        "Travis Wise"
+      ],
+      "categories": [
+        "astro-ph.IM",
+        "physics.ins-det"
+      ],
+      "url": "https://arxiv.org/abs/2610.24337",
+      "abstract": "We present further development and testing of prototype kinetic inductance detector (KID) readout electronics for the PRobe far-Infrared Mission for Astrophysics (PRIMA). PRIMA is a NASA Probe-class astrophysics mission concept with two science instruments, FIRESS and PRIMAger, which provide spectroscopic and polarimetric imaging from 24 to 261 um. Together these instruments will explore the far-infrared sky with spatial-spectral mapping speeds that exceed previous studies by orders of magnitude, opening a vast discovery space. This increase in mapping speed is achieved by densely packed ultra-sensitive KIDs and cryogenically cooled optics. The PRIMA flight readout electronics will use the build-to-print SpaceCube Mini v3.0 which houses a radiation-tolerant Kintex KU060 field programmable gate array (FPGA). A custom high-speed digitizer board is being designed along with an RF electronics (RFE) board. The RFE was designed to provide programmable gain, band filtering, and RF switching between instruments. The prototype readout electronics, including the RFE, use functionally equivalent parts to the flight parts. In this proceeding we measure the readout loopback noise performance in the second Nyquist zone and timestream cross-talk performance. We present preliminary sweeps with the prototype readout coupled to prototype FIRESS detectors. Lastly, we demonstrate a cosmic ray pulse detection and real-time removal with an algorithm implemented in firmware.",
+      "score": 86,
+      "reason": "🛰️🔧 宇宙機向け KID 読み出し電子回路の試験報告！耐放射線 FPGA での機上信号処理は、検出器読み出し・機上処理の設計にそのまま効く✨",
+      "summary": "📡 遠赤外プローブ計画の KID 読み出し試作機を実験室で特性評価。高密度 KID アレイ用の機上読み出し系の性能を検証🔬"
+    },
+    {
+      "arxiv_id": "2610.24070",
+      "title": "Breaking the axion abundance-isocurvature relation: Scale invariance and high-scale inflation",
+      "authors": [
+        "Mariaveronica De Angelis",
+        "Javier Rubio"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO",
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2610.24070",
+      "abstract": "A QCD axion accounting for dark matter through pre-inflationary misalignment is strongly constrained by CMB isocurvature bounds, which place the classic axion window in tension with high-scale inflation. The tension arises because the same decay constant controls both the relic abundance and the primordial axion fluctuations. We show how this link can be broken in a broad class of scale-invariant models, without introducing any dimensionful parameter into the classical action. Rather than imposing a fixed Peccei-Quinn scale, the axion's kinetic normalisation is set by a dynamical field ratio. The resulting field-space metric controls the abundance through its value today and the primordial fluctuations through its value at horizon crossing. A sufficiently large metric during inflation suppresses isocurvature, allowing high-scale inflation in the classic axion window with an untuned misalignment angle and sub-Planckian decay constants. The exact scale and Peccei-Quinn symmetries also enforce a non-turning inflationary attractor, conserving the super-Hubble curvature perturbation and preserving the single-field adiabatic spectrum. We realise the mechanism in the Higgs-Dilaton model by deforming the Peccei-Quinn kinetic term. The same deformation turns the inflaton sector into an $\\alpha$-attractor pinned near the Starobinsky point. This explicit realisation has a super-Planckian present decay constant, which places it in the anthropic window, now reopened at high inflationary scales, with an ultralight QCD axion constrained by black-hole superradiance.",
+      "score": 85,
+      "reason": "🌌🚀 高スケールインフレ(大きな r)と QCD アクシオンDMの CMB 等曲率制限の緊張を解く模型！B モードで r が見つかった時の含意に直結✨",
+      "summary": "🧲 スケール不変模型で PQ スケールを動的にし、場空間計量でインフレ中の等曲率ゆらぎを抑制。古典的アクシオン窓と高スケールインフレが両立📉"
+    }
+  ]
+}

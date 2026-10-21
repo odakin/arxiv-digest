@@ -1,0 +1,23 @@
+{
+  "total_fetched": 287,
+  "scored_papers": [
+    {
+      "arxiv_id": "2610.25471",
+      "title": "\\textit{In situ} certification of multiparticle indistinguishability in a generic interferometer",
+      "authors": [
+        "Valery Shchesnovich"
+      ],
+      "categories": [
+        "quant-ph",
+        "math-ph",
+        "math.MP",
+        "physics.atom-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.25471",
+      "abstract": "We propose a scalable and efficient \\textit{in situ} method for assessing the multiparticle indistinguishability of identical bosons or fermions in quantum interference experiments on linear interferometers by harnessing quantum parallelism and the bunching/anti-bunching tendencies of these particles. The proposed certification method can be applied to any generic linear interferometer. For particles occupying distinct input ports of a Haar-random unitary interferometer, the number of experimental runs required to attain a prescribed statistical precision is polynomial in the number of particles, the interferometer size, and the inverse precision, with high probability. Our method is robust under losses: for uniform particle losses, the polynomial scaling is preserved when the inverse single-particle survival probability is polynomially bounded. Our scheme is especially suitable for certifying the indistinguishability of single photons in large-scale interference experiments, such as Boson Sampling in the regime of quantum advantage over classical computation.",
+      "score": 86,
+      "reason": "🔦✨ 任意の線形干渉計で多粒子の識別不能性をその場で認証する方法！バンチング・反バンチングを使う多光子干渉の基礎として好みのテーマ🎯",
+      "summary": "🧮 同種ボソン・フェルミオンの識別不能性を、Haar ランダム干渉計で多項式回数の測定で推定できる手法。損失にも頑健📊"
+    }
+  ]
+}

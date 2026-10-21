@@ -1,0 +1,90 @@
+{
+  "total_fetched": 287,
+  "scored_papers": [
+    {
+      "arxiv_id": "2610.26237",
+      "title": "Gravitational Dark Matter Production in Einstein-Cartan Theory",
+      "authors": [
+        "Kamil Mudrunka",
+        "Kazunori Nakayama"
+      ],
+      "categories": [
+        "hep-ph",
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2610.26237",
+      "abstract": "Introducing torsion into General Relativity leads to new four-point interactions for fermions. These are universal and must also affect any fermion dark matter. We improve existing calculations of dark matter production through the Einstein-Cartan theory four-fermion interaction by also considering the s-channel graviton exchange as another contributing process. The effect on both the total cross section as well as the momentum-dependent Boltzmann equation collision term is calculated and discussed. We also introduce the Holst term, which generally modifies the four-fermion interaction coupling constant as well as introduces two new four-fermion interactions, and discuss and compute its effect on the total produced dark matter abundance.",
+      "score": 92,
+      "reason": "🔥🌀⚡ Einstein-Cartan の捻れ由来の4フェルミ相互作用で重力的DM生成！s-channel 重力子交換と Holst 項まで入れた計算で、まさにど真ん中😍🎯✨",
+      "summary": "🧮 捻れが誘起する普遍的な4フェルミ相互作用によるフェルミオンDM生成を、s-channel 重力子交換と Holst 項込みで再計算し残存量を評価📊"
+    },
+    {
+      "arxiv_id": "2610.24070",
+      "title": "Breaking the axion abundance-isocurvature relation: Scale invariance and high-scale inflation",
+      "authors": [
+        "Mariaveronica De Angelis",
+        "Javier Rubio"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO",
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2610.24070",
+      "abstract": "A QCD axion accounting for dark matter through pre-inflationary misalignment is strongly constrained by CMB isocurvature bounds, which place the classic axion window in tension with high-scale inflation. The tension arises because the same decay constant controls both the relic abundance and the primordial axion fluctuations. We show how this link can be broken in a broad class of scale-invariant models, without introducing any dimensionful parameter into the classical action. Rather than imposing a fixed Peccei-Quinn scale, the axion's kinetic normalisation is set by a dynamical field ratio. The resulting field-space metric controls the abundance through its value today and the primordial fluctuations through its value at horizon crossing. A sufficiently large metric during inflation suppresses isocurvature, allowing high-scale inflation in the classic axion window with an untuned misalignment angle and sub-Planckian decay constants. The exact scale and Peccei-Quinn symmetries also enforce a non-turning inflationary attractor, conserving the super-Hubble curvature perturbation and preserving the single-field adiabatic spectrum. We realise the mechanism in the Higgs-Dilaton model by deforming the Peccei-Quinn kinetic term. The same deformation turns the inflaton sector into an $\\alpha$-attractor pinned near the Starobinsky point. This explicit realisation has a super-Planckian present decay constant, which places it in the anthropic window, now reopened at high inflationary scales, with an ultralight QCD axion constrained by black-hole superradiance.",
+      "score": 88,
+      "reason": "🚀🌌 スケール不変模型でアクシオン残存量と等曲率ゆらぎの縛りを切り離す！高スケールインフレと古典的アクシオン窓が両立😍🔥✨🎉",
+      "summary": "🧲 PQ スケールを動的な場の比で決め、場空間計量でインフレ中の等曲率を抑制📉 未調整の誤配列角でもCMB制限を回避🌀"
+    },
+    {
+      "arxiv_id": "2610.24056",
+      "title": "Operational Meaning of the Mandelstam-Tamm Time Scale in a Spin-1/2 Clock",
+      "authors": [
+        "Jakub (James)",
+        "Rog"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.24056",
+      "abstract": "Georgiev's analysis of a freely precessing spin correctly emphasizes that the Mandelstam-Tamm quantity $\\Delta T=\\Delta\\hat A/|d\\langle\\hat A\\rangle/d t|$ is not the variance of a time operator. He concludes, however, that its divergence near the extrema of the clock signal is devoid of physical meaning and that $\\Delta T$ does not disclose how well the system measures the passage of time. For the same projective $\\hat\\sigma_x$ readout, we show that $\\Delta T$ equals the inverse square root of the classical Fisher information in one binary outcome at regular operating points. Its divergence at submaximal-coherence extrema therefore identifies a loss of local sensitivity in the selected readout, not an infinite variance of physical time; a complementary $\\hat\\sigma_y$ measurement remains informative. This interpretation also separates Georgiev's exactly known tick--tock period from the statistical precision with which a tick can be located. It preserves his warning against a time-operator interpretation while qualifying his stronger conclusion that the Mandelstam--Tamm scale lacks physical content.",
+      "score": 86,
+      "reason": "⏱️🌀 Mandelstam-Tamm の時間スケールをスピン時計の読み出しの Fisher 情報で解釈！不確定性関係の操作的意味を突く好みのテーマ😍✨🎯",
+      "summary": "📐 射影読み出しでの ΔT は1回の2値結果の古典 Fisher 情報の逆平方根と一致🧮 発散は時間の無限分散でなく局所感度の喪失📉"
+    },
+    {
+      "arxiv_id": "2610.25466",
+      "title": "Squeezing and Decoherence of Axion Dark Matter",
+      "authors": [
+        "Vasileios Fragkos",
+        "Igor Pikovski"
+      ],
+      "categories": [
+        "quant-ph",
+        "gr-qc",
+        "hep-th",
+        "physics.atom-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.25466",
+      "abstract": "Bosonic particles beyond the Standard Model, such as axions, are among the leading candidates for dark matter. If such particles have a small mass, they are usually described as a purely classical field. However, it was recently shown that this description is incomplete: their inherent gravitational self-interactions can squeeze the field, producing a quantum feature beyond the classical description. Here we analyze squeezing of light dark matter in the presence of decoherence. We show that squeezing is continuously generated, and rapidly enough to survive dissipation, and may also remain present under thermal fluctuations and dephasing. Our results demonstrate that dark matter might possess persistent quantum features and motivate further investigation of their implications for dark matter detection.",
+      "score": 85,
+      "reason": "🌊🎭 アクシオンDMは自己重力でスクイーズされた量子状態かも！しかもデコヒーレンス下でも生き残る😍🔥✨🎉 squeezed state 好きにはたまらない",
+      "summary": "🧪 軽いDM場の重力自己相互作用によるスクイージングを散逸・熱ゆらぎ・位相緩和込みで解析📊 スクイージングは継続生成され持続🌀"
+    },
+    {
+      "arxiv_id": "2610.24040",
+      "title": "Canonical currents without improvements: the QCD example",
+      "authors": [
+        "Tomi Koivisto"
+      ],
+      "categories": [
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2610.24040",
+      "abstract": "In conventional formulations of relativistic field theory, energy-momentum and angular-momentum currents are defined only up to improvement terms in flat spacetime, and in curved spacetime they are conserved only along symmetries of the metric. When defined as canonical Noether currents relative to an independent parallel frame, as in General Parallel Relativity, they are both unambiguous and conserved. For QCD, the gauge-invariant tensor, the Belinfante-Rosenfeld relation and the spin surface term follow from the variational principle. An exact coupled solution is shown to have conserved energy and rotation charges without the corresponding symmetries. Quarks of opposite helicity are indistinguishable by the metric and the symmetric energy-momentum tensor, yet carry opposite rotation charges.",
+      "score": 85,
+      "reason": "🧭⚙️ 独立な平行フレームに対する正準 Noether カレントで改良項の曖昧さが消える！テレパラレル的な発想で QCD に適用😍✨🔥🎯",
+      "summary": "📐 平行フレーム基準で定義したエネルギー運動量・角運動量カレントは一意かつ保存🌀 Belinfante-Rosenfeld 関係とスピン表面項も変分原理から導出🧮"
+    }
+  ]
+}
