@@ -1,0 +1,24 @@
+{
+  "total_fetched": 230,
+  "scored_papers": [
+    {
+      "arxiv_id": "2610.28125",
+      "title": "Possible Microscopic source of torsion",
+      "authors": [
+        "A. Capolupo",
+        "S. Monda",
+        "G. Pisacane",
+        "A. Quaranta",
+        "R. Serao"
+      ],
+      "categories": [
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2610.28125",
+      "abstract": "Axial fermionic interactions connect vacuum condensation with torsionful back- grounds. We consider a quartic spin spin interaction whose mean field reduction yields a quadratic fermionic Hamiltonian. Its diagonalisation defines a particle and antiparticle condensate, while self consistency determines whether the vacuum devel- ops a non zero axial current. Cutoff, fluctuation and energy conditions delimit the validity of the approximation. When torsion couples to spin, this axial expectation value can provide a microscopic source for an axial torsion background. We then consider mixed Dirac fields on such a background. In the explicit neutrino analysis, metric curvature is neglected while torsion modifies the flavour Bogoliubov coeffi- cients, producing spin dependent oscillation frequencies, condensate densities and CP asymmetries.",
+      "score": 89,
+      "reason": "🌀🔥⚡ 4フェルミの軸性スピン相互作用が真空で凝縮し、捻れの微視的な源になる！フェルミオン凝縮から捻れ背景を出す発想は、まさにど真ん中😍🎯✨",
+      "summary": "🧮 平均場近似で軸性カレントの真空期待値を自己無撞着に決め、軸性の捻れ背景を生成。その上のニュートリノ混合で振動数・CP非対称がスピン依存に📊"
+    }
+  ]
+}

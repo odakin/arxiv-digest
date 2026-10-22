@@ -1,0 +1,55 @@
+{
+  "total_fetched": 230,
+  "scored_papers": [
+    {
+      "arxiv_id": "2610.28020",
+      "title": "Enhanced orbital-angular-momentum dimensionality and spatial-spectral decoupling in thin-film SPDC",
+      "authors": [
+        "Dmitrii Akatev",
+        "Jakub Lewandowski",
+        "Maria Chekhova"
+      ],
+      "categories": [
+        "physics.optics",
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.28020",
+      "abstract": "Thin-film spontaneous parametric down-conversion, due to the relaxed phase-matching condition, generates photon pairs that are extremely broadband in frequency and angle and highly entangled in time/frequency and position/momentum. Here we show that it also provides a very broad orbital angular momentum (OAM) spectrum, which, in contrast to the case of bulk crystals, is decoupled from the frequency spectrum. To demonstrate it experimentally, we generate photon pairs in a $7~\\mu\\mathrm{m}$-thick lithium niobate film and compare them with those from a $500~\\mu\\mathrm{m}$-thick periodically poled lithium niobate crystal under identical pump conditions. The thin-film source exhibits a substantially broader OAM spectrum, with the azimuthal Schmidt number almost 9 times larger than that of the bulk source. On this highly entangled state, we perform quantum-state tomography in selected two- and four-dimensional OAM subspaces, demonstrating high-purity maximally entangled states. These results highlight thin nonlinear films as a promising platform for high-dimensional quantum-state generation with weak spatial--spectral coupling.",
+      "score": 86,
+      "reason": "🔦✨ 薄膜 SPDC の光子対は位置・運動量で強くもつれ、OAM スペクトルが周波数と分離！SPDC 二光子の空間相関のモデル化に直結🎯",
+      "summary": "🧪 7μm 薄膜 LN とバルク PPLN を同条件で比較し、方位シュミット数が約9倍。OAM 部分空間で最大もつれ状態のトモグラフィーを実証📊"
+    },
+    {
+      "arxiv_id": "2610.27091",
+      "title": "Combining Pumping and Absorption Effects in Neutrino Oscillation Probabilities: A Non-Hermitian Framework",
+      "authors": [
+        "Gabriela Barenboim",
+        "Alberto Gago",
+        "Eduardo Massoni"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.27091",
+      "abstract": "We study two-flavour neutrino oscillations in which a coherent off-diagonal interaction from a complex background field coexists with an absorptive channel acting on a single mass eigenstate. Since the two do not commute, the effective Hamiltonian is non-normal and oscillations and damping no longer factorise. We formulate the dynamics both as the no-jump sector of a Lindblad evolution and through biorthogonal diagonalisation, and obtain the evolution operator of our model in closed form. The model interpolates between quasi-global damping, standard invisible decay, and a critical point with polynomial-times-exponential evolution; for initially pure states it describes norm loss rather than decoherence. Comparing neutrinos and antineutrinos in the same background, with the mixing phase $\\phi$ reversed and the background phase $\\delta$ fixed, we derive closed-form $CP$, $CPT$ and $T$ asymmetries. The $CPT$ asymmetries arise only from this phase assignment. In contrast, the $T$ asymmetry, which is forbidden in unitary two-flavour oscillations, is independent of the prescription: it arises only through the non-normal structure, is proportional to the absorptive coupling, and vanishes only when $\\delta+\\phi=n\\pi$. For equal initial populations the net neutrino--antineutrino asymmetry vanishes identically, while a non-zero flavour asymmetry survives and requires a non-normal Hamiltonian.",
+      "score": 86,
+      "reason": "🌊🕳️ ニュートリノ振動に吸収チャネルを入れた非エルミート有効ハミルトニアン！干渉としての振動と吸収模型が重なる好みのテーマ✨",
+      "summary": "🧮 非正規ハミルトニアンを Lindblad の no-jump 部分と双直交対角化で閉形式に解き、CP・CPT・T 非対称を導出。T 非対称は吸収結合に比例📐"
+    },
+    {
+      "arxiv_id": "2610.27602",
+      "title": "Resolving Nonlocal State Reduction via Induced Coherence in Frequency-Comb Biphoton Sources",
+      "authors": [
+        "Tai Hyun Yoon"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.27602",
+      "abstract": "How macroscopic definite outcomes and nonlocal correlations emerge from entangled superpositions across spacelike-separated regions without superluminal action or {\\it ad hoc} wavefunction collapse remains a defining open question in the foundations of quantum mechanics. Here, we resolve this century-long paradox within \\textit{linear} relativistic quantum electrodynamics by developing an open-system and measurement-defined framework realized in dual, spacelike-separated nonlinear crystals driven synchronously by a multi-mode optical frequency comb and seeded by an ultra-narrow coherent laser. Expanding the transverse electromagnetic vector potential into discrete single-photon frequency-comb supermodes, we show that tracing out the unmeasured continuous-wave idler field yields an exact spatial dephasing Lindblad master equation whose decoherence rate is governed by the non-orthogonal state overlap of single-photon-added coherent states. Connecting this open-system map to free-vector-space quotient measurement theory, we demonstrate that single-particle interference arises from the geometric projection of the composite state onto detector-defined conditional cosets rather than remote collapse, establishing strict operational equivalence across pump, seed, and signal phase scans. The resulting wave-particle-entanglement triality equality $P^2 + E^2 + V^2 = 1$ is saturated across the complete parameter space, while the atomic-clock-referenced comb structure anchors continuous-variable time-frequency displacement stabilizers directly at the hardware layer. Our work unifies induced coherence, Bohr's complementarity, and quotient measurement theory, providing a microscopic pathway toward fault-tolerant bosonic quantum information processing.",
+      "score": 85,
+      "reason": "🔀👥 二つの SPDC 源の誘導コヒーレンスで、単一光子干渉を検出器が定める条件付き状態への射影として読む！which-path と相補性の議論に✨",
+      "summary": "🧮 未測定のアイドラーを trace out して空間的デコヒーレンスの Lindblad 方程式を導出。波動・粒子・もつれの関係 P²+E²+V²=1 を主張📐"
+    }
+  ]
+}

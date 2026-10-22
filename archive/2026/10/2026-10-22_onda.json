@@ -1,0 +1,74 @@
+{
+  "total_fetched": 230,
+  "scored_papers": [
+    {
+      "arxiv_id": "2610.28608",
+      "title": "Slow-Roll Inflation at Arbitrary Order",
+      "authors": [
+        "William Giar`e"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2610.28608",
+      "abstract": "We derive explicit expressions for the primordial scalar and tensor spectra at arbitrary finite order $p$ in the slow-roll expansion, valid both for canonical single-field inflation and $k$-inflation. At any order, the spectra are determined by known combinations of slow-roll parameters weighted by universal coefficients entirely fixed by the free de Sitter solutions, without requiring perturbatively corrected mode functions. Using these spectra, we obtain closed-form consistency relations that connect the tensor tilt $n_t$ and its runnings $\\alpha_n^t\\equiv d^n n_t/d(\\ln k)^n$ to the tensor-to-scalar ratio $r$, the scalar spectral index $n_s$, and its runnings $\\alpha_n^s\\equiv d^n(n_s-1)/d(\\ln k)^n$. The consistency relations are valid for arbitrary $n\\geq 0$ and any finite $p\\geq 0$, without recursion over lower-order relations. For $k$-inflation, they additionally depend on the scalar sound speed and its scale derivatives. We develop an algorithm that generates both the spectra and consistency relations for any pair $(n,p)$. We reproduce known results through next-to-next-to-next-to-leading order (N3LO) and extend the explicit calculations up to N10LO.",
+      "score": 87,
+      "reason": "🌀📈 スローロール展開を任意次数まで閉じた形で！テンソル傾き n_t とそのランニングを r・n_s に結ぶ整合性関係は、原始重力波の検証の核心✨",
+      "summary": "🧮 単一場と k-インフレで任意次数のスカラー/テンソルスペクトルを導出。N10LO までの整合性関係を生成するアルゴリズムを構築📊"
+    },
+    {
+      "arxiv_id": "2610.27082",
+      "title": "Cosmic birefringence from a stiff axion field and its cosmological implications",
+      "authors": [
+        "Andrea Minotti",
+        "Yunzhi Wu",
+        "Tiziano Zanzarella",
+        "Nicolao Fornengo",
+        "Marco Regis",
+        "Marco Taoso"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2610.27082",
+      "abstract": "We propose a model in which the observed cosmic microwave background birefringence arises from the interaction of photons with a stiff ($w=1$) pseudo-scalar field that today contributes a subdominant fraction of the total energy density, distinct from both dark matter and dark energy. Big Bang Nucleosynthesis constrains the cosmological density of the stiff field, leading to a lower bound for its coupling with photons, $g_{\\phi\\gamma} > 8.9 \\times 10^{-14}\\,\\mathrm{GeV}^{-1}$. Photon conversion in cluster-hosted quasars sets an upper bound, $g_{\\phi\\gamma} < 5.0 \\times 10^{-13}\\,\\mathrm{GeV}^{-1}$. Therefore, there is a narrow window for the discovery of this cosmological component that can be explored in the forthcoming years with astrophysical axion searches. Moreover, we show that this scenario leads to gravitational-wave signals that can be tested with planned experiments.",
+      "score": 86,
+      "reason": "🌈🔄 観測された CMB 複屈折を、w=1 の硬い擬スカラー場で説明する模型！ALP-光子結合に狭い発見の窓が残る✨",
+      "summary": "🧲 BBN から結合の下限、銀河団内クエーサーでの光子変換から上限を導出。重力波シグナルでも検証できると指摘📡"
+    },
+    {
+      "arxiv_id": "2610.27121",
+      "title": "Twenty-five years of XMM-Newton EPIC-MOS2 Unfocused Particle Background: Solar Cycle Modulation, Galactic Cosmic-Ray Correlation, and Implications for NewAthena",
+      "authors": [
+        "B. Vaia",
+        "F. Gastaldello",
+        "S. Molendi",
+        "I. Bartalucci",
+        "M. Balboni",
+        "S. Ghizzardi",
+        "L. Lovisari",
+        "M. Marelli",
+        "M. Rossetti",
+        "A. Tiengo",
+        "C. Macculi",
+        "S. Lotti",
+        "V. Fioretti",
+        "T. Mineo",
+        "G. Schellenberger",
+        "C. E. Grant"
+      ],
+      "categories": [
+        "astro-ph.HE",
+        "astro-ph.IM"
+      ],
+      "url": "https://arxiv.org/abs/2610.27121",
+      "abstract": "We present a study of the unfocused particle-induced background measured by the XMM-Newton EPIC-MOS2 detector, extending previous analyses to the end of 2025 and covering approximately twenty-five years of observations. Using out-of-field-of-view (outFOV) data, we investigate the long-term evolution of the particle background over two complete solar cycles and compare it with independent tracers of the Galactic cosmic-rays. We find an extremely tight correlation between the MOS2 outFOV count rate and the AMS proton flux, with an intrinsic scatter of only about 1.1\\%, confirming that variations in the unfocused background are primarily driven by changes in the Galactic cosmic-rays flux. The extended temporal baseline clearly reveals the modulation associated with the solar cycle and the characteristic signatures of the 22 year Hale cycle. A Lomb-Scargle analysis identifies a dominant periodicity at 11.28 yr, while structure-function and wavelet analyses reveal a persistent $\\sim$27 day modulation associated with solar rotation. We also confirm the presence of a residual background component that does not scale with the Galactic cosmic-ray flux, consistent with previous studies and possibly associated with Compton-scattered high-energy X-ray photons. This work places the particle-induced background measured by the XMM-Newton EPIC-MOS2 detector in the broader context of Galactic cosmic-ray studies, while also providing direct implications for the development of background-monitoring and mitigation strategies for future X-ray missions such as \\textit{NewAthena}.",
+      "score": 85,
+      "reason": "🛰️☄️ XMM-Newton 25年分の粒子バックグラウンドと銀河宇宙線の相関！軌道上の宇宙線影響の評価と X 線テーマの両方に効く✨",
+      "summary": "📉 視野外データの計数率が AMS 陽子フラックスと散らばり約1%で相関。11年の太陽周期と27日の自転変調を検出し、NewAthena への示唆も🔭"
+    }
+  ]
+}
