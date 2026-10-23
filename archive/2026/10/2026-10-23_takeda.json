@@ -1,0 +1,20 @@
+{
+  "total_fetched": 178,
+  "scored_papers": [
+    {
+      "arxiv_id": "2610.30002",
+      "title": "Two particle interference: The Hanbury Brown Twiss and Hong Ou Mandel experiments",
+      "authors": [
+        "Christoph I Westbrook"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.30002",
+      "abstract": "I discuss two important quantum optics experiments which depend on two particle interference. In the years since their first demonstration many interesting and instructive variants have appeared, including the use of atoms instead of photons as the interfering particles. This chapter gives a pedagogical overview of some of these results and argues that the two effects are closely related.",
+      "score": 90,
+      "reason": "👯✨ HBT と HOM、二粒子干渉の二大実験を一気に総覧！光子だけでなく原子での変種まで、二光子干渉の基礎を見直すのにぴったり🎯🔦",
+      "summary": "📚 二粒子干渉に依る HBT 効果と HOM 効果の教育的レビュー。多くの変種を紹介し、二つの効果が密接に関係していることを論じる🧮"
+    }
+  ]
+}

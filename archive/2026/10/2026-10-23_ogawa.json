@@ -1,0 +1,23 @@
+{
+  "total_fetched": 178,
+  "scored_papers": [
+    {
+      "arxiv_id": "2610.28732",
+      "title": "Interacting quantum reference frames",
+      "authors": [
+        "Leonardo Chataignier",
+        "Alexander R. H. Smith"
+      ],
+      "categories": [
+        "quant-ph",
+        "gr-qc",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2610.28732",
+      "abstract": "We formulate quantum reference frames within the Dirac quantization of gauge theories, where physical states are obtained from a kinematical Hilbert space $\\mathcal{H}_{\\rm kin}$ by group averaging. We assume the gauge group $G$ is unimodular, and we define a quantum reference frame as a system of coherent states associated with a group $G_R$ of frame orientations acting on a tensor factor of $\\mathcal{H}_{\\rm kin}$. In direct analogy with the Faddeev-Popov procedure in path integrals, we show that the physical inner product can be written in terms of a choice of frame orientation with an appropriate operator measure, but that the physical Hilbert space is independent of this choice of frame. This yields a generalization of the Page-Wootters reduction map used to define conditional states and conditional probabilities of measurement outcomes given a frame orientation. These probabilities correspond to the expectation values of relational Dirac observables obtained from generalizations of previously considered relativization maps. Our main result is that the map that implements a change of frame is unitary, even when $G$ does not act as a tensor-product representation across a factorization of $\\mathcal{H}_{\\rm kin}$. The formalism therefore accommodates interactions between reference frames and the systems described relative to them. We apply this formalism to temporal frames, showing that a unitary Schr\\\"odinger equation emerges for an interacting clock and system, and that a previously reported time-nonlocal Schr\\\"odinger equation is recovered in an appropriate limit. With this, problems of non-unitarity are avoided by the use of the gauge-fixing measure in the physical inner product. We also discuss the case of interacting spatial frames, where the known correspondence between coherence in one frame and entanglement in another is shown to depend on the coupling.",
+      "score": 87,
+      "reason": "⏰🧭 相互作用する時計と系でもユニタリな Schrödinger 方程式が出る！Page-Wootters 写像を一般化した量子参照系で、量子時計のど真ん中✨🎯",
+      "summary": "🧮 群平均の Dirac 量子化で量子参照系を定式化し、フレーム変換がユニタリと証明。時間非局所な Schrödinger 方程式も極限で再現📐"
+    }
+  ]
+}

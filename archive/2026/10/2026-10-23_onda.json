@@ -1,0 +1,93 @@
+{
+  "total_fetched": 178,
+  "scored_papers": [
+    {
+      "arxiv_id": "2610.29764",
+      "title": "Alleviating CMB-BAO tension with a large cosmic birefringence angle during reionization induced by energy injection to axion-like particles",
+      "authors": [
+        "Salvatore Samuele Sirletti",
+        "Toshiya Namikawa",
+        "Blake D. Sherwin"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2610.29764",
+      "abstract": "The recent measurement of baryon acoustic oscillations by the Dark Energy Spectroscopic Instrument reveals a mild tension with observations of the cosmic microwave background (CMB) within the standard $\\Lambda$CDM cosmological model. Another interesting hint beyond standard cosmology arises from recent analyses of Planck polarization data which has been interpreted as cosmic birefringence. One possible solution to explain both observations is to introduce cosmic birefringence induced by axion-like particles (ALPs) that has a much larger rotation angle during the reionization epoch than that during the recombination: the large rotation suppresses the $EE$ reionization signal, allowing an elevated value of the CMB optical depth $\\tau$ that alleviates the CMB-BAO tension. In this paper, we explore a scenario where the energy transfers from matter to ALPs before the reionization. Using Planck low-$\\ell$ $EE$, $BB$, and $EB$ data, we show that, for energy injection at $10 \\lesssim z \\lesssim 100$, there exist parameter regions where $\\tau \\simeq 0.08-0.10$ is compatible with the data.",
+      "score": 93,
+      "reason": "🌀🔭 再電離期だけ大きな宇宙複屈折で EE の再電離バンプを抑え、高い τ を許して CMB-BAO の食い違いを緩和！複屈折×τ×緊張で LiteBIRD ど真ん中✨🎯",
+      "summary": "📊 再電離前に物質から ALP へエネルギーが移る模型を Planck 低ℓ EE・BB・EB で検証。注入が 10≲z≲100 なら τ≈0.08–0.10 がデータと両立🧮"
+    },
+    {
+      "arxiv_id": "2610.29182",
+      "title": "Parity-odd CMB Correlations induced by a Chiral Gravitational Wave Background",
+      "authors": [
+        "Baoyu Xu",
+        "Yun-Long Zhang"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2610.29182",
+      "abstract": "We investigate weak lensing effects of a chiral gravitational wave background (GWB) as a new mechanism for generating parity-odd correlations in the cosmic microwave background (CMB). Accounting for both photon deflection and polarization rotation, we derive the resulting parity-odd EB and TB angular power spectra. For representative GWB energy density spectra, we find parameter choices that provide good fits to existing measurements. This mechanism provides a potential observational probe of chiral GWB, which can arise in a wide range of theoretical scenarios.",
+      "score": 87,
+      "reason": "🌊🔄 カイラルな重力波背景のレンズ効果で CMB にパリティ奇の EB・TB 相関！複屈折とは別のパリティ破れの源で、偏光観測の解釈に効く✨🎯",
+      "summary": "🧮 光子の曲がりと偏光回転の両方を入れて、カイラル GWB が作る EB・TB 角度パワースペクトルを導出。代表的な GWB スペクトルで既存測定によく合う📊"
+    },
+    {
+      "arxiv_id": "2610.28765",
+      "title": "Constraints on Reionization from Planck Low-$\\ell$ EE Polarization and the Lyman-Series Forests",
+      "authors": [
+        "Garett Lopez",
+        "Anson D'Aloisio",
+        "Christopher Cain"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "astro-ph.GA"
+      ],
+      "url": "https://arxiv.org/abs/2610.28765",
+      "abstract": "CMB measurements tightly constrain the Thomson scattering optical depth ($\\tau_{\\rm es}$), but they still permit a broad range of degenerate reionization histories. Incorporating Lyman-series forest constraints on the end of reionization can alleviate the degeneracy and narrow the range of allowed histories. We explore this effect using forest measurements combined with full Planck likelihoods. We apply upper limits on the neutral fraction at $4.9\\lesssim z\\lesssim6.9$ derived from the dark pixel fraction, as well as a lower limit at $z=5.8$ from damping-wing-like features on the edges of long dark gaps in stacked forest spectra. We find that neither the choice of parametric vs. non-parametric reionization model, nor the choice among different forest data combinations, produces a significant shift in $\\tau_{\\rm es}$ or the other cosmological parameters. Instead, forest constraints primarily redistribute $\\tau_{\\rm es}$ in redshift. Combining dark pixel, damping-wing-like, and CMB measurements, we find $z_{50}=7.7^{+0.7}_{-0.8}$ and a 95\\% upper limit of $\\Delta z_{90}<11.4$ for the midpoint and duration of reionization, respectively. The asymmetry of the reionization history ($A_z$) is not well constrained by these data. Stronger constraints can be obtained using Ly$\\alpha$ forest measurements of the mean IGM photoionization rate, at the cost of requiring more detailed modeling. Using a new semi-analytic reionization model, we obtain (model-dependent) constraints of $z_{50} = 7.4^{+0.2}_{-0.3}$, $\\Delta z_{90}=6.0^{+0.8}_{-1.0}$, and $A_z = 2.4^{+0.3}_{-0.7}$. We also find evidence that the ionizing emissivity of reionization sources declines after $z=7-8$, perhaps signaling a decline in the escape fraction and/or the onset of a feedback process. Our results motivate the development of forest likelihood products and fast forward models for its transmission statistics.",
+      "score": 86,
+      "reason": "📉🌌 Planck 低ℓ EE とライマン系列の森で再電離史を絞る！τ の赤方偏移分布が分かり、再電離バンプを狙う LiteBIRD の前提づくりに効く✨🔭",
+      "summary": "📊 森の制約は τ 自体は動かさず赤方偏移に再配分。中点 z₅₀=7.7、継続 Δz₉₀<11.4 (95%)。半解析模型ではさらに強い制約と放射率の減少の兆候🧮"
+    },
+    {
+      "arxiv_id": "2610.29920",
+      "title": "In-orbit anomaly and recovery of IXPE detector 2",
+      "authors": [
+        "Fabio Muleri",
+        "Luca Baldini",
+        "Sudip Chakraborty",
+        "Chien-Ting Chen",
+        "Enrico Costa",
+        "Ettore del Monte",
+        "Alessandro Di Marco",
+        "Kurtis L. Dietz",
+        "Sergio Fabiani",
+        "Riccardo Ferrazzoli",
+        "Philip Kaaret",
+        "Alberto Manfreda",
+        "Stephen L. O'dell",
+        "John Rankin",
+        "Brian D. Ramsey",
+        "Carmelo Sgr`o",
+        "Paolo Soffitta",
+        "Douglas A. Swartz",
+        "Allyn F. Tennant",
+        "Alessio Trois",
+        "Martin C. Weisskopf"
+      ],
+      "categories": [
+        "astro-ph.IM",
+        "astro-ph.HE"
+      ],
+      "url": "https://arxiv.org/abs/2610.29920",
+      "abstract": "The Imaging X-ray Polarimetry Explorer (IXPE) is a joint NASA-ASI mission launched in December 2021 to measure the linear polarization of celestial X-ray sources in the 2-8 keV energy range. The payload comprises three identical telescopes, each combining grazing-incidence X-ray optics with a focal-plane photoelectric polarimeter based on the Gas Pixel Detector technology. On 14 April 2025, the second detector experienced an anomaly that significantly altered the electrical behavior of the ASIC responsible for reading out the photoelectron track images. In this contribution, we describe the effect of the anomaly on the instrumental response and the actions taken to mitigate its effects and recover the scientific observations of the instrument.",
+      "score": 85,
+      "reason": "🛰️⚠️ IXPE の検出器2で読み出し ASIC が軌道上で異常、その影響と復旧の記録！軌道上の系統誤差と搭載ハードの教訓として LiteBIRD にも効く🔧✨",
+      "summary": "🔬 軌道上で飛跡画像を読む ASIC の電気特性が変わり装置応答が変化。その影響と緩和策、科学観測の復旧手順を報告📡"
+    }
+  ]
+}

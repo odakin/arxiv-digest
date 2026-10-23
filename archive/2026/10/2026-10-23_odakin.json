@@ -1,0 +1,83 @@
+{
+  "total_fetched": 178,
+  "scored_papers": [
+    {
+      "arxiv_id": "2610.28729",
+      "title": "Cosmological vacuum selection in dynamical symmetry breaking at zero vacuum energy",
+      "authors": [
+        "Mateusz Duch",
+        "Alessandro Strumia"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.28729",
+      "abstract": "Coleman-Weinberg models invoke classical scale invariance to forbid scalar masses, but then add a dimensionful constant to cancel the vacuum energy of the broken vacuum. This inconsistency is avoided by special quantum potentials, whose symmetry-breaking vacuum is degenerate with the symmetric one. We compute which vacuum is selected by the thermal history of the universe. While a neutral thermal plasma favours the symmetric phase, a sufficiently large conserved charge asymmetry supports a rotating scalar condensate that evolves toward the broken vacuum as the universe cools, and survives fragmentation.",
+      "score": 88,
+      "reason": "🔥🌌⚖️ 古典スケール不変で対称相と破れた相が縮退したポテンシャル！どっちの真空が選ばれるかを熱史で決める、多重臨界点好きにはど真ん中😍🎯✨🎉",
+      "summary": "🧮 中性プラズマは対称相を好むが、保存荷の非対称が大きいと回転するスカラー凝縮が冷却とともに破れた真空へ移り、断片化も生き延びる🌀📉"
+    },
+    {
+      "arxiv_id": "2610.28744",
+      "title": "The renormalization-group running of neutrino mixing is undetectable",
+      "authors": [
+        "Gabriela Barenboim",
+        "Mauricio Bustamante",
+        "Qinrui Liu"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.HE"
+      ],
+      "url": "https://arxiv.org/abs/2610.28744",
+      "abstract": "Quantum corrections make the parameters of a theory depend on an arbitrary renormalization scale, $\\mu$. The renormalization-group (RG) running of neutrino masses and mixing is a standard tool to relate models defined at a high mass scale to measured values. A growing body of work holds that the running is also directly observable: a neutrino produced or detected at momentum transfer $Q$ would carry the mixing matrix evaluated at $\\mu = Q$. Proposed signatures include flavor change at zero distance from the source, shifts in the measured CP-violation phase, and an anomalous flavor composition of high-energy astrophysical neutrinos. We show that this premise is incorrect. The mixing is a property of the neutrino itself, fixed by its self-energy on the mass shell, not by the process that produces or detects it. Setting $\\mu = Q$ is legitimate, but then large logarithms in the self-energy undo the running; the premise incorrectly drops them. Hence, apart from small vertex and box corrections, every experiment measures the same mixing: the running is undetectable. We illustrate this in the Minimal Supersymmetric Standard Model, two seesaw models, and the Standard Model effective field theory. Independently, short-baseline data already limit the change of any one mixing angle between pion decay and detection at $Q$ of a few GeV to below $0.7^\\circ$--$2.4^\\circ$.",
+      "score": 87,
+      "reason": "🌊🧭💥 ニュートリノ混合の RG running は観測できない！生成・検出の運動量移行で混合が変わるという主張を一刀両断、振動の場の理論的扱いに直結😍🔥✨🎯",
+      "summary": "📐 混合は質量殻上の自己エネルギーで決まる粒子自身の性質で、μ=Q と置いても大きな対数が running を打ち消す🧮 短基線データも角度変化を0.7°〜2.4°以下に制限📊"
+    },
+    {
+      "arxiv_id": "2610.28704",
+      "title": "Gauge Field Fluctuations Protect the Higgs Vacuum When a Small Universe Begins",
+      "authors": [
+        "Alan Zhang (Department of Physics and Astronomy",
+        "McMaster University",
+        "Hamilton",
+        "Canada",
+        "Perimeter Institute for Theoretical Physics",
+        "Waterloo",
+        "Canada)"
+      ],
+      "categories": [
+        "hep-ph",
+        "gr-qc",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2610.28704",
+      "abstract": "The Standard Model Higgs quartic coupling $\\lambda$ turns negative at high energies. We show that in a small periodic box with antiperiodic fermions, zero-point fluctuations of the constant gauge modes turn the Higgs zero mode into a resonance for $\\lambda\\lambda_c(N)$, which depends on $N$ only logarithmically. For a universe that begins at a Casimir turning point, $\\lambda_c\\approx-0.012$ lies below the Standard Model value $-0.0098$; given a curvature coupling $\\xi_H\\gtrsim0.08$, survival has probability above $1/2$ for $m_t<172.96$ GeV and $\\approx0.7$ for current data, and FCC-ee can exclude this beginning if $m_t\\gtrsim173.7$ GeV.",
+      "score": 86,
+      "reason": "🌀🛡️⚡ 小さな周期箱で始まる宇宙では、ゲージ場の零点ゆらぎが負の Higgs 4点結合から真空を守る！ξ_H とトップ質量で生死が決まる😍🔥✨🎯",
+      "summary": "🧮 反周期フェルミオンの箱で定数ゲージモードが Higgs ゼロモードを共鳴化、臨界値 λ_c≈−0.012 は SM 値より下📉 m_t≳173.7 GeV なら FCC-ee で棄却可能🔭"
+    },
+    {
+      "arxiv_id": "2610.28681",
+      "title": "Testing the statistical compatibility of data sets with a common prior",
+      "authors": [
+        "Pilar Coloma",
+        "Michele Maltoni",
+        "Thomas Schwetz"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO",
+        "hep-ex",
+        "physics.data-an",
+        "stat.ME"
+      ],
+      "url": "https://arxiv.org/abs/2610.28681",
+      "abstract": "The Parameter Goodness-of-fit (PG) test [hep-ph/0304176] offers a simple test statistic to study the compatibility of different data sets within a given theoretical model. In its original formulation it assumes that the data sets are statistically independent. We propose an extension of the PG test for the situation when some parameters of the model are constrained by an auxiliary data set called prior here. As the prior is imposed for all data sets, they are no longer statistically independent. We show that under the Gaussian approximation, the prior-constrained PG test statistic follows a generalised $\\chi^2$ distribution, which can be used to obtain $p$-values in a straight-forward way. In the approximation of a strong prior constraint, the test converges towards the standard PG test for the unconstrained model parameters.",
+      "score": 85,
+      "reason": "📊🎲🔍 共通の事前制約を課したデータセット同士の整合性検定！独立性が崩れた状況での PG 検定の拡張で、測定どうしの食い違いの評価に効く😍✨🎯🔥",
+      "summary": "🧮 事前制約で相関したデータセットの PG 検定統計量はガウス近似で一般化 χ² 分布に従い、p 値が簡単に出る📐 強い事前制約の極限で通常の PG 検定に帰着🌀"
+    }
+  ]
+}
