@@ -1,0 +1,20 @@
+{
+  "total_fetched": 281,
+  "scored_papers": [
+    {
+      "arxiv_id": "2610.33632",
+      "title": "Path-Distinguishability Gaps at Fixed Visibility in Noisy Qubit Interferometers",
+      "abstract": "The wave--particle duality relation bounds visibility and path distinguishability but does not determine their attainable values in a fixed noisy interferometer. We characterize the complete attainable region for a two-path interferometer with a qubit marker, varying the marker input while fixing the source, preparation channel, path-dependent interaction, and subsequent marker channel. At each feasible fringe visibility, the Helstrom-optimal distinguishabilities form at most two closed intervals, which can be separated by a gap. The intervals arise from opposite axial marker polarizations with the same fringe-amplitude modulus. Fixing the complex fringe amplitude instead gives a connected interval; for balanced original-path discrimination, a gap requires nonunital marker preparation. For a balanced pure source, relative $\\pi$ rotations, and no subsequent marker noise, we obtain a necessary and sufficient geometric criterion for a gap under some rotation axis perpendicular to the preparation displacement. Explicit channels and a time-independent Lindblad realization show how the gap depends on preparation geometry and evolution, with exact onset and optimization formulas at fixed fractional visibility. We also give sufficient bounds for excluding distinguishability intervals under calibrated finite-resolution errors.",
+      "authors": [
+        "Mohd Asad Siddiqui"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.33632",
+      "score": 87,
+      "reason": "🔀🎯 波動・粒子の二重性の関係式だけでは決まらない、ノイズのある干渉計での可視度と経路識別可能性の到達可能領域を完全に決定！which-path と相補性の好みのテーマ✨",
+      "summary": "qubit マーカー付き二経路干渉計で、可視度固定時の Helstrom 最適な識別可能性は最大2区間に分かれ間にギャップが生じうる。出現条件を幾何的に与え、Lindblad 実現も示す。"
+    }
+  ]
+}

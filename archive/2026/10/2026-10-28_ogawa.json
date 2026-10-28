@@ -1,0 +1,22 @@
+{
+  "total_fetched": 281,
+  "scored_papers": [
+    {
+      "arxiv_id": "2610.33220",
+      "title": "Quantum-Relativistic Anomalous Proper Time",
+      "abstract": "We investigate surprising consequences of the hypothesis that gravity and proper time obey the quantum superposition principle. We show that, for a massive body prepared in a superposition of two positions and post-selected in a suitable final state, the elapsed proper time in another region of space can assume an anomalous effective value lying outside the range allowed by classical general relativity. Remarkably, the effective elapsed proper time can even become negative, corresponding to an effective evolution backward in time. We also propose an experiment to observe an anomalous effective proper time associated with the internal degrees of freedom of a quantum particle in an interferometer under Earth's gravitational field. The proposed experiment is, in principle, feasible with current technology, and its realization could provide the first experimental evidence of an interplay between quantum mechanics and general relativity beyond the effects of the Newtonian potential in flat spacetime.",
+      "authors": [
+        "Pablo L. Saldanha",
+        "Nelson Yokomizo"
+      ],
+      "categories": [
+        "quant-ph",
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2610.33220",
+      "score": 88,
+      "reason": "⏰🌊 量子粒子の内部自由度を時計にして、重力の重ね合わせ下で実効固有時が古典の範囲外・負にもなる！量子時計と時間の扱いの基礎に直結する話✨",
+      "summary": "質量の位置の重ね合わせと事後選択で、別の領域の経過固有時が異常な実効値を取ることを示す。地球重力下の干渉計で内部自由度を使って観測する実験も提案。"
+    }
+  ]
+}

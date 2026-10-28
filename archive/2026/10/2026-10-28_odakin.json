@@ -1,0 +1,72 @@
+{
+  "total_fetched": 281,
+  "scored_papers": [
+    {
+      "arxiv_id": "2610.35124",
+      "title": "Relating Dark Dimension Size with Dark Energy via 5D Quintessence Potential and Casimir Energy",
+      "abstract": "We explore effective field theory (EFT) realizations of the dark dimension (DD) scenario in which the size of the DD is determined by the competition between a 5D quintessence potential and the Casimir energy. When only contributions from massless fields are considered, the Casimir energy does not have a typical energy scale, and the 4D dark energy (DE) scale is set by the height of the 5D quintessence potential. The simple 5D model we first study has an attractive feature that the size of the DD is related to the 4D vacuum energy (VE), as outlined above. However, it turns out that the 4D VE thus obtained cannot work as the 4D DE in the standard cosmological setting. One of the discrepancies between the VE and the DE manifests in the radion dependence of the effective 4D Newton's gravitational constant. This leads us to explore a 5D model in which the 4D Einstein-Hilbert (EH) action is dominantly induced by quantum effects, leaving the radion dependence of the 4D Newton's constant subdominant. This model leads to an attractive cosmological model, realizing the mechanism explained in the beginning. We also explore a 6D model with the total internal volume fixed, to make the 4D Newton's constant independent of the radion. We first study a scenario in which the sizes of the 5th and the 6th dimensions are of the same order. In this scenario, the physical origin of the size of the DD is left to its UV completion. Next, we turn to a scenario in which there is a large hierarchy between the sizes of the 5th and the 6th dimensions. In this scenario, the energy scale of the 5D quintessence potential turns out to be much higher than the energy scale of the 4D DE as inferred from the cosmological observations, so we need to subtract a constant term in 4D to tune the 4D DE. This prevents us from obtaining the scaling relation for the DE expected in the dSDC.",
+      "authors": [
+        "Rashmikanta Mantry",
+        "Kazuyuki Furuuchi"
+      ],
+      "categories": [
+        "hep-th",
+        "astro-ph.CO",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.35124",
+      "score": 87,
+      "reason": "🌌🔥 余剰次元 (dark dimension) の大きさを 5D クインテッセンスとカシミアエネルギーの競合で決め、暗黒エネルギーと結びつける！4D の EH 項を量子効果で誘導する模型まで😍🎯✨",
+      "summary": "5D・6D の EFT で radion 依存の Newton 定数が障害になると指摘し、EH 項を量子的に誘導すると DE とサイズの関係が成立。6D で階層がある場合は 4D 定数の微調整が要る。"
+    },
+    {
+      "arxiv_id": "2610.35253",
+      "title": "Bargmann-invariant witness of the graviton commutator",
+      "abstract": "We identify the phase of a Bargmann invariant of two matter-wave interferometers as a quantum gravity signature that cannot be reproduced by any branchwise-definite classical gravitational field. For matter coupled linearly to linearized gravity, the interferometric coherence factorizes exactly into a conservative Newtonian phase, the characteristic functional of the graviton state, and a commutator phase. For Wigner-positive graviton states, the first two are classically reproducible; therefore, decoherence alone cannot certify that gravity is quantized. The Bargmann phase isolates the commutator, which is independent of the graviton state and of all Newtonian interactions and is bounded by which-path decoherence. For gravity, this radiation-reaction effect is sixty orders of magnitude below experimental reach, but trapped-ion analogs can test it at order unity.",
+      "authors": [
+        "Hiroki Matsui"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-th",
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.35253",
+      "score": 86,
+      "reason": "🌊🪐⚡ 2つの物質波干渉計の Bargmann 不変量の位相が、古典重力場では再現できない重力子の交換関係の証拠になる！デコヒーレンスだけでは量子化を示せないという整理が鋭い😍🎯",
+      "summary": "線形化重力と結合した物質のコヒーレンスがニュートン位相・重力子状態の特性汎関数・交換子位相に厳密に分解。重力では60桁届かないが、捕捉イオンの類似系なら検証可能。"
+    },
+    {
+      "arxiv_id": "2610.35778",
+      "title": "Quantum Field Theory on the Tangent Bundle",
+      "abstract": "We develop a quantum-field-theoretical framework on the tangent bundle in which gravitational and internal gauge structures are associated with different sectors of an affine tangent-fiber geometry. The translational sector supplies the coframe and its relation to teleparallel gravity. A reduced vertical spectral problem is based on the centrally extended Euclidean group \\(E^{c}(2)\\), motivated by projective representations of the stabilizer of a nonzero null vector. Twofold multiplicities of equivalent vertical representations in selected left-chiral sectors admit weak \\(SU(2)\\) actions, while an assumed threefold quark multiplicity admits a locally gauged color \\(SU(3)_c\\) symmetry. A proposed global quotient correlates the color center with vertical rotations on a threefold rotation cover. Together with the selected chiral spectrum and anomaly conditions, this construction reproduces the observed fractional quark charge assignments. We formulate matter and gauge-field quantization, BRST symmetry, and anomaly constraints. Under the stated projection assumptions, the color sector has the standard local QCD structure, including its one-loop beta function and asymptotic freedom. Additional gauge bosons and dark-matter states are proposed as hypothetical sectors. We also formulate a structural action for possible couplings between teleparallel torsion and additional Lorentz-sector potentials. The framework relates selected structures of particle physics and gravity within a common geometric setting; their further dynamical and phenomenological development remains open.",
+      "authors": [
+        "Joachim Herrmann"
+      ],
+      "categories": [
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2610.35778",
+      "score": 85,
+      "reason": "🌀🔥 接バンドル上の QFT で、並進セクターがコフレームを与えテレパラレル重力とつながる！テレパラレル捻れと Lorentz セクターのポテンシャルの結合まで定式化😍✨",
+      "summary": "アフィン接ファイバー幾何の異なるセクターに重力と内部ゲージ構造を割り当て、弱 SU(2)・カラー SU(3) と分数電荷を再現。BRST・アノマリー条件も定式化、力学は今後の課題。"
+    },
+    {
+      "arxiv_id": "2610.33220",
+      "title": "Quantum-Relativistic Anomalous Proper Time",
+      "abstract": "We investigate surprising consequences of the hypothesis that gravity and proper time obey the quantum superposition principle. We show that, for a massive body prepared in a superposition of two positions and post-selected in a suitable final state, the elapsed proper time in another region of space can assume an anomalous effective value lying outside the range allowed by classical general relativity. Remarkably, the effective elapsed proper time can even become negative, corresponding to an effective evolution backward in time. We also propose an experiment to observe an anomalous effective proper time associated with the internal degrees of freedom of a quantum particle in an interferometer under Earth's gravitational field. The proposed experiment is, in principle, feasible with current technology, and its realization could provide the first experimental evidence of an interplay between quantum mechanics and general relativity beyond the effects of the Newtonian potential in flat spacetime.",
+      "authors": [
+        "Pablo L. Saldanha",
+        "Nelson Yokomizo"
+      ],
+      "categories": [
+        "quant-ph",
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2610.33220",
+      "score": 85,
+      "reason": "⏱️🌊🪐 重力と固有時が重ね合わせ原理に従うなら、事後選択で固有時が古典 GR の範囲外、さらには負にもなる！量子力学と一般相対論の交差を干渉計で試す提案😍🔥",
+      "summary": "2位置の重ね合わせにある質量を事後選択すると、別の領域の実効固有時が異常値を取る。地球重力下の干渉計で内部自由度の異常固有時を観測する実験を提案、現行技術で可能。"
+    }
+  ]
+}
