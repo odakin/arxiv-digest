@@ -1,0 +1,76 @@
+{
+  "total_fetched": 229,
+  "scored_papers": [
+    {
+      "arxiv_id": "2610.36611",
+      "title": "Quark mixing and CP violation due to torsional interaction",
+      "authors": [
+        "Arnab Chakraborty",
+        "Amitabha Lahiri"
+      ],
+      "categories": [
+        "hep-ph",
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2610.36611",
+      "abstract": "The dynamics of fermions in spacetime generates torsion, ultimately leading to a current-current interaction independent of gravity. This torsional four-fermion interaction is generically chiral and non-universal and may have observable consequences. Furthermore, the fermion basis in which this torsional interaction is diagonal may be different from the mass basis and the flavor basis. We work out the structure of the quark sector, where new CKM-like matrices appear as a result of diagonalizing the torsional interaction. CP violation is modified in general due to the appearance of additional phases. We also consider various processes which are affected by it such as kaon decays in particular and show that even when the torsional interaction is taken to be diagonal in the flavor basis, flavor-changing processes are still affected due to the non-universality of the torsional coupling constants. Finally, we discuss rephasing invariants in the presence of the torsional interaction and show how the Jarlskog invariant is modified even when the torsion basis is aligned with the flavor basis.",
+      "score": 92,
+      "reason": "🌀🔥 フェルミオンが作るトーションの四体フェルミ相互作用でクォークに新しい CKM 的混合と CP の位相が出る！Einstein–Cartan の現象論ど真ん中😍🎯✨🧲",
+      "summary": "トーション相互作用は一般にカイラルで非普遍、対角化の基底が質量・フレーバー基底とずれる。K 中間子崩壊への影響と、フレーバー基底に揃えても Jarlskog 不変量が変わることを示す🧮⚛️"
+    },
+    {
+      "arxiv_id": "2610.36033",
+      "title": "Can inflationary axion fluctuations dominate over misalignment?",
+      "authors": [
+        "Seung J. Lee",
+        "Sarunas Verner",
+        "Bingrong Yu"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO",
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2610.36033",
+      "abstract": "The relic abundance of light stable axion dark matter is usually set by misalignment. We study whether the inflationary fluctuations of the axion can dominate instead, and we follow the modes analytically through an instantaneous transition from de Sitter expansion to radiation domination, neglecting the axion mass during inflation and keeping it afterward. Since the energy density is quadratic in the field, a fluctuation-dominated abundance carries an isocurvature perturbation even when the mean displacement vanishes. For a canonical minimally coupled axion the spectrum is scale invariant, and fluctuation-dominated dark matter exceeds the Planck isocurvature limit by about eight orders of magnitude. An inflaton-dependent kinetic function or a nonminimal coupling to the Ricci scalar tilts the spectrum blue, moving the fluctuation power from CMB scales to small scales. Imposing the Planck limit at the pivot scale, we find that fluctuation-dominated dark matter with a constant kinetic slope requires the spectral tilt $n_\\eta-1\\gtrsim0.27$ and the axion mass $m_{\\eta} \\gtrsim200 \\rm{GeV}$ at $H_I=10^{10}\\rm{GeV}$, and $n_\\eta-1\\gtrsim0.34$ and $m_\\eta\\gtrsim4.5\\,$keV at $H_I=10^{13}\\rm{GeV}$. A kinetic function with a running slope lowers these masses to $1.4~\\rm{GeV}$ and $0.7\\,$eV, respectively. For the QCD axion, whose oscillations start late, we estimate that any single power-law spectrum blue enough to satisfy the pivot limit gives too little fluctuation abundance, and misalignment dominates.",
+      "score": 86,
+      "reason": "🌌🪐 アクシオン暗黒物質の残存量をミスアライメントでなくインフレーション中の揺らぎが決められるか？Ricci 非最小結合で青いスペクトルにする話が刺さる😍🔥✨",
+      "summary": "正準な場合は等曲率が Planck 制限を 8 桁超える。運動項関数や ξφ²R で青くすると、H_I=10¹⁰ GeV で m≳200 GeV 等が必要。QCD アクシオンはミスアライメントが勝つ📉🧮"
+    },
+    {
+      "arxiv_id": "2610.36044",
+      "title": "An open EFT for dark matter searches with matter-wave interferometers",
+      "authors": [
+        "Leonardo Badurina",
+        "Kathryn M. Zurek"
+      ],
+      "categories": [
+        "hep-ph",
+        "hep-th",
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.36044",
+      "abstract": "Matter-wave interferometers (MWIs) are a genuine quantum probe of dark matter (DM), being sensitive to DM-induced phase shifts and loss of contrast. Treating the interferometer as an open quantum system and the dark sector as its environment, we derive an open EFT to study these signatures using the Schwinger-Keldysh formalism. Starting from a microscopic theory, we derive the interferometer's effective action, which we then project onto the many-body worldline sectors relevant for atom interferometers and MWIs employing mesoscopic objects, i.e., composite-particle interferometers (CPIs). This construction clarifies the heavy-probe limit and organizes phase shifts and decoherence as distinct real-time components of the influence action: the retarded kernel controls the causal response of the environment, while the Keldysh kernel controls environmental fluctuations and hence loss of contrast. At leading order, these kernels reduce to: (i) DM bubble diagrams in the case of four-point interactions, and (ii) dressed in-medium mediator propagators in the case of long-range interactions, where the dressing is provided by the DM environment. Within this framework, we study the signatures of elastic spin-independent sub-GeV DM scattering off nucleons and find that: (i) owing to Bose enhancements below the DM wave-particle boundary, ambitious CPIs could probe Higgs-portal DM with mass below 1 eV in an unexplored region of model space; (ii) for DM coupled to nucleons via a light hadrophilic scalar, the DM background can drive the mediator's in-medium mass tachyonic over much of parameter space; outside these regions, CPIs could probe provide powerful probes of light DM.",
+      "score": 85,
+      "reason": "🌊⚛️ 物質波干渉計を開放量子系として扱い、暗黒物質を環境にした open EFT を構築！1 eV 以下の Higgs portal DM に未踏領域で届くかも😍🎯🔭",
+      "summary": "Schwinger–Keldysh で影響汎関数を導き、位相シフトを遅延核、コントラスト低下を Keldysh 核として分離。軽いスカラー媒介では媒介子の媒質中質量がタキオン的になりうる🧮✨"
+    },
+    {
+      "arxiv_id": "2610.37009",
+      "title": "Momentum-space entanglement and mutual information in Kaluza-Klein reduction",
+      "authors": [
+        "Udaykrishna Thattarampilly",
+        "Yunlong Zheng"
+      ],
+      "categories": [
+        "hep-th",
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.37009",
+      "abstract": "In theories with compact extra dimensions, the four-dimensional effective description is obtained by Kaluza-Klein reduction. The state available to a four-dimensional observer is the reduced density matrix obtained by tracing the higher-dimensional vacuum over the tower of massive modes, and it need not be pure. In this paper we study the momentum-space entanglement of this state for a five-dimensional scalar on $M_4\\times S^1$ with a cubic or quartic self-interaction. We compute, at leading order in the coupling, the mutual information $I_n$ between the zero modes below a resolution scale $\\mu$ and a single Kaluza-Klein level $n$. When the zero modes couple linearly and without derivatives to pairs of tower modes, $I_n$ falls as $1/m_n$, where $m_n$ is the mass of level $n$. In the cubic theory, this tail is independent of the ultraviolet cutoff, with coefficient $(\\mu R)^2/1024\\pi^3$ for compactification radius $R$, and the mutual information with the whole tower grows logarithmically with the number of levels. In the quartic theory, the tail is masked by states containing additional hard quanta, which make $I_n$ depend on the cutoff. Compared with the corrections the tower makes to low-energy amplitudes, which are dominated by the lightest levels and captured by local operators, the mutual information with the tower is not dominated by any finite set of levels and arises from the time-nonlocal part of the effective action. The local four-dimensional effective theory therefore describes the low-energy observables of the reduced system but not its state. Unbroken supersymmetry cancels the vacuum energy of the compactification but not the mutual information, which at leading order is a sum of squared amplitudes.",
+      "score": 85,
+      "reason": "🧩🌀 KK 還元した 4D 観測者の状態は純粋でない！ゼロモードと KK タワーの運動量空間エンタングルメントを計算、余剰次元を量子情報で見る新視点😍✨🔥",
+      "summary": "M₄×S¹ の 5D スカラーで、ゼロモードと KK 準位 n の相互情報量は 1/m_n で落ち、タワー全体では準位数の対数で増える。局所 4D EFT は観測量は再現しても状態は記述しない🧮📐"
+    }
+  ]
+}

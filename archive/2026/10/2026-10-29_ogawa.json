@@ -1,0 +1,20 @@
+{
+  "total_fetched": 229,
+  "scored_papers": [
+    {
+      "arxiv_id": "2610.36356",
+      "title": "Probability bounds on trajectory-level exceedances of quantum speed limits under continuous-measurement feedback",
+      "authors": [
+        "Kohei Kobayashi"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.36356",
+      "abstract": "We investigate the probability that a conditioned quantum trajectory exceeds an ensemble-derived quantum speed limit (QSL) velocity under continuous measurement-based feedback. Using the finite-time average fidelity velocity, we derive an upper bound on the exceedance probability in terms of its mean and variance. We further obtain state-independent bounds from uniform constraints on the fidelity drift and diffusion, including an exponential concentration bound. For a feedback-controlled qubit, we derive explicit model-specific bounds and show that they are nontrivial in a short-time regime. We also identify a finite-time regime in which the exceedance probability vanishes exactly due to the restricted support of the conditioned dynamics. Monte Carlo simulations confirm the analytical bounds and illustrate their tightness.",
+      "score": 90,
+      "reason": "⏱️🎯 連続測定フィードバック下の条件付き軌道が、アンサンブルの量子速度限界をどれだけの確率で超えるか上限を導出！量子速度限界のど真ん中✨",
+      "summary": "有限時間平均の忠実度速度で、超過確率の上限を平均と分散から与え、指数的な集中不等式も導出。フィードバック制御 qubit で具体的な上限を示し、Monte Carlo で確認。"
+    }
+  ]
+}
