@@ -1,0 +1,25 @@
+{
+  "total_fetched": 220,
+  "scored_papers": [
+    {
+      "arxiv_id": "2611.23368",
+      "title": "Steerability in top quark decays at the LHC",
+      "abstract": "Quantum information observables in top quark pair production have opened a new experimental window on non-classical correlations of particle interactions at colliders. Einstein-Podolsky-Rosen (EPR) steering occupies a distinguished place in the quantum hierarchy, lying between entanglement and Bell nonlocality. We present a detailed collider analysis of steerability for top quark pairs at the Large Hadron Collider (LHC). In particular, we utilize both the decay and kinematic methods to estimate the expected sensitivity of the LHC and High Luminosity LHC (HL-LHC) to detect steerable states. We find that with the current LHC dataset of $139~\\mathrm{fb}^{-1}$ the steerability of the $t\\bar t$ state in the boosted region can be established at $7.7\\sigma$ ($1.8\\sigma$) in the semileptonic (dileptonic) channel with the decay method, corresponding to a measurement of the steerability integral at a precision of $1.5\\%$ ($5.2\\%$), while the kinematic method reaches a precision of $0.05\\%$ in both channels. At the HL-LHC the decay-method precision improves to $0.3\\%$ ($1.1\\%$). Near threshold, where the inclusive selections used for entanglement and discord yield a state at the steerability boundary, an optimized selection $M_{t\\bar{t}}\\lesssim360$--$400$~GeV isolates a steerable singlet-dominated state, where the sensitivity is projected to reach $7\\sigma$ ($3.4\\sigma$). We also provide a detailed discussion on the interpretation of these results with respect to fictitious quantum states, and argue for the robust nature of the steerability measurement at colliders.",
+      "authors": [
+        "Tao Han",
+        "Navin McGinnis",
+        "Sepehr Salamat",
+        "Shufang Su",
+        "Xingzhou Yu"
+      ],
+      "categories": [
+        "hep-ph",
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2611.23368",
+      "score": 85,
+      "reason": "⚛️🔗 コライダーでのEPRステアリング！エンタングルメントとベル非局所性の間の階層をトップ対で測る話で、素粒子での量子相関の好みテーマに刺さる 👀",
+      "summary": "LHCのトップ対生成でステアラビリティを崩壊法・運動学法で解析。139 fb^-1でブースト領域の半レプトン崩壊チャンネル7.7σ（2レプトン1.8σ）、ステアリング積分を1.5%精度で測定、HL-LHCで0.3%まで改善。"
+    }
+  ]
+}

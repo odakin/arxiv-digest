@@ -1,0 +1,41 @@
+{
+  "total_fetched": 220,
+  "scored_papers": [
+    {
+      "arxiv_id": "2611.23784",
+      "title": "Subsystem evolution in the history state formalism",
+      "abstract": "We present a relational framework for characterizing the evolution of quantum composite systems, based on the correlations within a history state describing the whole evolution relative to a quantum reference clock. While total system-clock entanglement entropy consistently measures the unitary evolution of the closed global system, a different picture emerges for the reduced state of an open subsystem, whose evolution is generally non-unitary due to environmental coupling. We introduce a general formalism that quantifies open-subsystem dynamics using a subsystem-clock mutual information derived from the history state. We demonstrate that this quantity serves as a consistent quantifier of subsystem evolution with respect to a given clock basis, can be applied to arbitrary dynamics, and reduces to system-time entanglement entropy in the global limit. Furthermore, maximizing this measure over all clock bases yields a basis-independent bound on the maximum evolution achievable relative to the clock, directly linked to the difference between the subsystem's entanglement with the rest of the history state and its entanglement with the environment. Finally, we derive analytical expressions for qubit clocks, illustrate our results using spin 1/2 and spin 1 quantum walks, and present a full matrix formalism of Kraus operators for describing the most general subsystem evolution.",
+      "authors": [
+        "A. Boette",
+        "F. Lomoc",
+        "N. Canosa",
+        "R. Rossignoli"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2611.23784",
+      "score": 88,
+      "reason": "⏰🔗 量子参照時計に対する部分系の発展を測る枠組み！時計基底で最大化した上限が出るので、量子時計・量子速度限界まわりの議論に効きそう 🤔",
+      "summary": "history state（全発展を時計に対して記述する状態）から部分系–時計の相互情報量を定義し、開放系の非ユニタリ発展の量化子とする。大域極限で系–時間エンタングルメントに一致、時計基底で最大化すると基底非依存の上限。"
+    },
+    {
+      "arxiv_id": "2611.24291",
+      "title": "Semiclassical Quantum Mechanics and the Optics of Time-Varying Media",
+      "abstract": "Rapid, high contrast modulation of optical parameters such as the refractive index can radically reshape a wave's frequency spectrum as it propagates. Non-commuting frequency and time operators can be used to describe this reshaping, analogous to the position and momentum operators of quantum mechanics. Here we develop the connection between this theory and semi-classical quantum mechanics, showing that: (i) different microscopic models of time-varying materials are equivalent to choices of operator ordering; (ii) wave propagation is governed by an unusual non-Hermitian Schr\\\"odinger equation; (iii) we can take a semi-classical limit, finding a generalization of Hamilton's equations governing the central frequency and arrival time of a wave spectrum as it propagates through a modulated material. The theory can be applied to design dispersive time modulations that `focus' a wave in frequency and time, analogous to caustics in semiclassical quantum mechanics. Our results not only deepen the connection between classical wave propagation and quantum mechanics, but can also simplify overly complex calculations that have been previously applied to media where time reflection effects are negligible.",
+      "authors": [
+        "S. A. R. Horsley",
+        "R. Sokol",
+        "E. -M. Graefe"
+      ],
+      "categories": [
+        "physics.optics",
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2611.24291",
+      "score": 87,
+      "reason": "⏱️🌈 非可換な周波数・時間演算子で時間変調媒質中の波を記述！到着時刻と中心周波数のハミルトン方程式が出てきて、時間–エネルギーの見方に直結 ✨",
+      "summary": "時間変調媒質での波のスペクトル変形を半古典量子力学と対応づけ。微視模型の違い＝演算子順序の選択、伝播は非エルミートなシュレーディンガー方程式、半古典極限で中心周波数と到着時刻の一般化ハミルトン方程式。"
+    }
+  ]
+}
