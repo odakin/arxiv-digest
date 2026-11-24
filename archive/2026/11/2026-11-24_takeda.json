@@ -1,0 +1,23 @@
+{
+  "total_fetched": 148,
+  "scored_papers": [
+    {
+      "arxiv_id": "2611.26844",
+      "title": "Unstable particle collisions in space and time",
+      "authors": [
+        "Irene Corral Lorences",
+        "Zhen Liu",
+        "Giuliano Panico",
+        "Andrea Wulzer"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2611.26844",
+      "abstract": "A proper quantum description of colliding beams reveals the spacetime structure of collision processes, going beyond the conventional picture of classical point-like particles undergoing short-distance scattering. This familiar picture emerges as an approximation in the classical beam limit and under specific conditions. Resolving the t-channel singularity in processes initiated by an unstable particle requires going beyond the short-distance treatment because this singularity is associated with a long-distance effect: the decay of the unstable particle, followed by the propagation of its decay products until they scatter with the other beam. In this article, we develop the theory of spacetime collisions to allow the systematic study of the classical expansion accessing quantum corrections, and we apply it to unstable-particle collisions. At all orders in the expansion, we find that long-distance effects associated with unstable-particle decay coexist with direct short-distance interactions with the other beam. At leading order, the short-distance component is described by a cross section. This allows us to define and compute the unstable-particle scattering cross section through a uniquely specified regularization prescription for the t-channel singularity. Prospective applications include cross-section calculations for muon experiments, including a muon collider. It would also be interesting to design experiments to observe the novel effects arising from the quantum nature of the colliding beams that emerge in our formalism.",
+      "score": 90,
+      "reason": "🌊🎯 平面波を超えた波束で衝突過程の時空構造を描く話！ 波束形式の S 行列というど真ん中のテーマ 🔥✨",
+      "summary": "📐 ビームを量子的に扱う時空衝突理論を構築し古典ビーム極限からの量子補正を系統化。不安定粒子衝突のt-channel特異点を崩壊後の伝播という長距離効果で解消 💡"
+    }
+  ]
+}

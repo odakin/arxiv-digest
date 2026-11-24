@@ -1,0 +1,42 @@
+{
+  "total_fetched": 148,
+  "scored_papers": [
+    {
+      "arxiv_id": "2611.27265",
+      "title": "Features investigated: A detailed study of axion monodromy inflation using CLiENT",
+      "authors": [
+        "Steen Hannestad",
+        "Rasmus Lumbye",
+        "Andreas Nygaard",
+        "Thomas Tram"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2611.27265",
+      "abstract": "We investigate features in the primordial power spectrum from inflation, specifically those predicted by the axion monodromy model, using recent observational data. In order to compute posteriors, profile likelihoods and Bayesian evidence accurately for the complex likelihood surfaces arising in this model we have used the CLiENT emulator framework. As our data combinations we use both a \"conservative\" set consisting of Planck PR4 temperature, polarisation and lensing data together with DESI DR2 BAO and Pantheon+ supernovae, and a more \"aggressive\" set which also includes small-scale CMB data from ACT and SPT. We find no robust oscillatory feature in current data. With the conservative data the best fit lies at a frequency $\\omega \\simeq 51$ and lowers $\\chi^2$ by 10.1 relative to a featureless spectrum. However, this feature is disfavoured by the more aggressive data combination, whose best fit lies at $\\omega \\simeq 31$ and lowers $\\chi^2$ by 7.4. Fits to featureless data are known to give similar improvements, and the Akaike information criterion, the Bayes factors and the look-elsewhere effect all indicate that neither improvement is significant. The amplitude is limited to $A_\\mathrm{osc} < 0.056$ and $A_\\mathrm{osc} < 0.062$ (95%) for the two datasets. The emulators reproduce the true log-likelihood at samples of their posteriors with rms errors of 0.07 and 0.16, and the profile likelihoods are calculated with the true likelihood, using the profile capability of CLiENT.",
+      "score": 86,
+      "reason": "🌀📈 アクシオン・モノドロミーのスペクトル振動を Planck PR4+ACT/SPT で本気で探した解析！ インフレーション検証の視点で面白い 🔭✨",
+      "summary": "🧮 CLiENT エミュレータで事後分布・プロファイル尤度・ベイズ証拠を計算。保守的データでω≃51、高ℓ込みでω≃31が最良だが、頑健な振動特徴は無しと結論 📉"
+    },
+    {
+      "arxiv_id": "2611.27069",
+      "title": "Beyond the Peak: Constraining early dark energy with the damping tail",
+      "authors": [
+        "Hao Wang",
+        "Gen Ye",
+        "Yun-Song Piao"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2611.27069",
+      "abstract": "Early dark energy is commonly characterized by the amplitude and location of its primary energy-injection peak. We show that its post-peak evolution, which we call the \\emph{EDE tail}, provides an additional observable probe of the underlying scalar dynamics and can materially affect its ability to alleviate the Hubble tension. We construct a simple phenomenological framework in which distinct regions of a multiscale scalar potential govern the dynamics at different field scales. As a representative realization, we consider a potential that combines axion-like and $\\alpha$-attractor-like regimes, thereby allowing the EDE tail to be reshaped through reflection and asymmetric oscillations. Confronting this framework with cosmic microwave background, baryon acoustic oscillation, and supernova observations, we find an improved fit to the high-$\\ell$ CMB data together with a higher inferred bestfit $H_0$. Our results show that the EDE tail retains observable information about the underlying scalar potential that is not captured by the conventional peak parameters alone. This provides a complementary route for constructing and observationally distinguishing EDE scenarios, and potentially for further alleviating the Hubble tension.",
+      "score": 85,
+      "reason": "🔥⚖️ 初期ダークエネルギーの“ピーク後の尾”も観測量だと示す話！ H0 テンションと高ℓ CMB の扱いが好みのテーマ 🔭✨",
+      "summary": "🧮 アクシオン型とαアトラクター型を繋いだ多段ポテンシャルで EDE の尾を整形。CMB+BAO+SN で高ℓ CMB のフィット改善と高めの H0 を得る 📈"
+    }
+  ]
+}
