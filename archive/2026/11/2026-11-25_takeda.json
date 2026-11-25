@@ -1,0 +1,46 @@
+{
+  "total_fetched": 358,
+  "scored_papers": [
+    {
+      "arxiv_id": "2611.29691",
+      "title": "Infrared finite scattering theory: Non-relativistic Coulomb scattering",
+      "authors": [
+        "Kartik Prabhu",
+        "Shivam Upadhyay"
+      ],
+      "categories": [
+        "hep-th",
+        "math-ph",
+        "math.MP",
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2611.29691",
+      "abstract": "We revisit non-relativistic quantum-mechanical scattering in a Coulomb potential. The long-range nature of the interaction leads to divergent integrals in conventional S-matrix calculations using the Born series. Dollard showed that a well-defined scattering operator can be constructed by replacing the free Hamiltonian $ H_0 $ with an appropriate asymptotic Hamiltonian $ H_{\\rm D} $. However, explicit perturbative calculations within Dollard's framework have remained scarce. We develop a perturbative formulation of the Dollard scattering operator in which the Coulomb divergences cancel to all orders. Perturbatively, we demonstrate this cancellation explicitly through second Born order and show that the resulting amplitude reproduces the known exact distributional Coulomb amplitude, including its forward-scattering contribution. With the aim of generalizing our analysis to quantum field theory, we reformulate the problem in the Heisenberg picture. We construct a new set of canonical variables through a time-dependent canonical transformation that removes the logarithmic Coulomb correction from the asymptotic phase-space coordinates. Using these variables, we construct the corresponding Heisenberg S-matrix through several complementary approaches. This leads to a formulation of the Lehmann--Symanzik--Zimmermann (LSZ) reduction formalism adapted to the modified asymptotic dynamics, which we relate to the Dollard scattering operator. This construction provides a framework for extending the LSZ formalism to infrared divergences in relativistic quantum field theories with long-range interactions and massless fields.",
+      "score": 85,
+      "reason": "⚛️🌊🎯 長距離力のクーロン散乱で、発散しない散乱演算子を漸近状態の取り直しで作る話！平面波の S 行列の外側、漸近状態の解釈という好みのテーマに直結✨",
+      "summary": "🧮 自由ハミルトニアンを漸近ハミルトニアンに置き換えてクーロン発散を全次数で相殺する摂動論。2次 Born まで明示し、前方散乱を含む厳密振幅を再現、場の理論への拡張も見据える。"
+    },
+    {
+      "arxiv_id": "2611.30257",
+      "title": "Stellar Temporal Intensity Interferometry with Adaptive Optics at the Palomar Observatory",
+      "authors": [
+        "Darren Ming Zhi Koh",
+        "Xi Jie Yeo",
+        "Sam Halverson",
+        "Rebecca Oppenheimer",
+        "Gautam Vasisht",
+        "Christian Kurtsiefer",
+        "Peng Kian Tan"
+      ],
+      "categories": [
+        "astro-ph.IM",
+        "physics.optics"
+      ],
+      "url": "https://arxiv.org/abs/2611.30257",
+      "abstract": "Spatial intensity interferometry has seen a major resurgence in astronomy due to its immunity to atmospheric phase turbulence, but its temporal counterpart - a cornerstone of quantum optics - has remained largely unexplored for astronomical sources. Here, we demonstrate that high-visibility temporal photon bunching signatures from stellar sources are now accessible by combining ultra-narrowband spectral filtering with high-speed single-photon counting detectors. Leveraging the adaptive optics architecture at the Palomar Observatory, we report the first observation of resolved stellar temporal photon bunching, with a peak of $g^{(2)}(\\tau=0) = 1.3 \\pm 0.1$, from the red supergiant $\\alpha$ Her. This advance establishes stellar temporal intensity interferometry as a viable observational modality, bridging quantum optics with high-resolution stellar astrophysics.",
+      "score": 85,
+      "reason": "⭐👯✨ 恒星の光で時間方向の光子バンチング g2(0)=1.3 を初観測！HBT 型の時間相関を天体で測る話で、二光子の時間相関・時間分解検出の基礎として面白い🔭",
+      "summary": "🔦 超狭帯域フィルタと高速単一光子検出器を補償光学と組み合わせ、パロマー天文台で赤色超巨星の時間的強度干渉を実現。量子光学の手法を恒星の高分解能観測へつなぐ。"
+    }
+  ]
+}

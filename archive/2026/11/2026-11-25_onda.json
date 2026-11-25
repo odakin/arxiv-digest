@@ -1,0 +1,93 @@
+{
+  "total_fetched": 358,
+  "scored_papers": [
+    {
+      "arxiv_id": "2611.31235",
+      "title": "The Simons Observatory: Analysis of methods for polarization calibration of multiple instruments",
+      "authors": [
+        "The Simons Observatory Collaboration",
+        "Anto I. Lonappan",
+        "Patricia Diego-Palazuelos",
+        "Carlos Herv'ias-Caimapo",
+        "Kam Arnold",
+        "Susanna Azzoni",
+        "Carlo Baccigalupi",
+        "Matteo Billi",
+        "Erminia Calabrese",
+        "Yuji Chinone",
+        "Matthew Chu",
+        "Mark Devlin",
+        "Josquin Errard",
+        "Nicholas Galitzki",
+        "Bradley R. Johnson",
+        "Brian Keating",
+        "Andr'ea Landais",
+        "Toshiya Namikawa",
+        "Federico Nati",
+        "Giuseppe Puglisi",
+        "Christian L. Reichardt",
+        "Kevin Wolz"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "astro-ph.IM"
+      ],
+      "url": "https://arxiv.org/abs/2611.31235",
+      "abstract": "Cosmic birefringence, the rotation of the CMB linear polarization plane across the Universe, is a powerful test of parity-violating physics beyond the Standard Model. Static isotropic rotation, however, is limited by an instrument's absolute polarization-angle calibration. We present a method for transferring absolute calibration between Simons Observatory (SO) instruments, validated on map-level simulations of the Large Aperture Telescope (LAT) and Small Aperture Telescopes (SATs) with lensed CMB polarization, polarized Galactic foregrounds, correlated instrumental noise, and polarization-angle miscalibration. We develop two pipelines: a joint LAT+SAT likelihood transferring calibration through their overlap, and the Minami-Komatsu foreground-based method, which separates cosmic birefringence from instrumental miscalibration using Galactic dust polarization without an external angle prior. We derive a general variance budget showing that calibration transfer improves sensitivity only when the combined reference and overlap transfer uncertainties remain below the receiving instrument's calibration uncertainty. While transfer does not lower the absolute-angle floor for isotropic $\\beta$, it anchors the receiving instrument's multipole range. The relative-angle uncertainty is $\\sim 0.1^\\circ$ for $\\ell_{\\max}^{\\mathrm{SAT}}=300$, improving to $\\sim 0.04^\\circ$ at $\\ell_{\\max}^{\\mathrm{SAT}}=600$, subject to SAT beam and transfer-function control. Finally, for $\\beta=0.3^\\circ$, we show how the LAT's $\\ell$-range distinguishes scale-independent dark-energy rotation from scale-dependent axion dark-matter models via $C_\\ell^{EB}$.",
+      "score": 93,
+      "reason": "🛰️🌈🔄 SO の複数装置間で偏光角の絶対較正を受け渡す手法！宇宙複屈折と装置の較正誤差の分離は LiteBIRD の偏光角系統の課題そのもの✨",
+      "summary": "📡 LAT と SAT の重なりを使う同時尤度と、銀河前景で複屈折と誤較正を分ける手法の 2 系統を、レンズ・前景・相関雑音入りの地図シミュレーションで検証。"
+    },
+    {
+      "arxiv_id": "2611.28144",
+      "title": "ACT Excited: Reconciling Starobinsky and Quadratic Chaotic Inflationary Models with ACT Results via Excited States",
+      "authors": [
+        "Amjad Ashoorioon",
+        "Abdolreza Yousefi-Sostani"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2611.28144",
+      "abstract": "Data Release 6 of the Atacama Cosmology Telescope, combined with Planck, CMB lensing and DESI BAO data, favours a higher scalar spectral index $n_{s}$ than Planck and a mildly positive running $\\alpha_{s}$, putting the Starobinsky model in tension with the data, while the quadratic chaotic model is already excluded by its large tensor-to-scalar ratio $r$. We show that relaxing the Bunch--Davies assumption for the initial state of the scalar perturbations can restore agreement without modifying the inflaton potential. Parametrising the Bogoliubov coefficients by an excitation parameter $\\chi_{S}$ and a relative phase $2\\varphi_{S}$, we derive the shifts of $n_{s}$ and $\\alpha_{s}$ induced by their scale dependence and map the regions of the $(\\varphi_{S},\\chi_{S})$ plane compatible with the $1\\sigma$ ACT DR6 ranges, the bound $r<0.038$, and the requirement that the scale of new physics $\\Lambda$ exceed the Hubble scale $H$. For the Starobinsky model, a scale-dependent $\\chi_{S}$ or $\\varphi_{S}$ works almost everywhere in this plane: only small neighbourhoods of $\\varphi_{S}=0,\\pi$ with $\\chi_{S}\\gtrsim1.22$ are excluded, and a scale-dependent phase fails at $\\varphi_{S}=0,\\pi/2,\\pi$ and at $\\chi_{S}=0$, where the required ${\\rm d}\\varphi_{S}/{\\rm d}\\ln k$ and ${\\rm d}^2\\varphi_{S}/{\\rm d}(\\ln k)^2$ diverge. For the QC model, the excited state must also suppress $r$, which requires $\\chi_{S}\\gtrsim0.63$ and $\\Lambda\\lesssim6H$. A scale-dependent $\\chi_{S}$ must satisfy $|{\\rm d}\\chi_{S}/{\\rm d}\\ln k|\\gtrsim0.0021$ in both models, and in the QC model we show analytically that $0.0021\\lesssim{\\rm d}\\chi_{S}/{\\rm d}\\ln k\\lesssim0.0058$ and $0.0008\\lesssim{\\rm d}^2\\chi_{S}/{\\rm d}(\\ln k)^2\\lesssim0.0062$. If the tensor modes remain in the BD state, the scenario also predicts a violation of the consistency relation $r=-8n_{T}$, testable once the tensor power spectrum and its tilt are measured.",
+      "score": 86,
+      "reason": "🌀📈🎯 ACT DR6 で窮地の Starobinsky 模型と二次のカオス模型を、初期状態の励起で救う話！ポテンシャルを変えずに n_s とランニングをずらす、インフレーション模型と観測の照合の見直しとして面白い✨",
+      "summary": "📊 Bunch-Davies 以外の初期状態を励起の大きさと位相で表し、n_s と α_s のずれを導出。ACT DR6 の 1σ 範囲、r<0.038、新物理のスケール>H を満たす領域を描く。"
+    },
+    {
+      "arxiv_id": "2611.30959",
+      "title": "Extragalactic carbon-monoxide (CO) as a CMB foreground: an analytic halo model for the CO auto-spectrum and its correlation with the Cosmic Infrared Background",
+      "authors": [
+        "Giorgia Zagatti",
+        "Marian Douspis",
+        "Giulio Fabbian",
+        "Laura Salvati"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2611.30959",
+      "abstract": "Context. Carbon Monoxide (CO) lines emitted by star-forming galaxies are redshifted into the frequency bands of the Cosmic Microwave Background (CMB) experiments. Their correlation with the Cosmic Infrared Background (CIB) may be a non-negligible small-scale foreground. Aims. We develop an analytic, full-shape halo model framework for the CO auto-spectrum and for the CO$\\times$CIB cross-spectrum in CMB bands, and assess its impact on current and future high-resolution CMB experiments. Methods. We use a luminosity-weighted halo model with separate occupation distributions of central and satellite galaxies for CO and CIB emitters, CO transitions up to $J=13$, and all auto- and cross-frequency spectra. Line and infrared luminosities derive from the same star formation rate. We perform Fisher analysis for ACT-like and CMB-HD-like experiments. Results. At $\\ell=3000$, the CO$\\times$CIB contribution to the sky power is 0.4, 0.7, and 1.9 $\\mu$K$^2$ at 90, 150, and 220 GHz, and the CO auto-spectrum is $\\simeq0.02\\,\\mu$K$^2$. For an ACT-like experiment, the CO occupation parameters are essentially unconstrained, and neglecting CO leaves the cosmological parameters unbiased, but shifts the radio and SZ parameters by $\\sim2\\sigma$ and $\\simeq1\\sigma$, respectively. For a CMB-HD-like experiment, CO is detected with high significance and the minimum halo masses of CO and CIB emitters are constrained; neglecting CO biases the cosmological parameters up to $\\sim2\\sigma$ when all multipoles are used in the analysis. Conclusions. CO should be included in the foreground model of future high-resolution CMB analyses; our framework describes it analytically and consistently with the CIB, and the code implementing it is publicly available.",
+      "score": 86,
+      "reason": "🌌📡🧩 星形成銀河の CO 輝線が CMB の周波数帯に入る前景を halo model で解析的に！CIB との相関まで入れた小スケール前景のモデル化で、成分分離の参考になる✨",
+      "summary": "🔭 中心・衛星銀河を分けた光度重み付き halo model で CO (J≦13) の自己スペクトルと CO×CIB を全周波数の組で計算し、ACT 級・CMB-HD 級の実験で Fisher 解析。"
+    },
+    {
+      "arxiv_id": "2611.31183",
+      "title": "Four consistent estimates of $H_0$ from a $\\Lambda$CDM inference network given CMB data",
+      "authors": [
+        "Gabriel P. Lynch",
+        "Lloyd Knox"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2611.31183",
+      "abstract": "We organize inferences from cosmic microwave background (CMB) data, of the current rate of expansion, $H_0$, into a network whose structure is informed by a scaling symmetry of the Einstein-Boltzmann evolution equations. There are four distinct routes through this network from a calibrating anchor to $H_0$. Given key assumptions of the $\\Lambda$CDM model, they are mutually consistent. This consistency is a significant feature of the $\\Lambda$CDM model's compatibility with CMB data. The redundancy in $H_0$ determinations illuminates a hurdle to resolving the $H_0$ tension with alternative cosmological models.",
+      "score": 85,
+      "reason": "⚖️🔥📡 CMB から H0 に至る推論を、方程式のスケーリング対称性で 4 本の経路のネットワークに整理！ΛCDM では全部一致し、H0 テンションの解消を難しくする理由が見える✨",
+      "summary": "🧮 Einstein-Boltzmann 方程式のスケーリング対称性に基づき、較正の錨から H0 への 4 つの推論経路を構成。ΛCDM の仮定の下で相互に整合することを示す。"
+    }
+  ]
+}

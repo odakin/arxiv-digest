@@ -1,0 +1,93 @@
+{
+  "total_fetched": 358,
+  "scored_papers": [
+    {
+      "arxiv_id": "2611.28182",
+      "title": "Spin-Torsion Coupling: Vector and Scalar Torsional Potentials of Chiral Spinor Currents",
+      "authors": [
+        "Elisa Varani"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2611.28182",
+      "abstract": "We investigate integral representations of torsional fields sourced by chiral spinor currents within a weak-field, Ricci-flow-inspired geometric framework. Starting from the coupling between spinorial currents and axial torsion, we construct screened Green-kernel solutions and examine their relation to antisymmetric tetradic perturbations and contorsion.\n  Particular attention is devoted to stationary toroidal configurations, for which the magnetic-type dipole moment vanishes while a nonzero toroidal moment and effective circulation remain. The dependence of these quantities on Yukawa screening is analyzed, together with their implications for an Aharonov-Bohm-like geometric structure.\n  We further introduce a mixed-chirality source describing an effective connection between oppositely polarized domains and investigate the corresponding flip-sector integral. The dynamics of massive Majorana neutrinos in an axial background is then examined, distinguishing chiral mixing from helicity oscillations and identifying the role of transverse torsional components.\n  The resulting framework connects spinorial sources, finite-range torsional potentials, toroidal geometry, and neutrino spin dynamics, while providing a mathematical basis for further investigations of torsional transport and observable effects.",
+      "score": 87,
+      "reason": "🌀🔥⚡🧲✨ カイラルなスピノル流が軸性トーションを作る弱場の枠組み！遮蔽されたグリーン核でトーションのポテンシャルを書き、軸性背景中のマヨラナ・ニュートリノの振動まで扱う、Einstein-Cartan 好みにど真ん中😍",
+      "summary": "🌀🧮 軸性トーションとスピノル流の結合から湯川遮蔽つきの積分表示を構成。トロイダル配位の双極子消失と AB 的な幾何構造、逆カイラリティ領域をつなぐ源、軸性背景中のヘリシティ振動とカイラル混合の区別を議論。"
+    },
+    {
+      "arxiv_id": "2611.30113",
+      "title": "Superheavy gravitational dark matter from runaway bubble collisions",
+      "authors": [
+        "Cheng-Wei Chiang",
+        "Van Que Tran"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO",
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2611.30113",
+      "abstract": "A stable particle that couples only through gravity is pair-produced in collisions of runaway bubble walls by graviton exchange. For a transition of duration $1/\\beta$, a Dirac fermion reaches the yield $Y_X\\simeq6.8\\times10^{-3}(H/\\beta)(T_{\\rm reh}/M_{\\rm P})^3$, where $H$ is the Hubble rate of the vacuum energy, $T_{\\rm reh}$ the reheating temperature and $M_{\\rm P}$ the reduced Planck mass. The yield is flat up to masses near $(H/\\beta)M_{\\rm P}/\\nu^2$, where $\\nu$ of order one sets the wall-field excursion. Gravity alone then gives dark matter up to about $10^{17}$~GeV at reheating temperatures far below its mass, where freeze-in fails.",
+      "score": 87,
+      "reason": "🌌🫧💥🔥✨ 暴走する泡の壁の衝突で、重力子交換だけで超重い暗黒物質が対生成！再加熱温度が質量よりずっと低くても 10^17 GeV まで DM になれる、重力的生成の新しい窓😍",
+      "summary": "🫧⚖️ 一次相転移の暴走泡壁の衝突で重力のみ結合する安定粒子が対生成。収量 Y∝(H/β)(T_reh/M_P)^3 を導き、壁の場の振幅で決まる質量まで平坦。freeze-in が効かない領域を重力だけで埋める。"
+    },
+    {
+      "arxiv_id": "2611.28230",
+      "title": "Higgs-portal dark matter beyond kinetic equilibrium",
+      "authors": [
+        "Giorgio Arcadi",
+        "Michele Benaco",
+        "Mattia Di Mauro",
+        "Sami Nurmi",
+        "Kimmo Tuominen"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2611.28230",
+      "abstract": "We revisit the scalar, vector, and fermion Higgs-portal dark matter models in the resonant regime without assuming kinetic equilibrium during the freeze-out. We compute the relic abundance by solving the full momentum-dependent Boltzmann equation and compare the results with the standard momentum-averaged treatment. We find that the standard treatment significantly underestimates the relic abundance below the resonance, apart from the fermionic case with a purely scalar portal coupling where the difference is negligible. The deviation from the standard treatment is largest for fermionic models with pseudoscalar interactions, corresponding to factor of 10 in terms of the coupling that reproduces the correct relic abundance. For the scalar and vector cases the corresponding difference is up to a factor of 2. We confront the resulting parameter space with the latest constraints from direct and indirect detection, as well as collider experiments. We find the full momentum-dependent results systematically strengthen the direct detection constraints.",
+      "score": 86,
+      "reason": "🧲🌑🔥📉✨ Higgs ポータル DM の共鳴領域で運動学的平衡を仮定しないと残存量が大きく変わる！擬スカラー結合のフェルミオン模型では結合が 10 倍ずれる、定番模型の見直しとして要チェック😍",
+      "summary": "📊🧮 スカラー・ベクトル・フェルミオンの Higgs ポータル DM で運動量依存の Boltzmann 方程式を解き、平均化した標準計算と比較。共鳴より下で残存量を過小評価し、直接探索の制限が系統的に強まる。"
+    },
+    {
+      "arxiv_id": "2611.29691",
+      "title": "Infrared finite scattering theory: Non-relativistic Coulomb scattering",
+      "authors": [
+        "Kartik Prabhu",
+        "Shivam Upadhyay"
+      ],
+      "categories": [
+        "hep-th",
+        "math-ph",
+        "math.MP",
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2611.29691",
+      "abstract": "We revisit non-relativistic quantum-mechanical scattering in a Coulomb potential. The long-range nature of the interaction leads to divergent integrals in conventional S-matrix calculations using the Born series. Dollard showed that a well-defined scattering operator can be constructed by replacing the free Hamiltonian $ H_0 $ with an appropriate asymptotic Hamiltonian $ H_{\\rm D} $. However, explicit perturbative calculations within Dollard's framework have remained scarce. We develop a perturbative formulation of the Dollard scattering operator in which the Coulomb divergences cancel to all orders. Perturbatively, we demonstrate this cancellation explicitly through second Born order and show that the resulting amplitude reproduces the known exact distributional Coulomb amplitude, including its forward-scattering contribution. With the aim of generalizing our analysis to quantum field theory, we reformulate the problem in the Heisenberg picture. We construct a new set of canonical variables through a time-dependent canonical transformation that removes the logarithmic Coulomb correction from the asymptotic phase-space coordinates. Using these variables, we construct the corresponding Heisenberg S-matrix through several complementary approaches. This leads to a formulation of the Lehmann--Symanzik--Zimmermann (LSZ) reduction formalism adapted to the modified asymptotic dynamics, which we relate to the Dollard scattering operator. This construction provides a framework for extending the LSZ formalism to infrared divergences in relativistic quantum field theories with long-range interactions and massless fields.",
+      "score": 86,
+      "reason": "🌊🎯⚛️🔥✨ 長距離のクーロン散乱で発散しない S 行列を摂動で作る話！前方散乱の寄与まで含めた厳密な振幅を再現、漸近状態の扱いが波束での前方散乱の研究と直結しそうで好み😍",
+      "summary": "🧮🔭 自由ハミルトニアンを漸近ハミルトニアンに置き換えた散乱演算子で、クーロン発散が全次数で相殺する摂動論を構成。2次 Born まで明示し、Heisenberg 描像の時間依存正準変換で場の理論への一般化を目指す。"
+    },
+    {
+      "arxiv_id": "2611.29328",
+      "title": "Neutron lifetime puzzle and Dicke coherence in spontaneous decays",
+      "authors": [
+        "Z. K. Silagadze"
+      ],
+      "categories": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2611.29328",
+      "abstract": "The long-standing discrepancy between beam and bottle measurements of the free-neutron lifetime---known as the neutron lifetime puzzle---remains an open anomaly in nuclear and particle physics. Here, we investigate whether collective quantum synchronization via macroscopic Dicke superradiance can influence free-neutron decay or mediate the relaxation of hypothetical excited neutron states. We show that superradiance is fundamentally obstructed in standard three-body weak beta decay by continuous final-state phase space and fermionic antisymmetrization, and remains inactive in terrestrial ultracold neutron traps due to low particle densities, even within the Koch--Hummel excited-neutron model. Extending this analysis to the primordial plasma prior to Big Bang nucleosynthesis, we demonstrate that rapid $e^\\pm$ collisional dephasing and intense thermal photon backgrounds prevent a superradiant purge and instead enforce thermal detailed balance. Consequently, across the entire parameter space unconstrained by terrestrial experiments, an excited neutron state inevitably thermalizes before weak freeze-out, increasing the effective neutron statistical weight and severely overproducing primordial $^4\\text{He}$, thereby excluding the standard realization of the Koch--Hummel hypothesis.",
+      "score": 85,
+      "reason": "⏳⚛️🌀🔥✨ 中性子寿命パズルを集団的な超放射で説明できるか検証！三体ベータ崩壊の位相空間とフェルミ統計で超放射は阻まれ、BBN 前のプラズマでも熱平衡に落ちる、寿命問題の候補を一つ消す話😍",
+      "summary": "🔬📉 自由中性子崩壊や励起中性子状態の緩和に超放射が効くかを解析。終状態の連続位相空間と反対称化で阻まれ、冷中性子トラップでは密度不足、初期宇宙では衝突デフェージングで熱平衡が強制される。"
+    }
+  ]
+}
