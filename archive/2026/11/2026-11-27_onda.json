@@ -1,0 +1,44 @@
+{
+  "total_fetched": 246,
+  "scored_papers": [
+    {
+      "arxiv_id": "2611.33334",
+      "title": "Acoustic Priors from the Latest Cosmic Microwave Background Data",
+      "authors": [
+        "Kushal Lodha",
+        "Jun-Qian Jiang",
+        "Purba Mukherjee",
+        "Arman Shafieloo"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2611.33334",
+      "abstract": "We revisit the physics of the acoustic peaks and illustrate how early-Universe information in the cosmic microwave background (CMB) can be disentangled from late-time signatures imprinted by gravitational lensing and the integrated Sachs-Wolfe (ISW) effect. Applying this separation to Planck PR4, ACT DR6, and SPT-3G D1 temperature and polarization data combined with the joint lensing reconstruction, we update the model-independent constraints on the angular acoustic scale and the physical densities, $100\\theta_*=1.04100\\pm0.00021$, $\\omega_{\\rm b}=(2.2440\\pm0.0099)\\times10^{-2}$, and $\\omega_{\\rm bc}=0.1410\\pm0.0011$. These constraints are consistent with the previous Planck PR4-only analysis and remain stable for extended late-time cosmologies beyond $\\Lambda$CDM. Adding ACT DR6 to the combination favors a higher $\\omega_{\\rm b}$ and, through their correlation, a higher primordial tilt $n_{\\rm s}$ than PR4 alone. The reconstructed lensing spectrum exceeds that of $\\Lambda$CDM, with two features near $L\\simeq50$ and $L\\sim10^3$, and the excess is reduced when WMAP replaces the Planck primary spectra. Marginalizing over the lensing-induced peak smoothing, rather than tying it to the late-time model, lowers the preference of the CMB and DESI DR2 baryon acoustic oscillations (BAO) for $w_0w_a$CDM over $\\Lambda$CDM from $3.0\\sigma$ to $1.9\\sigma$, or from $3.2\\sigma$ to $2.4\\sigma$ when Union3.1 supernovae are added. We further use the acoustic prior to predict BAO distances from CMB data alone under several late-time expansion histories, testing their consistency with DESI measurements assuming standard pre-recombination physics.",
+      "score": 88,
+      "reason": "📡🌌🔍✨ Planck PR4・ACT DR6・SPT-3G で CMB の初期宇宙情報をレンズ・ISW から切り離し、音響スケールと物理密度を更新！レンズ超過も見えてテンション好みに刺さる🎯",
+      "summary": "📊 100θ*=1.04100±0.00021、ω_b、ω_bc をモデル非依存に制限し、後期宇宙の拡張模型でも安定。ACT 追加で ω_b と n_s が高め、再構成レンズスペクトルは ΛCDM 超過で L≃50・10³ に特徴。"
+    },
+    {
+      "arxiv_id": "2611.34672",
+      "title": "Signals from the early Universe: primordial features from the full-shape analysis of BOSS galaxies and eBOSS quasars in combination with Planck",
+      "authors": [
+        "Mario Ballardini",
+        "Nicola Barbieri",
+        "Antonio Raffaelli",
+        "Chiara Moretti",
+        "Oliver H. E. Philcox",
+        "Emiliano Sefusatti",
+        "Francesco Verdiani"
+      ],
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "url": "https://arxiv.org/abs/2611.34672",
+      "abstract": "We search for primordial oscillatory features using cosmic microwave background (CMB) and large-scale structure (LSS) data, combining \\textit{Planck} Public Release 4 (PR4) with galaxy clustering from the Baryon Oscillation Spectroscopic Survey (BOSS) and quasars from the extended Baryon Oscillation Spectroscopic Survey (eBOSS).\n  For the LSS data we perform a full-shape analysis of the power spectrum multipoles with the one-loop effective field theory of large-scale structure, applying infrared resummation separately to each oscillatory component. We consider four templates: linearly and logarithmically oscillating features in Fourier space, with constant, localised, or power-law-decaying amplitudes, and fit them to the CMB and LSS data separately and jointly.\n  We find no statistically significant evidence for primordial features in either dataset, individually or in combination. The best-fitting LSS features improve the fit by $\\Delta\\chi^2\\simeq-6$ to $-10$, which corresponds to global significances of at most $1.6\\,\\sigma$ once the look-elsewhere effect is accounted for. In the CMB alone, the most significant feature is reduced to $\\sim2.6\\,\\sigma$. Over the full frequency range, the LSS bounds on the feature amplitudes are weaker than those from \\textit{Planck} by factors of $1.4$--$3$. Combining \\textit{Planck} with \\textit{BOSS+eBOSS} leaves the CMB constraints essentially unchanged, because the LSS data do not favour the frequencies preferred by the CMB.",
+      "score": 85,
+      "reason": "🌀🌌🔭✨ インフレーション由来の原始振動特徴を Planck PR4 と BOSS・eBOSS のフルシェイプで同時探索！CMB と LSS の相補性でインフレーションを検証する話🎯",
+      "summary": "📊 1ループ EFTofLSS でパワースペクトル多重極を解析し、線形・対数振動の4テンプレートを CMB・LSS 単独と結合で当てはめ。有意な特徴は無く、look-elsewhere 込みで最大1.6σ。"
+    }
+  ]
+}

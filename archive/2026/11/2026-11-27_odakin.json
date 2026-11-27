@@ -1,0 +1,61 @@
+{
+  "total_fetched": 246,
+  "scored_papers": [
+    {
+      "arxiv_id": "2611.33278",
+      "title": "Resolving the Conformal Mode Problem with Einstein-Cartan Gravity",
+      "authors": [
+        "Stephon Alexander",
+        "Raymond Isichei",
+        "Jo~ao Magueijo"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2611.33278",
+      "abstract": "We show that, when $\\Lambda > 0$, the conformal factor problem is absent in first order Einstein-Cartan gravity in which the spin connection and tetrad are independent off-shell. At fixed connection, a conformal rescaling of the tetrad produces no conformal kinetic term so that the action is bounded from below. The original unbounded Einstein-Hilbert action, the Einstein-Hilbert action without the problematic conformal kinetic term and conformally invariant $R^{2}/\\Lambda$ gravity arise as classical saddles of the Einstein-Cartan action with respect to the connection and conformal mode of the tetrad.",
+      "score": 93,
+      "reason": "🌀🔥✨🎉😍 一階 Einstein-Cartan で接続とテトラッドを独立に扱うと、Λ>0 で共形因子問題が消える！Einstein-Hilbert も R²/Λ も鞍点として出てくる、ど真ん中の話🚀",
+      "summary": "🧮📐 接続を固定してテトラッドを共形変換すると共形モードの運動項が出ず、作用が下に有界になる。元の EH 作用・共形運動項抜きの EH・共形不変 R²/Λ 重力が古典鞍点として現れる。"
+    },
+    {
+      "arxiv_id": "2611.34512",
+      "title": "A Genetic Algorithm Approach to Reconstructing Scalar-Tensor Lagrangians",
+      "authors": [
+        "Mikel Artola",
+        "George Alestas",
+        "Dimitrios Efstratiou",
+        "Evangelos Achilleas Paraskevas"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2611.34512",
+      "abstract": "Recent DESI baryon acoustic oscillation (BAO) data, combined with cosmic microwave background (CMB) and Type Ia supernovae observations, have been interpreted as evidence for dynamical dark energy whose equation of state crosses the phantom divide $w=-1$. Such a crossing cannot be realized smoothly by a minimally coupled scalar field $\\varphi$, but can arise naturally in scalar-tensor theories. We present a data-driven framework that reconstructs the scalar-tensor Lagrangian directly from observations, using a genetic algorithm to evolve the symbolic expressions for the nonminimal coupling $F(\\varphi)$ and the scalar potential $U(\\varphi)$. Each candidate is evaluated through a forward model that self-consistently determines the expansion history, the effective gravitational coupling, and the growth of structure. Candidates are ranked by a joint likelihood of DESI DR2 BAO, Pantheon+ supernovae calibrated with SH0ES Cepheids, compressed CMB distance priors, and redshift-space distortion measurements of $f\\sigma_8$. We restrict to the unscreened branch of the theory and impose Solar System constraints on the post-Newtonian parameter $\\gamma$ and on the time variation of the gravitational coupling, together with a Big Bang nucleosynthesis bound on its evolution. Across 64 independent runs, the best reconstruction improves the fit relative to $\\Lambda$CDM by $\\Delta\\chi^2=-16.6$, compared with $\\Delta\\chi^2=-10.6$ for the CPL dark-energy parametrization. The preferred coupling is well described by $F(\\varphi)=c_1\\varphi^2+e^{\\varphi}(1-c_2\\varphi)$. The reconstructed theory shows phantom behavior at $z\\gtrsim0.5$, but it remains close to $w=-1$ at low redshift.",
+      "score": 86,
+      "reason": "🧬🌌🔭✨🎯 DESI が示すファントム横断を、遺伝的アルゴリズムでスカラー・テンソル理論の F(φ) と U(φ) を記号的に進化させて再構成！スカラー・テンソル重力の観測検証に刺さる😍",
+      "summary": "📊🧮 非最小結合 F(φ) とポテンシャル U(φ) を記号進化させ、膨張史・有効重力結合・構造成長を自己無撞着に計算。DESI DR2 BAO・Pantheon+・CMB・fσ8 の結合尤度で順位付け。"
+    },
+    {
+      "arxiv_id": "2611.34176",
+      "title": "Lorentz charges for Lovelock gravity",
+      "authors": [
+        "Ayan Chatterjee",
+        "Sahil Devdutt",
+        "Amit Ghosh",
+        "Avirup Ghosh"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2611.34176",
+      "abstract": "In this paper, we construct the charges associated with the residual local Lorentz transformations on a black hole horizon in the Lovelock class of theories of gravity. The horizons is assumed to be non- expanding horizons, \\emph{i.e} a null hypersurface for which the expansion corresponding to the null generator vanish. Naturally, these hypersurfaces preserve only a subgroup of the full Lorentz group of the bulk, and the residual symmetries correspond to the little group which stabilizes the horizon null generator. We show that on the horizon, the Hamiltonian charge corresponding to the residual local Lorentz boost is the Wald entropy.",
+      "score": 85,
+      "reason": "🕳️🧭✨🔥🎶 Lovelock 重力のホライズン上で残る局所 Lorentz 変換の電荷を構成し、ブーストの電荷が Wald エントロピーに一致！局所 Lorentz 対称性好みに刺さる😍",
+      "summary": "🧮📐 非膨張ホライズンでは Lorentz 群のうち null 生成子を固定する小群だけが残る。その残余対称性の Hamilton 電荷を Lovelock 理論で求め、局所ブーストの電荷が Wald エントロピーと示す。"
+    }
+  ]
+}
